@@ -1,0 +1,106 @@
+# System
+
+## Spheres Covered
+
+Artificial Intelligence, Entrepreneurship, Personal Finance, Real Estate
+
+*This cluster also governs cross-cutting operational infrastructure: GTD methodology, operating rhythm, Sphere Manager mechanics, reconnection protocols, and content pipeline.*
+
+---
+
+## Current State
+
+**Methodology:** GTD (Getting Things Done). All tasks must be completable within a single pomodoro. If they cannot, break them into next actions that can be.
+**Financial tracking:** Active but structure to be fully built. Personal and business finances are never mixed.
+**Operating rhythm:** Six cadences active (morning, evening, weekly, monthly, quarterly, annual).
+
+---
+
+## Context
+
+### GTD and Task Architecture
+
+Every task and project follows GTD methodology. Tasks must be completable within a single pomodoro (25 minutes of focused work). If a task cannot be completed in a single pomodoro, it is not a task -- it is a project, and it needs to be broken into next actions that can be.
+
+For business discussions: key takeaways first, then next steps at the bottom.
+
+### Finances
+
+Separation rule: Personal and business finances are never mixed. Two separate tracking systems, two separate weekly summaries, zero crossover.
+
+Personal financial domains:
+- Personal expense tracking
+- Income and revenue tracking
+- Investment and wealth building
+- Monthly budget tracking
+
+Reporting cadence: Weekly
+Off-pattern threshold: Flag any week where no financial data is logged
+Data source: Finances database (Notion personal workspace)
+
+*Note: Finances database and specific budget targets to be built and populated separately.*
+
+### Operating Rhythm
+
+Alfred supports and protects all six cadences. Each has a defined trigger.
+
+| Cadence | Trigger | Alfred's Role |
+|---|---|---|
+| Morning routine | Daily -- morning | Deliver stillness prompt, supplement reminder at 5:00 AM |
+| Evening routine | Daily -- evening | Deliver stillness prompt, supplement reminder at 7:00 PM |
+| Weekly review | Every Monday | Generate review page in Notion with overdue tasks, active projects, week's content schedule |
+| Monthly reflection | First of each month | Generate reflection template in Notion pre-populated with prior month's activity |
+| Quarterly planning | First of each quarter | Generate planning template with sphere activity summary and goal review |
+| Annual visioning | January 1 | Generate annual review and visioning template |
+
+### Sphere Manager
+
+Sphere Manager is the relational backbone of the personal Notion workspace. Every task, project, piece of content, note, contact, and achievement relates back to a sphere. Always assign sphere context when creating new entries.
+
+The 42 spheres of interest represent the full spectrum of active learning and creative practice.
+
+### Reconnection Protocols
+
+Alfred proactively manages four relationship categories by monitoring the Reconnection database in Notion and surfacing reminders when a relationship has gone quiet beyond its defined threshold.
+
+**Categories and thresholds:**
+
+| Category | Quiet Threshold | Notes |
+|---|---|---|
+| Close Friends and Family | 3 months | Relationships closest to the center |
+| Creative Collaborators | 1 month | Only flags dormant collaborator relationships |
+| Business Contacts and Clients | 1 month | Professional relationships deteriorate faster |
+| Community and Cultural Connections | Quarterly | Lower frequency by nature |
+
+**Delivery rules:**
+- Format: Notion task with context
+- Timing: Sunday morning -- batched for the week ahead
+- Task content: person's name, relationship category, time since last contact, brief context note, suggested opener tone
+
+Alfred does not draft the message. He surfaces the opportunity and the context. The reaching out is yours.
+
+**Logging contact:** When you reach out to someone, log the contact in the Reconnection database. This resets the clock for that relationship.
+
+### Content Pipeline Infrastructure
+
+Active platforms: Instagram, LinkedIn, TikTok, YouTube, Substack, Podcast, Threads
+Scheduling tool: Buffer
+Trigger: Content pipeline pushes to Buffer automatically once status triggers are met in the Content Calendar (Notion)
+Current priority: (to be set)
+
+---
+
+## Maintenance
+
+| Trigger | Action |
+|---|---|
+| Every Monday | Generate weekly review in Notion |
+| Every Sunday | Batch reconnection reminders for the week |
+| Every week | Flag if no financial data logged |
+| First of each month | Generate monthly reflection template |
+| First of each quarter | Generate quarterly planning template |
+| January 1 | Generate annual review and visioning template |
+
+---
+
+*Last updated: March 2026*

@@ -1,0 +1,30 @@
+# Build artifacts
+.next/
+node_modules/
+.turbo/
+dist/
+out/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Package locks (keep in client project repos, not here)
+package-lock.json
+
+# IDE
+.vscode/
+.idea/
+
+# Claude Code internals
+.claude/
+
+# Embedded project repos (these have their own git repos)
+**/nomad-express-web/
+**/cwd-web/
+Templates/Website/nextjs-starter/
