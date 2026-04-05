@@ -1,5 +1,5 @@
 ---
-name: media-scan
+name: media-scanner
 description: Surfaces new five-star entries from Notion Media and Literature databases and updates culture.md
 type: maintenance
 crew: explorer
@@ -8,7 +8,7 @@ scope: Notion Media and Literature databases, Context/Spheres/Culture/culture.md
 tools: Read, Write, Notion (enhanced MCP)
 ---
 
-# Media Scan Agent
+# Media Scanner
 
 ## Mission
 

@@ -68,7 +68,7 @@ Operate across the entire ecosystem. Infrastructure-level maintenance.
 | Agent | Location | Crew | Cadence | Purpose |
 |---|---|---|---|---|
 | context-audit | System/ | Evaluator | Monthly | Scan context files for stale or inconsistent information |
-| media-scan | System/ | Explorer | Monthly | Surface new five-star entries from Notion databases |
+| media-scanner | System/ | Explorer | Monthly | Surface new five-star entries from Notion databases |
 | sphere-review | System/ | Evaluator | Quarterly | Verify Sphere Index alignment |
 
 ### Orchestration Agents
@@ -121,6 +121,13 @@ Followed by: Mission, Scope, Criteria, Report Format, After the Mission.
 
 Files use lowercase kebab-case: `{domain}-{function}.md`
 
+Explorer agents carry a directional suffix that signals where they look:
+
+| Suffix | Direction | What It Means | Example |
+|---|---|---|---|
+| `-scanner` | Inward | Scans internal systems -- Notion databases, file structures, internal data | `media-scanner`, `sphere-scanner` |
+| `-radar` | Outward | Scans external landscape -- platforms, markets, competitors, trends | `tiktok-radar`, `competitor-radar` |
+
 ---
 
 ## Directory Structure
@@ -131,7 +138,7 @@ Agents/
 +-- crews.md           -- Universal crew definitions
 +-- System/            -- Infrastructure and maintenance agents
 |   +-- context-audit.md
-|   +-- media-scan.md
+|   +-- media-scanner.md
 |   +-- sphere-review.md
 +-- Orchestration/     -- Portfolio-level agents
     +-- penny-one.md
