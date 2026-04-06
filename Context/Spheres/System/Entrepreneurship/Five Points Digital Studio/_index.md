@@ -35,7 +35,7 @@ Premium digital marketing agency specializing in automation, AI strategy, and di
 - Offer catalog: Product Development/_index.md
 - Client roster: Operations/Clientele/_clients-registry.md
 - SOP catalog: Operations/SOPs/_sop-registry.md
-- Agent seats: Operations/AI/agent-registry.md
+- Department heads: Operations/AI/department-heads.md
 - Token budgets: Operations/AI/token-budget-framework.md
 
 ## Offer Pillars

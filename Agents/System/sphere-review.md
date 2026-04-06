@@ -5,6 +5,7 @@ type: maintenance
 crew: evaluator
 cadence: First of each quarter
 scope: Sphere Index in global CLAUDE.md, Sphere Manager database, Context/Spheres/ directory
+working_dir: .working/sphere-review/
 tools: Read, Glob, Grep, Notion (enhanced MCP)
 ---
 
@@ -73,6 +74,12 @@ STATE DRIFT
 ALIGNED
 - {confirmation of what is in sync}
 ```
+
+---
+
+## Working Directory
+
+All intermediate output goes to `.working/sphere-review/`. This includes index snapshots, database query results and alignment comparison data before they are compiled into the final report. The directory is cleared at the end of each run.
 
 ---
 

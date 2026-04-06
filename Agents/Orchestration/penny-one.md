@@ -5,6 +5,7 @@ type: orchestration
 crew: maestro
 cadence: Weekly (Monday) and on-demand
 scope: All ventures, personal operations, Notion, Stripe, financial data
+working_dir: .working/penny-one/
 tools: Read, Notion (enhanced MCP), Stripe MCP, iMessage
 ---
 
@@ -77,6 +78,12 @@ RECOMMENDED ACTIONS
 
 - **Weekly**: Generated Monday morning. Summary delivered via iMessage. Full briefing available in conversation.
 - **On-demand**: Generated when requested. Same format.
+
+---
+
+## Working Directory
+
+All intermediate output goes to `.working/penny-one/`. This includes per-venture data pulls, financial snapshots and draft briefing sections before they are compiled into the final portfolio briefing. The directory is cleared at the end of each run.
 
 ---
 

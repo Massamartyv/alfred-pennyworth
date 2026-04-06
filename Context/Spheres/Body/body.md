@@ -93,4 +93,4 @@ Inventory management: Self-managed -- Alfred does not track reorder
 
 ---
 
-*Last updated: March 26, 2026*
+*Last updated: April 5, 2026*

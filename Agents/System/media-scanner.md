@@ -5,6 +5,7 @@ type: maintenance
 crew: explorer
 cadence: First of every month
 scope: Notion Media and Literature databases, Context/Spheres/Culture/culture.md
+working_dir: .working/media-scanner/
 tools: Read, Write, Notion (enhanced MCP)
 ---
 
@@ -61,6 +62,12 @@ DOWNGRADED
 NO CHANGES
 - {confirmation if nothing changed}
 ```
+
+---
+
+## Working Directory
+
+All intermediate output goes to `.working/media-scanner/`. This includes raw query results, comparison diffs and draft thematic notes before they are compiled into the final report. The directory is cleared at the end of each run.
 
 ---
 

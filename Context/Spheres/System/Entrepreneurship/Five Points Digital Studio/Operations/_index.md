@@ -30,7 +30,7 @@ Operations/
 │   └── automation-workflows.md     -- To be created
 └── AI/
     ├── agent-guidelines.md         -- Execution tiers, red lines, approval gates
-    ├── agent-registry.md           -- Agent seat definitions and performance tracking
+    ├── department-heads.md          -- Department head definitions and specialist roles
     ├── token-budget-framework.md   -- Task complexity tiers and budget ceilings
     ├── integrations.md             -- Plugin and tool connections scoped to Five Points
     └── Logs/                       -- Agent performance logs by quarter

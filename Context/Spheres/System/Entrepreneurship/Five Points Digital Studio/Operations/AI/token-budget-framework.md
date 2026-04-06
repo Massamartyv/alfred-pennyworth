@@ -92,7 +92,7 @@ No task, no agent, no circumstance exceeds this. This is the kill switch for pat
 - The stop reason includes: task ID, current token count, projected overage, and suggested action (break into subtasks or request tier upgrade).
 
 ### Tracking
-- Input tokens and output tokens are logged per session in the Agent Registry performance log.
+- Input tokens and output tokens are logged per session in the department heads performance log.
 - Over time, this data reveals which task types consistently under- or over-consume.
 - Quarterly review: recalibrate tier thresholds if usage patterns shift significantly.
 

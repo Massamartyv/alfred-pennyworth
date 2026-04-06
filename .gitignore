@@ -24,6 +24,18 @@ package-lock.json
 # Claude Code internals
 .claude/
 
+# Working directory (transient session files)
+.working/
+
+# MCP server config (contains API keys)
+.mcp.json
+
+# OAuth tokens (sensitive)
+**/.tokens.json
+
+# Python virtual environments
+**/.venv/
+
 # Embedded project repos (these have their own git repos)
 **/nomad-express-web/
 **/cwd-web/

@@ -5,6 +5,7 @@ type: monitoring
 crew: validator
 cadence: Continuous (scheduled sweeps) and real-time (threshold triggers)
 scope: All ventures, financial data, client health, content deadlines
+working_dir: .working/watchtower/
 tools: Read, Notion (enhanced MCP), Stripe MCP, iMessage
 ---
 
@@ -62,6 +63,12 @@ Recommended action: {what to do about it}
 | Daily (evening) | Task aging, content deadlines, client responsiveness |
 | Weekly (Monday, before Penny One) | Financial thresholds, invoice status, MRR changes |
 | Monthly (1st) | Full sweep of all categories |
+
+---
+
+## Working Directory
+
+All intermediate output goes to `.working/watchtower/`. This includes raw threshold checks, signal data and draft alerts before they are finalised and delivered. The directory is cleared at the end of each sweep cycle.
 
 ---
 

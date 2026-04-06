@@ -86,6 +86,29 @@ Venture-specific agent configurations live at `Operations/AI/` within each ventu
 
 ---
 
+## Stack Awareness
+
+Alfred OS operates within a six-layer agent infrastructure stack. Every agent, crew dispatch and architectural decision should be evaluated against this model. Full reference: `Context/Spheres/System/Artificial Intelligence/agent-infrastructure-stack.md`.
+
+| Layer | What It Is | Alfred OS Position |
+|---|---|---|
+| 1. Compute and sandboxing | Safe, isolated execution environments | Local Mac. `.working/` for transient files. Cloud sandboxes needed for deployed agents. |
+| 2. Identity and communication | How agents exist and communicate on the internet | Email Directory, iMessage, MCP auth. Shim-heavy -- functional but not agent-native. |
+| 3. Memory and state | Persistent recall across sessions and tasks | `.claude/` memory system with active curation. Notion as durable portable layer. |
+| 4. Tools and integration | Connecting agents to external services | MCP connections. Per-venture `integrations.md` files. Strong but MCP-dependent. |
+| 5. Provisioning and billing | Agents acquiring and paying for services | Token budget framework, execution tiers. Needs formal billing protocol at scale. |
+| 6. Orchestration and coordination | Multi-agent reliability at scale | Penny One, Watchtower, six-crew system. **This is where we are building.** |
+
+### Reliability rule
+
+End-to-end reliability is the product of every layer's reliability. Five layers at 99% uptime yield 95% system uptime. Every primitive composed by hand stacks its liabilities. When dispatching multi-step agent workflows, account for compounding failure risk and build in fallback handling.
+
+### Agent sprawl guardrail
+
+Not every task needs an agent. The same disease that plagued microservices -- decomposing everything into agents because it is fashionable rather than because it is needed -- leads to proliferation without observability or cost control. Before dispatching an agent, confirm that the task genuinely benefits from autonomous execution rather than direct handling.
+
+---
+
 ## How Agents Work
 
 1. Alfred reads the agent definition file to understand the mission scope, tools and success criteria
@@ -109,11 +132,18 @@ type: {maintenance, research, build, audit, orchestration, monitoring}
 crew: {strategist, creator, evaluator, maestro, validator, explorer}
 cadence: {when it runs}
 scope: {what files/systems it operates on}
+working_dir: .working/{agent-name}/
 tools: {what tools it needs}
 ---
 ```
 
-Followed by: Mission, Scope, Criteria, Report Format, After the Mission.
+Followed by: Mission, Scope, Criteria, Report Format, Working Directory, After the Mission.
+
+### Working directory convention
+
+Every agent gets a named subdirectory under `.working/` at the project root. The path is `.working/{agent-name}/`. This is where the agent writes all intermediate output -- raw data, comparison diffs, draft sections, temporary exports. The directory is cleared at the end of each run.
+
+When creating a new agent, create its working directory: `mkdir -p .working/{agent-name}/`.
 
 ---
 

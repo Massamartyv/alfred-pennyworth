@@ -76,7 +76,7 @@ When starting a task:
 1. Read `_index.md` at the venture root -- orient to the venture
 2. Read this file -- know the rules
 3. Read `Operations/AI/token-budget-framework.md` -- know the budget tiers
-4. Read `Operations/AI/agent-registry.md` -- identify the relevant agent seat
+4. Read `Operations/AI/department-heads.md` -- identify the relevant department head and specialist roles
 5. Read `Operations/AI/integrations.md` -- know which plugins are in scope
 6. Read the relevant department `_index.md` -- find the right files
 7. Read the specific files needed for the task
@@ -110,7 +110,7 @@ Every task is governed by a token budget tier. The framework lives in `Operation
 
 ### After Execution
 
-- Log token usage to the performance log (see `Operations/AI/agent-registry.md` for the template).
+- Log token usage to the performance log (see `Operations/AI/department-heads.md` for the template).
 - If the task exceeded its budget, mark it `budget-exceeded` for human review.
 
 ### Multi-Step Workflows
@@ -119,10 +119,32 @@ Each step in a multi-step workflow is classified independently. The research ste
 
 ### Agent Seat Routing
 
-Tasks route to agent seats defined in `Operations/AI/agent-registry.md`. Each seat has a department scope and typical tier defaults. When a task enters the system:
-1. Identify the relevant agent seat by department.
+Tasks route to department heads defined in `Operations/AI/department-heads.md`. Each head has a department scope and typical tier defaults. When a task enters the system:
+1. Identify the relevant department head by scope.
 2. Load the seat's primary files for context.
 3. Apply the task's tier classification (not the seat's default -- the task's).
+
+---
+
+## Infrastructure Awareness
+
+### Reliability compounding
+
+When a workflow depends on multiple external primitives -- MCP connections, API calls, database reads, notification delivery -- end-to-end reliability is the product of each component's reliability. Five services at 99% uptime yield 95% system uptime. Account for this when designing multi-step agent workflows. Build in fallback handling and do not assume every tool call will succeed on the first attempt.
+
+### Agent sprawl prevention
+
+Not every task warrants an autonomous agent. Before decomposing work into agent dispatches, confirm that:
+1. The task genuinely benefits from autonomous execution
+2. There is observability on what the agent does
+3. There is a cost ceiling on the agent's resource consumption
+4. There is a defined escalation path when the agent encounters something outside its scope
+
+Proliferating agents without these controls leads to the same chaos that plagued over-decomposed microservices architectures.
+
+### Stack literacy as client value
+
+Five Points operates in digital architecture and automation. Understanding the six-layer agent infrastructure stack (see `Context/Spheres/System/Artificial Intelligence/agent-infrastructure-stack.md`) is part of the value proposition to clients. When advising on automation, evaluate which layers are mature, which are shims and which require hand-rolling -- and communicate that honestly.
 
 ---
 

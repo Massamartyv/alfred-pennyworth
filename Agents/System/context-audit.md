@@ -5,6 +5,7 @@ type: maintenance
 crew: evaluator
 cadence: First of every month
 scope: ~/Alfred Pennyworth/Context/ and configuration files
+working_dir: .working/context-audit/
 tools: Read, Glob, Grep
 ---
 
@@ -101,6 +102,12 @@ CLEAN
 - **Stale**: Information that was once accurate but time has moved past it
 - **Structural**: Convention violations that do not affect functionality but degrade system consistency
 - **Opportunities**: Observations about files that could be improved
+
+---
+
+## Working Directory
+
+All intermediate output goes to `.working/context-audit/`. This includes raw scan results, file comparison notes and draft findings before they are compiled into the final report. The directory is cleared at the end of each run.
 
 ---
 
