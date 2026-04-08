@@ -42,4 +42,5 @@ Context/Archive/
 # Embedded project repos (these have their own git repos)
 **/nomad-express-web/
 **/cwd-web/
+**/fountain-christian-center/
 Templates/Website/nextjs-starter/
