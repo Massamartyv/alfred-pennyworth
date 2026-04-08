@@ -2,7 +2,7 @@
 file_type: department_index
 department: Operations
 venture: Five Points Digital Studio
-last_updated: 2026-03-31
+last_updated: 2026-04-07
 ---
 
 # Operations
@@ -28,12 +28,7 @@ Operations/
 ├── Tools/
 │   ├── software-stack.md           -- To be created
 │   └── automation-workflows.md     -- To be created
-└── AI/
-    ├── agent-guidelines.md         -- Execution tiers, red lines, approval gates
-    ├── department-heads.md          -- Department head definitions and specialist roles
-    ├── token-budget-framework.md   -- Task complexity tiers and budget ceilings
-    ├── integrations.md             -- Plugin and tool connections scoped to Five Points
-    └── Logs/                       -- Agent performance logs by quarter
+└── Agents/                        -- Department-specific agents, workflows, criteria
 ```
 
 ## Key Ops Context
@@ -50,7 +45,7 @@ Operations/
 - **Status change:** Move entire folder between Active/Archived/Churned. Update the registry.
 - **Delivery:** Load the relevant SOP and delivery playbook before executing.
 
-### Token Budget Defaults (per `Operations/AI/token-budget-framework.md`)
+### Token Budget Defaults (per `Agents/token-budget-framework.md`)
 
 | Task | Tier |
 |---|---|

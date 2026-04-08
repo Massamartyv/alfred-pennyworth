@@ -33,7 +33,7 @@ Team structure, contractor management, and growth roadmap for Five Points.
 - Reference contractor-roles.md when scoping work that needs a contractor.
 - Current state is sole operator -- all decisions route to Martavious.
 
-### Token Budget Defaults (per `Operations/AI/token-budget-framework.md`)
+### Token Budget Defaults (per `Agents/token-budget-framework.md`)
 
 | Task | Tier |
 |---|---|

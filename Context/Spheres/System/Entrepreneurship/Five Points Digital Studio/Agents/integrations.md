@@ -3,7 +3,7 @@ file_type: integration_registry
 department: Operations/AI
 venture: Five Points Digital Studio
 status: active
-last_updated: 2026-04-01
+last_updated: 2026-04-06
 ---
 
 # Integrations
@@ -30,8 +30,36 @@ Plugins are MCP connections. Alfred can read, write and operate within these sys
 |---|---|
 | Workspace | Five Points Digital Studio (separate from personal) |
 | Scope | CRM, project management, client workspaces, content calendar |
+| MCP server name | `notion-fivepoints` |
 | Used by skills | offer-creator (cross-reference), future client skill |
-| Routing rule | When operating in Five Points context, all Notion operations target this workspace |
+| Routing rule | When operating in Five Points context, all Notion operations target this connection. The managed/enhanced Notion MCP targets the personal workspace. |
+
+### Vercel -- Five Points Account
+
+| Field | Value |
+|---|---|
+| Account | Five Points Digital Studio |
+| Scope | Client deployments, preview URLs, production hosting |
+| MCP server name | `vercel-fivepoints` |
+| Routing rule | When operating in Five Points context, all Vercel operations target this connection. The managed Vercel MCP targets the personal account. |
+
+### Apify -- Five Points Account
+
+| Field | Value |
+|---|---|
+| Account | Five Points Digital Studio (Apify user: yYCnD6Fz8Y65f9u7e) |
+| Scope | Web scraping, data retrieval, competitor research for client projects |
+| MCP server name | `apify-fivepoints` |
+| Routing rule | When operating in Five Points context, all Apify operations target this connection. The managed Apify MCP targets the personal account. |
+
+### Supabase -- Five Points Account
+
+| Field | Value |
+|---|---|
+| Account | Five Points Digital Studio (systems@fivepoints.studio login) |
+| Scope | Client project databases, backend infrastructure, edge functions |
+| MCP server name | `supabase-fivepoints` |
+| Routing rule | When operating in Five Points context, all Supabase operations target this connection. The managed Supabase MCP targets the personal account. |
 
 ### Stripe -- Five Points Account
 
@@ -39,7 +67,7 @@ Plugins are MCP connections. Alfred can read, write and operate within these sys
 |---|---|
 | Account | Five Points Digital Studio |
 | Scope | Payment processing, offer registration, invoicing, revenue tracking |
-| MCP prefix | `mcp__claude_ai_Stripe__` |
+| MCP server name | `stripe-fivepoints` |
 | Used by skills | offer-creator |
 | Routing rule | Stripe is exclusively a business asset. No personal Stripe exists in the ecosystem. All Stripe operations are Five Points-scoped. |
 

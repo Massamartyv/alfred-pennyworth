@@ -27,6 +27,9 @@ package-lock.json
 # Working directory (transient session files)
 .working/
 
+# Archive (contains embedded repos and large assets -- local only)
+Context/Archive/
+
 # MCP server config (contains API keys)
 .mcp.json
 

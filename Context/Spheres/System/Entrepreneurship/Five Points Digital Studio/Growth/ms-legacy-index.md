@@ -35,7 +35,7 @@ Sales execution, proposal generation, pricing strategy, and Five Points' own bra
 - Pricing must reference Product Development/ offer files -- never quote from memory.
 - All proposals require human approval before sending to client.
 
-### Token Budget Defaults (per `Operations/AI/token-budget-framework.md`)
+### Token Budget Defaults (per `Agents/token-budget-framework.md`)
 
 | Task | Tier |
 |---|---|

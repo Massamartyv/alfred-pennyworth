@@ -76,7 +76,7 @@ The complete Five Points offer suite. Five pillars, 50+ individual offers across
 - When generating proposals, pull scope and pricing from the relevant offer file.
 - Creative services preserve artisanal, human-centric quality. AI augments but does not replace creative direction.
 
-### Token Budget Defaults (per `Operations/AI/token-budget-framework.md`)
+### Token Budget Defaults (per `Agents/token-budget-framework.md`)
 
 | Task | Tier |
 |---|---|

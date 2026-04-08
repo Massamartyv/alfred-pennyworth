@@ -32,6 +32,6 @@ Foundation is not an operational department. It does not house brand identity, A
 ## What Does Not Belong Here
 
 - Brand voice, positioning, or company identity (Administration/)
-- AI agent guidelines, registries, or integrations (Operations/AI/)
+- AI agent guidelines, registries, or integrations (Agents/)
 - Revenue-generating operations (Operations/, Marketing & Sales/)
 - Financial reporting (Finances/)

@@ -66,7 +66,7 @@ Do not proceed without explicit approval:
 
 ## Plugin Scope
 
-When operating within Five Points, reference `Operations/AI/integrations.md` for which plugins are available and how they route. Do not use personal workspace plugins for business operations. Do not use business plugins for personal operations.
+When operating within Five Points, reference `Agents/integrations.md` for which plugins are available and how they route. Do not use personal workspace plugins for business operations. Do not use business plugins for personal operations.
 
 ---
 
@@ -75,9 +75,9 @@ When operating within Five Points, reference `Operations/AI/integrations.md` for
 When starting a task:
 1. Read `_index.md` at the venture root -- orient to the venture
 2. Read this file -- know the rules
-3. Read `Operations/AI/token-budget-framework.md` -- know the budget tiers
-4. Read `Operations/AI/department-heads.md` -- identify the relevant department head and specialist roles
-5. Read `Operations/AI/integrations.md` -- know which plugins are in scope
+3. Read `Agents/token-budget-framework.md` -- know the budget tiers
+4. Read `Agents/department-heads.md` -- identify the relevant department head and specialist roles
+5. Read `Agents/integrations.md` -- know which plugins are in scope
 6. Read the relevant department `_index.md` -- find the right files
 7. Read the specific files needed for the task
 8. Do not load everything. Be surgical.
@@ -86,7 +86,7 @@ When starting a task:
 
 ## Token Budget Management
 
-Every task is governed by a token budget tier. The framework lives in `Operations/AI/token-budget-framework.md`. The rules below are non-negotiable.
+Every task is governed by a token budget tier. The framework lives in `Agents/token-budget-framework.md`. The rules below are non-negotiable.
 
 ### Task Classification
 
@@ -110,7 +110,7 @@ Every task is governed by a token budget tier. The framework lives in `Operation
 
 ### After Execution
 
-- Log token usage to the performance log (see `Operations/AI/department-heads.md` for the template).
+- Log token usage to the performance log (see `Agents/department-heads.md` for the template).
 - If the task exceeded its budget, mark it `budget-exceeded` for human review.
 
 ### Multi-Step Workflows
@@ -119,7 +119,7 @@ Each step in a multi-step workflow is classified independently. The research ste
 
 ### Agent Seat Routing
 
-Tasks route to department heads defined in `Operations/AI/department-heads.md`. Each head has a department scope and typical tier defaults. When a task enters the system:
+Tasks route to department heads defined in `Agents/department-heads.md`. Each head has a department scope and typical tier defaults. When a task enters the system:
 1. Identify the relevant department head by scope.
 2. Load the seat's primary files for context.
 3. Apply the task's tier classification (not the seat's default -- the task's).

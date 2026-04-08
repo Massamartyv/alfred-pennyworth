@@ -121,7 +121,7 @@ All department heads are currently role definitions only. When ready to automate
 1. Create an agent definition in `~/Alfred Pennyworth/Agents/` with the mission brief
 2. Update this file to mark the department head as "Active -- automated"
 3. Configure the agent to read this file, `agent-guidelines.md` and `token-budget-framework.md` at session start
-4. Begin logging performance data to `Operations/AI/Logs/`
+4. Begin logging performance data to `Agents/Logs/`
 5. Review after 30 days and adjust
 
 ---

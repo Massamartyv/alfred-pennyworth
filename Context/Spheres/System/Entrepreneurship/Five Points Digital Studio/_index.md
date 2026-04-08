@@ -2,41 +2,65 @@
 file_type: venture_index
 venture_name: "Five Points Digital Studio"
 venture_stage: "Growth"
-last_updated: 2026-03-31
+methodology: "The Manor Protocol"
+last_updated: 2026-04-07
 ---
 
 # Five Points Digital Studio -- Venture Index
 
-Premium digital marketing agency specializing in automation, AI strategy, and digital architecture. Pentagram-inspired partnership model. Clients at $5,000 to $8,000 and above monthly retainers with revenue-sharing arrangements.
+Premium digital marketing agency specializing in automation, AI strategy and digital architecture. Pentagram-inspired partnership model. Clients at $5,000 to $8,000 and above monthly retainers with revenue-sharing arrangements.
+
+## The Manor Protocol
+
+All work follows The Manor Protocol -- five phases, two hard gates, creative excellence as the governing standard. Full definition in `Agents/_index.md`.
+
+**Lifecycle:** Reconnaissance > Direction [gate] > Execution > Critique [gate] > Release
 
 ## Navigation
 
-| Department | Purpose | Start Here |
+### Seven Studios
+
+| Studio | Craft | Start Here |
 |---|---|---|
-| Foundation/ | Philanthropy, community initiatives, giving | Foundation/_index.md |
-| Administration/ | Legal templates, compliance, policies | Administration/_index.md |
-| Finances/ | Revenue models, projections, metrics, tax | Finances/_index.md |
-| Business Development/ | ICP, outreach, partnerships, pipeline | Business Development/_index.md |
-| Marketing & Sales/ | Sales process, proposals, pricing, brand | Marketing & Sales/_index.md |
-| Operations/ | SOPs, delivery, Clientele/, tools | Operations/_index.md |
-| Product Development/ | Offers, tiers, bundles (5 pillars, 50+ offers) | Product Development/_index.md |
-| Human Resources/ | Team, contractors, hiring, culture | Human Resources/_index.md |
-| Knowledge Base/ | Case studies, research, methodologies | Knowledge Base/_index.md |
+| Creative/ | Brand, visual direction, design, content, aesthetic standard | Creative/_index.md |
+| Strategy/ | Market intelligence, competitive analysis, positioning, research | Strategy/_index.md |
+| Production/ | Web development, media production, deliverable builds | Production/_index.md |
+| Growth/ | Sales, BD, partnerships, pipeline, offer suite | Growth/_index.md |
+| Operations/ | Client delivery, SOPs, tools, clientele management | Operations/_index.md |
+| Finance/ | Revenue, expenses, projections, tax, metrics | Finance/_index.md |
+| Administration/ | Legal, policies, compliance, HR, governance | Administration/_index.md |
+
+### Shared Resources
+
+| Resource | Purpose | Start Here |
+|---|---|---|
+| Knowledge Base/ | Case studies, methodologies, learnings | Knowledge Base/_index.md |
+| Foundation/ | Community, philanthropy, pro bono | Foundation/_index.md |
+
+### Shared Governance
+
+| File | Purpose |
+|---|---|
+| Agents/_index.md | The Manor Protocol definition |
+| Agents/agent-guidelines.md | Execution tiers, red lines, approval gates |
+| Agents/department-heads.md | Role definitions and specialist seats |
+| Agents/token-budget-framework.md | Task complexity tiers and budget ceilings |
+| Agents/integrations.md | Plugin and tool connections |
 
 ## Active State
 
-- Current MRR: ~$2,500
-- Active clients: 2 retainer clients
-- Current priority: $25K MRR by September 30, 2026
-- Active campaign: 25k-battle-plan.md
+- **Current MRR:** ~$2,500
+- **Active clients:** 2 retainer + 1 project (Nomad Express)
+- **Current priority:** $25K MRR by September 30, 2026
+- **Active campaign:** 25k-battle-plan.md
 
 ## Key Registries
 
-- Offer catalog: Product Development/_index.md
-- Client roster: Operations/Clientele/_clients-registry.md
-- SOP catalog: Operations/SOPs/_sop-registry.md
-- Department heads: Operations/AI/department-heads.md
-- Token budgets: Operations/AI/token-budget-framework.md
+- **Offer catalogue:** Growth/Product Development/_index.md
+- **Client roster:** Operations/Clientele/_clients-registry.md
+- **SOP catalogue:** Operations/SOPs/_sop-registry.md
+- **Department heads:** Agents/department-heads.md
+- **Token budgets:** Agents/token-budget-framework.md
 
 ## Offer Pillars
 

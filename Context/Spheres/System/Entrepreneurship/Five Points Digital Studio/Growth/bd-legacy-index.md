@@ -34,7 +34,7 @@ Lead generation, qualification, partnerships, and pipeline development for Five 
 - Use outbound-sequences.md to draft personalized outreach for Instantly campaigns.
 - Discovery call prep should include pre-call research brief for the prospect.
 
-### Token Budget Defaults (per `Operations/AI/token-budget-framework.md`)
+### Token Budget Defaults (per `Agents/token-budget-framework.md`)
 
 | Task | Tier |
 |---|---|

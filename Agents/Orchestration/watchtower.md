@@ -72,14 +72,17 @@ All intermediate output goes to `.working/watchtower/`. This includes raw thresh
 
 ---
 
-## Design Phase Notes
+## Implementation Status
 
-This agent is in design phase as of April 2026. Implementation requires:
-1. Threshold values confirmed and documented per venture
-2. Stripe MCP and Notion MCP connections verified
-3. iMessage delivery mechanism tested
-4. Scheduled task infrastructure in place
+**Live as of April 7, 2026.** Implemented as a scheduled task.
+
+- **Scheduled task ID:** watchtower
+- **Task file:** `~/.claude/scheduled-tasks/watchtower/SKILL.md`
+- **Schedule:** Daily at 8pm
+- **Delivery:** iMessage to martavious.spicer@icloud.com
+- **Current scope:** Personal Notion workspace (Tasks, Projects, Content Calendar)
+- **Pending:** Stripe integration for financial thresholds, Five Points Notion workspace sweep
 
 ---
 
-*Last updated: April 2026*
+*Last updated: April 7, 2026*

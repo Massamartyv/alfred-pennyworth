@@ -26,7 +26,7 @@ Knowledge Base/
 - When discovering an effective prompt or technique, add it to AI Learnings/.
 - This is where the business gets smarter over time. Contribute back.
 
-### Token Budget Defaults (per `Operations/AI/token-budget-framework.md`)
+### Token Budget Defaults (per `Agents/token-budget-framework.md`)
 
 | Task | Tier |
 |---|---|
