@@ -6,7 +6,7 @@ status: dormant
 last_updated: 2026-04-05
 ---
 
-# Client Registry -- Athena
+# Client Registry – Athena
 
 Master roster of all brand clients, photographers, production houses and other entities that book talent through Athena.
 
@@ -14,19 +14,19 @@ Master roster of all brand clients, photographers, production houses and other e
 
 | Client | Type | Industry | Monthly Value | Start Date | Contract End | Folder |
 |---|---|---|---|---|---|---|
-| -- | -- | -- | -- | -- | -- | -- |
+| – | – | – | – | – | – | – |
 
 ## Active Talent
 
 | Talent | Division | Status | Signed Date | Commission Rate | Portfolio | Notes |
 |---|---|---|---|---|---|---|
-| -- | -- | -- | -- | -- | -- | -- |
+| – | – | – | – | – | – | – |
 
 ## Archived Relationships
 
 | Name | Type | Duration | Archived Date | Reason | Folder |
 |---|---|---|---|---|---|
-| -- | -- | -- | -- | -- | -- |
+| – | – | – | – | – | – |
 
 ## Summary
 

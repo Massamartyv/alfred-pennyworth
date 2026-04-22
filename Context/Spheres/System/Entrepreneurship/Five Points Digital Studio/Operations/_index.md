@@ -14,21 +14,21 @@ The engine room of Five Points. Client delivery, SOPs, tools, and the Clientele 
 ```
 Operations/
 ├── Clientele/
-│   ├── _clients-registry.md       -- Master roster
-│   ├── Active/                    -- Current engagements
-│   │   └── Nomad Express/         -- First organized client folder
-│   ├── Archived/                  -- Completed or paused
-│   └── Churned/                   -- Lost clients (kept for reference)
+│   ├── _clients-registry.md       – Master roster
+│   ├── Active/                    – Current engagements
+│   │   └── Nomad Express/         – First organized client folder
+│   ├── Archived/                  – Completed or paused
+│   └── Churned/                   – Lost clients (kept for reference)
 ├── SOPs/
 │   ├── _sop-registry.md
 │   └── {SOPs as created}
-├── Delivery Playbooks/            -- Step-by-step by service type
+├── Delivery Playbooks/            – Step-by-step by service type
 ├── Templates/
-│   └── New Client/                -- Copy for each new client
+│   └── New Client/                – Copy for each new client
 ├── Tools/
-│   ├── software-stack.md           -- To be created
-│   └── automation-workflows.md     -- To be created
-└── Agents/                        -- Department-specific agents, workflows, criteria
+│   ├── software-stack.md           – To be created
+│   └── automation-workflows.md     – To be created
+└── Agents/                        – Department-specific agents, workflows, criteria
 ```
 
 ## Key Ops Context

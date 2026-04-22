@@ -6,7 +6,7 @@ status: draft
 last_updated: "{YYYY-MM-DD}"
 ---
 
-# {Client Name} -- Billing Notes
+# {Client Name} – Billing Notes
 
 ## Current Terms
 

@@ -6,7 +6,7 @@ status: draft
 last_updated: "{YYYY-MM-DD}"
 ---
 
-# {Client Name} -- Engagement Terms
+# {Client Name} – Engagement Terms
 
 ## Offer
 

@@ -63,10 +63,10 @@ The complete Five Points offer suite. Five pillars, 50+ individual offers across
 
 ## Tier Structure
 
-- **Bronze** -- Entry-level, self-serve or light-touch
-- **Silver** -- Mid-tier, strategic with guided execution
-- **Gold** -- Full-service, the retainer sweet spot ($5K-$8K/mo)
-- **Platinum** -- Enterprise or comprehensive transformation
+- **Bronze** – Entry-level, self-serve or light-touch
+- **Silver** – Mid-tier, strategic with guided execution
+- **Gold** – Full-service, the retainer sweet spot ($5K-$8K/mo)
+- **Platinum** – Enterprise or comprehensive transformation
 
 ## Agent Instructions
 

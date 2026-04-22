@@ -2,7 +2,7 @@
 file_type: department_index
 department: Growth
 venture: Five Points Digital Studio
-last_updated: 2026-04-07
+last_updated: 2026-04-22
 ---
 
 # Growth
@@ -13,15 +13,13 @@ Sales, business development, partnerships, pipeline and the offer suite. Everyth
 
 ```
 Growth/
-  _index.md              -- This file
-  Product Development/   -- The complete offer suite (5 pillars, 50+ offers, 3 bundles)
-  Proposal Templates/    -- Retainer, project, bundle proposal skeletons
-  bd-legacy-index.md     -- Legacy Business Development context
-  ms-legacy-index.md     -- Legacy Marketing & Sales context
-  Agents/                -- Department-specific agents, workflows, criteria
-    _index.md            -- Agent roster and workflow registry
-    Workflows/           -- Named Manor Protocol sequences
-    Criteria/            -- Quality rubrics and evaluation standards
+  _index.md              – This file
+  Product Development/   – The complete offer suite (5 pillars, 50+ offers, 3 bundles)
+  Proposal Templates/    – Retainer, project, bundle proposal skeletons
+  Agents/                – Department-specific agents, workflows, criteria
+    _index.md            – Agent roster and workflow registry
+    Workflows/           – Named Manor Protocol sequences
+    Criteria/            – Quality rubrics and evaluation standards
 ```
 
 ## Scope
@@ -43,7 +41,7 @@ Growth/
 ## Key Context
 
 - **Pricing sweet spot:** $5,000 to $8,000+ monthly retainers
-- **Never discount -- add value instead**
+- **Never discount – add value instead**
 - **ICP:** $1M to $10M professional services and healthcare, 10 to 50 team
 - **Front door offer:** Bronze AI Fluency Workshop ($197/seat)
 - **Target:** 7 clients across 4 offer types for $25K MRR
@@ -52,7 +50,7 @@ Growth/
 
 ## Agent Instructions
 
-- All pricing must reference Product Development/ offer files -- never quote from memory
+- All pricing must reference Product Development/ offer files – never quote from memory
 - All proposals must use templates from Proposal Templates/
 - All proposals require human approval before sending to client
 - Lead qualification must load ICP criteria before scoring

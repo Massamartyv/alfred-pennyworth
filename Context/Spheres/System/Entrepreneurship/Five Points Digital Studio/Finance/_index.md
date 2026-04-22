@@ -13,16 +13,16 @@ Revenue models, financial projections, tax compliance and performance metrics fo
 
 ```
 Finance/
-  _index.md              -- This file
-  Revenue/               -- Pricing framework, revenue model, client mix
-  Planning/              -- Cash flow, projections, capacity planning
-  Tax/                   -- Compliance calendar, deductibles, entity structure
-  Cost Management/       -- Software subscriptions, vendor contracts
-  Metrics/               -- Key financial metrics, review templates
-  Agents/                -- Department-specific agents, workflows, criteria
-    _index.md            -- Agent roster and workflow registry
-    Workflows/           -- Named Manor Protocol sequences
-    Criteria/            -- Quality rubrics and evaluation standards
+  _index.md              – This file
+  Revenue/               – Pricing framework, revenue model, client mix
+  Planning/              – Cash flow, projections, capacity planning
+  Tax/                   – Compliance calendar, deductibles, entity structure
+  Cost Management/       – Software subscriptions, vendor contracts
+  Metrics/               – Key financial metrics, review templates
+  Agents/                – Department-specific agents, workflows, criteria
+    _index.md            – Agent roster and workflow registry
+    Workflows/           – Named Manor Protocol sequences
+    Criteria/            – Quality rubrics and evaluation standards
 ```
 
 ## Key Financial Context
@@ -40,7 +40,7 @@ Finance/
 - Reference Revenue/pricing-framework.md when quoting or generating proposals
 - Never modify pricing without explicit approval
 - Check Tax/compliance-calendar.md approaching end of each quarter
-- Revenue data references Stripe and Notion CRM -- never estimate
+- Revenue data references Stripe and Notion CRM – never estimate
 
 ### Token Budget Defaults
 

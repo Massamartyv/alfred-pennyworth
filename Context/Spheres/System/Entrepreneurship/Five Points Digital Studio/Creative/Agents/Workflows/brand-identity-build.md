@@ -9,7 +9,7 @@ last_updated: 2026-04-07
 
 # Brand Identity Build
 
-Full brand identity for a new client. The most complex workflow in Creative -- activates all five specialist roles and runs the complete Manor Protocol lifecycle.
+Full brand identity for a new client. The most complex workflow in Creative – activates all five specialist roles and runs the complete Manor Protocol lifecycle.
 
 ---
 
@@ -24,7 +24,7 @@ Full brand identity for a new client. The most complex workflow in Creative -- a
 - Identify cultural signals and trends relevant to the client's space
 - Surface existing brand assets, history, and what the client has tried before
 
-**Output:** Reconnaissance brief -- landscape of possibility, not answers.
+**Output:** Reconnaissance brief – landscape of possibility, not answers.
 
 ---
 
@@ -37,7 +37,7 @@ Full brand identity for a new client. The most complex workflow in Creative -- a
 - Define brand positioning: who, what, why, how, against whom
 - Establish voice attributes: personality, tone range, language to embrace and avoid
 - Set visual direction: colour territory, typography direction, spatial philosophy
-- Define the brand's relationship to culture -- what it references, what it avoids
+- Define the brand's relationship to culture – what it references, what it avoids
 
 **Output:** Creative brief with positioning, voice attributes and visual direction.
 
@@ -63,7 +63,7 @@ Full brand identity for a new client. The most complex workflow in Creative -- a
 - Create sample copy in brand voice across contexts
 - Write tagline options (if in scope)
 
-**Output:** Brand identity system -- visual and verbal, interconnected.
+**Output:** Brand identity system – visual and verbal, interconnected.
 
 ---
 
@@ -74,10 +74,10 @@ Full brand identity for a new client. The most complex workflow in Creative -- a
 
 Evaluate against the four non-negotiable criteria (see `Criteria/quality-rubric.md`):
 
-1. **Brand alignment** -- Does the identity feel coherent? Do visual and verbal reinforce each other?
-2. **Originality** -- Is it distinctive in the client's market? Does it avoid category cliches?
-3. **Craft and finish** -- Are colour values precise? Is typography properly scaled? Is copy rhythm intentional?
-4. **Emotional resonance** -- Does the identity evoke the intended feeling?
+1. **Brand alignment** – Does the identity feel coherent? Do visual and verbal reinforce each other?
+2. **Originality** – Is it distinctive in the client's market? Does it avoid category cliches?
+3. **Craft and finish** – Are colour values precise? Is typography properly scaled? Is copy rhythm intentional?
+4. **Emotional resonance** – Does the identity evoke the intended feeling?
 
 **Output:** Critique report with pass/fail on each criterion and specific revision notes for any failures.
 

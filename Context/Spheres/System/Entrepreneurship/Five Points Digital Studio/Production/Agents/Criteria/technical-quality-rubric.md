@@ -17,9 +17,9 @@ The six non-negotiable criteria that govern all Production output from this stud
 **The question:** Is the code clean, maintainable and faithful to the PRD's engineering mandates?
 
 ### Excellent
-- Strict TypeScript throughout -- no `any` types, no type assertions without justification
+- Strict TypeScript throughout – no `any` types, no type assertions without justification
 - Component architecture follows single responsibility principle
-- CSS and styling is systematic -- design tokens, consistent naming, no magic numbers
+- CSS and styling is systematic – design tokens, consistent naming, no magic numbers
 - Semantic HTML5 used correctly throughout
 - File structure is predictable and navigable by any engineer
 - No dead code, no commented-out blocks, no TODO debris
@@ -62,7 +62,7 @@ The six non-negotiable criteria that govern all Production output from this stud
 - Lighthouse Performance score below 80
 - LCP exceeds 2.5 seconds
 - Visible layout shift on page load
-- Unoptimised images -- full-resolution PNGs, missing width and height, no lazy loading
+- Unoptimised images – full-resolution PNGs, missing width and height, no lazy loading
 - JavaScript bundle exceeds reasonable size for site complexity
 
 ---
@@ -77,8 +77,8 @@ The six non-negotiable criteria that govern all Production output from this stud
 - Colour contrast ratios meet AA minimums (4.5:1 normal text, 3:1 large text)
 - Full keyboard navigation works logically through all interactive elements
 - Screen reader announcement order matches visual layout
-- All images have meaningful alt text -- not "image" or a filename
-- `prefers-reduced-motion` respected -- animations degrade gracefully
+- All images have meaningful alt text – not "image" or a filename
+- `prefers-reduced-motion` respected – animations degrade gracefully
 - Form inputs have associated labels, error states are announced
 - Skip navigation link present
 
@@ -111,7 +111,7 @@ The six non-negotiable criteria that govern all Production output from this stud
 - JSON-LD structured data (LocalBusiness, Service, FAQPage, BreadcrumbList as applicable)
 - Auto-generated XML sitemap
 - Properly configured robots.txt
-- Agentic Engine Optimisation: content structured for AI agent comprehension -- FAQ schema, service area schema, comprehensive `knowsAbout` arrays
+- Agentic Engine Optimisation: content structured for AI agent comprehension – FAQ schema, service area schema, comprehensive `knowsAbout` arrays
 
 ### Acceptable
 - Title and meta description present on all pages
@@ -126,7 +126,7 @@ The six non-negotiable criteria that govern all Production output from this stud
 - Multiple `<h1>` tags per page or illogical heading order
 - No structured data
 - No sitemap or robots.txt
-- OpenGraph tags missing -- social shares look broken
+- OpenGraph tags missing – social shares look broken
 
 ---
 
@@ -135,8 +135,8 @@ The six non-negotiable criteria that govern all Production output from this stud
 **The question:** Is the site hardened against common threats?
 
 ### Excellent
-- All security headers present (X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Strict-Transport-Security) -- matching the starter template's `next.config.ts` pattern
-- No secrets in source code -- all credentials in Vercel environment variables
+- All security headers present (X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Strict-Transport-Security) – matching the starter template's `next.config.ts` pattern
+- No secrets in source code – all credentials in Vercel environment variables
 - HTTPS enforced with HSTS
 - Content Security Policy configured if applicable
 - Input validation on all forms
@@ -168,7 +168,7 @@ The six non-negotiable criteria that govern all Production output from this stud
 - No horizontal scroll at any viewport
 - Typography scales fluidly (clamp-based)
 - Images swap to appropriate crops and sizes per viewport
-- Navigation adapts appropriately -- drawer or hamburger on mobile, full navigation on desktop
+- Navigation adapts appropriately – drawer or hamburger on mobile, full navigation on desktop
 - Parallax and heavy animations disabled or simplified on mobile for performance
 
 ### Acceptable
@@ -209,6 +209,6 @@ The bar adjusts by project tier, not by convenience:
 The QA Engineer does not fix. The QA Engineer evaluates. When work is returned to Execution, the revision notes must be specific:
 
 - **Not:** "Performance needs improvement."
-- **Instead:** "LCP is 3.2 seconds on mobile -- the hero image is 2.4 MB unoptimised. Serve WebP with width 1920 maximum, enable priority loading, add explicit width and height to prevent CLS."
+- **Instead:** "LCP is 3.2 seconds on mobile – the hero image is 2.4 MB unoptimised. Serve WebP with width 1920 maximum, enable priority loading, add explicit width and height to prevent CLS."
 
 Vague critique produces vague revision. Precise critique produces excellent work.

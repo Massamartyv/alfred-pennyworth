@@ -1,4 +1,4 @@
-# ⚡️ Vibe Coding PRD Template
+# Vibe Coding PRD Template
 
 > **What is this?** A Product Requirements Document designed specifically for *Vibe Coding* (AI-assisted web development). It prioritizes universal layout constraints, environmental tech stack rules, and the "vibe" as the core prompting directives for LLMs, minimizing hallucinations and anchoring the development inside your specific design language.
 
@@ -21,12 +21,12 @@
   - `[Inspiration URL 2]` - *What we like: [e.g., scroll-triggered reveal animations]*
 
 ## 3. Global Architecture & The Stack
-*The non-negotiable technical boundaries. If the AI doesn't have this, it will guess and hallucinate varying tech stacks.*
+*The non-negotiable technical boundaries. If the AI does not have this, it will guess and hallucinate varying tech stacks.*
 
 - **Core Framework:** `[e.g., Next.js App Router (React), Vite + Vanilla JS, Astro]`
 - **Styling Architecture:** `[e.g., Vanilla CSS with heavily structured standard design tokens. strictly NO Tailwind CSS.]`
 - **Animation/Interaction Engine:** `[e.g., Framer Motion, GSAP, or pure CSS transitions]`
-- **Data & Content Architecture:** `[e.g., Static markdown files, Sanity CMS, Hardcoded json]`
+- **Data & Content Architecture:** `[Default: Notion as CMS via API. Alternatives: static markdown files, Sanity CMS, hardcoded JSON.]`
 
 ## 4. Universal Engineering Mandates
 *Rules the AI must adhere to on every single file or component it generates.*

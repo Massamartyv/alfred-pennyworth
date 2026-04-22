@@ -6,7 +6,7 @@ status: draft
 last_updated: "{YYYY-MM-DD}"
 ---
 
-# {Client Name} -- Legal Status
+# {Client Name} – Legal Status
 
 ## Executed Agreements
 
@@ -24,7 +24,7 @@ last_updated: "{YYYY-MM-DD}"
 
 ## Compliance Notes
 
-- **Industry regulations:** {HIPAA, GDPR, CCPA, PCI -- if applicable}
+- **Industry regulations:** {HIPAA, GDPR, CCPA, PCI – if applicable}
 - **Data handling requirements:** {Any special data protection obligations}
 - **Content approval chain:** {Legal review required for certain content types}
 

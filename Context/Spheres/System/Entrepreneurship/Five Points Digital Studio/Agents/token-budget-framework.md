@@ -7,7 +7,7 @@ last_updated: 2026-04-03
 ---
 
 # Token Budget Framework
-## Five Points Digital Studio -- Task Complexity Model
+## Five Points Digital Studio – Task Complexity Model
 
 ---
 
@@ -19,7 +19,7 @@ Token budgets are standardized by **task complexity**, not by agent identity. Th
 
 ## The Three Tiers
 
-### Light -- 5,000 output tokens
+### Light – 5,000 output tokens
 Routine, short-output tasks. The work is mechanical and the output is brief.
 
 **Examples:**
@@ -36,7 +36,7 @@ Routine, short-output tasks. The work is mechanical and the output is brief.
 
 ---
 
-### Standard -- 15,000 output tokens
+### Standard – 15,000 output tokens
 Synthesis tasks with substantive output. The work requires pulling from multiple inputs and producing something with structure and reasoning.
 
 **Examples:**
@@ -54,7 +54,7 @@ Synthesis tasks with substantive output. The work requires pulling from multiple
 
 ---
 
-### Heavy -- 30,000 output tokens
+### Heavy – 30,000 output tokens
 Deep reasoning across multiple sources. The work requires extended analysis, strategic thinking, or comprehensive documentation.
 
 **Examples:**
@@ -137,4 +137,4 @@ No task, no agent, no circumstance exceeds this. This is the kill switch for pat
 
 ---
 
-*Five Points Digital Studio -- Task Complexity Framework v1.0 -- April 2026*
+*Five Points Digital Studio – Task Complexity Framework v1.0 – April 2026*

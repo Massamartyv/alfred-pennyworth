@@ -6,7 +6,7 @@ last_updated: 2026-04-07
 
 # The Manor Protocol
 
-The proprietary methodology governing all work at Five Points Digital Studio. Every department is a studio -- a room in the manor where craft happens. Creative excellence is the governing standard across all departments, not a privilege reserved for one.
+The proprietary methodology governing all work at Five Points Digital Studio. Every department is a studio – a room in the manor where craft happens. Creative excellence is the governing standard across all departments, not a privilege reserved for one.
 
 ---
 
@@ -16,17 +16,17 @@ The Manor Protocol does not separate "creative" from "operational." It holds all
 
 ## The Lifecycle
 
-All work moves through five phases. The phases are sequential but not rigid -- lightweight tasks may compress multiple phases into a single action. The lifecycle scales to the complexity of the work.
+All work moves through five phases. The phases are sequential but not rigid – lightweight tasks may compress multiple phases into a single action. The lifecycle scales to the complexity of the work.
 
 ### 1. Reconnaissance
 
-Wide scan. Gather raw material, references, signals, context. Instinct-led exploration. The output is not answers -- it is a landscape of possibility.
+Wide scan. Gather raw material, references, signals, context. Instinct-led exploration. The output is not answers – it is a landscape of possibility.
 
 **Primary crews:** Explorer, Strategist
 
 ### 2. Direction
 
-The creative call. A point of view crystallises from the reconnaissance. This is the brief -- the decision that everything downstream is measured against.
+The creative call. A point of view crystallises from the reconnaissance. This is the brief – the decision that everything downstream is measured against.
 
 **Primary crews:** Strategist, Maestro
 
@@ -40,7 +40,7 @@ Build the thing. Write the copy. Design the system. Structure the proposal. The 
 
 ### 4. Critique
 
-Hold the output against the brief and the standard. Is it excellent? Is it honest? Does it meet the bar? This is not review for approval -- it is review for quality. The evaluator's eye, not the manager's clipboard.
+Hold the output against the brief and the standard. Is it excellent? Is it honest? Does it meet the bar? This is not review for approval – it is review for quality. The evaluator's eye, not the manager's clipboard.
 
 **Primary crews:** Evaluator, Validator
 
@@ -74,10 +74,10 @@ Every department contains an `Agents/` subfolder with a standard structure:
 
 ```
 {Department}/Agents/
-  _index.md           -- Agent roster and workflow registry for this department
-  Workflows/          -- Named Manor Protocol sequences for common tasks
-  Criteria/           -- Quality rubrics and evaluation standards
-  {agent-name}.md     -- Individual agent definitions as needed
+  _index.md           – Agent roster and workflow registry for this department
+  Workflows/          – Named Manor Protocol sequences for common tasks
+  Criteria/           – Quality rubrics and evaluation standards
+  {agent-name}.md     – Individual agent definitions as needed
 ```
 
 ---
@@ -98,7 +98,7 @@ Every department contains an `Agents/` subfolder with a standard structure:
 
 | Resource | Purpose |
 |---|---|
-| **Knowledge Base** | Institutional memory -- case studies, methodologies, learnings |
+| **Knowledge Base** | Institutional memory – case studies, methodologies, learnings |
 | **Foundation** | Community, philanthropy, pro bono |
 
 ---
@@ -126,7 +126,7 @@ Not every task requires all five phases. A routine status update does not need R
 
 ### Multi-phase workflows
 
-Complex deliverables may cycle through Execution and Critique multiple times before Release. The hard gate after Critique means human eyes before the world sees it -- but internal iterations within a studio can flow freely.
+Complex deliverables may cycle through Execution and Critique multiple times before Release. The hard gate after Critique means human eyes before the world sees it – but internal iterations within a studio can flow freely.
 
 ### Cross-studio work
 

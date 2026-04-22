@@ -6,13 +6,13 @@ methodology: "The Manor Protocol"
 last_updated: 2026-04-07
 ---
 
-# Five Points Digital Studio -- Venture Index
+# Five Points Digital Studio – Venture Index
 
 Premium digital marketing agency specializing in automation, AI strategy and digital architecture. Pentagram-inspired partnership model. Clients at $5,000 to $8,000 and above monthly retainers with revenue-sharing arrangements.
 
 ## The Manor Protocol
 
-All work follows The Manor Protocol -- five phases, two hard gates, creative excellence as the governing standard. Full definition in `Agents/_index.md`.
+All work follows The Manor Protocol – five phases, two hard gates, creative excellence as the governing standard. Full definition in `Agents/_index.md`.
 
 **Lifecycle:** Reconnaissance > Direction [gate] > Execution > Critique [gate] > Release
 
@@ -64,10 +64,10 @@ All work follows The Manor Protocol -- five phases, two hard gates, creative exc
 
 ## Offer Pillars
 
-1. **Emerging Technology** -- AI workshops, automation oversight, managed services
-2. **Strategic Advisory** -- Operational intelligence, marketing strategy, Human Construct, social media strategy
-3. **Market Presence** -- Content engine, marketing automation, paid media, social media management
-4. **Creative** -- Brand identity, product design
-5. **Development** -- Website engineering, digital experience design, application engineering
+1. **Emerging Technology** – AI workshops, automation oversight, managed services
+2. **Strategic Advisory** – Operational intelligence, marketing strategy, Human Construct, social media strategy
+3. **Market Presence** – Content engine, marketing automation, paid media, social media management
+4. **Creative** – Brand identity, product design
+5. **Development** – Website engineering, digital experience design, application engineering
 
 Plus three bundles: AI Powered Brand Ecosystem, Brand Launchpad, Total Transformation.

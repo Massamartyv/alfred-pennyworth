@@ -8,7 +8,7 @@ date: 2026-04-08
 status: retroactive
 ---
 
-# Technical Reconnaissance -- Fountain Christian Center
+# Technical Reconnaissance – Fountain Christian Center
 
 Retroactive audit of existing codebase at `Deliverables/Website/fountain-christian-center/`.
 
@@ -24,7 +24,7 @@ Retroactive audit of existing codebase at `Deliverables/Website/fountain-christi
 | Styling | CSS Modules + Global CSS Custom Properties (no Tailwind) |
 | Fonts | Cormorant Garamond (headings), Inter (body) via next/font/google |
 | External APIs | YouTube Data API v3 (livestream status) |
-| CMS | None -- all content hardcoded |
+| CMS | None – all content hardcoded |
 | Deployment | Not configured |
 
 Dependencies are minimal: three production (next, react, react-dom), five devDependencies. No UI libraries, no form libraries, no state management.
@@ -44,13 +44,13 @@ Four pages implemented, two referenced but missing:
 | `/live` | Missing | Referenced by LiveButton, no route exists |
 | `/give` | Missing | Referenced by Navigation, dead link |
 
-One API route: `/api/live-status` -- YouTube livestream check with five-minute cache.
+One API route: `/api/live-status` – YouTube livestream check with five-minute cache.
 
 ---
 
 ## Design System
 
-Earth-tone palette anchored by cream (#F5F0EB) and near-black (#1A1A18). Warm brown accents (#8C7B6B, #C4B5A2). Typography pairing is elegant -- Cormorant Garamond at light weights for headings (all uppercase, wide letter-spacing) with Inter for body. Fluid clamp-based sizing. Section padding at 8rem. Max-width 1400px. Sharp corners throughout (border-radius: 0 to 2px).
+Earth-tone palette anchored by cream (#F5F0EB) and near-black (#1A1A18). Warm brown accents (#8C7B6B, #C4B5A2). Typography pairing is elegant – Cormorant Garamond at light weights for headings (all uppercase, wide letter-spacing) with Inter for body. Fluid clamp-based sizing. Section padding at 8rem. Max-width 1400px. Sharp corners throughout (border-radius: 0 to 2px).
 
 The visual identity communicates institutional dignity and warmth. The design decisions are consistent and intentional.
 
@@ -62,8 +62,8 @@ The visual identity communicates institutional dignity and warmth. The design de
 |---|---|---|
 | Navigation | Client | Fixed header with scroll-triggered blur effect, logo, nav links, live button |
 | LiveButton | Client | YouTube livestream status polling (five-minute intervals), conditional pulsing indicator |
-| AnimatedBackground | Server | Fixed ambient layer -- radial gradient glow with SVG noise grain, 40-second drift animation |
-| HeroSection | Server | Parameterised hero -- accepts heading, subtext, quote toggle, images via props |
+| AnimatedBackground | Server | Fixed ambient layer – radial gradient glow with SVG noise grain, 40-second drift animation |
+| HeroSection | Server | Parameterised hero – accepts heading, subtext, quote toggle, images via props |
 | ServiceTimes | Server | Four service cards in a grid layout with image placeholder |
 | HistoryMission | Server | Church founding narrative, mission statement, stat cards (1947, Brooklyn) |
 | Leadership | Server | Four-member staff grid with placeholder portraits |
@@ -77,16 +77,16 @@ Server-heavy architecture: only Navigation and LiveButton require client-side hy
 
 ## Critical Gaps
 
-1. **Contact form is non-functional** -- no action attribute, no API route, no client-side submission handler, no feedback to users
-2. **Two navigation links are dead** -- `/live` and `/give` pages do not exist
-3. **No security headers** -- next.config.ts is empty, missing X-Frame-Options, HSTS, X-Content-Type-Options, Referrer-Policy
-4. **No structured data** -- no JSON-LD, no Schema.org markup of any kind
-5. **No OpenGraph or social meta tags** -- social shares will show nothing
+1. **Contact form is non-functional** – no action attribute, no API route, no client-side submission handler, no feedback to users
+2. **Two navigation links are dead** – `/live` and `/give` pages do not exist
+3. **No security headers** – next.config.ts is empty, missing X-Frame-Options, HSTS, X-Content-Type-Options, Referrer-Policy
+4. **No structured data** – no JSON-LD, no Schema.org markup of any kind
+5. **No OpenGraph or social meta tags** – social shares will show nothing
 6. **No sitemap or robots.txt**
 7. **Service times duplicated** in ServiceTimes.tsx and contact/page.tsx with no shared data source
-8. **All content hardcoded** -- no CMS, no data files, all content lives in component JSX
-9. **No environment configuration** -- no .env.example, no deployment configuration
-10. **Accessibility gaps** -- no skip-to-content link, no prefers-reduced-motion, missing focus indicators on navigation
+8. **All content hardcoded** – no CMS, no data files, all content lives in component JSX
+9. **No environment configuration** – no .env.example, no deployment configuration
+10. **Accessibility gaps** – no skip-to-content link, no prefers-reduced-motion, missing focus indicators on navigation
 
 ---
 
@@ -96,7 +96,7 @@ Server-heavy architecture: only Navigation and LiveButton require client-side hy
 - Intentional and consistent design system
 - Proper semantic HTML (header, nav, section, article, footer)
 - Optimised font loading with display: swap
-- Server-component heavy architecture -- minimal client-side JavaScript
+- Server-component heavy architecture – minimal client-side JavaScript
 - Responsive design across all implemented pages
 - Well-organised CSS module structure
 
@@ -130,7 +130,7 @@ Founded 1947 by Rev. Leon O'Neil at 897 Gates Avenue, Brooklyn, as Fountain Chri
 8. Elder Clenso Allen (1982 to 1990, departed to pastor Calvary Unified Free Will Baptist Church)
 9. Bishop Sylvester Watts (installed August 1990, led for 31 years)
 
-The transition from Watts to Locklear happened through a structured elevation -- Charles and JoAnn Locklear were installed as Pastors of Administration in 2008, and Bishop Charles Locklear became Senior Pastor in 2021.
+The transition from Watts to Locklear happened through a structured elevation – Charles and JoAnn Locklear were installed as Pastors of Administration in 2008, and Bishop Charles Locklear became Senior Pastor in 2021.
 
 The heritage section of the website should honour the full pastoral lineage and past contributors (auxiliaries, founders of the Pastor's Aide, Floral Club, Welcome Committee, Usher Boards, Missionary Board, Mother's Board, Bugle Corps, Fountain Masonic Lodge).
 
@@ -156,12 +156,12 @@ Teleconference access: (646) 558-8656, Meeting Code: 792-998-6999, Pass Code: 03
 
 ### Existing Content Not Yet on New Site
 
-- **Bishop's Gala** -- annual celebration event at Russo's on the Bay (ticketed, $160 adults, $85 children)
-- **Sister to Sister** -- women's ministry sessions (co-ed discussions on trauma, mental health, church community)
-- **Monthly Partnership Seed** -- recurring giving programme ($28, $38, $48 or $58/month), separate from tithes
-- **Tithes section** -- Malachi 3:8-12 KJV as the anchor text, with a donation amount input
-- **Membership form** -- comprehensive intake with children info, ministry participation multi-select, volunteer willingness
-- **The Bishop's Gala** -- dedicated page on old site, not yet replicated
+- **Bishop's Gala** – annual celebration event at Russo's on the Bay (ticketed, $160 adults, $85 children)
+- **Sister to Sister** – women's ministry sessions (co-ed discussions on trauma, mental health, church community)
+- **Monthly Partnership Seed** – recurring giving programme ($28, $38, $48 or $58/month), separate from tithes
+- **Tithes section** – Malachi 3:8-12 KJV as the anchor text, with a donation amount input
+- **Membership form** – comprehensive intake with children info, ministry participation multi-select, volunteer willingness
+- **The Bishop's Gala** – dedicated page on old site, not yet replicated
 
 ### Giving and Payment Infrastructure
 
@@ -179,11 +179,11 @@ The church already uses an existing payment processor for donations and tithes. 
 
 A "water fountain Bellagio fountain effect" during the hero section of the homepage. The expressed vision:
 
-- Feel like the **Northern Lights** -- how light behaves
+- Feel like the **Northern Lights** – how light behaves
 - Still feel **fluid like water**
 - Serve as a **guiding light** matching the Sunday service choir energy
-- Take inspiration from the **Jesus is King tour** creative direction -- how light plays in an artistic way
-- Feel **based in Brooklyn** -- cleanliness and modernity woven into the tapestry of the legacy
+- Take inspiration from the **Jesus is King tour** creative direction – how light plays in an artistic way
+- Feel **based in Brooklyn** – cleanliness and modernity woven into the tapestry of the legacy
 
 This is the most specific creative direction from the client. The current `AnimatedBackground` component (radial gradient glow with grain) is a starting point but does not yet achieve the Bellagio/Northern Lights/JIK light-play ambition. The hero animation needs to evolve.
 

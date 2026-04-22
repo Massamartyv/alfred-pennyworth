@@ -3,50 +3,61 @@ file_type: venture_index
 venture: Lillie and Lynette
 venture_stage: Ideation
 status: active
-last_updated: 2026-04-05
+methodology: The Manor Protocol
+last_updated: 2026-04-22
 ---
 
-# Lillie and Lynette -- Venture Index
+# Lillie and Lynette – Venture Index
 
-Hospitality company. Rooted in warmth, refinement and the art of making people feel genuinely welcomed. Named with intention -- built to scale.
+Hospitality company. Rooted in warmth, refinement and the art of making people feel genuinely welcomed. Named with intention – built to scale.
+
+## The Manor Protocol
+
+All work follows The Manor Protocol – five phases, two hard gates, creative excellence as the governing standard. Full definition in `Agents/_index.md`.
+
+**Lifecycle:** Reconnaissance > Direction [gate] > Execution > Critique [gate] > Release
 
 ## Navigation
 
-| Department | Purpose | Start Here |
+### Seven Studios
+
+| Studio | Craft | Start Here |
 |---|---|---|
-| Foundation/ | Philanthropy, community, hospitality-driven giving | Foundation/_index.md |
-| Administration/ | Legal, compliance, licensing, policies | Administration/_index.md |
-| Finances/ | Revenue models, projections, metrics, tax | Finances/_index.md |
-| Business Development/ | Partnerships, venue sourcing, pipeline | Business Development/_index.md |
-| Marketing & Sales/ | Brand positioning, guest acquisition, pricing | Marketing & Sales/_index.md |
-| Operations/ | SOPs, service delivery, vendor management, tools | Operations/_index.md |
-| Product Development/ | Hospitality offerings, experiences, service tiers | Product Development/_index.md |
-| Human Resources/ | Team, contractors, hiring, culture | Human Resources/_index.md |
+| Creative/ | Brand identity, guest experience design, visual language, interior direction, menu and offering narrative | Creative/_index.md |
+| Strategy/ | Hospitality industry research, competitive intelligence, venue and market positioning, guest behaviour analysis | Strategy/_index.md |
+| Production/ | Service delivery production, event production, experience fabrication, content production | Production/_index.md |
+| Growth/ | Sales, partnerships, venue sourcing, distribution pipeline, guest acquisition | Growth/_index.md |
+| Operations/ | Day-to-day service, SOPs, tools, guest and vendor clientele management | Operations/_index.md |
+| Finance/ | Revenue, cost of service, expenses, projections, tax, metrics | Finance/_index.md |
+| Administration/ | Legal, licensing, compliance (food, beverage, hospitality), insurance, HR | Administration/_index.md |
+
+### Shared Resources
+
+| Resource | Purpose | Start Here |
+|---|---|---|
 | Knowledge Base/ | Industry research, case studies, methodologies | Knowledge Base/_index.md |
+| Foundation/ | Community, philanthropy, hospitality-driven giving | Foundation/_index.md |
 
-## Agent Routing
+### Shared Governance
 
-When a task arrives, load the relevant department `_index.md` first. Each department index contains: purpose, file inventory, which files to read for common tasks and what belongs vs. does not belong in that department.
-
-### Load order for agents
-
-1. This file -- orient to the venture
-2. `Operations/AI/agent-guidelines.md` -- know the rules
-3. Relevant department `_index.md` -- find the right files
-4. Specific file for the task at hand
+| File | Purpose |
+|---|---|
+| Agents/_index.md | The Manor Protocol definition |
+| Agents/agent-guidelines.md | Execution tiers, red lines, approval gates |
+| Agents/department-heads.md | Role definitions and specialist seats |
 
 ## Active State
 
 - Current MRR: $0
-- Active clients: 0
-- Current priority: To be set
+- Active guests, clients or venues: None – pre-launch
+- Current priority: Concept definition and positioning
 - Active campaign: None
 
 ## Key Registries
 
-- Offer catalogue: `Product Development/_index.md`
-- Client roster: `Operations/Clientele/_clients-registry.md`
+- Clientele roster (guests, vendor partners): `Operations/Clientele/_clients-registry.md`
 - SOP catalogue: `Operations/SOPs/_sop-registry.md`
+- Department heads: `Agents/department-heads.md`
 
 ## Frontmatter Standard
 

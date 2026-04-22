@@ -3,50 +3,65 @@ file_type: venture_index
 venture: Marty Gras
 venture_stage: Launch
 status: active
-last_updated: 2026-04-05
+methodology: The Manor Protocol
+last_updated: 2026-04-22
 ---
 
-# Marty Gras -- Venture Index
+# Marty Gras – Venture Index
 
 Personal media company. The Architect of Vibe. Podcast, Epiphany newsletter on Substack and cultural curation across all platforms.
 
+## The Manor Protocol
+
+All work follows The Manor Protocol – five phases, two hard gates, creative excellence as the governing standard. Full definition in `Agents/_index.md`.
+
+**Lifecycle:** Reconnaissance > Direction [gate] > Execution > Critique [gate] > Release
+
 ## Navigation
 
-| Department | Purpose | Start Here |
+### Seven Studios
+
+| Studio | Craft | Start Here |
 |---|---|---|
-| Foundation/ | Philanthropy, community, cultural initiatives | Foundation/_index.md |
-| Administration/ | Legal, compliance, policies, brand protection | Administration/_index.md |
-| Finances/ | Revenue models, subscriptions, sponsorships, merch | Finances/_index.md |
-| Business Development/ | Audience growth, partnerships, collaborations | Business Development/_index.md |
-| Marketing & Sales/ | Content distribution, social strategy, engagement | Marketing & Sales/_index.md |
-| Operations/ | Content pipeline, production workflows, tools, SOPs | Operations/_index.md |
-| Product Development/ | Content products -- newsletter, podcast, social | Product Development/_index.md |
-| Human Resources/ | Team, contractors, collaborators | Human Resources/_index.md |
-| Knowledge Base/ | Cultural references, audience insights, research | Knowledge Base/_index.md |
+| Creative/ | Editorial direction, voice, brand system, content product definitions | Creative/_index.md |
+| Strategy/ | Audience research, platform intelligence, cultural positioning | Strategy/_index.md |
+| Production/ | Podcast, newsletter, social and video production | Production/_index.md |
+| Growth/ | Audience growth, partnerships, sponsorships, collaborations, guests | Growth/_index.md |
+| Operations/ | Content pipeline, scheduling, tool stack, clientele management | Operations/_index.md |
+| Finance/ | Revenue, expenses, projections, tax, metrics | Finance/_index.md |
+| Administration/ | Legal, licensing, brand protection, policies, HR | Administration/_index.md |
 
-## Agent Routing
+### Shared Resources
 
-When a task arrives, load the relevant department `_index.md` first. Each department index contains: purpose, file inventory, which files to read for common tasks and what belongs vs. does not belong in that department.
+| Resource | Purpose | Start Here |
+|---|---|---|
+| Knowledge Base/ | Cultural references, audience insights, research library | Knowledge Base/_index.md |
+| Foundation/ | Community initiatives, cultural philanthropy, mentorship | Foundation/_index.md |
 
-### Load order for agents
+### Shared Governance
 
-1. This file -- orient to the venture
-2. `Operations/AI/agent-guidelines.md` -- know the rules
-3. Relevant department `_index.md` -- find the right files
-4. Specific file for the task at hand
+| File | Purpose |
+|---|---|
+| Agents/_index.md | The Manor Protocol definition |
+| Agents/agent-guidelines.md | Execution tiers, red lines, approval gates |
+| Agents/department-heads.md | Role definitions and specialist seats |
+| Agents/integrations.md | Plugin and tool connections |
+| brand-fingerprint.md | Visual identity, colour system, typography, production standards |
 
 ## Active State
 
 - Current MRR: $0
-- Active clients: N/A -- audience, not clients
-- Current priority: To be set
+- Active audience relationships: N/A – pre-launch
+- Current priority: Launch preparation – Epiphany newsletter and podcast foundations
 - Active campaign: None
 
 ## Key Registries
 
-- Content products: `Product Development/_index.md`
-- Collaborator and sponsor roster: `Operations/Clientele/_clients-registry.md`
+- Brand fingerprint: `brand-fingerprint.md`
+- Content products: `Creative/_index.md`
+- Clientele roster (sponsors, collaborators, guests): `Operations/Clientele/_clients-registry.md`
 - SOP catalogue: `Operations/SOPs/_sop-registry.md`
+- Department heads: `Agents/department-heads.md`
 
 ## Frontmatter Standard
 

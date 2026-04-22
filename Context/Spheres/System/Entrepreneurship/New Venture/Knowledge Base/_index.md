@@ -1,50 +1,38 @@
 ---
-file_type: department_index
-department: Knowledge Base
-last_updated: "{YYYY-MM-DD}"
+file_type: reference
+venture: "{Venture Name}"
+status: template
+last_updated: 2026-04-22
 ---
 
-# Knowledge Base
+# Knowledge Base – {Venture Name}
 
-Institutional memory. Case studies, industry research, proprietary methodologies, and AI agent learnings. The reference library that gets smarter over time.
+Industry research, competitive intelligence and the accumulated knowledge that informs product and brand decisions. A shared resource that compounds over time.
 
-## Structure
+### What Belongs Here
 
-```
-Knowledge Base/
-├── Case Studies/
-│   ├── case-study-template.md     -- Standard format for all case studies
-│   └── {Industry or Client}/
-│       └── {case-study-name}.md
-├── Research/
-│   ├── industry-trends.md         -- Market movements and opportunities
-│   ├── competitive-landscape.md   -- Who else plays in this space
-│   └── buyer-behavior.md          -- How the ICP makes decisions
-├── Methodologies/
-│   ├── discovery-methodology.md   -- Proprietary discovery framework
-│   └── delivery-methodology.md    -- How we execute, what makes it different
-└── AI Learnings/
-    ├── prompt-library.md          -- Proven prompts for client work
-    └── tool-evaluation-notes.md   -- What works, what does not
-```
+- Industry research and market intelligence
+- Competitive landscape analysis and case studies
+- Consumer behaviour and trend reports
+- Methodology documentation for core operations
+- AI learnings specific to the venture's domain
 
-## Agent Instructions
+### What Does Not Belong Here
 
-- When drafting thought leadership content, check `Research/` for current data.
-- When pitching a prospect, search `Case Studies/` for relevant proof points.
-- When starting a new type of engagement, check `Methodologies/` for the framework.
-- `AI Learnings/prompt-library.md` contains proven prompts -- use these as starting points rather than inventing from scratch.
-- **Contributing back:** When you discover an effective prompt, technique, or insight during client work, add it to the relevant file. This is how the knowledge base compounds.
+- Personal sphere research – that lives in the personal Notion workspace under Sphere Manager
+- Other venture research – each venture is isolated
+- Active product or service development files – those go in Production
 
-## What Belongs Here
+### Subdirectories
 
-- Documented client results and case studies
-- Industry and competitive research
-- Proprietary frameworks and methodologies
-- AI agent learnings and prompt engineering
+| Folder | Contents |
+|---|---|
+| Agents/ | Specialist roster, workflow registry, quality criteria |
+| AI Learnings/ | Insights from AI-assisted research and operations |
+| Case Studies/ | Breakdowns of relevant brands, campaigns or initiatives |
+| Methodologies/ | Documented approaches to development, sourcing and delivery |
+| Research/ | Market research, consumer insights, trend reports |
 
-## What Does Not Belong Here
+### Current State
 
-- Client-specific strategy docs (Operations/Clientele/)
-- Active research for a specific prospect (Business Development/)
-- Offer definitions (Product Development/)
+Empty. Knowledge base populated as research begins during {Stage} phase.

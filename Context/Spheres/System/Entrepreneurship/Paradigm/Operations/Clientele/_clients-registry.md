@@ -6,7 +6,7 @@ status: active
 last_updated: 2026-04-05
 ---
 
-# Client Registry -- Paradigm
+# Client Registry – Paradigm
 
 Master roster of all wholesale accounts, retail partners and key customer relationships.
 
@@ -14,25 +14,25 @@ Master roster of all wholesale accounts, retail partners and key customer relati
 
 | Account | Type | Territory | Monthly Volume | Start Date | Contract End | Folder |
 |---|---|---|---|---|---|---|
-| -- | -- | -- | -- | -- | -- | -- |
+| – | – | – | – | – | – | – |
 
 ## Active Retail Partners
 
 | Partner | Location | Product Lines | Status | Folder |
 |---|---|---|---|---|
-| -- | -- | -- | -- | -- |
+| – | – | – | – | – |
 
 ## Key Customer Accounts
 
 | Customer | Type | LTV | Status | Notes |
 |---|---|---|---|---|
-| -- | -- | -- | -- | -- |
+| – | – | – | – | – |
 
 ## Archived Relationships
 
 | Name | Type | Duration | Archived Date | Reason | Folder |
 |---|---|---|---|---|---|
-| -- | -- | -- | -- | -- | -- |
+| – | – | – | – | – | – |
 
 ## Summary
 

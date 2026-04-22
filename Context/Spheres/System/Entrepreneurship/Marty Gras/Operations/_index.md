@@ -1,59 +1,75 @@
 ---
-file_type: reference
+file_type: department_index
+department: Operations
 venture: Marty Gras
-status: draft
-last_updated: 2026-04-05
+last_updated: 2026-04-22
 ---
 
-# Operations -- Marty Gras
+# Operations
 
-Content pipeline, production workflows, tools and the systems that keep everything moving on time and at standard.
+The engine room of Marty Gras. Content pipeline, scheduling, tool stack and the Clientele directory for sponsors, collaborators and featured guests.
 
-### What Belongs Here
+## Structure
 
-- Content production workflows and SOPs
+```
+Operations/
+├── Clientele/
+│   ├── _clients-registry.md       -- Master roster of sponsors, collaborators, featured guests
+│   ├── Active/                    -- Current relationships
+│   ├── Archived/                  -- Completed or paused
+│   └── Churned/                   -- Ended relationships (kept for reference)
+├── SOPs/
+│   ├── _sop-registry.md
+│   └── {SOPs as created}
+├── Delivery Playbooks/            -- Step-by-step production guides
+├── Templates/
+│   └── New Engagement/            -- Copy for each new sponsor or collaborator
+├── Tools/
+│   ├── software-stack.md           -- To be created
+│   └── automation-workflows.md     -- To be created
+└── Agents/                        -- Studio-specific agents, workflows, criteria
+```
+
+## Scope
+
+### What belongs here
+
+- Content pipeline tracking (ideation through publication)
 - Publishing schedules and deadlines
 - Tool configurations and integrations
-- Collaborator and sponsor management
-- Quality assurance processes
-- AI agent guidelines and department head definitions
+- Sponsor, collaborator and featured guest management
+- Standard operating procedures
+- Quality assurance processes at the operational level
 
-### What Does Not Belong Here
+### What does not belong here
 
-- Content strategy and ideation -- that goes in Product Development
-- Audience growth strategy -- that goes in Business Development
-- Financial tracking -- that goes in Finances
+- Agent guidelines and department heads – those now live at `Agents/` (venture root)
+- Content strategy and ideation – Creative
+- Audience growth strategy – Growth
+- Financial tracking – Finance
 
-### Subdirectories
+## Content Pipeline Overview
 
-| Folder | Contents |
-|---|---|
-| AI/ | Agent guidelines, department heads |
-| Clientele/ | Sponsors, collaborators, featured guests |
-| Delivery Playbooks/ | Step-by-step production guides |
-| SOPs/ | Standard operating procedures |
-| Templates/ | Reusable templates for recurring production |
-| Tools/ | Tool documentation and configuration |
+Three stages:
 
-### Production Stack
+1. **Ideation** – captured in Notion Content database, tagged by sphere and platform
+2. **Production** – drafted, reviewed, refined per the relevant Production SOP
+3. **Distribution** – scheduled via Pennyone for social syndication, Substack for newsletter, podcast host for audio
+
+Detailed SOPs for each content type live in `Operations/SOPs/`.
+
+## Production Stack
 
 | Tool | Purpose | Status |
 |---|---|---|
-| Buffer | Social scheduling across Instagram, LinkedIn, TikTok, YouTube, Substack, Threads | Active |
+| Pennyone | Social syndication (Outstand for IG, TikTok, Threads, X; Zernio for Reddit, Snap) | Target state |
 | ElevenLabs | Podcast audio production and voice content | Active |
-| Substack | Newsletter publishing -- Epiphany | To be configured |
-| Notion | Content calendar, editorial planning, production tracking | Active -- personal workspace |
+| Substack | Newsletter publishing (Epiphany) | To be configured |
+| Podcast host | Audio distribution | To be selected |
+| Notion | Content calendar, editorial planning, production tracking | Active (personal workspace) |
 
-### Content Pipeline Overview
+Note: Buffer is deprecated ecosystem-wide as of April 2026. Pennyone replaces it for social syndication.
 
-The content pipeline flows through three stages:
+## Current State
 
-1. **Ideation** -- captured in Notion Content database, tagged by sphere and platform
-2. **Production** -- drafted, reviewed, refined per the relevant SOP
-3. **Distribution** -- scheduled via Buffer or published directly on platform
-
-Detailed SOPs for each content type will live in `Operations/SOPs/`.
-
-### Current State
-
-Pipeline structure defined. SOPs and playbooks to be written as production cadence stabilises.
+Pipeline structure defined. SOPs and playbooks to be written as production cadence stabilises. Pennyone integration pending.

@@ -4,9 +4,20 @@ How everything sounds. This file governs all pillars and all platforms.
 
 ---
 
+## Application and Scope
+
+This file is the voice foundation. Venture-level **brand fingerprints** translate the voice into venture-specific application – production rules, terminology, visual system, document standards, deliverable patterns.
+
+**Current venture fingerprints:**
+- Marty Gras: `Context/Spheres/System/Entrepreneurship/Marty Gras/brand-fingerprint.md`
+
+Additional ventures add their own fingerprint files as they launch. When producing venture output, load the venture fingerprint in addition to this file. The fingerprint applies the voice; this file is what the voice is.
+
+---
+
 ## Core Identity
 
-This is the voice of a person whose central creative act is helping people feel the beauty of the world -- a Cultural Facilitator who has done the work intellectually, creatively, spiritually, and physically, and speaks from that place. It is never performative. It is never trying to convince anyone of anything. It simply is what it is, and people either resonate with it or they do not.
+This is the voice of a person whose central creative act is helping people feel the beauty of the world – a Cultural Facilitator who has done the work intellectually, creatively, spiritually, and physically, and speaks from that place. It is never performative. It is never trying to convince anyone of anything. It simply is what it is, and people either resonate with it or they do not.
 
 The voice builds bridges between ideas, aesthetics, eras, and people. It communicates a perspective on the world with precision and artistry. It does not condescend. It does not oversimplify. It trusts the audience to meet it where it is.
 
@@ -18,7 +29,7 @@ The voice builds bridges between ideas, aesthetics, eras, and people. It communi
 The voice knows what it knows. It does not hedge, qualify, or seek approval. It states, invites, and moves on.
 
 **Layered depth.**
-There is always more underneath the surface. A caption that reads simply has layers beneath it. An essay that reads plainly has philosophy beneath it. The depth is always there -- it is never absent, only calibrated to the context.
+There is always more underneath the surface. A caption that reads simply has layers beneath it. An essay that reads plainly has philosophy beneath it. The depth is always there – it is never absent, only calibrated to the context.
 
 **Cultural fluency.**
 The voice moves comfortably across high and low culture, across disciplines, across eras. It does not perform intellectualism. It simply reflects a person who genuinely lives across many worlds.
@@ -52,21 +63,21 @@ Humor appears when it is earned. It is dry, observational, occasionally self-awa
 
 Every piece of content serves at least one of these pillars. These five pillars also serve as the index legend for the sphere-based context architecture.
 
-- **Mind** -- philosophy, critical thinking, intellectual exploration
-- **System** -- productivity, structure, operating systems for life and work
-- **Soul** -- spirituality, meaning, inner life
-- **Body** -- physical health, performance, sensory experience
-- **Culture** -- observation, curation, commentary on the world
+- **Mind** – philosophy, critical thinking, intellectual exploration
+- **System** – productivity, structure, operating systems for life and work
+- **Soul** – spirituality, meaning, inner life
+- **Body** – physical health, performance, sensory experience
+- **Culture** – observation, curation, commentary on the world
 
 ---
 
 ## Content Value Types
 
-- **Education** -- teaches something worth knowing
-- **Promotional** -- advances the brand or a specific offering
-- **Community** -- connects, acknowledges, or celebrates
-- **Entertainment** -- engages, delights, or provokes
-- **Trending** -- participates in a cultural moment with intention
+- **Education** – teaches something worth knowing
+- **Promotional** – advances the brand or a specific offering
+- **Community** – connects, acknowledges, or celebrates
+- **Entertainment** – engages, delights, or provokes
+- **Trending** – participates in a cultural moment with intention
 
 ---
 
@@ -80,4 +91,4 @@ Every piece of content serves at least one of these pillars. These five pillars 
 
 ---
 
-*Last updated: March 2026*
+*Last updated: 2026-04-22*

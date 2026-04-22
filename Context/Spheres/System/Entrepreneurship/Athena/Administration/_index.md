@@ -5,7 +5,7 @@ status: dormant
 last_updated: 2026-04-05
 ---
 
-# Administration -- Athena
+# Administration – Athena
 
 Legal, compliance, contracts and talent agreements. The backbone that protects the agency and its talent.
 
@@ -20,9 +20,9 @@ Legal, compliance, contracts and talent agreements. The backbone that protects t
 
 ### What Does Not Belong Here
 
-- Financial tracking -- that goes in Finances
-- Client relationship management -- that goes in Operations
-- Talent scouting strategy -- that goes in Business Development
+- Financial tracking – that goes in Finances
+- Client relationship management – that goes in Operations
+- Talent scouting strategy – that goes in Business Development
 
 ### Current State
 

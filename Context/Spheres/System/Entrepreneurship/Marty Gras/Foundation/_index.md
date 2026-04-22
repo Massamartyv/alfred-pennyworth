@@ -5,7 +5,7 @@ status: draft
 last_updated: 2026-04-05
 ---
 
-# Foundation -- Marty Gras
+# Foundation – Marty Gras
 
 Philanthropy, community and cultural initiatives. Where the brand gives back and invests in the culture it draws from.
 
@@ -18,9 +18,9 @@ Philanthropy, community and cultural initiatives. Where the brand gives back and
 
 ### What Does Not Belong Here
 
-- Revenue-generating partnerships -- those go in Business Development
-- Sponsored content -- that goes in Marketing & Sales
-- Personal charitable giving -- that lives in personal finance, not venture scope
+- Revenue-generating partnerships – those go in Business Development
+- Sponsored content – that goes in Marketing & Sales
+- Personal charitable giving – that lives in personal finance, not venture scope
 
 ### Current State
 

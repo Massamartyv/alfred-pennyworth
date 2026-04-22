@@ -6,9 +6,9 @@ status: active
 last_updated: 2026-04-05
 ---
 
-# Athena -- Venture Index
+# Athena – Venture Index
 
-Modeling agency. Currently dormant -- the structure exists as scaffolding for reactivation.
+Modeling agency. Currently dormant – the structure exists as scaffolding for reactivation.
 
 > **This venture is dormant.** No active revenue, no active talent roster, no active operations. All files below are structural placeholders. When Athena reactivates, populate each department index with live data and update this file's stage to the appropriate phase.
 
@@ -32,9 +32,9 @@ When a task arrives, load the relevant department `_index.md` first. Each depart
 
 ### Load order for agents
 
-1. This file -- orient to the venture
-2. `Operations/AI/agent-guidelines.md` -- know the rules
-3. Relevant department `_index.md` -- find the right files
+1. This file – orient to the venture
+2. `Operations/AI/agent-guidelines.md` – know the rules
+3. Relevant department `_index.md` – find the right files
 4. Specific file for the task at hand
 
 ## Active State
@@ -42,7 +42,7 @@ When a task arrives, load the relevant department `_index.md` first. Each depart
 - Current MRR: $0
 - Active talent: 0
 - Active clients: 0
-- Current priority: Dormant -- awaiting reactivation
+- Current priority: Dormant – awaiting reactivation
 - Active campaign: None
 
 ## Key Registries

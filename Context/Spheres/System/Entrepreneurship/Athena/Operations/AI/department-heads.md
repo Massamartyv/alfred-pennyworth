@@ -6,9 +6,9 @@ status: dormant
 last_updated: 2026-04-05
 ---
 
-# Department Heads -- Athena
+# Department Heads – Athena
 
-The organisational structure of AI-assisted roles within Athena. Each department head is a role that Alfred assumes or dispatches a subagent into when work enters that department's scope. Department heads are not separate AI models -- they are role definitions that shape context loading and execution parameters.
+The organisational structure of AI-assisted roles within Athena. Each department head is a role that Alfred assumes or dispatches a subagent into when work enters that department's scope. Department heads are not separate AI models – they are role definitions that shape context loading and execution parameters.
 
 ---
 
@@ -67,7 +67,7 @@ When a task enters the system:
 
 **Scope:**
 - Agency brand positioning and visual identity
-- Talent marketing materials -- portfolios, comp cards, social content
+- Talent marketing materials – portfolios, comp cards, social content
 - Agency website and digital presence
 - Industry event strategy and representation
 
@@ -101,4 +101,4 @@ All department heads are currently role definitions only. When ready to automate
 
 ---
 
-*Athena -- Department Heads v1.0 -- April 2026*
+*Athena – Department Heads v1.0 – April 2026*

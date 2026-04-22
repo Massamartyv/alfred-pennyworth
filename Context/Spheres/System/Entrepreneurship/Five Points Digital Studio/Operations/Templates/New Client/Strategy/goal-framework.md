@@ -6,7 +6,7 @@ status: draft
 last_updated: "{YYYY-MM-DD}"
 ---
 
-# {Client Name} -- Goal Framework
+# {Client Name} – Goal Framework
 
 ## Primary Goal
 

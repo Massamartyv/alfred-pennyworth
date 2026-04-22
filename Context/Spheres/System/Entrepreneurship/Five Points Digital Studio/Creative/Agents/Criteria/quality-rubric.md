@@ -14,7 +14,7 @@ The four non-negotiable criteria that govern all creative output from this studi
 
 ## 1. Brand Alignment
 
-**The question:** Does it feel like us -- or like the client it represents?
+**The question:** Does it feel like us – or like the client it represents?
 
 ### Excellent
 - Voice, visual and messaging are indistinguishable from the brand's best existing work
@@ -40,7 +40,7 @@ The four non-negotiable criteria that govern all creative output from this studi
 ### Excellent
 - A genuine point of view that could only come from this brand
 - Avoids category conventions, template-feeling output and safe choices
-- Surprises without confusing -- fresh but comprehensible
+- Surprises without confusing – fresh but comprehensible
 - References culture in a way that is specific and earned, not decorative
 
 ### Acceptable
@@ -63,15 +63,15 @@ The four non-negotiable criteria that govern all creative output from this studi
 ### Excellent
 - Typography is properly scaled, spaced and hierarchical
 - Colour values are exact and intentional
-- Copy rhythm is deliberate -- sentence length varies with purpose
-- Word choice is precise -- every word earns its place
+- Copy rhythm is deliberate – sentence length varies with purpose
+- Word choice is precise – every word earns its place
 - Layout and spatial relationships feel designed, not defaulted
 - Passes the grammar audit without exceptions
 
 ### Acceptable
 - Technically correct and properly formatted
 - No obvious errors in typography, colour or copy
-- Functional but not elevated -- the details are fine, not exceptional
+- Functional but not elevated – the details are fine, not exceptional
 
 ### Failing
 - Spelling, grammar or punctuation errors
@@ -128,6 +128,6 @@ The bar adjusts by stakes, not by convenience:
 The Editor does not fix. The Editor evaluates. When work is returned to Execution, the revision notes must be specific:
 
 - **Not:** "The copy needs work."
-- **Instead:** "The headline is category-generic -- it reads like any agency could have written it. Needs a sharper angle that only Five Points would take."
+- **Instead:** "The headline is category-generic – it reads like any agency could have written it. Needs a sharper angle that only Five Points would take."
 
 Vague critique produces vague revision. Precise critique produces excellent work.

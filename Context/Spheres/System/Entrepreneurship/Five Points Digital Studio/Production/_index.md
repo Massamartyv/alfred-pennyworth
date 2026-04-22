@@ -13,11 +13,11 @@ Web development, media production and deliverable builds. The execution engine t
 
 ```
 Production/
-  _index.md              -- This file
-  Agents/                -- Department-specific agents, workflows, criteria
-    _index.md            -- Agent roster and workflow registry
-    Workflows/           -- Named Manor Protocol sequences
-    Criteria/            -- Quality rubrics and evaluation standards
+  _index.md              – This file
+  Agents/                – Department-specific agents, workflows, criteria
+    _index.md            – Agent roster and workflow registry
+    Workflows/           – Named Manor Protocol sequences
+    Criteria/            – Quality rubrics and evaluation standards
 ```
 
 ## Scope
@@ -44,7 +44,7 @@ Production/
 
 - Production work lives primarily in the Execution phase
 - Creator crew operates here most frequently
-- Load the relevant creative brief before building -- never build without direction
+- Load the relevant creative brief before building – never build without direction
 - All client-facing deliverables pass through Critique before Release
 - Code commits follow conventional commit standards (no character)
 

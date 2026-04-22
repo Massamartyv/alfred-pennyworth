@@ -13,15 +13,15 @@ Legal, policies, compliance, HR, team structure and governance. The structural b
 
 ```
 Administration/
-  _index.md              -- This file
-  Legal/                 -- Service agreements, NDAs, SOWs, contractor agreements
-  Compliance/            -- Business registration, insurance, data protection
-  Policies/              -- Communication standards, confidentiality, quality standards
-  HR/                    -- Team structure, contractor management, hiring, culture
-  Agents/                -- Department-specific agents, workflows, criteria
-    _index.md            -- Agent roster and workflow registry
-    Workflows/           -- Named Manor Protocol sequences
-    Criteria/            -- Quality rubrics and evaluation standards
+  _index.md              – This file
+  Legal/                 – Service agreements, NDAs, SOWs, contractor agreements
+  Compliance/            – Business registration, insurance, data protection
+  Policies/              – Communication standards, confidentiality, quality standards
+  HR/                    – Team structure, contractor management, hiring, culture
+  Agents/                – Department-specific agents, workflows, criteria
+    _index.md            – Agent roster and workflow registry
+    Workflows/           – Named Manor Protocol sequences
+    Criteria/            – Quality rubrics and evaluation standards
 ```
 
 ## Scope

@@ -6,9 +6,9 @@ status: active
 last_updated: "{YYYY-MM-DD}"
 ---
 
-# {Client Name} -- Meeting Notes
+# {Client Name} – Meeting Notes
 
-## {YYYY-MM-DD} -- {Meeting Type}
+## {YYYY-MM-DD} – {Meeting Type}
 
 **Attendees:** {Names}
 **Duration:** {X minutes}
@@ -21,8 +21,8 @@ last_updated: "{YYYY-MM-DD}"
 - {Decision and rationale}
 
 **Action items:**
-- [ ] {Action} -- {Owner} -- {Due date}
-- [ ] {Action} -- {Owner} -- {Due date}
+- [ ] {Action} – {Owner} – {Due date}
+- [ ] {Action} – {Owner} – {Due date}
 
 ---
 

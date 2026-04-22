@@ -13,11 +13,11 @@ Market intelligence, competitive analysis, positioning and research. The thinkin
 
 ```
 Strategy/
-  _index.md              -- This file
-  Agents/                -- Department-specific agents, workflows, criteria
-    _index.md            -- Agent roster and workflow registry
-    Workflows/           -- Named Manor Protocol sequences
-    Criteria/            -- Quality rubrics and evaluation standards
+  _index.md              – This file
+  Agents/                – Department-specific agents, workflows, criteria
+    _index.md            – Agent roster and workflow registry
+    Workflows/           – Named Manor Protocol sequences
+    Criteria/            – Quality rubrics and evaluation standards
 ```
 
 ## Scope

@@ -6,33 +6,33 @@ status: active
 last_updated: 2026-04-05
 ---
 
-# Client and Guest Registry -- Lillie and Lynette
+# Client and Guest Registry – Lillie and Lynette
 
-Master roster of key clients, VIP guests, event bookings and vendor relationships. In hospitality, relationships are the product -- this file tracks the ones that matter most.
+Master roster of key clients, VIP guests, event bookings and vendor relationships. In hospitality, relationships are the product – this file tracks the ones that matter most.
 
 ## VIP Guests
 
 | Guest | Relationship | Preferences | Last Visit | Status | Notes |
 |---|---|---|---|---|---|
-| -- | -- | -- | -- | -- | -- |
+| – | – | – | – | – | – |
 
 ## Event Bookings
 
 | Client | Event Type | Date | Venue | Value | Status | Folder |
 |---|---|---|---|---|---|---|
-| -- | -- | -- | -- | -- | -- | -- |
+| – | – | – | – | – | – | – |
 
 ## Active Vendors
 
 | Vendor | Category | Contact | Contract End | Status | Folder |
 |---|---|---|---|---|---|
-| -- | -- | -- | -- | -- | -- |
+| – | – | – | – | – | – |
 
 ## Archived Relationships
 
 | Name | Type | Duration | Archived Date | Reason | Folder |
 |---|---|---|---|---|---|
-| -- | -- | -- | -- | -- | -- |
+| – | – | – | – | – | – |
 
 ## Summary
 

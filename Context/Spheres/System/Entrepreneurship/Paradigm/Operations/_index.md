@@ -1,50 +1,60 @@
 ---
 file_type: reference
 venture: Paradigm
-status: draft
-last_updated: 2026-04-05
+status: active
+last_updated: 2026-04-22
 ---
 
-# Operations -- Paradigm
+# Operations – Paradigm
 
-Fulfilment, supply chain, quality control, tools and the systems that keep everything moving on time and at standard.
+Fulfilment, supply chain, quality control, tools and the systems that keep everything moving on time and at standard. Operations is the engine room – it does not decide what gets built, it makes sure what gets built actually reaches the customer cleanly.
 
-### What Belongs Here
+---
+
+## What Belongs Here
 
 - Supply chain and fulfilment workflows
-- Quality control and testing protocols
-- Inventory management
-- Tool configurations and integrations
-- Customer service processes
-- AI agent guidelines and department head definitions
+- Inventory management and reorder cadence
+- Quality control intake and testing coordination
+- 3PL and shipping operations
+- Customer service workflows and feedback capture
+- Clientele account management – wholesale and retail partner accounts after deal close
 - Standard operating procedures
+- Tool configurations and integrations
+- Distribution operations handoff from Growth
 
-### What Does Not Belong Here
+## What Does Not Belong Here
 
-- Product formulation and R&D -- that goes in Product Development
-- Marketing campaigns -- those go in Marketing & Sales
-- Financial tracking -- that goes in Finances
+- Product formulation and R&D – that goes in Production
+- Manufacturing runs – those go in Production/Manufacturing
+- Brand marketing and acquisition campaigns – those go in Growth
+- Financial tracking – that goes in Finance
+- Agent governance and guidelines – those live at venture root in `Agents/`
 
-### Subdirectories
+## Subdirectories
 
 | Folder | Contents |
 |---|---|
-| AI/ | Agent guidelines, department heads |
-| Clientele/ | Customer accounts, wholesale accounts |
-| Delivery Playbooks/ | Step-by-step fulfilment and service guides |
+| Agents/ | Specialist roster, workflow registry, quality criteria |
+| Clientele/ | Wholesale and retail partner account folders, active and archived |
 | SOPs/ | Standard operating procedures |
-| Templates/ | Reusable templates for recurring operations |
-| Tools/ | Tool documentation and configuration |
+| Tools/ | Tool configuration and integration documentation (to be created) |
+| Templates/ | Reusable templates for recurring operations (to be created) |
 
-### Operations Stack
+## Operations Stack
 
 | Tool | Purpose | Status |
 |---|---|---|
 | To be selected | E-commerce platform | Not yet active |
 | To be selected | Inventory management | Not yet active |
-| To be selected | Fulfilment and shipping | Not yet active |
-| To be selected | Customer service | Not yet active |
+| To be selected | 3PL and fulfilment | Not yet active |
+| To be selected | Customer service platform | Not yet active |
 
-### Current State
+## Current State
 
-Pre-operational. Operations infrastructure to be designed alongside product development.
+Pre-operational. Operations infrastructure to be designed alongside product development. First SOPs reserved in `SOPs/_sop-registry.md` with IDs PD-001 through PD-005.
+
+## Key Registries
+
+- Client roster: `Clientele/_clients-registry.md`
+- SOP catalogue: `SOPs/_sop-registry.md`

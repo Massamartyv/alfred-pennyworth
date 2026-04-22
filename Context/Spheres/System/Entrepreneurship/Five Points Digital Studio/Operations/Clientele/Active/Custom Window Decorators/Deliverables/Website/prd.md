@@ -1,4 +1,4 @@
-# Custom Window Decorators Inc -- Landing Page PRD
+# Custom Window Decorators Inc – Landing Page PRD
 
 > **Purpose:** Product Requirements Document bridging the brand audit of Custom Window Decorators Inc with a full homepage redesign. Built on the Vibe Coding PRD framework. Designed for AI-assisted development with Springs Estate as the design reference benchmark.
 
@@ -7,7 +7,7 @@
 ## 1. Project Grounding and Objective
 
 - **Project Name:** CWD Luxury Redesign
-- **Client/Brand:** Custom Window Decorators Inc -- Lewiston, Maine
+- **Client/Brand:** Custom Window Decorators Inc – Lewiston, Maine
 - **Primary Objective:** A high-conversion landing page that repositions a 37-year family-owned window treatment company as the definitive luxury craftsman in Central Maine, targeting affluent homeowners within a 50 to 100 mile radius.
 - **Current Site:** customwindowdecorators.com (WordPress, dated design, no mobile optimization, generic template aesthetic)
 - **Design Reference:** springs.estate (architectural-grade parallax storytelling, full-viewport sections, reveal animations, gradient overlays, premium typography)
@@ -18,15 +18,15 @@
 
 ### Core Feeling / Atmosphere
 
-Quiet luxury meets New England heritage. The site should feel like walking into a beautifully designed room where the light falls perfectly -- warm, intentional, unhurried. Every element earns its space. Nothing competes for attention. The window treatments are the architecture of light itself.
+Quiet luxury meets New England heritage. The site should feel like walking into a beautifully designed room where the light falls perfectly – warm, intentional, unhurried. Every element earns its space. Nothing competes for attention. The window treatments are the architecture of light itself.
 
 ### The Tension
 
-**Timeless craft** (37 years, family heritage, hand-finished details, the physical weight of fabric) **held in tension with** **contemporary restraint** (clean digital surfaces, deliberate negative space, modern typography, smooth scroll-driven reveals). The site should feel like a heritage brand that never stopped evolving -- not a legacy business that finally "got a website."
+**Timeless craft** (37 years, family heritage, hand-finished details, the physical weight of fabric) **held in tension with** **contemporary restraint** (clean digital surfaces, deliberate negative space, modern typography, smooth scroll-driven reveals). The site should feel like a heritage brand that never stopped evolving – not a legacy business that finally "got a website."
 
 ### Animation and Interaction Philosophy
 
-Borrowed directly from the Springs Estate playbook: smooth, parallax-driven, scroll-triggered. Animations are gravitational -- elements drift into view with the weight and patience of heavy drapery falling into place. No bouncing, no snapping, no eagerness. Interactions reward scrolling with new visual layers. Hover states are subtle shifts in opacity or position, never color explosions. Page transitions dissolve rather than cut. The scroll itself is the primary interaction -- the user reveals the story by moving through it.
+Borrowed directly from the Springs Estate playbook: smooth, parallax-driven, scroll-triggered. Animations are gravitational – elements drift into view with the weight and patience of heavy drapery falling into place. No bouncing, no snapping, no eagerness. Interactions reward scrolling with new visual layers. Hover states are subtle shifts in opacity or position, never color explosions. Page transitions dissolve rather than cut. The scroll itself is the primary interaction – the user reveals the story by moving through it.
 
 Specific patterns from Springs Estate to adapt:
 - Full-viewport sticky sections that layer over each other via clip-path reveals
@@ -38,10 +38,10 @@ Specific patterns from Springs Estate to adapt:
 
 ### Visual References
 
-- **springs.estate/about** -- What we are taking: the full-viewport parallax architecture, sticky section layering, clip-path reveal transitions, gradient overlays, split-screen compositions, typographic scale, and the scroll-as-narrative pacing. The way sections dissolve into each other rather than stack.
-- **springs.estate (home)** -- What we are taking: the hero treatment (background image with overlay text and scroll indicator), the stats/credibility section pattern, the panoramic image section breaks, the contact modal pattern.
-- **customwindowdecorators.com** -- What we are keeping: the brand identity essence (navy/teal), the family heritage story, the service-area authority, the product breadth. Everything else is being elevated.
-- **mcs.maranacook.org** -- Palette contribution: the purple-to-plum range provides depth and unexpected sophistication when refined for a luxury context.
+- **springs.estate/about** – What we are taking: the full-viewport parallax architecture, sticky section layering, clip-path reveal transitions, gradient overlays, split-screen compositions, typographic scale, and the scroll-as-narrative pacing. The way sections dissolve into each other rather than stack.
+- **springs.estate (home)** – What we are taking: the hero treatment (background image with overlay text and scroll indicator), the stats/credibility section pattern, the panoramic image section breaks, the contact modal pattern.
+- **customwindowdecorators.com** – What we are keeping: the brand identity essence (navy/teal), the family heritage story, the service-area authority, the product breadth. Everything else is being elevated.
+- **mcs.maranacook.org** – Palette contribution: the purple-to-plum range provides depth and unexpected sophistication when refined for a luxury context.
 
 ---
 
@@ -91,23 +91,23 @@ Two source palettes (CWD and Maranacook) merged through the lens of the Springs 
 | Source | Contributed | Transformed Into | Role |
 |---|---|---|---|
 | CWD #112124 (navy) | Brand anchor dark | Obsidian #0D1A1C | Deepened 15% for richer contrast against warm neutrals |
-| CWD #36adbf (teal) | Brand accent | Patina #36ADBF | Retained as-is -- recognizable equity |
-| CWD #257885 (hover teal) | Interactive state | Heirloom Teal #257885 | Promoted from hover to primary brand color -- more sophisticated than the brighter teal |
-| Maranacook #662e80 (purple) | Institutional purple | Twilight Plum #4A2D5E | Darkened 30%, desaturated 20% -- kills the "school" read, introduces depth |
+| CWD #36adbf (teal) | Brand accent | Patina #36ADBF | Retained as-is – recognizable equity |
+| CWD #257885 (hover teal) | Interactive state | Heirloom Teal #257885 | Promoted from hover to primary brand color – more sophisticated than the brighter teal |
+| Maranacook #662e80 (purple) | Institutional purple | Twilight Plum #4A2D5E | Darkened 30%, desaturated 20% – kills the "school" read, introduces depth |
 | Maranacook #3bb5b5 (teal) | Secondary accent | Merged into Patina | Confirmed the teal as shared DNA between both palettes |
 | Springs Estate #F5E8D1 | Warm cream | Linen #F5EDE0 | Slightly cooled to prevent yellowing on screens while keeping warmth |
-| Springs Estate #162D24 | Forest green | Dusk #1A2F2A | Lightened marginally -- used as secondary dark to prevent monotone |
-| New addition | -- | Aged Gold #B8976A | Luxury signifier. Bridges warm neutrals and cool teals. The "premium" tell. |
+| Springs Estate #162D24 | Forest green | Dusk #1A2F2A | Lightened marginally – used as secondary dark to prevent monotone |
+| New addition | – | Aged Gold #B8976A | Luxury signifier. Bridges warm neutrals and cool teals. The "premium" tell. |
 
 ### Color Usage Rules
 
 1. Dark sections (hero, footer, feature blocks) use Obsidian as base with Dusk as gradient endpoint
 2. Light sections use Linen as base with Sandstone for cards and alternate rows
-3. Heirloom Teal is the only CTA color -- never use Patina for primary actions
+3. Heirloom Teal is the only CTA color – never use Patina for primary actions
 4. Twilight Plum appears sparingly: gradient accents, decorative borders, typographic details
 5. Aged Gold is reserved for premium signifiers: badges, trust indicators, accent borders
 6. Body text on Linen uses Stone (#6B6560). Body text on Obsidian uses Linen (#F5EDE0)
-7. Never place Patina text on Linen -- insufficient contrast. Use Heirloom Teal instead
+7. Never place Patina text on Linen – insufficient contrast. Use Heirloom Teal instead
 
 ---
 
@@ -130,7 +130,7 @@ Two source palettes (CWD and Maranacook) merged through the lens of the Springs 
 - CSS Grid for page-level layout. 12-column system. Max container width: 1440px. Content padding: clamp(1.5rem, 4vw, 6rem)
 - 8pt spacing system globally. All margins, paddings, and gaps are multiples of 8px
 - Fluid typography using clamp(): minimum at 320px viewport, maximum at 1440px
-- Full-viewport sections (min-height: 100svh) for hero and feature blocks -- matching Springs Estate's architectural pacing
+- Full-viewport sections (min-height: 100svh) for hero and feature blocks – matching Springs Estate's architectural pacing
 - Every section gets a semantic ID for scroll-nav targeting and SEO anchor linking
 
 ### Typography Scale
@@ -182,16 +182,16 @@ Two source palettes (CWD and Maranacook) merged through the lens of the Springs 
 ### Component Design
 
 - Each section is a self-contained component with its own CSS module
-- Props define content, not layout -- layout is determined by the component
+- Props define content, not layout – layout is determined by the component
 - No component depends on another component's internal structure
-- All interactive components have visible focus states (2px solid var(--heirloom-teal) with 2px offset)
-- Motion respects `prefers-reduced-motion: reduce` -- all parallax and reveals fall back to static
+- All interactive components have visible focus states (2px solid var(–heirloom-teal) with 2px offset)
+- Motion respects `prefers-reduced-motion: reduce` – all parallax and reveals fall back to static
 
 ---
 
 ## 6. Scope and Mechanics (The Map)
 
-### Page: `/` (Home -- Landing Page)
+### Page: `/` (Home – Landing Page)
 
 **Goal:** Convert affluent homeowners within 50 to 100 miles of Lewiston into consultation requests. Establish CWD as the premier window treatment authority in Maine.
 
@@ -201,10 +201,10 @@ Two source palettes (CWD and Maranacook) merged through the lens of the Springs 
 
 ### Section 1: Hero (Full Viewport, Sticky)
 
-**Pattern:** Springs Estate intro section -- full-bleed background image with gradient overlay, headline reveal, scroll indicator
+**Pattern:** Springs Estate intro section – full-bleed background image with gradient overlay, headline reveal, scroll indicator
 
 **Content:**
-- Pre-headline (caption): "Lewiston, Maine -- Since 1987"
+- Pre-headline (caption): "Lewiston, Maine – Since 1987"
 - Headline (display): "The Architecture of Light"
 - Sub-headline (body-lg): "Custom window treatments crafted for homes that demand more than a covering"
 - CTA: "Schedule Your Consultation" (scroll-link to contact section)
@@ -218,19 +218,19 @@ Two source palettes (CWD and Maranacook) merged through the lens of the Springs 
 - Sticky positioning so next section scrolls over it (Springs pattern)
 
 **Image Art Direction:**
-- A wide, editorial shot of a luxury living room with floor-to-ceiling windows. Sheer linen drapery filters warm afternoon light across hardwood floors. The room has that quiet, lived-in affluence -- not staged, not sterile. Think Architectural Digest editorial, Maine lake house energy. Color grading: warm, slightly desaturated, golden hour. No people. The drapery is the protagonist.
+- A wide, editorial shot of a luxury living room with floor-to-ceiling windows. Sheer linen drapery filters warm afternoon light across hardwood floors. The room has that quiet, lived-in affluence – not staged, not sterile. Think Architectural Digest editorial, Maine lake house energy. Color grading: warm, slightly desaturated, golden hour. No people. The drapery is the protagonist.
 
 ---
 
 ### Section 2: Brand Essence (Full Viewport, Split Screen)
 
-**Pattern:** Springs Estate a-about section -- clip-path reveal, image left / content right, independent parallax
+**Pattern:** Springs Estate a-about section – clip-path reveal, image left / content right, independent parallax
 
 **Content (right panel, dark background with gradient):**
 - Section label (caption, aged-gold): "Our Craft"
 - Headline (h2): "37 Years of Transforming Maine Homes"
-- Body: "What began as a vertical blind workshop in 1987 has grown into Central Maine's most comprehensive window treatment studio. Founded by Mike Favreau, Custom Window Decorators serves homeowners who understand that the right window treatment does not just dress a room -- it defines how light, privacy and atmosphere work together."
-- Secondary body: "From motorized solar shades that respond to your phone to hand-sewn drapery that falls with the weight of real craft -- every installation carries three decades of expertise."
+- Body: "What began as a vertical blind workshop in 1987 has grown into Central Maine's most comprehensive window treatment studio. Founded by Mike Favreau, Custom Window Decorators serves homeowners who understand that the right window treatment does not just dress a room – it defines how light, privacy and atmosphere work together."
+- Secondary body: "From motorized solar shades that respond to your phone to hand-sewn drapery that falls with the weight of real craft – every installation carries three decades of expertise."
 - Small inset image (bottom right, parallax)
 
 **Technical:**
@@ -240,17 +240,17 @@ Two source palettes (CWD and Maranacook) merged through the lens of the Springs 
 - Both panels have independent parallax scales (1.2 to 1.0)
 - Dark gradient overlay on right panel: Obsidian to Twilight Plum at 135 degrees
 
-**Image Art Direction -- Large (Left Panel):**
-- Close-up detail shot of hands adjusting a Roman shade mechanism -- the craft moment. Shallow depth of field. The hands are weathered, capable. The fabric is rich, textured. Warm, natural light from the window being dressed. This is the "heritage" image -- it says "people make this, not machines." Shot feels editorial, not stock.
+**Image Art Direction – Large (Left Panel):**
+- Close-up detail shot of hands adjusting a Roman shade mechanism – the craft moment. Shallow depth of field. The hands are weathered, capable. The fabric is rich, textured. Warm, natural light from the window being dressed. This is the "heritage" image – it says "people make this, not machines." Shot feels editorial, not stock.
 
-**Image Art Direction -- Small (Right Inset):**
-- A tight crop of layered fabric samples fanning out on a wooden surface. Linen, silk, wool -- tactile and warm. Natural light. The palette of the fabrics echoes the site palette: creams, teals, soft golds. Overhead or 45-degree angle. Think materials palette in an architect's studio.
+**Image Art Direction – Small (Right Inset):**
+- A tight crop of layered fabric samples fanning out on a wooden surface. Linen, silk, wool – tactile and warm. Natural light. The palette of the fabrics echoes the site palette: creams, teals, soft golds. Overhead or 45-degree angle. Think materials palette in an architect's studio.
 
 ---
 
 ### Section 3: Transformation Gallery (Full Viewport, Parallax Background)
 
-**Pattern:** Springs Estate a-overview section -- large background image with floating text overlay, scroll-driven opacity and position
+**Pattern:** Springs Estate a-overview section – large background image with floating text overlay, scroll-driven opacity and position
 
 **Content:**
 - Headline (h2, over image): "Every window tells a different story. We listen to what yours is asking for."
@@ -263,13 +263,13 @@ Two source palettes (CWD and Maranacook) merged through the lens of the Springs 
 - Scroll-snap point at section start
 
 **Image Art Direction:**
-- Panoramic interior shot -- a dramatic window wall with layered treatments visible: sheers underneath, heavier drapes pulled to the sides, a motorized shade tucked into the valance. The room is expansive. You can see Maine landscape through the windows -- trees, maybe a glimpse of water. Late afternoon light creates long shadows. The mood is cinematic. Color grading: warm with deep shadows, almost chiaroscuro. This is the "transformation" image -- the before is implied by how dramatic the after looks.
+- Panoramic interior shot – a dramatic window wall with layered treatments visible: sheers underneath, heavier drapes pulled to the sides, a motorized shade tucked into the valance. The room is expansive. You can see Maine landscape through the windows – trees, maybe a glimpse of water. Late afternoon light creates long shadows. The mood is cinematic. Color grading: warm with deep shadows, almost chiaroscuro. This is the "transformation" image – the before is implied by how dramatic the after looks.
 
 ---
 
 ### Section 4: Services Grid (Standard Scroll, Light Background)
 
-**Pattern:** Custom -- editorial grid with staggered reveals, adapting Springs Estate's photo grid parallax for service cards
+**Pattern:** Custom – editorial grid with staggered reveals, adapting Springs Estate's photo grid parallax for service cards
 
 **Content:**
 Six service cards, each with:
@@ -305,26 +305,26 @@ Each card:
 - Each card links to future service detail page (href defined, page not yet built)
 
 **Image Art Direction (per card):**
-1. Drapery -- flowing curtain fabric caught in a gentle breeze from an open window. Ethereal, slow-motion feel.
-2. Motorized -- a shade descending smoothly in a modern kitchen. Clean lines. A phone visible on the counter with the shade app.
-3. Shutters -- plantation shutters in a sunlit bathroom. Slats partially open, light streaming through in sharp lines.
-4. Shades -- a cellular shade in a cozy reading nook. Winter light outside. The shade glows warmly from transmitted light.
-5. Valances -- an ornate swag valance over a dining room window. Formal, rich fabric, tassels. The table below is set for dinner.
-6. Commercial -- a dramatic stage curtain in deep burgundy, partially open, with stage lights visible. Scale and grandeur.
+1. Drapery – flowing curtain fabric caught in a gentle breeze from an open window. Ethereal, slow-motion feel.
+2. Motorized – a shade descending smoothly in a modern kitchen. Clean lines. A phone visible on the counter with the shade app.
+3. Shutters – plantation shutters in a sunlit bathroom. Slats partially open, light streaming through in sharp lines.
+4. Shades – a cellular shade in a cozy reading nook. Winter light outside. The shade glows warmly from transmitted light.
+5. Valances – an ornate swag valance over a dining room window. Formal, rich fabric, tassels. The table below is set for dinner.
+6. Commercial – a dramatic stage curtain in deep burgundy, partially open, with stage lights visible. Scale and grandeur.
 
 ---
 
 ### Section 5: Trust and Authority (Full Viewport, Dark)
 
-**Pattern:** Springs Estate stats/credibility section adapted -- large numbers with supporting text, editorial layout
+**Pattern:** Springs Estate stats/credibility section adapted – large numbers with supporting text, editorial layout
 
 **Content:**
 - Section label (caption, aged-gold): "By the Numbers"
 - Stats row:
-  - "37" -- "Years of Continuous Operation"
-  - "24+" -- "Product Categories"
-  - "100" -- "Mile Service Radius"
-  - "1987" -- "Family-Owned Since"
+  - "37" – "Years of Continuous Operation"
+  - "24+" – "Product Categories"
+  - "100" – "Mile Service Radius"
+  - "1987" – "Family-Owned Since"
 - Testimonial block (if available, placeholder for now):
   - Pull quote in Cormorant italic
   - Attribution with location
@@ -338,18 +338,18 @@ Each card:
 - Partner logos in a single row, grayscale filter, hover reveals color
 
 **Image Art Direction:**
-- No primary image in this section. The typography and numbers are the visual. Optionally: a subtle, very low-opacity texture overlay -- linen fabric weave pattern at 3 to 5% opacity over the dark background, adding tactile depth without competing.
+- No primary image in this section. The typography and numbers are the visual. Optionally: a subtle, very low-opacity texture overlay – linen fabric weave pattern at 3 to 5% opacity over the dark background, adding tactile depth without competing.
 
 ---
 
 ### Section 6: Shop From Home (Split Screen, Light)
 
-**Pattern:** Springs Estate split-screen adapted -- image right, content left
+**Pattern:** Springs Estate split-screen adapted – image right, content left
 
 **Content:**
 - Section label (caption, aged-gold): "The Experience"
 - Headline (h2): "Your Home Is Our Showroom"
-- Body: "We bring the showroom to you -- fabric samples, measurement tools and 37 years of expertise, all in your living room. No high-pressure sales. No guesswork. We use your natural light, your existing decor and your actual windows to recommend treatments that work in your space, not in a fluorescent-lit store."
+- Body: "We bring the showroom to you – fabric samples, measurement tools and 37 years of expertise, all in your living room. No high-pressure sales. No guesswork. We use your natural light, your existing decor and your actual windows to recommend treatments that work in your space, not in a fluorescent-lit store."
 - Process steps (numbered, minimal):
   1. "Call or request a consultation online"
   2. "We visit your home with curated samples"
@@ -366,24 +366,24 @@ Each card:
 - CTA button: Heirloom Teal background, Linen text, subtle hover scale (1.02)
 
 **Image Art Direction:**
-- A consultant (or just their hands) spreading fabric samples across a homeowner's dining table. The home is clearly upscale -- you see crown molding, a quality light fixture, a window in the background. The samples are fanned out beautifully. Two coffee cups visible. The mood is collaborative, intimate, unhurried. Natural light. Shallow depth of field on the fabrics. This is the "white-glove service" image.
+- A consultant (or just their hands) spreading fabric samples across a homeowner's dining table. The home is clearly upscale – you see crown molding, a quality light fixture, a window in the background. The samples are fanned out beautifully. Two coffee cups visible. The mood is collaborative, intimate, unhurried. Natural light. Shallow depth of field on the fabrics. This is the "white-glove service" image.
 
 ---
 
 ### Section 7: Service Area (Minimal, Light)
 
-**Pattern:** Custom -- map-adjacent section with geographic authority content
+**Pattern:** Custom – map-adjacent section with geographic authority content
 
 **Content:**
 - Headline (h3): "Serving Central Maine and Beyond"
-- Body: "Based in Lewiston with a working radius of 100 miles, we serve homeowners across Androscoggin, Cumberland, Kennebec, Oxford, Sagadahoc and Lincoln counties. From Portland waterfront condos to Augusta Victorians to lakeside retreats in the Belgrade Lakes -- if the project is right, we will be there."
+- Body: "Based in Lewiston with a working radius of 100 miles, we serve homeowners across Androscoggin, Cumberland, Kennebec, Oxford, Sagadahoc and Lincoln counties. From Portland waterfront condos to Augusta Victorians to lakeside retreats in the Belgrade Lakes – if the project is right, we will be there."
 - Cities list (for SEO and AEO): Lewiston, Auburn, Portland, South Portland, Brunswick, Augusta, Waterville, Bangor, Scarborough, Falmouth, Freeport, Bath, Topsham, Gardiner, Belgrade Lakes, Rangeley, Bethel, Norway, Bridgton, Windham, Gorham, Westbrook
 - CTA: "Check If We Serve Your Area" (opens contact with pre-filled "service area inquiry")
 
 **Technical:**
 - Sandstone background
 - Cities rendered as a flowing inline list with en-dash separators, Heirloom Teal color
-- Optional: subtle CSS-only map outline of Maine with service radius indicator (decorative, not interactive -- avoid Google Maps embed for performance)
+- Optional: subtle CSS-only map outline of Maine with service radius indicator (decorative, not interactive – avoid Google Maps embed for performance)
 - Section doubles as rich geo-content for search engines and AI agents
 
 ---
@@ -414,7 +414,7 @@ Each card:
 **Technical:**
 - Obsidian background with Dusk gradient
 - Form card on Sandstone background (contrast against dark section) with generous padding
-- Form validation: client-side with clear error states (var(--error) border + message)
+- Form validation: client-side with clear error states (var(–error) border + message)
 - Submit triggers: email notification to info@customwindowdecorators.com (v1: Formspree or similar; v2: Supabase edge function)
 - Contact details styled with `<address>` semantic tag
 - Schema.org ContactPoint structured data embedded
@@ -425,7 +425,7 @@ Each card:
 
 **Content:**
 - Logo (simplified mark)
-- Tagline: "The Architecture of Light -- Since 1987"
+- Tagline: "The Architecture of Light – Since 1987"
 - Navigation links: Services, About, Gallery, Contact, Privacy Policy
 - Social: Facebook link
 - Address block with schema markup
@@ -621,15 +621,15 @@ AEO ensures AI agents (ChatGPT, Claude, Perplexity, Google AI Overviews) can par
 3. **Content Strategy for AI Discoverability:**
    - Every section contains natural-language sentences that directly answer common queries (not keyword-stuffed, but query-shaped)
    - Service descriptions use the exact phrasing someone would ask an AI: "custom window treatments in Lewiston Maine," "motorized shades Maine," "free window treatment consultation"
-   - Geographic content is explicit and comprehensive -- AI agents need entity-rich text to make local recommendations
+   - Geographic content is explicit and comprehensive – AI agents need entity-rich text to make local recommendations
    - The service area section contains all city names in running prose, not hidden in metadata
    - FAQ content is both schema-marked and visible on the page
 
 4. **Entity Optimization:**
    - Business name, address, phone (NAP) consistent across all structured data, visible content, and footer
    - Founder name explicitly mentioned (entity association)
-   - Brand partner names (Hunter Douglas, Lutron, Somfy, Silhouette) mentioned in context -- AI agents use brand associations for recommendation ranking
-   - "Since 1987" and "37 years" appear in multiple contexts -- longevity is a primary trust signal for AI recommendations
+   - Brand partner names (Hunter Douglas, Lutron, Somfy, Silhouette) mentioned in context – AI agents use brand associations for recommendation ranking
+   - "Since 1987" and "37 years" appear in multiple contexts – longevity is a primary trust signal for AI recommendations
 
 ### Performance Budget
 
@@ -682,9 +682,9 @@ AEO ensures AI agents (ChatGPT, Claude, Perplexity, Google AI Overviews) can par
 ## 9. AI Mega-Prompt Injection
 
 > **SYSTEM PROMPT INJECTION:**
-> "You are an elite, design-obsessed engineer building the CWD Luxury Redesign for Custom Window Decorators Inc of Lewiston, Maine. You will strictly use Next.js 14 App Router with vanilla CSS (structured design tokens in CSS custom properties -- no Tailwind, no utility classes). Your output must feel like quiet luxury meets New England heritage -- warm, intentional, unhurried. Every element earns its space. Prioritize premium vanilla CSS with semantic class names over any utility framework. Maintain the aesthetic tension between timeless craft (37 years of heritage, the physical weight of fabric, hand-finished details) and contemporary restraint (clean digital surfaces, deliberate negative space, smooth scroll-driven reveals). Use GSAP with ScrollTrigger for parallax, sticky sections, and scroll-triggered reveals. Use Framer Motion for component-level transitions. Animations feel gravitational -- heavy, patient, like drapery falling into place. The consolidated color palette anchors on Obsidian (#0D1A1C), Heirloom Teal (#257885), Linen (#F5EDE0), and Aged Gold (#B8976A). Typography pairs Cormorant Garamond (display/headlines) with DM Sans (body). Adhere strictly to an 8pt spacing grid. Full-viewport sections (100svh) for hero and feature blocks. All images use Next.js Image with WebP, responsive srcset, and lazy loading below the fold. Every section must contain natural-language content optimized for both traditional SEO and agentic engine discoverability. Target Lighthouse 95+. WCAG AA minimum. The site should feel like springs.estate rebuilt for a window treatment craftsman in Maine."
+> "You are an elite, design-obsessed engineer building the CWD Luxury Redesign for Custom Window Decorators Inc of Lewiston, Maine. You will strictly use Next.js 14 App Router with vanilla CSS (structured design tokens in CSS custom properties – no Tailwind, no utility classes). Your output must feel like quiet luxury meets New England heritage – warm, intentional, unhurried. Every element earns its space. Prioritize premium vanilla CSS with semantic class names over any utility framework. Maintain the aesthetic tension between timeless craft (37 years of heritage, the physical weight of fabric, hand-finished details) and contemporary restraint (clean digital surfaces, deliberate negative space, smooth scroll-driven reveals). Use GSAP with ScrollTrigger for parallax, sticky sections, and scroll-triggered reveals. Use Framer Motion for component-level transitions. Animations feel gravitational – heavy, patient, like drapery falling into place. The consolidated color palette anchors on Obsidian (#0D1A1C), Heirloom Teal (#257885), Linen (#F5EDE0), and Aged Gold (#B8976A). Typography pairs Cormorant Garamond (display/headlines) with DM Sans (body). Adhere strictly to an 8pt spacing grid. Full-viewport sections (100svh) for hero and feature blocks. All images use Next.js Image with WebP, responsive srcset, and lazy loading below the fold. Every section must contain natural-language content optimized for both traditional SEO and agentic engine discoverability. Target Lighthouse 95+. WCAG AA minimum. The site should feel like springs.estate rebuilt for a window treatment craftsman in Maine."
 
 ---
 
 *Last updated: April 2026*
-*Five Points Digital Studio -- Client: Custom Window Decorators Inc*
+*Five Points Digital Studio – Client: Custom Window Decorators Inc*

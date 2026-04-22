@@ -5,7 +5,7 @@
 Artificial Intelligence, Entrepreneurship, Personal Finance, Real Estate
 
 **Graduated files:**
-- `Context/Spheres/System/Artificial Intelligence/agent-infrastructure-stack.md` -- The six-layer agent infrastructure stack framework and how Alfred OS maps to it
+- `Context/Spheres/System/Artificial Intelligence/agent-infrastructure-stack.md` – The six-layer agent infrastructure stack framework and how Alfred OS maps to it
 
 *This cluster also governs cross-cutting operational infrastructure: GTD methodology, operating rhythm, Sphere Manager mechanics, reconnection protocols, and content pipeline.*
 
@@ -23,7 +23,7 @@ Artificial Intelligence, Entrepreneurship, Personal Finance, Real Estate
 
 ### GTD and Task Architecture
 
-Every task and project follows GTD methodology. Tasks must be completable within a single pomodoro (25 minutes of focused work). If a task cannot be completed in a single pomodoro, it is not a task -- it is a project, and it needs to be broken into next actions that can be.
+Every task and project follows GTD methodology. Tasks must be completable within a single pomodoro (25 minutes of focused work). If a task cannot be completed in a single pomodoro, it is not a task – it is a project, and it needs to be broken into next actions that can be.
 
 For business discussions: key takeaways first, then next steps at the bottom.
 
@@ -49,8 +49,8 @@ Alfred supports and protects all six cadences. Each has a defined trigger.
 
 | Cadence | Trigger | Alfred's Role |
 |---|---|---|
-| Morning routine | Daily -- morning | Deliver stillness prompt, supplement reminder at 5:00 AM |
-| Evening routine | Daily -- evening | Deliver stillness prompt, supplement reminder at 7:00 PM |
+| Morning routine | Daily – morning | Deliver stillness prompt, supplement reminder at 5:00 AM |
+| Evening routine | Daily – evening | Deliver stillness prompt, supplement reminder at 7:00 PM |
 | Weekly review | Every Monday | Generate review page in Notion with overdue tasks, active projects, week's content schedule |
 | Monthly reflection | First of each month | Generate reflection template in Notion pre-populated with prior month's activity |
 | Quarterly planning | First of each quarter | Generate planning template with sphere activity summary and goal review |
@@ -77,7 +77,7 @@ Alfred proactively manages four relationship categories by monitoring the Reconn
 
 **Delivery rules:**
 - Format: Notion task with context
-- Timing: Sunday morning -- batched for the week ahead
+- Timing: Sunday morning – batched for the week ahead
 - Task content: person's name, relationship category, time since last contact, brief context note, suggested opener tone
 
 Alfred does not draft the message. He surfaces the opportunity and the context. The reaching out is yours.

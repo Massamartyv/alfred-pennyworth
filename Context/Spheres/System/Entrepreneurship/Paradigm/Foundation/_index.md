@@ -1,11 +1,11 @@
 ---
 file_type: reference
 venture: Paradigm
-status: draft
-last_updated: 2026-04-05
+status: active
+last_updated: 2026-04-22
 ---
 
-# Foundation -- Paradigm
+# Foundation – Paradigm
 
 Philanthropy, community wellness initiatives and giving. Where the brand invests in the health of the communities it serves.
 
@@ -13,15 +13,15 @@ Philanthropy, community wellness initiatives and giving. Where the brand invests
 
 - Community health programmes and wellness initiatives
 - Charitable partnerships and giving strategy
-- Educational outreach -- workshops, classes, free resources
+- Educational outreach – workshops, classes, free resources
 - Environmental and sustainability commitments
 - Mentorship for underserved communities in health and wellness
 
 ### What Does Not Belong Here
 
-- Revenue-generating partnerships -- those go in Business Development
-- Marketing campaigns with a charitable angle -- those go in Marketing & Sales
-- Personal charitable giving -- that lives in personal finance, not venture scope
+- Revenue-generating partnerships – those go in Business Development
+- Marketing campaigns with a charitable angle – those go in Marketing & Sales
+- Personal charitable giving – that lives in personal finance, not venture scope
 
 ### Current State
 

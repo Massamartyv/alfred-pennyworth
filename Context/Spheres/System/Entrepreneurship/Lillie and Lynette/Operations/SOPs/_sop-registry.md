@@ -6,7 +6,7 @@ status: active
 last_updated: 2026-04-05
 ---
 
-# SOP Registry -- Lillie and Lynette
+# SOP Registry – Lillie and Lynette
 
 Catalogue of all standard operating procedures for Lillie and Lynette hospitality operations.
 

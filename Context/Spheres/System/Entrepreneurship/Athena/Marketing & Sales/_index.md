@@ -5,7 +5,7 @@ status: dormant
 last_updated: 2026-04-05
 ---
 
-# Marketing & Sales -- Athena
+# Marketing & Sales – Athena
 
 Agency positioning, talent marketing, portfolio presentation and brand presence.
 
@@ -20,9 +20,9 @@ Agency positioning, talent marketing, portfolio presentation and brand presence.
 
 ### What Does Not Belong Here
 
-- Talent scouting -- that goes in Business Development
-- Booking fulfilment -- that goes in Operations
-- Service tier definitions -- those go in Product Development
+- Talent scouting – that goes in Business Development
+- Booking fulfilment – that goes in Operations
+- Service tier definitions – those go in Product Development
 
 ### Current State
 

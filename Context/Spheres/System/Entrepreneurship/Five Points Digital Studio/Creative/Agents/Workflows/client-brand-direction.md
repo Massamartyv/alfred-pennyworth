@@ -9,7 +9,7 @@ last_updated: 2026-04-07
 
 # Client Brand Direction
 
-Ongoing creative direction for existing clients -- ensuring their output stays on-brand across all touchpoints. This is a recurring workflow, not a one-time project. It runs continuously for the duration of the client engagement.
+Ongoing creative direction for existing clients – ensuring their output stays on-brand across all touchpoints. This is a recurring workflow, not a one-time project. It runs continuously for the duration of the client engagement.
 
 ---
 
@@ -23,7 +23,7 @@ Ongoing creative direction for existing clients -- ensuring their output stays o
 - Monitor competitor brand evolution
 - Surface cultural shifts that may affect the client's positioning
 
-**Output:** Brand health check -- observations, drift flags, opportunities.
+**Output:** Brand health check – observations, drift flags, opportunities.
 
 **Cadence:** Monthly for retainer clients. Ad hoc when triggered by new output review.
 

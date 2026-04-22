@@ -13,10 +13,10 @@ Institutional memory for Five Points. Case studies, research, methodologies, and
 
 ```
 Knowledge Base/
-├── Case Studies/              -- Client results documented
-├── Research/                  -- Industry trends, competitive intel
-├── Methodologies/             -- Proprietary frameworks
-└── AI Learnings/              -- Proven prompts, tool evaluations
+├── Case Studies/              – Client results documented
+├── Research/                  – Industry trends, competitive intel
+├── Methodologies/             – Proprietary frameworks
+└── AI Learnings/              – Proven prompts, tool evaluations
 ```
 
 ## Agent Instructions

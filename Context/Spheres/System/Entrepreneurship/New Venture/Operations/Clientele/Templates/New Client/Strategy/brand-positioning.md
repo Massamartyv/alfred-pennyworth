@@ -6,7 +6,7 @@ status: draft
 last_updated: "{YYYY-MM-DD}"
 ---
 
-# {Client Name} -- Brand Positioning
+# {Client Name} – Brand Positioning
 
 ## Positioning Statement
 

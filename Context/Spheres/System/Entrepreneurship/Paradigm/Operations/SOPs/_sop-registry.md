@@ -6,7 +6,7 @@ status: active
 last_updated: 2026-04-05
 ---
 
-# SOP Registry -- Paradigm
+# SOP Registry – Paradigm
 
 Catalogue of all standard operating procedures for Paradigm operations.
 

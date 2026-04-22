@@ -1,4 +1,4 @@
-# Five Points Digital Studio -- $25K MRR Battle Plan
+# Five Points Digital Studio – $25K MRR Battle Plan
 
 ## The Target
 
@@ -14,7 +14,7 @@ $25,000 in monthly recurring revenue by September 30, 2026. At 40% owner distrib
 
 Alfred OS is not a side project. It is the working prototype of the Platinum-tier Human Construct engagement. Every sphere file, every agent definition, every MCP integration, every skill, every automation, every session log is a demonstration of what the product does at full depth.
 
-When a prospect asks "what does this look like when it is built?" the answer is not a slide deck. It is a live walkthrough of the system that runs your life and your ventures. The naming ceremony, the wrapper identity, the tool integrations, the context architecture, the agentic framework -- all of it exists, operational, evolving in real time.
+When a prospect asks "what does this look like when it is built?" the answer is not a slide deck. It is a live walkthrough of the system that runs your life and your ventures. The naming ceremony, the wrapper identity, the tool integrations, the context architecture, the agentic framework – all of it exists, operational, evolving in real time.
 
 This is the most powerful sales asset Five Points owns. Use it.
 
@@ -53,9 +53,9 @@ By Q2 2027, the Evolution book alone could carry half the $25K target. That is t
 
 ## Phase 0: Seal the Leaks and Launch (April 6 - April 13)
 
-Everything activates in the first week. Financial hygiene, front door, pipeline, Q2 intake window -- simultaneously.
+Everything activates in the first week. Financial hygiene, front door, pipeline, Q2 intake window – simultaneously.
 
-### Day 1: April 6 -- Launch Day
+### Day 1: April 6 – Launch Day
 
 The front door opens. Three channels go live at once.
 
@@ -69,7 +69,7 @@ The front door opens. Three channels go live at once.
 - [ ] Build the audit booking page with a five question intake form
 - [ ] Script the audit structure: 3 minutes context review, 7 minutes live demonstration, 5 minutes next steps
 
-**Channel 3: Q2 Intake Window -- Open Now**
+**Channel 3: Q2 Intake Window – Open Now**
 - [ ] Publish the application page for Silver, Gold and Platinum builds
 - [ ] Three concurrent build slots for Q2 (April-June delivery)
 - [ ] Announce across LinkedIn, personal network, existing clients
@@ -78,7 +78,7 @@ The front door opens. Three channels go live at once.
 
 - [ ] Move Adobe ($39.99/mo) to Five Points business debit card
 - [ ] Move Icons8 ($15/mo) to Five Points business debit card
-- [ ] Audit Instantly -- reactivate for targeted outbound, not volume
+- [ ] Audit Instantly – reactivate for targeted outbound, not volume
 - [ ] Set distribution schedule: 40% of net revenue transfers to personal on the first and fifteenth
 - [ ] Establish $500 buffer floor in personal checking on next deposit above $1,200
 
@@ -94,7 +94,7 @@ The fastest path to a Q2 build is someone who already knows you.
 
 - [ ] Audit the existing network for Human Construct prospects. Who fits the ICP?
 - [ ] Personal outreach to 10-15 warm contacts with the AI Audit offer
-- [ ] Offer existing retainer clients an AI Audit -- they already trust you
+- [ ] Offer existing retainer clients an AI Audit – they already trust you
 - [ ] Ask for referrals: "Who do you know running multiple ventures who would benefit from this?"
 
 ### Content (Ongoing from Week 1)
@@ -119,7 +119,7 @@ The fastest path to a Q2 build is someone who already knows you.
 - **Email 2:** Free AI Audit offer. 15 minutes, their context, live demonstration.
 - **Email 3:** Case study delivery. The Alfred OS story, anonymised or named depending on comfort.
 - **Email 4:** Bronze AI Blueprint offer with the 90 day credit toward a build.
-- **Email 5:** Q2 intake window -- three slots, limited availability. Application link.
+- **Email 5:** Q2 intake window – three slots, limited availability. Application link.
 
 **Volume and conversion (precision model):**
 
@@ -171,7 +171,7 @@ Q2 builds start as soon as clients are signed. No waiting for a formal intake wi
 | Gold (6-8 weeks) | 50-70 | 8-10 hrs/wk | 1-2 |
 | Platinum (10-14 weeks) | 100-140 | 10-14 hrs/wk | 1 |
 
-At one Gold and one Silver per quarter, total build hours are 70-95 -- roughly 6-8 hours per week. That leaves 60-70% of working hours for Evolution maintenance, Bronze delivery, supporting retainers, content, and business development.
+At one Gold and one Silver per quarter, total build hours are 70-95 – roughly 6-8 hours per week. That leaves 60-70% of working hours for Evolution maintenance, Bronze delivery, supporting retainers, content, and business development.
 
 ---
 
@@ -181,7 +181,7 @@ By August, first builds are completing and Evolution retainers are starting. Q3 
 
 - First completed builds generate case studies with real client metrics
 - Evolution clients begin at $3,000/mo, compounding the recurring base
-- Content shifts from "here is what I built" to "here is what I built for a client" -- the proof scales
+- Content shifts from "here is what I built" to "here is what I built for a client" – the proof scales
 - Q3 intake window opens with multiple case studies and a waitlist mechanic
 - Price increases for new builds based on demonstrated results
 
@@ -198,7 +198,7 @@ By August, first builds are completing and Evolution retainers are starting. Q3 
 | August | Second build completes, Evolution compounding | Builds, Evolution x2, Blueprints, retainers | $20,000-$25,000 |
 | September | Q3 builds active, Evolution book growing | Builds, Evolution x2-3, Blueprints, retainers | **$25,000+** |
 
-**$25K MRR by September.** The accelerated launch moves the first build deposit into May instead of July. That two month head start cascades through every subsequent milestone -- Evolution starts sooner, case studies land sooner, the compounding begins sooner.
+**$25K MRR by September.** The accelerated launch moves the first build deposit into May instead of July. That two month head start cascades through every subsequent milestone – Evolution starts sooner, case studies land sooner, the compounding begins sooner.
 
 ---
 
@@ -240,7 +240,7 @@ Track weekly. Every Friday. Six numbers.
 
 **The Proof is the Product:** Every session with Alfred deepens the proof of concept. Every sphere file, every agent, every integration is a line item in the most compelling sales asset Five Points will ever own. The work you do for yourself is the work that sells itself to others.
 
-**The Compounding Play:** Commoditised services create linear revenue -- you sell a retainer, you deliver a retainer, you sell another retainer. Human Construct creates compounding revenue -- you build a system, the system generates an Evolution retainer, the Evolution retainer compounds while you build the next system. By year two, the recurring base carries the business through any drought in new builds. That is the structural advantage. That is the moat.
+**The Compounding Play:** Commoditised services create linear revenue – you sell a retainer, you deliver a retainer, you sell another retainer. Human Construct creates compounding revenue – you build a system, the system generates an Evolution retainer, the Evolution retainer compounds while you build the next system. By year two, the recurring base carries the business through any drought in new builds. That is the structural advantage. That is the moat.
 
 **Michael Singer:** The fear at $15K, $25K, $50K is the same fear that appeared at $0. It wears a different suit each time. Do not contract around it. Let it pass through. The room on the other side is larger than the one you are standing in.
 

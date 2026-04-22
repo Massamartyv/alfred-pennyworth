@@ -6,7 +6,7 @@ status: draft
 last_updated: "{YYYY-MM-DD}"
 ---
 
-# {Client Name} -- Client Brief
+# {Client Name} – Client Brief
 
 ## The Business
 

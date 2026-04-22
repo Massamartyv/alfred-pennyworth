@@ -1,39 +1,53 @@
 ---
 file_type: reference
 venture: Paradigm
-status: draft
-last_updated: 2026-04-05
+status: active
+last_updated: 2026-04-22
 ---
 
-# Administration -- Paradigm
+# Administration – Paradigm
 
-Legal, compliance, regulatory affairs and brand protection. The structural backbone that keeps the venture legally sound and operationally clean -- particularly critical in health and wellness where regulatory scrutiny is high.
+Legal, FDA and FTC compliance, labelling, brand protection and HR. The structural backbone that keeps the venture legally sound and operationally clean. In a regulated category, Administration is not paperwork – it is a gate on what the brand is allowed to say and sell.
 
-### What Belongs Here
+---
+
+## What Belongs Here
 
 - Business entity documents and formation records
-- Trademark and intellectual property filings
-- FDA and FTC compliance documentation
-- Product labelling and claims compliance
-- Insurance and liability coverage
-- Privacy policies and terms of service
-- Supplier and manufacturer agreements
+- Trademark filings and intellectual property protection
+- FDA compliance – labelling, structure-function claims, supplement facts panels, cosmetic claims
+- FTC compliance – advertising truthfulness, endorsement rules, substantiation
+- State-level regulatory compliance – California Prop 65, state sales tax registrations
+- Supplier, manufacturer, co-packer and distribution agreements
+- Insurance and liability coverage – product liability, general liability, cyber
+- Privacy policies, terms of service, platform compliance
+- HR – team, contractors, advisors, culture, hiring plans
 
-### What Does Not Belong Here
+## What Does Not Belong Here
 
-- Financial records -- those go in Finances
-- Product formulation documents -- those go in Product Development
-- Partnership agreements with revenue terms -- those go in Business Development
+- Financial records – those go in Finance
+- Product formulation documents – those go in Production
+- Partnership pricing and terms negotiation – that starts in Growth before contracts move here
+- Customer data operations – those live in Operations
 
-### Subdirectories
+## Subdirectories
 
 | Folder | Contents |
 |---|---|
+| Agents/ | Specialist roster, workflow registry, quality criteria |
 | Compliance/ | FDA, FTC, state-level regulatory compliance, labelling requirements |
 | Identity/ | Entity documents, formation records, EIN |
-| Legal/ | Contracts, licensing, IP filings, liability |
-| Policies/ | Internal policies, health claims guidelines, privacy |
+| Legal/ | Contracts, supplier and manufacturer agreements, licensing, IP filings, liability |
+| Policies/ | Internal policies, health claims guidelines, privacy, terms of service |
+| Brand Protection/ | Trademark monitoring, brand misuse response, reputation management |
+| HR/ | Team, contractors, advisors, culture |
 
-### Current State
+## Current State
 
-No legal documents filed yet. Entity structure to be determined during ideation phase. Regulatory research for health and wellness products to begin early -- compliance shapes everything downstream.
+No legal documents filed yet. Entity structure, trademarks and regulatory research are earliest-priority Administration work. Compliance reading must start before any public-facing claim or label draft.
+
+## Key Registries
+
+- Compliance checklist per product type: `Compliance/_compliance-checklist.md` (to be created)
+- Active contracts: `Legal/_contracts-registry.md` (to be created)
+- Trademark registry: `Brand Protection/_trademarks.md` (to be created)

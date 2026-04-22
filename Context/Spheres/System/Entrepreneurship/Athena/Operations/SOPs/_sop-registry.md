@@ -6,7 +6,7 @@ status: dormant
 last_updated: 2026-04-05
 ---
 
-# SOP Registry -- Athena
+# SOP Registry – Athena
 
 Catalogue of all standard operating procedures for Athena operations.
 

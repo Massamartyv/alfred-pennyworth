@@ -28,7 +28,7 @@ No dedicated venture-scoped MCP connections. All operations fall through to pers
 |---|---|---|
 | Notion | Personal workspace | Content calendar, media database, sphere manager |
 | Buffer | Personal account | Social scheduling across Instagram, LinkedIn, TikTok, YouTube, Substack, Threads |
-| ElevenLabs | Personal account | Voice production for podcast and audio content. MCP key currently broken -- manual fix required. |
+| ElevenLabs | Personal account | Voice production for podcast and audio content. MCP key currently broken – manual fix required. |
 | Vercel | Personal account | Hosting for any Marty Gras web properties |
 | Supabase | Personal account | Backend for any Marty Gras web properties |
 
@@ -40,7 +40,7 @@ None.
 
 ---
 
-## Tool-Only -- No MCP Connection
+## Tool-Only – No MCP Connection
 
 These tools are used by Marty Gras but are not connected to Alfred via MCP. Alfred can reference them but cannot operate within them directly.
 

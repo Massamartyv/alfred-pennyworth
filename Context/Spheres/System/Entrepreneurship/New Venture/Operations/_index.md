@@ -1,65 +1,55 @@
 ---
-file_type: department_index
-department: Operations
-last_updated: "{YYYY-MM-DD}"
+file_type: reference
+venture: "{Venture Name}"
+status: template
+last_updated: 2026-04-22
 ---
 
-# Operations
+# Operations – {Venture Name}
 
-The engine room. Client delivery, standard operating procedures, delivery playbooks, tools, and the Clientele directory where all active client work lives.
+Delivery, supply chain, quality control, tools and the systems that keep everything moving on time and at standard. Operations is the engine room – it does not decide what gets built, it makes sure what gets built actually reaches the client or customer cleanly.
 
-## Structure
-
-```
-Operations/
-├── Clientele/
-│   ├── _clients-registry.md       -- Master roster of all clients
-│   ├── Active/                    -- Current engagements
-│   │   └── {Client Name}/
-│   │       ├── Onboarding/        -- Brief, terms, resources
-│   │       ├── Strategy/          -- Positioning, goals, quarterly strategy
-│   │       ├── Brand Assets/      -- Guidelines, templates, assets
-│   │       ├── Deliverables/      -- Organized by service type
-│   │       └── Administrative/    -- SOW, billing, meeting notes
-│   ├── Archived/                  -- Completed or paused engagements
-│   └── Churned/                   -- Lost clients (kept for reference)
-├── SOPs/
-│   ├── _sop-registry.md           -- Catalog of all SOPs
-│   ├── client-onboarding.md       -- New client launch process
-│   ├── project-delivery.md        -- Standard delivery workflow
-│   ├── quality-assurance.md       -- QA checklist before any delivery
-│   └── client-offboarding.md      -- Graceful exit process
-├── Delivery Playbooks/            -- Step-by-step execution by service type
-├── Templates/
-│   ├── New Client/                -- Copy this folder for each new client
-│   ├── monthly-report-template.md
-│   ├── meeting-agenda-template.md
-│   └── deliverables-checklist.md
-└── Tools/
-    ├── software-stack.md           -- All tools, access, purpose
-    ├── automation-workflows.md     -- Active automations and what they do
-    └── integration-docs.md         -- API connections and data flows
-```
-
-## Agent Instructions
-
-- **New client onboarding:** Copy `Templates/New Client/` into `Clientele/Active/{Client Name}/`. Fill in Onboarding/ files first.
-- **Client work:** Always check `_clients-registry.md` to understand the engagement before starting.
-- **Delivery:** Load the relevant SOP from `SOPs/` and the service-specific playbook from `Delivery Playbooks/`.
-- **Quality gate:** Run `SOPs/quality-assurance.md` before delivering anything to a client.
-- **Client transitions:** Move folder from Active/ to Archived/ or Churned/ -- do not delete.
+---
 
 ## What Belongs Here
 
-- All client-facing work and context
+- Delivery and fulfilment workflows
+- Inventory management and reorder cadence
+- Quality control intake and testing coordination
+- Customer and client service workflows and feedback capture
+- Clientele account management – partner and client accounts after deal close
 - Standard operating procedures
-- Delivery playbooks by service type
-- Reusable templates
-- Tool and infrastructure documentation
+- Tool configurations and integrations
 
 ## What Does Not Belong Here
 
-- Offer definitions (Product Development/)
-- Sales process (Marketing & Sales/)
-- Lead generation (Business Development/)
-- Financial frameworks (Finances/)
+- Product development and R&D – that goes in Production
+- Brand marketing and acquisition campaigns – those go in Growth
+- Financial tracking – that goes in Finance
+- Agent governance and guidelines – those live at venture root in `Agents/`
+
+## Subdirectories
+
+| Folder | Contents |
+|---|---|
+| Agents/ | Specialist roster, workflow registry, quality criteria |
+| Clientele/ | Client and partner account folders, active and archived |
+| SOPs/ | Standard operating procedures |
+| Tools/ | Tool configuration and integration documentation (to be created) |
+| Templates/ | Reusable templates for recurring operations |
+
+## Operations Stack
+
+| Tool | Purpose | Status |
+|---|---|---|
+| {Placeholder} | {Placeholder} | Not yet active |
+| {Placeholder} | {Placeholder} | Not yet active |
+
+## Current State
+
+Pre-operational. Operations infrastructure to be designed alongside product and service development.
+
+## Key Registries
+
+- Client roster: `Clientele/_clients-registry.md`
+- SOP catalogue: `SOPs/_sop-registry.md`

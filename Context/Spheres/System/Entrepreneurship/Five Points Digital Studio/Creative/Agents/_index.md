@@ -6,7 +6,7 @@ methodology: The Manor Protocol
 last_updated: 2026-04-07
 ---
 
-# Creative -- Agent Roster and Workflow Registry
+# Creative – Agent Roster and Workflow Registry
 
 The Creative studio is the aesthetic standard-bearer for Five Points and its clients. Every piece of work that enters or exits this studio is held to the quality rubric defined in `Criteria/quality-rubric.md`.
 
@@ -16,9 +16,9 @@ The Creative studio is the aesthetic standard-bearer for Five Points and its cli
 
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
-| **Head of Creative** | Department head. Holds the standard across all creative output. | All | -- |
+| **Head of Creative** | Department head. Holds the standard across all creative output. | All | – |
 | **Researcher** | Gathers references, mood, cultural signals, trends. The taste-driven intelligence gatherer. | Reconnaissance | Explorer |
-| **Brand Strategist** | Builds brand as a system -- positioning, voice, visual identity as interconnected pieces. Writes the brief. | Direction | Strategist |
+| **Brand Strategist** | Builds brand as a system – positioning, voice, visual identity as interconnected pieces. Writes the brief. | Direction | Strategist |
 | **Copywriter** | The pen. Copy, content, long-form, captions. Writes to the brief. | Execution | Creator |
 | **Art Director** | Visual thinking, aesthetic decisions, design direction. Directs to the brief. | Execution | Creator |
 | **Editor** | The quality eye. Holds output against the rubric and the brief. | Critique | Evaluator |
@@ -44,10 +44,10 @@ Not every task activates every role. A social caption may only need the Copywrit
 
 All creative output passes through Critique before Release. The evaluation criteria live in `Criteria/quality-rubric.md`. The four non-negotiable standards:
 
-1. **Brand alignment** -- Does it feel like us (or the client)?
-2. **Originality** -- Is it distinctive and free of cliche?
-3. **Craft and finish** -- Are the details precise?
-4. **Emotional resonance** -- Does it connect?
+1. **Brand alignment** – Does it feel like us (or the client)?
+2. **Originality** – Is it distinctive and free of cliche?
+3. **Craft and finish** – Are the details precise?
+4. **Emotional resonance** – Does it connect?
 
 Work that fails any one of the four does not release. It returns to Execution with specific notes on what must improve.
 

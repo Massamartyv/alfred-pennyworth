@@ -6,7 +6,7 @@ status: active
 last_updated: 2026-04-05
 ---
 
-# SOP Registry -- Marty Gras
+# SOP Registry – Marty Gras
 
 Catalogue of all standard operating procedures for Marty Gras content production and operations.
 

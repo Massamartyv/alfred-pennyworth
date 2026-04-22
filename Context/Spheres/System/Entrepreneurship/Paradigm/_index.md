@@ -3,50 +3,64 @@ file_type: venture_index
 venture: Paradigm
 venture_stage: Ideation
 status: active
-last_updated: 2026-04-05
+methodology: The Manor Protocol
+last_updated: 2026-04-22
 ---
 
-# Paradigm -- Venture Index
+# Paradigm – Venture Index
 
 Health and wellness brand. Reimagining how people relate to their bodies, minds and daily rituals. Stage: Ideation.
 
+## The Manor Protocol
+
+All work follows The Manor Protocol – five phases, two hard gates, creative excellence as the governing standard. Full definition in `Agents/_index.md`.
+
+**Lifecycle:** Reconnaissance > Direction [gate] > Execution > Critique [gate] > Release
+
 ## Navigation
 
-| Department | Purpose | Start Here |
+### Seven Studios
+
+| Studio | Craft | Start Here |
 |---|---|---|
-| Foundation/ | Philanthropy, community wellness initiatives, giving | Foundation/_index.md |
-| Administration/ | Legal, compliance, regulations, brand protection | Administration/_index.md |
-| Finances/ | Revenue models, projections, metrics, tax | Finances/_index.md |
-| Business Development/ | Partnerships, wholesale, distribution, pipeline | Business Development/_index.md |
-| Marketing & Sales/ | Brand marketing, sales channels, community engagement | Marketing & Sales/_index.md |
-| Operations/ | Fulfilment, SOPs, delivery, tools, AI systems | Operations/_index.md |
-| Product Development/ | Formulations, product lines, packaging, R&D | Product Development/_index.md |
-| Human Resources/ | Team, contractors, advisors, culture | Human Resources/_index.md |
-| Knowledge Base/ | Research, case studies, industry intelligence | Knowledge Base/_index.md |
+| Creative/ | Brand identity, visual direction, packaging, aesthetic standards | Creative/_index.md |
+| Strategy/ | Wellness industry research, competitive intelligence, positioning, consumer behaviour | Strategy/_index.md |
+| Production/ | Product formulation, manufacturing, packaging production, content production | Production/_index.md |
+| Growth/ | Sales, partnerships, wholesale, distribution, DTC channels | Growth/_index.md |
+| Operations/ | Fulfilment, supply chain, quality control, SOPs, clientele management | Operations/_index.md |
+| Finance/ | Revenue, COGS, expenses, projections, tax, metrics | Finance/_index.md |
+| Administration/ | Legal, FDA and FTC compliance, labelling, brand protection, HR | Administration/_index.md |
 
-## Agent Routing
+### Shared Resources
 
-When a task arrives, load the relevant department `_index.md` first. Each department index contains: purpose, file inventory, which files to read for common tasks and what belongs vs. does not belong in that department.
+| Resource | Purpose | Start Here |
+|---|---|---|
+| Knowledge Base/ | Ingredient science, case studies, industry research, methodologies | Knowledge Base/_index.md |
+| Foundation/ | Community wellness initiatives, philanthropy, education | Foundation/_index.md |
 
-### Load order for agents
+### Shared Governance
 
-1. This file -- orient to the venture
-2. `Operations/AI/agent-guidelines.md` -- know the rules
-3. Relevant department `_index.md` -- find the right files
-4. Specific file for the task at hand
+| File | Purpose |
+|---|---|
+| Agents/_index.md | The Manor Protocol definition |
+| Agents/agent-guidelines.md | Execution tiers, red lines, approval gates |
+| Agents/department-heads.md | Role definitions and specialist seats |
+
+Plugin scope is still to be determined. No `Agents/integrations.md` exists yet.
 
 ## Active State
 
 - Current MRR: $0
 - Active clients: 0
-- Current priority: To be set
+- Current priority: To be set – Strategy and Creative foundations during ideation
 - Active campaign: None
 
 ## Key Registries
 
-- Offer catalogue: `Product Development/_index.md`
+- Offer catalogue: `Growth/Offers/_offers-registry.md` (to be created)
 - Client roster: `Operations/Clientele/_clients-registry.md`
 - SOP catalogue: `Operations/SOPs/_sop-registry.md`
+- Department heads: `Agents/department-heads.md`
 
 ## Frontmatter Standard
 

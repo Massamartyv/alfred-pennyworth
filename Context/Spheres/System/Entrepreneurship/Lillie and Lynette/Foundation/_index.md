@@ -1,15 +1,28 @@
 ---
-file_type: reference
+file_type: department_index
+department: Foundation
 venture: Lillie and Lynette
-status: draft
-last_updated: 2026-04-05
+status: active
+last_updated: 2026-04-22
 ---
 
-# Foundation -- Lillie and Lynette
+# Foundation – Lillie and Lynette
 
-Philanthropy, community and hospitality-driven giving. Where the company invests in the communities it serves and the people it touches.
+Philanthropy, community and hospitality-driven giving. Where the company invests in the communities it serves and the people it touches. Foundation is a shared resource, not a studio.
 
-### What Belongs Here
+## Structure
+
+```
+Foundation/
+  _index.md              -- This file
+  Initiatives/           -- Active programmes and giving initiatives
+  Partnerships/          -- Nonprofit partners and community organisations
+  Agents/                -- Shared-resource agents, workflows, criteria
+```
+
+## Scope
+
+### What belongs here
 
 - Community outreach and charitable initiatives
 - Hospitality industry mentorship programmes
@@ -17,12 +30,12 @@ Philanthropy, community and hospitality-driven giving. Where the company invests
 - Cultural and culinary scholarship programmes
 - Environmental sustainability commitments
 
-### What Does Not Belong Here
+### What does not belong here
 
-- Revenue-generating partnerships -- those go in Business Development
-- Marketing sponsorships -- those go in Marketing & Sales
-- Personal charitable giving -- that lives in personal finance, not venture scope
+- Revenue-generating partnerships – Growth
+- Marketing sponsorships – Growth
+- Personal charitable giving – that lives in personal finance, not venture scope
 
-### Current State
+## Current State
 
 No active foundation initiatives. To be developed as the company establishes revenue and can invest meaningfully in the communities it serves.

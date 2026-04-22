@@ -5,22 +5,22 @@ status: dormant
 last_updated: 2026-04-05
 ---
 
-# Product Development -- Athena
+# Product Development – Athena
 
 Service tiers, representation packages and casting offerings. What the agency sells and how it is structured.
 
 ### What Belongs Here
 
-- Representation package definitions -- divisions, tiers, terms
-- Booking service offerings -- editorial, commercial, runway, digital
+- Representation package definitions – divisions, tiers, terms
+- Booking service offerings – editorial, commercial, runway, digital
 - Rate cards and pricing frameworks
 - New service development and market testing
 
 ### What Does Not Belong Here
 
-- Commission structures and financial modelling -- those go in Finances
-- Sales process and proposals -- those go in Marketing & Sales
-- Client relationship management -- that goes in Operations
+- Commission structures and financial modelling – those go in Finances
+- Sales process and proposals – those go in Marketing & Sales
+- Client relationship management – that goes in Operations
 
 ### Service Categories
 

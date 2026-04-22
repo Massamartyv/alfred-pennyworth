@@ -5,7 +5,7 @@ status: dormant
 last_updated: 2026-04-05
 ---
 
-# Operations -- Athena
+# Operations – Athena
 
 Booking workflows, talent management, production coordination and the systems that keep the agency running.
 
@@ -21,9 +21,9 @@ Booking workflows, talent management, production coordination and the systems th
 
 ### What Does Not Belong Here
 
-- Talent scouting strategy -- that goes in Business Development
-- Agency brand marketing -- that goes in Marketing & Sales
-- Financial tracking -- that goes in Finances
+- Talent scouting strategy – that goes in Business Development
+- Agency brand marketing – that goes in Marketing & Sales
+- Financial tracking – that goes in Finances
 
 ### Subdirectories
 

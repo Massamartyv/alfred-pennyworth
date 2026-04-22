@@ -1,15 +1,30 @@
 ---
-file_type: reference
+file_type: department_index
+department: Administration
 venture: Marty Gras
-status: draft
-last_updated: 2026-04-05
+last_updated: 2026-04-22
 ---
 
-# Administration -- Marty Gras
+# Administration
 
-Legal, compliance, policies and brand protection. The structural backbone that keeps the venture legally sound and operationally clean.
+Legal, licensing, brand protection, platform compliance, policies and HR. The structural backbone. Administration absorbs the former Human Resources department.
 
-### What Belongs Here
+## Structure
+
+```
+Administration/
+  _index.md              -- This file
+  Legal/                 -- Contracts, licensing, IP filings
+  Compliance/            -- Platform terms, regulatory compliance
+  Identity/              -- Entity documents, formation records
+  Policies/              -- Internal policies, content guidelines, usage rights
+  HR/                    -- Team, contractors, collaborators, hiring plans
+  Agents/                -- Studio-specific agents, workflows, criteria
+```
+
+## Scope
+
+### What belongs here
 
 - Business entity documents and formation records
 - Trademark and intellectual property filings
@@ -17,22 +32,31 @@ Legal, compliance, policies and brand protection. The structural backbone that k
 - Platform terms of service compliance
 - Privacy policies and disclaimers
 - Music licensing and rights clearance for podcast
+- Team structure, contractor management, hiring plans (HR)
 
-### What Does Not Belong Here
+### What does not belong here
 
-- Financial records -- those go in Finances
-- Content production documents -- those go in Operations or Product Development
-- Partnership agreements with revenue terms -- those go in Business Development
+- Financial records – those go in Finance
+- Content production documents – those go in Production
+- Content product definitions – those go in Creative
+- Partnership revenue terms – those go in Growth
 
-### Subdirectories
+## Key Context
 
-| Folder | Contents |
+- No legal entity filed yet. Structure to be determined as revenue materialises.
+- Content licensing and music rights are standing concerns for podcast production.
+- HR currently a solo operation – future roles tracked in `HR/_index.md`.
+
+## Agent Instructions
+
+- All legal document creation requires human review before filing.
+- Compliance checks against platform terms are Tier 2 (execute then notify).
+- HR decisions (hires, contractor terms) are Tier 3 (approval required).
+
+### Token Budget Defaults
+
+| Task | Tier |
 |---|---|
-| Compliance/ | Platform-specific compliance, content regulations |
-| Identity/ | Entity documents, formation records |
-| Legal/ | Contracts, licensing, IP filings |
-| Policies/ | Internal policies, content guidelines, usage rights |
-
-### Current State
-
-No legal documents filed yet. Entity structure to be determined as revenue materialises.
+| Policy updates, filing reminders, licence renewals | Light |
+| Contract drafting, compliance reviews | Standard |
+| Entity formation research, organisational design | Heavy |

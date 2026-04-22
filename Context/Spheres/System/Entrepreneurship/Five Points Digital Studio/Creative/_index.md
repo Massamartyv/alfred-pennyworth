@@ -13,12 +13,12 @@ Brand, visual direction, design, content creation and the aesthetic standard for
 
 ```
 Creative/
-  _index.md              -- This file
-  Identity/              -- Brand voice, positioning, values (moved from Administration)
-  Agents/                -- Department-specific agents, workflows, criteria
-    _index.md            -- Agent roster and workflow registry
-    Workflows/           -- Named Manor Protocol sequences
-    Criteria/            -- Quality rubrics and evaluation standards
+  _index.md              – This file
+  Identity/              – Brand voice, positioning, values (moved from Administration)
+  Agents/                – Department-specific agents, workflows, criteria
+    _index.md            – Agent roster and workflow registry
+    Workflows/           – Named Manor Protocol sequences
+    Criteria/            – Quality rubrics and evaluation standards
 ```
 
 ## Scope

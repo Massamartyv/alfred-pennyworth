@@ -1,50 +1,50 @@
 ---
-file_type: department_index
-department: Administration
-last_updated: "{YYYY-MM-DD}"
+file_type: reference
+venture: "{Venture Name}"
+status: template
+last_updated: 2026-04-22
 ---
 
-# Administration
+# Administration – {Venture Name}
 
-Legal templates, compliance checklists, company policies, and operational standards. Reference material that agents use when drafting contracts, onboarding clients, or verifying compliance.
+Legal, compliance, brand protection and HR. The structural backbone that keeps the venture legally sound and operationally clean.
 
-## Structure
-
-```
-Administration/
-├── Legal/
-│   ├── service-agreement-template.md
-│   ├── nda-template.md
-│   ├── sow-template.md
-│   ├── contractor-agreement-template.md
-│   └── ip-ownership-addendum.md
-├── Compliance/
-│   ├── business-registration.md
-│   ├── insurance-requirements.md
-│   ├── data-protection-policy.md
-│   └── compliance-calendar.md
-└── Policies/
-    ├── communication-standards.md
-    ├── confidentiality-policy.md
-    ├── quality-standards.md
-    └── incident-response.md
-```
-
-## Agent Instructions
-
-- Use `Legal/` templates when drafting any client-facing agreement. Never improvise legal language.
-- Check `Compliance/` before onboarding a client in a new industry or jurisdiction.
-- `Policies/` defines internal standards. Reference when creating SOPs or onboarding contractors.
+---
 
 ## What Belongs Here
 
-- Legal document templates and frameworks
-- Compliance checklists and calendars
-- Internal policies and standards
-- Insurance and licensing references
+- Business entity documents and formation records
+- Trademark filings and intellectual property protection
+- Regulatory compliance relevant to {Industry}
+- Supplier, partner and client agreements
+- Insurance and liability coverage
+- Privacy policies, terms of service, platform compliance
+- HR – team, contractors, advisors, culture, hiring plans
 
 ## What Does Not Belong Here
 
-- Signed contracts (those live in secure storage, not context files)
-- Client-specific legal docs (Operations/Clientele/{Client}/Administrative/)
-- Financial policies (Finances/)
+- Financial records – those go in Finance
+- Product development documents – those go in Production
+- Partnership pricing and terms negotiation – that starts in Growth before contracts move here
+- Customer data operations – those live in Operations
+
+## Subdirectories
+
+| Folder | Contents |
+|---|---|
+| Agents/ | Specialist roster, workflow registry, quality criteria |
+| Compliance/ | Regulatory compliance, industry-specific requirements |
+| Identity/ | Entity documents, formation records |
+| Legal/ | Contracts, supplier and partner agreements, licensing, IP filings |
+| Policies/ | Internal policies, privacy, terms of service |
+| Brand Protection/ | Trademark monitoring, brand misuse response |
+| HR/ | Team, contractors, advisors, culture |
+
+## Current State
+
+No legal documents filed. Entity structure, trademarks and compliance research are earliest-priority Administration work.
+
+## Key Registries
+
+- Active contracts: `Legal/_contracts-registry.md` (to be created)
+- Trademark registry: `Brand Protection/_trademarks.md` (to be created)

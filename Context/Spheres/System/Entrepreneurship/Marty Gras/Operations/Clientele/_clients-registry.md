@@ -6,7 +6,7 @@ status: active
 last_updated: 2026-04-05
 ---
 
-# Collaborator and Sponsor Registry -- Marty Gras
+# Collaborator and Sponsor Registry – Marty Gras
 
 Master roster of all collaborations, sponsorships and featured guests. For a media company this tracks the people and brands that contribute to or invest in the content, not traditional clients.
 
@@ -14,25 +14,25 @@ Master roster of all collaborations, sponsorships and featured guests. For a med
 
 | Sponsor | Product | Placement | Monthly Value | Start Date | Contract End | Folder |
 |---|---|---|---|---|---|---|
-| -- | -- | -- | -- | -- | -- | -- |
+| – | – | – | – | – | – | – |
 
 ## Featured Guests
 
 | Guest | Episode | Topic | Recording Date | Status | Notes |
 |---|---|---|---|---|---|
-| -- | -- | -- | -- | -- | -- |
+| – | – | – | – | – | – |
 
 ## Active Collaborators
 
 | Collaborator | Type | Platform | Status | Folder |
 |---|---|---|---|---|
-| -- | -- | -- | -- | -- |
+| – | – | – | – | – |
 
 ## Archived Relationships
 
 | Name | Type | Duration | Archived Date | Reason | Folder |
 |---|---|---|---|---|---|
-| -- | -- | -- | -- | -- | -- |
+| – | – | – | – | – | – |
 
 ## Summary
 

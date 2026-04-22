@@ -9,7 +9,7 @@ last_updated: 2026-04-07
 
 # Content Creation
 
-Blog posts, social content, newsletters, long-form writing, captions. The most frequent workflow in Creative -- scales from a single caption to a full content series.
+Blog posts, social content, newsletters, long-form writing, captions. The most frequent workflow in Creative – scales from a single caption to a full content series.
 
 ---
 
@@ -66,10 +66,10 @@ Blog posts, social content, newsletters, long-form writing, captions. The most f
 
 - Run the grammar audit (invoke grammar-nazi skill)
 - Evaluate against the four criteria:
-  1. **Brand alignment** -- Does it sound like us (or the client)?
-  2. **Originality** -- Is there a genuine point of view, or is this content anyone could have written?
-  3. **Craft and finish** -- Is the prose clean? Is the rhythm intentional?
-  4. **Emotional resonance** -- Does it earn the reader's attention?
+  1. **Brand alignment** – Does it sound like us (or the client)?
+  2. **Originality** – Is there a genuine point of view, or is this content anyone could have written?
+  3. **Craft and finish** – Is the prose clean? Is the rhythm intentional?
+  4. **Emotional resonance** – Does it earn the reader's attention?
 
 **Output:** Edit notes or approval.
 

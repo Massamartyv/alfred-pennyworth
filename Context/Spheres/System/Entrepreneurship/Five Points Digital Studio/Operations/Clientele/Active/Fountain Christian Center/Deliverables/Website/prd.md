@@ -9,7 +9,7 @@ status: retroactive
 tier: Custom
 ---
 
-# Vibe Coding PRD -- Fountain Christian Center
+# Vibe Coding PRD – Fountain Christian Center
 
 Retroactive PRD documenting the design decisions already made and establishing the specification for any further work on this site.
 
@@ -19,9 +19,9 @@ Retroactive PRD documenting the design decisions already made and establishing t
 
 - **Project Name:** Fountain Christian Center Website
 - **Client:** Fountain Christian Center, Brooklyn, New York
-- **Primary Objective:** A dignified, warm digital home for a historic Brooklyn church -- communicating legacy, inviting community, and connecting congregants to worship experiences both in-person and online.
+- **Primary Objective:** A dignified, warm digital home for a historic Brooklyn church – communicating legacy, inviting community, and connecting congregants to worship experiences both in-person and online.
 
-The church was founded in 1947. The site must carry that weight of history without feeling dated. It should feel like walking into a well-maintained sanctuary -- not a startup landing page.
+The church was founded in 1947. The site must carry that weight of history without feeling dated. It should feel like walking into a well-maintained sanctuary – not a startup landing page.
 
 ---
 
@@ -43,7 +43,7 @@ The church was founded in 1947. The site must carry that weight of history witho
 
 - **Core Framework:** Next.js 16.2.0 App Router (React 19.2.4, TypeScript 5 strict)
 - **Styling Architecture:** CSS Modules per component with global CSS Custom Properties (design tokens). No Tailwind. No CSS-in-JS. Vanilla CSS with intentional constraints.
-- **Animation and Interaction Engine:** Pure CSS transitions and keyframe animations. No Framer Motion. No GSAP. Animations are ambient, not interactive -- CSS handles this elegantly.
+- **Animation and Interaction Engine:** Pure CSS transitions and keyframe animations. No Framer Motion. No GSAP. Animations are ambient, not interactive – CSS handles this elegantly.
 - **Data and Content Architecture:** Currently hardcoded in component files. No CMS. Future consideration: Notion as headless CMS for leadership bios, service times and ministry descriptions to enable client self-service.
 
 ---
@@ -70,7 +70,7 @@ The church was founded in 1947. The site must carry that weight of history witho
 - Each component is a paired `.tsx` and `.module.css` file
 - Server components by default. Client components only when state or browser APIs are required.
 - Props used for customisation (HeroSection is parameterised). Data hardcoded within components when static.
-- Components are isolated -- no shared CSS module imports between components
+- Components are isolated – no shared CSS module imports between components
 
 ### Colour Tokens
 
@@ -100,7 +100,7 @@ The church was founded in 1947. The site must carry that weight of history witho
   - Service Times (four-card grid: Sunday Worship, Youth Sunday, Midday Motivation, Bible Study)
   - History and Mission (founding narrative, 1947 stat card, Brooklyn stat card)
   - Leadership (four-member staff grid with portrait placeholders)
-  - Ministry Widgets (Midday Motivation, Sister to Sister -- two highlighted programmes)
+  - Ministry Widgets (Midday Motivation, Sister to Sister – two highlighted programmes)
 
 **2. `/about` (Our Story)**
 - Goal: Depth of legacy. Tell the founding story without overwhelming.
@@ -124,11 +124,11 @@ The church was founded in 1947. The site must carry that weight of history witho
   - Form fields: name, email, phone, subject (select), message
   - Map embed (Google Maps, grayscale filtered)
 
-**5. `/live` (Watch Live) -- NOT YET BUILT**
+**5. `/live` (Watch Live) – NOT YET BUILT**
 - Goal: Connect congregants to the livestream experience.
 - Decision needed: embed YouTube player directly or link out to YouTube channel
 
-**6. `/give` (Give) -- NOT YET BUILT**
+**6. `/give` (Give) – NOT YET BUILT**
 - Goal: Enable online giving.
 - Decision needed: external giving platform (Tithe.ly, Pushpay) or embedded widget
 
@@ -145,7 +145,7 @@ The church was founded in 1947. The site must carry that weight of history witho
 - Fonts: display: swap (already implemented)
 
 ### SEO Rules
-- Dynamic `<title>` per page (partially implemented -- ministries has custom title, about and contact inherit root)
+- Dynamic `<title>` per page (partially implemented – ministries has custom title, about and contact inherit root)
 - Meta description per page
 - One `<h1>` per page with logical heading hierarchy
 - Complete OpenGraph and Twitter Card tags per page
@@ -159,7 +159,7 @@ The church was founded in 1947. The site must carry that weight of history witho
 - Skip-to-content link
 - Visible focus indicators on all interactive elements
 - Colour contrast meeting AA minimums (4.5:1 normal, 3:1 large)
-- `prefers-reduced-motion` support -- disable ambient animations
+- `prefers-reduced-motion` support – disable ambient animations
 - Form labels with associated inputs, ARIA error states
 - Meaningful alt text on all images
 
@@ -168,4 +168,4 @@ The church was founded in 1947. The site must carry that weight of history witho
 ## 7. AI Mega-Prompt Injection
 
 > **SYSTEM PROMPT INJECTION:**
-> "You are an elite, design-obsessed engineer building the Fountain Christian Center website. You will strictly use Next.js 16 App Router with TypeScript strict mode and CSS Modules with global CSS Custom Properties. Your output must feel reverent, warm and unhurried -- like afternoon light through stained glass onto dark wood. Prioritise vanilla CSS with structured design tokens over utility classes. Maintain the aesthetic tension between institutional dignity (the weight of a 77-year-old Black church) and contemporary craft (modern typography, clean spacing, ambient motion). All headings use Cormorant Garamond at weight 300, uppercase, with wide letter-spacing. Body text uses Inter. The colour palette is earth-toned: cream (#F5F0EB), near-black (#1A1A18), warm browns (#8C7B6B, #C4B5A2). Adhere strictly to 8rem section padding, 1400px max-width, and semantic HTML5. Every animation must be subtle and ambient -- nothing bounces, nothing demands. The site breathes."
+> "You are an elite, design-obsessed engineer building the Fountain Christian Center website. You will strictly use Next.js 16 App Router with TypeScript strict mode and CSS Modules with global CSS Custom Properties. Your output must feel reverent, warm and unhurried – like afternoon light through stained glass onto dark wood. Prioritise vanilla CSS with structured design tokens over utility classes. Maintain the aesthetic tension between institutional dignity (the weight of a 77-year-old Black church) and contemporary craft (modern typography, clean spacing, ambient motion). All headings use Cormorant Garamond at weight 300, uppercase, with wide letter-spacing. Body text uses Inter. The colour palette is earth-toned: cream (#F5F0EB), near-black (#1A1A18), warm browns (#8C7B6B, #C4B5A2). Adhere strictly to 8rem section padding, 1400px max-width, and semantic HTML5. Every animation must be subtle and ambient – nothing bounces, nothing demands. The site breathes."

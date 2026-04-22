@@ -9,7 +9,7 @@ last_updated: 2026-04-07
 
 # Campaign Creative
 
-Visual and copy direction for marketing campaigns, ad creative and landing pages. Cross-studio workflow -- Creative sets the direction, Production builds the assets, Growth defines the objectives.
+Visual and copy direction for marketing campaigns, ad creative and landing pages. Cross-studio workflow – Creative sets the direction, Production builds the assets, Growth defines the objectives.
 
 ---
 
@@ -24,7 +24,7 @@ Visual and copy direction for marketing campaigns, ad creative and landing pages
 - Identify cultural moments, trends or timing opportunities
 - Review past campaign performance data if available
 
-**Output:** Campaign reconnaissance brief -- objectives, references, opportunities.
+**Output:** Campaign reconnaissance brief – objectives, references, opportunities.
 
 ---
 
@@ -60,7 +60,7 @@ Visual and copy direction for marketing campaigns, ad creative and landing pages
 - Adapt messaging for different formats and platforms
 - Write email sequences if the campaign includes outbound
 
-**Output:** Campaign asset suite -- all creative elements, formatted per platform.
+**Output:** Campaign asset suite – all creative elements, formatted per platform.
 
 **Note:** Production studio handles the technical build of landing pages and complex assets. Creative provides the direction and raw creative; Production engineers the final product.
 
@@ -71,12 +71,12 @@ Visual and copy direction for marketing campaigns, ad creative and landing pages
 **Role:** Editor
 **Crew:** Evaluator
 
-- Evaluate the campaign as a system -- do all pieces feel like one story?
+- Evaluate the campaign as a system – do all pieces feel like one story?
 - Apply the four criteria to each asset:
-  1. **Brand alignment** -- Is the campaign on-brand for the client?
-  2. **Originality** -- Does it stand out in the client's market?
-  3. **Craft and finish** -- Are the details sharp across every touchpoint?
-  4. **Emotional resonance** -- Does the campaign make the audience feel something?
+  1. **Brand alignment** – Is the campaign on-brand for the client?
+  2. **Originality** – Does it stand out in the client's market?
+  3. **Craft and finish** – Are the details sharp across every touchpoint?
+  4. **Emotional resonance** – Does the campaign make the audience feel something?
 
 **Output:** Campaign critique report.
 

@@ -5,7 +5,7 @@ status: dormant
 last_updated: 2026-04-05
 ---
 
-# Foundation -- Athena
+# Foundation – Athena
 
 Philanthropy, community and cultural investment. Where the agency gives back to the communities and industries it draws from.
 
@@ -18,9 +18,9 @@ Philanthropy, community and cultural investment. Where the agency gives back to 
 
 ### What Does Not Belong Here
 
-- Revenue-generating brand partnerships -- those go in Business Development
-- Talent marketing -- that goes in Marketing & Sales
-- Personal charitable giving -- that lives in personal finance, not venture scope
+- Revenue-generating brand partnerships – those go in Business Development
+- Talent marketing – that goes in Marketing & Sales
+- Personal charitable giving – that lives in personal finance, not venture scope
 
 ### Current State
 
