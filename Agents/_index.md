@@ -97,7 +97,7 @@ Alfred OS operates within a six-layer agent infrastructure stack. Every agent, c
 | 3. Memory and state | Persistent recall across sessions and tasks | `.claude/` memory system with active curation. Notion as durable portable layer. |
 | 4. Tools and integration | Connecting agents to external services | MCP connections. Per-venture `integrations.md` files. Strong but MCP-dependent. |
 | 5. Provisioning and billing | Agents acquiring and paying for services | Token budget framework, execution tiers. Needs formal billing protocol at scale. |
-| 6. Orchestration and coordination | Multi-agent reliability at scale | Penny One, Watchtower, six-crew system. **This is where we are building.** |
+| 6. Orchestration and coordination | Multi-agent reliability at scale | Pennyone, Watchtower, six-crew system. **This is where we are building.** |
 
 ### Reliability rule
 

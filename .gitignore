@@ -5,6 +5,14 @@ node_modules/
 dist/
 out/
 
+# Python runtime
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+
 # OS files
 .DS_Store
 Thumbs.db
@@ -27,7 +35,7 @@ package-lock.json
 # Working directory (transient session files)
 .working/
 
-# Archive (contains embedded repos and large assets -- local only)
+# Archive (contains embedded repos and large assets – local only)
 Context/Archive/
 
 # MCP server config (contains API keys)

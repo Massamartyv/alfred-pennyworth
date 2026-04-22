@@ -81,7 +81,7 @@ The agent economy is assembling a new infrastructure stack analogous to the clou
 4. Financial observability – cost per agent, cost per successful task, outcome quality metrics (FinOps for agents)
 5. Standard failure and recovery patterns – when a tool call fails, standard provisioning for what happens next
 
-**Alfred OS mapping:** Penny One and Watchtower ARE the orchestration layer. Penny One aggregates intelligence (scheduling, lifecycle, briefing). Watchtower monitors thresholds and alerts (supervision, failure detection). The six-crew classification system provides the horizontal capability model. This is the most valuable position in the stack and the one we are already building toward.
+**Alfred OS mapping:** Pennyone and Watchtower ARE the orchestration layer. Pennyone aggregates intelligence (scheduling, lifecycle, briefing). Watchtower monitors thresholds and alerts (supervision, failure detection). The six-crew classification system provides the horizontal capability model. This is the most valuable position in the stack and the one we are already building toward.
 
 **Maturity:** Biggest opportunity. Biggest gap. Whoever solves this at infrastructure grade owns the most valuable position in the agent economy.
 
@@ -112,7 +112,7 @@ The same disease that plagued microservices in 2018 – everything decomposed in
 | 3. Memory and state | `.claude/` memory system, Notion as durable layer | Portability strategy if memory moves model-level |
 | 4. Tools and integration | MCP connections, per-venture `integrations.md` | Gap analysis for services without MCP support |
 | 5. Provisioning and billing | Token budget framework, execution tiers | Formal billing protocol as agents provision real infrastructure |
-| 6. Orchestration and coordination | Penny One, Watchtower, six-crew system | Implementation. Move from design to production. |
+| 6. Orchestration and coordination | Pennyone, Watchtower, six-crew system | Implementation. Move from design to production. |
 
 ---
 

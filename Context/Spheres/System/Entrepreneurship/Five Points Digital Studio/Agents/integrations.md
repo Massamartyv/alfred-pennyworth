@@ -1,9 +1,9 @@
 ---
 file_type: integration_registry
-department: Operations/AI
+department: Agents
 venture: Five Points Digital Studio
 status: active
-last_updated: 2026-04-09
+last_updated: 2026-04-22
 ---
 
 # Integrations
@@ -56,7 +56,10 @@ Plugins are MCP connections. Alfred can read, write and operate within these sys
 | Account | Five Points Digital Studio (Apify user: yYCnD6Fz8Y65f9u7e) |
 | Scope | Web scraping, data retrieval, competitor research for client projects |
 | MCP server name | `apify-fivepoints` |
-| Routing rule | When operating in Five Points context, all Apify operations target this connection. The managed Apify MCP targets the personal account. |
+| MCP package | `@apify/actors-mcp-server` |
+| Status | Live – connected via `.mcp.json` |
+| Environment variable | `APIFY_FIVEPOINTS_TOKEN` (stored in `.env`) |
+| Routing rule | **Dual-scope service.** Apify exists at both personal and Five Points levels. When operating in Five Points context (client research, competitor analysis, business development scrapes), use this connection. When operating in personal context (research, curiosity scrapes, cross-venture exploration), use the personal Apify connection (`APIFY_PERSONAL_TOKEN`). Data never crosses. |
 
 ### Supabase – Five Points Account
 
@@ -68,7 +71,7 @@ Plugins are MCP connections. Alfred can read, write and operate within these sys
 | MCP package | `@supabase/mcp-server-supabase@latest` |
 | Status | Live – connected via `.mcp.json` |
 | Environment variable | `SUPABASE_FIVEPOINTS_TOKEN` (stored in `.env`) |
-| Routing rule | When operating in Five Points context, all Supabase operations target this connection. The managed Supabase MCP targets the personal account. |
+| Routing rule | When operating in Five Points context, all Supabase operations target this connection. The personal Supabase management token is separate (`SUPABASE_PERSONAL_TOKEN`). |
 
 ### Stripe – Five Points Account
 
@@ -82,6 +85,18 @@ Plugins are MCP connections. Alfred can read, write and operate within these sys
 | Environment variable | `STRIPE_FIVEPOINTS_SECRET_KEY` (stored in `.env`) |
 | Used by skills | offer-creator |
 | Routing rule | Stripe is exclusively a business asset. No personal Stripe exists in the ecosystem. All Stripe operations are Five Points-scoped. |
+| Env var naming | The `_SECRET_KEY` suffix is retained (not aligned to `_TOKEN`) because Stripe uses "secret key" as its canonical terminology. Domain-specific naming is preferred over forced uniformity. |
+
+### Gemini – Five Points
+
+| Field | Value |
+|---|---|
+| Account | Five Points (Google AI) |
+| Scope | Image generation, model evaluation, Five Points creative work that requires Gemini |
+| MCP server name | n/a – used by design skill directly |
+| Status | Live – credential rotated 2026-04-22 |
+| Environment variable | `GEMINI_FIVEPOINTS_API_KEY` (stored in `.env`) |
+| Routing rule | When Gemini is needed in Five Points context, reference this key. Scope relocated from the retired Alfred OS Backend. |
 
 ---
 
@@ -89,7 +104,7 @@ Plugins are MCP connections. Alfred can read, write and operate within these sys
 
 | Plugin | Status | Purpose | Reactivation Trigger |
 |---|---|---|---|
-| Instantly | Dormant since March 2026 | Outbound lead capture and pipeline automation | Phase 2 of 25K battle plan – pipeline activation |
+| Instantly | Dormant since March 2026 | Outbound lead capture and pipeline automation | Phase 2 of 25K battle plan. Credential rotated 2026-04-22 as `INSTANTLY_FIVEPOINTS_API_KEY`; slot in `.mcp.json` returns on reactivation. |
 
 ---
 
@@ -117,6 +132,9 @@ All API keys are stored in `~/Alfred Pennyworth/.env` (gitignored). The `.mcp.js
 | `VERCEL_FIVEPOINTS_TOKEN` | Vercel (Five Points account) | `.env` |
 | `SUPABASE_FIVEPOINTS_TOKEN` | Supabase (Five Points account) | `.env` |
 | `STRIPE_FIVEPOINTS_SECRET_KEY` | Stripe (Five Points account) | `.env` |
+| `APIFY_FIVEPOINTS_TOKEN` | Apify (Five Points account) | `.env` |
+| `INSTANTLY_FIVEPOINTS_API_KEY` | Instantly (Five Points account, dormant) | `.env` |
+| `GEMINI_FIVEPOINTS_API_KEY` | Gemini (Five Points) | `.env` |
 
 To activate in a new shell session: `source ~/Alfred\ Pennyworth/.env`
 
@@ -126,9 +144,9 @@ To activate in a new shell session: `source ~/Alfred\ Pennyworth/.env`
 
 When a new MCP connection is added for Five Points:
 
-1. Add the API key to `~/Alfred Pennyworth/.env` with a descriptive variable name following the pattern `SERVICE_FIVEPOINTS_VARIABLE`
+1. Add the API key to `~/Alfred Pennyworth/.env` with a descriptive variable name following the pattern `SERVICE_FIVEPOINTS_TOKEN` (or a domain-specific suffix where the service has its own canonical terminology)
 2. Add the server config to `.mcp.json` referencing the env var via `${VARIABLE_NAME}`
-3. Register it in this file with: plugin name, account scope, MCP server name, MCP package, environment variable, which skills use it, routing rules
+3. Register it in this file with: plugin name, account scope, MCP server name, MCP package, status, environment variable, which skills use it, routing rules
 4. Update any skills that should have access via their `allowed-tools` list
-5. If the same service exists at the personal level, document the routing rule that distinguishes them
+5. If the same service exists at the personal level, document the routing rule that distinguishes them (see Apify for the dual-scope pattern)
 6. Update the project CLAUDE.md Plugin Routing section if the new connection introduces a routing pattern not yet documented

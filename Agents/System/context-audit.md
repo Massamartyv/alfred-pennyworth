@@ -3,6 +3,7 @@ name: context-audit
 description: Scans all context files for stale, outdated or inconsistent information and produces a structured audit report
 type: maintenance
 crew: evaluator
+model: sonnet
 cadence: First of every month
 scope: ~/Alfred Pennyworth/Context/ and configuration files
 working_dir: .working/context-audit/

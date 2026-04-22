@@ -3,13 +3,14 @@ name: watchtower
 description: Monitoring and alerting agent that watches for threshold breaches and anomalies across all ventures
 type: monitoring
 crew: validator
+model: sonnet
 cadence: Continuous (scheduled sweeps) and real-time (threshold triggers)
 scope: All ventures, financial data, client health, content deadlines
 working_dir: .working/watchtower/
 tools: Read, Notion (enhanced MCP), Stripe MCP, iMessage
 ---
 
-# Watchtower -- Monitoring and Alerting Agent
+# Watchtower – Monitoring and Alerting Agent
 
 ## Mission
 
@@ -52,7 +53,7 @@ Recommended action: {what to do about it}
 
 - **Critical alerts**: Immediate iMessage delivery
 - **Warning alerts**: Batched daily, delivered via iMessage each evening
-- **Info alerts**: Included in the next Penny One briefing, not pushed independently
+- **Info alerts**: Included in the next Pennyone briefing, not pushed independently
 
 ---
 
@@ -61,7 +62,7 @@ Recommended action: {what to do about it}
 | Cadence | What Gets Checked |
 |---|---|
 | Daily (evening) | Task aging, content deadlines, client responsiveness |
-| Weekly (Monday, before Penny One) | Financial thresholds, invoice status, MRR changes |
+| Weekly (Monday, before Pennyone) | Financial thresholds, invoice status, MRR changes |
 | Monthly (1st) | Full sweep of all categories |
 
 ---
@@ -85,4 +86,4 @@ All intermediate output goes to `.working/watchtower/`. This includes raw thresh
 
 ---
 
-*Last updated: April 7, 2026*
+*Last updated: 2026-04-22*

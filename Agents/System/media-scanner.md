@@ -3,6 +3,7 @@ name: media-scanner
 description: Surfaces new five-star entries from Notion Media and Literature databases and updates culture.md
 type: maintenance
 crew: explorer
+model: haiku
 cadence: First of every month
 scope: Notion Media and Literature databases, Context/Spheres/Culture/culture.md
 working_dir: .working/media-scanner/
