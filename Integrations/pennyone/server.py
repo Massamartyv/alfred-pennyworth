@@ -303,14 +303,12 @@ def _flatten_content(content: ContentPayload) -> str:
 
 
 # ---------------------------------------------------------------------------
-# FastMCP server
+# Core publish logic -- the actual work. Importable from the publisher module
+# and from any other in-process caller. The MCP tool below wraps it.
 # ---------------------------------------------------------------------------
 
-mcp = FastMCP("pennyone")
 
-
-@mcp.tool()
-async def publish(request: PublishRequest) -> PublishResponse:
+async def _publish_core(request: PublishRequest) -> PublishResponse:
     """
     Fan out a publish request to the selected platforms under the pipeline's
     Zernio account.
@@ -459,6 +457,19 @@ async def publish(request: PublishRequest) -> PublishResponse:
         pipeline=request.pipeline.value,
         dispatched_at=now,
     )
+
+
+# ---------------------------------------------------------------------------
+# FastMCP server
+# ---------------------------------------------------------------------------
+
+mcp = FastMCP("pennyone")
+
+
+@mcp.tool()
+async def publish(request: PublishRequest) -> PublishResponse:
+    """Fan out a publish request to the selected platforms under the pipeline's Zernio account."""
+    return await _publish_core(request)
 
 
 @mcp.tool()

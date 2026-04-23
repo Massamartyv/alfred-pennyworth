@@ -150,6 +150,78 @@ Multi-media is supported -- pass multiple `MediaAsset` entries and every one app
 
 Instagram, TikTok, YouTube and Snap require media at Zernio's end -- text-only publishes to these platforms fail with a Zernio validation error. Threads, X and Reddit accept text-only content.
 
+## Notion Content Calendar publisher
+
+`publisher.py` is the mapping layer between a Notion Content Calendar and Pennyone. Pennyone stays pure; the publisher owns the Notion schema assumptions.
+
+### Content Calendar contract
+
+Each pipeline runs its own Notion workspace with its own Content Calendar. The calendar schema must include (at minimum):
+
+| Property | Type | Purpose |
+|---|---|---|
+| `Name` | title | Editorial title for the entry |
+| `Caption` | rich_text | Post text; becomes `content.text` |
+| `Platform` | relation | Platforms to publish to (relation to a Platforms database) |
+| `Publish Date` | date | If future, used as `schedule_at`; otherwise `publishNow` |
+| `Type` | select | Informs default `MediaAsset.kind` (Short/Long Form Videography -> `video`) |
+| `Status` | status | Editorial workflow. `Scheduled` = eligible. On success -> `Published` |
+| `Media` | files | Images or videos. Publisher downloads Notion-hosted files to temp paths before dispatch |
+| `Zernio Post ID` | rich_text | Written after successful dispatch |
+| `Pennyone Log` | rich_text | Per-platform outcomes + any mapper warnings |
+
+The Platforms database stores one row per platform with `Name` as the title. Row names map to Pennyone platforms via `PLATFORM_NAME_MAP` in `publisher.py` (`Instagram`, `TikTok`, `Threads`, `X`, `Reddit`, `Snapchat`).
+
+### Pipeline -> Content Calendar registry
+
+`PIPELINE_TO_CONTENT_CALENDAR` in `publisher.py` maps each pipeline to its Content Calendar data source ID. Add entries as each venture's workspace is provisioned.
+
+### Two modes
+
+**Library mode.** Import the pure mapping helpers:
+
+```python
+from publisher import build_request_from_notion, format_pennyone_log
+
+request, warnings = build_request_from_notion(page_properties, platform_names, pipeline)
+response = await server._publish_core(request)
+log = format_pennyone_log(response, warnings)
+```
+
+Useful from Claude sessions that already have Notion access via the managed MCP. The Claude session queries Notion, feeds properties into the mapper, calls Pennyone, writes back.
+
+**CLI mode.** Runs standalone (suitable for cron):
+
+```bash
+# Dispatch every eligible entry for the personal pipeline
+python publisher.py --pipeline personal
+
+# Dispatch a single page by ID
+python publisher.py --pipeline personal --page-id <id>
+
+# Map and preview without calling Zernio or writing back
+python publisher.py --pipeline personal --dry-run
+```
+
+Requires a Notion integration token for the pipeline's workspace. Env var naming: `NOTION_PERSONAL_TOKEN`, `NOTION_MARTYGRAS_TOKEN`, `NOTION_FIVEPOINTS_TOKEN`, etc.
+
+### Per-pipeline Notion integration setup
+
+For each pipeline that runs the CLI:
+
+1. Go to https://www.notion.so/profile/integrations (or the workspace-equivalent) and create an internal integration scoped to that workspace.
+2. In the Content Calendar database's "Connections" menu, grant the integration read and update access. Do the same for the Platforms database.
+3. Copy the integration's secret token.
+4. Add to `~/Alfred Pennyworth/.env` with the env var naming from `PIPELINE_TO_NOTION_TOKEN_ENV` in `publisher.py`.
+
+Note: the managed Notion MCP used inside Claude sessions is separate from the CLI's integration token. Library mode can use either -- the CLI must have the dedicated integration.
+
+### Eligibility filter
+
+An entry is eligible when `Status == "Scheduled"` and `Publish Date <= now`. After a successful dispatch (no partials or failures), the status moves to `Published` and the Zernio post ID lands in `Zernio Post ID`. Partial or failed dispatches leave the status at `Scheduled` and log the detail in `Pennyone Log` so the next run retries.
+
+---
+
 ## References
 
 - Zernio docs: https://docs.zernio.com

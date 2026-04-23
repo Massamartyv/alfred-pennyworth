@@ -95,6 +95,18 @@ A publish request contains:
 
 On-demand. Publish events are scheduled by each venture's content pipeline and dispatched to Pennyone with the correct pipeline value for fan-out under that venture's Zernio account. Pennyone is reactive, not initiating.
 
+### Notion Content Calendar integration
+
+Each pipeline's content lives in its own Notion workspace. `Integrations/pennyone/publisher.py` is the mapping layer between a Notion Content Calendar and Pennyone's `publish` tool. It keeps Pennyone pure while giving ventures a consistent planning-to-published path.
+
+Workflow:
+
+1. Editorial work happens in the Content Calendar with standard properties: `Caption`, `Platform` (relation), `Publish Date`, `Type`, `Media` (files), `Status`.
+2. `Status = "Scheduled"` plus a due `Publish Date` marks an entry eligible.
+3. The publisher (library mode from an Alfred session, or CLI from a cron job) picks up eligible entries, maps them to `PublishRequest`, dispatches through Pennyone and writes results back to `Zernio Post ID` and `Pennyone Log`. Status moves to `Published` only on clean success.
+
+The Content Calendar schema is documented in `Integrations/pennyone/README.md`. The pipeline-to-calendar registry lives in `publisher.py`.
+
 ---
 
 ## Working Directory
@@ -111,6 +123,7 @@ On-demand. Publish events are scheduled by each venture's content pipeline and d
 - **2026-04-23:** Personal and Five Points pipelines live. Adapter rewritten against Zernio's verified API shape. MCP registered locally. Four accounts connected total (Instagram + Threads + TikTok on personal; Instagram on Five Points).
 - **2026-04-23:** Media upload wired. `MediaAsset` with a `path` reads the file and uploads via the Zernio SDK; `MediaAsset` with a `url` passes through. Initial wiring attached a single URL as `imageUrl`.
 - **2026-04-23:** Media corrected and extended. Posts endpoint actually uses `mediaItems[]` (not `imageUrl`), which natively supports multi-media plus typed assets plus per-item `thumbnail` and `instagramThumbnail`. `MediaAsset` now carries `kind`, `title`, `thumbnail_url`/`thumbnail_path`, `instagram_thumbnail_url`/`instagram_thumbnail_path`. Every entry uploads and emits correctly.
+- **2026-04-23:** Notion Content Calendar publisher shipped. `publisher.py` bridges Notion to Pennyone while keeping Pennyone pure. Content Calendar schema extended with `Media`, `Zernio Post ID`, `Pennyone Log`. Threads and X rows added to Platforms. Personal pipeline is registered; Marty Gras, Five Points, Paradigm and Lillie and Lynette register their calendars as each workspace is provisioned. CLI needs `NOTION_{PIPELINE}_TOKEN`; library mode works from Alfred sessions via the managed MCP.
 
 ---
 
