@@ -81,7 +81,7 @@ The agent economy is assembling a new infrastructure stack analogous to the clou
 4. Financial observability – cost per agent, cost per successful task, outcome quality metrics (FinOps for agents)
 5. Standard failure and recovery patterns – when a tool call fails, standard provisioning for what happens next
 
-**Alfred OS mapping:** Pennyone and Watchtower ARE the orchestration layer. Pennyone aggregates intelligence (scheduling, lifecycle, briefing). Watchtower monitors thresholds and alerts (supervision, failure detection). The six-crew classification system provides the horizontal capability model. This is the most valuable position in the stack and the one we are already building toward.
+**Alfred OS mapping:** Pennyone and Watchtower are the orchestration layer. Watchtower monitors thresholds, alerts on breaches and produces the weekly portfolio briefing – observation in both its reactive and proactive forms. Pennyone is the content syndication router, routing a single publish request to Instagram, TikTok, Threads, X via Outstand and Reddit, Snap via Zernio. The six-crew classification system provides the horizontal capability model. This is the most valuable position in the stack and the one we are already building toward.
 
 **Maturity:** Biggest opportunity. Biggest gap. Whoever solves this at infrastructure grade owns the most valuable position in the agent economy.
 
