@@ -22,7 +22,7 @@ import os
 from datetime import datetime, timezone
 from enum import Enum
 from pathlib import Path
-from typing import Optional, List, Dict, Any
+from typing import Optional, List, Dict, Any, Literal
 
 import httpx
 import zernio
@@ -130,9 +130,23 @@ def _get_pipeline_key(pipeline: Pipeline) -> Optional[str]:
 
 
 class MediaAsset(BaseModel):
+    """
+    A single media attachment. Either `url` (public, pulled by Zernio) or
+    `path` (local file, uploaded first via the Zernio SDK) must be set.
+
+    `thumbnail_*` fields apply to video. `thumbnail_url` or `thumbnail_path`
+    set Facebook's custom cover (and Facebook Reels). `instagram_thumbnail_url`
+    or `instagram_thumbnail_path` set Instagram Reels' cover.
+    """
+
     url: Optional[str] = None
     path: Optional[str] = None
-    caption: Optional[str] = None
+    kind: Literal["image", "video", "gif", "document"] = "image"
+    title: Optional[str] = None
+    thumbnail_url: Optional[str] = None
+    thumbnail_path: Optional[str] = None
+    instagram_thumbnail_url: Optional[str] = None
+    instagram_thumbnail_path: Optional[str] = None
 
 
 class ContentPayload(BaseModel):
@@ -185,45 +199,60 @@ async def _zernio_list_accounts(api_key: str) -> List[Dict[str, Any]]:
         return resp.json().get("accounts", [])
 
 
-async def _zernio_upload_media(api_key: str, media: List[MediaAsset]) -> List[str]:
+async def _upload_path(client: Any, path_str: str) -> str:
+    path = Path(path_str).expanduser()
+    data = path.read_bytes()
+    mime_type, _ = mimetypes.guess_type(path.name)
+    resp = await client.media.aupload_bytes(
+        data,
+        filename=path.name,
+        mime_type=mime_type or "application/octet-stream",
+    )
+    if not resp.files:
+        raise RuntimeError(f"Zernio returned no files for upload of {path}")
+    return str(resp.files[0].url)
+
+
+async def _zernio_upload_media(api_key: str, media: List[MediaAsset]) -> List[Dict[str, Any]]:
     """
-    Resolve every media asset to a public URL Zernio can pull when posting.
+    Resolve every MediaAsset into a Zernio mediaItems[] entry. Uploads any
+    local paths (primary or thumbnail) via the Zernio SDK and passes URLs
+    through unchanged. Returns one dict per input asset, preserving order.
 
-    - `MediaAsset.url` set: pass the URL through unchanged.
-    - `MediaAsset.path` set: read the file, upload via the Zernio SDK and
-      use the returned public URL.
-
-    Returns one URL per input asset, preserving order.
+    Each returned dict has at minimum {type, url}. Optional keys: title,
+    thumbnail, instagramThumbnail -- emitted only when the corresponding
+    MediaAsset fields are set.
     """
-    urls: List[str] = []
-    need_upload = any(m.path for m in media)
+    if not media:
+        return []
 
-    if not need_upload:
-        for m in media:
-            if m.url:
-                urls.append(m.url)
-        return urls
-
+    items: List[Dict[str, Any]] = []
     async with zernio.Zernio(api_key=api_key) as client:
         for m in media:
             if m.url:
-                urls.append(m.url)
+                primary = m.url
+            elif m.path:
+                primary = await _upload_path(client, m.path)
+            else:
                 continue
-            if not m.path:
-                continue
-            path = Path(m.path).expanduser()
-            data = path.read_bytes()
-            mime_type, _ = mimetypes.guess_type(path.name)
-            resp = await client.media.aupload_bytes(
-                data,
-                filename=path.name,
-                mime_type=mime_type or "application/octet-stream",
-            )
-            if not resp.files:
-                raise RuntimeError(f"Zernio returned no files for upload of {path}")
-            urls.append(str(resp.files[0].url))
 
-    return urls
+            item: Dict[str, Any] = {"type": m.kind, "url": primary}
+            if m.title:
+                item["title"] = m.title
+
+            if m.thumbnail_url:
+                item["thumbnail"] = m.thumbnail_url
+            elif m.thumbnail_path:
+                item["thumbnail"] = await _upload_path(client, m.thumbnail_path)
+
+            if m.instagram_thumbnail_url:
+                item["instagramThumbnail"] = m.instagram_thumbnail_url
+            elif m.instagram_thumbnail_path:
+                item["instagramThumbnail"] = await _upload_path(client, m.instagram_thumbnail_path)
+
+            items.append(item)
+
+    return items
 
 
 async def _zernio_publish_batch(
@@ -231,7 +260,7 @@ async def _zernio_publish_batch(
     content_text: str,
     platform_accounts: Dict[Platform, str],
     schedule_at: Optional[datetime],
-    image_url: Optional[str] = None,
+    media_items: Optional[List[Dict[str, Any]]] = None,
 ) -> Dict[str, Any]:
     body: Dict[str, Any] = {
         "content": content_text,
@@ -240,8 +269,8 @@ async def _zernio_publish_batch(
             for p, acc_id in platform_accounts.items()
         ],
     }
-    if image_url:
-        body["imageUrl"] = image_url
+    if media_items:
+        body["mediaItems"] = media_items
     if schedule_at is not None:
         body["scheduledFor"] = schedule_at.isoformat()
     else:
@@ -362,7 +391,7 @@ async def publish(request: PublishRequest) -> PublishResponse:
     async def _submit(content: ContentPayload, plats: Dict[Platform, str]) -> List[PlatformResult]:
         content_text = _flatten_content(content)
         try:
-            media_urls = await _zernio_upload_media(api_key, content.media)
+            media_items = await _zernio_upload_media(api_key, content.media)
         except Exception as exc:
             return [
                 PlatformResult(
@@ -373,10 +402,9 @@ async def publish(request: PublishRequest) -> PublishResponse:
                 )
                 for p, acc_id in plats.items()
             ]
-        image_url = media_urls[0] if media_urls else None
         try:
             outcome = await _zernio_publish_batch(
-                api_key, content_text, plats, request.schedule_at, image_url=image_url
+                api_key, content_text, plats, request.schedule_at, media_items=media_items
             )
         except httpx.HTTPError as exc:
             return [

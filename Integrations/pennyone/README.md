@@ -126,8 +126,8 @@ All six platforms route through Zernio regardless of pipeline.
 Three functions in `server.py` hold every Zernio API dependency:
 
 - `_zernio_list_accounts(api_key)` -- `GET /accounts`. Returns the full account list for a pipeline.
-- `_zernio_upload_media(api_key, media)` -- uses the Zernio SDK's `media.aupload_bytes` for assets supplied by path, and passes URLs through unchanged. Returns one public URL per input asset.
-- `_zernio_publish_batch(api_key, content, platform_accounts, schedule_at, image_url)` -- `POST /posts` with a single call carrying the multi-platform array and optional `imageUrl`.
+- `_zernio_upload_media(api_key, media)` -- resolves each `MediaAsset` into a Zernio `mediaItems[]` entry. Uploads local paths via the Zernio SDK's `media.aupload_bytes`; passes URLs through unchanged. Handles primary media and thumbnails uniformly.
+- `_zernio_publish_batch(api_key, content, platform_accounts, schedule_at, media_items)` -- `POST /posts` carrying the multi-platform array and the `mediaItems[]` array.
 
 Base URL: `https://zernio.com/api/v1`. Auth: `Authorization: Bearer <key>`. Platform names map Pennyone canonical (`x`, `snap`) to Zernio's strings (`twitter`, `snapchat`) via `PLATFORM_TO_ZERNIO`.
 
@@ -135,14 +135,20 @@ Account resolution is automatic: `publish()` calls `_zernio_list_accounts` and p
 
 ## Media support
 
-A publish request's `content.media` is a list of `MediaAsset` objects. Each asset carries either:
+A publish request's `content.media` is a list of `MediaAsset` objects. Each asset carries:
 
-- `url` -- a pre-existing public URL. Passed through unchanged; Zernio pulls it at post time.
-- `path` -- a local file path. Read, uploaded via the Zernio SDK, converted to a public URL.
+| Field | Purpose |
+|---|---|
+| `url` | Public URL. Passed through unchanged; Zernio pulls it at post time. |
+| `path` | Local file path. Read, uploaded via the Zernio SDK, converted to a public URL. |
+| `kind` | `image`, `video`, `gif` or `document`. Defaults to `image`. |
+| `title` | Optional title (used by LinkedIn PDF/carousel, YouTube, Pinterest). |
+| `thumbnail_url` / `thumbnail_path` | Custom cover for Facebook video / Facebook Reels / regular video uploads. Max 10MB, JPG or PNG recommended. |
+| `instagram_thumbnail_url` / `instagram_thumbnail_path` | Custom cover for Instagram Reels. |
 
-Pennyone attaches the first resolved media URL to the post as `imageUrl`. Additional media in the same request are ignored for now (multi-creative posts use Zernio's `creatives[]` array, which is not yet wired). Video posts for Meta platforms also need a `thumbnailUrl`; that field is not wired either.
+Multi-media is supported -- pass multiple `MediaAsset` entries and every one appears as an entry in Zernio's `mediaItems[]`. Video thumbnails are resolved the same way as primary media (URL pass-through or path upload), then attached as `thumbnail` / `instagramThumbnail` on the corresponding item.
 
-Instagram, TikTok and Snap require media at Zernio's end -- text-only publishes to these platforms fail with a Zernio validation error. Threads, X and Reddit accept text-only content.
+Instagram, TikTok, YouTube and Snap require media at Zernio's end -- text-only publishes to these platforms fail with a Zernio validation error. Threads, X and Reddit accept text-only content.
 
 ## References
 
