@@ -35,7 +35,16 @@ A pipeline without a configured key returns a clean "pipeline not provisioned" e
 
 ## Status
 
-Scaffold complete. Multi-pipeline routing wired. Zernio REST call isolated in `_zernio_publish()`. Requires at least one pipeline's API key to go live.
+**Live** for the personal and Five Points pipelines. Keys provisioned 2026-04-23; adapter verified against Zernio's real API shape. MCP registration in local `.mcp.json`.
+
+Connected accounts as of go-live:
+
+| Pipeline | Connected |
+|---|---|
+| personal | Instagram, Threads, TikTok (`massamartyv`) |
+| five_points | Instagram (`studio.fivepoints`) |
+
+Remaining platforms per pipeline (X, Reddit, Snap on both; TikTok and Threads on Five Points) connect through Zernio's dashboard; Pennyone picks them up automatically.
 
 ## Setup
 
@@ -112,9 +121,18 @@ All six platforms route through Zernio regardless of pipeline.
 | Reddit | Zernio |
 | Snap | Zernio |
 
-## Adapter swap point
+## Zernio adapter
 
-The Zernio REST call lives in one function, `_zernio_publish()` in `server.py`. It takes the per-pipeline API key as an argument -- the pipeline lookup happens above it in `publish()`. The current shape assumes `POST /v1/posts` with a `platform` field and `Authorization: Bearer` header. Confirm against Zernio's actual API once the first account exists, then adjust that single function. No other part of Pennyone depends on the Zernio shape.
+Two functions in `server.py` hold every Zernio API dependency:
+
+- `_zernio_list_accounts(api_key)` -- `GET /accounts`. Returns the full account list for a pipeline.
+- `_zernio_publish_batch(api_key, content, platform_accounts, schedule_at)` -- `POST /posts` with a single call carrying the multi-platform array.
+
+Base URL: `https://zernio.com/api/v1`. Auth: `Authorization: Bearer <key>`. Platform names map Pennyone canonical (`x`, `snap`) to Zernio's strings (`twitter`, `snapchat`) via `PLATFORM_TO_ZERNIO`.
+
+Account resolution is automatic: `publish()` calls `_zernio_list_accounts` and picks the first active account per requested platform, unless the caller passes explicit `account_ids`.
+
+Media upload is not yet wired -- Zernio's docs did not surface the media endpoint shape during the build. Text and links pass through as the flattened `content` string.
 
 ## References
 

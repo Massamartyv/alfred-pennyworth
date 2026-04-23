@@ -2,15 +2,19 @@
 """
 Pennyone MCP Server -- Content syndication router.
 
-Thin FastMCP layer over Zernio. Accepts a publish request scoped to
-a pipeline (personal, marty_gras, five_points, paradigm, lillie_and_lynette)
+Thin FastMCP layer over Zernio. Accepts a publish request scoped to a
+pipeline (personal, marty_gras, five_points, paradigm, lillie_and_lynette)
 and fans it out to any subset of six social platforms (Instagram, TikTok,
 Threads, X, Reddit, Snap).
 
 Each pipeline owns its own Zernio account and its own API key, so
-personal content cannot accidentally publish on venture accounts and
-venture content cannot cross into another venture. The pipeline field
-is the routing key.
+personal content cannot publish on venture accounts and venture content
+cannot cross into another venture. The pipeline field is the routing key.
+
+Zernio handles platform fan-out internally: a single POST /posts call
+takes an array of {platform, accountId} pairs and publishes to each.
+Pennyone resolves accountIds by listing the pipeline's connected
+accounts and picking the first active account per requested platform.
 """
 
 import os
@@ -26,7 +30,7 @@ from mcp.server.fastmcp import FastMCP
 # Configuration
 # ---------------------------------------------------------------------------
 
-ZERNIO_API_BASE = os.getenv("ZERNIO_API_BASE", "https://api.zernio.com/v1")
+ZERNIO_API_BASE = os.getenv("ZERNIO_API_BASE", "https://zernio.com/api/v1")
 
 REQUEST_TIMEOUT_SECONDS = 30.0
 HEALTH_TIMEOUT_SECONDS = 10.0
@@ -46,6 +50,19 @@ class Platform(str, Enum):
     SNAP = "snap"
 
 
+# Zernio uses "twitter" for X and "snapchat" for Snap.
+PLATFORM_TO_ZERNIO: Dict[Platform, str] = {
+    Platform.INSTAGRAM: "instagram",
+    Platform.TIKTOK: "tiktok",
+    Platform.THREADS: "threads",
+    Platform.X: "twitter",
+    Platform.REDDIT: "reddit",
+    Platform.SNAP: "snapchat",
+}
+
+ZERNIO_TO_PLATFORM: Dict[str, Platform] = {v: k for k, v in PLATFORM_TO_ZERNIO.items()}
+
+
 class Pipeline(str, Enum):
     """
     Routing key for a publish request. Each pipeline is isolated -- it has
@@ -61,10 +78,7 @@ class Pipeline(str, Enum):
 
 
 # ---------------------------------------------------------------------------
-# Pipeline registry -- one row per pipeline.
-# `env_var` names the environment variable that holds that pipeline's
-# Zernio API key. `voice` is populated as each venture's content pipeline
-# ships and a voice guide exists; TBD until then.
+# Pipeline registry
 # ---------------------------------------------------------------------------
 
 PIPELINE_REGISTRY: Dict[Pipeline, Dict[str, str]] = {
@@ -102,7 +116,6 @@ PIPELINE_REGISTRY: Dict[Pipeline, Dict[str, str]] = {
 
 
 def _get_pipeline_key(pipeline: Pipeline) -> Optional[str]:
-    """Return the configured API key for a pipeline, or None if unset."""
     env_var = PIPELINE_REGISTRY[pipeline]["env_var"]
     value = os.getenv(env_var)
     return value or None
@@ -131,6 +144,10 @@ class PublishRequest(BaseModel):
     pipeline: Pipeline
     schedule_at: Optional[datetime] = None
     overrides: Dict[Platform, ContentPayload] = Field(default_factory=dict)
+    account_ids: Dict[Platform, str] = Field(
+        default_factory=dict,
+        description="Optional. If omitted, Pennyone resolves the first active account per platform.",
+    )
 
 
 class PlatformResult(BaseModel):
@@ -139,6 +156,7 @@ class PlatformResult(BaseModel):
     post_id: Optional[str] = None
     url: Optional[str] = None
     error: Optional[str] = None
+    account_id: Optional[str] = None
 
 
 class PublishResponse(BaseModel):
@@ -150,61 +168,62 @@ class PublishResponse(BaseModel):
 
 
 # ---------------------------------------------------------------------------
-# Zernio adapter -- the single swap point once the API shape is confirmed.
+# Zernio adapter -- the single swap point for Zernio API shape.
 # ---------------------------------------------------------------------------
 
 
-async def _zernio_publish(
-    api_key: str,
-    content: ContentPayload,
-    platform: Platform,
-    schedule_at: Optional[datetime],
-) -> PlatformResult:
-    """
-    Publish to a single platform via Zernio's unified API using the
-    supplied pipeline-scoped API key.
+async def _zernio_list_accounts(api_key: str) -> List[Dict[str, Any]]:
+    async with httpx.AsyncClient(timeout=REQUEST_TIMEOUT_SECONDS) as client:
+        resp = await client.get(
+            f"{ZERNIO_API_BASE}/accounts",
+            headers={"Authorization": f"Bearer {api_key}"},
+        )
+        resp.raise_for_status()
+        return resp.json().get("accounts", [])
 
-    The request shape below is the expected v1 pattern; once the account
-    is provisioned and the SDK or docs are confirmed, adjust this one
-    function. The rest of Pennyone is decoupled from the Zernio shape.
-    """
-    payload: Dict[str, Any] = {
-        "platform": platform.value,
-        "text": content.text,
-        "media": [m.model_dump(exclude_none=True) for m in content.media],
-        "links": content.links,
+
+async def _zernio_publish_batch(
+    api_key: str,
+    content_text: str,
+    platform_accounts: Dict[Platform, str],
+    schedule_at: Optional[datetime],
+) -> Dict[str, Any]:
+    body: Dict[str, Any] = {
+        "content": content_text,
+        "platforms": [
+            {"platform": PLATFORM_TO_ZERNIO[p], "accountId": acc_id}
+            for p, acc_id in platform_accounts.items()
+        ],
     }
     if schedule_at is not None:
-        payload["schedule_at"] = schedule_at.isoformat()
+        body["scheduledFor"] = schedule_at.isoformat()
+    else:
+        body["publishNow"] = True
 
-    try:
-        async with httpx.AsyncClient(timeout=REQUEST_TIMEOUT_SECONDS) as client:
-            resp = await client.post(
-                f"{ZERNIO_API_BASE}/posts",
-                headers={"Authorization": f"Bearer {api_key}"},
-                json=payload,
-            )
-    except httpx.HTTPError as exc:
-        return PlatformResult(
-            platform=platform,
-            status="failure",
-            error=f"Zernio request failed: {exc}",
+    async with httpx.AsyncClient(timeout=REQUEST_TIMEOUT_SECONDS) as client:
+        resp = await client.post(
+            f"{ZERNIO_API_BASE}/posts",
+            headers={"Authorization": f"Bearer {api_key}"},
+            json=body,
         )
 
-    if resp.status_code >= 400:
-        return PlatformResult(
-            platform=platform,
-            status="failure",
-            error=f"Zernio {resp.status_code}: {resp.text[:200]}",
-        )
+    return {
+        "status_code": resp.status_code,
+        "body": resp.json() if resp.headers.get("content-type", "").startswith("application/json") else resp.text,
+    }
 
-    data = resp.json()
-    return PlatformResult(
-        platform=platform,
-        status="success",
-        post_id=data.get("id"),
-        url=data.get("url"),
-    )
+
+def _flatten_content(content: ContentPayload) -> str:
+    """
+    Reduce a ContentPayload to a single string for Zernio's `content` field.
+    Text comes first; links are appended with newline separation. Media
+    assets are not yet uploaded -- the caller should attach URLs to media
+    and link them, or use the override mechanism when we wire media upload.
+    """
+    parts = [content.text.rstrip()] if content.text else []
+    for link in content.links:
+        parts.append(link)
+    return "\n\n".join(p for p in parts if p)
 
 
 # ---------------------------------------------------------------------------
@@ -220,37 +239,128 @@ async def publish(request: PublishRequest) -> PublishResponse:
     Fan out a publish request to the selected platforms under the pipeline's
     Zernio account.
 
-    The pipeline field is mandatory. If the pipeline's API key is not set,
-    every platform call fails with a clear "pipeline not provisioned"
-    error -- no Zernio call is made. Overrides let you swap the content
-    payload per platform while keeping a single dispatch.
+    Zernio handles the platform fan-out in a single API call. Pennyone
+    resolves the accountId for each requested platform from the pipeline's
+    connected accounts (first active account per platform) unless the
+    caller supplies account_ids explicitly.
+
+    A platform with no active account in the pipeline's Zernio account
+    fails with "no account connected" and is excluded from the batch call.
+    If every platform is unmapped, no Zernio call is made.
     """
-    api_key = _get_pipeline_key(request.pipeline)
     now = datetime.now(timezone.utc)
+    api_key = _get_pipeline_key(request.pipeline)
 
     if not api_key:
         env_var = PIPELINE_REGISTRY[request.pipeline]["env_var"]
-        failures = [
-            PlatformResult(
-                platform=platform,
-                status="failure",
-                error=f"Pipeline '{request.pipeline.value}' not provisioned. Set {env_var}.",
-            )
-            for platform in request.platforms
-        ]
         return PublishResponse(
             success=[],
             partial=[],
-            failure=failures,
+            failure=[
+                PlatformResult(
+                    platform=platform,
+                    status="failure",
+                    error=f"Pipeline '{request.pipeline.value}' not provisioned. Set {env_var}.",
+                )
+                for platform in request.platforms
+            ],
             pipeline=request.pipeline.value,
             dispatched_at=now,
         )
 
+    # Resolve accountId for every requested platform.
+    resolved: Dict[Platform, Optional[str]] = {p: request.account_ids.get(p) for p in request.platforms}
+    if any(v is None for v in resolved.values()):
+        accounts = await _zernio_list_accounts(api_key)
+        by_platform: Dict[str, List[Dict[str, Any]]] = {}
+        for acc in accounts:
+            if acc.get("isActive") and acc.get("platformStatus") == "active":
+                by_platform.setdefault(acc.get("platform", ""), []).append(acc)
+        for platform, acc_id in list(resolved.items()):
+            if acc_id is None:
+                zernio_name = PLATFORM_TO_ZERNIO[platform]
+                candidates = by_platform.get(zernio_name, [])
+                resolved[platform] = candidates[0]["_id"] if candidates else None
+
+    # Split dispatchable vs unmapped platforms.
+    dispatchable: Dict[Platform, str] = {
+        p: acc_id for p, acc_id in resolved.items() if acc_id is not None
+    }
+    unmapped_failures = [
+        PlatformResult(
+            platform=p,
+            status="failure",
+            error=f"No active {PLATFORM_TO_ZERNIO[p]} account connected to the {request.pipeline.value} pipeline.",
+        )
+        for p, acc_id in resolved.items()
+        if acc_id is None
+    ]
+
+    if not dispatchable:
+        return PublishResponse(
+            success=[],
+            partial=[],
+            failure=unmapped_failures,
+            pipeline=request.pipeline.value,
+            dispatched_at=now,
+        )
+
+    # Zernio takes a single content string per request. Per-platform
+    # overrides would require separate calls; loop for the overridden set.
+    override_platforms = {p for p in dispatchable if p in request.overrides}
+    batch_platforms = {p: acc for p, acc in dispatchable.items() if p not in override_platforms}
+
     results: List[PlatformResult] = []
-    for platform in request.platforms:
-        content = request.overrides.get(platform) or request.content
-        result = await _zernio_publish(api_key, content, platform, request.schedule_at)
-        results.append(result)
+
+    async def _submit(content: ContentPayload, plats: Dict[Platform, str]) -> List[PlatformResult]:
+        content_text = _flatten_content(content)
+        try:
+            outcome = await _zernio_publish_batch(api_key, content_text, plats, request.schedule_at)
+        except httpx.HTTPError as exc:
+            return [
+                PlatformResult(
+                    platform=p,
+                    status="failure",
+                    error=f"Zernio request failed: {exc}",
+                    account_id=acc_id,
+                )
+                for p, acc_id in plats.items()
+            ]
+
+        if outcome["status_code"] >= 400:
+            err = str(outcome["body"])[:300]
+            return [
+                PlatformResult(
+                    platform=p,
+                    status="failure",
+                    error=f"Zernio {outcome['status_code']}: {err}",
+                    account_id=acc_id,
+                )
+                for p, acc_id in plats.items()
+            ]
+
+        post_id = None
+        if isinstance(outcome["body"], dict):
+            post_id = outcome["body"].get("post", {}).get("_id")
+        return [
+            PlatformResult(
+                platform=p,
+                status="success",
+                post_id=post_id,
+                account_id=acc_id,
+            )
+            for p, acc_id in plats.items()
+        ]
+
+    if batch_platforms:
+        results.extend(await _submit(request.content, batch_platforms))
+
+    for p in override_platforms:
+        content = request.overrides[p]
+        acc_id = dispatchable[p]
+        results.extend(await _submit(content, {p: acc_id}))
+
+    results.extend(unmapped_failures)
 
     return PublishResponse(
         success=[r for r in results if r.status == "success"],
@@ -269,10 +379,7 @@ async def list_platforms() -> List[str]:
 
 @mcp.tool()
 async def list_pipelines() -> List[Dict[str, str]]:
-    """
-    Return the full pipeline registry -- one entry per pipeline with its
-    label, voice hint, description and the env var that holds its key.
-    """
+    """Return the pipeline registry -- label, voice, description, env var."""
     return [
         {"pipeline": pipeline.value, **info}
         for pipeline, info in PIPELINE_REGISTRY.items()
@@ -282,8 +389,8 @@ async def list_pipelines() -> List[Dict[str, str]]:
 @mcp.tool()
 async def pipeline_status() -> Dict[str, Dict[str, Any]]:
     """
-    For each pipeline, report whether its Zernio API key is set. Does not
-    make network calls. Use health_check for reachability tests.
+    Per-pipeline: is the API key set? Does not make a network call.
+    Use list_accounts or health_check for reachability.
     """
     status: Dict[str, Dict[str, Any]] = {}
     for pipeline in Pipeline:
@@ -298,10 +405,45 @@ async def pipeline_status() -> Dict[str, Dict[str, Any]]:
 
 
 @mcp.tool()
+async def list_accounts(pipeline: Pipeline) -> Dict[str, Any]:
+    """
+    List the connected social accounts for a pipeline. Returns one entry
+    per account with the Pennyone platform name, the underlying Zernio
+    platform name, the account ID, username, display name and active flag.
+    """
+    api_key = _get_pipeline_key(pipeline)
+    if not api_key:
+        env_var = PIPELINE_REGISTRY[pipeline]["env_var"]
+        return {"error": f"Pipeline '{pipeline.value}' not provisioned. Set {env_var}."}
+
+    try:
+        accounts = await _zernio_list_accounts(api_key)
+    except httpx.HTTPError as exc:
+        return {"error": f"Zernio request failed: {exc}"}
+
+    entries = []
+    for acc in accounts:
+        zernio_platform = acc.get("platform", "")
+        entries.append(
+            {
+                "account_id": acc.get("_id"),
+                "platform": ZERNIO_TO_PLATFORM.get(zernio_platform, zernio_platform).value
+                if isinstance(ZERNIO_TO_PLATFORM.get(zernio_platform, zernio_platform), Platform)
+                else zernio_platform,
+                "zernio_platform": zernio_platform,
+                "username": acc.get("username"),
+                "display_name": acc.get("displayName"),
+                "is_active": bool(acc.get("isActive") and acc.get("platformStatus") == "active"),
+            }
+        )
+    return {"pipeline": pipeline.value, "count": len(entries), "accounts": entries}
+
+
+@mcp.tool()
 async def health_check(pipeline: Optional[Pipeline] = None) -> Dict[str, Any]:
     """
-    Verify Zernio reachability. If a pipeline is given, check just that
-    one. Otherwise check every provisioned pipeline.
+    Verify Zernio reachability by listing accounts. If pipeline is given,
+    check just that one. Otherwise check every provisioned pipeline.
     """
     pipelines_to_check = [pipeline] if pipeline else list(Pipeline)
     results: Dict[str, Any] = {}
@@ -315,13 +457,20 @@ async def health_check(pipeline: Optional[Pipeline] = None) -> Dict[str, Any]:
         try:
             async with httpx.AsyncClient(timeout=HEALTH_TIMEOUT_SECONDS) as client:
                 resp = await client.get(
-                    f"{ZERNIO_API_BASE}/health",
+                    f"{ZERNIO_API_BASE}/accounts",
                     headers={"Authorization": f"Bearer {key}"},
                 )
-            results[p.value] = {
-                "status": "ok" if resp.status_code == 200 else "error",
-                "zernio_status": resp.status_code,
-            }
+            if resp.status_code == 200:
+                accounts = resp.json().get("accounts", [])
+                active = [a for a in accounts if a.get("isActive") and a.get("platformStatus") == "active"]
+                results[p.value] = {
+                    "status": "ok",
+                    "connected_accounts": len(accounts),
+                    "active_accounts": len(active),
+                    "platforms": sorted({a.get("platform", "?") for a in active}),
+                }
+            else:
+                results[p.value] = {"status": "error", "zernio_status": resp.status_code}
         except httpx.HTTPError as exc:
             results[p.value] = {"status": "error", "message": str(exc)}
 

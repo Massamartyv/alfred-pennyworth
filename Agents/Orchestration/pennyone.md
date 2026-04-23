@@ -34,9 +34,9 @@ The pipeline field on every publish request is the **routing key**. Each pipelin
 
 | Pipeline | Label | Env var | Status |
 |---|---|---|---|
-| `personal` | Personal | `ZERNIO_PERSONAL_API_KEY` | Provisioning |
+| `personal` | Personal | `ZERNIO_PERSONAL_API_KEY` | Live |
 | `marty_gras` | Marty Gras | `ZERNIO_MARTYGRAS_API_KEY` | Future |
-| `five_points` | Five Points Digital Studio | `ZERNIO_FIVEPOINTS_API_KEY` | Provisioning |
+| `five_points` | Five Points Digital Studio | `ZERNIO_FIVEPOINTS_API_KEY` | Live |
 | `paradigm` | Paradigm | `ZERNIO_PARADIGM_API_KEY` | Future |
 | `lillie_and_lynette` | Lillie and Lynette | `ZERNIO_LILLIEANDLYNETTE_API_KEY` | Future |
 
@@ -73,17 +73,21 @@ A publish request contains:
 
 ## Implementation Status
 
-**Scaffold complete. Multi-pipeline routing wired.** Zernio integration function isolated at `Integrations/pennyone/server.py::_zernio_publish`. Requires at least one pipeline's API key to go live.
+**Live** for the personal and Five Points pipelines (2026-04-23). Zernio accounts provisioned; adapter verified against Zernio's real API shape (`https://zernio.com/api/v1`, Bearer auth, single multi-platform `POST /posts`). MCP registration in local `.mcp.json`.
 
-Remaining build sequence:
+**Connected accounts at go-live:**
 
-1. Sign up at zernio.com per pipeline that needs its own account (personal and Five Points first)
-2. Connect Instagram, TikTok, Threads, X, Reddit and Snap within each Zernio account with that pipeline's handles
-3. Add each pipeline's API key to `~/Alfred Pennyworth/.env`
-4. Install dependencies in `Integrations/pennyone/.venv`
-5. Confirm the Zernio REST shape matches the scaffold assumption (`POST /v1/posts`, Bearer auth); adjust `_zernio_publish` if not
-6. Register `pennyone` in `.mcp.json` per the README with every pipeline's env var listed
-7. Wire each venture's content pipeline to dispatch through Pennyone with its pipeline value
+| Pipeline | Connected |
+|---|---|
+| personal | Instagram, Threads, TikTok (`massamartyv`) |
+| five_points | Instagram (`studio.fivepoints`) |
+
+**Remaining work:**
+
+1. Connect remaining platforms (X, Reddit, Snap on both pipelines; TikTok and Threads on Five Points) through the Zernio dashboard. Pennyone picks them up automatically on the next `publish` call.
+2. Wire media upload once Zernio's media endpoint shape is confirmed. Currently text-and-links only; `ContentPayload.media` is carried through but not sent.
+3. Provision Marty Gras, Paradigm and Lillie and Lynette Zernio accounts as each venture's content pipeline comes online.
+4. Wire each venture's content pipeline to dispatch through Pennyone with its pipeline value.
 
 ---
 
@@ -103,7 +107,8 @@ On-demand. Publish events are scheduled by each venture's content pipeline and d
 
 - **2026-04-23:** Briefing scope transferred to Watchtower. Pennyone is now exclusively the syndication router.
 - **2026-04-23:** Architecture corrected from Outstand+Zernio split to Zernio-only. Research confirmed Zernio covers all six target platforms; Outstand does not cover Reddit or Snap.
-- **2026-04-23:** Multi-pipeline routing wired. The branding-mode label became a hard routing key. Each pipeline owns its own Zernio account and API key. Starting pipelines: personal and Five Points.
+- **2026-04-23:** Multi-pipeline routing wired. The branding-mode label became a hard routing key. Each pipeline owns its own Zernio account and API key.
+- **2026-04-23:** Personal and Five Points pipelines live. Adapter rewritten against Zernio's verified API shape. MCP registered locally. Four accounts connected total (Instagram + Threads + TikTok on personal; Instagram on Five Points).
 
 ---
 

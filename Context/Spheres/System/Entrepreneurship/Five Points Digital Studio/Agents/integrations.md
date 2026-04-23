@@ -91,12 +91,12 @@ Plugins are MCP connections. Alfred can read, write and operate within these sys
 
 | Field | Value |
 |---|---|
-| Account | Zernio (Five Points, provisioning) |
+| Account | Zernio (Five Points, live 2026-04-23) |
 | Scope | Social syndication across Instagram, TikTok, Threads, X, Reddit and Snap for Five Points handles |
 | Pipeline value | `five_points` |
 | MCP server name | `pennyone` (cross-venture router) |
 | MCP package | Custom Python/FastMCP server at `Integrations/pennyone/` |
-| Status | Scaffold complete, multi-pipeline routing wired. Provisioning Five Points Zernio account now. |
+| Status | **Live.** Instagram connected (`studio.fivepoints`). Remaining platforms connect through the Zernio dashboard and Pennyone picks them up automatically. |
 | Environment variable | `ZERNIO_FIVEPOINTS_API_KEY` |
 | Routing rule | When the Five Points content pipeline dispatches through Pennyone, it passes `pipeline: "five_points"` and Pennyone routes under the Five Points Zernio account. Pennyone itself is cross-venture; only the Zernio account is venture-scoped. |
 
