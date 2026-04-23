@@ -87,6 +87,19 @@ Plugins are MCP connections. Alfred can read, write and operate within these sys
 | Routing rule | Stripe is exclusively a business asset. No personal Stripe exists in the ecosystem. All Stripe operations are Five Points-scoped. |
 | Env var naming | The `_SECRET_KEY` suffix is retained (not aligned to `_TOKEN`) because Stripe uses "secret key" as its canonical terminology. Domain-specific naming is preferred over forced uniformity. |
 
+### Pennyone – Social syndication
+
+| Field | Value |
+|---|---|
+| Account | Zernio (Five Points, provisioning) |
+| Scope | Social syndication across Instagram, TikTok, Threads, X, Reddit and Snap for Five Points handles |
+| Pipeline value | `five_points` |
+| MCP server name | `pennyone` (cross-venture router) |
+| MCP package | Custom Python/FastMCP server at `Integrations/pennyone/` |
+| Status | Scaffold complete, multi-pipeline routing wired. Provisioning Five Points Zernio account now. |
+| Environment variable | `ZERNIO_FIVEPOINTS_API_KEY` |
+| Routing rule | When the Five Points content pipeline dispatches through Pennyone, it passes `pipeline: "five_points"` and Pennyone routes under the Five Points Zernio account. Pennyone itself is cross-venture; only the Zernio account is venture-scoped. |
+
 ### Gemini – Five Points
 
 | Field | Value |
@@ -135,6 +148,7 @@ All API keys are stored in `~/Alfred Pennyworth/.env` (gitignored). The `.mcp.js
 | `APIFY_FIVEPOINTS_TOKEN` | Apify (Five Points account) | `.env` |
 | `INSTANTLY_FIVEPOINTS_API_KEY` | Instantly (Five Points account, dormant) | `.env` |
 | `GEMINI_FIVEPOINTS_API_KEY` | Gemini (Five Points) | `.env` |
+| `ZERNIO_FIVEPOINTS_API_KEY` | Zernio (Five Points account, provisioning) | `.env` |
 
 To activate in a new shell session: `source ~/Alfred\ Pennyworth/.env`
 

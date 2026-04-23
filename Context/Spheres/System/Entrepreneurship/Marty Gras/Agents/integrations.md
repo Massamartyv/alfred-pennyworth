@@ -40,12 +40,13 @@ Plugins Marty Gras needs once the pipeline is live.
 | Field | Value |
 |---|---|
 | Account | Zernio (Marty Gras, to be provisioned) |
-| Scope | Social syndication across Instagram, TikTok, Threads, X, Reddit and Snap (all six via Zernio) |
-| MCP server name | `pennyone` |
+| Scope | Social syndication across Instagram, TikTok, Threads, X, Reddit and Snap for Marty Gras handles |
+| Pipeline value | `marty_gras` |
+| MCP server name | `pennyone` (cross-venture router) |
 | MCP package | Custom Python/FastMCP server at `Integrations/pennyone/` |
-| Status | **Scaffold complete.** Requires Zernio signup and `ZERNIO_API_KEY` before it can go live. Registration block for `.mcp.json` documented in the scaffold README. |
-| Environment variable | `ZERNIO_API_KEY` |
-| Routing rule | Pennyone is the content syndication layer for the Marty Gras platform. Buffer is deprecated. Architecture corrected 2026-04-23 from Outstand+Zernio split to Zernio-only after research confirmed Zernio covers all six target platforms. |
+| Status | **Scaffold complete, multi-pipeline routing wired.** Marty Gras pipeline not yet provisioned. Personal and Five Points pipelines are the first to come online. |
+| Environment variable | `ZERNIO_MARTYGRAS_API_KEY` |
+| Routing rule | When the Marty Gras content pipeline dispatches through Pennyone, it passes `pipeline: "marty_gras"` and Pennyone routes under the Marty Gras Zernio account. Pennyone itself is cross-venture; only the Zernio account is venture-scoped. Buffer is deprecated. |
 
 ### Substack, Podcast host
 

@@ -1,22 +1,22 @@
 ---
 name: pennyone
-description: Content syndication router. Thin FastMCP layer over Zernio that fans out a single publish request across Instagram, TikTok, Threads, X, Reddit and Snap
+description: Content syndication router. Thin FastMCP layer over Zernio. Fans out a single publish request across Instagram, TikTok, Threads, X, Reddit and Snap under the requesting pipeline's own Zernio account
 type: orchestration
 crew: maestro
 model: sonnet
 cadence: On-demand (per publish event)
-scope: Social syndication across Instagram, TikTok, Threads, X, Reddit, Snap
+scope: Cross-portfolio social syndication. Pipelines today: personal, marty_gras, five_points, paradigm, lillie_and_lynette
 working_dir: .working/pennyone/
-tools: FastMCP server at Integrations/pennyone/ (scaffold complete, awaiting Zernio key)
+tools: FastMCP server at Integrations/pennyone/ (scaffold complete, multi-pipeline routing wired)
 ---
 
 # Pennyone – Content Syndication Router
 
 ## Mission
 
-Take a single piece of content and route it to its native form on every target platform. Pennyone replaces Buffer as the Marty Gras social syndication layer and extends to any venture that needs multi-platform publishing.
+Take a single piece of content and route it to its native form on every target platform, under the Zernio account that belongs to the requesting pipeline. Pennyone replaces Buffer as the syndication layer for every venture that ships content and extends to any venture that comes online later.
 
-Pennyone does not write the content. It does not decide when to publish. It takes a publish request that already exists and executes the fan-out.
+Pennyone does not write the content. It does not decide when to publish. It takes a publish request that already exists and executes the fan-out under the right account.
 
 ---
 
@@ -25,10 +25,22 @@ Pennyone does not write the content. It does not decide when to publish. It take
 Thin FastMCP server at `Integrations/pennyone/` that wraps Zernio, a unified social media API covering 14+ platforms. Pennyone uses six of them.
 
 ```
-Alfred --> Pennyone (FastMCP) --> Zernio API --> 6 platforms
+Alfred --> Pennyone (FastMCP) --> Zernio (per-pipeline account) --> 6 platforms
 ```
 
-Zernio covers every target platform. Pennyone's value-add sits above it: venture-scoped branding mode, per-platform content overrides, unified response aggregation and Notion Content pipeline hooks (future).
+The pipeline field on every publish request is the **routing key**. Each pipeline is isolated – it has its own Zernio account, its own connected social handles and its own API key. Personal content cannot accidentally publish on venture accounts. Venture A content cannot cross into Venture B.
+
+### Pipelines
+
+| Pipeline | Label | Env var | Status |
+|---|---|---|---|
+| `personal` | Personal | `ZERNIO_PERSONAL_API_KEY` | Provisioning |
+| `marty_gras` | Marty Gras | `ZERNIO_MARTYGRAS_API_KEY` | Future |
+| `five_points` | Five Points Digital Studio | `ZERNIO_FIVEPOINTS_API_KEY` | Provisioning |
+| `paradigm` | Paradigm | `ZERNIO_PARADIGM_API_KEY` | Future |
+| `lillie_and_lynette` | Lillie and Lynette | `ZERNIO_LILLIEANDLYNETTE_API_KEY` | Future |
+
+A pipeline without a configured key returns a clean "pipeline not provisioned" error for every platform in the request. No Zernio call is made.
 
 ### Platform Routing
 
@@ -45,39 +57,39 @@ Zernio covers every target platform. Pennyone's value-add sits above it: venture
 
 A publish request contains:
 
+- **Pipeline** – the routing key. Required.
 - **Content payload** – text, media assets, links
 - **Target platforms** – any subset of the six
 - **Scheduling intent** – immediate or at-timestamp
-- **Branding mode** – Marty Gras, Five Points, Paradigm or Lillie and Lynette
 - **Overrides** – optional per-platform content payload overrides
 
 ### Output Contract
 
 - Per-platform publish result (status, post_id, url, error)
 - Unified response: success list, partial list, failure list
-- Branding mode and dispatched-at timestamp on the envelope
+- Pipeline echo and dispatched-at timestamp on the envelope
 
 ---
 
 ## Implementation Status
 
-**Scaffold complete.** Zernio integration function isolated at `Integrations/pennyone/server.py::_zernio_publish`. Requires `ZERNIO_API_KEY` to go live.
+**Scaffold complete. Multi-pipeline routing wired.** Zernio integration function isolated at `Integrations/pennyone/server.py::_zernio_publish`. Requires at least one pipeline's API key to go live.
 
 Remaining build sequence:
 
-1. Sign up at zernio.com; generate API key; connect all six platforms with the Marty Gras accounts
-2. Add `ZERNIO_API_KEY` to `~/Alfred Pennyworth/.env`
-3. Install dependencies in `Integrations/pennyone/.venv`
-4. Confirm the Zernio REST shape matches the scaffold assumption (`POST /v1/posts`, Bearer auth); adjust `_zernio_publish` if not
-5. Register `pennyone` in `.mcp.json` per the README
-6. Integrate with the Marty Gras Operations content pipeline
-7. Expand access to any venture that needs multi-platform syndication
+1. Sign up at zernio.com per pipeline that needs its own account (personal and Five Points first)
+2. Connect Instagram, TikTok, Threads, X, Reddit and Snap within each Zernio account with that pipeline's handles
+3. Add each pipeline's API key to `~/Alfred Pennyworth/.env`
+4. Install dependencies in `Integrations/pennyone/.venv`
+5. Confirm the Zernio REST shape matches the scaffold assumption (`POST /v1/posts`, Bearer auth); adjust `_zernio_publish` if not
+6. Register `pennyone` in `.mcp.json` per the README with every pipeline's env var listed
+7. Wire each venture's content pipeline to dispatch through Pennyone with its pipeline value
 
 ---
 
 ## Delivery
 
-On-demand. Publish events are scheduled by the content pipeline (currently Marty Gras Operations) and dispatched to Pennyone for fan-out execution. Pennyone is reactive, not initiating.
+On-demand. Publish events are scheduled by each venture's content pipeline and dispatched to Pennyone with the correct pipeline value for fan-out under that venture's Zernio account. Pennyone is reactive, not initiating.
 
 ---
 
@@ -90,7 +102,8 @@ On-demand. Publish events are scheduled by the content pipeline (currently Marty
 ## Historical Notes
 
 - **2026-04-23:** Briefing scope transferred to Watchtower. Pennyone is now exclusively the syndication router.
-- **2026-04-23:** Architecture corrected from Outstand+Zernio split to Zernio-only. Research confirmed Zernio covers all six target platforms; Outstand does not cover Reddit or Snap. Two subscriptions would have been redundant.
+- **2026-04-23:** Architecture corrected from Outstand+Zernio split to Zernio-only. Research confirmed Zernio covers all six target platforms; Outstand does not cover Reddit or Snap.
+- **2026-04-23:** Multi-pipeline routing wired. The branding-mode label became a hard routing key. Each pipeline owns its own Zernio account and API key. Starting pipelines: personal and Five Points.
 
 ---
 
