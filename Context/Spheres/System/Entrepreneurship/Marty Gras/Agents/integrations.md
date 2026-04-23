@@ -39,13 +39,13 @@ Plugins Marty Gras needs once the pipeline is live.
 
 | Field | Value |
 |---|---|
-| Account | Marty Gras (future) |
-| Scope | Social syndication across Instagram, TikTok, Threads, X (via Outstand) and Reddit, Snap (via Zernio) |
-| MCP server name | `pennyone` (target) |
-| MCP package | Custom Python/FastMCP server |
-| Status | **Target state.** Replaces Buffer ecosystem-wide per April 2026 decision. To be stood up as part of the Pennyone build. |
-| Environment variable | To be defined |
-| Routing rule | Pennyone is the content syndication layer for the Marty Gras platform. Buffer is deprecated. |
+| Account | Zernio (Marty Gras, to be provisioned) |
+| Scope | Social syndication across Instagram, TikTok, Threads, X, Reddit and Snap (all six via Zernio) |
+| MCP server name | `pennyone` |
+| MCP package | Custom Python/FastMCP server at `Integrations/pennyone/` |
+| Status | **Scaffold complete.** Requires Zernio signup and `ZERNIO_API_KEY` before it can go live. Registration block for `.mcp.json` documented in the scaffold README. |
+| Environment variable | `ZERNIO_API_KEY` |
+| Routing rule | Pennyone is the content syndication layer for the Marty Gras platform. Buffer is deprecated. Architecture corrected 2026-04-23 from Outstand+Zernio split to Zernio-only after research confirmed Zernio covers all six target platforms. |
 
 ### Substack, Podcast host
 
@@ -60,7 +60,7 @@ Plugins Marty Gras needs once the pipeline is live.
 
 | Plugin | Status | Replacement | Reason |
 |---|---|---|---|
-| Buffer | **Deprecated ecosystem-wide (April 2026)** | Pennyone | Per Marty OS final document – Pennyone routes to Outstand and Zernio. Buffer subscription to be cancelled. |
+| Buffer | **Deprecated ecosystem-wide (April 2026)** | Pennyone | Pennyone routes to Zernio. Buffer subscription to be cancelled. |
 
 ---
 

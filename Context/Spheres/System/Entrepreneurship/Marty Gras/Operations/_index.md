@@ -62,7 +62,7 @@ Detailed SOPs for each content type live in `Operations/SOPs/`.
 
 | Tool | Purpose | Status |
 |---|---|---|
-| Pennyone | Social syndication (Outstand for IG, TikTok, Threads, X; Zernio for Reddit, Snap) | Target state |
+| Pennyone | Social syndication (Zernio under the hood for IG, TikTok, Threads, X, Reddit, Snap) | Scaffold ready; awaiting Zernio key |
 | ElevenLabs | Podcast audio production and voice content | Active |
 | Substack | Newsletter publishing (Epiphany) | To be configured |
 | Podcast host | Audio distribution | To be selected |

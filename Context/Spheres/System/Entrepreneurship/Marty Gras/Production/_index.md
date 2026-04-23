@@ -44,7 +44,7 @@ Production/
 | ElevenLabs | Podcast audio production and voice content | Active |
 | Substack | Newsletter publishing (Epiphany) | To be configured |
 | Podcast host | Audio distribution | To be selected |
-| Pennyone | Social syndication (Instagram, TikTok, Threads, X via Outstand; Reddit, Snap via Zernio) | Target state – replaces Buffer |
+| Pennyone | Social syndication (Instagram, TikTok, Threads, X, Reddit, Snap via Zernio) | Scaffold ready; awaiting Zernio key. Replaces Buffer |
 
 ## Agent Instructions
 
