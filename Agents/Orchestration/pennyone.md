@@ -85,9 +85,9 @@ A publish request contains:
 **Remaining work:**
 
 1. Connect remaining platforms (X, Reddit, Snap on both pipelines; TikTok and Threads on Five Points) through the Zernio dashboard. Pennyone picks them up automatically on the next `publish` call.
-2. Wire media upload once Zernio's media endpoint shape is confirmed. Currently text-and-links only; `ContentPayload.media` is carried through but not sent.
-3. Provision Marty Gras, Paradigm and Lillie and Lynette Zernio accounts as each venture's content pipeline comes online.
-4. Wire each venture's content pipeline to dispatch through Pennyone with its pipeline value.
+2. Provision Marty Gras, Paradigm and Lillie and Lynette Zernio accounts as each venture's content pipeline comes online.
+3. Wire each venture's content pipeline to dispatch through Pennyone with its pipeline value.
+4. Wire multi-creative (Zernio's `creatives[]` array) and video thumbnails (`thumbnailUrl` for Meta) when those use cases surface. Single media upload is live today.
 
 ---
 
@@ -109,6 +109,7 @@ On-demand. Publish events are scheduled by each venture's content pipeline and d
 - **2026-04-23:** Architecture corrected from Outstand+Zernio split to Zernio-only. Research confirmed Zernio covers all six target platforms; Outstand does not cover Reddit or Snap.
 - **2026-04-23:** Multi-pipeline routing wired. The branding-mode label became a hard routing key. Each pipeline owns its own Zernio account and API key.
 - **2026-04-23:** Personal and Five Points pipelines live. Adapter rewritten against Zernio's verified API shape. MCP registered locally. Four accounts connected total (Instagram + Threads + TikTok on personal; Instagram on Five Points).
+- **2026-04-23:** Media upload wired. `MediaAsset` with a `path` reads the file and uploads via the Zernio SDK; `MediaAsset` with a `url` passes through. First resolved URL attaches as `imageUrl` on the post. Multi-creative and video thumbnails still to come.
 
 ---
 

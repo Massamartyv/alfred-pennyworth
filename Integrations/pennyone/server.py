@@ -17,12 +17,15 @@ Pennyone resolves accountIds by listing the pipeline's connected
 accounts and picking the first active account per requested platform.
 """
 
+import mimetypes
 import os
 from datetime import datetime, timezone
 from enum import Enum
+from pathlib import Path
 from typing import Optional, List, Dict, Any
 
 import httpx
+import zernio
 from pydantic import BaseModel, Field
 from mcp.server.fastmcp import FastMCP
 
@@ -182,11 +185,53 @@ async def _zernio_list_accounts(api_key: str) -> List[Dict[str, Any]]:
         return resp.json().get("accounts", [])
 
 
+async def _zernio_upload_media(api_key: str, media: List[MediaAsset]) -> List[str]:
+    """
+    Resolve every media asset to a public URL Zernio can pull when posting.
+
+    - `MediaAsset.url` set: pass the URL through unchanged.
+    - `MediaAsset.path` set: read the file, upload via the Zernio SDK and
+      use the returned public URL.
+
+    Returns one URL per input asset, preserving order.
+    """
+    urls: List[str] = []
+    need_upload = any(m.path for m in media)
+
+    if not need_upload:
+        for m in media:
+            if m.url:
+                urls.append(m.url)
+        return urls
+
+    async with zernio.Zernio(api_key=api_key) as client:
+        for m in media:
+            if m.url:
+                urls.append(m.url)
+                continue
+            if not m.path:
+                continue
+            path = Path(m.path).expanduser()
+            data = path.read_bytes()
+            mime_type, _ = mimetypes.guess_type(path.name)
+            resp = await client.media.aupload_bytes(
+                data,
+                filename=path.name,
+                mime_type=mime_type or "application/octet-stream",
+            )
+            if not resp.files:
+                raise RuntimeError(f"Zernio returned no files for upload of {path}")
+            urls.append(str(resp.files[0].url))
+
+    return urls
+
+
 async def _zernio_publish_batch(
     api_key: str,
     content_text: str,
     platform_accounts: Dict[Platform, str],
     schedule_at: Optional[datetime],
+    image_url: Optional[str] = None,
 ) -> Dict[str, Any]:
     body: Dict[str, Any] = {
         "content": content_text,
@@ -195,6 +240,8 @@ async def _zernio_publish_batch(
             for p, acc_id in platform_accounts.items()
         ],
     }
+    if image_url:
+        body["imageUrl"] = image_url
     if schedule_at is not None:
         body["scheduledFor"] = schedule_at.isoformat()
     else:
@@ -315,7 +362,22 @@ async def publish(request: PublishRequest) -> PublishResponse:
     async def _submit(content: ContentPayload, plats: Dict[Platform, str]) -> List[PlatformResult]:
         content_text = _flatten_content(content)
         try:
-            outcome = await _zernio_publish_batch(api_key, content_text, plats, request.schedule_at)
+            media_urls = await _zernio_upload_media(api_key, content.media)
+        except Exception as exc:
+            return [
+                PlatformResult(
+                    platform=p,
+                    status="failure",
+                    error=f"Media upload failed: {exc}",
+                    account_id=acc_id,
+                )
+                for p, acc_id in plats.items()
+            ]
+        image_url = media_urls[0] if media_urls else None
+        try:
+            outcome = await _zernio_publish_batch(
+                api_key, content_text, plats, request.schedule_at, image_url=image_url
+            )
         except httpx.HTTPError as exc:
             return [
                 PlatformResult(

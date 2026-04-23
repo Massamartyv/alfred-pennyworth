@@ -123,16 +123,26 @@ All six platforms route through Zernio regardless of pipeline.
 
 ## Zernio adapter
 
-Two functions in `server.py` hold every Zernio API dependency:
+Three functions in `server.py` hold every Zernio API dependency:
 
 - `_zernio_list_accounts(api_key)` -- `GET /accounts`. Returns the full account list for a pipeline.
-- `_zernio_publish_batch(api_key, content, platform_accounts, schedule_at)` -- `POST /posts` with a single call carrying the multi-platform array.
+- `_zernio_upload_media(api_key, media)` -- uses the Zernio SDK's `media.aupload_bytes` for assets supplied by path, and passes URLs through unchanged. Returns one public URL per input asset.
+- `_zernio_publish_batch(api_key, content, platform_accounts, schedule_at, image_url)` -- `POST /posts` with a single call carrying the multi-platform array and optional `imageUrl`.
 
 Base URL: `https://zernio.com/api/v1`. Auth: `Authorization: Bearer <key>`. Platform names map Pennyone canonical (`x`, `snap`) to Zernio's strings (`twitter`, `snapchat`) via `PLATFORM_TO_ZERNIO`.
 
 Account resolution is automatic: `publish()` calls `_zernio_list_accounts` and picks the first active account per requested platform, unless the caller passes explicit `account_ids`.
 
-Media upload is not yet wired -- Zernio's docs did not surface the media endpoint shape during the build. Text and links pass through as the flattened `content` string.
+## Media support
+
+A publish request's `content.media` is a list of `MediaAsset` objects. Each asset carries either:
+
+- `url` -- a pre-existing public URL. Passed through unchanged; Zernio pulls it at post time.
+- `path` -- a local file path. Read, uploaded via the Zernio SDK, converted to a public URL.
+
+Pennyone attaches the first resolved media URL to the post as `imageUrl`. Additional media in the same request are ignored for now (multi-creative posts use Zernio's `creatives[]` array, which is not yet wired). Video posts for Meta platforms also need a `thumbnailUrl`; that field is not wired either.
+
+Instagram, TikTok and Snap require media at Zernio's end -- text-only publishes to these platforms fail with a Zernio validation error. Threads, X and Reddit accept text-only content.
 
 ## References
 
