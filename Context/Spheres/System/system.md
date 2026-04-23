@@ -93,6 +93,18 @@ Current priority: (to be set)
 
 ---
 
+## Skills Touching This Cluster
+
+Skills live at `~/.claude/skills/` and are referenced logically by sphere.
+
+| Skill | Sphere | Surface | When to invoke |
+|---|---|---|---|
+| offer-creator | Entrepreneurship | Both | Grand Slam Offer architect. 12-phase interactive build, Stripe registration. Cross-venture. |
+| prompt-creator | Artificial Intelligence | Both | Standardise and templatise prompts from any source. Reverse-engineer prompts from output. |
+| discovery-architect | Entrepreneurship (Five Points only) | Code | First venture-scoped skill. Runs Manor Protocol Reconnaissance and Direction for a new Five Points engagement. Venture-scoped -- does not fire in personal context or other ventures. |
+
+---
+
 ## Maintenance
 
 | Trigger | Action |
@@ -106,4 +118,4 @@ Current priority: (to be set)
 
 ---
 
-*Last updated: April 5, 2026*
+*Last updated: 2026-04-23*

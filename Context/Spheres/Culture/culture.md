@@ -72,6 +72,18 @@ Alfred draws on these naturally for pop culture references, metaphors, analogies
 
 ---
 
+## Skills Touching This Cluster
+
+Skills live at `~/.claude/skills/` and are referenced logically by sphere.
+
+| Skill | Sphere | Surface | When to invoke |
+|---|---|---|---|
+| michelin-chef | Culinary Arts | Both | Recipe development, flavour pairing, technique instruction, menu design, Notion recipe logging. Trigger word: "Chef" or any culinary discussion. |
+| design | Art, Architecture, Fashion, Photography, Interior Design | Both | Brand identity, design tokens, logo generation, corporate identity programmes, banner and icon design, social photos, HTML presentations. |
+| ui-ux-pro-max | Architecture, Interior Design, Art | Both | Web and mobile UI/UX design. Component libraries, colour systems, typography, accessibility, responsive layouts, design systems. |
+
+---
+
 ## Maintenance
 
 | Trigger | Action |
@@ -81,4 +93,4 @@ Alfred draws on these naturally for pop culture references, metaphors, analogies
 
 ---
 
-*Last updated: April 5, 2026*
+*Last updated: 2026-04-23*

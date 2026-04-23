@@ -44,6 +44,16 @@ When a queued language becomes active: Create a new file following the spanish.m
 
 ---
 
+## Skills Touching This Cluster
+
+Skills live at `~/.claude/skills/` and are referenced logically by sphere.
+
+| Skill | Sphere | Surface | When to invoke |
+|---|---|---|---|
+| grammar-nazi | Public Speaking (Writing discipline) | Both | Cross-cutting copy audit. Run after any written output against the global grammar and style ruleset. Touches every cluster in practice; anchored here because the craft of written language lives in Mind. |
+
+---
+
 ## Maintenance
 
 | Trigger | Action |
@@ -54,4 +64,4 @@ When a queued language becomes active: Create a new file following the spanish.m
 
 ---
 
-*Last updated: 2026-04-22*
+*Last updated: 2026-04-23*

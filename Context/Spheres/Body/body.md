@@ -81,6 +81,16 @@ Inventory management: Self-managed – Alfred does not track reorder
 
 ---
 
+## Skills Touching This Cluster
+
+Skills live at `~/.claude/skills/` and are referenced logically by sphere.
+
+| Skill | Sphere | Surface | When to invoke |
+|---|---|---|---|
+| personal-trainer | Fitness, Human Anatomy | Both | Workout logging, program design, periodization, progression tracking. Trigger word: "Sensei" or any movement-related discussion. |
+
+---
+
 ## Maintenance
 
 | Trigger | Action |
@@ -93,4 +103,4 @@ Inventory management: Self-managed – Alfred does not track reorder
 
 ---
 
-*Last updated: April 5, 2026*
+*Last updated: 2026-04-23*
