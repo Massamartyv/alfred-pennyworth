@@ -4,7 +4,7 @@ department: Growth
 venture: "{Venture Name}"
 status: template
 methodology: The Manor Protocol
-last_updated: 2026-04-22
+last_updated: 2026-05-14
 ---
 
 # Growth – Agent Roster and Workflow Registry
@@ -20,10 +20,10 @@ See venture-level `Agents/department-heads.md` for the Head of Growth role defin
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
 | **Head of Growth** | Studio head. Owns revenue generation and channel strategy. | All | – |
-| **Sales Lead** | Direct sales pipeline, outreach, proposals, deal management. | Reconnaissance, Execution | Explorer, Strategist |
-| **Partnership Scout** | Aligned brands, networks and co-branding opportunities. | Reconnaissance | Explorer |
-| **Channel Lead** | DTC, wholesale or distribution strategy depending on venture model. | Direction, Execution | Strategist, Maestro |
-| **Affiliate and Ambassador Lead** | Influencer programmes, referral networks, affiliate operations. | Execution | Maestro |
+| **Sales Lead** | Direct sales pipeline, outreach, proposals, deal management. | Reconnaissance, Execution | Researcher |
+| **Partnership Scout** | Aligned brands, networks and co-branding opportunities. | Reconnaissance | Researcher |
+| **Channel Lead** | DTC, wholesale or distribution strategy depending on venture model. | Direction, Execution | Researcher, Creator |
+| **Affiliate and Ambassador Lead** | Influencer programmes, referral networks, affiliate operations. | Execution | Creator |
 
 ### Role activation
 

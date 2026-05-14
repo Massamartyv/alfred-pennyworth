@@ -4,7 +4,7 @@ department: Knowledge Base
 venture: "{Venture Name}"
 status: template
 methodology: The Manor Protocol
-last_updated: 2026-04-22
+last_updated: 2026-05-14
 ---
 
 # Knowledge Base – Agent Roster and Workflow Registry
@@ -17,7 +17,7 @@ Institutional memory for {Venture Name}. Industry research, case studies and met
 
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
-| **Knowledge Curator** | Captures research, indexes intelligence, maintains case study library and methodology documentation. | Release | Strategist, Creator |
+| **Knowledge Curator** | Captures research, indexes intelligence, maintains case study library and methodology documentation. | Release | Researcher, Creator |
 
 ### Role activation
 

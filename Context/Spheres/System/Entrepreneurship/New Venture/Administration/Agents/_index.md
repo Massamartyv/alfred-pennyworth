@@ -4,7 +4,7 @@ department: Administration
 venture: "{Venture Name}"
 status: template
 methodology: The Manor Protocol
-last_updated: 2026-04-22
+last_updated: 2026-05-14
 ---
 
 # Administration – Agent Roster and Workflow Registry
@@ -20,10 +20,10 @@ See venture-level `Agents/department-heads.md` for the Head of Administration ro
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
 | **Head of Administration** | Studio head. Owns the structure and the gates. | All | – |
-| **Legal Coordinator** | Contracts, supplier agreements, NDAs, licensing. | Execution | Creator, Validator |
-| **Compliance Officer** | Regulatory compliance, claims review, industry-specific rules. | Critique | Validator |
-| **Brand Protection Lead** | Trademark filings, IP monitoring, brand misuse response. | Execution, Critique | Strategist, Validator |
-| **People Lead** | Team structure, contractor onboarding, culture, advisor relationships. | Execution | Strategist, Creator |
+| **Legal Coordinator** | Contracts, supplier agreements, NDAs, licensing. | Execution | Creator, Reviewer |
+| **Compliance Officer** | Regulatory compliance, claims review, industry-specific rules. | Critique | Reviewer |
+| **Brand Protection Lead** | Trademark filings, IP monitoring, brand misuse response. | Execution, Critique | Researcher, Reviewer |
+| **People Lead** | Team structure, contractor onboarding, culture, advisor relationships. | Execution | Researcher, Creator |
 
 ### Role activation
 

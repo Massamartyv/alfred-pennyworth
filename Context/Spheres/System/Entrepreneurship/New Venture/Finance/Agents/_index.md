@@ -4,7 +4,7 @@ department: Finance
 venture: "{Venture Name}"
 status: template
 methodology: The Manor Protocol
-last_updated: 2026-04-22
+last_updated: 2026-05-14
 ---
 
 # Finance – Agent Roster and Workflow Registry
@@ -20,10 +20,10 @@ See venture-level `Agents/department-heads.md` for the Head of Finance role defi
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
 | **Head of Finance** | Studio head. Owns the numbers. | All | – |
-| **Revenue Analyst** | Sales tracking by channel, cohort analysis. | Execution | Strategist, Creator |
-| **Cost Analyst** | Cost tracking, margin analysis, supplier cost management. | Execution | Strategist |
+| **Revenue Analyst** | Sales tracking by channel, cohort analysis. | Execution | Researcher, Creator |
+| **Cost Analyst** | Cost tracking, margin analysis, supplier cost management. | Execution | Researcher |
 | **Financial Reporter** | P&L, cash flow, monthly and quarterly reports. | Release | Creator |
-| **Compliance Validator** | Tax readiness, platform compliance, audit trails. | Critique | Validator |
+| **Compliance Validator** | Tax readiness, platform compliance, audit trails. | Critique | Reviewer |
 
 ### Role activation
 

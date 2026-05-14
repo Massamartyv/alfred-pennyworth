@@ -4,7 +4,7 @@ department: Strategy
 venture: "{Venture Name}"
 status: template
 methodology: The Manor Protocol
-last_updated: 2026-04-22
+last_updated: 2026-05-14
 ---
 
 # Strategy – Agent Roster and Workflow Registry
@@ -20,10 +20,10 @@ See venture-level `Agents/department-heads.md` for the Head of Strategy role def
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
 | **Head of Strategy** | Studio head. Owns the strategic point of view. | All | – |
-| **Market Researcher** | Industry landscape, category trend detection, whitespace analysis. | Reconnaissance | Explorer, Strategist |
-| **Competitive Analyst** | Incumbent and emerging competitor monitoring, positioning maps, pricing intelligence. | Reconnaissance | Explorer, Strategist |
-| **Consumer Insight Lead** | Target customer profiles, behavioural segmentation, purchase drivers. | Reconnaissance, Direction | Strategist |
-| **Positioning Lead** | Brand positioning, differentiation frameworks, narrative architecture. | Direction | Strategist |
+| **Market Researcher** | Industry landscape, category trend detection, whitespace analysis. | Reconnaissance | Researcher |
+| **Competitive Analyst** | Incumbent and emerging competitor monitoring, positioning maps, pricing intelligence. | Reconnaissance | Researcher |
+| **Consumer Insight Lead** | Target customer profiles, behavioural segmentation, purchase drivers. | Reconnaissance, Direction | Researcher |
+| **Positioning Lead** | Brand positioning, differentiation frameworks, narrative architecture. | Direction | Researcher |
 
 ### Role activation
 

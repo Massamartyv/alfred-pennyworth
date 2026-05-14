@@ -1,7 +1,7 @@
 ---
 file_type: directory_index
 directory: Agents
-last_updated: 2026-04-05
+last_updated: 2026-04-29
 ---
 
 # Agents
@@ -22,27 +22,65 @@ YOU -- CEO / Creative Director / Founder
     +-- [Department Heads] -- Venture-specific leadership roles
     |     +-- [Specialist Roles] -- Functional positions under each head
     |
-    +-- [Crews] -- The six types of work any role dispatches
+    +-- [Crews] -- The five types of work any role dispatches
 ```
 
 **You** set the vision, strategy and creative direction. **Alfred** translates strategy into actionable plans, manages day-to-day operations, maintains infrastructure and systems and tracks performance. **Department Heads** own specific functional areas within each venture. **Crews** classify the type of work being performed.
 
-### The Six Crews
+### The Five Crews
 
 Crews are not agents. They are classifications of work. See `crews.md` for full definitions.
 
-| Crew | Role | What They Do |
-|---|---|---|
-| Strategist | Researcher | Research, analyse, synthesise, recommend |
-| Creator | Builder | Build, write, design, produce |
-| Evaluator | Grader | Review, audit, grade against criteria |
-| Maestro | Orchestrator | Coordinate multi-step workflows |
-| Validator | Approver | Check compliance, gate output |
-| Explorer | Market Sensor | Scout trends, sense shifts, surface opportunities |
+| Crew | What They Do |
+|---|---|
+| Researcher | Research, analyse, synthesise, scout trends, sense shifts, surface opportunities. Combines what was previously Strategist and Explorer. |
+| Creator | Build, write, design, produce. |
+| Reviewer | Review, audit, grade, validate, gate output. Combines what was previously Evaluator and Validator. |
+| Mediator | Resolve contention over shared resources, surface tradeoffs, optimise across stakeholders, find win-wins. Promoted from coordination pattern 2026-05-14. |
+| Broadcaster | Distribute shared context, status and signal, keep coherence across multi-agent missions and multi-channel output. Promoted from coordination pattern 2026-05-14. |
+
+Maestro retired. Alfred is the orchestrator – multi-step coordination is what the orchestrator already does, not a separate crew.
 
 ### Venture Department Heads
 
 Each venture defines its own department head structure in `Operations/AI/department-heads.md`. Department heads provide vertical structure. Crews provide horizontal capability. The two systems are orthogonal.
+
+---
+
+## Coordination Patterns
+
+How dispatches relate to each other inside a mission. Crews say what the work is. Patterns say how dispatches link up.
+
+Sourced from Factory's multi-agent strategies (AI Engineer, 2026), cross-referenced against the Alfred operating system on 2026-05-10.
+
+### The five patterns
+
+| Pattern | What it is | Alfred state |
+|---|---|---|
+| Delegation | One agent spawns another for a subtask | Active – the spine of every mission. Hardened by the handoff schema |
+| Creator-Verifier | One agent builds, a different agent checks | Active – Creator crew followed by Reviewer crew. Fresh-context rule below |
+| Direct Communication | Peer agents coordinate without an orchestrator | Skipped deliberately – Alfred-as-coordinator is the safer pattern |
+| Negotiation | Two agents resolve contention over a shared resource | Promoted to crew 2026-05-14 – see Mediator in `crews.md` |
+| Broadcast | One agent distributes shared context or status to many | Promoted to crew 2026-05-14 – see Broadcaster in `crews.md` |
+
+### Creator fresh-context rule
+
+Every dispatched Reviewer agent runs in fresh context with no memory of the Creator it audits. Both tiers, no exceptions:
+
+- Reviewer:Scrutiny – mechanical audit in fresh context
+- Reviewer:Behavioural – end-user pass in fresh context
+
+The rule exists to eliminate sunk-cost bias on the work being audited. A Reviewer that carries memory of the Creator's work is no longer auditing – it is the Creator extending its own work.
+
+Alfred reviewing in his own main thread is a different pattern – the orchestrator running a quality check on output that passed through him – not a Reviewer dispatch. The fresh-context rule applies only to dispatched Reviewer agents.
+
+### What we deliberately skip
+
+**Direct Communication.** Peer-to-peer coordination without an orchestrator. Factory itself flagged the failure mode: state fragments across agents that cannot reconcile without a coordinator. Alfred-as-coordinator is the chosen pattern for the foreseeable future. Any future temptation to let dispatched agents talk to each other directly should reread this note first.
+
+### Future phases
+
+- **Mission Control** – the dynamic in-mission status surface. Phase 2. Until it exists, the handoff schema and validation contract serve as passive Broadcaster work – the same shared truth read by every dispatch at every milestone.
 
 ---
 
@@ -67,9 +105,9 @@ Operate across the entire ecosystem. Infrastructure-level maintenance.
 
 | Agent | Location | Crew | Cadence | Purpose |
 |---|---|---|---|---|
-| context-audit | System/ | Evaluator | Monthly | Scan context files for stale or inconsistent information |
-| media-scanner | System/ | Explorer | Monthly | Surface new five-star entries from Notion databases |
-| sphere-review | System/ | Evaluator | Quarterly | Verify Sphere Index alignment |
+| context-audit | System/ | Reviewer:Scrutiny | Monthly | Scan context files for stale or inconsistent information |
+| media-scanner | System/ | Researcher | Monthly | Surface new five-star entries from Notion databases |
+| sphere-review | System/ | Reviewer:Scrutiny | Quarterly | Verify Sphere Index alignment |
 
 ### Orchestration Agents
 
@@ -77,8 +115,8 @@ Portfolio-level systems that aggregate intelligence and surface alerts across al
 
 | Agent | Location | Crew | Cadence | Purpose |
 |---|---|---|---|---|
-| penny-one | Orchestration/ | Maestro | Weekly and on-demand | Portfolio-level briefing |
-| watchtower | Orchestration/ | Validator | Continuous | Threshold monitoring and alerts |
+| penny-one | Orchestration/ | Creator, Broadcaster | Weekly and on-demand | Portfolio briefing production and multi-platform syndication |
+| watchtower | Orchestration/ | Reviewer:Scrutiny, Broadcaster | Continuous | Threshold monitoring and alert broadcasting |
 
 ### Venture Agents
 
@@ -88,9 +126,9 @@ Venture-specific agent configurations live at `Operations/AI/` within each ventu
 
 ## Stack Awareness
 
-Alfred OS operates within a six-layer agent infrastructure stack. Every agent, crew dispatch and architectural decision should be evaluated against this model. Full reference: `Context/Spheres/System/Artificial Intelligence/agent-infrastructure-stack.md`.
+Alfred operating system operates within a six-layer agent infrastructure stack. Every agent, crew dispatch and architectural decision should be evaluated against this model. Full reference: `Context/Spheres/System/Artificial Intelligence/agent-infrastructure-stack.md`.
 
-| Layer | What It Is | Alfred OS Position |
+| Layer | What It Is | Alfred operating system Position |
 |---|---|---|
 | 1. Compute and sandboxing | Safe, isolated execution environments | Local Mac. `.working/` for transient files. Cloud sandboxes needed for deployed agents. |
 | 2. Identity and communication | How agents exist and communicate on the internet | Email Directory, iMessage, MCP auth. Shim-heavy -- functional but not agent-native. |
@@ -127,9 +165,11 @@ Each agent file uses this structure:
 ```yaml
 ---
 name: {agent-name}
-description: {one-line description}
+description: {one-line description focused on when to invoke, not what it is}
+model: {haiku, sonnet, opus}
 type: {maintenance, research, build, audit, orchestration, monitoring}
-crew: {strategist, creator, evaluator, maestro, validator, explorer}
+crew: {one or more of: researcher, creator, reviewer, mediator, broadcaster}
+tier: {scrutiny, behavioural}    # required when crew is reviewer
 cadence: {when it runs}
 scope: {what files/systems it operates on}
 working_dir: .working/{agent-name}/
@@ -137,7 +177,30 @@ tools: {what tools it needs}
 ---
 ```
 
-Followed by: Mission, Scope, Criteria, Report Format, Working Directory, After the Mission.
+Followed by: Mission, Scope, Criteria, Working Directory, After the Mission.
+
+### Handoff is the closing artefact
+
+Every agent run ends with a handoff document written to `.working/{agent-name}/handoff.md`. The canonical schema lives at `templates/handoff-schema.md` and is required output – no exceptions. The handoff replaces the loose Report Format that previously sat under this section.
+
+Existing agents (`context-audit`, `media-scanner`, `sphere-review`, `penny-one`, `watchtower`) retrofit to the schema on their next definition update – no stop-the-world rewrite.
+
+### Manor Protocol gates – reversibility-based
+
+Gates fire on irreversibility, not category.
+
+| Action class | Direction gate | Critique gate |
+|---|---|---|
+| Reversible work (drafts, internal writes, research output, scratch artefacts) | – | – |
+| External-facing or irreversible (sends, publishes, payments, force-pushes, deploys) | – | Required |
+
+The Direction gate is retired as a structural requirement. Agents may still produce a direction artefact for their own planning. The Critique gate is the load-bearing one – it is the last opportunity to catch a compounding error before the work leaves the system.
+
+### Model defaults
+
+- System maintenance agents (`context-audit`, `media-scanner`, `sphere-review`): `haiku`. Mechanical scans, low judgment, high frequency.
+- Orchestration agents (`penny-one`, `watchtower`): `sonnet`. Mid-judgment, mid-frequency, content production and threshold logic.
+- Department heads doing strategic or creative judgment work: `opus`. Taste, synthesis and direction calls.
 
 ### Working directory convention
 
@@ -177,4 +240,4 @@ Agents/
 
 ---
 
-*Last updated: April 2026*
+*Last updated: 2026-05-14 – Crew taxonomy expanded to five with Mediator and Broadcaster; Coordination Patterns table updated to reflect promotion; Watchtower and Penny-one re-tagged as multi-crew*

@@ -3,7 +3,7 @@ file_type: agent_governance
 venture: "{Venture Name}"
 status: template
 methodology: The Manor Protocol
-last_updated: 2026-04-22
+last_updated: 2026-05-14
 ---
 
 # The Manor Protocol – {Venture Name}
@@ -24,13 +24,13 @@ All work moves through five phases. The phases are sequential but not rigid – 
 
 Wide scan. Gather raw material, references, signals, competitive intelligence and market context. The output is not answers – it is a landscape of possibility.
 
-**Primary crews:** Explorer, Strategist
+**Primary crews:** Researcher
 
 ### 2. Direction
 
 The point of view crystallises from the reconnaissance. This is the brief – the decision that everything downstream is measured against.
 
-**Primary crews:** Strategist, Maestro
+**Primary crews:** Researcher → Creator (handoff)
 
 **Hard gate: human approval required before proceeding to Execution.**
 
@@ -44,7 +44,7 @@ Build the thing. Develop the product. Design the assets. Draft the plan. Write t
 
 Hold the output against the brief and the standard. Is it excellent? Is it compliant? Does it meet the bar? This is review for quality, not approval.
 
-**Primary crews:** Evaluator, Validator
+**Primary crews:** Reviewer:Scrutiny, Reviewer:Behavioural
 
 **Hard gate: human approval required before proceeding to Release.**
 
@@ -52,7 +52,7 @@ Hold the output against the brief and the standard. Is it excellent? Is it compl
 
 Ship it. Launch the product. Publish the campaign. Send the deliverable. Clean, complete, on standard.
 
-**Primary crews:** Maestro
+**Primary crews:** Creator (release-mode), Broadcaster
 
 ---
 
@@ -107,16 +107,17 @@ Every studio contains an `Agents/` subfolder with a standard structure:
 
 ## Crew Mapping
 
-The six universal crews classify the type of work, not who does it. Full definitions in `~/Alfred Pennyworth/Agents/crews.md`.
+The five universal crews classify the type of work, not who does it. Full definitions in `~/Alfred Pennyworth/Agents/crews.md`.
 
 | Crew | Role | Lifecycle Affinity |
 |---|---|---|
-| Explorer | Market Sensor | Reconnaissance |
-| Strategist | Researcher | Reconnaissance, Direction |
-| Creator | Builder | Execution |
-| Evaluator | Grader | Critique |
-| Validator | Approver | Critique |
-| Maestro | Orchestrator | Direction, Release |
+| Researcher | Investigator and sensor | Reconnaissance, Direction |
+| Creator | Builder | Execution, Release |
+| Reviewer | Auditor and gate | Critique |
+| Mediator | Tradeoff resolver | Direction, Execution |
+| Broadcaster | Signal distributor and coherence keeper | Direction, Release |
+
+Reviewer carries two tiers dispatched as distinct subtypes – `Reviewer:Scrutiny` for mechanical compliance and `Reviewer:Behavioural` for end-user verification. Mission planning declares which tier each Critique milestone requires.
 
 ---
 
@@ -132,7 +133,7 @@ Complex deliverables cycle through Execution and Critique multiple times before 
 
 ### Cross-studio work
 
-When work spans multiple studios, each studio runs its own lifecycle on its portion. The Maestro crew coordinates handoffs.
+When work spans multiple studios, each studio runs its own lifecycle on its portion. Alfred coordinates handoffs across studios. The Broadcaster crew carries shared context and milestone signals between them.
 
 ---
 
