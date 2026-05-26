@@ -2,7 +2,7 @@
 name: pennyone
 description: Content syndication router. Thin FastMCP layer over Zernio. Fans out a single publish request across Instagram, TikTok, Threads, X, Reddit and Snap under the requesting pipeline's own Zernio account
 type: orchestration
-crew: maestro
+crew: creator
 model: sonnet
 cadence: On-demand (per publish event)
 scope: Cross-portfolio social syndication. Pipelines today: personal, marty_gras, five_points, paradigm, lillie_and_lynette

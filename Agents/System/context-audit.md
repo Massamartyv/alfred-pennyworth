@@ -2,8 +2,8 @@
 name: context-audit
 description: Scans all context files for stale, outdated or inconsistent information and produces a structured audit report
 type: maintenance
-crew: evaluator
-model: sonnet
+crew: reviewer
+model: haiku
 cadence: First of every month
 scope: ~/Alfred Pennyworth/Context/ and configuration files
 working_dir: .working/context-audit/
@@ -14,7 +14,7 @@ tools: Read, Glob, Grep
 
 ## Mission
 
-Scan every context file in the Alfred OS ecosystem for information that has become stale, outdated or inconsistent. Produce a structured audit report with findings and recommended actions.
+Scan every context file in the Alfred operating system ecosystem for information that has become stale, outdated or inconsistent. Produce a structured audit report with findings and recommended actions.
 
 ---
 

@@ -2,8 +2,8 @@
 name: sphere-review
 description: Verifies Sphere Index alignment with Sphere Manager database and file structure
 type: maintenance
-crew: evaluator
-model: sonnet
+crew: reviewer
+model: haiku
 cadence: First of each quarter
 scope: Sphere Index in global CLAUDE.md, Sphere Manager database, Context/Spheres/ directory
 working_dir: .working/sphere-review/

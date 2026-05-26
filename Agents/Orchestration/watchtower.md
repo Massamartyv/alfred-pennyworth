@@ -2,8 +2,8 @@
 name: watchtower
 description: Portfolio monitoring and briefing agent. Watches for threshold breaches and produces regular portfolio briefings. Both outputs derive from one ongoing act of observation
 type: orchestration
-crew: validator, maestro
-model: opus
+crew: reviewer
+model: sonnet
 cadence: Continuous (threshold triggers), daily (sweeps), weekly (briefing)
 scope: All ventures, personal operations, financial data, client health, content deadlines
 working_dir: .working/watchtower/
