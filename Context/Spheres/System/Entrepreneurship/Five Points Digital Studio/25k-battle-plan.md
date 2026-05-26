@@ -4,7 +4,7 @@
 
 $25,000 in monthly recurring revenue by September 30, 2026. At 40% owner distribution, that is $10,000/mo personal take-home. S-Corp election becomes viable. Wealth building begins.
 
-**Current state (April 5, 2026):** ~$2,500 MRR, 2 retainer clients, sole operator, Instantly dormant, zero Human Construct builds completed, comprehensive offer suite built and architected but not activated, the living proof of concept (Alfred OS) deepening every session.
+**Current state (April 5, 2026):** ~$2,500 MRR, 2 retainer clients, sole operator, Instantly dormant, zero Human Construct builds completed, comprehensive offer suite built and architected but not activated, the living proof of concept (Alfred operating system) deepening every session.
 
 **The thesis:** Human Construct is the core offer. Everything else in the Five Points catalogue either leads toward it or flows from it. The $25K target is not reached by assembling seven commoditised retainer clients. It is reached by building bespoke AI operating systems for founders who understand the advantage and stacking the compounding revenue that follows each build.
 
@@ -12,7 +12,7 @@ $25,000 in monthly recurring revenue by September 30, 2026. At 40% owner distrib
 
 ## The Proof of Concept
 
-Alfred OS is not a side project. It is the working prototype of the Platinum-tier Human Construct engagement. Every sphere file, every agent definition, every MCP integration, every skill, every automation, every session log is a demonstration of what the product does at full depth.
+Alfred operating system is not a side project. It is the working prototype of the Platinum-tier Human Construct engagement. Every sphere file, every agent definition, every MCP integration, every skill, every automation, every session log is a demonstration of what the product does at full depth.
 
 When a prospect asks "what does this look like when it is built?" the answer is not a slide deck. It is a live walkthrough of the system that runs your life and your ventures. The naming ceremony, the wrapper identity, the tool integrations, the context architecture, the agentic framework – all of it exists, operational, evolving in real time.
 
@@ -99,7 +99,7 @@ The fastest path to a Q2 build is someone who already knows you.
 
 ### Content (Ongoing from Week 1)
 
-- [ ] LinkedIn content strategy launches immediately: document the Alfred OS build journey. Not "how to use AI" content. "Here is what I built and what it does" content. Show, do not tell.
+- [ ] LinkedIn content strategy launches immediately: document the Alfred operating system build journey. Not "how to use AI" content. "Here is what I built and what it does" content. Show, do not tell.
 - [ ] First post on launch day: the thesis. You built a personal AI operating system. Here is what it does. Here is what it changes.
 - [ ] Weekly posts minimum through April. Each one demonstrates a different capability.
 
@@ -117,7 +117,7 @@ The fastest path to a Q2 build is someone who already knows you.
 
 - **Email 1:** "I built a personal AI operating system for myself. It saves me 15+ hours a week and operates across every venture I run. I looked at your portfolio and I think something similar could work for [specific observation]."
 - **Email 2:** Free AI Audit offer. 15 minutes, their context, live demonstration.
-- **Email 3:** Case study delivery. The Alfred OS story, anonymised or named depending on comfort.
+- **Email 3:** Case study delivery. The Alfred operating system story, anonymised or named depending on comfort.
 - **Email 4:** Bronze AI Blueprint offer with the 90 day credit toward a build.
 - **Email 5:** Q2 intake window – three slots, limited availability. Application link.
 
@@ -136,8 +136,8 @@ The fastest path to a Q2 build is someone who already knows you.
 
 The proof of concept already exists. Document it as it runs, not as a separate sprint.
 
-- [ ] Write the Alfred OS case study: baseline metrics, current capabilities, hours saved per week, tools consolidated, operational friction reduction
-- [ ] Create a 60 second screen recording walkthrough of Alfred OS in action
+- [ ] Write the Alfred operating system case study: baseline metrics, current capabilities, hours saved per week, tools consolidated, operational friction reduction
+- [ ] Create a 60 second screen recording walkthrough of Alfred operating system in action
 - [ ] Use the case study in outbound Email 3 and on the website
 
 ---
@@ -157,7 +157,7 @@ Q2 builds start as soon as clients are signed. No waiting for a formal intake wi
 
 ### Onboarding and Delivery
 
-- [ ] Create the client project template in Five Points Notion workspace (mirrors the Alfred OS architecture)
+- [ ] Create the client project template in Five Points Notion workspace (mirrors the Alfred operating system architecture)
 - [ ] Build the Naming Ceremony facilitation guide
 - [ ] Create the System Operations Manual template
 - [ ] Document the 60 day measurement protocol for case study generation
@@ -248,4 +248,4 @@ Track weekly. Every Friday. Six numbers.
 
 *Last updated: April 5, 2026*
 *Core Reference: Human Construct Base Offer Architecture (Offer 2.4)*
-*Proof of Concept: Alfred OS (~/Alfred Pennyworth/)*
+*Proof of Concept: Alfred operating system (~/Alfred Pennyworth/)*
