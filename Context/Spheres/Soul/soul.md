@@ -43,6 +43,16 @@ What Alfred does not do:
 
 ---
 
+## Relevant Skills
+
+Skills live at `~/.claude/skills/` and are referenced logically by sphere.
+
+| Skill | Sphere | Surface | When to invoke |
+|---|---|---|---|
+| gift-shopper | Social Development | Both | Builds themed premium gift baskets from the Notion Contacts database. Trigger: gift shopping, gift baskets, birthday, anniversary, thank you, housewarming, holiday, or "what to get X." |
+
+---
+
 ## Maintenance
 
 | Trigger | Action |
@@ -53,4 +63,4 @@ What Alfred does not do:
 
 ---
 
-*Last updated: April 5, 2026*
+*Last updated: 2026-04-23*

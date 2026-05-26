@@ -5,7 +5,7 @@
 Artificial Intelligence, Entrepreneurship, Personal Finance, Real Estate
 
 **Graduated files:**
-- `Context/Spheres/System/Artificial Intelligence/agent-infrastructure-stack.md` – The six-layer agent infrastructure stack framework and how Alfred OS maps to it
+- `Context/Spheres/System/Artificial Intelligence/agent-infrastructure-stack.md` – The six-layer agent infrastructure stack framework and how Alfred operating system maps to it
 
 *This cluster also governs cross-cutting operational infrastructure: GTD methodology, operating rhythm, Sphere Manager mechanics, reconnection protocols, and content pipeline.*
 
@@ -93,7 +93,7 @@ Current priority: (to be set)
 
 ---
 
-## Skills Touching This Cluster
+## Relevant Skills
 
 Skills live at `~/.claude/skills/` and are referenced logically by sphere.
 

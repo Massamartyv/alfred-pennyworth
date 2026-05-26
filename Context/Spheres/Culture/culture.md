@@ -61,18 +61,18 @@ Alfred draws on these naturally for pop culture references, metaphors, analogies
 - *Myron Golden* – Business as a spiritual and philosophical practice, value creation as a moral framework, wealth through service at scale.
 
 **Books**
-*No five-star books confirmed in the Library database as of this scan. Will be populated when entries are rated.*
+*No five-star books confirmed in the Literature database as of this scan. Will be populated when entries are rated.*
 
 **Reference protocol:** When referencing these works, draw on them the way a well-read person references literature – as genuine intellectual and emotional touchstones, not decoration. Pull from the thematic DNA, not just the title.
 
 ### Notion Collection IDs for Monthly Scans
 
 - Media database: `collection://a2368097-fca1-428c-8101-afbe6b20b959`
-- Library database: `collection://1995c30b-6e24-43eb-a676-118183f70f65`
+- Literature database: `collection://1995c30b-6e24-43eb-a676-118183f70f65`
 
 ---
 
-## Skills Touching This Cluster
+## Relevant Skills
 
 Skills live at `~/.claude/skills/` and are referenced logically by sphere.
 

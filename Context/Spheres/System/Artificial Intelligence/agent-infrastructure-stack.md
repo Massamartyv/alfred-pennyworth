@@ -1,6 +1,6 @@
 # Agent Infrastructure Stack
 
-The six-layer framework for understanding the primitives that agents require to operate in the world. This is the mental model for evaluating tools, identifying gaps and making architectural decisions across Alfred OS and all ventures.
+The six-layer framework for understanding the primitives that agents require to operate in the world. This is the mental model for evaluating tools, identifying gaps and making architectural decisions across Alfred operating system and all ventures.
 
 ---
 
@@ -16,9 +16,20 @@ The agent economy is assembling a new infrastructure stack analogous to the clou
 
 **The architectural split:** Ephemeral vs persistent. Disposable sandboxes assume short sessions with no state. Persistent environments assume the agent installs dependencies, creates files and comes back later. This is not a style preference – it is a bet on how long agent sessions will run and whether state matters.
 
-**Alfred OS mapping:** Claude Code runs locally on the Mac. For deployed agents and client-facing automations, this layer becomes relevant. The `.working/` directory is an early local analogue – a transient execution space.
+**Alfred operating system mapping:** Claude Code runs locally on the Mac. For deployed agents and client-facing automations, this layer becomes relevant. The `.working/` directory is an early local analogue – a transient execution space.
 
 **Maturity:** Most production-ready layer in the stack. Multiple viable options.
+
+**Prompt caching – the compute-layer optimisation that pays for itself.** Anthropic's prompt cache reads at 0.1x base input cost (90% off). Minimum cacheable prefix is 4,096 tokens for Opus 4.7. Apply `cache_control` to any portion of a prompt that repeats across calls.
+
+The pattern for every integration in `~/Alfred Pennyworth/Integrations/`:
+
+1. **Identify the static prefix.** Brand voice, platform formatting rules, agent role definition, ICP context, show-notes template – anything that does not vary per call.
+2. **Set `cache_control: {"type": "ephemeral"}` on the static prefix.** Cache writes cost 1.25x base (5-min TTL) or 2x (1-hour TTL). Cache reads cost 0.1x. Break-even is around 2-3 reuses.
+3. **Vary only the per-call payload.** The prospect record, the topic, the source quote – whatever changes per invocation.
+4. **Bundle the prefix above the threshold.** If the static prefix is below 4,096 tokens, add the relevant sphere file or memory shard to push it over.
+
+Net savings on repeated calls: 70-90% on a stable prefix. Apply this in every custom MCP server going forward. Pennyone, Instantly and any future Marty Gras automation are the immediate retrofit candidates – cache the brand voice, platform rules and recurring context; vary only the per-call record.
 
 ### Layer 2 – Identity and Communication
 
@@ -28,7 +39,7 @@ The agent economy is assembling a new infrastructure stack analogous to the clou
 
 **The deeper need:** Agent-native identity and communication protocols that do not require pretending to be human. On-chain identity, dedicated agent-to-agent communication standards and MCP-based service discovery are all emerging but nothing has a right to win yet.
 
-**Alfred OS mapping:** Alfred uses the Email Directory (global CLAUDE.md) for human-facing communication and MCP connections for service authentication. iMessage is the notification layer. This is a shim-heavy setup – functional today, but worth watching for agent-native alternatives.
+**Alfred operating system mapping:** Alfred uses the Email Directory (global CLAUDE.md) for human-facing communication and MCP connections for service authentication. iMessage is the notification layer. This is a shim-heavy setup – functional today, but worth watching for agent-native alternatives.
 
 **Maturity:** Transitional. Email works because it is everywhere, not because it is the right protocol.
 
@@ -40,7 +51,7 @@ The agent economy is assembling a new infrastructure stack analogous to the clou
 
 **Platform risk:** Every frontier lab is building memory into its models. If memory becomes a model-level feature, standalone memory companies face commoditisation. The counter-thesis is portability – no one should own your memory.
 
-**Alfred OS mapping:** The `.claude/projects/.../memory/` system with MEMORY.md index, typed memory files and active curation rules. Alfred already follows the active-curation pattern: save what is non-obvious and future-useful, update or remove what is stale, verify before acting on recalled memories. The risk here is lock-in to Claude's memory system. Notion serves as the durable, portable layer underneath.
+**Alfred operating system mapping:** The `.claude/projects/.../memory/` system with MEMORY.md index, typed memory files and active curation rules. Alfred already follows the active-curation pattern: save what is non-obvious and future-useful, update or remove what is stale, verify before acting on recalled memories. The risk here is lock-in to Claude's memory system. Notion serves as the durable, portable layer underneath.
 
 **Maturity:** Early but real. Platform risk is equally real.
 
@@ -52,7 +63,7 @@ The agent economy is assembling a new infrastructure stack analogous to the clou
 
 **Long-term risk:** If MCP becomes truly universal, managed integration layers lose value. The bet for companies like Composio is that enterprises are slow to adopt – and that gap is where the entire thesis sits.
 
-**Alfred OS mapping:** MCP is the primary integration layer. The `integrations.md` files per venture document which plugins are in scope and how they route. The MCP routing map (in memory) tracks the full connection topology. This is one of the strongest layers in the current Alfred architecture – but it is entirely dependent on the MCP ecosystem maturing. Monitor for gaps where MCP connections do not exist and manual integration is needed.
+**Alfred operating system mapping:** MCP is the primary integration layer. The `integrations.md` files per venture document which plugins are in scope and how they route. The MCP routing map (in memory) tracks the full connection topology. This is one of the strongest layers in the current Alfred architecture – but it is entirely dependent on the MCP ecosystem maturing. Monitor for gaps where MCP connections do not exist and manual integration is needed.
 
 **Maturity:** Growing explosively. Solves real and immediate pain.
 
@@ -64,7 +75,7 @@ The agent economy is assembling a new infrastructure stack analogous to the clou
 
 **What is missing:** Agent-to-agent payments, metered billing mapped to agent compute patterns, dynamic budget allocation (Agent A can spend X without approval, Agent B needs approval above Y), FinOps observability across workflows.
 
-**Alfred OS mapping:** The token-budget-framework in Five Points is an early analogue for budget allocation. The execution tiers (full autonomy, execute then notify, approval required) are a proto-version of dynamic spending authority. As ventures scale and agents provision real infrastructure, this layer needs a formal billing and spend-control protocol.
+**Alfred operating system mapping:** The token-budget-framework in Five Points is an early analogue for budget allocation. The execution tiers (full autonomy, execute then notify, approval required) are a proto-version of dynamic spending authority. As ventures scale and agents provision real infrastructure, this layer needs a formal billing and spend-control protocol.
 
 **Maturity:** Brand new. Stripe is the first credible entry. Here to stay.
 
@@ -81,7 +92,7 @@ The agent economy is assembling a new infrastructure stack analogous to the clou
 4. Financial observability – cost per agent, cost per successful task, outcome quality metrics (FinOps for agents)
 5. Standard failure and recovery patterns – when a tool call fails, standard provisioning for what happens next
 
-**Alfred OS mapping:** Pennyone and Watchtower are the orchestration layer. Watchtower monitors thresholds, alerts on breaches and produces the weekly portfolio briefing – observation in both its reactive and proactive forms. Pennyone is the content syndication router, a thin FastMCP layer over Zernio that routes a single publish request to Instagram, TikTok, Threads, X, Reddit and Snap. The six-crew classification system provides the horizontal capability model. This is the most valuable position in the stack and the one we are already building toward.
+**Alfred operating system mapping:** Pennyone and Watchtower are the orchestration layer. Watchtower monitors thresholds, alerts on breaches and produces the weekly portfolio briefing – observation in both its reactive and proactive forms. Pennyone is the content syndication router, a thin FastMCP layer over Zernio that routes a single publish request to Instagram, TikTok, Threads, X, Reddit and Snap. The six-crew classification system provides the horizontal capability model. This is the most valuable position in the stack and the one we are already building toward.
 
 **Maturity:** Biggest opportunity. Biggest gap. Whoever solves this at infrastructure grade owns the most valuable position in the agent economy.
 
@@ -103,7 +114,7 @@ The same disease that plagued microservices in 2018 – everything decomposed in
 
 ---
 
-## How Alfred OS Maps to the Stack
+## How Alfred operating system Maps to the Stack
 
 | Layer | What We Have | What We Need |
 |---|---|---|

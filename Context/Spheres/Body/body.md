@@ -81,7 +81,7 @@ Inventory management: Self-managed – Alfred does not track reorder
 
 ---
 
-## Skills Touching This Cluster
+## Relevant Skills
 
 Skills live at `~/.claude/skills/` and are referenced logically by sphere.
 

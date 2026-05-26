@@ -44,7 +44,7 @@ When a queued language becomes active: Create a new file following the spanish.m
 
 ---
 
-## Skills Touching This Cluster
+## Relevant Skills
 
 Skills live at `~/.claude/skills/` and are referenced logically by sphere.
 

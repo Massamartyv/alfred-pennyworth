@@ -4,8 +4,6 @@
 
 ## Brand Identity
 
-"The Architect of Vibe."
-
 A personal media company. The central creative act is helping people feel the beauty of the world – a Cultural Facilitator who has done the work intellectually, creatively, spiritually, and physically, and speaks from that place.
 
 The brand name does not yet carry a final label beyond "Marty Gras." This is intentional – the name will emerge from the work rather than be imposed on it. What is clear is the essence.
