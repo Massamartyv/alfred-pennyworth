@@ -1,0 +1,6 @@
+credentials/*.json
+!credentials/.gitkeep
+.venv/
+__pycache__/
+*.pyc
+.env

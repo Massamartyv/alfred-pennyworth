@@ -3,8 +3,11 @@ file_type: integration_registry
 department: Agents
 venture: Five Points Digital Studio
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-04-24
 ---
+
+<!-- Added 2026-04-24: fivepoints-mail MCP (Gmail via domain-wide delegation). -->
+
 
 # Integrations
 
@@ -109,15 +112,44 @@ Plugins are MCP connections. Alfred can read, write and operate within these sys
 | MCP server name | n/a – used by design skill directly |
 | Status | Live – credential rotated 2026-04-22 |
 | Environment variable | `GEMINI_FIVEPOINTS_API_KEY` (stored in `.env`) |
-| Routing rule | When Gemini is needed in Five Points context, reference this key. Scope relocated from the retired Alfred OS Backend. |
+| Routing rule | When Gemini is needed in Five Points context, reference this key. Scope relocated from the retired Alfred operating system Backend. |
+
+### Five Points Mail – Gmail (five inboxes)
+
+| Field | Value |
+|---|---|
+| Workspace | fivepoints.studio Google Workspace (hello@ admin, four user seats beneath) |
+| Scope | Read, search, draft, reply, send, label and trash operations across all five inboxes |
+| Mailbox keys | `hello`, `martavious`, `systems`, `opportunities`, `finance` |
+| MCP server name | `fivepoints-mail` |
+| MCP package | Custom Python/FastMCP server at `Integrations/fivepoints-mail/` |
+| Status | **Scaffolded 2026-04-24.** Awaiting service account key drop. |
+| Auth | One Google Cloud service account with domain-wide delegation. Impersonates each mailbox per request. Single credential, five inboxes. |
+| Credential path | `Integrations/fivepoints-mail/credentials/service-account.json` (gitignored). Optional override via `FIVEPOINTS_MAIL_SERVICE_ACCOUNT`. |
+| Scopes | `gmail.modify`, `gmail.send`, `gmail.readonly`, `gmail.compose` |
+| Routing rule | Venture-scoped. All Five Points inbox operations go through this MCP. Personal email routes through Apple Mail (`mcp-apple-mail`). Never cross the boundary. |
+| Access pattern | Department heads access their inbox via `mailbox:` parameter. Suggested mapping: Operations → `hello`, Owner → `martavious`, Production → `systems`, Growth → `opportunities`, Finance → `finance`. Enforced through skill `allowed-tools` scoping rather than at the server. |
+| Confirmation | Write tools (`send_draft`, `send_message`, `create_draft`, `trash_message`, `modify_labels`, etc.) declare `writes: True`. Per Navigation Rule 3, any send must be confirmed in chat before dispatch. |
+
+### Instantly – Outbound pipeline
+
+| Field | Value |
+|---|---|
+| Account | Instantly (Five Points workspace) |
+| Scope | Outbound email campaigns, lead pipeline, unibox replies, analytics |
+| Pipeline value | `five_points` |
+| MCP server name | `instantly` |
+| MCP package | Custom Python/FastMCP server at `Integrations/instantly/` |
+| Status | **Live** (2026-04-24). MCP registered in `.mcp.json`. Verified against the Five Points workspace; two campaigns visible. |
+| Environment variable | `INSTANTLY_FIVEPOINTS_API_KEY` |
+| Routing rule | Five Points only at launch. Pipeline registry is ready to extend to personal or other ventures -- add a `Pipeline` enum value and a `PIPELINE_REGISTRY` entry with its own env var. Data never crosses between pipelines. |
+| Confirmation | Tier 2 writes (update interest, bulk-add leads, pause campaign, reply to email) must be confirmed in chat before dispatch per Navigation Rule 3. |
 
 ---
 
 ## Dormant Plugins
 
-| Plugin | Status | Purpose | Reactivation Trigger |
-|---|---|---|---|
-| Instantly | Dormant since March 2026 | Outbound lead capture and pipeline automation | Phase 2 of 25K battle plan. Credential rotated 2026-04-22 as `INSTANTLY_FIVEPOINTS_API_KEY`; slot in `.mcp.json` returns on reactivation. |
+_No dormant plugins._
 
 ---
 
@@ -146,9 +178,12 @@ All API keys are stored in `~/Alfred Pennyworth/.env` (gitignored). The `.mcp.js
 | `SUPABASE_FIVEPOINTS_TOKEN` | Supabase (Five Points account) | `.env` |
 | `STRIPE_FIVEPOINTS_SECRET_KEY` | Stripe (Five Points account) | `.env` |
 | `APIFY_FIVEPOINTS_TOKEN` | Apify (Five Points account) | `.env` |
-| `INSTANTLY_FIVEPOINTS_API_KEY` | Instantly (Five Points account, dormant) | `.env` |
+| `INSTANTLY_FIVEPOINTS_API_KEY` | Instantly (Five Points account) | `.env` |
 | `GEMINI_FIVEPOINTS_API_KEY` | Gemini (Five Points) | `.env` |
 | `ZERNIO_FIVEPOINTS_API_KEY` | Zernio (Five Points account, provisioning) | `.env` |
+| `FIVEPOINTS_MAIL_SERVICE_ACCOUNT` (optional) | Override path for the Gmail service account key. Default is `Integrations/fivepoints-mail/credentials/service-account.json` | `.env` if overridden |
+
+Note: the Five Points Mail MCP authenticates via a service account JSON file, not an API key in `.env`. The default path is inside the integration folder and gitignored. Only set `FIVEPOINTS_MAIL_SERVICE_ACCOUNT` if storing the key elsewhere.
 
 To activate in a new shell session: `source ~/Alfred\ Pennyworth/.env`
 
