@@ -50,6 +50,10 @@ Context/Archive/
 # Embedded project repos (these have their own git repos)
 **/nomad-express-web/
 **/cwd-web/
+**/cwd-proposal/
 **/fountain-christian-center/
 Templates/Website/nextjs-starter/
 alfred-os/
+
+# Personal projects (local-only)
+Projects/Abreana-Career-Trajectory/
