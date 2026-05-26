@@ -2,13 +2,13 @@
 
 ## What This Session Accomplished
 
-Full system audit and restructure of Alfred OS. The session covered three major workstreams: audit, agentic framework design, and venture creation.
+Full system audit and restructure of Alfred operating system. The session covered three major workstreams: audit, agentic framework design, and venture creation.
 
 ### Agentic Framework
 
 Designed and implemented a universal agentic framework built on your hand-drawn org chart:
 
-- **Three-layer hierarchy**: Alfred OS (harness) > Alfred Pennyworth (COO/orchestrator) > Specialist Agents (crews)
+- **Three-layer hierarchy**: Alfred operating system (harness) > Alfred Pennyworth (COO/orchestrator) > Specialist Agents (crews)
 - **Six crew types**: Strategist (researcher), Creator (builder), Evaluator (grader), Maestro (orchestrator), Validator (approver), Explorer (market sensor)
 - **Explorer naming convention**: Internal-facing explorer agents use `-scanner` suffix. External-facing use `-radar` suffix.
 - **Department heads** replace the old eight-seat agent registry. Four heads per venture: Creative, Production, Operations, Finance (customised per venture type).

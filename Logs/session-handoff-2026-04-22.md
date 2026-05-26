@@ -42,7 +42,7 @@ All seven exposed credentials rotated. Scopes reorganised in two `.env` files. S
 
 Audit file `Integrations/mcp-audit-april-2026.md` scrubbed from every git ref via filter-branch. Force-pushed to `Massamartyv/alfred-pennyworth` main. Remote verified clean. Reflogs expired, garbage-collected.
 
-### 4. Alfred OS Backend retired
+### 4. Alfred operating system Backend retired
 - Project relocated from `Context/Archive/alfred-os-phase2-archive/` to `alfred-os/` at repo root (gitignored as embedded project)
 - Supabase project `bcxwlphmoyaymptpqjpk` **deleted by user** during rotation – full retirement confirmed
 - Code preserved at new location for archaeology only
@@ -74,7 +74,7 @@ Personal section:
 - `FULLSCRIPT_ENV=sandbox`, `FULLSCRIPT_BASE_URL` (unchanged config)
 - `APIFY_PERSONAL_TOKEN` (new, rotated)
 - `SUPABASE_PERSONAL_TOKEN` (new – personal management token, sbp_ format, for future personal Supabase MCP)
-- `ANTHROPIC_PERSONAL_API_KEY` (rotated – scope changed from Alfred OS Backend)
+- `ANTHROPIC_PERSONAL_API_KEY` (rotated – scope changed from Alfred operating system Backend)
 
 ### `~/Alfred Pennyworth/alfred-os/.env.local`
 
@@ -121,7 +121,7 @@ Ready to bundle into the next commit when user decides.
 | `.working/audit/lane-08-memory.md` | Memory system audit |
 | `.working/audit/lane-09-templates-ops.md` | Templates, Automations, Logs |
 | `.working/audit/credential-sweep.md` | Credential inventory – **sections are partially stale post-decision** |
-| `~/Downloads/marty-os-final.html` | User's aspirational architecture – Personal OS seven-layer stack plus Alfred OS nervous system |
+| `~/Downloads/marty-os-final.html` | User's aspirational architecture – Personal OS seven-layer stack plus Alfred operating system nervous system |
 
 ---
 
@@ -146,7 +146,7 @@ Highlights:
 - **Buffer ecosystem-wide deprecation** – remove from global CLAUDE.md ecosystem section, remove from any venture registry, cancel subscription. Penny One takes over syndication.
 - **Finance Dashboard automation build** – new project. User wants the static HTML at `Automations/Finance Dashboard/` built into a real automation.
 - **Template Garden state review** – separate session. User was uncertain of current state; needs audit of what was built, what is shippable, and what the next move is.
-- **Alfred OS Backend code archaeology review** – folder preserved at `alfred-os/` for one review pass to extract any salvageable patterns before final fate decided. Lower priority now that the Supabase project is deleted; revival is off the table.
+- **Alfred operating system Backend code archaeology review** – folder preserved at `alfred-os/` for one review pass to extract any salvageable patterns before final fate decided. Lower priority now that the Supabase project is deleted; revival is off the table.
 
 ### credential-sweep.md corrections
 Stale sections in `.working/audit/credential-sweep.md`:
@@ -162,7 +162,7 @@ Light rewrite needed when convenient. Not blocking.
 
 1. **Marty OS document introduces new architectural reality.** `~/Downloads/marty-os-final.html` (dated 2026-03-31) describes Pennyone as a specific MCP server, not the conceptual orchestrator currently written in `penny-one.md`. Treat the document as intent; current repo state is a partial prior scaffold. Reconciling the two is Phase 4+ work.
 
-2. **Alfred OS Backend is fully retired.** Code at `alfred-os/` is archaeology only. Supabase project gone. Do not attempt to run the backend – no DB, no live credentials. If reviving, it is a full rebuild, not a resurrection.
+2. **Alfred operating system Backend is fully retired.** Code at `alfred-os/` is archaeology only. Supabase project gone. Do not attempt to run the backend – no DB, no live credentials. If reviving, it is a full rebuild, not a resurrection.
 
 3. **In-flight work is uncommitted.** Bundle into the next commit at an appropriate boundary. Suggested message captures: Nomad Express offboarding, Marty Gras brand-fingerprint and `_index.md` edits, `martyv-identity.md` edits, alfred-os relocation gitignore, audit artefacts in `.working/` if tracking desired.
 
@@ -179,7 +179,7 @@ Light rewrite needed when convenient. Not blocking.
 1. Read `.working/audit/_synthesis.md` for the consolidated punch list and dependency map.
 2. Ask the user which phase to pick up next. Most critical remaining: Phase 2 (governance reconciliation) and Phase 4 (venture architecture – now expanded with Paradigm and Lillie and Lynette buildout).
 3. Optional housekeeping: commit the in-flight work, update `credential-sweep.md` for accuracy, sweep `.DS_Store` files.
-4. If user wants the Alfred OS / Pennyone / Watchtower architectural reconciliation done first, that becomes a bespoke session with its own scope.
+4. If user wants the Alfred operating system / Pennyone / Watchtower architectural reconciliation done first, that becomes a bespoke session with its own scope.
 
 ---
 

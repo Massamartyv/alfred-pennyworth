@@ -91,7 +91,7 @@ These are content and creative enhancements, not structural failures:
 8. **Contact form email delivery** -- Server action logs server-side but needs Resend/SendGrid integration to actually deliver emails. Marked as TODO in `actions.ts`.
 9. **Actual photography** -- All portrait and image slots are currently placeholders.
 
-### Alfred OS git state
+### Alfred operating system git state
 
 - **Branch:** main
 - **Local is 1 commit ahead of origin** (`30b5c27` -- the 7-studio restructure). Not yet pushed.
@@ -119,7 +119,7 @@ These are content and creative enhancements, not structural failures:
 
 | System | State |
 |---|---|
-| Alfred OS git | 1 ahead of origin, untracked new files |
+| Alfred operating system git | 1 ahead of origin, untracked new files |
 | Scheduled tasks | 5 active (penny-one, watchtower, context-audit, media-scanner, sphere-review) |
 | Production studio | Fully built -- _index.md, technical quality rubric, website development workflow |
 | Creative studio | Unchanged -- remains the reference implementation |

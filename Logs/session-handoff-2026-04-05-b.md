@@ -20,7 +20,7 @@ Full rewrite from the ground up. The original plan (March 25) positioned Five Po
 - Centre of gravity moved to Human Construct as the primary revenue engine
 - Revenue model built on compounding Evolution retainers ($3K/mo each) rather than linear service delivery
 - Pipeline strategy shifted from volume outbound to precision targeting of portfolio entrepreneurs
-- Proof of concept is Alfred OS itself -- the living Platinum-tier build
+- Proof of concept is Alfred operating system itself -- the living Platinum-tier build
 - **Launch date: April 6, 2026.** Full front door goes live -- Bronze AI Blueprint ($497), free AI Audit bookings, Q2 intake window for Silver/Gold/Platinum builds
 - Timeline compressed: user rejected the conservative May-June preparation phase, demanded immediate activation
 

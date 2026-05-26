@@ -3,9 +3,9 @@
 ## What happened this session
 
 ### Strategic pivot
-Alfred OS was building a custom Next.js backend with Supabase (agent executor, model router, state machine, cost tracker, WebSocket dashboard with Pokémon-themed 3D/2D visualisation). After discovering the Anthropic Console and reassessing, we determined the entire execution layer was redundant -- Claude Code, the API and the Console already provide what the backend was rebuilding.
+Alfred operating system was building a custom Next.js backend with Supabase (agent executor, model router, state machine, cost tracker, WebSocket dashboard with Pokémon-themed 3D/2D visualisation). After discovering the Anthropic Console and reassessing, we determined the entire execution layer was redundant -- Claude Code, the API and the Console already provide what the backend was rebuilding.
 
-**Decision:** Alfred OS is a personal operating system built on Claude's platform (Max plan). Not a SaaS. Not a custom runtime. The OS IS the markdown architecture, skills, memory and MCP connections. The Max plan covers everything. No API budget split needed.
+**Decision:** Alfred operating system is a personal operating system built on Claude's platform (Max plan). Not a SaaS. Not a custom runtime. The OS IS the markdown architecture, skills, memory and MCP connections. The Max plan covers everything. No API budget split needed.
 
 ### What was scrapped
 - The entire alfred-os Next.js project (Phase 1 backend + Phase 2 dashboard)
