@@ -115,6 +115,7 @@ Portfolio-level systems that aggregate intelligence and surface alerts across al
 
 | Agent | Location | Crew | Cadence | Purpose |
 |---|---|---|---|---|
+| pattern-memo | Orchestration/ | Researcher, Creator | Monthly | Three patterns from the prior month, staged into the new Monthly Review entry in Reflections |
 | penny-one | Orchestration/ | Creator, Broadcaster | Weekly and on-demand | Portfolio briefing production and multi-platform syndication |
 | watchtower | Orchestration/ | Reviewer:Scrutiny, Broadcaster | Continuous | Threshold monitoring and alert broadcasting |
 
@@ -234,10 +235,11 @@ Agents/
 |   +-- media-scanner.md
 |   +-- sphere-review.md
 +-- Orchestration/     -- Portfolio-level agents
+    +-- pattern-memo.md
     +-- penny-one.md
     +-- watchtower.md
 ```
 
 ---
 
-*Last updated: 2026-05-14 – Crew taxonomy expanded to five with Mediator and Broadcaster; Coordination Patterns table updated to reflect promotion; Watchtower and Penny-one re-tagged as multi-crew*
+*Last updated: 2026-05-26 – pattern-memo added under Orchestration; runs first of every month, drafts the Monthly Review entry in Reflections.*
