@@ -1,0 +1,32 @@
+#!/bin/bash
+# Alfred voice mode - toggle.
+#
+# Usage: voice [on|off|toggle|status|stop]
+#   on      switch voice on
+#   off     switch voice off and stop any current speech
+#   toggle  flip the current state (default when no argument is given)
+#   status  report whether voice is on or off
+#   stop    stop speech in progress without changing the on/off state
+#
+# State is a flag file under .working/voice/enabled. Its presence means on.
+
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
+FLAG_DIR="$ROOT/.working/voice"
+FLAG="$FLAG_DIR/enabled"
+
+mkdir -p "$FLAG_DIR"
+
+turn_on()  { : > "$FLAG"; echo "Voice mode on."; }
+turn_off() { rm -f "$FLAG"; killall say 2>/dev/null || true; echo "Voice mode off."; }
+
+case "${1:-toggle}" in
+  on)     turn_on ;;
+  off)    turn_off ;;
+  toggle) if [ -f "$FLAG" ]; then turn_off; else turn_on; fi ;;
+  status) if [ -f "$FLAG" ]; then echo "Voice mode is on."; else echo "Voice mode is off."; fi ;;
+  stop)   killall say 2>/dev/null || true; echo "Speech stopped." ;;
+  *)      echo "Usage: voice [on|off|toggle|status|stop]" >&2; exit 1 ;;
+esac
