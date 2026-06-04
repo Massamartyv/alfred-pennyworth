@@ -68,7 +68,7 @@ All work follows The Manor Protocol – five phases, two hard gates, creative ex
 | Resource | Purpose | Start Here |
 |---|---|---|
 | Knowledge Base/ | Industry research, case studies, methodologies | Knowledge Base/_index.md |
-| Foundation/ | Community, philanthropy, hospitality-driven giving | Foundation/_index.md |
+| Foundation/ | Brand fingerprint (source of truth); community, philanthropy, hospitality-driven giving | Foundation/_index.md |
 
 ### Shared Governance
 

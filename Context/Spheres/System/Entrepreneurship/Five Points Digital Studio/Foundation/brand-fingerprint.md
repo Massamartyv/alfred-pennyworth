@@ -5,7 +5,7 @@ version: 2.0
 last_updated: 2026-06-01
 ---
 
-# Five Points Digital Studio -- Brand Fingerprint
+# Five Points Digital Studio – Brand Fingerprint
 
 The single source of truth for every studio-facing and client-facing output. A Governance layer keeps the canon honest; Layer 0 carries the spine and the brand journey; Layers 1 through 4 – Identity, Expression, Production, Behavioural – plus the Cross-Layer Principles are load-bearing across all four; the Amendment Log records every change. Every field traces to a line of loaded context. Every decision was walked through a Direction gate, a Placeholder walk and a Critique gate under the Manor Protocol.
 
@@ -62,7 +62,7 @@ The operating rules live in the Cross-Layer Principles below – the Asset Princ
 
 ### The Asset Principle
 
-Five Points manufactures durable infrastructure -- operating systems the client owns, operates and compounds returns from. Every engagement is architected to produce an asset, not a deliverable. Every decision is measured against a single question: does this compound or does it consume?
+Five Points manufactures durable infrastructure – operating systems the client owns, operates and compounds returns from. Every engagement is architected to produce an asset, not a deliverable. Every decision is measured against a single question: does this compound or does it consume?
 
 ### The Marque Principle
 
@@ -72,7 +72,7 @@ Where it surfaces across layers:
 
 | Layer | How it surfaces |
 |---|---|
-| Layer 1 | Below the Asset Principle as a cross-cutting principle. Resolves the tagline tension -- "passion" is the word of the heritage automobiliers, not motivational speak |
+| Layer 1 | Below the Asset Principle as a cross-cutting principle. Resolves the tagline tension – "passion" is the word of the heritage automobiliers, not motivational speak |
 | Layer 2 | Ferrari and Rolls-Royce archival material in the canonical photography references. Hand-built detail shots, craftsmen at work, technical drawings, archival treatments |
 | Layer 3 | Proposals reframed as commissioning documents. Case studies as marque histories. System Operations Manuals as owner's books. "A Five Points Commission" as the marque eyebrow on every cover page |
 | Layer 4 | When in doubt, ask what Rolls-Royce Bespoke or Ferrari Special Projects would do. Treat every engagement as a commission, every client as a principal, every deliverable as a marque-grade artefact |
@@ -97,17 +97,17 @@ Seven principles extracted from the A Friend Of Mine Bayport case study, applied
 
 ---
 
-## Layer 1 -- Identity
+## Layer 1 – Identity
 
 ### Brand Philosophy
 
-> Five Points manufactures durable infrastructure -- operating systems the client owns, operates and compounds returns from. Every engagement is architected to produce an asset, not a deliverable. Every decision is measured against a single question: does this compound or does it consume?
+> Five Points manufactures durable infrastructure – operating systems the client owns, operates and compounds returns from. Every engagement is architected to produce an asset, not a deliverable. Every decision is measured against a single question: does this compound or does it consume?
 
 ### Brand Archetypes
 
 | Rank | Archetype | Role |
 |---|---|---|
-| Primary | The Architect -- Magician-Sage hybrid | Designs bespoke operating infrastructure that turns a person into a system |
+| Primary | The Architect – Magician-Sage hybrid | Designs bespoke operating infrastructure that turns a person into a system |
 | Secondary | The Sage | Pattern recognition across ventures, strategic clarity, long-horizon thinking |
 | Tertiary | The Pioneer | Moves in the category before the category has a name |
 
@@ -149,7 +149,7 @@ The tagline is the single emotional note in an otherwise architectural register.
 
 ---
 
-## Layer 2 -- Expression
+## Layer 2 – Expression
 
 ### Colour System
 
@@ -173,7 +173,7 @@ The tagline is the single emotional note in an otherwise architectural register.
 
 #### Colour hierarchy
 
-- Tier 1 signature duo: Obsidian and Parchment -- 80% of surface area
+- Tier 1 signature duo: Obsidian and Parchment – 80% of surface area
 - Tier 2 supporting: Emerald and Burnt Orange
 - Tier 3 reserved: Shadow Emerald and Aged Brass
 - No fifth accent enters the brand without a rewrite of this document
@@ -184,10 +184,10 @@ Emerald, then Burnt Orange, then Obsidian. Fixed order, three-colour maximum. Pa
 
 #### Forbidden pairs
 
-- Burnt Orange on Emerald -- competing saturation
-- Graphite on Obsidian -- dark-on-dark fails contrast
-- Stone on Parchment -- light-on-light fails contrast
-- Aged Brass on Burnt Orange -- metamerism
+- Burnt Orange on Emerald – competing saturation
+- Graphite on Obsidian – dark-on-dark fails contrast
+- Stone on Parchment – light-on-light fails contrast
+- Aged Brass on Burnt Orange – metamerism
 
 #### Approved combinations
 
@@ -232,7 +232,7 @@ Emerald, then Burnt Orange, then Obsidian. Fixed order, three-colour maximum. Pa
 
 #### Digital hierarchy rules
 
-- Modular scale 1.25 ratio -- major third
+- Modular scale 1.25 ratio – major third
 - Minimum body: 16px desktop, 15px mobile
 - Display mobile scaling: approximately 30% reduction
 - Leading contracts on display, expands on body
@@ -246,7 +246,7 @@ Approximately 65 characters per line, roughly 10 words at body size. Maximum mea
 
 **Language:** British English spelling, internationally legible phrasing. No regional idioms. No contractions. No em dashes.
 
-#### Voice attributes -- fixed, never shift
+#### Voice attributes – fixed, never shift
 
 | Attribute | Manifestation |
 |---|---|
@@ -273,15 +273,15 @@ Approximately 65 characters per line, roughly 10 words at body size. Maximum mea
 
 **Canonical references:**
 
-- Kinfolk -- architectural restraint
-- Cereal Magazine -- material honesty
-- Monocle long-form features -- people-at-work register
-- Pentagram case study photography -- object-centric discipline
-- Ferrari Maranello archival photography -- factory floor, craftsmen at work, hand-finished components
-- Rolls-Royce Goodwood commissioning documentation -- bespoke configuration, leather matching, marquetry
+- Kinfolk – architectural restraint
+- Cereal Magazine – material honesty
+- Monocle long-form features – people-at-work register
+- Pentagram case study photography – object-centric discipline
+- Ferrari Maranello archival photography – factory floor, craftsmen at work, hand-finished components
+- Rolls-Royce Goodwood commissioning documentation – bespoke configuration, leather matching, marquetry
 - Road and Track, Automobile Quarterly, Car Magazine pre-1990 editorial
-- Concours d'Elegance photography -- object in its most composed moment
-- Aman resort editorial -- low-key luxurious warmth
+- Concours d'Elegance photography – object in its most composed moment
+- Aman resort editorial – low-key luxurious warmth
 
 **Do:**
 
@@ -294,8 +294,8 @@ Approximately 65 characters per line, roughly 10 words at body size. Maximum mea
 - Hand-built detail shots: stitching on leather, wood grain on a dashboard, brass on a dial
 - Craftsmen at work: hands holding instruments, a figure leaning over a drafting table
 - Technical drawings and blueprints as compositional elements
-- Heritage archival treatments -- the feeling of an image shot in 1964 and filed in an archive
-- Monochrome when the subject earns it -- deliberate, not filter
+- Heritage archival treatments – the feeling of an image shot in 1964 and filed in an archive
+- Monochrome when the subject earns it – deliberate, not filter
 
 **Do not:**
 
@@ -317,7 +317,7 @@ Approximately 65 characters per line, roughly 10 words at body size. Maximum mea
 - Colour temperature 2700K to 3200K indoor, golden hour outdoor
 - Shadows welcomed as compositional elements
 - Cool light only as deliberate editorial choice
-- Workshop lighting permitted -- shop light from a work lamp
+- Workshop lighting permitted – shop light from a work lamp
 - Forbidden: flat even lighting, overhead fluorescent, ring light, on-camera flash
 
 **Colour in imagery:**
@@ -332,7 +332,7 @@ Approximately 65 characters per line, roughly 10 words at body size. Maximum mea
 
 **Composition:**
 
-- Architectural -- frame built with floor-plan discipline
+- Architectural – frame built with floor-plan discipline
 - Rule of thirds respected but not slavish; dead-centre permitted for singular objects
 - Negative space: 50% to 70% of frame
 - Leading lines, depth, framing within framing
@@ -341,11 +341,11 @@ Approximately 65 characters per line, roughly 10 words at body size. Maximum mea
 
 **Photography sourcing strategy:**
 
-Imagery-minimum as the structural default -- the type and colour system carry most of the brand's weight. When imagery is required, it is generated via AI against tight prompt discipline referencing the Ferrari and Rolls-Royce canonical stack, and curated into a tightly-held library. Commissioned original photography is the long-term goal, budgeted for Q3 2026 or later once MRR clears sustained $15,000.
+Imagery-minimum as the structural default – the type and colour system carry most of the brand's weight. When imagery is required, it is generated via AI against tight prompt discipline referencing the Ferrari and Rolls-Royce canonical stack, and curated into a tightly-held library. Commissioned original photography is the long-term goal, budgeted for Q3 2026 or later once MRR clears sustained $15,000.
 
 ---
 
-## Layer 3 -- Production
+## Layer 3 – Production
 
 ### Document Standards
 
@@ -387,7 +387,7 @@ Studio-specific additions:
 | 8 | Business card | 74 by 74mm | Calling card |
 | 9 | With-compliments slip | DL | Calling card in longer form |
 | 10 | Letterhead | A4 | House stationery |
-| 11 | Email signature | Digital | -- |
+| 11 | Email signature | Digital | – |
 | 12 | Newsletter and thought leadership essay | Web and A4 print archive | House journal |
 | 13 | Brand Fingerprint | Digital multi-page | House constitution |
 
@@ -485,7 +485,7 @@ The numeral 5 in PP Editorial New Semi-Bold 600. Ships immediately on all mark s
 
 The interim mark is scale-invariant. A single character holds its identity at 8px where the commissioned five-circle mark would fragment. It steps aside cleanly when the commissioned mark arrives.
 
-#### Commissioned geometric mark -- creative prompt
+#### Commissioned geometric mark – creative prompt
 
 The geometric mark is deferred to commissioned execution. The prompt below is the governing brief.
 
@@ -626,7 +626,7 @@ Forbidden: Instagram-aesthetic filters, pastel shifts, crushed blacks, heavy tea
 
 ---
 
-## Layer 4 -- Behavioural
+## Layer 4 – Behavioural
 
 ### Terminology Governance
 
@@ -670,7 +670,7 @@ Forbidden: Instagram-aesthetic filters, pastel shifts, crushed blacks, heavy tea
 | Touch base, circle back, loop in | Corporate meeting-speak |
 | Reach out | Say "write to" or "call" |
 | Deliverable | The studio builds assets, not deliverables |
-| Content, as a mass noun | Name the form -- essay, case study, film, photograph |
+| Content, as a mass noun | Name the form – essay, case study, film, photograph |
 
 ### Decision Defaults
 

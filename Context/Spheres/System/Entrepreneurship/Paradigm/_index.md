@@ -36,7 +36,7 @@ All work follows The Manor Protocol – five phases, two hard gates, creative ex
 | Resource | Purpose | Start Here |
 |---|---|---|
 | Knowledge Base/ | Ingredient science, case studies, industry research, methodologies | Knowledge Base/_index.md |
-| Foundation/ | Community wellness initiatives, philanthropy, education | Foundation/_index.md |
+| Foundation/ | Brand fingerprint (source of truth); community wellness initiatives, philanthropy, education | Foundation/_index.md |
 
 ### Shared Governance
 

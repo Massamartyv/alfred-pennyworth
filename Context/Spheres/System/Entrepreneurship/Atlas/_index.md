@@ -52,7 +52,7 @@ All work follows The Manor Protocol – five phases, two hard gates, creative ex
 | Resource | Purpose | Start Here |
 |---|---|---|
 | Knowledge Base/ | Clinical knowledge, EHR intelligence, coding references, competitive landscape | Knowledge Base/_index.md |
-| Foundation/ | Community initiatives, education, chiropractic profession contribution | Foundation/_index.md |
+| Foundation/ | Brand fingerprint (source of truth); community initiatives, education, chiropractic profession contribution | Foundation/_index.md |
 
 ### Shared Governance
 

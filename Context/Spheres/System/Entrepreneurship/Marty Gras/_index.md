@@ -36,7 +36,7 @@ All work follows The Manor Protocol – five phases, two hard gates, creative ex
 | Resource | Purpose | Start Here |
 |---|---|---|
 | Knowledge Base/ | Cultural references, audience insights, research library | Knowledge Base/_index.md |
-| Foundation/ | Community initiatives, cultural philanthropy, mentorship | Foundation/_index.md |
+| Foundation/ | Brand fingerprint (source of truth); community initiatives, cultural philanthropy, mentorship | Foundation/_index.md |
 
 ### Shared Governance
 
