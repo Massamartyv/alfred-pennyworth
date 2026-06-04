@@ -32,6 +32,8 @@ package-lock.json
 # Claude Code internals (native subagents kept under version control)
 .claude/*
 !.claude/agents/
+# Local Claude settings at any nesting depth (machine-specific, never shared)
+**/.claude/settings.local.json
 
 # Working directory (transient session files)
 .working/
