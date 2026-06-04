@@ -29,8 +29,9 @@ package-lock.json
 .vscode/
 .idea/
 
-# Claude Code internals
-.claude/
+# Claude Code internals (native subagents kept under version control)
+.claude/*
+!.claude/agents/
 
 # Working directory (transient session files)
 .working/

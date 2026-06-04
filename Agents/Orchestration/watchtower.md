@@ -138,17 +138,14 @@ All intermediate output goes to `.working/watchtower/`. Raw threshold checks, si
 
 ## Implementation Status
 
-**Live as of April 7, 2026** for the monitoring and alerting role. Scheduled task running daily.
-
-**Briefing role absorbed 2026-04-23** from the retired Pennyone briefing-agent scope. The weekly briefing implementation migrates into the existing Watchtower scheduled task; no separate scheduled task for Pennyone briefing is needed.
+**Monitoring and alerting role re-registered 2026-05-31.** Originally scheduled 2026-04-07, the task lapsed out of the scheduler registry before 2026-05-31 and ran silently dead in the interim. The on-disk SKILL.md survived; only the registry entry was missing. Re-registered against the same SKILL.md and live again.
 
 - **Scheduled task ID:** watchtower
 - **Task file:** `~/.claude/scheduled-tasks/watchtower/SKILL.md`
-- **Current schedule:** Daily at 8pm (monitoring sweep)
-- **Pending schedule update:** Weekly briefing run on Mondays at 9am (previously the Pennyone briefing slot)
+- **Current schedule:** Daily at 8:01pm local (monitoring sweep)
 - **Delivery:** iMessage to martavious.spicer@icloud.com
 - **Current scope:** Personal Notion workspace (Tasks, Projects, Content Calendar)
-- **Pending:** Stripe integration for financial thresholds, Five Points Notion workspace sweep, venture-level breakdowns in the briefing output
+- **Not yet wired (prose-only):** the weekly portfolio briefing absorbed from the retired Pennyone briefing role; Stripe financial thresholds; Five Points workspace sweep; venture-level breakdowns. These are designed but unbuilt -- do not assume they run.
 
 ---
 
@@ -158,4 +155,4 @@ Monitoring and briefing are two expressions of the same underlying act: continuo
 
 ---
 
-*Last updated: 2026-04-23*
+*Last updated: 2026-05-31 – monitoring task re-registered after a silent lapse; unbuilt briefing and venture-sweep scope marked prose-only.*

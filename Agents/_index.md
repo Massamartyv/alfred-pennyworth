@@ -119,6 +119,19 @@ Portfolio-level systems that aggregate intelligence and surface alerts across al
 | penny-one | Orchestration/ | Creator, Broadcaster | Weekly and on-demand | Portfolio briefing production and multi-platform syndication |
 | watchtower | Orchestration/ | Reviewer:Scrutiny, Broadcaster | Continuous | Threshold monitoring and alert broadcasting |
 
+### Native Crew Subagents
+
+In-session dispatchable agents that live at `.claude/agents/` and are invoked by name through the Task tool. They are the executable form of the crew model in `crews.md` -- the layer Alfred dispatches mid-mission. Distinct from the agents above, which run headless on a schedule.
+
+| Subagent | Crew | Model | Dispatch when |
+|---|---|---|---|
+| researcher | Researcher | sonnet | Information must be gathered and synthesised before a decision or build |
+| creator | Creator | sonnet | A tangible deliverable must be produced |
+| reviewer-scrutiny | Reviewer:Scrutiny | sonnet | Mechanical compliance gate -- lint, types, brand, schema, links |
+| reviewer-behavioural | Reviewer:Behavioural | sonnet | End-user verification -- spawn the app, read as the reader, dry-run automations |
+
+Reviewer subagents run in fresh context with no memory of the Creator they audit, per the fresh-context rule above. Mediator and Broadcaster are not yet standalone subagents -- Broadcaster is orchestrator work, Mediator is dispatched rarely enough that a standing subagent would be premature.
+
 ### Venture Agents
 
 Venture-specific agent configurations live at `Operations/AI/` within each venture. See each venture's `department-heads.md` for role definitions and `agent-guidelines.md` for execution rules.
@@ -242,4 +255,4 @@ Agents/
 
 ---
 
-*Last updated: 2026-05-26 – pattern-memo added under Orchestration; runs first of every month, drafts the Monthly Review entry in Reflections.*
+*Last updated: 2026-05-31 – native crew subagents added at `.claude/agents/` (researcher, creator, reviewer-scrutiny, reviewer-behavioural); in-session dispatch layer separated from headless scheduled agents.*
