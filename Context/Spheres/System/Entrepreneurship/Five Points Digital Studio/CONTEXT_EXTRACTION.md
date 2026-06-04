@@ -10,7 +10,7 @@
 - **Substantive (non-vendor, non-build) files identified:** 73 markdown and TypeScript/CSS files plus 11 client image assets and 2 client logo PNGs.
 - **Files quoted directly in this extraction:** 47.
 - **Date of extraction:** 2026-05-23.
-- **Scope of pass:** the Five Points Digital Studio sphere at `~/Alfred Pennyworth/Context/Spheres/System/Entrepreneurship/Five Points Digital Studio/`. The brand fingerprint at `Creative/Identity/brand-fingerprint.md` (v1.0, 25 April 2026) is the keystone document. The CWD luxury redesign PRD and the live CWD proposal codebase are the two highest-signal "brand in action" surfaces.
+- **Scope of pass:** the Five Points Digital Studio sphere at `~/Alfred Pennyworth/Context/Spheres/System/Entrepreneurship/Five Points Digital Studio/`. The brand fingerprint at `Foundation/brand-fingerprint.md` (v1.0, 25 April 2026) is the keystone document. The CWD luxury redesign PRD and the live CWD proposal codebase are the two highest-signal "brand in action" surfaces.
 
 ---
 
@@ -18,7 +18,7 @@
 
 ### The five-line distillation
 
-From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md):
+From [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md):
 
 > Five Points manufactures durable infrastructure -- operating systems the client owns, operates and compounds returns from. Every engagement is architected to produce an asset, not a deliverable. Every decision is measured against a single question: does this compound or does it consume?
 
@@ -32,13 +32,13 @@ From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerpr
 
 ### The Asset Principle
 
-From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md):
+From [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md):
 
 > Five Points manufactures durable infrastructure -- operating systems the client owns, operates and compounds returns from. Every engagement is architected to produce an asset, not a deliverable. Every decision is measured against a single question: does this compound or does it consume?
 
 ### The Marque Principle
 
-From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md):
+From [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md):
 
 > Every Five Points offer is treated the way Rolls-Royce treats a Phantom commission or Ferrari treats a Special Projects build. Not a service. Not a subscription. A marque-grade commission. The Asset Principle is what Five Points makes; the Marque Principle is how Five Points treats what it makes.
 
@@ -88,7 +88,7 @@ From [`25k-battle-plan.md`](25k-battle-plan.md):
 
 ### Archetypes and personality
 
-From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md):
+From [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md):
 
 > **Primary:** The Architect -- Magician-Sage hybrid. Designs bespoke operating infrastructure that turns a person into a system
 >
@@ -102,7 +102,7 @@ From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerpr
 
 ### Secondary messages
 
-From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md):
+From [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md):
 
 > 1. Assets, not services. Infrastructure, not deliverables.
 > 2. Built around one mind. One set of ventures. One working life.
@@ -178,13 +178,13 @@ From [`Growth/Product Development/Development/Digital Experience Design/offer-ov
 
 ### Language fundamentals
 
-From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md):
+From [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md):
 
 > **Language:** British English spelling, internationally legible phrasing. No regional idioms. No contractions. No em dashes.
 
 ### Voice attributes – fixed, never shift
 
-From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md):
+From [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md):
 
 > | Attribute | Manifestation |
 > |---|---|
@@ -196,7 +196,7 @@ From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerpr
 
 ### Tone calibration by context
 
-From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md):
+From [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md):
 
 > | Context | Adjustment |
 > |---|---|
@@ -209,7 +209,7 @@ From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerpr
 
 ### Always-use terminology
 
-From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md):
+From [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md):
 
 > | Term | Replaces | Rationale |
 > |---|---|---|
@@ -229,7 +229,7 @@ From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerpr
 
 ### Never-use terminology
 
-From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md):
+From [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md):
 
 > | Term | Rationale |
 > |---|---|
@@ -255,7 +255,7 @@ From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerpr
 
 ### Copy convention rules
 
-From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md):
+From [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md):
 
 > Inherited rules:
 > - No em dashes. En dashes only
@@ -291,7 +291,7 @@ From [`Operations/Clientele/Active/Custom Window Decorators/Deliverables/Proposa
 
 ### Decision defaults
 
-From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md):
+From [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md):
 
 > | # | Default | Rationale |
 > |---|---|---|
@@ -462,7 +462,7 @@ From [`Production/Agents/Criteria/technical-quality-rubric.md`](Production/Agent
 
 ### Colour system (Layer 2)
 
-From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md):
+From [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md):
 
 > | Name | Hex | Role | Weight |
 > |---|---|---|---|
@@ -480,7 +480,7 @@ From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerpr
 
 ### Typography
 
-From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md):
+From [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md):
 
 > **Primary display typeface:** PP Editorial New by Pangram Pangram. Open-source fallback: Fraunces from Google Fonts. Licensing: $200 to $400 per face one-time from Pangram Pangram for production use.
 >
@@ -490,7 +490,7 @@ From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerpr
 
 ### Type hierarchy
 
-From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md):
+From [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md):
 
 > | Level | Typeface | Weight | Size | Leading | Tracking |
 > |---|---|---|---|---|---|
@@ -507,7 +507,7 @@ From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerpr
 
 ### Frontend overrides (load-bearing for the studio site)
 
-From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md):
+From [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md):
 
 > | # | Rule | Specification |
 > |---|---|---|
@@ -520,7 +520,7 @@ From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerpr
 
 ### Interaction states
 
-From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md):
+From [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md):
 
 > | # | Element | Specification |
 > |---|---|---|
@@ -533,7 +533,7 @@ From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerpr
 
 ### Animation rules
 
-From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md):
+From [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md):
 
 > | A1 | Permitted motion | Fade-in, opacity transitions, subtle parallax, position moves |
 > | A2 | Forbidden motion | Bounce, elastic, spring physics, confetti, particles, scale-up, lens flare, 3D rotation |
@@ -542,7 +542,7 @@ From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerpr
 
 ### Navigation rules
 
-From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md):
+From [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md):
 
 > | N1 | Desktop navigation | Wordmark flush-left, navigation links flush-right in PP Neue Montreal Book. No hamburger menu on desktop |
 > | N2 | Mobile navigation | Full-screen overlay, Obsidian background, Parchment links, centred, PP Editorial New Light. Not a slide-in drawer |
@@ -552,7 +552,7 @@ From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerpr
 
 ### AFOM Execution Principles
 
-From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md):
+From [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md):
 
 > 1. **Total colour commitment per piece.** Each artefact floods one dominant colour. Obsidian is the commissioning register. Parchment is the working register. Emerald is the continuation register. Burnt Orange is kept strictly for eyebrows and marque detail.
 > 2. **A mark that scales from 8px to 400mm.** The commissioned five-circle mark must hold identity at every rendering size.
@@ -564,7 +564,7 @@ From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerpr
 
 ### Visual references (canonical stack)
 
-From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md):
+From [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md):
 
 > - Kinfolk -- architectural restraint
 > - Cereal Magazine -- material honesty
@@ -580,7 +580,7 @@ From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerpr
 
 ### Photography rules – do and do not
 
-From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md):
+From [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md):
 
 > **Do:**
 > - Interiors: workshops, studios, libraries, drafting rooms, archives
@@ -603,13 +603,13 @@ From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerpr
 
 ### Photography sourcing strategy
 
-From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md):
+From [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md):
 
 > Imagery-minimum as the structural default -- the type and colour system carry most of the brand's weight. When imagery is required, it is generated via AI against tight prompt discipline referencing the Ferrari and Rolls-Royce canonical stack, and curated into a tightly-held library. Commissioned original photography is the long-term goal, budgeted for Q3 2026 or later once MRR clears sustained $15,000.
 
 ### Logo system
 
-From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md):
+From [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md):
 
 > **Short display form** -- "FIVE POINTS" in PP Editorial New Medium 500 UPPERCASE, tracking +0.08em. For covers, business card backs, pitch deck title slides, exterior signage, ceremonial applications.
 >
@@ -621,7 +621,7 @@ From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerpr
 
 ### Component library specs
 
-From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md):
+From [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md):
 
 > | Component | Specification |
 > |---|---|
@@ -741,7 +741,7 @@ From [`Operations/Clientele/Active/Custom Window Decorators/Deliverables/Proposa
 
 ### Document archetypes (catalogue for the studio's "house publications")
 
-From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md):
+From [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md):
 
 > | # | Document | Format | Marque treatment |
 > |---|---|---|---|
@@ -808,7 +808,7 @@ From [`Operations/Clientele/Active/Custom Window Decorators/Deliverables/Website
 
 ### Form input visual states (governed by brand fingerprint)
 
-From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md):
+From [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md):
 
 > Form inputs: 1px Obsidian border, Parchment background. Focus: Emerald border. Error: Burnt Orange border. Placeholder text in Stone.
 > Error messages: Burnt Orange text on Parchment, PP Neue Montreal Book, left-aligned. Name the error specifically.
@@ -816,13 +816,13 @@ From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerpr
 
 ### Loading and error states
 
-From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md):
+From [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md):
 
 > Skeleton screens: Parchment base with Stone pulse animation. No spinning wheels, no progress bars.
 
 ### Email signature spec (utility-layer collateral)
 
-From [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md):
+From [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md):
 
 > | Line 0 | Mark as 40 by 40px PNG, Obsidian on transparent, first element |
 > | Line 1 | Name, Arial Bold 14px Obsidian |
@@ -972,23 +972,23 @@ From [`Production/Agents/Workflows/website-development.md`](Production/Agents/Wo
 
 | Fragment | Source |
 |---|---|
-| "Connecting passion to possibility." (the tagline) | [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md) |
-| "Five Points builds the personal infrastructure of singular minds." (primary message) | [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md) |
-| "An instrument tuned to one mind. Drafted by hand. Calibrated until it sings." (essence) | [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md) |
-| "Assets, not services. Infrastructure, not deliverables." | [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md) |
-| "Built around one mind. One set of ventures. One working life." | [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md) |
-| "Every build is an asset. Every asset compounds. Every quarter, the leverage grows." | [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md) |
-| "A Five Points Commission" (marque eyebrow on every cover page) | [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md), used in [`cwd-proposal/src/app/page.tsx`](Operations/Clientele/Active/Custom%20Window%20Decorators/Deliverables/Proposal/cwd-proposal/src/app/page.tsx) |
+| "Connecting passion to possibility." (the tagline) | [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md) |
+| "Five Points builds the personal infrastructure of singular minds." (primary message) | [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md) |
+| "An instrument tuned to one mind. Drafted by hand. Calibrated until it sings." (essence) | [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md) |
+| "Assets, not services. Infrastructure, not deliverables." | [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md) |
+| "Built around one mind. One set of ventures. One working life." | [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md) |
+| "Every build is an asset. Every asset compounds. Every quarter, the leverage grows." | [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md) |
+| "A Five Points Commission" (marque eyebrow on every cover page) | [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md), used in [`cwd-proposal/src/app/page.tsx`](Operations/Clientele/Active/Custom%20Window%20Decorators/Deliverables/Proposal/cwd-proposal/src/app/page.tsx) |
 | "Naming Ceremony" (signature methodology moment) | [`Growth/Product Development/Strategic Advisory/Human Construct/human-construct-base-offer.md`](Growth/Product%20Development/Strategic%20Advisory/Human%20Construct/human-construct-base-offer.md) |
-| "Construct" (the named product entity) | [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md) |
-| "Evolution" (companion ongoing engineering offer) | [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md), [`Growth/Product Development/Strategic Advisory/Human Construct/Human Construct Evolution/offer.md`](Growth/Product%20Development/Strategic%20Advisory/Human%20Construct/Human%20Construct%20Evolution/offer.md) |
-| "Marque-grade" (replacement for "premium") | [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md) |
-| "Owner / principal / founder" (never client/customer/user) | [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md) |
-| "Operating infrastructure" (replacement for "tech stack") | [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md) |
-| "Commissioning document" (proposal frame) | [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md) |
-| "Owner's book" (System Operations Manual frame) | [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md) |
-| "Certificate of authenticity" (Construct Identity Brief frame) | [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md) |
-| "House constitution" (Brand Fingerprint frame) | [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md) |
+| "Construct" (the named product entity) | [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md) |
+| "Evolution" (companion ongoing engineering offer) | [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md), [`Growth/Product Development/Strategic Advisory/Human Construct/Human Construct Evolution/offer.md`](Growth/Product%20Development/Strategic%20Advisory/Human%20Construct/Human%20Construct%20Evolution/offer.md) |
+| "Marque-grade" (replacement for "premium") | [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md) |
+| "Owner / principal / founder" (never client/customer/user) | [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md) |
+| "Operating infrastructure" (replacement for "tech stack") | [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md) |
+| "Commissioning document" (proposal frame) | [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md) |
+| "Owner's book" (System Operations Manual frame) | [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md) |
+| "Certificate of authenticity" (Construct Identity Brief frame) | [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md) |
+| "House constitution" (Brand Fingerprint frame) | [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md) |
 
 ### Hero / cover phrases from working artefacts
 
@@ -1119,4 +1119,4 @@ None. All text files were readable. Binary assets (PNG, JPG, SVG) were not opene
 
 ---
 
-*Extraction prepared 2026-05-23. The keystone document for any further work is [`Creative/Identity/brand-fingerprint.md`](Creative/Identity/brand-fingerprint.md) v1.0 dated 25 April 2026. The two highest-signal "brand in action" surfaces are the live CWD proposal at [`Operations/Clientele/Active/Custom Window Decorators/Deliverables/Proposal/cwd-proposal/`](Operations/Clientele/Active/Custom%20Window%20Decorators/Deliverables/Proposal/cwd-proposal/) and the [25k-battle-plan.md](25k-battle-plan.md). The Human Construct base offer at [`Growth/Product Development/Strategic Advisory/Human Construct/human-construct-base-offer.md`](Growth/Product%20Development/Strategic%20Advisory/Human%20Construct/human-construct-base-offer.md) is the strategic centre of gravity.*
+*Extraction prepared 2026-05-23. The keystone document for any further work is [`Foundation/brand-fingerprint.md`](Foundation/brand-fingerprint.md) v1.0 dated 25 April 2026. The two highest-signal "brand in action" surfaces are the live CWD proposal at [`Operations/Clientele/Active/Custom Window Decorators/Deliverables/Proposal/cwd-proposal/`](Operations/Clientele/Active/Custom%20Window%20Decorators/Deliverables/Proposal/cwd-proposal/) and the [25k-battle-plan.md](25k-battle-plan.md). The Human Construct base offer at [`Growth/Product Development/Strategic Advisory/Human Construct/human-construct-base-offer.md`](Growth/Product%20Development/Strategic%20Advisory/Human%20Construct/human-construct-base-offer.md) is the strategic centre of gravity.*

@@ -1,13 +1,60 @@
 ---
 file_type: brand_fingerprint
 venture: Five Points Digital Studio
-version: 1.0
-last_updated: 2026-04-25
+version: 2.0
+last_updated: 2026-06-01
 ---
 
 # Five Points Digital Studio -- Brand Fingerprint
 
-The governing reference for every studio-facing and client-facing output. Four layers -- Identity, Expression, Production, Behavioural -- plus cross-layer principles that are load-bearing across all four. Every field traces to a line of loaded context. Every decision was walked through a Direction gate, a Placeholder walk and a Critique gate under the Manor Protocol.
+The single source of truth for every studio-facing and client-facing output. A Governance layer keeps the canon honest; Layer 0 carries the spine and the brand journey; Layers 1 through 4 – Identity, Expression, Production, Behavioural – plus the Cross-Layer Principles are load-bearing across all four; the Amendment Log records every change. Every field traces to a line of loaded context. Every decision was walked through a Direction gate, a Placeholder walk and a Critique gate under the Manor Protocol.
+
+---
+
+## Governance – the Living Canon
+
+The single source of truth for Five Points Digital Studio. Every studio-facing and client-facing output traces here. It has a rigid core and a free perimeter.
+
+- **The invariant core** does not move without a named amendment and a re-derived chain. Six lines: assets, never deliverables – every engagement produces infrastructure the owner keeps and compounds; the master filter is "does this compound or does it consume"; every offer is a marque commission, never a service or a subscription; the relationship is owner and principal, never client, customer or user; precision is non-negotiable – every spec, scope and price is named; bespoke means bespoke – no template dressed as a commission.
+- **The flex layer** is everything else – the offer ladder, the reference houses, specific specifications, tactics, the roadmap. It is expected to move.
+- **Amendments are logged, never silent.** Each supersedes specific prior lines with a dated trace in the Amendment Log. Nothing is overwritten without memory.
+- **Coherence cascades.** Layer 0's four questions are reverse-engineered, so a change upstream re-derives everything beneath it in the same pass, and any induced contradiction is surfaced, not absorbed.
+
+---
+
+## Layer 0 – The Spine
+
+### The spine sentence
+
+Five Points builds the personal infrastructure of singular minds – owned operating systems that compound, commissioned to marque standard, built around one mind and one working life.
+
+### The Brand Journey
+
+Reverse-engineered from the destination. Each answer derives from the one above it.
+
+**One – what do I want to have happen.** Five Points becomes the definitive house for the operating infrastructure of singular minds – the studio a founder-operator commissions when the work has to compound rather than churn. Measured in enterprise value built on owned, retained infrastructure, never on rented hours. A nested staircase. Lifetime: a marque spoken of beside the heritage houses, its commissions held as assets decades after delivery, the studio sovereign enough to choose its principals. Ten-year: a category-defining studio with a body of commissioned systems, the partnership model proven, the leverage compounding every quarter. Three-year: the asset model proven over the retainer model – a small roster of the right principals, the flagship Construct shipped at marque grade, the offer ladder closing, the engine funding its own expansion.
+
+**Two – what do I have to be known for.** The studio that manufactures owned, compounding infrastructure and treats every engagement as a marque commission. Not a retainer shop, not a deliverables vendor. The house whose work the owner keeps – assets, not services; infrastructure, not deliverables. Known to the few singular minds it is built for, by the standard of the work, never by volume.
+
+**Three – what do I have to do to be known for that.** Hold the offer ladder – an ascending transaction model from entry instrument to the flagship Construct commission, each step a named, marque-grade asset. Deliver as a house, not a freelancer: commissioning documents, owner's books, certificates of authenticity, the A-series and AFOM craft standard on every artefact. Run the pentagram partnership model so the studio scales on principals, not on headcount. Refuse the retainer reflex – price the asset, never the hour.
+
+**Four – what do I have to learn.** Primary: to scale bespoke without diluting the marque – systematise the architecture so it compounds across commissions while every build still reads as made for one mind. Then: to run the partnership model as a durable structure, not a founder dependency. Then: to hold the asset-and-compounding discipline under the gravitational pull of the easy retainer.
+
+### The Brand Story
+
+**The Catalyst.** The agency model is broken at the root. Retainers churn, deliverables depreciate, services consume. A singular mind does not need more rented hours – it needs infrastructure it owns and compounds. That gap, between the retainer shop and the commissioned asset, is why Five Points exists.
+
+**The Core Truth.** The highest-value thing a studio can make is an asset the owner keeps and compounds returns from. Build the system, hand over the keys, and the leverage grows every quarter without the studio in the loop. Infrastructure outlives the engagement; a deliverable dies on delivery.
+
+**The Proof.** Not a pitch, a pattern. The body of commissioned systems – the Construct builds, the owner's books, the marque-grade artefacts that carry "A Five Points Commission" – an accruing catalogue of infrastructure that compounds in the owner's hands.
+
+### The positioning discipline
+
+The asset-and-commission positioning is the invariant truth – it does not amend. The retainer is not the brand and never has been; it is the vehicle that has been easiest to sell, because the asset is harder to communicate than the hour. That difficulty is the central commercial challenge, not a reason to retreat. The standing discipline: communicate and sell the asset. Where a retainer-shaped engagement is genuinely the right on-ramp, it is framed and delivered as the commissioning and stewardship of an asset – never sold as a retainer, never priced as rented time. The day the studio sells hours because hours close easier, the position is already lost.
+
+### Governing rules
+
+The operating rules live in the Cross-Layer Principles below – the Asset Principle, the Marque Principle, the A-Series standard and the AFOM execution principles. The master filter sits above them all: does this compound or does it consume. Anything that consumes is not Five Points work.
 
 ---
 
@@ -766,4 +813,11 @@ Every check is pass or fail. A single failure holds the output until resolved.
 
 ---
 
-*Version 1.0. Last updated 25 April 2026.*
+## Amendment Log
+
+- **2026-06-01 – Standardisation to the portfolio fingerprint standard.** Relocated from `Creative/Identity/` to `Foundation/`, the single home for the governing fingerprint across every venture. Restructured to the standard: a Governance living-canon wrapper and a Layer 0 Spine added above the existing layers, this Amendment Log opened. Layer 0's four-question brand journey and brand story were drafted from existing material – the Asset and Marque principles, the singular-minds positioning, the archetypes – and stand as the first candidates for operator review. Layers 1 through 4 and the Cross-Layer Principles carried over unchanged. Version 1.0 to 2.0.
+- **2026-06-01 – Positioning discipline named.** Operator confirmed the asset-and-commission positioning is the invariant truth and that retainers are not, and never were, the heart of the business – only the vehicle that has been easiest to sell. Added "The positioning discipline" to Layer 0: the retainer is reframed as a possible on-ramp that delivers an asset, never sold as rented time, and the central challenge is named as communication, not identity.
+
+---
+
+*Version 2.0. Last updated 1 June 2026.*

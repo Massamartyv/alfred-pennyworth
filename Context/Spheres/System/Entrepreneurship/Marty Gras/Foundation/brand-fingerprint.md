@@ -1,350 +1,149 @@
-# Marty Gras – Brand Fingerprint
+# Marty V — Master Brand Fingerprint
 
-The definitive visual and production identity for Marty Gras. This document governs all output across every platform – Substack, podcast, Instagram, LinkedIn, TikTok, YouTube, Threads. Voice and philosophy are defined here for completeness but originate in `Context/personal-brand-identity.md` and `Context/martyv-identity.md`. When those files update, this fingerprint inherits the change.
-
----
-
-## Layer 1: Identity
-
-### Brand Philosophy
-
-Vibe is architecture. It is not an accident, not a mood that drifts in. It is designed – assembled with the same intention a builder brings to a structure. The beauty of the world is not waiting to be discovered. It is waiting to be felt. The architect's role is to build the bridge between what exists and what people experience when they encounter it.
-
-This philosophy is the internal composition benchmark: the distinction between work that feels designed versus merely posted. Every output passes this test before it ships.
-
-### Brand Archetypes
-
-| Rank | Archetype | Role |
-|---|---|---|
-| Primary | The Creator | The central act is building – architecting how people encounter beauty, culture, and ideas. Not content production. World construction. |
-| Secondary | The Sage | The philosophical depth beneath the creative surface. The impulse to make sense of the world and communicate that understanding to others. |
-| Tertiary | The Explorer | The Cultural Facilitator who moves between worlds, eras, and disciplines. 42 spheres of interest are not a hobby list – they are the navigation system. |
-
-### Brand Personality
-
-**We are:** Composed, culturally omnivorous, intellectually generous, aesthetically exacting, warm beneath the surface, deliberately layered, quietly magnetic.
-
-**We are never:** Performative, desperate for attention, sentimental without purpose, trend-chasing, simplistic, preachy, self-congratulatory, trying to be funny.
-
-**Personality essence:** The person at the gathering who did not announce their arrival but whose presence you noticed. Who references Basquiat and Future in the same sentence and it makes perfect sense. Who is generous with ideas, exacting with craft, and warm with people – without ever performing any of it.
-
-### Brand Messaging
-
-**Primary message:** Beauty is everywhere. Feeling it is the art.
-
-**Secondary messages:**
-- Culture is not consumed – it is lived
-- Depth rewards the attentive
-- The system serves the soul, not the other way around
-- Creating from a place of joy and abundance is not naive – it is radical
-
-**Tagline:** The Architect of Vibe.
+The single source of truth. The one piece everything is built around. Marty is the master brand — the artist, life as expression. Marty Gras is the flagship media property within that brand. This document supersedes `Strategy/brand-journey.md` and, for Marty scope, `Context/martyv-identity.md`. Tactical work inherits from this document. This document does not bend to tactical work.
 
 ---
 
-## Layer 2: Expression
+## Governance — the Living Canon
 
-### Colour System
+This canon is developed live and kept coherent. It has a rigid core and a free perimeter.
 
-The palette carries a deliberate cultural nod. Mardi Gras – the festival – is defined by purple, gold, and green. The brand name holds that DNA. The colours honour it with sophistication: aubergine where there would be purple, saffron where there would be gold, verdigris where there would be green. Not carnival. Cathedral.
+- **The invariant core** does not move without a named amendment and a re-derived chain. Six lines: legacy primary, sovereignty second; the bridge is non-obvious and, once made, undeniable; made to the makers' standard, the generalists follow; documentary cadence is inviolable; the reference line — decoration is never a bridge; the Epiphany coupling holds.
+- **The flex layer** is everything else — devices, territories, the reference set, expression, tactics, the roadmap. It is expected to move.
+- **Amendments are logged, never silent.** Each supersedes specific prior lines with a dated trace. Nothing is overwritten without memory.
+- **Coherence cascades.** The four questions are reverse-engineered, so a change upstream re-derives everything beneath it in the same pass, and any induced contradiction is surfaced, not absorbed.
 
-#### Primary Palette
+---
 
-| Name | Hex | Role | Weight |
-|---|---|---|---|
-| Nightshade | #28203C | Anchor | 30% |
-| Parchment | #F0EBE0 | Neutral | 25% |
-| Saffron | #C9A84C | Primary accent | 20% |
-| Verdigris | #4A7B6B | Secondary accent | 15% |
-| Aubergine | #6B3A5E | Signature accent | 10% |
+## Layer 0 — The Spine
 
-#### Secondary Palette
+### The spine sentence
+
+Marty builds bridges between worlds so undeniable they become canon — made for the few who can tell, funded by the many who follow, at a cadence that refuses to dilute. Marty Gras is the flagship world the bridge reaches the public through.
+
+### The Brand Journey
+
+**One — what do I want to have happen.** Measured first in creative legacy, then in the sovereignty that legacy affords. A nested staircase. Lifetime: remembered as a body of work, not a feed — a canon, an enduring book, the creative life answering to nothing but the standard. Ten-year: an established cultural-media institution, canon in progress, the depth-driven engine making the life materially sovereign. Three-year: the line proven — launched, consistent at legacy grade, the small but unmistakably right audience, the first long-form work in motion.
+
+**Two — what do I have to be known for.** Fluency across worlds — the bridge-builder who connects what the culture keeps siloed, where every connection is non-obvious and, once made, undeniable. Breadth is never the signature. The surprise and rightness of the connection is. Stranger sentence: "You have to follow Marty. He connects things nobody else would connect, and the moment he does, it is obvious they always belonged together." Conferred by the makers — creative directors, founder-artists, multidisciplinary makers. Funded by the generalists. Made always to the makers' standard. Not the commentator, not the explainer, not the polymath performing range, not the trend participant.
+
+**Three — what do I have to do.** The flagship is the Marty Gras Conversation — the Carnival in procession — a long-form video bridge between two worlds, a guest the audience would never expect, connected to inevitability. Guest selection is the editorial act. The canon layer is Epiphany — the revelatory essay line, loosely sourced, never a recap. Cadence is documentary, inviolable and low. The sacrifice is the volume play. The accelerant is the guest.
+
+**Four — what do I have to learn.** Primary: conversation architecture — designing the arc so the bridge is inevitable, preparing two worlds to scholarly depth. Then guest curation, then canon-grade essay. Propagation through the makers is mapped in parallel and pulled forward only once there is a body of work to propagate.
+
+### The Brand Story
+
+**The Catalyst.** The internet rewards volume and forgets. The work that lasts is the bridge nobody builds. Beauty is everywhere — feeling it is the art, and the bridge is the medium. That gap, between the feed and the canon, is why this exists.
+
+**The Core Truth.** The non-obvious connection, made undeniable, is the highest creative act. An artist refuses to translate himself to be understood by the largest room. He makes it for the few who can tell, and the larger room comes to him — sovereignty of root at scale.
+
+**The Proof.** Not a moment, a pattern. The documentary-cadence body of work — the Conversation, Epiphany, "The One Where," the reference line held without exception — an ongoing pattern of credibility. The work owes nothing to anyone.
+
+### Governing rules
+
+1. **The directionality law.** The work is always made to the makers' standard. The generalists are the beneficiaries and the revenue base, never the editorial audience. Inverting this collapses the position.
+2. **The Epiphany coupling.** The Conversation carries the position. Epiphany preserves it. The day Epiphany slips to recap duty, legacy is unprotected.
+3. **The reference line.** Decoration instead of a genuine bridge drops the brand into the crowded category it exists to escape. Every connection must be non-obvious and, once made, undeniable.
+4. **Cadence is inviolable.** Composition over speed, silence over mediocrity — held in practice, not only in principle.
+
+---
+
+## Layer 1 — Identity
+
+**The master brand is Marty, the artist.** Life as expression — the Kravitz–Kanye–Frank–Basquiat–Bad Bunny register, where the person is the brand and the works are properties. Artist, not creator: artistry carries intention, taste-making, curation and rigour; creator carries only publishing. Marty operates as the former.
+
+**Marty Gras is the flagship media property** within the master brand — the long-form video Conversation and the Epiphany essay line, the world the bridge reaches the public through.
+
+**Name convention** — recommended, confirm on review. Master-brand wordmark "Marty V". One unified handle, @massamartyv, across every surface. Display name "Marty V" everywhere. "Marty Gras" reserved as the flagship-property wordmark. This resolves the six-identity fracture across TikTok, Instagram, Threads, Reddit, LinkedIn and YouTube.
+
+**The reference quintet, and what each anchors.** Kravitz — artist-as-lifestyle, the home and the destinations as part of the art. Kanye — world-building across domains. Frank — scarcity and the canonical drop. Basquiat — the raw beneath the composed, bridging street and blue-chip in one body. Bad Bunny — sovereignty of root at planetary scale, the refusal to translate. The lesson metabolised from Bad Bunny is the rootedness and the refusal, never the ubiquity. Frank holds the scarcity pole.
+
+**Archetypes.** Creator primary — world construction, not content production. Sage secondary — the philosophical depth beneath the surface. Explorer tertiary — the Cultural Facilitator who moves between worlds.
+
+**Personality.** Composed, culturally omnivorous, intellectually generous, aesthetically exacting, warm beneath the surface, deliberately layered, quietly magnetic. Never performative, attention-desperate, trend-chasing, sentimental without purpose, self-congratulatory.
+
+---
+
+## Layer 2 — Expression
+
+### Master-brand aesthetic principles
+
+Sprezzatura — depth worn with ease. The punk beneath the composed exterior — raw, seductive, never bland. Dark-warm, not bright-airy. Seduction by restraint — what is withheld, not what is displayed. Intention per square foot. The recurring aesthetic is semiotic, not decorative: the argument is the load-bearing wall, the aesthetic is its cladding. Take the discipline of relentless recurrence; supply the signature. "Clean and dapper" is the floor, not the ceiling — the register is a composed surface with a raw, seductive undercurrent. The litmus: strip the aesthetic away — does the bridge still stand. If yes, the aesthetic was cladding, which is correct.
+
+### Flagship-property visual system — Marty Gras
+
+The palette carries the Mardi Gras cultural nod with cathedral sophistication, not carnival.
 
 | Name | Hex | Role |
 |---|---|---|
-| Charcoal | #2E2A2F | Text primary on light backgrounds |
-| Warm Grey | #9E958C | Text secondary, captions, metadata |
-| Bone | #DED7CB | Subtle containers, background variation |
-| Rosewood | #B8787F | Warm pink accent for occasional emphasis |
+| Nightshade | #28203C | Anchor |
+| Parchment | #F0EBE0 | Neutral |
+| Saffron | #C9A84C | Primary accent |
+| Verdigris | #4A7B6B | Secondary accent |
+| Aubergine | #6B3A5E | Signature accent |
+| Charcoal | #2E2A2F | Text on light |
+| Warm Grey | #9E958C | Secondary text |
+| Bone | #DED7CB | Subtle containers |
+| Rosewood | #B8787F | Warm emphasis |
 
-#### Colour Hierarchy
-
-**Tier 1 – Signature duo:** Nightshade and Saffron. The primary pairing that leads all branded communication. Dark warmth against honeyed gold. This is the first impression.
-
-**Tier 2 – Supporting primaries:** Parchment and Verdigris. Breathing room, secondary surfaces, editorial spacing, organic accents.
-
-**Tier 3 – Reserved accent:** Aubergine. The signature that connects the brand to its name. Used sparingly for emphasis, cultural depth, or moments that carry extra weight.
-
-#### Organic Shape and Generative Element Cycling
-
-**Rotation set:** Saffron, Verdigris, Aubergine.
-
-Rules:
-- Maximum three accent colours per composition
-- Colours cycle in the defined order, never randomly
-- Background surface uses Nightshade or Parchment, never a cycling colour
-- Opacity varies between 15% and 40% for depth
-- Overlapping shapes use reduced opacity to create dimension without muddying the palette
-
-#### Colour Accessibility
-
-**Forbidden pairs** (insufficient contrast):
-- Saffron on Parchment – too similar in value for text
-- Verdigris on Parchment – insufficient contrast for body copy
-- Aubergine on Nightshade – dark on dark, unreadable
-- Warm Grey on Bone – insufficient differentiation
-
-**Approved foreground-on-background pairings:**
-
-| Foreground | Background | Use |
-|---|---|---|
-| Parchment | Nightshade | Primary editorial pairing |
-| Saffron | Nightshade | Brand accent, headlines, CTAs |
-| Charcoal | Parchment | Body text, light mode editorial |
-| Nightshade | Parchment | High-contrast light mode |
-| Saffron | Charcoal | Warm accent on dark surface |
-| Parchment | Aubergine | Feature sections, special moments |
-| Nightshade | Bone | Subtle light variation |
-
-### Typography
-
-#### Primary Typeface
-
-**Family:** Lust Text
-**Foundry:** Positype (Neil Summerour, Georgia)
-**Source:** Licensed. Available via Positype, MyFonts, Adobe Fonts.
-**Weights:** Light, Book, Medium, Bold, Black – each with Italic (10 styles total)
-**Fallback:** Libre Bodoni, Georgia (use only when Lust Text is unavailable; never on professionally designed materials)
-
-A high-contrast Didone with warmth in every curve. The name says what the typeface does – it invites closer attention without asking for it. Dramatic thick-thin variation, sensual transitions, and the kind of personality that free alternatives spend three rounds failing to replicate. Designed in Georgia by Neil Summerour – the Atlanta connection is not an accident. Five years of development distilled into what Positype calls "exercises in indulgence." This is the brand's typographic voice.
-
-#### Secondary Typeface
-
-**Family:** Plus Jakarta Sans
-**Source:** Google Fonts (variable, free)
-**Weights used:** 400, 500, 600, 700
-**Fallback:** system-ui, sans-serif
-
-Clean, geometric, warm. Carries the body of the brand's communication without competing with Fraunces. The slight humanist quality prevents it from reading as cold or corporate.
-
-#### Type Hierarchy
-
-| Level | Typeface | Weight | Size | Leading | Tracking | Notes |
-|---|---|---|---|---|---|---|
-| Headline Large | Lust Text | Bold | 48-64px | 1.1 | -0.02em | Maximum impact. Brand name, hero text. |
-| Headline Small | Lust Text | Medium | 32-40px | 1.15 | -0.01em | Section headers, article titles. |
-| Subheading | Plus Jakarta Sans | 600 | 20-24px | 1.3 | 0em | Card titles, labels, navigation. |
-| Alt Subheading | Lust Text | Book Italic | 20-24px | 1.3 | 0em | Thematic labels, bylines. |
-| Intro Paragraph | Plus Jakarta Sans | 400 | 18-20px | 1.6 | 0em | Leading body text, ledes. |
-| Body Copy | Plus Jakarta Sans | 400 | 16-18px | 1.6 | 0em | Standard reading text. Minimum 16px on all screens. |
-| Captions | Plus Jakarta Sans | 500 | 12-14px | 1.4 | 0.02em | Image credits, metadata, timestamps. |
-| Pull Quotes | Lust Text | Book Italic | 24-32px | 1.3 | -0.01em | Featured excerpts, highlighted statements. |
-
-#### Digital Type Rules
-
-- Headlines scale to 0.7x on mobile
-- Body copy never drops below 16px
-- Pull quotes never exceed the width of the body column
-- Minimum 2x body leading between major sections
-- Paragraph width: 60-75 characters per line, approximately 10 words
-
-### Voice and Tone
-
-The voice is consistent across all contexts. Tone shifts by audience and medium. The voice never breaks.
-
-#### Voice Attributes
-
-| Attribute | How it manifests |
-|---|---|
-| Composed authority | States, invites, moves on. Does not hedge, qualify, or seek approval. The voice knows what it knows. |
-| Layered depth | A caption that reads simply has philosophy beneath it. An essay that reads plainly has layers beneath it. The depth is always present – calibrated to context, never absent. |
-| Cultural fluency | Moves comfortably across high and low culture, across disciplines, across eras. Does not perform intellectualism. Simply reflects a person who genuinely lives across many worlds. |
-| Warmth without softness | Genuine care for people, for craft, for culture. Never sentimental. The warmth is structural, not decorative. |
-| Wit without performance | Dry, observational, occasionally self-aware. Appears when earned. Never tries to be funny. Cultural DNA from Atlanta hip-hop and U.K. culture shapes its construction – double meanings, surgical slang, references that land for those paying attention. |
-
-#### Tone Calibration
-
-| Context | Tone adjustment |
-|---|---|
-| Substack (Epiphany) | Philosophical, narrative, unhurried. The voice has room to breathe and uses it. Full depth on display. |
-| Social captions | Compressed and precise. Every word earns its place. Depth implied, not explained. |
-| Podcast | Conversational but never loose. Warmth is more present. Wit surfaces more naturally. |
-| Video | Direct and warm. The visual does half the work – the voice provides the other half without redundancy. |
-| LinkedIn | Professional register, still warm. Authority amplified. Cultural references selected for broader resonance. |
-| Threads | Real-time cultural conversation. Sharpest, most compressed. The wit gets more room here. |
-
-### Photography and Imagery
-
-**Style essence:** Editorial intimacy. Photographs should feel like discovering something private – moments of genuine absorption, spaces lit by intention, culture observed rather than posed.
-
-**Do:**
-- Natural light, golden hour, warm artificial light – light treated as a material
-- Genuine moments – candid over posed, absorbed over performing
-- Rich blacks and warm tones consistent with the brand palette
-- Visible texture in fabrics, surfaces, skin, environments
-- Environmental context – show the world the person inhabits, not just the person
-- Depth of field that isolates without erasing the background
-- Generous negative space – let the frame breathe
-- Subject often off-centre – composition includes the environment as part of the story
-
-**Do not:**
-- Flash photography or flat, even studio lighting
-- Cool or blue colour grading
-- Hyper-saturation, HDR, or heavy filtration
-- Stock photography aesthetic
-- Posed corporate headshots
-- Filters that flatten the image into sameness
-- Overhead flat-lay content that reads as performative curation
-
-**Lighting:** Warm and directional. Golden hour. Window light. Lamp light. The quality of light at night in a well-designed space. Shadow is an element, not a problem.
-
-**Colour in imagery:** Warm tones dominate. Desaturate the cool spectrum, let the warm spectrum breathe. Blacks should be rich and deep, not flat. The brand palette should feel present in the photography even when no graphic elements are overlaid.
-
-**Composition:** Generous negative space. Subject often offset. The frame tells a story that extends beyond the edges. Asymmetric balance over centred symmetry. The crop suggests more exists beyond what is shown.
+Colour as punctuation, not saturation. Typography: Lust Text as primary display — licensed Positype; Libre Bodoni is the named fallback until the licence is held, never on professionally designed materials once it is. Plus Jakarta Sans carries the body. Photography is editorial intimacy — natural and directional light, candid over posed, warm grade, rich blacks, generous negative space, asymmetric composition.
 
 ---
 
-## Layer 3: Production
+## Layer 3 — Production
 
-### Copy Conventions
+**The flagship — the Conversation.** The Marty Gras Conversation is the Carnival in procession: a long-form video bridge between two worlds, you and a guest the audience would never expect, architected so the connection feels inevitable by the close. The control sits upstream, in scholarly preparation across both worlds, and in the edit. Guest selection is the editorial act, never booking.
 
-All Marty Gras copy follows these rules without exception:
+**The naming convention.** Every Conversation is "The One Where ___" — the bridge named, a quotable, returnable canonical object. The Friends shell is the vessel; the bridge is the cargo, and the cargo stays heavier than the shell, or it trips the nostalgia-mining wire.
 
-- No widows – never leave a single word or very short fragment dangling at the end of a paragraph. Rewrite to eliminate.
-- En dashes only – never em dashes, never double hyphens. The en dash character or rewrite the sentence.
-- No Oxford comma.
-- No parentheses – use en dashes for asides.
-- No contractions.
-- British English spelling and idiom in all copy. American English only in code and technical output.
-- No "+" as conjunction. Words only.
-- Numerals for 10 and above and percentages over 10%. Write out numbers below 10.
-- No emojis unless specifically directed.
-- In Notion: H3 headings only. Never H1 or H2.
+**The canon layer — Epiphany.** The revelatory essay line, loosely sourced from the universe the Conversations create, never a recap. It extends a thread, synthesises across several, or stands alone. Always the named, durable, returnable bridge. Full topical sovereignty inside the Carnival.
 
-### Document Archetypes
+**The diary frame in practice.** The recurring "The One Where", the loosely-sourced Epiphany and the lighter presence-layer instalments together read as a continuous diary — unified by the bridge-argument, never by the aesthetic. The frame signals proximity and continuity while lowering the expectation of frequency. Scarcity is reframed as intimacy, not absence.
 
-| Document type | Structure | Tone notes |
-|---|---|---|
-| Newsletter (Epiphany) | Opening observation, philosophical exploration, cultural bridge, closing provocation | Unhurried, layered, generous with ideas. Let the reader sit with a thought before moving to the next. |
-| Social caption | Single compressed insight. No explanation. | Precise, confident. Implied depth. The caption should make someone stop, not scroll faster. |
-| Podcast show notes | Context, key threads, references cited, one pull quote | Conversational but structured. Give the listener a reason to press play. |
-| Video description | One-line hook, three-line expansion, links | Direct, warm. The video speaks for itself – the description opens the door. |
-| Brand deck / media kit | Vision, pillars, proof, contact | Composed, authoritative, minimal. Let the design carry weight alongside the words. |
-| Thread | Opening statement, three to five supporting posts, closing synthesis | Sharp, propulsive. Each post stands alone. The thread builds to something. |
+**Cadence.** Documentary, inviolable and low. Never weekly. The numbers are dials, the inviolability is not. The two-deep buffer: never publish the last prepared unit — two Conversations in preparation at all times, the next Epiphany drafted before the current ships. Creation is continuous and irregular; publishing is the rhythm; the buffer decouples them.
 
-### Execution Sensibility
+**Concept-first release.** Every Conversation and every Epiphany ships as a complete, named statement, not as output. The body of work accrues to canon, never to feed.
 
-Informed by Skylar Kearney's approach through Sunday Creative Studios. These principles govern how the palette and type system are applied spatially.
+**The Creole foundation.** Heritage cuisine — American Southern, African American, French Creole, the Georgia, South Carolina, Arkansas and Louisiana lineage — is a legitimate Conversation and Epiphany territory. Fusion radiates from a fixed root and builds outward, never rootless. It enters through the canon door — a Conversation on Creole as a bridge-cuisine, an Epiphany on soul as a foundation — never the recipe-feed door.
 
-**Colour as punctuation, not saturation.** Nightshade does not blanket every surface as a default dark mode. It appears in contained blocks – a hero section, a card, a pull quote container – surrounded by generous Parchment space. The darkness becomes more powerful because it is not everywhere. Saffron shows up as a single word, a thin rule, a button. Aubergine as a border, not a fill.
+**Copy conventions.** En dashes only, never em dashes or double hyphens. No Oxford comma. No parentheses — en dashes for asides. No contractions. British English spelling and idiom; American English only in code and technical output. No "+" as conjunction. Numerals for 10 and above and percentages over 10%, words below. No emojis unless directed. No widows.
 
-**Photography carries the palette.** The colour system lives primarily inside the imagery – warm-toned editorial photography that naturally carries Nightshade depth, Saffron warmth, and earthy greens. The graphic palette reinforces what the photography already established, not the other way around.
-
-**Asymmetric editorial composition.** Not centred hero sections with text over image. Offset text blocks alongside full-bleed photography. Narrow columns of body copy against wide margins. The layout should feel like a spread in a physical magazine – the eye travels across the page rather than straight down.
-
-**More air, less fill.** Generous whitespace even within dark sections. Padding that feels luxurious. Type that is not crowded by containers. Compositions breathe in a way that communicates the same restraint the brand values state.
-
-**Sans-serif confidence.** Plus Jakarta Sans carries the majority of the communication. Lust Text is reserved for high-ceremony moments – the masthead, the headline, the pull quote, the brand name at its largest. Everything else lives in the clean warmth of the sans.
-
-**Editorial production standard.** Every piece of output is presented with the same intention it was created. The reference plane is Vogue, Architectural Digest, Kinfolk – publications where the presentation is inseparable from the substance. This is not aspiration; it is the baseline. A social card receives the same curatorial attention as a brand deck. A podcast thumbnail is art-directed with the same rigour as a magazine cover. The display honours the work. If it does not, it does not ship.
-
-### Component Library
-
-**Newsletter header (Epiphany):** Lust Text Bold in Parchment on Nightshade background. "Epiphany" as the masthead. Saffron rule line beneath. Plus Jakarta Sans for the date and issue number in Warm Grey.
-
-**Social quote card:** Nightshade background, Lust Text Book Italic pull quote in Parchment. Saffron accent line at the left margin. Brand wordmark in Warm Grey at the bottom. Generous padding – the words need air.
-
-**Podcast episode artwork:** Nightshade base. Episode title in Lust Text Medium Parchment. Episode number in Saffron. Consistent layout across episodes with variation only in the featured photography or texture.
-
-**YouTube thumbnail:** Photography-forward with typographic overlay. Lust Text headline in Parchment with a Nightshade text shadow or container. Saffron accent for episode number or series badge. Never cluttered – maximum two typographic elements.
-
-**Content pillar badges:** Small Plus Jakarta Sans 500 labels in uppercase. Each pillar gets its own colour from the palette:
-- Mind: Aubergine
-- System: Charcoal
-- Soul: Verdigris
-- Body: Rosewood
-- Culture: Saffron
-
-### Logo Direction
-
-No logo exists yet. When designed, it should follow these parameters:
-
-**Approach:** Wordmark-first. The name "Marty Gras" carries enough character and cultural weight that it should lead. A typographic treatment using Lust Text with considered kerning and weight.
-
-**Symbol:** A standalone mark for small-scale applications – favicon, podcast artwork, social avatar. The symbol should reference architecture or construction (the "Architect" in the tagline) without being literal. An abstract geometric form, a simplified arch, or a monogram. It must work at 16px and 1600px.
-
-**Primary colourway:** Saffron wordmark on Nightshade. The signature pairing at its most concentrated.
-
-**Clearspace:** Minimum clearspace equal to the cap height of the wordmark on all sides.
-
-**Minimum size:** Wordmark: 80px wide on screen, 25mm in print. Symbol: 16px on screen, 8mm in print.
-
-**Never:** Stretch, rotate, recolour outside the defined palette, place on busy photography without a container, add effects (drop shadow, glow, outline).
-
-### Video Standards
-
-**Lower thirds:** Nightshade container with rounded corners. Name in Lust Text Medium Parchment. Title/role in Plus Jakarta Sans 400 Parchment at reduced opacity. Saffron accent line at the left edge. Appears with a subtle fade, no aggressive animation.
-
-**Ending slates:** Centred wordmark on Nightshade. Tagline ("The Architect of Vibe") in Plus Jakarta Sans 400 Parchment beneath. Platform handles in Warm Grey. Five-second hold minimum.
-
-**Colour grading:** Warm-toned. Lifted shadows with warmth (not milky). Rich blacks. Skin tones protected – never let grading compromise natural warmth. The palette should feel present in the video environment.
-
-**Watermarks:** Monogram or symbol at 15-20% opacity. Bottom right corner. Never obtrusive.
+**Video standards.** Lower thirds and ending slates to the palette and type system. Warm grade, rich blacks, skin tones protected. Monogram watermark at low opacity, never obtrusive.
 
 ---
 
-## Layer 4: Behavioral
+## Layer 4 — Behavioural
 
-### Terminology Governance
+**Terminology governance.** Marty V — the master brand and the artist. Marty Gras — the flagship property, the Conversation and Epiphany together. Cultural Facilitator, never influencer or content creator. Artist, never creator. Conversation, never episode or podcast. Epiphany, never newsletter or blog. "The One Where" for instalment naming. Perspective, never content. "vibe" treated as a design concept, never slang.
 
-| Always use | Never use | Rationale |
-|---|---|---|
-| Cultural Facilitator | Influencer, content creator | These are the brand's own terms. "Influencer" describes mechanism, not mission. "Content creator" is generic to the point of meaninglessness. |
-| Pillar names (Mind, System, Soul, Body, Culture) | Categories, themes, topics | The five pillars have specific names. Use them. They are proper nouns in this context. |
-| "The Architect of Vibe" | Paraphrases of the tagline | The tagline is the tagline. Do not water it down. |
-| "vibe" (singular, when earned) | "vibes" (plural, casual) | The brand name contains this word. Treat it with the precision it deserves – it is a design concept here, not slang. |
-| Perspective | Content | We offer perspective. "Content" is the container, not the substance. |
-| Newsletter, essay, episode | Post, upload, drop | Specificity over platform-speak. Name what the thing actually is. |
+**Decision defaults.** Depth over reach. Warmth over coolness. Specific over general. Restraint over display. Architecture over decoration. Composition over speed. The audience meets us where we are — no condescension, no oversimplification.
 
-### Decision Defaults
+**The reference line in practice.** Every connection — a Conversation, an Epiphany, a social fragment, a single short post — must be a non-obvious-and-undeniable bridge. Decoration is the failure mode wearing the brand's clothes, and it is one lazy reference away at all times.
 
-When producing Marty Gras output and a judgment call arises:
+**The inspiration-positioning companion.** Nine creators studied — Skylar Marshai, Temi Ibisanmi, Daniel Dalen, Justin Tse, Shema Love, Duke Dennis, Stucci Gus, Alex Nguyen, Cassie Yeung. The model is metabolise the load-bearing principle, shift the three percent that carries the thesis, refuse only the cosmetic. Consume as a strategist, never as a fan — the field is feed-native and the gravity pulls toward the feed. The full dossiers and the feed-versus-canon map live as a companion artefact this fingerprint points to.
 
-1. **Depth over reach.** Always choose the version that rewards closer attention, even if the simpler version gets more engagement.
-2. **Warmth over coolness.** When in doubt, lean into the human, the personal, the felt.
-3. **Specific over general.** A concrete cultural reference over an abstract principle. A named place over "somewhere beautiful."
-4. **Restraint over display.** If it feels like it is trying to impress, pull back. Let the substance do the work.
-5. **Architecture over decoration.** If an element does not serve the structure, remove it. Ornament without function is noise.
-6. **Composition over speed.** Never rush output to meet a cadence. Silence is preferable to mediocrity.
-7. **The audience meets us where we are.** Do not condescend, do not oversimplify, do not explain what should be felt. Trust the audience.
-
-### Quality Gate
-
-Before any Marty Gras output ships, it passes these checks:
-
-1. Does the colour usage conform to the palette and hierarchy?
-2. Does the typography follow the defined system?
-3. Does the voice match the five brand attributes?
-4. Does the tone match the platform and context?
-5. Are all terminology rules enforced?
-6. Does the composition feel designed – not merely assembled?
-7. Is this free of widows, forbidden punctuation, and copy convention violations?
-8. Would this be indistinguishable from work produced by someone who deeply understands this brand?
-9. Does this pass the brand philosophy test – is this architecture, or is this just posting?
-
-### Frontend and Visual Override
-
-When producing any Marty Gras visual output – websites, landing pages, components, social assets, presentations – all aesthetic choices are governed by this fingerprint:
-
-- Colours from the defined palette only. No random selections.
-- Typography from Lust Text and Plus Jakarta Sans only.
-- Organic shapes follow the three-colour cycling rule (Saffron, Verdigris, Aubergine).
-- Photography direction follows the editorial intimacy standard.
-- Composition follows the brand's spatial philosophy: generous negative space, asymmetric balance, environmental context.
-- The overall feel is dark-warm, not bright-airy. Night-time creative energy, not morning productivity.
-
-Technical patterns from other skills (animation, responsive layout, interaction design) may be used freely. The aesthetic layer is what this fingerprint controls.
+**Quality gate.** Before anything ships: palette and hierarchy conform; typography follows the system; voice matches the attributes; tone matches the surface; terminology holds; composition is designed, not assembled; free of widows and forbidden punctuation; indistinguishable from work by someone who deeply understands this brand; it is architecture, not posting; and it would survive being read or heard in 10 years.
 
 ---
 
-*Last updated: April 2026*
+## Launch Annex — Phase Zero to the Solstice
+
+Scope: loaded gun. By around 20 June 2026 the machine is built and stocked. The public debut is a deliberate event shortly after, dated for impact — the solstice is the readiness milestone, never a publish scramble.
+
+- **This week.** Keystone consolidated. The six surfaces unified to the name convention. The Pennyone marty_gras pipeline provisioned — operator credential action.
+- **Week of 26 May.** Brand Story authored and live in Layer 0. The first three "The One Where" pairings defined — guest, two worlds, the hinge. Scholarly preparation begins on Conversation 1. Substack shell up, video-podcast spec set.
+- **Week of 2 June.** Conversation 1 produced to legacy grade. Epiphany 1 drafted. Conversation 2 prepared in parallel.
+- **Week of 9 June.** Conversation 1 cut to grade, Epiphany 1 finalised, Conversation 2 recorded. Aesthetic signature applied across surfaces. Presence layer seeded. The buffer is two deep.
+- **16 to 20 June.** Everything built and stocked. Distribution wired for clips only; the canon homes stay hand-tended. The solstice is the readiness milestone. The debut is then set as a deliberate event.
+
+Dependencies: surface unification; Pennyone marty_gras provisioning; a native first-party analytics baseline before launch.
+
+---
+
+## Amendment Log
+
+- **2026-05-19 — Consolidation into the keystone.** Identity reframed: Marty is the master brand, Marty Gras the flagship property. Name convention recommended — Marty V, @massamartyv, "Marty Gras" reserved for the property. Reference set: Warhol replaced by Basquiat, Bad Bunny added fifth — Kravitz–Kanye–Frank–Basquiat–Bad Bunny. Launch driving to the solstice, loaded-gun scope. `Strategy/brand-journey.md` absorbed with its trace and superseded. For Marty scope, `Context/martyv-identity.md` becomes a superseded source; `Context/personal-brand-identity.md` remains the shared portfolio voice, and Marty operates sovereign per this amendment. Invariant core verified unaffected; surface re-voiced from "Marty Gras" to the artist, one level down.
+
+---
+
+*Single source of truth. Last updated 2026-05-19.*

@@ -2,12 +2,20 @@
 file_type: department_index
 department: Strategy
 venture: Marty Gras
-last_updated: 2026-04-22
+last_updated: 2026-05-31
 ---
 
 # Strategy
 
 Audience research, platform intelligence, cultural positioning and competitive analysis. The thinking behind the work – what Creative builds, what Growth pursues and what Production ships is informed here first.
+
+## Positioning Canon
+
+The single source of truth is the brand fingerprint in Foundation. The Brand Journey is absorbed into it as Layer 0 and kept only as an archived trace. Read the keystone before any positioning, audience or competitive work. Amend the keystone, never the archived file.
+
+- Keystone, single source of truth: `Context/Spheres/System/Entrepreneurship/Marty Gras/Foundation/brand-fingerprint.md`
+- Brand Journey, superseded source, archived for trace: `Context/Archive/marty-gras-brand-journey-superseded-2026-05-19.md`
+- Brand Journey, designed PDF in the Knowledge Base: `Context/Spheres/System/Entrepreneurship/Marty Gras/Knowledge Base/Marty-Gras-Brand-Journey.pdf`
 
 ## Structure
 

@@ -4,12 +4,44 @@ venture: Lillie and Lynette
 venture_stage: Ideation
 status: active
 methodology: The Manor Protocol
-last_updated: 2026-04-22
+last_updated: 2026-05-17
 ---
 
 # Lillie and Lynette – Venture Index
 
 Hospitality company. Rooted in warmth, refinement and the art of making people feel genuinely welcomed. Named with intention – built to scale.
+
+## Products and Services
+
+Lillie and Lynette is one sensory world offered at three distances from the guest – something you can hold, somewhere you can stay or a standard you can have kept for you. Every line carries the Lillie and Lynette name. Nothing is a side venture. Each is the same promise at a different range.
+
+### The four pillars
+
+**Objects.** Bath and body, decor. The lowest cost of entry and the widest reach. Stocked as the amenity inside every stay before it is sold at retail, so internal demand precedes public demand. The entry point into the world and the takeaway from it. *Status: first to market.*
+
+**Spaces.** Estates and resorts. The fullest immersion, highest price, lowest volume. The brand soul and the pricing-power anchor. Capital-intensive and sequenced last, funded by the lines that precede it. *Status: long-horizon.*
+
+**Stewardship.** Estate management, housekeeping, short-let and Airbnb management. Maintains the owned spaces and extends the Lillie and Lynette standard onto property the company does not own. The asset-light scaling engine. Held to a written operating standard and a curated portfolio rather than volume, so growth does not dilute the boutique promise. *Status: cash bridge between Objects and Spaces.*
+
+**The World.** Not a sellable line. The governing aesthetic the other three pillars answer to – warmth, refinement and the felt experience of being genuinely welcomed. Defined in the venture identity and the Creative studio.
+
+### Model logic
+
+The pillars compound. An object introduces the world at low cost and travels home with the guest. A stay converts a buyer into a believer. Stewardship places the standard on property the company never had to purchase, each managed door stocked with the objects, returning new buyers to the top of the funnel.
+
+### Positioning
+
+Hospitality-led in all outward language – the felt experience of being hosted, not a wellness category. Wellness is retained internally as the rationale for the bath and body formulation and the guest-care model, not as public positioning. This protects pricing power and category distinctiveness.
+
+### Brand architecture
+
+Monolithic. One name – Lillie and Lynette – across stays, objects, decor and management. No nested sub-brands.
+
+### Sequence
+
+1. **Objects first.** Bath and body ships at low capital, seeds the world, funds awareness.
+2. **Stewardship second.** Estate and short-let management as the cash bridge and proof of standard on external property.
+3. **Spaces last.** Estates and resorts, funded by the first two pillars.
 
 ## The Manor Protocol
 
