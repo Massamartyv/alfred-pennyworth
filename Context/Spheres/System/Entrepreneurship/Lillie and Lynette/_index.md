@@ -1,10 +1,10 @@
 ---
 file_type: venture_index
 venture: Lillie and Lynette
-venture_stage: Ideation
+venture_stage: Validation
 status: active
 methodology: The Manor Protocol
-last_updated: 2026-05-17
+last_updated: 2026-06-11
 ---
 
 # Lillie and Lynette – Venture Index
@@ -17,11 +17,11 @@ Lillie and Lynette is one sensory world offered at three distances from the gues
 
 ### The four pillars
 
-**Objects.** Bath and body, decor. The lowest cost of entry and the widest reach. Stocked as the amenity inside every stay before it is sold at retail, so internal demand precedes public demand. The entry point into the world and the takeaway from it. *Status: first to market.*
+**Objects.** Bath and body, decor. The lowest cost of entry and the widest reach. Stocked as the amenity inside every kept home and stay before it is sold at retail, so internal demand precedes public demand. The entry point into the world and the takeaway from it. *Status: amenity in service now, retail in Phase 4.*
 
 **Spaces.** Estates and resorts. The fullest immersion, highest price, lowest volume. The brand soul and the pricing-power anchor. Capital-intensive and sequenced last, funded by the lines that precede it. *Status: long-horizon.*
 
-**Stewardship.** Estate management, housekeeping, short-let and Airbnb management. Maintains the owned spaces and extends the Lillie and Lynette standard onto property the company does not own. The asset-light scaling engine. Held to a written operating standard and a curated portfolio rather than volume, so growth does not dilute the boutique promise. *Status: cash bridge between Objects and Spaces.*
+**Stewardship.** Estate management, housekeeping, short-let and Airbnb management. Maintains the owned spaces and extends the Lillie and Lynette standard onto property the company does not own. The asset-light scaling engine. Held to a written operating standard and a curated portfolio rather than volume, so growth does not dilute the boutique promise. *Status: live – the revenue engine. First doors in acquisition.*
 
 **The World.** Not a sellable line. The governing aesthetic the other three pillars answer to – warmth, refinement and the felt experience of being genuinely welcomed. Defined in the venture identity and the Creative studio.
 
@@ -39,8 +39,10 @@ Monolithic. One name – Lillie and Lynette – across stays, objects, decor and
 
 ### Sequence
 
-1. **Objects first.** Bath and body ships at low capital, seeds the world, funds awareness.
-2. **Stewardship second.** Estate and short-let management as the cash bridge and proof of standard on external property.
+Amended 2026-06-11 – fingerprint version 0.2. Stewardship leads.
+
+1. **Stewardship first.** Housekeeping, estate and short-let management earn revenue at near-zero capital and prove the standard on external property. Battle plan: `Strategy/revenue-battle-plan.md`.
+2. **Objects ride inside.** Bath and body enter every kept home as the amenity and the gift, seeding demand before retail in Phase 4.
 3. **Spaces last.** Estates and resorts, funded by the first two pillars.
 
 ## The Manor Protocol
@@ -80,13 +82,14 @@ All work follows The Manor Protocol – five phases, two hard gates, creative ex
 
 ## Active State
 
-- Current MRR: $0
-- Active guests, clients or venues: None – pre-launch
-- Current priority: Concept definition and positioning
-- Active campaign: None
+- Current MRR: $0 – first revenue earned June 2026, one-off clean, already allocated
+- Active guests, clients or venues: None recurring – first 10 doors in acquisition
+- Current priority: Battle plan Phase 0 – the Standard, pricing card, booking path
+- Active campaign: Warm-network blitz, opens at Phase 0 exit
 
 ## Key Registries
 
+- Revenue battle plan: `Strategy/revenue-battle-plan.md`
 - Clientele roster (guests, vendor partners): `Operations/Clientele/_clients-registry.md`
 - SOP catalogue: `Operations/SOPs/_sop-registry.md`
 - Department heads: `Agents/department-heads.md`

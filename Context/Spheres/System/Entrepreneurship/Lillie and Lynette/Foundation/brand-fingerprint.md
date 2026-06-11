@@ -1,8 +1,8 @@
 ---
 file_type: brand_fingerprint
 venture: Lillie and Lynette
-version: 0.1
-last_updated: 2026-06-02
+version: 0.2
+last_updated: 2026-06-11
 status: draft
 ---
 
@@ -33,11 +33,11 @@ Lillie and Lynette is the art of genuine welcome made a house – the warmth of 
 
 Reverse-engineered from the destination. Each answer derives from the one above it.
 
-**One – what do I want to have happen.** Lillie and Lynette becomes a heritage hospitality house – the Aman or Belmond of genuine welcome – a name spoken with reverence, built to last generations, the estates its crown. Measured in reverence and longevity, never reach. A nested staircase. Lifetime: a heritage house passed down, the standard of hospitality others are measured against, the estates landmarks. Ten-year: a revered house with all three distances live – objects in discerning homes, the stewardship standard on managed estates, the first owned Spaces open. Three-year: Objects shipped and seeding the world, Stewardship proving the standard on external property, the first estate identified, a small circle already speaking the name with feeling.
+**One – what do I want to have happen.** Lillie and Lynette becomes a heritage hospitality house – the Aman or Belmond of genuine welcome – a name spoken with reverence, built to last generations, the estates its crown. Measured in reverence and longevity, never reach. A nested staircase. Lifetime: a heritage house passed down, the standard of hospitality others are measured against, the estates landmarks. Ten-year: a revered house with all three distances live – objects in discerning homes, the stewardship standard on managed estates, the first owned Spaces open. Three-year: Stewardship proving and funding the standard on external property, Objects seeding the world from inside every kept home and reaching retail, the first estate identified, a small circle already speaking the name with feeling.
 
 **Two – what do I have to be known for.** The house where you are genuinely received – warmth that is real, not performed – held to a modern, quiet, exacting standard. Known for the feeling of being truly welcomed, rendered with serenity rather than spectacle. Hospitality-led, never wellness. The negative space: not a hotel chain, not a fussy heritage pastiche, not sterile five-star luxury. Warmth with restraint; care without fuss.
 
-**Three – what do I have to do to be known for that.** Build the one world at three distances – the object you hold, the stay you enter, the standard kept for you – each at a single standard, in the sequence that funds itself: Objects first, Stewardship second, Spaces last. Hold the monolith – one name across all of it. The proof is the felt consistency: a Lillie and Lynette object, a managed door and an owned estate all carry the same quiet warmth. The sacrifice: volume, the quick franchise, anything that dilutes the welcome. The accelerant: the object that travels home and seeds the world, and the stewardship standard placed on property the house never had to buy.
+**Three – what do I have to do to be known for that.** Build the one world at three distances – the object you hold, the stay you enter, the standard kept for you – each at a single standard, in the sequence that funds itself: Stewardship leads the revenue, Objects ride inside the service as the amenity before retail, Spaces last. Hold the monolith – one name across all of it. The proof is the felt consistency: a Lillie and Lynette object, a managed door and an owned estate all carry the same quiet warmth. The sacrifice: volume, the quick franchise, anything that dilutes the welcome. The accelerant: the object that travels home and seeds the world, and the stewardship standard placed on property the house never had to buy.
 
 **Four – what do I have to learn.** Primary: to render genuine warmth through restraint – the hardest hospitality discipline, because warmth tempts toward ornament and quiet luxury tempts toward cold, and the house must hold both at once. Then: to scale the standard without diluting it – stewardship grows the footprint on property the house does not own, and the standard must travel intact. Then: to sequence the capital – let Objects and Stewardship fund the Spaces, and never rush the estates before they can be done at heritage grade.
 
@@ -85,8 +85,9 @@ Reverse-engineered from the destination. Each answer derives from the one above 
 
 ## Amendment Log
 
+- **2026-06-11 – Sequence amended: Stewardship leads.** Supersedes the Objects-first ordering in Journey answers one and three and the pillar statuses in the venture index. Stewardship earns first revenue at near-zero capital; Objects enter inside the service as the amenity and the gift – first to be felt, not first to be sold – and reach retail once the service base funds inventory. Spaces remain last. Governing rule four is unchanged – Objects and Stewardship still earn the right to the Spaces. Decided with the operator at Direction during the revenue battle plan session; plan at `Strategy/revenue-battle-plan.md`. Version 0.2.
 - **2026-06-02 – Fingerprint opened, Layer 0 drafted.** Created from the portfolio standard template. Layer 0 built interactively with the operator: soul is a tribute to real matriarchs whose hospitality defined a home; register is modern quiet luxury at the Aman pole; altitude is a heritage hospitality house. The distinctive position named – genuine matriarchal warmth rendered with modern quiet-luxury restraint. Existing model carried in: four pillars, three distances, hospitality-led-not-wellness, monolithic architecture, Objects-Stewardship-Spaces sequence. Founding story of the matriarchs flagged as operator-to-set. Layers 1 through 4 scaffolded. Version 0.1.
 
 ---
 
-*Version 0.1. Layer 0 drafted, Layers 1 through 4 pending, founding story to be set. Last updated 2 June 2026.*
+*Version 0.2. Layer 0 amended – Stewardship leads. Layers 1 through 4 pending, founding story to be set. Last updated 11 June 2026.*

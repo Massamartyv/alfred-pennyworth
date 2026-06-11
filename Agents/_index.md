@@ -235,7 +235,7 @@ When creating a new agent, create its working directory: `mkdir -p .working/{age
 
 Files use lowercase kebab-case: `{domain}-{function}.md`
 
-Explorer agents carry a directional suffix that signals where they look:
+Researcher-crew agents carry a directional suffix that signals where they look:
 
 | Suffix | Direction | What It Means | Example |
 |---|---|---|---|

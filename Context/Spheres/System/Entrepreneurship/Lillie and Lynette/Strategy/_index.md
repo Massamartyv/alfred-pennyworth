@@ -42,9 +42,9 @@ Strategy/
 
 ## Key Context
 
-- **Category:** Hospitality – format TBD (restaurant, event venue, bar, experiential concept, multi-format)
-- **Target guest:** TBD – definition is a priority deliverable in Reconnaissance
-- **Geographic scope:** TBD – venue sourcing feeds location strategy
+- **Category:** Hospitality – one world at three distances: Objects, Stewardship, Spaces. Stewardship leads revenue per the 2026-06-11 fingerprint amendment.
+- **Target guest:** Affluent Atlanta homeowners first – profile sharpens through battle plan Phase 1
+- **Geographic scope:** Atlanta metro to start – Spaces destinations are long-horizon
 - **Reference library:** `Knowledge Base/Case Studies/` and `Knowledge Base/Research/`
 
 ## Agent Instructions
@@ -64,4 +64,4 @@ Strategy/
 
 ## Current State
 
-No strategic work completed yet. Concept definition is the first deliverable, followed by target guest profile and geographic scope.
+Revenue battle plan approved at Direction on 2026-06-11 – `revenue-battle-plan.md`. Concept, sequence and wedge market are set. Next strategic deliverables: target guest profile from Phase 1 field data and a competitive set for premium home services in the Atlanta metro.
