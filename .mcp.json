@@ -1,0 +1,60 @@
+{
+  "mcpServers": {
+    "notion-fivepoints": {
+      "type": "stdio",
+      "command": "/bin/bash",
+      "args": [
+        "-c",
+        "set -a; source '/Users/martyspicer/Alfred Pennyworth/.env'; set +a; export NOTION_TOKEN=\"$NOTION_FIVEPOINTS_TOKEN\"; exec npx -y @notionhq/notion-mcp-server"
+      ]
+    },
+    "supabase-fivepoints": {
+      "type": "stdio",
+      "command": "/bin/bash",
+      "args": [
+        "-c",
+        "set -a; source '/Users/martyspicer/Alfred Pennyworth/.env'; set +a; exec npx -y @supabase/mcp-server-supabase@latest --access-token \"$SUPABASE_FIVEPOINTS_TOKEN\""
+      ]
+    },
+    "stripe-fivepoints": {
+      "type": "stdio",
+      "command": "/bin/bash",
+      "args": [
+        "-c",
+        "set -a; source '/Users/martyspicer/Alfred Pennyworth/.env'; set +a; export STRIPE_SECRET_KEY=\"$STRIPE_FIVEPOINTS_SECRET_KEY\"; exec npx -y @stripe/mcp@latest"
+      ]
+    },
+    "pennyone": {
+      "type": "stdio",
+      "command": "/bin/bash",
+      "args": [
+        "-c",
+        "set -a; source '/Users/martyspicer/Alfred Pennyworth/.env'; set +a; exec '/Users/martyspicer/Alfred Pennyworth/Integrations/pennyone/.venv/bin/python' '/Users/martyspicer/Alfred Pennyworth/Integrations/pennyone/server.py'"
+      ]
+    },
+    "instantly": {
+      "type": "stdio",
+      "command": "/bin/bash",
+      "args": [
+        "-c",
+        "set -a; source '/Users/martyspicer/Alfred Pennyworth/.env'; set +a; exec '/Users/martyspicer/Alfred Pennyworth/Integrations/instantly/.venv/bin/python' '/Users/martyspicer/Alfred Pennyworth/Integrations/instantly/server.py'"
+      ]
+    },
+    "strava": {
+      "type": "stdio",
+      "command": "/bin/bash",
+      "args": [
+        "-c",
+        "set -a; source '/Users/martyspicer/Alfred Pennyworth/.env'; set +a; exec '/Users/martyspicer/Alfred Pennyworth/Integrations/strava/.venv/bin/python' '/Users/martyspicer/Alfred Pennyworth/Integrations/strava/server.py'"
+      ]
+    },
+    "fullscript": {
+      "type": "stdio",
+      "command": "/bin/bash",
+      "args": [
+        "-c",
+        "set -a; source '/Users/martyspicer/Alfred Pennyworth/.env'; set +a; exec '/Users/martyspicer/Alfred Pennyworth/Integrations/fullscript-mcp/.venv/bin/python' '/Users/martyspicer/Alfred Pennyworth/Integrations/fullscript-mcp/server.py'"
+      ]
+    }
+  }
+}

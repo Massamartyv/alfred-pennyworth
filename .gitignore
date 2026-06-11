@@ -45,9 +45,6 @@ package-lock.json
 # Archive (contains embedded repos and large assets – local only)
 Context/Archive/
 
-# MCP server config (contains API keys)
-.mcp.json
-
 # OAuth tokens (sensitive)
 **/.tokens.json
 

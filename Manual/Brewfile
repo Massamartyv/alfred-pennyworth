@@ -1,0 +1,27 @@
+# Alfred operating system - Homebrew manifest
+# Restore with: brew bundle --file="/Users/martyspicer/Alfred Pennyworth/Manual/Brewfile"
+# Regenerate after toolchain changes with: brew bundle dump --file="Manual/Brewfile" --force
+
+# Load/unload environment variables based on $PWD
+brew "direnv"
+# Play, record, convert, and stream select audio and video codecs
+brew "ffmpeg"
+# GitHub command-line tool
+brew "gh"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node"
+# Swiss-army knife of markup format conversion
+brew "pandoc"
+# PDF rendering library (based on the xpdf-3.0 code base)
+brew "poppler"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.12"
+# Extremely fast Python package installer and resolver, written in Rust
+brew "uv"
+# Command-line interface for Notion
+cask "notion-cli"
+# Apple Mail MCP bridge (provides ~/.local/bin/mcp-apple-mail)
+uv "mcp-apple-mail"
+# Global npm tools
+npm "three"
+npm "vercel"
