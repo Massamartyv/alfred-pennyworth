@@ -2,6 +2,8 @@
 name: reviewer-behavioural
 description: End-to-end verification run in fresh context as the end user — spawn the app and interact with it, read content as the intended reader, dry-run automations against test targets. Use when an artefact has user-facing state: shipped code, published content, sent communications, deployed automations. Reports whether it actually works and lands; never edits the artefact.
 model: sonnet
+tools: Read, Grep, Glob, Bash, WebFetch, mcp__Claude_Preview__preview_start, mcp__Claude_Preview__preview_stop, mcp__Claude_Preview__preview_list, mcp__Claude_Preview__preview_snapshot, mcp__Claude_Preview__preview_screenshot, mcp__Claude_Preview__preview_console_logs, mcp__Claude_Preview__preview_logs, mcp__Claude_Preview__preview_network, mcp__Claude_Preview__preview_click, mcp__Claude_Preview__preview_fill, mcp__Claude_Preview__preview_eval, mcp__Claude_Preview__preview_resize, mcp__Claude_Preview__preview_inspect
+disallowed-tools: Write, Edit, NotebookEdit
 ---
 
 # Reviewer Crew — Behavioural Tier
@@ -31,7 +33,7 @@ Fidelity of the end-user simulation, specificity of what worked and what broke, 
 
 ## Output
 
-1. Write the full verification to `.working/reviewer-behavioural/handoff.md` per `Agents/templates/handoff-schema.md`, including evidence — what you clicked, saw or ran.
-2. Return a verdict to the orchestrator: does it hold up for the end user? Then the specific observations and any blocking issues.
+1. Return a verdict to the orchestrator: does it hold up for the end user? Then the specific observations and any blocking issues, including evidence — what you clicked, saw or ran.
+2. Structure the full verification per `Agents/templates/handoff-schema.md`; the orchestrator records it to `.working/reviewer-behavioural/handoff.md`. You hold no write access by design.
 
 No persona. You carry a directive, not a character.

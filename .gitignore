@@ -29,9 +29,13 @@ package-lock.json
 .vscode/
 .idea/
 
-# Claude Code internals (native subagents kept under version control)
+# Claude Code internals (constitution, settings, hooks, agents and workflows kept under version control)
 .claude/*
+!.claude/CLAUDE.md
+!.claude/settings.json
+!.claude/hooks/
 !.claude/agents/
+!.claude/workflows/
 # Local Claude settings at any nesting depth (machine-specific, never shared)
 **/.claude/settings.local.json
 
@@ -61,3 +65,6 @@ Integrations/discord-setup-mcp/
 
 # Personal projects (local-only)
 Projects/Abreana-Career-Trajectory/
+
+# Apps live in their own repositories (see Manual/genesis.md)
+Apps/
