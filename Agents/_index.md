@@ -149,7 +149,7 @@ Alfred operating system operates within a six-layer agent infrastructure stack. 
 | 3. Memory and state | Persistent recall across sessions and tasks | `.claude/` memory system with active curation. Notion as durable portable layer. |
 | 4. Tools and integration | Connecting agents to external services | MCP connections. Per-venture `integrations.md` files. Strong but MCP-dependent. |
 | 5. Provisioning and billing | Agents acquiring and paying for services | Token budget framework, execution tiers. Needs formal billing protocol at scale. |
-| 6. Orchestration and coordination | Multi-agent reliability at scale | Pennyone, Watchtower, six-crew system. **This is where we are building.** |
+| 6. Orchestration and coordination | Multi-agent reliability at scale | Pennyone, Watchtower, five-crew system. **This is where we are building.** |
 
 ### Reliability rule
 
@@ -159,12 +159,19 @@ End-to-end reliability is the product of every layer's reliability. Five layers 
 
 Not every task needs an agent. The same disease that plagued microservices -- decomposing everything into agents because it is fashionable rather than because it is needed -- leads to proliferation without observability or cost control. Before dispatching an agent, confirm that the task genuinely benefits from autonomous execution rather than direct handling.
 
+### Autonomy guardrails
+
+- Every autonomous run gets a verifiable exit condition. Use the `/goal` command for long-running sessions so completion is evaluated against a condition rather than a feeling of doneness, or gate the exit on a deterministic Stop-hook check.
+- Reviewers run in fresh context with no memory of the Creator. That is the point – sunk-cost bias dies at the boundary.
+- Manor Protocol phases have workflow encodings at `.claude/workflows/`: `manor-recon` (parallel territory survey, then one synthesis brief) and `manor-critique` (adversarial verifier per contract assertion, then a gate verdict). Use them for any mission with two or more territories or a validation contract.
+- Cost is attributed, not estimated: `/usage` itemises token spend per skill, subagent and MCP server. Review it when a mission's spend matters.
+
 ---
 
 ## How Agents Work
 
 1. Alfred reads the agent definition file to understand the mission scope, tools and success criteria
-2. If the agent operates within a venture, Alfred also reads that venture's `Operations/AI/agent-guidelines.md`
+2. If the agent operates within a venture, Alfred also reads that venture's `Agents/agent-guidelines.md`
 3. Alfred dispatches an autonomous subprocess with the mission brief
 4. The agent executes independently
 5. The agent returns a structured report

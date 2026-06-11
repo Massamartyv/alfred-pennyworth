@@ -16,6 +16,9 @@ The standing rhythm of Alfred operating system. Cadenced maintenance and opportu
 | First of each quarter | Sphere Index review | Review every entry in the Sphere Index. Flag any state that may have shifted. Surface the question rather than assuming the answer. |
 | First of each quarter | Sphere Manager alignment check | Verify that the sphere file structure still mirrors the active spheres. Flag any sphere that has become active enough to graduate to its own file. |
 | First of each quarter | Restore drill | Fire-drill the Genesis Protocol per `Manual/restore-drill.md`. Score each step, file the report to `Logs/`, fix the Manual the same day. |
+| First of every month | Scheduler audit | Compare the scheduled-task registry against this table. Re-register anything missing; reconcile anything drifted. Watchtower also checks handoff receipts daily. |
+| First of every month | Working directory sweep | Clear `.working/` subdirectories untouched for 30 days per the lifecycle rule in the project CLAUDE.md. |
+| First of each quarter | Memory consolidation | Run the consolidate-memory pass – merge duplicate memories, fix stale facts, prune the index. |
 
 ---
 

@@ -110,7 +110,7 @@ Do not load all sphere files at once. Read the Sphere Index in the global CLAUDE
 - Memory files (those live in `.claude/projects/.../memory/`)
 - Agent definitions, skill files or configuration
 
-**Lifecycle:** Files here are ephemeral. Alfred may clear this directory at session end or when files are no longer needed. Nothing here should be treated as durable.
+**Lifecycle:** Files here are ephemeral. Alfred may clear this directory at session end or when files are no longer needed. Nothing here should be treated as durable. Standing rule: at the first session of each month, any subdirectory untouched for 30 days is swept – deleted, or moved to `Context/Archive/` if it holds the only copy of something worth keeping. A directory with a `handoff.md` for an open mission is held until that mission closes.
 
 ---
 
