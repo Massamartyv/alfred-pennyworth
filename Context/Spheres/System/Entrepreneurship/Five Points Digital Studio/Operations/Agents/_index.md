@@ -3,7 +3,7 @@ file_type: department_agent_index
 department: Operations
 venture: Five Points Digital Studio
 methodology: The Manor Protocol
-last_updated: 2026-04-22
+last_updated: 2026-06-11
 ---
 
 # Operations – Agent Roster and Workflow Registry
@@ -19,9 +19,9 @@ See venture-level `Agents/department-heads.md` for the Head of Operations role d
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
 | **Head of Operations** | Studio head. Owns delivery throughput and SOP integrity. | All | – |
-| **Client Success Lead** | Onboarding, account management, retention, offboarding. | Execution, Release | Maestro, Creator |
-| **SOP Architect** | Standard operating procedure design, maintenance, rollout. | Direction, Execution | Creator, Validator |
-| **Systems and Tools Lead** | Tool stack, automation workflows, integration management. | Reconnaissance, Execution | Strategist, Creator |
+| **Client Success Lead** | Onboarding, account management, retention, offboarding. | Execution, Release | Broadcaster, Creator |
+| **SOP Architect** | Standard operating procedure design, maintenance, rollout. | Direction, Execution | Creator, Reviewer:Scrutiny |
+| **Systems and Tools Lead** | Tool stack, automation workflows, integration management. | Reconnaissance, Execution | Researcher, Creator |
 
 ### Role activation
 

@@ -2,7 +2,7 @@
 file_type: department_index
 department: Production
 venture: Marty Gras
-last_updated: 2026-04-22
+last_updated: 2026-06-11
 ---
 
 # Production
@@ -49,7 +49,7 @@ Production/
 ## Agent Instructions
 
 - Production work is primarily Execution and Critique phases
-- Creator and Evaluator crews operate here most frequently
+- Creator and Reviewer crews operate here most frequently
 - Template-based production is Tier 1. Draft production to finished work is Tier 2.
 - Anything that ships to the audience is Tier 3 (approval required before publish).
 - Load `brand-fingerprint.md` before any visual or audio production to confirm specs.

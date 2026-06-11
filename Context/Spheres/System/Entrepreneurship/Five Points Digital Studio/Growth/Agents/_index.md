@@ -3,7 +3,7 @@ file_type: department_agent_index
 department: Growth
 venture: Five Points Digital Studio
 methodology: The Manor Protocol
-last_updated: 2026-04-22
+last_updated: 2026-06-11
 ---
 
 # Growth – Agent Roster and Workflow Registry
@@ -19,10 +19,10 @@ See venture-level `Agents/department-heads.md` for the Head of Growth role defin
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
 | **Head of Growth** | Studio head. Owns pipeline health and offer integrity. | All | – |
-| **Business Development Lead** | Outbound sequences, partnership development, pipeline generation. | Reconnaissance, Direction | Explorer, Strategist |
-| **Sales Lead** | Discovery calls, closing, objection handling, negotiation. | Direction, Execution | Strategist, Maestro |
+| **Business Development Lead** | Outbound sequences, partnership development, pipeline generation. | Reconnaissance, Direction | Researcher |
+| **Sales Lead** | Discovery calls, closing, objection handling, negotiation. | Direction, Execution | Researcher, Mediator |
 | **Proposal Architect** | Proposal drafting from offer templates, value stack construction. | Execution | Creator |
-| **Offer Steward** | Offer catalogue maintenance, pricing integrity, tier evolution. | Critique, Release | Strategist, Validator |
+| **Offer Steward** | Offer catalogue maintenance, pricing integrity, tier evolution. | Critique, Release | Researcher, Reviewer:Scrutiny |
 
 ### Role activation
 

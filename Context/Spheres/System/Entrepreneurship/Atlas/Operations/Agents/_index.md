@@ -4,7 +4,7 @@ department: Operations
 venture: "{Venture Name}"
 status: template
 methodology: The Manor Protocol
-last_updated: 2026-04-22
+last_updated: 2026-06-11
 ---
 
 # Operations – Agent Roster and Workflow Registry
@@ -20,10 +20,10 @@ See venture-level `Agents/department-heads.md` for the Head of Operations role d
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
 | **Head of Operations** | Studio head. Owns the engine room. | All | – |
-| **Delivery Coordinator** | Order fulfilment, logistics, returns, partner management. | Execution | Maestro |
-| **Quality Control Lead** | Incoming quality inspection, compliance checks, standards enforcement. | Critique | Validator |
-| **Customer Service Lead** | Client inquiries, issue resolution, service SOPs, feedback capture. | Execution | Creator, Maestro |
-| **Clientele Coordinator** | Account management for active clients and partners post-close. | Execution | Maestro |
+| **Delivery Coordinator** | Order fulfilment, logistics, returns, partner management. | Execution | Broadcaster |
+| **Quality Control Lead** | Incoming quality inspection, compliance checks, standards enforcement. | Critique | Reviewer:Scrutiny |
+| **Customer Service Lead** | Client inquiries, issue resolution, service SOPs, feedback capture. | Execution | Creator, Broadcaster |
+| **Clientele Coordinator** | Account management for active clients and partners post-close. | Execution | Broadcaster |
 
 ### Role activation
 

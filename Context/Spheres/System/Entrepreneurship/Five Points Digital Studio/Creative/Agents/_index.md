@@ -3,7 +3,7 @@ file_type: department_agent_index
 department: Creative
 venture: Five Points Digital Studio
 methodology: The Manor Protocol
-last_updated: 2026-04-07
+last_updated: 2026-06-11
 ---
 
 # Creative – Agent Roster and Workflow Registry
@@ -17,11 +17,11 @@ The Creative studio is the aesthetic standard-bearer for Five Points and its cli
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
 | **Head of Creative** | Department head. Holds the standard across all creative output. | All | – |
-| **Researcher** | Gathers references, mood, cultural signals, trends. The taste-driven intelligence gatherer. | Reconnaissance | Explorer |
-| **Brand Strategist** | Builds brand as a system – positioning, voice, visual identity as interconnected pieces. Writes the brief. | Direction | Strategist |
+| **Researcher** | Gathers references, mood, cultural signals, trends. The taste-driven intelligence gatherer. | Reconnaissance | Researcher |
+| **Brand Strategist** | Builds brand as a system – positioning, voice, visual identity as interconnected pieces. Writes the brief. | Direction | Creator |
 | **Copywriter** | The pen. Copy, content, long-form, captions. Writes to the brief. | Execution | Creator |
 | **Art Director** | Visual thinking, aesthetic decisions, design direction. Directs to the brief. | Execution | Creator |
-| **Editor** | The quality eye. Holds output against the rubric and the brief. | Critique | Evaluator |
+| **Editor** | The quality eye. Holds output against the rubric and the brief. | Critique | Reviewer:Scrutiny |
 
 ### Role activation
 

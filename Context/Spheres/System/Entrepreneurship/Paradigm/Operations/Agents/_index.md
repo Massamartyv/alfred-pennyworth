@@ -4,7 +4,7 @@ department: Operations
 venture: Paradigm
 status: active
 methodology: The Manor Protocol
-last_updated: 2026-04-22
+last_updated: 2026-06-11
 ---
 
 # Operations – Agent Roster and Workflow Registry
@@ -20,11 +20,11 @@ See venture-level `Agents/department-heads.md` for the Head of Operations role d
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
 | **Head of Operations** | Studio head. Owns the engine room. | All | – |
-| **Supply Chain Coordinator** | Supplier management, ingredient sourcing, inventory planning. | Execution | Maestro, Validator |
-| **Fulfilment Lead** | Order fulfilment, shipping, returns, 3PL management. | Execution | Maestro |
-| **Quality Control Lead** | Incoming goods inspection, batch testing coordination, compliance checks. | Critique | Validator |
-| **Customer Service Lead** | Customer inquiries, order issues, service SOPs, feedback capture. | Execution | Creator, Maestro |
-| **Clientele Coordinator** | Wholesale and retail partner account management post-close. | Execution | Maestro |
+| **Supply Chain Coordinator** | Supplier management, ingredient sourcing, inventory planning. | Execution | Mediator, Reviewer:Scrutiny |
+| **Fulfilment Lead** | Order fulfilment, shipping, returns, 3PL management. | Execution | Broadcaster |
+| **Quality Control Lead** | Incoming goods inspection, batch testing coordination, compliance checks. | Critique | Reviewer:Scrutiny |
+| **Customer Service Lead** | Customer inquiries, order issues, service SOPs, feedback capture. | Execution | Creator, Mediator |
+| **Clientele Coordinator** | Wholesale and retail partner account management post-close. | Execution | Mediator |
 
 ### Role activation
 

@@ -4,7 +4,7 @@ department: Creative
 venture: Lillie and Lynette
 methodology: The Manor Protocol
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-06-11
 ---
 
 # Creative – Agent Roster and Workflow Registry
@@ -18,12 +18,12 @@ The Creative studio holds the aesthetic, narrative and experiential standard for
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
 | **Head of Creative** | Department head. Holds the standard across all creative output. | All | – |
-| **Brand Storyteller** | Naming, narrative, written voice across menus, signage and guest copy | Direction, Execution | Strategist, Creator |
+| **Brand Storyteller** | Naming, narrative, written voice across menus, signage and guest copy | Direction, Execution | Researcher, Creator |
 | **Experience Designer** | Guest journey maps, service choreography, signature moments | Direction, Execution | Creator |
 | **Interior and Environment Director** | Spatial direction, material palette, lighting, scent, sound | Execution | Creator |
 | **Visual Director** | Photography, print collateral, social aesthetics, typography | Execution | Creator |
 | **Culinary and Beverage Stylist** | Menu concept, plating standards, beverage programme narrative | Direction, Execution | Creator |
-| **Editor** | Quality eye. Holds output against the rubric and the brief | Critique | Evaluator |
+| **Editor** | Quality eye. Holds output against the rubric and the brief | Critique | Reviewer:Scrutiny |
 
 ### Role activation
 

@@ -8,8 +8,13 @@ This file governs the Alfred Pennyworth directory (`~/Alfred Pennyworth/`). It d
 
 ```
 Alfred Pennyworth/
-├── .claude/CLAUDE.md              – This file. Project-level configuration.
+├── .claude/                       – Project configuration. Tracked: CLAUDE.md, settings.json, hooks/, agents/, workflows/.
+│   ├── CLAUDE.md                  – This file. Project-level configuration.
+│   ├── agents/                    – Native crew subagents: researcher, creator, reviewer-scrutiny, reviewer-behavioural.
+│   └── hooks/                     – SessionStart, Stop and statusline scripts.
+├── .mcp.json                      – Project MCP servers. Secret-free; sources .env by reference. Tracked.
 ├── .working/                       – Transient session files. Not committed to git.
+├── Manual/                        – Owner's manual: genesis protocol, account and secret inventories, MCP registry, Brewfile, restore drill.
 ├── Context/
 │   ├── personal-brand-identity.md  – How everything sounds. Governs all pillars.
 │   ├── martyv-identity.md          – Brand Profile, podcast, newsletter, platforms.
@@ -23,27 +28,26 @@ Alfred Pennyworth/
 │   │   │       ├── Marty Gras/                  – Active venture (personal media)
 │   │   │       ├── Paradigm/                    – Active venture
 │   │   │       ├── Lillie and Lynette/          – Active venture
-│   │   │       ├── Athena/                      – Dormant venture
+│   │   │       ├── Atlas/                       – Active venture (chiropractic intelligence)
+│   │   │       ├── Athena/                      – Revived; nine-department structure, seven-studio migration pending
 │   │   │       └── New Venture/                 – Template for future ventures
 │   │   ├── Soul/                  – 4 spheres.
 │   │   ├── Body/                  – 4 spheres.
 │   │   └── Culture/               – 12 spheres.
 │   └── Archive/                   – Deprecated files. Preserved, not loaded.
 ├── Agents/                        – Agentic framework
-│   ├── _index.md                  – Framework overview, hierarchy, dispatch protocol
+│   ├── _index.md                  – Framework overview, hierarchy, dispatch protocol, capability matrix
 │   ├── crews.md                   – The five universal crew classifications
-│   ├── System/                    – Infrastructure and maintenance agents
-│   │   ├── context-audit.md
-│   │   ├── media-scanner.md
-│   │   └── sphere-review.md
-│   └── Orchestration/             – Portfolio-level agents
-│       ├── penny-one.md
-│       └── watchtower.md
+│   ├── heartbeat.md               – Standing cadences and opportunistic maintenance
+│   ├── System/                    – Infrastructure agents: context-audit, media-scanner, sphere-review
+│   ├── Orchestration/             – Portfolio agents: pattern-memo, pennyone, watchtower
+│   └── templates/                 – Validation contract, handoff schema, model assignment
 ├── Automations/                   – Scripted workflows
 ├── Integrations/                  – MCP servers and platform bridges
+├── Apps/                          – Applications. Each lives in its own git repository; ignored here. Current: catalogue.
+├── Projects/                      – Personal local-only projects. Gitignored.
 ├── Templates/                     – Reusable project templates
-│   └── Website/                   – Web development templates
-└── Logs/                          – Session and maintenance logs
+└── Logs/                          – Session and maintenance logs, build-history/
 ```
 
 ---
@@ -305,4 +309,4 @@ Every session follows a consistent lifecycle:
 
 ---
 
-*Last updated: 2026-05-14 – Five Crews: Mediator and Broadcaster promoted from coordination patterns to formal crews.*
+*Last updated: 2026-06-11 – Architecture tree corrected to disk reality; Manual/, Apps/ convention, Atlas and Agents/templates/ added.*

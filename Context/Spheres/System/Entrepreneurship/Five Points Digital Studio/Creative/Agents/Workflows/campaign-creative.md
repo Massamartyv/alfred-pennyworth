@@ -4,7 +4,7 @@ department: Creative
 workflow_name: Campaign Creative
 venture: Five Points Digital Studio
 methodology: The Manor Protocol
-last_updated: 2026-04-07
+last_updated: 2026-06-11
 ---
 
 # Campaign Creative
@@ -16,7 +16,7 @@ Visual and copy direction for marketing campaigns, ad creative and landing pages
 ## Reconnaissance
 
 **Role:** Researcher
-**Crew:** Explorer
+**Crew:** Researcher
 
 - Review campaign objectives from Growth (target audience, conversion goal, budget)
 - Research competitor campaigns in the space
@@ -31,7 +31,7 @@ Visual and copy direction for marketing campaigns, ad creative and landing pages
 ## Direction
 
 **Role:** Brand Strategist
-**Crew:** Strategist
+**Crew:** Creator
 
 - Define the campaign concept: the central idea that holds everything together
 - Set visual direction for campaign assets (colour, imagery, typography treatment)
@@ -69,7 +69,7 @@ Visual and copy direction for marketing campaigns, ad creative and landing pages
 ## Critique
 
 **Role:** Editor
-**Crew:** Evaluator
+**Crew:** Reviewer:Scrutiny
 
 - Evaluate the campaign as a system – do all pieces feel like one story?
 - Apply the four criteria to each asset:
@@ -86,7 +86,7 @@ Visual and copy direction for marketing campaigns, ad creative and landing pages
 
 ## Release
 
-**Crew:** Maestro
+**Crew:** Broadcaster
 
 - Hand off approved assets to Production for build (landing pages, complex layouts)
 - Hand off approved copy to Growth for deployment (email sequences, ad platforms)

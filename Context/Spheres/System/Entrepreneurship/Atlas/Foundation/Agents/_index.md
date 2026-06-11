@@ -4,7 +4,7 @@ department: Foundation
 venture: "{Venture Name}"
 status: template
 methodology: The Manor Protocol
-last_updated: 2026-04-22
+last_updated: 2026-06-11
 ---
 
 # Foundation – Agent Roster and Workflow Registry
@@ -17,7 +17,7 @@ Community initiatives, philanthropy and education. A shared resource rather than
 
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
-| **Foundation Coordinator** | Scopes community initiatives, aligns giving strategy with brand and budget, coordinates educational outreach. | Direction, Execution | Strategist, Maestro |
+| **Foundation Coordinator** | Scopes community initiatives, aligns giving strategy with brand and budget, coordinates educational outreach. | Direction, Execution | Researcher, Broadcaster |
 
 ### Role activation
 

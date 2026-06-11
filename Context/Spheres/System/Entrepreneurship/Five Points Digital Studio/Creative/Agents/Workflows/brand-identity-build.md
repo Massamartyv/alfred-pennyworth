@@ -4,7 +4,7 @@ department: Creative
 workflow_name: Brand Identity Build
 venture: Five Points Digital Studio
 methodology: The Manor Protocol
-last_updated: 2026-04-07
+last_updated: 2026-06-11
 ---
 
 # Brand Identity Build
@@ -16,7 +16,7 @@ Full brand identity for a new client. The most complex workflow in Creative – 
 ## Reconnaissance
 
 **Role:** Researcher
-**Crew:** Explorer
+**Crew:** Researcher
 
 - Gather client discovery brief from Operations/Clientele/{Client}/Onboarding/client-brief.md
 - Research the client's industry, competitors and audience
@@ -31,7 +31,7 @@ Full brand identity for a new client. The most complex workflow in Creative – 
 ## Direction
 
 **Role:** Brand Strategist
-**Crew:** Strategist
+**Crew:** Creator
 
 - Synthesise the reconnaissance into a creative brief
 - Define brand positioning: who, what, why, how, against whom
@@ -70,7 +70,7 @@ Full brand identity for a new client. The most complex workflow in Creative – 
 ## Critique
 
 **Role:** Editor
-**Crew:** Evaluator
+**Crew:** Reviewer:Scrutiny
 
 Evaluate against the four non-negotiable criteria (see `Criteria/quality-rubric.md`):
 
@@ -88,7 +88,7 @@ Evaluate against the four non-negotiable criteria (see `Criteria/quality-rubric.
 ## Release
 
 **Role:** Head of Creative (oversight)
-**Crew:** Maestro
+**Crew:** Broadcaster
 
 - Package deliverables for client presentation
 - Prepare brand guidelines document

@@ -3,7 +3,7 @@ file_type: agent_governance
 venture: Atlas
 status: active
 methodology: The Manor Protocol
-last_updated: 2026-05-14
+last_updated: 2026-06-11
 ---
 
 # The Manor Protocol – Atlas
@@ -113,7 +113,7 @@ Every studio contains an `Agents/` subfolder with a standard structure:
 
 ## Crew Mapping
 
-The three universal crews classify the type of work, not who does it. Full definitions in `~/Alfred Pennyworth/Agents/crews.md`.
+The five universal crews classify the type of work, not who does it. Full definitions in `~/Alfred Pennyworth/Agents/crews.md`.
 
 | Crew | Role | Lifecycle Affinity |
 |---|---|---|
@@ -121,6 +121,8 @@ The three universal crews classify the type of work, not who does it. Full defin
 | Creator | Build, write, design, produce | Execution, Release |
 | Reviewer:Scrutiny | Mechanical compliance | Critique |
 | Reviewer:Behavioural | End-user verification | Critique |
+| Mediator | Resolve contention, surface tradeoffs | Direction, Critique |
+| Broadcaster | Distribute context, status and signal | Release |
 
 ---
 

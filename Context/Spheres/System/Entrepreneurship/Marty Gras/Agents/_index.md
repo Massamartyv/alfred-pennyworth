@@ -2,7 +2,7 @@
 file_type: agent_governance
 venture: Marty Gras
 methodology: The Manor Protocol
-last_updated: 2026-04-22
+last_updated: 2026-06-11
 ---
 
 # The Manor Protocol – Marty Gras
@@ -23,13 +23,13 @@ All work moves through five phases. The phases are sequential but not rigid – 
 
 Wide scan. Gather raw material, references, signals, context. Cultural sensing. Audience insight. The output is not answers – it is a landscape of possibility.
 
-**Primary crews:** Explorer, Strategist
+**Primary crews:** Researcher
 
 ### 2. Direction
 
 The editorial call. A point of view crystallises from the reconnaissance. This is the brief – the thesis that everything downstream is measured against.
 
-**Primary crews:** Strategist, Maestro
+**Primary crews:** Researcher, Mediator
 
 **Hard gate: human approval required before proceeding to Execution.**
 
@@ -43,7 +43,7 @@ Build the thing. Write the newsletter. Record the podcast. Craft the social post
 
 Hold the output against the brief and the standard. Is it excellent? Does it sound like Marty Gras? Does it meet the bar? This is not review for approval – it is review for quality.
 
-**Primary crews:** Evaluator, Validator
+**Primary crews:** Reviewer
 
 **Hard gate: human approval required before proceeding to Release.**
 
@@ -51,7 +51,7 @@ Hold the output against the brief and the standard. Is it excellent? Does it sou
 
 Ship it. Publish the newsletter. Release the episode. Post the content. Clean, complete, delivered.
 
-**Primary crews:** Maestro
+**Primary crews:** Broadcaster
 
 ---
 
@@ -105,16 +105,15 @@ Every studio contains an `Agents/` subfolder with a standard structure:
 
 ## Crew Mapping
 
-The six universal crews classify the type of work, not who does it. Full definitions in `~/Alfred Pennyworth/Agents/crews.md`.
+The five universal crews classify the type of work, not who does it. Full definitions in `~/Alfred Pennyworth/Agents/crews.md`.
 
 | Crew | Role | Lifecycle Affinity |
 |---|---|---|
-| Explorer | Market Sensor | Reconnaissance |
-| Strategist | Researcher | Reconnaissance, Direction |
+| Researcher | Market Sensor, Analyst | Reconnaissance, Direction |
 | Creator | Builder | Execution |
-| Evaluator | Grader | Critique |
-| Validator | Approver | Critique |
-| Maestro | Orchestrator | Direction, Release |
+| Reviewer | Grader, Approver | Critique |
+| Mediator | Orchestrator, Tradeoff Resolver | Direction |
+| Broadcaster | Distributor | Release |
 
 ---
 
@@ -130,7 +129,7 @@ Complex deliverables – a podcast episode, a major newsletter essay, a sponsors
 
 ### Cross-studio work
 
-When work spans multiple studios (Creative sets the editorial direction, Production builds the episode, Growth sells the sponsorship, Operations schedules the release), each studio runs its own lifecycle on its portion. The Maestro crew coordinates handoffs.
+When work spans multiple studios (Creative sets the editorial direction, Production builds the episode, Growth sells the sponsorship, Operations schedules the release), each studio runs its own lifecycle on its portion. The Mediator and Broadcaster crews coordinate handoffs and distribute state.
 
 ---
 

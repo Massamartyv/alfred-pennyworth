@@ -4,7 +4,7 @@ department: Foundation
 venture: Lillie and Lynette
 methodology: The Manor Protocol
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-06-11
 ---
 
 # Foundation – Agent Roster and Workflow Registry
@@ -18,7 +18,7 @@ Foundation is a shared resource. It holds the community, philanthropic and hospi
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
 | **Foundation Steward** | Owns the mission and coherence of Foundation initiatives | All | – |
-| **Community Lead** | Local outreach, neighbourhood initiatives, nonprofit partnerships | Direction, Execution | Strategist, Maestro |
+| **Community Lead** | Local outreach, neighbourhood initiatives, nonprofit partnerships | Direction, Execution | Researcher, Mediator |
 | **Programme Designer** | Mentorship and scholarship programme design | Direction, Execution | Creator |
 | **Impact Reporter** | Documents impact, tells the story of Foundation work | Release | Creator |
 

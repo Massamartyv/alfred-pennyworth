@@ -3,7 +3,7 @@ file_type: agent_governance
 venture: Lillie and Lynette
 methodology: The Manor Protocol
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-06-11
 ---
 
 # The Manor Protocol – Lillie and Lynette
@@ -24,13 +24,13 @@ All work moves through five phases. The phases are sequential but not rigid – 
 
 Wide scan. Gather raw material, references, signals, context. Cultural sensing. Guest behaviour. Venue reconnaissance. The output is not answers – it is a landscape of possibility.
 
-**Primary crews:** Explorer, Strategist
+**Primary crews:** Researcher
 
 ### 2. Direction
 
 The hospitality call. A point of view crystallises from the reconnaissance – what the guest should feel, what the space should say, what the service should mean. This is the brief. Everything downstream is measured against it.
 
-**Primary crews:** Strategist, Maestro
+**Primary crews:** Researcher, Mediator
 
 **Hard gate: human approval required before proceeding to Execution.**
 
@@ -44,7 +44,7 @@ Build the thing. Design the service flow. Write the menu. Source the vendor. Fab
 
 Hold the output against the brief and the standard. Does it feel like Lillie and Lynette? Does the guest experience warmth and refinement in equal measure? Is every detail considered? This is not review for approval – it is review for quality.
 
-**Primary crews:** Evaluator, Validator
+**Primary crews:** Reviewer
 
 **Hard gate: human approval required before proceeding to Release.**
 
@@ -52,7 +52,7 @@ Hold the output against the brief and the standard. Does it feel like Lillie and
 
 Ship it. Open the doors. Serve the guest. Send the menu. Hand off the venue. Clean, complete, with nothing left undone.
 
-**Primary crews:** Maestro
+**Primary crews:** Broadcaster
 
 ---
 
@@ -107,16 +107,15 @@ Every studio contains an `Agents/` subfolder with a standard structure:
 
 ## Crew Mapping
 
-The six universal crews classify the type of work, not who does it. Full definitions in `~/Alfred Pennyworth/Agents/crews.md`.
+The five universal crews classify the type of work, not who does it. Full definitions in `~/Alfred Pennyworth/Agents/crews.md`.
 
 | Crew | Role | Lifecycle Affinity |
 |---|---|---|
-| Explorer | Market Sensor | Reconnaissance |
-| Strategist | Researcher | Reconnaissance, Direction |
+| Researcher | Market Sensor, Analyst | Reconnaissance, Direction |
 | Creator | Builder | Execution |
-| Evaluator | Grader | Critique |
-| Validator | Approver | Critique |
-| Maestro | Orchestrator | Direction, Release |
+| Reviewer | Grader, Approver | Critique |
+| Mediator | Orchestrator, Tradeoff Resolver | Direction |
+| Broadcaster | Distributor | Release |
 
 ---
 
@@ -132,7 +131,7 @@ Complex deliverables – a new experience design, a venue launch, a menu develop
 
 ### Cross-studio work
 
-When work spans multiple studios (Creative sets the guest experience direction, Production builds the service choreography, Operations runs the shift, Growth sells the experience), each studio runs its own lifecycle on its portion. The Maestro crew coordinates handoffs between studios.
+When work spans multiple studios (Creative sets the guest experience direction, Production builds the service choreography, Operations runs the shift, Growth sells the experience), each studio runs its own lifecycle on its portion. The Mediator and Broadcaster crews coordinate handoffs and distribute state between studios.
 
 ---
 

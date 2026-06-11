@@ -4,7 +4,7 @@ department: Production
 workflow_name: Website Development
 venture: Five Points Digital Studio
 methodology: The Manor Protocol
-last_updated: 2026-04-08
+last_updated: 2026-06-11
 ---
 
 # Website Development
@@ -40,7 +40,7 @@ Before this workflow begins, the following must exist:
 ## Reconnaissance
 
 **Role:** Technical Scout
-**Crew:** Explorer
+**Crew:** Researcher
 
 - Load the client brief from `Operations/Clientele/Active/{Client}/Onboarding/client-brief.md`
 - Audit the client's existing website if one exists – tech stack, performance scores, SEO health, accessibility issues
@@ -58,7 +58,7 @@ Before this workflow begins, the following must exist:
 ## Direction
 
 **Role:** Solutions Architect
-**Crew:** Strategist
+**Crew:** Creator
 
 - Clone the PRD template from `Context/vibe-coding-prd-template.md`
 - Fill all seven sections by synthesising Creative's brand direction, the technical reconnaissance and Growth's engagement scope:
@@ -112,7 +112,7 @@ Execution may span multiple sessions. Each session loads the PRD's Mega-Prompt. 
 ## Critique
 
 **Role:** QA Engineer
-**Crew:** Evaluator
+**Crew:** Reviewer:Scrutiny
 
 This phase runs two parallel evaluations. Both must pass for Release.
 
@@ -151,7 +151,7 @@ Any Failing criterion on either report sends the work back to Execution with spe
 ## Release
 
 **Role:** Release Engineer
-**Crew:** Maestro
+**Crew:** Broadcaster
 
 - Promote the Vercel deployment from preview to production
 - Configure the custom domain in Vercel

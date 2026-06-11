@@ -237,6 +237,59 @@ Explorer agents carry a directional suffix that signals where they look:
 
 ---
 
+## Capability Matrix
+
+Regenerated monthly by the heartbeat agent. Run manually at any time from the project root:
+
+```
+python3 "Automations/Capability Matrix/capability-matrix.py" --write
+```
+
+<!-- capability-matrix:start -->
+
+### Scheduled Agents
+
+Defined under `Agents/System/` and `Agents/Orchestration/`.
+
+| Name          | Type          | Crew                | Model  | Cadence                                                            | Tools                                                                                                                        |
+| ------------- | ------------- | ------------------- | ------ | ------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
+| context-audit | maintenance   | reviewer            | haiku  | First of every month                                               | 3 (Read, Glob, Grep)                                                                                                         |
+| media-scanner | maintenance   | researcher          | haiku  | First of every month                                               | 4 (Read, Write, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-search…)                                                   |
+| sphere-review | maintenance   | reviewer            | haiku  | First of each quarter                                              | 5 (Read, Glob, Grep…)                                                                                                        |
+| pattern-memo  | orchestration | researcher, creator | sonnet | First of every month                                               | 7 (Read, Write, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-search…)                                                   |
+| pennyone      | orchestration | creator             | sonnet | On-demand (per publish event)                                      | 4 (mcp__pennyone__publish, mcp__pennyone__pipeline_status, mcp__pennyone__list_pipelines…)                                   |
+| watchtower    | orchestration | reviewer            | sonnet | Continuous (threshold triggers), daily (sweeps), weekly (briefing) | 5 (Read, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-search, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-fetch…) |
+
+### Native Crew Subagents
+
+Defined under `.claude/agents/` at the project root. Dispatched in-session via the Task tool.
+
+| Name                 | Model  | Tools                  | Disallowed Tools          |
+| -------------------- | ------ | ---------------------- | ------------------------- |
+| creator              | sonnet | 6 (Read, Grep, Glob…)  | none                      |
+| researcher           | sonnet | 6 (Read, Grep, Glob…)  | none                      |
+| reviewer-behavioural | sonnet | 18 (Read, Grep, Glob…) | Write, Edit, NotebookEdit |
+| reviewer-scrutiny    | sonnet | 4 (Read, Grep, Glob…)  | Write, Edit, NotebookEdit |
+
+### Scheduled-Task Registrations
+
+Registered under `~/.claude/scheduled-tasks/`. These are the live scheduler entries.
+
+| Name          | Allowed Tools          | Description                                                              |
+| ------------- | ---------------------- | ------------------------------------------------------------------------ |
+| context-audit | 4 (Read, Glob, Grep…)  | Monthly scan of all context files for stale, outdated or inconsistent…   |
+| media-scanner | 7 (Read, Glob, Grep…)  | Monthly scan of Notion Media and Literature databases for new five-star… |
+| pattern-memo  | 9 (Read, Glob, Grep…)  | First-of-month pattern memo: synthesise three patterns from the prior…   |
+| penny-one     | 10 (Read, Glob, Grep…) | Weekly Monday morning portfolio briefing. Aggregates tasks, projects,…   |
+| sphere-review | 6 (Read, Glob, Grep…)  | Quarterly alignment check between Sphere Index, Sphere Manager database… |
+| watchtower    | 6 (Read, Glob, Grep…)  | Daily evening sweep of Notion for overdue tasks, stale high-priority…    |
+
+_Generated automatically. Scheduled agents: 6. Native subagents: 4. Scheduled-task registrations: 6._
+
+<!-- capability-matrix:end -->
+
+---
+
 ## Directory Structure
 
 ```

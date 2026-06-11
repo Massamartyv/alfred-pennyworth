@@ -3,7 +3,7 @@ file_type: department_agent_index
 department: Finance
 venture: Five Points Digital Studio
 methodology: The Manor Protocol
-last_updated: 2026-04-22
+last_updated: 2026-06-11
 ---
 
 # Finance – Agent Roster and Workflow Registry
@@ -19,9 +19,9 @@ See venture-level `Agents/department-heads.md` for the Head of Finance role defi
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
 | **Head of Finance** | Studio head. Owns financial integrity and reporting cadence. | All | – |
-| **Revenue Analyst** | MRR tracking, cohort analysis, revenue recognition, forecasting. | Reconnaissance, Direction | Strategist |
+| **Revenue Analyst** | MRR tracking, cohort analysis, revenue recognition, forecasting. | Reconnaissance, Direction | Researcher |
 | **Financial Reporter** | P&L, cash flow statements, monthly and quarterly reports. | Execution | Creator |
-| **Compliance Validator** | Tax readiness, regulatory compliance, audit trails. | Critique, Release | Validator |
+| **Compliance Validator** | Tax readiness, regulatory compliance, audit trails. | Critique, Release | Reviewer:Scrutiny |
 
 ### Role activation
 

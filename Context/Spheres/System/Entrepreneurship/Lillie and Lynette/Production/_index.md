@@ -3,7 +3,7 @@ file_type: department_index
 department: Production
 venture: Lillie and Lynette
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-06-11
 ---
 
 # Production
@@ -51,7 +51,7 @@ Production/
 ## Agent Instructions
 
 - Production work is primarily Execution and Critique phases
-- Creator and Evaluator crews operate here most frequently
+- Creator and Reviewer crews operate here most frequently
 - Template-based production is Tier 1. Draft to finished work is Tier 2.
 - Anything that reaches a guest or ships externally is Tier 3 (approval required).
 

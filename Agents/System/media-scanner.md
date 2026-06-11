@@ -7,7 +7,7 @@ model: haiku
 cadence: First of every month
 scope: Notion Media and Literature databases, Context/Spheres/Culture/culture.md
 working_dir: .working/media-scanner/
-tools: Read, Write, Notion (enhanced MCP)
+tools: Read, Write, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-search, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-fetch
 ---
 
 # Media Scanner
@@ -15,6 +15,18 @@ tools: Read, Write, Notion (enhanced MCP)
 ## Mission
 
 Query the Media and Literature databases in the personal Notion workspace for entries rated five stars. Compare against the current five-star library in `culture.md`. Surface new entries and flag any that have been downgraded.
+
+---
+
+## Capabilities
+
+| Capability | Detail |
+|---|---|
+| Tools granted | Read, Write, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-search, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-fetch |
+| MCP servers touched | Personal Notion (mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7) – read only |
+| Skills it may invoke | None |
+| Model | haiku |
+| Scope red-lines | Personal Notion workspace only. Never reads venture client data. Never touches Five Points or any other venture workspace. Never sends messages or publishes content. Write access limited to `Context/Spheres/Culture/culture.md` and `.working/media-scanner/` – no other files. |
 
 ---
 
@@ -78,7 +90,8 @@ All intermediate output goes to `.working/media-scanner/`. This includes raw que
 2. For approved new entries, add them to culture.md under the appropriate category with thematic notes
 3. For approved removals, move them to an archive section within culture.md
 4. Update the "Last updated" date on culture.md
+5. Write the handoff to `.working/media-scanner/handoff.md` per `Agents/templates/handoff-schema.md` as the final action before exit -- required regardless of outcome
 
 ---
 
-*Last updated: April 2026*
+*Last updated: 2026-06-11 – capabilities block and handoff retrofit*

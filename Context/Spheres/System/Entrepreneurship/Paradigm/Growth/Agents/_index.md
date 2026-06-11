@@ -4,7 +4,7 @@ department: Growth
 venture: Paradigm
 status: active
 methodology: The Manor Protocol
-last_updated: 2026-04-22
+last_updated: 2026-06-11
 ---
 
 # Growth – Agent Roster and Workflow Registry
@@ -20,11 +20,11 @@ See venture-level `Agents/department-heads.md` for the Head of Growth role defin
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
 | **Head of Growth** | Studio head. Owns revenue generation and channel strategy. | All | – |
-| **Wholesale Lead** | Retailer outreach, wholesale programme, buyer relationships. | Reconnaissance, Execution | Explorer, Strategist |
-| **Distribution Lead** | Regional and national distributor relationships, channel terms. | Reconnaissance, Direction | Strategist, Maestro |
-| **DTC Lead** | E-commerce, landing pages, paid acquisition, retention, subscriptions. | Execution | Creator, Maestro |
-| **Partnership Scout** | Aligned wellness brands, practitioner networks, co-branding. | Reconnaissance | Explorer |
-| **Affiliate and Ambassador Lead** | Influencer programmes, practitioner ambassadors, affiliate operations. | Execution | Maestro |
+| **Wholesale Lead** | Retailer outreach, wholesale programme, buyer relationships. | Reconnaissance, Execution | Researcher |
+| **Distribution Lead** | Regional and national distributor relationships, channel terms. | Reconnaissance, Direction | Researcher, Mediator |
+| **DTC Lead** | E-commerce, landing pages, paid acquisition, retention, subscriptions. | Execution | Creator, Broadcaster |
+| **Partnership Scout** | Aligned wellness brands, practitioner networks, co-branding. | Reconnaissance | Researcher |
+| **Affiliate and Ambassador Lead** | Influencer programmes, practitioner ambassadors, affiliate operations. | Execution | Broadcaster |
 
 ### Role activation
 

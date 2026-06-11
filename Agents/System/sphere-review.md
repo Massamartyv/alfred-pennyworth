@@ -7,7 +7,7 @@ model: haiku
 cadence: First of each quarter
 scope: Sphere Index in global CLAUDE.md, Sphere Manager database, Context/Spheres/ directory
 working_dir: .working/sphere-review/
-tools: Read, Glob, Grep, Notion (enhanced MCP)
+tools: Read, Glob, Grep, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-search, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-fetch
 ---
 
 # Sphere Review Agent
@@ -15,6 +15,18 @@ tools: Read, Glob, Grep, Notion (enhanced MCP)
 ## Mission
 
 Verify that the Sphere Index in the global CLAUDE.md, the Sphere Manager database in Notion and the actual file structure under `Context/Spheres/` are all in alignment. Surface any drift, missing entries or topics ready for graduation.
+
+---
+
+## Capabilities
+
+| Capability | Detail |
+|---|---|
+| Tools granted | Read, Glob, Grep, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-search, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-fetch |
+| MCP servers touched | Personal Notion (mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7) – read only |
+| Skills it may invoke | None |
+| Model | haiku |
+| Scope red-lines | Personal Sphere Manager only. Never reads venture client data. Never sends messages or publishes content. Never writes or modifies any file during the run – all corrections are proposed and executed only on explicit operator approval after the report is presented. |
 
 ---
 
@@ -90,7 +102,8 @@ All intermediate output goes to `.working/sphere-review/`. This includes index s
 2. For approved corrections, update the Sphere Index, create missing folders or files
 3. For graduation candidates, create the graduated file and update the cluster index
 4. Update state snapshot if confirmed by the user
+5. Write the handoff to `.working/sphere-review/handoff.md` per `Agents/templates/handoff-schema.md` as the final action before exit -- required regardless of outcome
 
 ---
 
-*Last updated: April 2026*
+*Last updated: 2026-06-11 – capabilities block and handoff retrofit*

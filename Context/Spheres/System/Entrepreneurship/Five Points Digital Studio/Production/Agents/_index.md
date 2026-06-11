@@ -3,7 +3,7 @@ file_type: department_agent_index
 department: Production
 venture: Five Points Digital Studio
 methodology: The Manor Protocol
-last_updated: 2026-04-08
+last_updated: 2026-06-11
 ---
 
 # Production – Agent Roster and Workflow Registry
@@ -17,11 +17,11 @@ The Production studio is the execution engine for Five Points. Every deliverable
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
 | **Head of Production** | Department head. Owns build quality, deployment standards and technical excellence across all output. | All | – |
-| **Technical Scout** | Audits the client's existing digital footprint, competitor site performance and technical constraints. Maps the landscape. | Reconnaissance | Explorer |
-| **Solutions Architect** | Writes the Vibe Coding PRD. Translates Creative's brand direction into a build specification – stack decisions, component architecture, engineering mandates, performance budgets. | Direction | Strategist |
+| **Technical Scout** | Audits the client's existing digital footprint, competitor site performance and technical constraints. Maps the landscape. | Reconnaissance | Researcher |
+| **Solutions Architect** | Writes the Vibe Coding PRD. Translates Creative's brand direction into a build specification – stack decisions, component architecture, engineering mandates, performance budgets. | Direction | Creator |
 | **Engineer** | The hands. Builds the site to the PRD specification. Clones the starter template, writes components, implements animations, integrates data sources. | Execution | Creator |
-| **QA Engineer** | Runs the build against the technical quality rubric. Does not fix – evaluates with precise notes. | Critique | Evaluator |
-| **Release Engineer** | Deploys to production, configures DNS, runs smoke tests, hands off to Operations for client delivery. | Release | Maestro |
+| **QA Engineer** | Runs the build against the technical quality rubric. Does not fix – evaluates with precise notes. | Critique | Reviewer:Scrutiny |
+| **Release Engineer** | Deploys to production, configures DNS, runs smoke tests, hands off to Operations for client delivery. | Release | Broadcaster |
 
 ### Role activation
 

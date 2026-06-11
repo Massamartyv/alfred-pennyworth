@@ -4,7 +4,7 @@ department: Finance
 venture: Lillie and Lynette
 methodology: The Manor Protocol
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-06-11
 ---
 
 # Finance – Agent Roster and Workflow Registry
@@ -18,11 +18,11 @@ The Finance studio holds the numbers. Revenue, cost of service, expenses, projec
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
 | **Head of Finance** | Department head. Owns financial integrity. | All | – |
-| **Revenue Analyst** | Booking revenue, event revenue, retail, cohort analysis | Reconnaissance, Execution | Strategist, Creator |
-| **Cost Controller** | Cost of goods sold, labour cost, prime cost | Execution, Critique | Validator, Creator |
+| **Revenue Analyst** | Booking revenue, event revenue, retail, cohort analysis | Reconnaissance, Execution | Researcher, Creator |
+| **Cost Controller** | Cost of goods sold, labour cost, prime cost | Execution, Critique | Reviewer:Scrutiny, Creator |
 | **Financial Reporter** | P&L, cash flow, monthly and quarterly reports | Execution | Creator |
-| **Capital Strategist** | Funding requirements, investor readiness, projections | Direction | Strategist |
-| **Compliance Validator** | Sales tax, liquor tax, payroll tax, audit readiness | Critique | Validator |
+| **Capital Strategist** | Funding requirements, investor readiness, projections | Direction | Researcher |
+| **Compliance Validator** | Sales tax, liquor tax, payroll tax, audit readiness | Critique | Reviewer:Scrutiny |
 
 ---
 

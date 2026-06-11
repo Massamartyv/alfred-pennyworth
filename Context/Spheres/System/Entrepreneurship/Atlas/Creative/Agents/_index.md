@@ -4,7 +4,7 @@ department: Creative
 venture: "{Venture Name}"
 status: template
 methodology: The Manor Protocol
-last_updated: 2026-04-22
+last_updated: 2026-06-11
 ---
 
 # Creative – Agent Roster and Workflow Registry
@@ -20,9 +20,9 @@ See venture-level `Agents/department-heads.md` for the Head of Creative role def
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
 | **Head of Creative** | Studio head. Holds the standard across all creative output. | All | – |
-| **Brand Strategist** | Brand positioning, identity evolution, category differentiation. Writes the brief. | Direction | Strategist |
+| **Brand Strategist** | Brand positioning, identity evolution, category differentiation. Writes the brief. | Direction | Creator |
 | **Art Director** | Visual direction for all design output across touchpoints. | Execution | Creator |
-| **Content Strategist** | Content calendar, platform strategy, editorial planning. | Direction | Strategist, Maestro |
+| **Content Strategist** | Content calendar, platform strategy, editorial planning. | Direction | Creator, Broadcaster |
 | **Copywriter** | Product copy, web copy, social copy, platform-specific content. | Execution | Creator |
 
 ### Role activation

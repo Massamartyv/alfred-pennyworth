@@ -4,7 +4,7 @@ department: Production
 venture: Lillie and Lynette
 methodology: The Manor Protocol
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-06-11
 ---
 
 # Production – Agent Roster and Workflow Registry
@@ -19,10 +19,10 @@ The Production studio is the execution engine. It turns Creative direction into 
 |---|---|---|---|
 | **Head of Production** | Department head. Owns delivery quality. | All | – |
 | **Service Production Lead** | Shift choreography, floor flow, pacing | Execution | Creator |
-| **Event Producer** | Private events, curated experiences, pop-ups | Execution | Creator, Maestro |
+| **Event Producer** | Private events, curated experiences, pop-ups | Execution | Creator, Mediator |
 | **Experience Fabricator** | Signature moments, installations, tactile elements | Execution | Creator |
 | **Content Producer** | Photography, video, menus, collateral | Execution | Creator |
-| **Quality Assurance** | Pre-service and post-service review, standards enforcement | Critique | Evaluator |
+| **Quality Assurance** | Pre-service and post-service review, standards enforcement | Critique | Reviewer:Scrutiny |
 
 ---
 

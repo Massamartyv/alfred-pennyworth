@@ -3,7 +3,7 @@ file_type: agent_governance
 venture: Paradigm
 status: active
 methodology: The Manor Protocol
-last_updated: 2026-04-22
+last_updated: 2026-06-11
 ---
 
 # The Manor Protocol – Paradigm
@@ -24,13 +24,13 @@ All work moves through five phases. The phases are sequential but not rigid – 
 
 Wide scan. Gather raw material, references, signals, ingredient science, consumer insight, regulatory context. The output is not answers – it is a landscape of possibility.
 
-**Primary crews:** Explorer, Strategist
+**Primary crews:** Researcher
 
 ### 2. Direction
 
 The brand call. A point of view crystallises from the reconnaissance – on formula, positioning, packaging, channel. This is the brief – the decision that everything downstream is measured against.
 
-**Primary crews:** Strategist, Maestro
+**Primary crews:** Researcher, Mediator
 
 **Hard gate: human approval required before proceeding to Execution.**
 
@@ -44,7 +44,7 @@ Build the thing. Develop the formula. Design the label. Draft the launch plan. W
 
 Hold the output against the brief and the standard. Is it excellent? Is it compliant? Does it meet the bar? This is not review for approval – it is review for quality. In a regulated industry, this gate is non-negotiable.
 
-**Primary crews:** Evaluator, Validator
+**Primary crews:** Reviewer
 
 **Hard gate: human approval required before proceeding to Release.**
 
@@ -52,7 +52,7 @@ Hold the output against the brief and the standard. Is it excellent? Is it compl
 
 Ship it. Launch the product. Publish the campaign. Send the order to fulfilment. Clean, complete, compliant.
 
-**Primary crews:** Maestro
+**Primary crews:** Broadcaster
 
 ---
 
@@ -107,16 +107,15 @@ Every studio contains an `Agents/` subfolder with a standard structure:
 
 ## Crew Mapping
 
-The six universal crews classify the type of work, not who does it. Full definitions in `~/Alfred Pennyworth/Agents/crews.md`.
+The five universal crews classify the type of work, not who does it. Full definitions in `~/Alfred Pennyworth/Agents/crews.md`.
 
 | Crew | Role | Lifecycle Affinity |
 |---|---|---|
-| Explorer | Market Sensor | Reconnaissance |
-| Strategist | Researcher | Reconnaissance, Direction |
+| Researcher | Market Sensor, Analyst | Reconnaissance, Direction |
 | Creator | Builder | Execution |
-| Evaluator | Grader | Critique |
-| Validator | Approver | Critique |
-| Maestro | Orchestrator | Direction, Release |
+| Reviewer | Grader, Approver | Critique |
+| Mediator | Orchestrator, Tradeoff Resolver | Direction |
+| Broadcaster | Distributor | Release |
 
 ---
 
@@ -132,7 +131,7 @@ Complex deliverables – a new product formulation, a packaging redesign, a whol
 
 ### Cross-studio work
 
-When work spans multiple studios (Creative sets packaging direction, Production manufactures the product, Administration clears the claims, Growth pitches the distributor), each studio runs its own lifecycle on its portion. The Maestro crew coordinates handoffs.
+When work spans multiple studios (Creative sets packaging direction, Production manufactures the product, Administration clears the claims, Growth pitches the distributor), each studio runs its own lifecycle on its portion. The Mediator and Broadcaster crews coordinate handoffs and distribute state.
 
 ### Regulated-industry discipline
 

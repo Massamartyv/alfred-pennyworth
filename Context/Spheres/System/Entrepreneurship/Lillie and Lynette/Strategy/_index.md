@@ -3,7 +3,7 @@ file_type: department_index
 department: Strategy
 venture: Lillie and Lynette
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-06-11
 ---
 
 # Strategy
@@ -50,7 +50,7 @@ Strategy/
 ## Agent Instructions
 
 - Strategy work is primarily Reconnaissance and Direction phases
-- Explorer and Strategist crews operate here most frequently
+- Researcher crews operate here most frequently
 - Research briefs are Tier 1 (full autonomy). Strategic recommendations are Tier 2.
 - Positioning decisions that affect guest-facing work are Tier 3 (approval required).
 

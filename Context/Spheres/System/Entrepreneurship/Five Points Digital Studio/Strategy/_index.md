@@ -2,7 +2,7 @@
 file_type: department_index
 department: Strategy
 venture: Five Points Digital Studio
-last_updated: 2026-04-07
+last_updated: 2026-06-11
 ---
 
 # Strategy
@@ -37,7 +37,7 @@ Strategy/
 ## Agent Instructions
 
 - Strategy work is primarily Reconnaissance and Direction phases
-- Explorer and Strategist crews operate here most frequently
+- Researcher crew operates here most frequently
 - Research briefs are Tier 1 (full autonomy). Strategic recommendations are Tier 2 (execute then notify).
 - Positioning decisions that affect client-facing work are Tier 3 (approval required).
 

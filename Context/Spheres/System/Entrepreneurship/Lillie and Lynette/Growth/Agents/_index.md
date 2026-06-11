@@ -4,7 +4,7 @@ department: Growth
 venture: Lillie and Lynette
 methodology: The Manor Protocol
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-06-11
 ---
 
 # Growth – Agent Roster and Workflow Registry
@@ -18,11 +18,11 @@ The Growth studio owns reach, pipeline and revenue relationships – venue sourc
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
 | **Head of Growth** | Department head. Owns pipeline and revenue relationships. | All | – |
-| **Venue Sourcing Lead** | Property scouting, landlord relationships, due diligence | Reconnaissance, Execution | Explorer, Strategist |
-| **Partnership Lead** | Brand collaborations, co-branded events | Direction, Execution | Strategist, Maestro |
-| **Sales Lead** | Private event sales, booking conversion, corporate accounts | Execution | Creator, Maestro |
-| **Guest Acquisition Lead** | Paid channels, referral programmes, loyalty, PR | Direction, Execution | Strategist, Creator |
-| **Distribution and Platform Lead** | Reservation platforms, directories, aggregators | Execution | Maestro |
+| **Venue Sourcing Lead** | Property scouting, landlord relationships, due diligence | Reconnaissance, Execution | Researcher |
+| **Partnership Lead** | Brand collaborations, co-branded events | Direction, Execution | Researcher, Mediator |
+| **Sales Lead** | Private event sales, booking conversion, corporate accounts | Execution | Creator, Broadcaster |
+| **Guest Acquisition Lead** | Paid channels, referral programmes, loyalty, PR | Direction, Execution | Researcher, Creator |
+| **Distribution and Platform Lead** | Reservation platforms, directories, aggregators | Execution | Broadcaster |
 
 ---
 

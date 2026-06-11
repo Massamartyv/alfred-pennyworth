@@ -4,7 +4,7 @@ department: Administration
 venture: Lillie and Lynette
 methodology: The Manor Protocol
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-06-11
 ---
 
 # Administration – Agent Roster and Workflow Registry
@@ -18,11 +18,11 @@ The Administration studio is the structural backbone. Legal, licensing, food and
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
 | **Head of Administration** | Department head. Owns regulatory and structural integrity. | All | – |
-| **Legal Coordinator** | Contracts, leases, vendor agreements, IP filings | Execution, Critique | Creator, Validator |
-| **Licensing and Permits Lead** | Food service, liquor, health, entertainment, zoning, signage | Execution | Strategist, Validator |
-| **Compliance Officer** | Health code, ADA, labour law, alcohol regulation, data protection | Critique | Validator |
-| **Insurance and Risk Lead** | General liability, liquor liability, property, workers compensation | Execution | Strategist |
-| **People Lead (HR)** | Team structure, hiring plans, contractor terms, culture | Direction, Execution | Strategist, Creator |
+| **Legal Coordinator** | Contracts, leases, vendor agreements, IP filings | Execution, Critique | Creator, Reviewer:Scrutiny |
+| **Licensing and Permits Lead** | Food service, liquor, health, entertainment, zoning, signage | Execution | Researcher, Reviewer:Scrutiny |
+| **Compliance Officer** | Health code, ADA, labour law, alcohol regulation, data protection | Critique | Reviewer:Scrutiny |
+| **Insurance and Risk Lead** | General liability, liquor liability, property, workers compensation | Execution | Researcher |
+| **People Lead (HR)** | Team structure, hiring plans, contractor terms, culture | Direction, Execution | Researcher, Creator |
 
 ---
 

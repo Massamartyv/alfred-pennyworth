@@ -4,7 +4,7 @@ department: Creative
 workflow_name: Content Creation
 venture: Five Points Digital Studio
 methodology: The Manor Protocol
-last_updated: 2026-04-07
+last_updated: 2026-06-11
 ---
 
 # Content Creation
@@ -16,7 +16,7 @@ Blog posts, social content, newsletters, long-form writing, captions. The most f
 ## Reconnaissance
 
 **Role:** Researcher
-**Crew:** Explorer
+**Crew:** Researcher
 
 - Review content calendar and editorial direction
 - Research the topic: trends, existing coverage, audience interest
@@ -32,7 +32,7 @@ Blog posts, social content, newsletters, long-form writing, captions. The most f
 ## Direction
 
 **Role:** Brand Strategist (or Copywriter for lightweight tasks)
-**Crew:** Strategist
+**Crew:** Creator
 
 - Define the angle: what is the point of view?
 - Set the format: blog, social carousel, newsletter, long-form
@@ -62,7 +62,7 @@ Blog posts, social content, newsletters, long-form writing, captions. The most f
 ## Critique
 
 **Role:** Editor
-**Crew:** Evaluator
+**Crew:** Reviewer:Scrutiny
 
 - Run the grammar audit (invoke grammar-nazi skill)
 - Evaluate against the four criteria:
@@ -79,7 +79,7 @@ Blog posts, social content, newsletters, long-form writing, captions. The most f
 
 ## Release
 
-**Crew:** Maestro
+**Crew:** Broadcaster
 
 - Format for publishing platform
 - Schedule via Buffer (if Five Points or personal brand content)

@@ -4,7 +4,7 @@ department: Knowledge Base
 venture: Lillie and Lynette
 methodology: The Manor Protocol
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-06-11
 ---
 
 # Knowledge Base – Agent Roster and Workflow Registry
@@ -18,9 +18,9 @@ Knowledge Base is a shared resource. It feeds every studio with researched groun
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
 | **Knowledge Steward** | Owns the integrity and retrieval of the knowledge base | All | – |
-| **Researcher** | Gathers industry research, case studies, methodologies | Reconnaissance | Explorer, Strategist |
+| **Researcher** | Gathers industry research, case studies, methodologies | Reconnaissance | Researcher |
 | **Synthesiser** | Turns raw research into reusable briefs and methodologies | Execution | Creator |
-| **Librarian** | Maintains taxonomy, tags, cross-references | Release | Maestro |
+| **Librarian** | Maintains taxonomy, tags, cross-references | Release | Broadcaster |
 
 ---
 

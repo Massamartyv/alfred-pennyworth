@@ -4,7 +4,7 @@ department: Strategy
 venture: Lillie and Lynette
 methodology: The Manor Protocol
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-06-11
 ---
 
 # Strategy – Agent Roster and Workflow Registry
@@ -18,11 +18,11 @@ The Strategy studio supplies the thinking that every other studio works from. Pr
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
 | **Head of Strategy** | Department head. Owns the strategic frame. | All | – |
-| **Industry Researcher** | Hospitality trends, emerging formats, reference brands | Reconnaissance | Explorer, Strategist |
-| **Market and Venue Analyst** | Geographic analysis, neighbourhood dynamics, venue economics | Reconnaissance | Strategist |
-| **Guest Behaviour Analyst** | Segment maps, booking patterns, spend behaviour | Reconnaissance | Strategist |
-| **Competitive Intelligence** | Local competitive set, positioning gaps, category shifts | Reconnaissance | Explorer |
-| **Positioning Lead** | Brand positioning frameworks, differentiation strategy | Direction | Strategist |
+| **Industry Researcher** | Hospitality trends, emerging formats, reference brands | Reconnaissance | Researcher |
+| **Market and Venue Analyst** | Geographic analysis, neighbourhood dynamics, venue economics | Reconnaissance | Researcher |
+| **Guest Behaviour Analyst** | Segment maps, booking patterns, spend behaviour | Reconnaissance | Researcher |
+| **Competitive Intelligence** | Local competitive set, positioning gaps, category shifts | Reconnaissance | Researcher |
+| **Positioning Lead** | Brand positioning frameworks, differentiation strategy | Direction | Researcher |
 
 ---
 

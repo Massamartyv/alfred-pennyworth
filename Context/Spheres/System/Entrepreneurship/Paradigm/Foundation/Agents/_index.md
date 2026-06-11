@@ -4,7 +4,7 @@ department: Foundation
 venture: Paradigm
 status: active
 methodology: The Manor Protocol
-last_updated: 2026-04-22
+last_updated: 2026-06-11
 ---
 
 # Foundation – Agent Roster and Workflow Registry
@@ -17,7 +17,7 @@ Community wellness initiatives, philanthropy and education. A shared resource ra
 
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
-| **Foundation Coordinator** | Scopes community wellness initiatives, aligns giving strategy with brand and budget, coordinates educational outreach. | Direction, Execution | Strategist, Maestro |
+| **Foundation Coordinator** | Scopes community wellness initiatives, aligns giving strategy with brand and budget, coordinates educational outreach. | Direction, Execution | Researcher, Mediator |
 
 ### Role activation
 

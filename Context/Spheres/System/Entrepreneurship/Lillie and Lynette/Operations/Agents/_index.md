@@ -4,7 +4,7 @@ department: Operations
 venture: Lillie and Lynette
 methodology: The Manor Protocol
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-06-11
 ---
 
 # Operations – Agent Roster and Workflow Registry
@@ -18,11 +18,11 @@ The Operations studio is the engine room. Daily service, SOPs, tools, vendor pro
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
 | **Head of Operations** | Department head. Owns daily execution quality. | All | – |
-| **Service Operations Lead** | Daily service management, shift oversight, guest flow | Execution, Release | Maestro, Creator |
-| **Vendor and Procurement Lead** | Supplier relationships, sourcing, purchase orders | Execution | Strategist, Maestro |
+| **Service Operations Lead** | Daily service management, shift oversight, guest flow | Execution, Release | Mediator, Creator |
+| **Vendor and Procurement Lead** | Supplier relationships, sourcing, purchase orders | Execution | Researcher, Mediator |
 | **Systems Administrator** | Reservation, POS, inventory, integrations | Execution | Creator |
-| **Clientele Coordinator** | Guest profile maintenance, VIP recognition, vendor tracking | Execution | Maestro |
-| **Health and Safety Lead** | Food safety, cleaning standards, incident protocols | Critique | Validator |
+| **Clientele Coordinator** | Guest profile maintenance, VIP recognition, vendor tracking | Execution | Mediator |
+| **Health and Safety Lead** | Food safety, cleaning standards, incident protocols | Critique | Reviewer:Scrutiny |
 
 ---
 

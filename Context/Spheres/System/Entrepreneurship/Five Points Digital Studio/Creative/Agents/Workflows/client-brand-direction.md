@@ -4,7 +4,7 @@ department: Creative
 workflow_name: Client Brand Direction
 venture: Five Points Digital Studio
 methodology: The Manor Protocol
-last_updated: 2026-04-07
+last_updated: 2026-06-11
 ---
 
 # Client Brand Direction
@@ -16,7 +16,7 @@ Ongoing creative direction for existing clients – ensuring their output stays 
 ## Reconnaissance
 
 **Role:** Researcher
-**Crew:** Explorer
+**Crew:** Researcher
 
 - Review recent client output across all channels
 - Scan for brand drift: inconsistencies in voice, visual, or messaging
@@ -32,7 +32,7 @@ Ongoing creative direction for existing clients – ensuring their output stays 
 ## Direction
 
 **Role:** Brand Strategist
-**Crew:** Strategist
+**Crew:** Creator
 
 - Assess whether drift flags require a course correction
 - If correction needed: write a brand direction memo with specific guidance
@@ -61,7 +61,7 @@ Ongoing creative direction for existing clients – ensuring their output stays 
 ## Critique
 
 **Role:** Editor
-**Crew:** Evaluator
+**Crew:** Reviewer:Scrutiny
 
 - Review updated assets against the four criteria
 - Specifically check: does the updated direction feel like a natural evolution, not a jarring shift?
@@ -75,7 +75,7 @@ Ongoing creative direction for existing clients – ensuring their output stays 
 
 ## Release
 
-**Crew:** Maestro
+**Crew:** Broadcaster
 
 - Deliver updated brand assets to Operations/Clientele/{Client}/Brand Assets/
 - Notify client of any direction changes (via Operations)

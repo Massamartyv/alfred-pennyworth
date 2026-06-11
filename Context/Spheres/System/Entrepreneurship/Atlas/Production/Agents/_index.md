@@ -4,7 +4,7 @@ department: Production
 venture: "{Venture Name}"
 status: template
 methodology: The Manor Protocol
-last_updated: 2026-04-22
+last_updated: 2026-06-11
 ---
 
 # Production – Agent Roster and Workflow Registry
@@ -21,9 +21,9 @@ See venture-level `Agents/department-heads.md` for the Head of Production role d
 |---|---|---|---|
 | **Head of Production** | Studio head. Owns build quality across all output. | All | – |
 | **Development Lead** | Core product or service development, specification, iteration. | Execution | Creator |
-| **Production Coordinator** | Supplier or manufacturer selection, production runs, quality. | Execution | Maestro |
+| **Production Coordinator** | Supplier or manufacturer selection, production runs, quality. | Execution | Mediator |
 | **Content Producer** | Photography, video, short-form content production. | Execution | Creator |
-| **Quality Assurance** | Pre-release review across products, assets and content. | Critique | Evaluator |
+| **Quality Assurance** | Pre-release review across products, assets and content. | Critique | Reviewer:Scrutiny |
 
 ### Role activation
 

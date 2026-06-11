@@ -3,7 +3,7 @@ file_type: reference
 document_type: department_heads
 venture: Five Points Digital Studio
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-06-11
 ---
 
 # Department Heads – Five Points Digital Studio
@@ -18,7 +18,7 @@ When a task enters the system:
 
 1. Alfred identifies which department head owns the task
 2. Loads the department head primary files for context
-3. Classifies the crew type (Strategist, Creator, Evaluator, Maestro, Validator, Explorer)
+3. Classifies the crew type (Researcher, Creator, Reviewer, Mediator, Broadcaster)
 4. Applies the token budget tier from `token-budget-framework.md`
 5. Applies the execution tier from `agent-guidelines.md`
 6. Executes directly or dispatches a subagent with the role brief
@@ -34,16 +34,16 @@ When a task enters the system:
 | Studio | Creative |
 | Domain | Brand identity, visual direction, content quality, aesthetic standards |
 | Primary files | `creative-director.md`, `personal-brand-identity.md`, `Creative/_index.md`, `Creative/Agents/_index.md` |
-| Typical crews | Creator (design, copy), Evaluator (brand consistency checks), Validator (pre-publish review) |
+| Typical crews | Creator (design, copy), Reviewer:Scrutiny (brand consistency checks, pre-publish review) |
 | Reports to | You (Creative Director) directly through Alfred |
 
 **Specialist roles under Head of Creative:**
 
 | Role | Scope | Typical Crews |
 |---|---|---|
-| Brand Strategist | Brand positioning, identity evolution, competitive differentiation | Strategist, Explorer |
-| Art Director | Visual direction for web, social, print – all design output | Creator, Evaluator |
-| Content Strategist | Content calendar, platform strategy, editorial planning | Strategist, Maestro |
+| Brand Strategist | Brand positioning, identity evolution, competitive differentiation | Researcher |
+| Art Director | Visual direction for web, social, print – all design output | Creator, Reviewer:Scrutiny |
+| Content Strategist | Content calendar, platform strategy, editorial planning | Researcher, Broadcaster |
 | Copywriter | Email copy, web copy, social copy, platform-specific content | Creator |
 
 ---
@@ -55,16 +55,16 @@ When a task enters the system:
 | Studio | Strategy |
 | Domain | Market intelligence, competitive analysis, positioning, discovery, research |
 | Primary files | `Strategy/_index.md`, `Strategy/Agents/_index.md` |
-| Typical crews | Strategist (analysis, positioning), Explorer (market sensing), Maestro (discovery coordination) |
+| Typical crews | Researcher (analysis, positioning, market sensing), Mediator (discovery coordination) |
 | Reports to | Alfred |
 
 **Specialist roles under Head of Strategy:**
 
 | Role | Scope | Typical Crews |
 |---|---|---|
-| Market Researcher | Industry landscape, competitive intelligence, trend detection | Explorer, Strategist |
-| Positioning Lead | Client positioning, differentiation frameworks, narrative architecture | Strategist |
-| Discovery Lead | Client discovery sessions, brief synthesis, strategic recommendations | Strategist, Maestro |
+| Market Researcher | Industry landscape, competitive intelligence, trend detection | Researcher |
+| Positioning Lead | Client positioning, differentiation frameworks, narrative architecture | Researcher |
+| Discovery Lead | Client discovery sessions, brief synthesis, strategic recommendations | Researcher, Mediator |
 
 ---
 
@@ -75,7 +75,7 @@ When a task enters the system:
 | Studio | Production |
 | Domain | Web development, deliverable production, build quality, deployment |
 | Primary files | `Production/_index.md`, `Production/Agents/_index.md`, `Operations/Clientele/_clients-registry.md` |
-| Typical crews | Creator (building), Evaluator (QA), Maestro (multi-step builds) |
+| Typical crews | Creator (building), Reviewer:Scrutiny (QA), Mediator (multi-step builds) |
 | Reports to | Alfred |
 
 **Production scope:**
@@ -94,17 +94,17 @@ When a task enters the system:
 | Studio | Growth |
 | Domain | Revenue generation, offer architecture, sales, BD, partnerships, pipeline |
 | Primary files | `Growth/_index.md`, `Growth/Agents/_index.md`, `Growth/Product Development/_index.md` |
-| Typical crews | Strategist (pipeline analysis), Creator (proposals), Maestro (multi-touch sequences) |
+| Typical crews | Researcher (pipeline analysis), Creator (proposals), Broadcaster (multi-touch sequences) |
 | Reports to | Alfred |
 
 **Specialist roles under Head of Growth:**
 
 | Role | Scope | Typical Crews |
 |---|---|---|
-| Business Development Lead | Outbound sequences, partnership development, pipeline generation | Explorer, Strategist |
-| Sales Lead | Discovery calls, closing, objection handling, negotiation | Strategist, Maestro |
+| Business Development Lead | Outbound sequences, partnership development, pipeline generation | Researcher |
+| Sales Lead | Discovery calls, closing, objection handling, negotiation | Researcher, Mediator |
 | Proposal Architect | Proposal drafting from offer templates, value stack construction | Creator |
-| Offer Steward | Offer catalogue maintenance, pricing integrity, tier evolution | Strategist, Validator |
+| Offer Steward | Offer catalogue maintenance, pricing integrity, tier evolution | Researcher, Reviewer:Scrutiny |
 
 ---
 
@@ -115,7 +115,7 @@ When a task enters the system:
 | Studio | Operations |
 | Domain | Day-to-day delivery, client management, SOPs, systems, tools |
 | Primary files | `Operations/_index.md`, `Operations/Agents/_index.md`, `Operations/Clientele/_clients-registry.md`, `Operations/SOPs/_sop-registry.md` |
-| Typical crews | Maestro (workflow coordination), Validator (SOP compliance), Creator (documentation) |
+| Typical crews | Broadcaster (workflow coordination), Reviewer:Scrutiny (SOP compliance), Creator (documentation) |
 | Reports to | Alfred |
 
 **Operations scope:**
@@ -134,7 +134,7 @@ When a task enters the system:
 | Studio | Finance |
 | Domain | Revenue tracking, expenses, projections, invoicing, financial compliance |
 | Primary files | `Finance/_index.md`, `Finance/Agents/_index.md` |
-| Typical crews | Strategist (financial analysis), Validator (compliance), Creator (reports) |
+| Typical crews | Researcher (financial analysis), Reviewer:Scrutiny (compliance), Creator (reports) |
 | Reports to | Alfred |
 
 **Finance scope:**
@@ -153,16 +153,16 @@ When a task enters the system:
 | Studio | Administration |
 | Domain | Legal, compliance, policies, HR, team structure, governance |
 | Primary files | `Administration/_index.md`, `Administration/Agents/_index.md` |
-| Typical crews | Validator (compliance checks), Creator (policy drafting), Strategist (organisational planning) |
+| Typical crews | Reviewer:Scrutiny (compliance checks), Creator (policy drafting), Researcher (organisational planning) |
 | Reports to | Alfred |
 
 **Specialist roles under Head of Administration:**
 
 | Role | Scope | Typical Crews |
 |---|---|---|
-| Legal Coordinator | Contract templates, service agreements, NDAs, SOWs | Creator, Validator |
-| Compliance Officer | Business registration, insurance, data protection, regulatory | Validator |
-| People Lead | Team structure, contractor onboarding, culture, partner hiring criteria | Strategist, Creator |
+| Legal Coordinator | Contract templates, service agreements, NDAs, SOWs | Creator, Reviewer:Scrutiny |
+| Compliance Officer | Business registration, insurance, data protection, regulatory | Reviewer:Scrutiny |
+| People Lead | Team structure, contractor onboarding, culture, partner hiring criteria | Researcher, Creator |
 
 ---
 
@@ -194,4 +194,4 @@ All department heads are currently role definitions only. When ready to automate
 
 ---
 
-*Five Points Digital Studio – Department Heads v2.0 – 2026-04-22*
+*Five Points Digital Studio – Department Heads v2.1 – 2026-06-11 – crew taxonomy migrated to five-crew model*

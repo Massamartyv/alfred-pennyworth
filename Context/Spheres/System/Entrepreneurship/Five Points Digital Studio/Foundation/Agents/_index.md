@@ -3,7 +3,7 @@ file_type: department_agent_index
 department: Foundation
 venture: Five Points Digital Studio
 methodology: The Manor Protocol
-last_updated: 2026-04-22
+last_updated: 2026-06-11
 ---
 
 # Foundation – Agent Roster and Workflow Registry
@@ -16,7 +16,7 @@ The Foundation is where community, philanthropy and pro bono work lives. A share
 
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
-| **Community Steward** | Identifies pro bono opportunities aligned with values, manages philanthropic commitments, coordinates community outreach. | Reconnaissance, Direction | Explorer, Maestro |
+| **Community Steward** | Identifies pro bono opportunities aligned with values, manages philanthropic commitments, coordinates community outreach. | Reconnaissance, Direction | Researcher, Broadcaster |
 
 ### Role activation
 

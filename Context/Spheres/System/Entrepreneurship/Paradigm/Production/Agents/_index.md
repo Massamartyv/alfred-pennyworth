@@ -4,7 +4,7 @@ department: Production
 venture: Paradigm
 status: active
 methodology: The Manor Protocol
-last_updated: 2026-04-22
+last_updated: 2026-06-11
 ---
 
 # Production – Agent Roster and Workflow Registry
@@ -21,10 +21,10 @@ See venture-level `Agents/department-heads.md` for the Head of Production role d
 |---|---|---|---|
 | **Head of Production** | Studio head. Owns build quality across all output. | All | – |
 | **Formulation Lead** | Ingredient selection, formula iteration, stability and efficacy. | Execution | Creator |
-| **Manufacturing Coordinator** | CMO selection, production runs, batch quality. | Execution | Maestro |
-| **Packaging Production Lead** | Packaging sourcing, print production, material specification, compliance prep. | Execution | Creator, Maestro |
+| **Manufacturing Coordinator** | CMO selection, production runs, batch quality. | Execution | Mediator |
+| **Packaging Production Lead** | Packaging sourcing, print production, material specification, compliance prep. | Execution | Creator, Mediator |
 | **Content Producer** | Photography, video, short-form content production. | Execution | Creator |
-| **Quality Assurance** | Pre-release review across formulations, labels, packaging, content. | Critique | Evaluator |
+| **Quality Assurance** | Pre-release review across formulations, labels, packaging, content. | Critique | Reviewer:Scrutiny |
 
 ### Role activation
 

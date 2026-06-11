@@ -18,6 +18,18 @@ Scan every context file in the Alfred operating system ecosystem for information
 
 ---
 
+## Capabilities
+
+| Capability | Detail |
+|---|---|
+| Tools granted | Read, Glob, Grep |
+| MCP servers touched | None – local filesystem only |
+| Skills it may invoke | None |
+| Model | haiku |
+| Scope red-lines | Personal context files only. Never reads venture client data (client files under `Operations/Clientele/`). Never sends messages or publishes anything. Never writes to files unless a specific fix is approved by the operator during the session. |
+
+---
+
 ## Scope
 
 ### Primary scan targets
@@ -120,7 +132,8 @@ All intermediate output goes to `.working/context-audit/`. This includes raw sca
 4. For approved fixes, make the changes directly
 5. Update the "Last updated" date on every file that was modified
 6. If the audit reveals a pattern, flag it as a systemic issue and suggest a structural fix
+7. Write the handoff to `.working/context-audit/handoff.md` per `Agents/templates/handoff-schema.md` as the final action before exit -- required regardless of outcome
 
 ---
 
-*Last updated: April 2026*
+*Last updated: 2026-06-11 – capabilities block and handoff retrofit*

@@ -3,7 +3,7 @@ file_type: reference
 document_type: department_heads
 venture: Paradigm
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-06-11
 ---
 
 # Department Heads – Paradigm
@@ -18,7 +18,7 @@ When a task enters the system:
 
 1. Alfred identifies which department head owns the task
 2. Loads the department head primary files for context
-3. Classifies the crew type (Strategist, Creator, Evaluator, Maestro, Validator, Explorer)
+3. Classifies the crew type (Researcher, Creator, Reviewer, Mediator, Broadcaster)
 4. Applies the execution tier from `agent-guidelines.md`
 5. Executes directly or dispatches a subagent with the role brief
 
@@ -182,4 +182,4 @@ All department heads are currently role definitions only. When ready to automate
 
 ---
 
-*Paradigm – Department Heads v1.0 – 2026-04-22*
+*Paradigm – Department Heads v1.1 – 2026-06-11 – crew taxonomy migrated to five-crew model*

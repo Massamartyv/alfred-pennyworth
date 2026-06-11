@@ -3,7 +3,7 @@ file_type: department_agent_index
 department: Strategy
 venture: Five Points Digital Studio
 methodology: The Manor Protocol
-last_updated: 2026-04-22
+last_updated: 2026-06-11
 ---
 
 # Strategy – Agent Roster and Workflow Registry
@@ -19,9 +19,9 @@ See venture-level `Agents/department-heads.md` for the Head of Strategy role def
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
 | **Head of Strategy** | Studio head. Owns the strategic point of view. | All | – |
-| **Market Researcher** | Industry landscape, competitive intelligence, trend detection. | Reconnaissance | Explorer, Strategist |
-| **Positioning Lead** | Client positioning, differentiation frameworks, narrative architecture. | Direction | Strategist |
-| **Discovery Lead** | Discovery sessions, brief synthesis, strategic recommendations. | Direction | Strategist, Maestro |
+| **Market Researcher** | Industry landscape, competitive intelligence, trend detection. | Reconnaissance | Researcher |
+| **Positioning Lead** | Client positioning, differentiation frameworks, narrative architecture. | Direction | Researcher |
+| **Discovery Lead** | Discovery sessions, brief synthesis, strategic recommendations. | Direction | Researcher, Mediator |
 
 ### Role activation
 

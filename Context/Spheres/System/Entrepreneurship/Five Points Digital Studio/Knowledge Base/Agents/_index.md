@@ -3,7 +3,7 @@ file_type: department_agent_index
 department: Knowledge Base
 venture: Five Points Digital Studio
 methodology: The Manor Protocol
-last_updated: 2026-04-22
+last_updated: 2026-06-11
 ---
 
 # Knowledge Base – Agent Roster and Workflow Registry
@@ -16,7 +16,7 @@ The Knowledge Base is the institutional memory of Five Points. Case studies, met
 
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
-| **Knowledge Curator** | Captures case studies from delivered work, indexes research, maintains methodology library. | Release | Strategist, Creator |
+| **Knowledge Curator** | Captures case studies from delivered work, indexes research, maintains methodology library. | Release | Researcher, Creator |
 
 ### Role activation
 

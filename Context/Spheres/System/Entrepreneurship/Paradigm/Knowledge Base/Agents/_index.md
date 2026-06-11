@@ -4,7 +4,7 @@ department: Knowledge Base
 venture: Paradigm
 status: active
 methodology: The Manor Protocol
-last_updated: 2026-04-22
+last_updated: 2026-06-11
 ---
 
 # Knowledge Base – Agent Roster and Workflow Registry
@@ -17,7 +17,7 @@ Institutional memory for Paradigm. Ingredient science, case studies of wellness 
 
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
-| **Knowledge Curator** | Captures research, indexes ingredient science, maintains case study library and methodology documentation. | Release | Strategist, Creator |
+| **Knowledge Curator** | Captures research, indexes ingredient science, maintains case study library and methodology documentation. | Release | Researcher, Creator |
 
 ### Role activation
 
