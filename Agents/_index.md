@@ -163,7 +163,7 @@ Not every task needs an agent. The same disease that plagued microservices -- de
 
 - Every autonomous run gets a verifiable exit condition. Use the `/goal` command for long-running sessions so completion is evaluated against a condition rather than a feeling of doneness, or gate the exit on a deterministic Stop-hook check.
 - Reviewers run in fresh context with no memory of the Creator. That is the point – sunk-cost bias dies at the boundary.
-- Manor Protocol phases have workflow encodings at `.claude/workflows/`: `manor-recon` (parallel territory survey, then one synthesis brief) and `manor-critique` (adversarial verifier per contract assertion, then a gate verdict). Use them for any mission with two or more territories or a validation contract.
+- Manor Protocol phases have workflow encodings at `.claude/workflows/`: `manor-recon` (survey territories, inventory the source set, then synthesise one brief) and `manor-critique` (adversarial verifier per contract assertion, then a gate verdict). Use them for any mission with two or more territories or a validation contract.
 - Cost is attributed, not estimated: `/usage` itemises token spend per skill, subagent and MCP server. Review it when a mission's spend matters.
 
 ---
@@ -315,4 +315,4 @@ Agents/
 
 ---
 
-*Last updated: 2026-05-31 – native crew subagents added at `.claude/agents/` (researcher, creator, reviewer-scrutiny, reviewer-behavioural); in-session dispatch layer separated from headless scheduled agents.*
+*Last updated: 2026-06-19 – manor-recon gains an Inventory phase ahead of synthesis, producing the source-inventory pack per `templates/source-inventory.md`.*

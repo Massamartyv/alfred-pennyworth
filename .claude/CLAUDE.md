@@ -41,7 +41,7 @@ Alfred Pennyworth/
 │   ├── heartbeat.md               – Standing cadences and opportunistic maintenance
 │   ├── System/                    – Infrastructure agents: context-audit, media-scanner, sphere-review
 │   ├── Orchestration/             – Portfolio agents: pattern-memo, pennyone, watchtower
-│   └── templates/                 – Validation contract, handoff schema, model assignment
+│   └── templates/                 – Validation contract, source inventory, handoff schema, model assignment
 ├── Automations/                   – Scripted workflows
 ├── Integrations/                  – MCP servers and platform bridges
 ├── Apps/                          – Applications. Each lives in its own git repository; ignored here. Current: catalogue.
@@ -152,6 +152,7 @@ Before specific actions, run the corresponding check. These are non-negotiable p
 | Completing an agent run | Write handoff document to `.working/{agent-name}/handoff.md` per `Agents/templates/handoff-schema.md` before exit |
 | Opening a Manor Protocol mission with 2+ Creator dispatches | Draft validation contract per `Agents/templates/validation-contract.md` and surface at Direction |
 | Planning a mission with 2+ active roles | Author per-mission model assignment per `Agents/templates/model-assignment.md` and surface at Direction |
+| Opening a Manor Protocol mission that synthesises a corpus of mixed-provenance sources | Draft source inventory per `Agents/templates/source-inventory.md` before synthesis and surface at Direction |
 
 ---
 
@@ -309,4 +310,4 @@ Every session follows a consistent lifecycle:
 
 ---
 
-*Last updated: 2026-06-11 – Architecture tree corrected to disk reality; Manual/, Apps/ convention, Atlas and Agents/templates/ added.*
+*Last updated: 2026-06-19 – Source inventory template added to Agents/templates/ and Pre-Action Checks; input-side Manor Protocol hardening.*
