@@ -24,7 +24,8 @@ Operations/
 │   └── {SOPs as created}
 ├── Delivery Playbooks/            – Step-by-step by service type
 ├── Templates/
-│   └── New Client/                – Copy for each new client
+│   ├── New Client/                – Copy for each new client
+│   └── Standardized Document Library/  – Master intake forms, MSA, SOW, onboarding packet, feedback form and the operational standards reference
 ├── Tools/
 │   ├── software-stack.md           – To be created
 │   └── automation-workflows.md     – To be created
@@ -44,6 +45,7 @@ Operations/
 - **Client work:** Check _clients-registry.md first to understand the engagement.
 - **Status change:** Move entire folder between Active/Archived/Churned. Update the registry.
 - **Delivery:** Load the relevant SOP and delivery playbook before executing.
+- **Standards and forms:** Master client-facing documents – intake forms, MSA, SOW, onboarding packet and feedback form – plus the operational standards reference live in `Templates/Standardized Document Library/`. Update `00-operational-standards-reference.md` first when any standard changes, then propagate across the library.
 
 ### Token Budget Defaults (per `Agents/token-budget-framework.md`)
 
