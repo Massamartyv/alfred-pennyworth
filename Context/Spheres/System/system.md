@@ -6,6 +6,8 @@ Artificial Intelligence, Entrepreneurship, Personal Finance, Real Estate
 
 **Graduated files:**
 - `Context/Spheres/System/Artificial Intelligence/agent-infrastructure-stack.md` – The six-layer agent infrastructure stack framework and how Alfred operating system maps to it
+- `Context/Spheres/System/Personal Finance/wealth-trajectory.md` – Personal net-worth North Star ($250,000,000.23) and the live percentile progress instrument, benchmarked against demographic and overall-US data
+- `Context/Spheres/System/Personal Finance/benchmark-ledger.md` – Provenance and annual refresh runbook for the wealth-trajectory benchmarks, computed from SCF and CPS microdata
 
 *This cluster also governs cross-cutting operational infrastructure: GTD methodology, operating rhythm, Sphere Manager mechanics, reconnection protocols, and content pipeline.*
 
@@ -41,7 +43,7 @@ Reporting cadence: Weekly
 Off-pattern threshold: Flag any week where no financial data is logged
 Data source: Finances database (Notion personal workspace)
 
-*Note: Finances database and specific budget targets to be built and populated separately.*
+*Note: Finances database and specific budget targets to be built and populated separately. Personal net-worth and income targets live in the Wealth Trajectory instrument at `Personal Finance/wealth-trajectory.md`, benchmarked against demographic and overall-US percentile data – see `benchmark-ledger.md`.*
 
 ### Operating Rhythm
 
@@ -118,4 +120,4 @@ Skills live at `~/.claude/skills/` and are referenced logically by sphere.
 
 ---
 
-*Last updated: 2026-04-23*
+*Last updated: 2026-06-13*

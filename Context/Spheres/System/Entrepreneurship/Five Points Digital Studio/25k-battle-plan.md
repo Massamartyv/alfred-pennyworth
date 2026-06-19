@@ -219,6 +219,8 @@ By August, first builds are completing and Evolution retainers are starting. Q3 
 - **Monthly savings/investment: $7,532**
 - **Annual wealth building: $90,384**
 
+> Personal scope: these figures feed the net-worth North Star. Their canonical home is the Wealth Trajectory instrument at `Context/Spheres/System/Personal Finance/wealth-trajectory.md` → Contribution engine.
+
 ---
 
 ## The Scoreboard
