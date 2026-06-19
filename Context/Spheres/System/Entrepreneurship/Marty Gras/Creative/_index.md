@@ -16,6 +16,7 @@ Creative/
   _index.md              -- This file
   Content Products/      -- Definitions and formats for each product (Epiphany, podcast, social)
   Editorial/             -- Pillars, themes, seasonal calendars, series concepts
+  Products/              -- Physical product and merchandise design briefs, e.g. the Marty Bag
   Agents/                -- Studio-specific agents, workflows, criteria
     _index.md            -- Specialist roster and workflow registry
     Workflows/           -- Named Manor Protocol sequences
