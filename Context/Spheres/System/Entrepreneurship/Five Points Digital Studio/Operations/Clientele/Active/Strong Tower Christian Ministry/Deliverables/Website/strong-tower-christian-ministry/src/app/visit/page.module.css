@@ -1,0 +1,282 @@
+/* ───────── Section anchors ─────────
+   .expect, .before and .location sit on the base --bg-field tone on purpose,
+   alternating against the accent-toned bands (.services, plus the fortress
+   .ctaBand) to give the page its rhythm. */
+.expect,
+.before,
+.location {
+  background: var(--bg-field);
+}
+
+/* ───────── Shared section bits ───────── */
+.sectionHead {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.sectionTitle {
+  font-size: clamp(1.9rem, 4vw, 2.8rem);
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.lead {
+  max-width: 60ch;
+  margin: 1.5rem auto 0;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+}
+
+.bodyLg {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+  margin-bottom: 1.75rem;
+  max-width: 52ch;
+}
+
+/* ───────── What to expect ───────── */
+.expectGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.expectCard {
+  background: var(--bg-field);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-card);
+  padding: 2.25rem 1.75rem;
+  transition: transform 0.3s var(--ease-out-expo), box-shadow 0.3s;
+}
+
+.expectCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(28, 42, 63, 0.1);
+}
+
+.expectIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: var(--radius-card);
+  background: var(--bg-accent);
+  color: var(--accent-gold-deep);
+  margin-bottom: 1.25rem;
+}
+
+.expectTitle {
+  font-size: 1.25rem;
+  margin-bottom: 0.6rem;
+}
+
+.expectBody {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--text-muted);
+}
+
+/* ───────── Service times ───────── */
+.services {
+  background: var(--bg-accent);
+}
+
+.serviceGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.serviceCard {
+  background: var(--bg-field);
+  border: 1px solid var(--border-subtle);
+  border-top: 3px solid var(--accent-gold);
+  border-radius: var(--radius-card);
+  padding: 2.25rem 2rem;
+  text-align: center;
+  transition: transform 0.3s var(--ease-out-expo), box-shadow 0.3s;
+}
+
+.serviceCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(28, 42, 63, 0.1);
+}
+
+.serviceDay {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.78rem;
+  color: var(--brand-blue-deep);
+  margin-bottom: 0.75rem;
+}
+
+.serviceName {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.serviceTime {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-family: var(--font-heading), serif;
+  font-size: 1.6rem;
+  color: var(--accent-gold-deep);
+  margin-bottom: 0.5rem;
+}
+
+.serviceTime svg {
+  color: var(--accent-gold-deep);
+}
+
+.serviceMode {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+/* ───────── Before you come ───────── */
+.answerGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.answerCard {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  background: var(--bg-accent);
+  border-radius: var(--radius-card);
+  padding: 1.75rem;
+  transition: transform 0.25s var(--ease-out-expo), background-color 0.25s;
+}
+
+.answerCard:hover {
+  transform: translateY(-3px);
+  background: var(--brand-blue-light);
+}
+
+.answerIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-card);
+  background: var(--bg-field);
+  color: var(--accent-gold-deep);
+}
+
+.answerTitle {
+  font-size: 1.15rem;
+  margin-bottom: 0.4rem;
+}
+
+.answerBody {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+/* ───────── Location ───────── */
+.locationInner {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 3.5rem;
+  align-items: center;
+}
+
+/* min-width: 0 lets the text column shrink inside the grid track instead of
+   forcing overflow on the long street address. */
+.locationText {
+  min-width: 0;
+}
+
+.locationAddr {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-style: normal;
+  font-size: 1.1rem;
+  margin-bottom: 1.25rem;
+}
+
+.locationAddr svg {
+  color: var(--accent-gold-deep);
+}
+
+.mapWrap {
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  border: 1px solid var(--border-subtle);
+  box-shadow: 0 12px 40px rgba(28, 42, 63, 0.12);
+}
+
+.map {
+  display: block;
+  width: 100%;
+  height: 420px;
+  border: 0;
+  filter: grayscale(0.2);
+}
+
+/* ───────── Closing CTA band ───────── */
+.ctaBand {
+  background: var(--bg-fortress);
+  color: var(--text-inverse);
+  padding-block: 6rem;
+}
+
+.ctaInner {
+  text-align: center;
+  max-width: 620px;
+}
+
+.ctaTitle {
+  font-size: clamp(1.8rem, 3.8vw, 2.6rem);
+  font-weight: 600;
+  color: var(--text-inverse);
+  margin-bottom: 1rem;
+}
+
+.ctaBody {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: rgba(247, 245, 240, 0.75);
+  margin-bottom: 2rem;
+}
+
+/* ───────── Responsive ───────── */
+@media (max-width: 900px) {
+  .expectGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .serviceGrid,
+  .answerGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .locationInner {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .bodyLg {
+    max-width: none;
+  }
+
+  .map {
+    height: 320px;
+  }
+}
+
+@media (max-width: 560px) {
+  .expectGrid {
+    grid-template-columns: 1fr;
+  }
+}

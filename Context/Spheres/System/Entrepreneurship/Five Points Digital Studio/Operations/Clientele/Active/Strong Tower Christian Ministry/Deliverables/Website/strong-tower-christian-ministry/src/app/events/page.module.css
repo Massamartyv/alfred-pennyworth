@@ -1,0 +1,206 @@
+/* ───────── Shared section bits ───────── */
+.sectionHead {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.sectionTitle {
+  font-size: clamp(1.9rem, 4vw, 2.8rem);
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.sectionLede {
+  max-width: 54ch;
+  margin: 1rem auto 0;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+}
+
+/* ───────── Weekly gatherings ───────── */
+.weekly {
+  background: var(--bg-field);
+}
+
+.weeklyGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.weeklyCard {
+  background: var(--bg-field);
+  border: 1px solid var(--border-subtle);
+  border-top: 3px solid var(--accent-gold);
+  border-radius: var(--radius-card);
+  padding: 2.25rem 2rem;
+  text-align: center;
+  transition: transform 0.3s var(--ease-out-expo), box-shadow 0.3s;
+}
+
+.weeklyCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(28, 42, 63, 0.1);
+}
+
+.weeklyDay {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.78rem;
+  color: var(--brand-blue-deep);
+  margin-bottom: 0.75rem;
+}
+
+.weeklyName {
+  font-size: 1.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.weeklyTime {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-heading), serif;
+  font-size: 1.5rem;
+  color: var(--accent-gold-deep);
+  margin-bottom: 0.5rem;
+}
+
+.weeklyTime svg {
+  color: var(--accent-gold-deep);
+}
+
+.weeklyMode {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+/* ───────── Upcoming events ───────── */
+.upcoming {
+  background: var(--bg-accent);
+}
+
+.emptyState {
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+  background: var(--bg-field);
+  border: 1px dashed var(--border-medium);
+  border-radius: var(--radius-card);
+  padding: 4rem 2.5rem;
+}
+
+.emptyIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  margin-bottom: 1.75rem;
+  border-radius: var(--radius-chip);
+  background: var(--bg-accent);
+  color: var(--accent-gold-deep);
+}
+
+.emptyTitle {
+  font-size: clamp(1.4rem, 3vw, 1.9rem);
+  margin-bottom: 1rem;
+}
+
+.emptyCopy {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+  max-width: 46ch;
+  margin: 0 auto 2rem;
+}
+
+/* ───────── Stay notified band ───────── */
+.notifyBand {
+  background: var(--bg-fortress);
+  color: var(--text-inverse);
+  padding-block: var(--spacing-section);
+}
+
+.notifyInner {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.notifyText {
+  min-width: 0;
+}
+
+.notifyTitle {
+  font-size: clamp(1.7rem, 3.5vw, 2.4rem);
+  color: var(--text-inverse);
+  margin: 0.5rem 0 1rem;
+  max-width: 18ch;
+}
+
+.notifyCopy {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: rgba(247, 245, 240, 0.72);
+  max-width: 52ch;
+  margin-bottom: 2rem;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.socialLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  min-height: 44px;
+  padding: 0.6rem 1.25rem;
+  border: 1px solid rgba(247, 245, 240, 0.4);
+  border-radius: var(--radius-card);
+  color: var(--text-inverse);
+  font-size: 0.95rem;
+  transition: background-color 0.25s var(--ease-out-expo),
+    border-color 0.25s;
+}
+
+.socialLink:hover {
+  background: rgba(247, 245, 240, 0.08);
+  border-color: var(--text-inverse);
+}
+
+.socialLink svg {
+  color: var(--accent-gold-light);
+}
+
+.notifyForm {
+  background: rgba(247, 245, 240, 0.04);
+  border: 1px solid rgba(247, 245, 240, 0.12);
+  border-radius: var(--radius-card);
+  padding: 2.5rem;
+}
+
+/* ───────── Responsive ───────── */
+@media (max-width: 900px) {
+  .weeklyGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .notifyInner {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .notifyCopy {
+    max-width: none;
+  }
+
+  .emptyState {
+    padding: 3rem 1.5rem;
+  }
+}

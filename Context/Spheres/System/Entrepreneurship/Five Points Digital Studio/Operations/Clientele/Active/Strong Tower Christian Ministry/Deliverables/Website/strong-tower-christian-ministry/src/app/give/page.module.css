@@ -1,0 +1,198 @@
+/* ───────── Scripture ───────── */
+.scriptureBand {
+  background: var(--bg-accent);
+  padding: 4.5rem 0;
+  text-align: center;
+}
+
+.scriptureText {
+  font-size: clamp(1.4rem, 3.2vw, 2.1rem);
+  line-height: 1.45;
+  max-width: 900px;
+  margin: 0 auto 1rem;
+}
+
+.scriptureRef {
+  font-family: var(--font-body), sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* ───────── Shared section bits ───────── */
+.sectionHead {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.sectionTitle {
+  font-size: clamp(1.9rem, 4vw, 2.8rem);
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.sectionLede {
+  max-width: 54ch;
+  margin: 1rem auto 0;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+}
+
+/* ───────── Ways to give ───────── */
+.ways {
+  background: var(--bg-field);
+}
+
+.waysGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.wayCard {
+  background: var(--bg-field);
+  border: 1px solid var(--border-subtle);
+  border-top: 3px solid var(--accent-gold);
+  border-radius: var(--radius-card);
+  padding: 2.5rem 2rem;
+  height: 100%;
+  transition: transform 0.3s var(--ease-out-expo), box-shadow 0.3s;
+}
+
+.wayCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(28, 42, 63, 0.1);
+}
+
+.wayIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  margin-bottom: 1.5rem;
+  border-radius: var(--radius-card);
+  background: var(--bg-accent);
+  color: var(--accent-gold-deep);
+}
+
+.wayTitle {
+  font-size: 1.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.wayDesc {
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+}
+
+.serviceList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.serviceItem {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.98rem;
+  color: var(--text-main);
+}
+
+.serviceItem svg {
+  color: var(--accent-gold-deep);
+  flex-shrink: 0;
+}
+
+.serviceItem strong {
+  font-weight: 600;
+}
+
+.mailAddr {
+  font-style: normal;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--text-main);
+}
+
+/* ───────── A word on giving ───────── */
+.word {
+  background: var(--bg-accent);
+}
+
+.wordInner {
+  max-width: 760px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wordIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  margin-bottom: 1.75rem;
+  border-radius: var(--radius-chip);
+  background: var(--bg-field);
+  color: var(--accent-gold-deep);
+}
+
+.wordTitle {
+  font-size: clamp(1.6rem, 3.5vw, 2.3rem);
+  margin-bottom: 1.25rem;
+  max-width: 20ch;
+}
+
+.wordCopy {
+  font-size: 1.1rem;
+  line-height: 1.75;
+  color: var(--text-muted);
+}
+
+/* ───────── Closing CTA ───────── */
+.ctaBand {
+  background: var(--bg-fortress);
+  color: var(--text-inverse);
+  padding-block: var(--spacing-section);
+  text-align: center;
+}
+
+.ctaInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ctaTitle {
+  font-size: clamp(1.9rem, 4vw, 2.8rem);
+  color: var(--text-inverse);
+  margin-bottom: 1rem;
+}
+
+.ctaCopy {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: rgba(247, 245, 240, 0.72);
+  max-width: 48ch;
+  margin: 0 auto 2rem;
+}
+
+/* ───────── Responsive ───────── */
+@media (max-width: 900px) {
+  .waysGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .ctaCopy {
+    max-width: none;
+  }
+}

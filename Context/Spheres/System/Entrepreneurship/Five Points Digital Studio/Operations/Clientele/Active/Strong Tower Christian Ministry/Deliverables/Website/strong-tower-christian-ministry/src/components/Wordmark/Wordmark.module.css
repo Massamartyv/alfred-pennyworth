@@ -1,0 +1,73 @@
+.link {
+  display: inline-flex;
+  text-decoration: none;
+}
+
+.lockup {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.glyph {
+  height: 1.85em;
+  width: auto;
+  flex-shrink: 0;
+  overflow: visible;
+}
+
+.words {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.name {
+  font-family: var(--font-heading), Georgia, serif;
+  font-weight: 700;
+  letter-spacing: -0.006em;
+}
+
+.sub {
+  font-family: var(--font-body), sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* ───────── Sizes ───────── */
+.sm .name {
+  font-size: 1.42rem;
+}
+
+.sm .sub {
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  margin-top: 0.3rem;
+}
+
+.lg .name {
+  font-size: clamp(1.7rem, 3vw, 2.1rem);
+}
+
+.lg .sub {
+  font-size: 0.74rem;
+  letter-spacing: 0.24em;
+  margin-top: 0.45rem;
+}
+
+/* ───────── Tones ───────── */
+.light .name {
+  color: var(--text-inverse);
+}
+
+.light .sub {
+  color: var(--accent-gold-light);
+}
+
+.dark .name {
+  color: var(--text-main);
+}
+
+.dark .sub {
+  color: var(--accent-gold-deep);
+}

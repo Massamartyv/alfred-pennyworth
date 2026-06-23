@@ -1,0 +1,114 @@
+.head {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.h2 {
+  font-size: clamp(1.9rem, 4vw, 2.8rem);
+  margin-top: 0.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem 3rem;
+}
+
+.belief {
+  display: flex;
+  gap: 1.25rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.num {
+  font-family: var(--font-heading), serif;
+  font-size: 1.5rem;
+  color: var(--accent-gold);
+  line-height: 1;
+  flex-shrink: 0;
+  width: 2.5rem;
+}
+
+.beliefTitle {
+  font-size: 1.3rem;
+  margin-bottom: 0.4rem;
+}
+
+.beliefText {
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+
+.beliefRef {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--brand-blue-deep);
+}
+
+/* Sonship */
+.sonship {
+  background: var(--bg-fortress);
+  color: var(--text-inverse);
+  padding: 7rem 0;
+}
+
+.sonshipInner {
+  max-width: 760px;
+  text-align: center;
+}
+
+.sonshipTitle {
+  font-size: clamp(2.4rem, 6vw, 3.6rem);
+  font-style: italic;
+  color: var(--accent-gold-light);
+  margin: 0.5rem 0 2rem;
+}
+
+.sonshipText {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: rgba(247, 245, 240, 0.85);
+  margin-bottom: 1.5rem;
+}
+
+.sonshipRef {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: rgba(247, 245, 240, 0.5);
+}
+
+/* CTA */
+.cta {
+  text-align: center;
+  background: var(--bg-accent);
+}
+
+.ctaInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ctaTitle {
+  font-size: clamp(1.7rem, 3.5vw, 2.4rem);
+  margin-bottom: 2rem;
+}
+
+.ctaActions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}

@@ -1,0 +1,143 @@
+.footer {
+  background-color: var(--bg-fortress);
+  color: var(--text-inverse);
+  padding-top: 5rem;
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr 1.4fr;
+  gap: 3rem;
+  padding-bottom: 4rem;
+}
+
+.wordmark {
+  margin-bottom: 1.5rem;
+}
+
+.tagline {
+  font-family: var(--font-heading), serif;
+  font-style: italic;
+  font-size: 1.15rem;
+  line-height: 1.4;
+  color: var(--accent-gold-light);
+  max-width: 22ch;
+  margin-bottom: 1.5rem;
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+}
+
+.socials a {
+  display: inline-flex;
+  width: 42px;
+  height: 42px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(247, 245, 240, 0.18);
+  border-radius: 50%;
+  color: var(--text-inverse);
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.socials a:hover {
+  background: var(--accent-gold);
+  border-color: var(--accent-gold);
+  color: #1a1a1a;
+}
+
+.colTitle {
+  font-family: var(--font-body), sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent-gold);
+  margin-bottom: 1.25rem;
+}
+
+.linksCol ul,
+.servicesCol ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.linksCol a {
+  color: rgba(247, 245, 240, 0.82);
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+
+.linksCol a:hover {
+  color: var(--accent-gold-light);
+}
+
+.servicesCol li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.svcName {
+  font-size: 0.95rem;
+  color: var(--text-inverse);
+}
+
+.svcTime {
+  font-size: 0.85rem;
+  color: rgba(247, 245, 240, 0.55);
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  font-style: normal;
+  margin-bottom: 1.75rem;
+}
+
+.address a {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  color: rgba(247, 245, 240, 0.82);
+  font-size: 0.92rem;
+  line-height: 1.4;
+  transition: color 0.2s;
+}
+
+.address a:hover {
+  color: var(--accent-gold-light);
+}
+
+.address svg {
+  flex-shrink: 0;
+  margin-top: 2px;
+  color: var(--accent-gold);
+}
+
+.bottom {
+  border-top: 1px solid rgba(247, 245, 240, 0.08);
+  padding: 1.75rem 0;
+}
+
+.bottom p {
+  font-size: 0.82rem;
+  color: rgba(247, 245, 240, 0.5);
+}
+
+@media (max-width: 900px) {
+  .inner {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .inner {
+    grid-template-columns: 1fr;
+  }
+}

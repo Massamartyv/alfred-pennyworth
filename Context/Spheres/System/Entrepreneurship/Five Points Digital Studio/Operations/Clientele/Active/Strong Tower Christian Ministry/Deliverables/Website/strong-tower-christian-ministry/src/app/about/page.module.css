@@ -1,0 +1,234 @@
+/* ───────── Scripture band ───────── */
+.scriptureBand {
+  background: var(--bg-accent);
+  padding: 4.5rem 0;
+  text-align: center;
+}
+
+.scriptureText {
+  font-size: clamp(1.4rem, 3.2vw, 2.1rem);
+  line-height: 1.45;
+  max-width: 900px;
+  margin: 0 auto 1rem;
+}
+
+.scriptureRef {
+  font-family: var(--font-body), sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* ───────── Shared section bits ───────── */
+.sectionHead {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.sectionTitle {
+  font-size: clamp(1.9rem, 4vw, 2.8rem);
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.bodyLg {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+  max-width: 56ch;
+}
+
+/* ───────── Section anchors ─────────
+   .statement and .story sit on the base --bg-field tone on purpose; they
+   alternate against the accent-toned bands (.vision, .values) above and
+   below to give the page its light/lighter rhythm. */
+.statement,
+.story {
+  background: var(--bg-field);
+}
+
+/* ───────── Mission / Vision statements ───────── */
+.statementInner {
+  max-width: 760px;
+  text-align: center;
+}
+
+.statementTitle {
+  font-size: clamp(1.9rem, 4vw, 2.8rem);
+  font-weight: 600;
+  margin: 0.5rem 0 1.5rem;
+}
+
+.statementBody {
+  font-size: clamp(1.15rem, 2.2vw, 1.4rem);
+  line-height: 1.65;
+  color: var(--text-main);
+  font-family: var(--font-heading), Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.vision {
+  background: var(--bg-accent);
+}
+
+/* ───────── Who we are ───────── */
+.storyInner {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+/* min-width: 0 lets the text column shrink inside the grid track instead of
+   forcing overflow on long words. */
+.storyText {
+  min-width: 0;
+}
+
+.storyActions {
+  margin-top: 0.5rem;
+}
+
+.tagCard {
+  background: var(--bg-fortress);
+  color: var(--text-inverse);
+  border-radius: var(--radius-card);
+  border-top: 3px solid var(--accent-gold);
+  padding: 3rem 2.5rem;
+  text-align: center;
+}
+
+.tagPrimary {
+  font-family: var(--font-heading), Georgia, serif;
+  font-style: italic;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  line-height: 1.35;
+  color: var(--accent-gold-light);
+  margin-bottom: 1.25rem;
+}
+
+.tagSecondary {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.82rem;
+  color: rgba(247, 245, 240, 0.75);
+}
+
+/* ───────── Values ───────── */
+.values {
+  background: var(--bg-accent);
+}
+
+.valueGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.valueCard {
+  background: var(--bg-field);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-card);
+  padding: 2.25rem 1.75rem;
+  transition: transform 0.3s var(--ease-out-expo), box-shadow 0.3s;
+}
+
+.valueCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(28, 42, 63, 0.1);
+}
+
+.valueIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: var(--radius-card);
+  background: var(--bg-accent);
+  color: var(--accent-gold-deep);
+  margin-bottom: 1.25rem;
+}
+
+.valueTitle {
+  font-size: 1.3rem;
+  margin-bottom: 0.6rem;
+}
+
+.valueBody {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--text-muted);
+}
+
+/* ───────── Closing CTA — fortress band (terminal beat, mirrors the hero) ───────── */
+.ctaBand {
+  background: var(--bg-fortress);
+  color: var(--text-inverse);
+  padding-block: 6rem;
+}
+
+.ctaInner {
+  text-align: center;
+  max-width: 640px;
+}
+
+.ctaTitle {
+  font-size: clamp(1.8rem, 3.8vw, 2.6rem);
+  font-weight: 600;
+  color: var(--text-inverse);
+  margin-bottom: 1rem;
+}
+
+.ctaBody {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: rgba(247, 245, 240, 0.75);
+  margin-bottom: 2rem;
+}
+
+.ctaActions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Light outline button for the dark band — btn-secondary does not read on
+   fortress, so this mirrors the home hero's on-dark secondary treatment. */
+.ctaGhost {
+  background: transparent;
+  color: var(--text-inverse);
+  border-color: rgba(247, 245, 240, 0.4);
+}
+
+.ctaGhost:hover {
+  background: rgba(247, 245, 240, 0.08);
+  border-color: var(--text-inverse);
+  color: var(--text-inverse);
+}
+
+/* ───────── Responsive ───────── */
+@media (max-width: 900px) {
+  .storyInner {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .valueGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .bodyLg {
+    max-width: none;
+  }
+}
+
+@media (max-width: 560px) {
+  .valueGrid {
+    grid-template-columns: 1fr;
+  }
+}

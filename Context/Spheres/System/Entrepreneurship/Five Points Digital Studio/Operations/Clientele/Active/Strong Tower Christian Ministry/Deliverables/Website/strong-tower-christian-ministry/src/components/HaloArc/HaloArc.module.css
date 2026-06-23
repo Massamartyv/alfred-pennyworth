@@ -1,0 +1,15 @@
+.arc {
+  display: block;
+  width: 100%;
+  max-width: 360px;
+  height: auto;
+  margin: 0 auto;
+  overflow: visible;
+}
+
+.halo {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}

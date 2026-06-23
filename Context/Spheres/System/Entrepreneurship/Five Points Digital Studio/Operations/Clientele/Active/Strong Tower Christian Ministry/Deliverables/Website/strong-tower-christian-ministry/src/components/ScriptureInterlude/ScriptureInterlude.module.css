@@ -1,0 +1,46 @@
+.interlude {
+  text-align: center;
+  overflow: hidden;
+}
+
+.light {
+  background: var(--bg-accent);
+  padding: 5rem 0;
+}
+
+.dark {
+  background: var(--bg-fortress-deep);
+  padding: 6rem 0;
+}
+
+.inner {
+  max-width: 880px;
+}
+
+.arc {
+  max-width: 200px;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.verse {
+  font-size: clamp(1.5rem, 3.4vw, 2.4rem);
+  line-height: 1.42;
+  margin-bottom: 1.1rem;
+}
+
+.dark .verse {
+  color: var(--accent-gold-light);
+}
+
+.ref {
+  font-family: var(--font-body), sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.24em;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.dark .ref {
+  color: rgba(247, 245, 240, 0.5);
+}

@@ -1,0 +1,130 @@
+/* Section anchor — sits on the base --bg-field tone, alternating against the
+   accent-toned closing CTA below. */
+.leaders {
+  background: var(--bg-field);
+}
+
+/* ───────── Leader cards ───────── */
+.leaderGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.leaderCard {
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-field);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  transition: transform 0.3s var(--ease-out-expo), box-shadow 0.3s;
+}
+
+.leaderCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(28, 42, 63, 0.12);
+}
+
+/* Monogram portrait placeholder — brand gold on slate-navy */
+.portrait {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  background:
+    radial-gradient(
+      circle at 50% 35%,
+      rgba(198, 162, 78, 0.22) 0%,
+      transparent 60%
+    ),
+    var(--bg-fortress);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid var(--accent-gold);
+}
+
+.monogram {
+  font-family: var(--font-heading), Georgia, serif;
+  font-size: clamp(3.5rem, 8vw, 5.5rem);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--accent-gold-light);
+  line-height: 1;
+}
+
+.leaderBody {
+  padding: 2.25rem 2rem 2.5rem;
+}
+
+.leaderRole {
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.78rem;
+  color: var(--brand-blue-deep);
+  margin-bottom: 0.6rem;
+}
+
+.leaderName {
+  font-size: clamp(1.5rem, 3vw, 1.9rem);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.leaderBio {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+  margin-bottom: 0.75rem;
+}
+
+.leaderBio:last-child {
+  margin-bottom: 0;
+}
+
+/* ───────── More-to-come note ───────── */
+.moreNote {
+  text-align: center;
+  max-width: 52ch;
+  margin: 3.5rem auto 0;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* ───────── Closing CTA ───────── */
+.cta {
+  background: var(--bg-accent);
+}
+
+.ctaInner {
+  text-align: center;
+  max-width: 640px;
+}
+
+.ctaTitle {
+  font-size: clamp(1.8rem, 3.8vw, 2.6rem);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.ctaBody {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+}
+
+.ctaActions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ───────── Responsive ───────── */
+@media (max-width: 900px) {
+  .leaderGrid {
+    grid-template-columns: 1fr;
+  }
+}

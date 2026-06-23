@@ -1,0 +1,147 @@
+/* ───────── Shared section bits ───────── */
+.sectionHead {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.sectionTitle {
+  font-size: clamp(1.9rem, 4vw, 2.8rem);
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.sectionLede {
+  max-width: 54ch;
+  margin: 1rem auto 0;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+}
+
+/* ───────── Ways to serve ───────── */
+.serve {
+  background: var(--bg-field);
+}
+
+.serveGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.serveCard {
+  background: var(--bg-field);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-card);
+  padding: 2.5rem 2rem;
+  transition: transform 0.3s var(--ease-out-expo), box-shadow 0.3s,
+    border-color 0.3s;
+}
+
+.serveCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(28, 42, 63, 0.1);
+  border-color: var(--border-medium);
+}
+
+.serveIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  margin-bottom: 1.5rem;
+  border-radius: var(--radius-card);
+  background: var(--bg-accent);
+  color: var(--accent-gold-deep);
+}
+
+.serveTitle {
+  font-size: 1.3rem;
+  margin-bottom: 0.75rem;
+}
+
+.serveDesc {
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--text-muted);
+}
+
+/* ───────── Next steps ───────── */
+.steps {
+  background: var(--bg-accent);
+}
+
+.stepsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.stepCard {
+  background: var(--bg-field);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-card);
+  padding: 2.5rem 2rem;
+  text-align: center;
+}
+
+.stepNum {
+  display: block;
+  font-family: var(--font-heading), serif;
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: var(--accent-gold);
+  margin-bottom: 0.75rem;
+}
+
+.stepTitle {
+  font-size: 1.3rem;
+  margin-bottom: 0.75rem;
+}
+
+.stepDesc {
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--text-muted);
+}
+
+/* ───────── Closing CTA ───────── */
+.ctaBand {
+  background: var(--bg-fortress);
+  color: var(--text-inverse);
+  padding-block: var(--spacing-section);
+  text-align: center;
+}
+
+.ctaInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ctaTitle {
+  font-size: clamp(1.9rem, 4vw, 2.8rem);
+  color: var(--text-inverse);
+  margin-bottom: 1rem;
+}
+
+.ctaCopy {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: rgba(247, 245, 240, 0.72);
+  max-width: 48ch;
+  margin: 0 auto 2rem;
+}
+
+/* ───────── Responsive ───────── */
+@media (max-width: 900px) {
+  .serveGrid,
+  .stepsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .ctaCopy {
+    max-width: none;
+  }
+}
