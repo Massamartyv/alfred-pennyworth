@@ -61,7 +61,21 @@ alfred-os/
 Integrations/discord-setup-mcp/
 
 # Personal projects (local-only)
-Projects/Abreana-Career-Trajectory/
+Projects/
 
 # Apps live in their own repositories (see Manual/genesis.md)
 Apps/
+
+# Secrets and personal data (never leave this machine)
+Private/
+Context/Spheres/System/Personal Finance/*.csv
+
+# Transient venture scratch (large binaries, drafts, downloaded material)
+**/Working Files/
+Context/Spheres/System/Entrepreneurship/Library/
+
+# Personal social-media data exports and media dumps (PII, local-only).
+# Full account archives (Instagram/Facebook/LinkedIn/TikTok) and Bitmoji
+# packs live on disk only. Folder preserved via .gitkeep.
+Context/Spheres/Soul/Social Development/*
+!Context/Spheres/Soul/Social Development/.gitkeep
