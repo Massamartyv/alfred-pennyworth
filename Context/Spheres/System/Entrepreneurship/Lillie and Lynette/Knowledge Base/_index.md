@@ -18,6 +18,7 @@ Knowledge Base/
   AI Learnings/          -- Insights from AI-assisted hospitality planning
   Case Studies/          -- Breakdowns of exceptional hospitality brands and experiences
   Methodologies/         -- Documented approaches to service design, guest experience, operations
+  Reference Library/     -- Creators, brands, works and curators for inspiration and creative direction
   Research/              -- Market analysis, location research, industry trends
   Agents/                -- Shared-resource agents, workflows, criteria
 ```

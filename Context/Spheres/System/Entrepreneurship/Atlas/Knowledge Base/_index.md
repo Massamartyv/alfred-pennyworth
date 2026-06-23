@@ -37,6 +37,7 @@ The Knowledge Base mirrors the sphere graduation pattern from the personal Alfre
 |---|---|---|
 | Agents/ | Specialist roster, workflow registry, quality criteria | Scaffold present |
 | Clinical/ | Orthopedic tests, listings, techniques, rehab protocols | Empty – Phase 1 priority |
+| Reference Library/ | Creators, brands, works and curators for inspiration and creative direction | Empty |
 | Coding/ | Chiropractic ICD-10, CPT, Medicare, payer rules | Empty – Phase 1 priority |
 | Documentation/ | SOAP standards, PI documentation, workers comp documentation | Empty – Phase 1 priority |
 | EHR/ | Per-vendor API surface and integration intelligence | Empty – Strategy + Production load |

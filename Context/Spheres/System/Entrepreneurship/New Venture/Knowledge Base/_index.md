@@ -31,6 +31,7 @@ Industry research, competitive intelligence and the accumulated knowledge that i
 | AI Learnings/ | Insights from AI-assisted research and operations |
 | Case Studies/ | Breakdowns of relevant brands, campaigns or initiatives |
 | Methodologies/ | Documented approaches to development, sourcing and delivery |
+| Reference Library/ | Creators, brands, works and curators for inspiration and creative direction |
 | Research/ | Market research, consumer insights, trend reports |
 
 ### Current State

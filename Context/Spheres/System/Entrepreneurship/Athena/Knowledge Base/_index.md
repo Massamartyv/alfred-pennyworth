@@ -24,6 +24,12 @@ Industry research, market intelligence, casting trends and accumulated expertise
 - Talent-specific notes – those go in the talent folder under Operations
 - Financial analysis – that goes in Finances
 
+### Subdirectories
+
+| Folder | Contents |
+|---|---|
+| Reference Library/ | Creators, brands, works and curators for inspiration and creative direction |
+
 ### Current State
 
 Dormant. Research and intelligence to be compiled as the agency reactivates and enters the market.

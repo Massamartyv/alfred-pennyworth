@@ -20,6 +20,7 @@ Alfred Pennyworth/
 │   ├── martyv-identity.md          – Brand Profile, podcast, newsletter, platforms.
 │   ├── creative-director.md         – Sensory operating system, aesthetic sensibility, aligned brands.
 │   ├── vibe-coding-prd-template.md  – PRD template for AI-assisted web development.
+│   ├── Reference Library/          – Creators, brands, works and curators for research, inspiration and creative direction. Personal corpus; each venture holds its own inside Knowledge Base.
 │   ├── Spheres/
 │   │   ├── Mind/                  – 18 spheres. Spanish graduated to own file.
 │   │   ├── System/                – 4 spheres. Entrepreneurship contains ventures.
@@ -44,7 +45,7 @@ Alfred Pennyworth/
 │   └── templates/                 – Validation contract, source inventory, handoff schema, model assignment
 ├── Automations/                   – Scripted workflows
 ├── Integrations/                  – MCP servers and platform bridges
-├── Apps/                          – Applications. Each lives in its own git repository; ignored here. Current: catalogue.
+├── Apps/                          – Personal apps bank. Each app is its own git repository; ignored here. Current: nabu. Venture apps live in an Apps/ folder inside each venture directory.
 ├── Projects/                      – Personal local-only projects. Gitignored.
 ├── Templates/                     – Reusable project templates
 └── Logs/                          – Session and maintenance logs, build-history/
@@ -87,7 +88,7 @@ Do not load all sphere files at once. Read the Sphere Index in the global CLAUDE
 - Cross-cutting files live in: `~/Alfred Pennyworth/Context/`
 - Venture files live in: `~/Alfred Pennyworth/Context/Spheres/System/Entrepreneurship/`
 - New ventures copy the `New Venture/` template folder and rename it
-- Each venture uses a seven-studio structure (Creative, Strategy, Production, Growth, Operations, Finance, Administration) plus two shared resources (Knowledge Base, Foundation) with `_index.md` routing files
+- Each venture uses a seven-studio structure (Creative, Strategy, Production, Growth, Operations, Finance, Administration) plus two shared resources (Knowledge Base, Foundation) with `_index.md` routing files, plus an Apps/ folder for the venture software repositories (gitignored)
 - The brand fingerprint is the single source of truth for each venture and lives at `{Venture}/Foundation/brand-fingerprint.md` in the standard structure – Governance, Layer 0 Spine, Layers 1 through 4, Amendment Log. Foundation also holds the venture mission and community work. New ventures inherit the blank standard from `New Venture/Foundation/brand-fingerprint.md`
 - Client files live inside each venture at: `Operations/Clientele/Active/{Client Name}/`
 - Archive lives in: `~/Alfred Pennyworth/Context/Archive/`
@@ -124,6 +125,7 @@ When the task involves the items in the left column, load the files in the right
 | Content creation, copy, voice | `Context/personal-brand-identity.md` | Venture brand-fingerprint if venture-scoped |
 | Marty Gras content | `Context/martyv-identity.md` | `Marty Gras/Foundation/brand-fingerprint.md` |
 | Aesthetic direction, sensory design | `Context/creative-director.md` | – |
+| Inspiration, creative direction, research batch, reference pull | `Context/Reference Library/_index.md`, then the matched cards | Venture `Knowledge Base/Reference Library/_index.md` if venture-scoped |
 | Domain knowledge in a sphere | Cluster index `Spheres/{Cluster}/{cluster}.md` | Sphere folder `_index.md` and any graduated sphere file |
 | Venture operations | Venture `_index.md` | `Agents/integrations.md`, `Agents/department-heads.md`, `Agents/agent-guidelines.md` |
 | Dispatching a venture agent | Venture `Agents/agent-guidelines.md`, agent definition | `Agents/integrations.md` if venture plugins |

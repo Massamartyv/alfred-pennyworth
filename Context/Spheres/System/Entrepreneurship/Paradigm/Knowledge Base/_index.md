@@ -32,6 +32,7 @@ Industry research, ingredient science, competitive intelligence and the accumula
 | AI Learnings/ | Insights from AI-assisted research and operations |
 | Case Studies/ | Breakdowns of successful health and wellness brands |
 | Methodologies/ | Documented approaches to formulation, sourcing, testing |
+| Reference Library/ | Creators, brands, works and curators for inspiration and creative direction |
 | Research/ | Market research, ingredient science, consumer insights |
 
 ### Current State

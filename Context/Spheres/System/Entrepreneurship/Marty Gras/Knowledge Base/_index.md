@@ -31,6 +31,7 @@ Cultural references, audience insights, content research and the intellectual fu
 | AI Learnings/ | Insights from AI-assisted content production |
 | Case Studies/ | Breakdowns of successful media brands, creators, campaigns |
 | Methodologies/ | Documented approaches to content creation, curation, distribution |
+| Reference Library/ | Creators, brands, works and curators for inspiration and creative direction |
 | Research/ | Audience research, market analysis, trend reports |
 
 ### Current State

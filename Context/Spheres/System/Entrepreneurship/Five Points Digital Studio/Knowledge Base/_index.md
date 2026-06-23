@@ -16,7 +16,8 @@ Knowledge Base/
 ├── Case Studies/              – Client results documented
 ├── Research/                  – Industry trends, competitive intel
 ├── Methodologies/             – Proprietary frameworks
-└── AI Learnings/              – Proven prompts, tool evaluations
+├── AI Learnings/              – Proven prompts, tool evaluations
+└── Reference Library/         – Creators, brands, works and curators for inspiration and creative direction
 ```
 
 ## Agent Instructions
