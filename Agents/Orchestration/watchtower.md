@@ -164,6 +164,7 @@ All intermediate output goes to `.working/watchtower/`. Raw threshold checks, si
 - **Current schedule:** Daily at 8:01pm local (monitoring sweep)
 - **Delivery:** iMessage to martavious.spicer@icloud.com
 - **Current scope:** Personal Notion workspace (Tasks, Projects, Content Calendar)
+- **Health-checks:** the `nabu-likes` watcher receipt -- the Nabu YouTube liked-video filer -- via the scheduler-receipt sweep; flagged if stale beyond 2 days. The watcher does the writing; Watchtower only observes its liveness, preserving the read-only red-line.
 - **Not yet wired (prose-only):** the weekly portfolio briefing absorbed from the retired Pennyone briefing role; Stripe financial thresholds; Five Points workspace sweep; venture-level breakdowns. These are designed but unbuilt -- do not assume they run.
 
 ---

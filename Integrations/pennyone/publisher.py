@@ -80,6 +80,10 @@ PLATFORM_NAME_MAP: Dict[str, server.Platform] = {
     "Reddit": server.Platform.REDDIT,
     "Snap": server.Platform.SNAP,
     "Snapchat": server.Platform.SNAP,
+    "LinkedIn": server.Platform.LINKEDIN,
+    "YouTube": server.Platform.YOUTUBE,
+    "Youtube": server.Platform.YOUTUBE,
+    "Discord": server.Platform.DISCORD,
 }
 
 # Notion Content Calendar Type -> default MediaAsset kind. Maps the
@@ -337,7 +341,7 @@ def _writeback_properties(
         "Pennyone Log": {"rich_text": [{"type": "text", "text": {"content": log_text[:2000]}}]},
     }
     if first_success and first_success.post_id:
-        properties["Zernio Post ID"] = {
+        properties["Zernio Log"] = {
             "rich_text": [{"type": "text", "text": {"content": first_success.post_id}}]
         }
     if mark_published:

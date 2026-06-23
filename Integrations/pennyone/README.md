@@ -1,15 +1,15 @@
 # Pennyone
 
-Content syndication router. Thin MCP layer over Zernio. Fans out a single publish request to Instagram, TikTok, Threads, X, Reddit and Snap under the pipeline's own Zernio account.
+Content syndication router. Thin MCP layer over Zernio. Fans out a single publish request to Instagram, TikTok, Threads, X, Reddit, Snap, LinkedIn, YouTube and Discord under the pipeline's own Zernio account.
 
 Pennyone does not write the content. It does not decide when to publish. It takes an existing publish request and executes the fan-out.
 
 ## Architecture
 
-Pennyone is a thin FastMCP server that wraps Zernio, a unified social media API covering 14+ platforms. Pennyone uses six of them.
+Pennyone is a thin FastMCP server that wraps Zernio, a unified social media API covering 14+ platforms. Pennyone uses nine of them.
 
 ```
-Alfred --> Pennyone (FastMCP) --> Zernio (per-pipeline account) --> 6 platforms
+Alfred --> Pennyone (FastMCP) --> Zernio (per-pipeline account) --> 9 platforms
 ```
 
 Pennyone adds:
@@ -37,14 +37,14 @@ A pipeline without a configured key returns a clean "pipeline not provisioned" e
 
 **Live** for the personal and Five Points pipelines. Keys provisioned 2026-04-23; adapter verified against Zernio's real API shape. MCP registration in local `.mcp.json`.
 
-Connected accounts as of go-live:
+Connected and active accounts (verified 2026-06-23):
 
-| Pipeline | Connected |
+| Pipeline | Connected and active |
 |---|---|
-| personal | Instagram, Threads, TikTok (`massamartyv`) |
+| personal | Instagram, TikTok, Threads, Reddit, LinkedIn, YouTube, Discord |
 | five_points | Instagram (`studio.fivepoints`) |
 
-Remaining platforms per pipeline (X, Reddit, Snap on both; TikTok and Threads on Five Points) connect through Zernio's dashboard; Pennyone picks them up automatically.
+X and Snap are in the router but no account is connected on either pipeline; they connect through Zernio's dashboard and Pennyone picks them up automatically. Five Points currently runs Instagram only.
 
 ## Setup
 
@@ -110,7 +110,7 @@ Restart the MCP-hosting client and call `pipeline_status` to see which pipelines
 
 ## Platform coverage
 
-All six platforms route through Zernio regardless of pipeline.
+All nine platforms route through Zernio regardless of pipeline.
 
 | Platform | Via |
 |---|---|
@@ -120,6 +120,9 @@ All six platforms route through Zernio regardless of pipeline.
 | X | Zernio |
 | Reddit | Zernio |
 | Snap | Zernio |
+| LinkedIn | Zernio |
+| YouTube | Zernio |
+| Discord | Zernio |
 
 ## Zernio adapter
 
@@ -167,7 +170,7 @@ Each pipeline runs its own Notion workspace with its own Content Calendar. The c
 | `Type` | select | Informs default `MediaAsset.kind` (Short/Long Form Videography -> `video`) |
 | `Status` | status | Editorial workflow. `Scheduled` = eligible. On success -> `Published` |
 | `Media` | files | Images or videos. Publisher downloads Notion-hosted files to temp paths before dispatch |
-| `Zernio Post ID` | rich_text | Written after successful dispatch |
+| `Zernio Log` | rich_text | Written after successful dispatch -- holds the Zernio post ID |
 | `Pennyone Log` | rich_text | Per-platform outcomes + any mapper warnings |
 
 The Platforms database stores one row per platform with `Name` as the title. Row names map to Pennyone platforms via `PLATFORM_NAME_MAP` in `publisher.py` (`Instagram`, `TikTok`, `Threads`, `X`, `Reddit`, `Snapchat`).
@@ -232,4 +235,4 @@ An entry is eligible when `Status == "Scheduled"` and `Publish Date <= now`. Aft
 
 ---
 
-*Last updated: 2026-04-23*
+*Last updated: 2026-06-23 -- LinkedIn, YouTube and Discord added to the router; personal pipeline connected-account list refreshed.*

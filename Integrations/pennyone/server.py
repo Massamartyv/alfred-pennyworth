@@ -4,8 +4,8 @@ Pennyone MCP Server -- Content syndication router.
 
 Thin FastMCP layer over Zernio. Accepts a publish request scoped to a
 pipeline (personal, marty_gras, five_points, paradigm, lillie_and_lynette)
-and fans it out to any subset of six social platforms (Instagram, TikTok,
-Threads, X, Reddit, Snap).
+and fans it out to any subset of nine social platforms (Instagram, TikTok,
+Threads, X, Reddit, Snap, LinkedIn, YouTube, Discord).
 
 Each pipeline owns its own Zernio account and its own API key, so
 personal content cannot publish on venture accounts and venture content
@@ -51,9 +51,13 @@ class Platform(str, Enum):
     X = "x"
     REDDIT = "reddit"
     SNAP = "snap"
+    LINKEDIN = "linkedin"
+    YOUTUBE = "youtube"
+    DISCORD = "discord"
 
 
-# Zernio uses "twitter" for X and "snapchat" for Snap.
+# Zernio uses "twitter" for X and "snapchat" for Snap. LinkedIn, YouTube
+# and Discord map to identical Zernio platform strings.
 PLATFORM_TO_ZERNIO: Dict[Platform, str] = {
     Platform.INSTAGRAM: "instagram",
     Platform.TIKTOK: "tiktok",
@@ -61,6 +65,9 @@ PLATFORM_TO_ZERNIO: Dict[Platform, str] = {
     Platform.X: "twitter",
     Platform.REDDIT: "reddit",
     Platform.SNAP: "snapchat",
+    Platform.LINKEDIN: "linkedin",
+    Platform.YOUTUBE: "youtube",
+    Platform.DISCORD: "discord",
 }
 
 ZERNIO_TO_PLATFORM: Dict[str, Platform] = {v: k for k, v in PLATFORM_TO_ZERNIO.items()}
