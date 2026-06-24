@@ -2,7 +2,7 @@
 file_type: reference_library_index
 scope: personal
 created: 2026-06-21
-last_updated: 2026-06-21
+last_updated: 2026-06-24
 ---
 
 # Reference Library
@@ -93,23 +93,55 @@ Full cards, grouped by type. A card link means a file exists.
 
 | Entity | Type | Domains | Pull for | Status | Card |
 |---|---|---|---|---|---|
+| Alberto Kalach | creator | architecture, urbanism, landscape | biophilic, materiality, spatial-direction, nature-integration | canon | [Creators/alberto-kalach.md](Creators/alberto-kalach.md) |
+| Alex Guarnaschelli | creator | culinary, restaurants | french-technique, comfort-food, precision, hospitality | canon | [Creators/alex-guarnaschelli.md](Creators/alex-guarnaschelli.md) |
 | André 3000 | creator | music, fashion, film | voice-and-tone, reinvention, restraint | canon | [Creators/andre-3000.md](Creators/andre-3000.md) |
+| Andy Warhol | creator | visual art, film, pop culture | high-low, icon-making, repetition, art-direction | canon | [Creators/andy-warhol.md](Creators/andy-warhol.md) |
 | Anthony Bourdain | creator | food, travel, culture | narrative, taste-compass, hospitality, food-culture | canon | [Creators/anthony-bourdain.md](Creators/anthony-bourdain.md) |
 | A$AP Rocky | creator | fashion, music | art-direction, high-low, layering direction, oversized-silhouette | canon | [Creators/asap-rocky.md](Creators/asap-rocky.md) |
 | Bad Bunny | creator | fashion, music | materiality, color-and-light, colour-confidence, relaxed-silhouette | canon | [Creators/bad-bunny.md](Creators/bad-bunny.md) |
+| Banksy | creator | visual art, street art | subversion, context-as-content, wit, anti-establishment | canon | [Creators/banksy.md](Creators/banksy.md) |
 | Beyoncé | creator | music, performance | performance, precision-as-freedom, ancestral-tribute, cadence | canon | [Creators/beyonce.md](Creators/beyonce.md) |
+| Bobby Flay | creator | culinary, restaurants | bold-flavor, grilling, competition, brand-building | canon | [Creators/bobby-flay.md](Creators/bobby-flay.md) |
+| Brian De Palma | creator | film, directing | visual-bravura, suspense, operatic-excess, cinematography | canon | [Creators/brian-de-palma.md](Creators/brian-de-palma.md) |
+| Brooke Williamson | creator | culinary, restaurants | vegetable-forward, california-cuisine, produce-first, hospitality | canon | [Creators/brooke-williamson.md](Creators/brooke-williamson.md) |
+| Claude Monet | creator | visual art | light, atmosphere, color-and-light, biophilic | canon | [Creators/claude-monet.md](Creators/claude-monet.md) |
 | Colman Domingo | creator | fashion, acting | art-direction, restraint, materiality, statement-with-control | canon | [Creators/colman-domingo.md](Creators/colman-domingo.md) |
+| Damien Chazelle | creator | film, directing | obsession, cost-of-greatness, music-and-rhythm, kinetic | canon | [Creators/damien-chazelle.md](Creators/damien-chazelle.md) |
+| Dan Harmon | creator | television, writing | narrative-structure, story-circle, world-building, voice-and-tone | canon | [Creators/dan-harmon.md](Creators/dan-harmon.md) |
+| Eddie Jackson | creator | culinary, restaurants | athlete-to-chef, southern, bbq, discipline | canon | [Creators/eddie-jackson.md](Creators/eddie-jackson.md) |
+| Eric Adjepong | creator | culinary, restaurants | west-african, diaspora, forward-looking-heritage, cultural-bridge | canon | [Creators/eric-adjepong.md](Creators/eric-adjepong.md) |
+| Frank Lloyd Wright | creator | architecture, interior design, furniture | spatial-direction, materiality, nature-integration, total-design | canon | [Creators/frank-lloyd-wright.md](Creators/frank-lloyd-wright.md) |
 | Frank Ocean | creator | music, production, aesthetics | sound-design, voice-and-tone, restraint, nostalgia-as-texture | canon | [Creators/frank-ocean.md](Creators/frank-ocean.md) |
+| Gus Van Sant | creator | film, directing | emotional-restraint, outsiders, naturalism, character-study | canon | [Creators/gus-van-sant.md](Creators/gus-van-sant.md) |
+| James Cameron | creator | film, directing, technology | world-building, immersive-atmosphere, spectacle, technical-innovation | canon | [Creators/james-cameron.md](Creators/james-cameron.md) |
 | Jean-Michel Basquiat | creator | visual art | visual-direction, art-direction, rawness, street-to-gallery | canon | [Creators/jean-michel-basquiat.md](Creators/jean-michel-basquiat.md) |
+| Jet Tila | creator | culinary, restaurants | thai-cuisine, pan-asian, heritage, cultural-custodian | canon | [Creators/jet-tila.md](Creators/jet-tila.md) |
 | Kanye West | creator | music, fashion, interior design, production | art-direction, visual-direction, color-and-light, materiality, maximalism | canon | [Creators/kanye-west.md](Creators/kanye-west.md) |
+| Kardea Brown | creator | culinary, restaurants, television | gullah-geechee, heritage-preservation, southern, hospitality | canon | [Creators/kardea-brown.md](Creators/kardea-brown.md) |
+| Kehinde Wiley | creator | visual art | portraiture, reclaiming-the-canon, heroic-posture, ornament | canon | [Creators/kehinde-wiley.md](Creators/kehinde-wiley.md) |
+| Kim Chong Hak | creator | visual art | color-and-light, nature, depth-of-attention, anti-trend | canon | [Creators/kim-chong-hak.md](Creators/kim-chong-hak.md) |
 | Kurt Cobain | creator | fashion, music | anti-style, restraint, effortless-nonchalance, fashion | canon | [Creators/kurt-cobain.md](Creators/kurt-cobain.md) |
+| Leonardo da Vinci | creator | visual art, science, engineering | polymath, art-and-science, mastery, curiosity | canon | [Creators/leonardo-da-vinci.md](Creators/leonardo-da-vinci.md) |
+| Logan Sylve | creator | visual art, illustration | street-to-gallery, high-low, surreal-expressionism, emerging-artist | active | [Creators/logan-sylve.md](Creators/logan-sylve.md) |
+| Marcus Samuelsson | creator | culinary, restaurants | diaspora, three-continent-fusion, hospitality, cultural-bridge | canon | [Creators/marcus-samuelsson.md](Creators/marcus-samuelsson.md) |
+| Martin Scorsese | creator | film, directing | kinetic-camera, music-as-structure, moral-weight, auteur | canon | [Creators/martin-scorsese.md](Creators/martin-scorsese.md) |
+| Michael Greger | creator | nutrition, food science, medicine | evidence-based-nutrition, health-as-foundation, plant-forward, longevity | canon | [Creators/michael-greger.md](Creators/michael-greger.md) |
+| Pablo Picasso | creator | visual art | reinvention, multiple-perspective, creative-risk, art-direction | canon | [Creators/pablo-picasso.md](Creators/pablo-picasso.md) |
+| Page and Dornenburg | creator | food writing, flavor theory | flavor-pairing, culinary-reference, creative-engine, technique | canon | [Creators/page-and-dornenburg.md](Creators/page-and-dornenburg.md) |
 | Pharrell | creator | fashion, music | art-direction, high-low, playful-eclecticism, accessory direction | canon | [Creators/pharrell.md](Creators/pharrell.md) |
 | Pierce and Ward | creator | interior design | spatial-direction, materiality, constrained-maximalism, maximalism | canon | [Creators/pierce-and-ward.md](Creators/pierce-and-ward.md) |
 | Quentin Tarantino | creator | film, directing | cinematography, visual-direction, style-as-resistance, maximalism | canon | [Creators/quentin-tarantino.md](Creators/quentin-tarantino.md) |
+| Rebecca Maria | creator | visual art, sculpture | hip-hop-iconography, nostalgia, album-cover-art, emerging-artist | watch | [Creators/rebecca-maria.md](Creators/rebecca-maria.md) |
 | Ryan Coogler | creator | film, directing | world-building, art-direction, atmosphere, spatial-direction | canon | [Creators/ryan-coogler.md](Creators/ryan-coogler.md) |
+| Salvador Dalí | creator | visual art, film | surrealism, dream-logic, conviction, theatrical | canon | [Creators/salvador-dali.md](Creators/salvador-dali.md) |
+| Steven Spielberg | creator | film, directing | wonder, populist-craft, world-building, spectacle | canon | [Creators/steven-spielberg.md](Creators/steven-spielberg.md) |
+| Takashi Murakami | creator | visual art, fashion | high-low, art-fashion, collaboration, anime-iconography | canon | [Creators/takashi-murakami.md](Creators/takashi-murakami.md) |
 | Travis Scott | creator | music, production, world-building | world-building, sound-design, immersive-atmosphere, narrative | canon | [Creators/travis-scott.md](Creators/travis-scott.md) |
 | Tyler, the Creator | creator | music | taste-evolution, reinvention, creative-risk, craft-over-brand | canon | [Creators/tyler-the-creator.md](Creators/tyler-the-creator.md) |
+| Vince Gilligan | creator | television, writing | long-form-structure, moral-transformation, slow-burn, consequence | canon | [Creators/vince-gilligan.md](Creators/vince-gilligan.md) |
 | Virgil Abloh | creator | interior design, fashion, architecture | spatial-direction, art-direction, restraint, negative-space | canon | [Creators/virgil-abloh.md](Creators/virgil-abloh.md) |
+| Yayoi Kusama | creator | visual art | repetition, visual-system, immersive-atmosphere, world-building | canon | [Creators/yayoi-kusama.md](Creators/yayoi-kusama.md) |
 
 ### Brands
 
@@ -117,15 +149,34 @@ Full cards, grouped by type. A card link means a file exists.
 |---|---|---|---|---|---|
 | Aesop | brand | grooming, interior design | design-conscious, ritual, restraint, interior-integration | canon | [Brands/aesop.md](Brands/aesop.md) |
 | Aimé Leon Dore | brand | fashion, streetwear | streetwear, high-low, world-building, cultural-credibility | canon | [Brands/aime-leon-dore.md](Brands/aime-leon-dore.md) |
+| Blue Bottle Coffee | brand | coffee | third-wave, freshness-first, minimalism, craft | canon | [Brands/blue-bottle-coffee.md](Brands/blue-bottle-coffee.md) |
 | Buly 1803 | brand | fragrance, grooming | heritage-craft, apothecary, world-building, ritual | canon | [Brands/buly-1803.md](Brands/buly-1803.md) |
+| Burlap and Barrel | brand | spices, pantry | single-origin, provenance, direct-trade, ethics | canon | [Brands/burlap-and-barrel.md](Brands/burlap-and-barrel.md) |
+| Diaspora Co. | brand | spices, pantry | single-origin, equity, anti-colonial, brand-identity | canon | [Brands/diaspora-co.md](Brands/diaspora-co.md) |
+| Dick Taylor | brand | chocolate | single-origin, maker-craft, materiality, two-ingredient | canon | [Brands/dick-taylor.md](Brands/dick-taylor.md) |
+| Erin McKenna's Bakery | brand | bakery | vegan, gluten-free, allergen-free, no-compromise | canon | [Brands/erin-mckennas-bakery.md](Brands/erin-mckennas-bakery.md) |
+| Frog's Leap | brand | wine | organic, dry-farmed, sustainability, new-world | canon | [Brands/frogs-leap.md](Brands/frogs-leap.md) |
+| Harney and Sons | brand | tea | fine-tea, blending, family-craft, accessible-luxury | canon | [Brands/harney-and-sons.md](Brands/harney-and-sons.md) |
 | Hermès | brand | fashion, accessories, homeware | investment-luxury, craft-led, cross-category, accessories | canon | [Brands/hermes.md](Brands/hermes.md) |
+| Jeni's Splendid Ice Creams | brand | ice cream, dessert | flavor-invention, technique, artisan, craft | canon | [Brands/jenis-splendid-ice-creams.md](Brands/jenis-splendid-ice-creams.md) |
+| Keplinger | brand | wine | cult-wine, rhone-varietals, small-production, terroir | canon | [Brands/keplinger.md](Brands/keplinger.md) |
+| Kettl | brand | tea | japanese-tea, single-origin, provenance, seasonality | canon | [Brands/kettl.md](Brands/kettl.md) |
+| Kreation Organic | brand | juice, cafe, wellness | organic, cold-pressed, wellness, ritual | canon | [Brands/kreation-organic.md](Brands/kreation-organic.md) |
+| La Colombe | brand | coffee | specialty-coffee, product-innovation, sourcing, scale | canon | [Brands/la-colombe.md](Brands/la-colombe.md) |
+| La Maison du Chocolat | brand | chocolate | ganache, french-luxury, restraint, heritage | canon | [Brands/la-maison-du-chocolat.md](Brands/la-maison-du-chocolat.md) |
 | Lemaire | brand | fashion | materiality, anti-logo, restraint, quiet-luxury | canon | [Brands/lemaire.md](Brands/lemaire.md) |
+| Levain Bakery | brand | bakery, dessert | signature-product, cult-object, indulgence, craft | canon | [Brands/levain-bakery.md](Brands/levain-bakery.md) |
 | Liverpool FC | brand | sports, identity, culture | tribal-identity, unambiguous-loyalty, cultural-affiliation, world-building | canon | [Brands/liverpool-fc.md](Brands/liverpool-fc.md) |
 | Loewe | brand | fashion, leather goods | investment-luxury, craft-led, materiality, artistic-direction | canon | [Brands/loewe.md](Brands/loewe.md) |
+| Maison Pierre Marcolini | brand | chocolate | haute-chocolate, craft-led, seasonality, provenance | canon | [Brands/maison-pierre-marcolini.md](Brands/maison-pierre-marcolini.md) |
+| Mariposa Baking Co. | brand | bakery | gluten-free, no-compromise, artisan, dedicated-facility | canon | [Brands/mariposa-baking-co.md](Brands/mariposa-baking-co.md) |
+| Mast Brothers | brand | chocolate | packaging-design, craft-aesthetics, brand-storytelling, cautionary | watch | [Brands/mast-brothers.md](Brands/mast-brothers.md) |
 | Nayara Springs | brand | travel, hospitality, experiences | five-star-hospitality, pinnacle-standard, experience-design, ritual | canon | [Brands/nayara-springs.md](Brands/nayara-springs.md) |
 | Nike | brand | fashion, footwear, athletics | selective-alignment, sub-line-curation, sneaker, high-low | canon | [Brands/nike.md](Brands/nike.md) |
+| Olive and Sinclair | brand | chocolate | southern, place-rooted, craft, bean-to-bar | canon | [Brands/olive-and-sinclair.md](Brands/olive-and-sinclair.md) |
 | Ralph Lauren | brand | fashion | americana, quiet-luxury, tiered-curation, logo-avoidance | canon | [Brands/ralph-lauren.md](Brands/ralph-lauren.md) |
 | Santa Maria Novella | brand | fragrance, grooming | heritage-craft, apothecary, cross-category, ritual | canon | [Brands/santa-maria-novella.md](Brands/santa-maria-novella.md) |
+| Scribe Winery | brand | wine | natural-wine, place-as-experience, minimal-intervention, new-world | canon | [Brands/scribe-winery.md](Brands/scribe-winery.md) |
 | Singita | brand | travel, hospitality, conservation | five-star-hospitality, conservation-luxury, sense-of-place, ritual | canon | [Brands/singita.md](Brands/singita.md) |
 | Uniqlo | brand | fashion | foundation-fashion, quality-basics, anti-logo, restraint | canon | [Brands/uniqlo.md](Brands/uniqlo.md) |
 
@@ -133,16 +184,24 @@ Full cards, grouped by type. A card link means a file exists.
 
 | Entity | Type | Domains | Pull for | Status | Card |
 |---|---|---|---|---|---|
+| Albert Einstein Education and Research Center | work | architecture, institutional, landscape | biophilic, spatial-direction, color-and-light, atrium | canon | [Works/albert-einstein-education-research-center.md](Works/albert-einstein-education-research-center.md) |
 | Astroworld | work | music | sound-design, world-building, immersive-atmosphere, ear-candy | canon | [Works/astroworld.md](Works/astroworld.md) |
+| Bonhomía | work | restaurant, salumeria | salumeria, convivial, indoor-outdoor, hospitality | canon | [Works/bonhomia.md](Works/bonhomia.md) |
 | Breaking Bad | work | television | narrative, character-study, long-form-structure, pride-and-hubris | canon | [Works/breaking-bad.md](Works/breaking-bad.md) |
+| Building Frame of the House | work | architecture, residential | materiality, spatial-direction, structural-honesty, small-space-ingenuity | canon | [Works/building-frame-of-the-house.md](Works/building-frame-of-the-house.md) |
+| Dallas Buyers Club | work | film | transformation, defiance, total-commitment, against-the-system | canon | [Works/dallas-buyers-club.md](Works/dallas-buyers-club.md) |
 | Django Unchained | work | film | narrative, genre-inversion, style-as-resistance, power-and-identity | canon | [Works/django-unchained.md](Works/django-unchained.md) |
 | Everything Everywhere All at Once | work | film | narrative, tonal-range, formal-experimentation, emotional-honesty | canon | [Works/everything-everywhere-all-at-once.md](Works/everything-everywhere-all-at-once.md) |
+| Fallingwater | work | architecture, residential | nature-integration, materiality, spatial-direction, restraint | canon | [Works/fallingwater.md](Works/fallingwater.md) |
+| Forrest Gump | work | film | innocence-as-wisdom, americana, sentiment, history | canon | [Works/forrest-gump.md](Works/forrest-gump.md) |
 | Good Will Hunting | work | film | narrative, emotional-suppression, cost-of-greatness, mentor-dynamics | canon | [Works/good-will-hunting.md](Works/good-will-hunting.md) |
 | Homegoing | work | literature | narrative, structure-as-argument, diaspora, historical-weight | canon | [Works/homegoing-yaa-gyasi.md](Works/homegoing-yaa-gyasi.md) |
+| Menace II Society | work | film | hood-realism, coming-of-age, fatalism, black-cinema | canon | [Works/menace-ii-society.md](Works/menace-ii-society.md) |
 | My Beautiful Dark Twisted Fantasy | work | music | sound-design, world-building, maximalism, ambition-as-form | canon | [Works/my-beautiful-dark-twisted-fantasy.md](Works/my-beautiful-dark-twisted-fantasy.md) |
 | Naruto: Shippuden | work | animation, television | narrative, world-building, found-family, perseverance-and-identity | canon | [Works/naruto-shippuden.md](Works/naruto-shippuden.md) |
 | One Piece | work | animation | narrative, world-building, long-form-structure, found-family | canon | [Works/one-piece.md](Works/one-piece.md) |
 | Renaissance | work | music | sound-design, Black-joy, house-culture, precision-as-freedom | canon | [Works/renaissance-beyonce.md](Works/renaissance-beyonce.md) |
+| Roka Akor | work | restaurant, japanese | robatayaki, japanese, moody-dining, hospitality | canon | [Works/roka-akor.md](Works/roka-akor.md) |
 | Scarface | work | film | narrative, ambition-and-hubris, cost-of-the-climb, dramatic-inevitability | canon | [Works/scarface.md](Works/scarface.md) |
 | Selena | work | film | narrative, cultural-identity, crossover-ambition, legacy | canon | [Works/selena-film.md](Works/selena-film.md) |
 | Sex and the City | work | television | editorial, voice-and-tone, narrative, desire-and-identity | canon | [Works/sex-and-the-city.md](Works/sex-and-the-city.md) |
@@ -152,16 +211,47 @@ Full cards, grouped by type. A card link means a file exists.
 
 ### Curators
 
+Editorial and retail tastemakers.
+
 | Entity | Type | Domains | Pull for | Status | Card |
 |---|---|---|---|---|---|
+| Architectural Digest | curator | architecture, interior design, media | editorial, interiors, taste-proxy, luxury-homes | canon | [Curators/architectural-digest.md](Curators/architectural-digest.md) |
 | Dover Street Market | curator | fashion, retail | merchandising, spatial-direction, high-low, curation-strategy | canon | [Curators/dover-street-market.md](Curators/dover-street-market.md) |
 | Mr Porter | curator | fashion, menswear | menswear-curation, editorial-filter, taste-proxy, secondary-storefront | canon | [Curators/mr-porter.md](Curators/mr-porter.md) |
+
+Aesthetic styles and movements – filed as curators, with the movement or vernacular standing as the tastemaking context.
+
+| Entity | Type | Domains | Pull for | Status | Card |
+|---|---|---|---|---|---|
+| Biophilic | curator | architecture, interior design, landscape | biophilic, nature-integration, greenery, wellbeing | canon | [Curators/biophilic.md](Curators/biophilic.md) |
+| Brownstone | curator | architecture, interior design, urbanism | historical-fabric, urban-vernacular, materiality, warmth | canon | [Curators/brownstone.md](Curators/brownstone.md) |
+| Brutalist | curator | architecture, interior design | materiality, raw-and-warm, sculptural-mass, monumental | canon | [Curators/brutalist.md](Curators/brutalist.md) |
+| French Provincial | curator | architecture, interior design | materiality, warmth, rustic-refinement, craftsmanship | active | [Curators/french-provincial.md](Curators/french-provincial.md) |
+| Industrial | curator | architecture, interior design | materiality, loft, exposed-structure, raw-and-warm | canon | [Curators/industrial.md](Curators/industrial.md) |
+| Mediterranean | curator | architecture, interior design | materiality, indoor-outdoor, warmth, color-and-light | canon | [Curators/mediterranean.md](Curators/mediterranean.md) |
+| Modern | curator | architecture, interior design | clean-line, open-plan, form-follows-function, restraint | canon | [Curators/modern.md](Curators/modern.md) |
+| Surrealism | curator | visual art, literature, film | dream-logic, the-uncanny, juxtaposition, conviction | canon | [Curators/surrealism.md](Curators/surrealism.md) |
+
+Museums and institutions – galleries and museums held as tastemaking contexts.
+
+| Entity | Type | Domains | Pull for | Status | Card |
+|---|---|---|---|---|---|
+| The Guggenheim | curator | art, museum, architecture | architecture-as-destination, spatial-direction, modern-art | canon | [Curators/guggenheim.md](Curators/guggenheim.md) |
+| The Hermitage Museum | curator | art, museum | scale, opulence, imperial, spatial-direction | canon | [Curators/hermitage-museum.md](Curators/hermitage-museum.md) |
+| High Museum of Art | curator | art, museum, architecture | atlanta, architecture, home-institution, art-direction | canon | [Curators/high-museum-of-art.md](Curators/high-museum-of-art.md) |
+| The Louvre | curator | art, museum | the-canon, masterpiece, antiquity, art-direction | canon | [Curators/the-louvre.md](Curators/the-louvre.md) |
+| The Metropolitan Museum of Art | curator | art, museum, fashion | breadth, juxtaposition, costume-institute, editorial | canon | [Curators/metropolitan-museum-of-art.md](Curators/metropolitan-museum-of-art.md) |
+| Musée d'Orsay | curator | art, museum | impressionism, color-and-light, adaptive-reuse, paris | canon | [Curators/musee-dorsay.md](Curators/musee-dorsay.md) |
+| Museo del Prado | curator | art, museum | old-master, spanish-masters, drama, portraiture | canon | [Curators/museo-del-prado.md](Curators/museo-del-prado.md) |
+| Museum of Modern Art (MoMA) | curator | art, museum | modern-art, canon-setting, institutional-authority | canon | [Curators/museum-of-modern-art.md](Curators/museum-of-modern-art.md) |
+| Tate Modern | curator | art, museum | contemporary, adaptive-reuse, exposed-structure, london | canon | [Curators/tate-modern.md](Curators/tate-modern.md) |
+| Vatican Museums | curator | art, museum | renaissance, sacred-art, michelangelo, spatial-direction | canon | [Curators/vatican-museums.md](Curators/vatican-museums.md) |
 
 ## Card-pending references
 
 Known references with no card yet.
 
-**Creators:** Mike Dean, Noah "40" Shebib, Kendrick Lamar, Future, Young Thug, Gustavo Piers Milton, Alexander Nguyen, Tyrod Taylor, Dr. Michael Greger, Karen Page, Andrew Dornenburg, Andy Warhol, Salvador Dali, Pablo Picasso, Donald Glover, Steven Spielberg, Martin Scorsese, Dan Harmon, Michelangelo, Gus Van Sant, Brian De Palma, Damien Chazelle, Vince Gilligan, Masashi Kishimoto, Eiichiro Oda, Michael Singer, Myron Golden, Alex Hormozi
+**Creators:** Mike Dean, Noah "40" Shebib, Kendrick Lamar, Future, Young Thug, Gustavo Piers Milton, Alexander Nguyen, Tyrod Taylor, Donald Glover, Michelangelo, Masashi Kishimoto, Eiichiro Oda, Michael Singer, Myron Golden, Alex Hormozi
 
 **Brands – fashion:** Acne Studios, Isabel Marant, Our Legacy, Ami Paris, Auralee, Common Projects, Blackstock and Weber, Goyard, Margaret Howell, Drake's, Paraboot, Alden, Brooklyn Circus, COS, Stüssy, Duke and Webster, Golden Goose, Rapha, Baserange, Vans, ARKET, Abercrombie, Lululemon
 
@@ -174,22 +264,13 @@ Known references with no card yet.
 **Brands – publishing:** Rizzoli, Taschen, Phaidon, Assouline
 
 **Brands – homeware:** Hay, Iittala, Kinto, The Conran Shop, John Derian
-
-**Brands – food and drink:** Maison Pierre Marcolini, La Maison du Chocolat, Mast Brothers, Dick Taylor, Olive and Sinclair, Jeni's Splendid Ice Creams, Burlap and Barrel, Diaspora Co, Levain Bakery, Kreation Organic, Erin McKenna's Bakery, Mariposa Baking Co, Blue Bottle Coffee, La Colombe, Kettl, Harney and Sons, Scribe Winery, Keplinger, Frog's Leap
-
 **Brands – plants and flowers:** The Sill, Bloomscape, Terrain, Urban Stems, Farmgirl Flowers
 
 **Brands – experiences and other:** Londolozi Game Reserve, Aire Ancient Baths, Bathhouse Brooklyn, Resy, MasterClass, Apple
 
-**Curators:** Goodhood, SSENSE, END., Surrealism
+**Curators:** Goodhood, SSENSE, END.
 
-**Works – albums:** Blonde, Coloring Book, Good Kid M.A.A.D City, Swimming, The Miseducation of Lauryn Hill
-
-**Works – restaurants:** Roka Akor, Bonhomia
-
-**Works – film:** Forrest Gump
-
-**Works – fragrances:** Millesime Imperial, Bal d'Afrique, Baccarat Rouge 540 Extrait, Oud Ispahan, The One, Young Rose, Lafayette Street, L'Homme a la Rose
+**Works – albums:** Blonde, Coloring Book, Good Kid M.A.A.D City, Swimming, The Miseducation of Lauryn Hill**Works – fragrances:** Millesime Imperial, Bal d'Afrique, Baccarat Rouge 540 Extrait, Oud Ispahan, The One, Young Rose, Lafayette Street, L'Homme a la Rose
 
 ---
 
