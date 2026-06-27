@@ -544,7 +544,7 @@ Loewe, Acne Studios, Isabel Marant, Lemaire, Our Legacy, Ami Paris, Auralee, Com
 
 ### Fashion – Mid ($80-$300)
 
-Aime Leon Dore, Brooklyn Circus, COS, Stussy, Duke and Webster, Ralph Lauren (Purple Label / RRL / main line – avoid logo-heavy), Golden Goose (sneakers only), Nike (ACG, Tech Fleece, Dunks, AF1s – selectively), Rapha (cycling), Baserange
+Aime Leon Dore, Brooklyn Circus, COS, Stussy, Duke and Dexter, Ralph Lauren (Purple Label / RRL / main line – avoid logo-heavy), Golden Goose (sneakers only), Nike (ACG, Tech Fleece, Dunks, AF1s – selectively), Rapha (cycling), Baserange
 
 ### Fashion – Foundation (under $80)
 
@@ -556,7 +556,7 @@ Lululemon: gym and activewear only. Urban Outfitters: removed.
 
 ### Curators and Retailers
 
-Mr Porter, Dover Street Market, Goodhood, SSENSE, END., MatchesFashion. Editorial buyers whose filter already matches the taste. When a specific brand is not carried directly, these are the reliable secondary storefronts.
+Mr Porter, Dover Street Market, Goodhood, SSENSE, END. Editorial buyers whose filter already matches the taste. When a specific brand is not carried directly, these are the reliable secondary storefronts.
 
 ### Fragrance
 

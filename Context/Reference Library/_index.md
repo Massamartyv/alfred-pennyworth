@@ -2,7 +2,7 @@
 file_type: reference_library_index
 scope: personal
 created: 2026-06-21
-last_updated: 2026-06-24
+last_updated: 2026-06-27
 ---
 
 # Reference Library
@@ -95,7 +95,9 @@ Full cards, grouped by type. A card link means a file exists.
 |---|---|---|---|---|---|
 | Alberto Kalach | creator | architecture, urbanism, landscape | biophilic, materiality, spatial-direction, nature-integration | canon | [Creators/alberto-kalach.md](Creators/alberto-kalach.md) |
 | Alex Guarnaschelli | creator | culinary, restaurants | french-technique, comfort-food, precision, hospitality | canon | [Creators/alex-guarnaschelli.md](Creators/alex-guarnaschelli.md) |
+| Alexander Nguyen | creator | fashion | minimalism, texture, quiet-luxury, fashion | watch | [Creators/alexander-nguyen.md](Creators/alexander-nguyen.md) |
 | André 3000 | creator | music, fashion, film | voice-and-tone, reinvention, restraint | canon | [Creators/andre-3000.md](Creators/andre-3000.md) |
+| André Leon Talley | creator | fashion, editorial, media | editorial, taste-authority, voice-and-tone, fashion-as-culture | canon | [Creators/andre-leon-talley.md](Creators/andre-leon-talley.md) |
 | Andy Warhol | creator | visual art, film, pop culture | high-low, icon-making, repetition, art-direction | canon | [Creators/andy-warhol.md](Creators/andy-warhol.md) |
 | Anthony Bourdain | creator | food, travel, culture | narrative, taste-compass, hospitality, food-culture | canon | [Creators/anthony-bourdain.md](Creators/anthony-bourdain.md) |
 | A$AP Rocky | creator | fashion, music | art-direction, high-low, layering direction, oversized-silhouette | canon | [Creators/asap-rocky.md](Creators/asap-rocky.md) |
@@ -109,11 +111,13 @@ Full cards, grouped by type. A card link means a file exists.
 | Colman Domingo | creator | fashion, acting | art-direction, restraint, materiality, statement-with-control | canon | [Creators/colman-domingo.md](Creators/colman-domingo.md) |
 | Damien Chazelle | creator | film, directing | obsession, cost-of-greatness, music-and-rhythm, kinetic | canon | [Creators/damien-chazelle.md](Creators/damien-chazelle.md) |
 | Dan Harmon | creator | television, writing | narrative-structure, story-circle, world-building, voice-and-tone | canon | [Creators/dan-harmon.md](Creators/dan-harmon.md) |
+| Dries Van Noten | creator | fashion | print, textile, antwerp-six, fabric-first | canon | [Creators/dries-van-noten.md](Creators/dries-van-noten.md) |
 | Eddie Jackson | creator | culinary, restaurants | athlete-to-chef, southern, bbq, discipline | canon | [Creators/eddie-jackson.md](Creators/eddie-jackson.md) |
 | Eric Adjepong | creator | culinary, restaurants | west-african, diaspora, forward-looking-heritage, cultural-bridge | canon | [Creators/eric-adjepong.md](Creators/eric-adjepong.md) |
 | Frank Lloyd Wright | creator | architecture, interior design, furniture | spatial-direction, materiality, nature-integration, total-design | canon | [Creators/frank-lloyd-wright.md](Creators/frank-lloyd-wright.md) |
 | Frank Ocean | creator | music, production, aesthetics | sound-design, voice-and-tone, restraint, nostalgia-as-texture | canon | [Creators/frank-ocean.md](Creators/frank-ocean.md) |
 | Gus Van Sant | creator | film, directing | emotional-restraint, outsiders, naturalism, character-study | canon | [Creators/gus-van-sant.md](Creators/gus-van-sant.md) |
+| Gustavo Piers Milton | creator | fashion | editorial-risk, avant-garde, proportion-play, fashion | watch | [Creators/gustavo-piers-milton.md](Creators/gustavo-piers-milton.md) |
 | James Cameron | creator | film, directing, technology | world-building, immersive-atmosphere, spectacle, technical-innovation | canon | [Creators/james-cameron.md](Creators/james-cameron.md) |
 | Jean-Michel Basquiat | creator | visual art | visual-direction, art-direction, rawness, street-to-gallery | canon | [Creators/jean-michel-basquiat.md](Creators/jean-michel-basquiat.md) |
 | Jet Tila | creator | culinary, restaurants | thai-cuisine, pan-asian, heritage, cultural-custodian | canon | [Creators/jet-tila.md](Creators/jet-tila.md) |
@@ -138,7 +142,9 @@ Full cards, grouped by type. A card link means a file exists.
 | Steven Spielberg | creator | film, directing | wonder, populist-craft, world-building, spectacle | canon | [Creators/steven-spielberg.md](Creators/steven-spielberg.md) |
 | Takashi Murakami | creator | visual art, fashion | high-low, art-fashion, collaboration, anime-iconography | canon | [Creators/takashi-murakami.md](Creators/takashi-murakami.md) |
 | Travis Scott | creator | music, production, world-building | world-building, sound-design, immersive-atmosphere, narrative | canon | [Creators/travis-scott.md](Creators/travis-scott.md) |
+| Tyler Durden | creator | fashion | anti-style, maximalist, high-low, statement | canon | [Creators/tyler-durden.md](Creators/tyler-durden.md) |
 | Tyler, the Creator | creator | music | taste-evolution, reinvention, creative-risk, craft-over-brand | canon | [Creators/tyler-the-creator.md](Creators/tyler-the-creator.md) |
+| Tyrod Taylor | creator | fashion | athletic-tailoring, fitted-silhouette, americana, fashion | canon | [Creators/tyrod-taylor.md](Creators/tyrod-taylor.md) |
 | Vince Gilligan | creator | television, writing | long-form-structure, moral-transformation, slow-burn, consequence | canon | [Creators/vince-gilligan.md](Creators/vince-gilligan.md) |
 | Virgil Abloh | creator | interior design, fashion, architecture | spatial-direction, art-direction, restraint, negative-space | canon | [Creators/virgil-abloh.md](Creators/virgil-abloh.md) |
 | Yayoi Kusama | creator | visual art | repetition, visual-system, immersive-atmosphere, world-building | canon | [Creators/yayoi-kusama.md](Creators/yayoi-kusama.md) |
@@ -147,17 +153,35 @@ Full cards, grouped by type. A card link means a file exists.
 
 | Entity | Type | Domains | Pull for | Status | Card |
 |---|---|---|---|---|---|
+| Abercrombie | brand | fashion | rebrand, elevated-basics, americana, foundation-fashion | canon | [Brands/abercrombie.md](Brands/abercrombie.md) |
+| Acne Studios | brand | fashion | scandinavian, minimalism, denim, subversive | canon | [Brands/acne-studios.md](Brands/acne-studios.md) |
 | Aesop | brand | grooming, interior design | design-conscious, ritual, restraint, interior-integration | canon | [Brands/aesop.md](Brands/aesop.md) |
 | Aimé Leon Dore | brand | fashion, streetwear | streetwear, high-low, world-building, cultural-credibility | canon | [Brands/aime-leon-dore.md](Brands/aime-leon-dore.md) |
+| Alden | brand | footwear, fashion | american, heritage, shell-cordovan, footwear | canon | [Brands/alden.md](Brands/alden.md) |
+| Ami Paris | brand | fashion | parisian, accessible-luxury, everyday-chic, restraint | canon | [Brands/ami-paris.md](Brands/ami-paris.md) |
+| ARKET | brand | fashion, homeware | scandinavian, basics, market-hall, accessible | canon | [Brands/arket.md](Brands/arket.md) |
+| Auralee | brand | fashion | japanese, fabric-first, quiet-luxury, materiality | canon | [Brands/auralee.md](Brands/auralee.md) |
+| Baserange | brand | fashion | natural-fibre, sustainability, basics, restraint | canon | [Brands/baserange.md](Brands/baserange.md) |
+| Blackstock and Weber | brand | footwear, fashion | loafer, americana-reimagined, statement, footwear | canon | [Brands/blackstock-and-weber.md](Brands/blackstock-and-weber.md) |
 | Blue Bottle Coffee | brand | coffee | third-wave, freshness-first, minimalism, craft | canon | [Brands/blue-bottle-coffee.md](Brands/blue-bottle-coffee.md) |
+| Brooklyn Circus | brand | fashion | americana, heritage, storytelling, high-low | canon | [Brands/brooklyn-circus.md](Brands/brooklyn-circus.md) |
 | Buly 1803 | brand | fragrance, grooming | heritage-craft, apothecary, world-building, ritual | canon | [Brands/buly-1803.md](Brands/buly-1803.md) |
 | Burlap and Barrel | brand | spices, pantry | single-origin, provenance, direct-trade, ethics | canon | [Brands/burlap-and-barrel.md](Brands/burlap-and-barrel.md) |
+| Celine | brand | fashion, leather goods | quiet-luxury, restraint, parisian, minimalism | canon | [Brands/celine.md](Brands/celine.md) |
+| Common Projects | brand | footwear, fashion | minimalism, sneaker, gold-stamp, restraint | canon | [Brands/common-projects.md](Brands/common-projects.md) |
+| COS | brand | fashion | minimalism, architectural, accessible, restraint | canon | [Brands/cos.md](Brands/cos.md) |
 | Diaspora Co. | brand | spices, pantry | single-origin, equity, anti-colonial, brand-identity | canon | [Brands/diaspora-co.md](Brands/diaspora-co.md) |
 | Dick Taylor | brand | chocolate | single-origin, maker-craft, materiality, two-ingredient | canon | [Brands/dick-taylor.md](Brands/dick-taylor.md) |
+| Drake's | brand | fashion | british, tailoring, sprezzatura, menswear | canon | [Brands/drakes.md](Brands/drakes.md) |
+| Duke and Dexter | brand | footwear, fashion | loafer, velvet, british, statement | canon | [Brands/duke-and-dexter.md](Brands/duke-and-dexter.md) |
 | Erin McKenna's Bakery | brand | bakery | vegan, gluten-free, allergen-free, no-compromise | canon | [Brands/erin-mckennas-bakery.md](Brands/erin-mckennas-bakery.md) |
 | Frog's Leap | brand | wine | organic, dry-farmed, sustainability, new-world | canon | [Brands/frogs-leap.md](Brands/frogs-leap.md) |
+| Golden Goose | brand | footwear, fashion | sneaker, distressed, italian, statement | canon | [Brands/golden-goose.md](Brands/golden-goose.md) |
+| Goyard | brand | fashion, accessories, travel | heritage, discreet-luxury, accessories, travel | canon | [Brands/goyard.md](Brands/goyard.md) |
 | Harney and Sons | brand | tea | fine-tea, blending, family-craft, accessible-luxury | canon | [Brands/harney-and-sons.md](Brands/harney-and-sons.md) |
 | Hermès | brand | fashion, accessories, homeware | investment-luxury, craft-led, cross-category, accessories | canon | [Brands/hermes.md](Brands/hermes.md) |
+| House of Nangman | brand | fashion, accessories | naming, narrative, headwear, sentiment-led | active | [Brands/house-of-nangman.md](Brands/house-of-nangman.md) |
+| Isabel Marant | brand | fashion | parisian, effortless, bohemian, sprezzatura | canon | [Brands/isabel-marant.md](Brands/isabel-marant.md) |
 | Jeni's Splendid Ice Creams | brand | ice cream, dessert | flavor-invention, technique, artisan, craft | canon | [Brands/jenis-splendid-ice-creams.md](Brands/jenis-splendid-ice-creams.md) |
 | Keplinger | brand | wine | cult-wine, rhone-varietals, small-production, terroir | canon | [Brands/keplinger.md](Brands/keplinger.md) |
 | Kettl | brand | tea | japanese-tea, single-origin, provenance, seasonality | canon | [Brands/kettl.md](Brands/kettl.md) |
@@ -168,17 +192,30 @@ Full cards, grouped by type. A card link means a file exists.
 | Levain Bakery | brand | bakery, dessert | signature-product, cult-object, indulgence, craft | canon | [Brands/levain-bakery.md](Brands/levain-bakery.md) |
 | Liverpool FC | brand | sports, identity, culture | tribal-identity, unambiguous-loyalty, cultural-affiliation, world-building | canon | [Brands/liverpool-fc.md](Brands/liverpool-fc.md) |
 | Loewe | brand | fashion, leather goods | investment-luxury, craft-led, materiality, artistic-direction | canon | [Brands/loewe.md](Brands/loewe.md) |
+| Louis Vuitton | brand | fashion, leather goods, fragrance | investment-luxury, high-low, world-building, craft-led | canon | [Brands/louis-vuitton.md](Brands/louis-vuitton.md) |
+| Lululemon | brand | activewear, fashion | activewear, technical, performance, repositioned | canon | [Brands/lululemon.md](Brands/lululemon.md) |
 | Maison Pierre Marcolini | brand | chocolate | haute-chocolate, craft-led, seasonality, provenance | canon | [Brands/maison-pierre-marcolini.md](Brands/maison-pierre-marcolini.md) |
+| Mango | brand | fashion | high-street, mediterranean, accessible, foundation-fashion | canon | [Brands/mango.md](Brands/mango.md) |
+| Margaret Howell | brand | fashion | british, utility, restraint, fabric-first | canon | [Brands/margaret-howell.md](Brands/margaret-howell.md) |
 | Mariposa Baking Co. | brand | bakery | gluten-free, no-compromise, artisan, dedicated-facility | canon | [Brands/mariposa-baking-co.md](Brands/mariposa-baking-co.md) |
 | Mast Brothers | brand | chocolate | packaging-design, craft-aesthetics, brand-storytelling, cautionary | watch | [Brands/mast-brothers.md](Brands/mast-brothers.md) |
+| Moscot | brand | eyewear, accessories | eyewear, heritage, new-york, craft | canon | [Brands/moscot.md](Brands/moscot.md) |
 | Nayara Springs | brand | travel, hospitality, experiences | five-star-hospitality, pinnacle-standard, experience-design, ritual | canon | [Brands/nayara-springs.md](Brands/nayara-springs.md) |
 | Nike | brand | fashion, footwear, athletics | selective-alignment, sub-line-curation, sneaker, high-low | canon | [Brands/nike.md](Brands/nike.md) |
 | Olive and Sinclair | brand | chocolate | southern, place-rooted, craft, bean-to-bar | canon | [Brands/olive-and-sinclair.md](Brands/olive-and-sinclair.md) |
+| Our Legacy | brand | fashion | scandinavian, fabric-first, textured, restraint | canon | [Brands/our-legacy.md](Brands/our-legacy.md) |
+| Paraboot | brand | footwear, fashion | french, heritage, footwear, craft | canon | [Brands/paraboot.md](Brands/paraboot.md) |
+| Prada | brand | fashion, leather goods | intellectual-fashion, restraint, materiality, anti-pretty | canon | [Brands/prada.md](Brands/prada.md) |
 | Ralph Lauren | brand | fashion | americana, quiet-luxury, tiered-curation, logo-avoidance | canon | [Brands/ralph-lauren.md](Brands/ralph-lauren.md) |
+| Rapha | brand | cycling, fashion | cycling, performance, premium, community | canon | [Brands/rapha.md](Brands/rapha.md) |
+| Rieti | brand | eyewear, accessories | eyewear, korean, accessible-cool, detail | active | [Brands/rieti.md](Brands/rieti.md) |
 | Santa Maria Novella | brand | fragrance, grooming | heritage-craft, apothecary, cross-category, ritual | canon | [Brands/santa-maria-novella.md](Brands/santa-maria-novella.md) |
 | Scribe Winery | brand | wine | natural-wine, place-as-experience, minimal-intervention, new-world | canon | [Brands/scribe-winery.md](Brands/scribe-winery.md) |
 | Singita | brand | travel, hospitality, conservation | five-star-hospitality, conservation-luxury, sense-of-place, ritual | canon | [Brands/singita.md](Brands/singita.md) |
+| Stüssy | brand | fashion, streetwear | streetwear, surf, heritage, high-low | canon | [Brands/stussy.md](Brands/stussy.md) |
 | Uniqlo | brand | fashion | foundation-fashion, quality-basics, anti-logo, restraint | canon | [Brands/uniqlo.md](Brands/uniqlo.md) |
+| Vans | brand | footwear, fashion | skate, heritage, foundation-fashion, high-low | canon | [Brands/vans.md](Brands/vans.md) |
+| Yves Saint Laurent | brand | fashion | tailoring, androgyny, parisian, statement | canon | [Brands/yves-saint-laurent.md](Brands/yves-saint-laurent.md) |
 
 ### Works
 
@@ -251,11 +288,8 @@ Museums and institutions – galleries and museums held as tastemaking contexts.
 
 Known references with no card yet.
 
-**Creators:** Mike Dean, Noah "40" Shebib, Kendrick Lamar, Future, Young Thug, Gustavo Piers Milton, Alexander Nguyen, Tyrod Taylor, Donald Glover, Michelangelo, Masashi Kishimoto, Eiichiro Oda, Michael Singer, Myron Golden, Alex Hormozi
-
-**Brands – fashion:** Acne Studios, Isabel Marant, Our Legacy, Ami Paris, Auralee, Common Projects, Blackstock and Weber, Goyard, Margaret Howell, Drake's, Paraboot, Alden, Brooklyn Circus, COS, Stüssy, Duke and Webster, Golden Goose, Rapha, Baserange, Vans, ARKET, Abercrombie, Lululemon
-
-**Brands – fragrance:** Xerjoff, Creed, Byredo, Maison Francis Kurkdjian, Clive Christian, Maison Crivelli, Dolce and Gabbana, Bond No 9, Dior, Louis Vuitton, Bottega Veneta, Le Labo, Diptyque, Cire Trudon
+**Creators:** Mike Dean, Noah "40" Shebib, Kendrick Lamar, Future, Young Thug, Donald Glover, Michelangelo, Masashi Kishimoto, Eiichiro Oda, Michael Singer, Myron Golden, Alex Hormozi
+**Brands – fragrance:** Xerjoff, Creed, Byredo, Maison Francis Kurkdjian, Clive Christian, Maison Crivelli, Dolce and Gabbana, Bond No 9, Dior, Bottega Veneta, Le Labo, Diptyque, Cire Trudon
 
 **Brands – grooming:** Dr. Bronner's, Nubian Heritage, Kiehl's, Cecred, Salt and Stone, Innersense
 
