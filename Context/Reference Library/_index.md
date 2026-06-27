@@ -111,6 +111,7 @@ Full cards, grouped by type. A card link means a file exists.
 | Colman Domingo | creator | fashion, acting | art-direction, restraint, materiality, statement-with-control | canon | [Creators/colman-domingo.md](Creators/colman-domingo.md) |
 | Damien Chazelle | creator | film, directing | obsession, cost-of-greatness, music-and-rhythm, kinetic | canon | [Creators/damien-chazelle.md](Creators/damien-chazelle.md) |
 | Dan Harmon | creator | television, writing | narrative-structure, story-circle, world-building, voice-and-tone | canon | [Creators/dan-harmon.md](Creators/dan-harmon.md) |
+| Do Ho Suh | creator | installation, sculpture, architecture | spatial-memory, fabric-architecture, displacement, home | canon | [Creators/do-ho-suh.md](Creators/do-ho-suh.md) |
 | Dries Van Noten | creator | fashion | print, textile, antwerp-six, fabric-first | canon | [Creators/dries-van-noten.md](Creators/dries-van-noten.md) |
 | Eddie Jackson | creator | culinary, restaurants | athlete-to-chef, southern, bbq, discipline | canon | [Creators/eddie-jackson.md](Creators/eddie-jackson.md) |
 | Eric Adjepong | creator | culinary, restaurants | west-african, diaspora, forward-looking-heritage, cultural-bridge | canon | [Creators/eric-adjepong.md](Creators/eric-adjepong.md) |
@@ -228,10 +229,12 @@ Full cards, grouped by type. A card link means a file exists.
 | Building Frame of the House | work | architecture, residential | materiality, spatial-direction, structural-honesty, small-space-ingenuity | canon | [Works/building-frame-of-the-house.md](Works/building-frame-of-the-house.md) |
 | Dallas Buyers Club | work | film | transformation, defiance, total-commitment, against-the-system | canon | [Works/dallas-buyers-club.md](Works/dallas-buyers-club.md) |
 | Django Unchained | work | film | narrative, genre-inversion, style-as-resistance, power-and-identity | canon | [Works/django-unchained.md](Works/django-unchained.md) |
+| Dromeas (The Runner) | work | sculpture, public art | glass, motion, materiality, public-sculpture | canon | [Works/dromeas.md](Works/dromeas.md) |
 | Everything Everywhere All at Once | work | film | narrative, tonal-range, formal-experimentation, emotional-honesty | canon | [Works/everything-everywhere-all-at-once.md](Works/everything-everywhere-all-at-once.md) |
 | Fallingwater | work | architecture, residential | nature-integration, materiality, spatial-direction, restraint | canon | [Works/fallingwater.md](Works/fallingwater.md) |
 | Forrest Gump | work | film | innocence-as-wisdom, americana, sentiment, history | canon | [Works/forrest-gump.md](Works/forrest-gump.md) |
 | Good Will Hunting | work | film | narrative, emotional-suppression, cost-of-greatness, mentor-dynamics | canon | [Works/good-will-hunting.md](Works/good-will-hunting.md) |
+| Holocaust Memorial Miami Beach | work | architecture, memorial, sculpture | memorial, monumental, emotional-weight, spatial-direction | canon | [Works/holocaust-memorial-miami-beach.md](Works/holocaust-memorial-miami-beach.md) |
 | Homegoing | work | literature | narrative, structure-as-argument, diaspora, historical-weight | canon | [Works/homegoing-yaa-gyasi.md](Works/homegoing-yaa-gyasi.md) |
 | Menace II Society | work | film | hood-realism, coming-of-age, fatalism, black-cinema | canon | [Works/menace-ii-society.md](Works/menace-ii-society.md) |
 | My Beautiful Dark Twisted Fantasy | work | music | sound-design, world-building, maximalism, ambition-as-form | canon | [Works/my-beautiful-dark-twisted-fantasy.md](Works/my-beautiful-dark-twisted-fantasy.md) |
@@ -244,6 +247,7 @@ Full cards, grouped by type. A card link means a file exists.
 | Sex and the City | work | television | editorial, voice-and-tone, narrative, desire-and-identity | canon | [Works/sex-and-the-city.md](Works/sex-and-the-city.md) |
 | Sex Education | work | television | voice-and-tone, vulnerability, community-dynamics, British-comedic-lens | canon | [Works/sex-education.md](Works/sex-education.md) |
 | The Fresh Prince of Bel-Air | work | television | voice-and-tone, code-switching, cultural-identity, humor-as-armor | canon | [Works/fresh-prince-of-bel-air.md](Works/fresh-prince-of-bel-air.md) |
+| Ushiku Daibutsu | work | architecture, monument, sculpture | monumental, inhabitable-sculpture, scale, spatial-direction | canon | [Works/ushiku-daibutsu.md](Works/ushiku-daibutsu.md) |
 | Whiplash | work | film | narrative, pacing, cost-of-greatness | canon | [Works/whiplash.md](Works/whiplash.md) |
 
 ### Curators
