@@ -168,11 +168,13 @@ Full cards, grouped by type. A card link means a file exists.
 | Brooklyn Circus | brand | fashion | americana, heritage, storytelling, high-low | canon | [Brands/brooklyn-circus.md](Brands/brooklyn-circus.md) |
 | Buly 1803 | brand | fragrance, grooming | heritage-craft, apothecary, world-building, ritual | canon | [Brands/buly-1803.md](Brands/buly-1803.md) |
 | Burlap and Barrel | brand | spices, pantry | single-origin, provenance, direct-trade, ethics | canon | [Brands/burlap-and-barrel.md](Brands/burlap-and-barrel.md) |
+| Cécred | brand | haircare, personal care | haircare, prestige, ownership-as-strategy | canon | [Brands/cecred.md](Brands/cecred.md) |
 | Celine | brand | fashion, leather goods | quiet-luxury, restraint, parisian, minimalism | canon | [Brands/celine.md](Brands/celine.md) |
 | Common Projects | brand | footwear, fashion | minimalism, sneaker, gold-stamp, restraint | canon | [Brands/common-projects.md](Brands/common-projects.md) |
 | COS | brand | fashion | minimalism, architectural, accessible, restraint | canon | [Brands/cos.md](Brands/cos.md) |
 | Diaspora Co. | brand | spices, pantry | single-origin, equity, anti-colonial, brand-identity | canon | [Brands/diaspora-co.md](Brands/diaspora-co.md) |
 | Dick Taylor | brand | chocolate | single-origin, maker-craft, materiality, two-ingredient | canon | [Brands/dick-taylor.md](Brands/dick-taylor.md) |
+| Dr. Bronner's | brand | personal care, soap | castile-soap, values-led, heritage | canon | [Brands/dr-bronners.md](Brands/dr-bronners.md) |
 | Drake's | brand | fashion | british, tailoring, sprezzatura, menswear | canon | [Brands/drakes.md](Brands/drakes.md) |
 | Duke and Dexter | brand | footwear, fashion | loafer, velvet, british, statement | canon | [Brands/duke-and-dexter.md](Brands/duke-and-dexter.md) |
 | Erin McKenna's Bakery | brand | bakery | vegan, gluten-free, allergen-free, no-compromise | canon | [Brands/erin-mckennas-bakery.md](Brands/erin-mckennas-bakery.md) |
@@ -182,10 +184,12 @@ Full cards, grouped by type. A card link means a file exists.
 | Harney and Sons | brand | tea | fine-tea, blending, family-craft, accessible-luxury | canon | [Brands/harney-and-sons.md](Brands/harney-and-sons.md) |
 | Hermès | brand | fashion, accessories, homeware | investment-luxury, craft-led, cross-category, accessories | canon | [Brands/hermes.md](Brands/hermes.md) |
 | House of Nangman | brand | fashion, accessories | naming, narrative, headwear, sentiment-led | active | [Brands/house-of-nangman.md](Brands/house-of-nangman.md) |
+| Innersense | brand | haircare, personal care | clean-haircare, salon-led, professional-grade | canon | [Brands/innersense.md](Brands/innersense.md) |
 | Isabel Marant | brand | fashion | parisian, effortless, bohemian, sprezzatura | canon | [Brands/isabel-marant.md](Brands/isabel-marant.md) |
 | Jeni's Splendid Ice Creams | brand | ice cream, dessert | flavor-invention, technique, artisan, craft | canon | [Brands/jenis-splendid-ice-creams.md](Brands/jenis-splendid-ice-creams.md) |
 | Keplinger | brand | wine | cult-wine, rhone-varietals, small-production, terroir | canon | [Brands/keplinger.md](Brands/keplinger.md) |
 | Kettl | brand | tea | japanese-tea, single-origin, provenance, seasonality | canon | [Brands/kettl.md](Brands/kettl.md) |
+| Kiehl's | brand | skincare, personal care | apothecary, heritage, formulation | canon | [Brands/kiehls.md](Brands/kiehls.md) |
 | Kreation Organic | brand | juice, cafe, wellness | organic, cold-pressed, wellness, ritual | canon | [Brands/kreation-organic.md](Brands/kreation-organic.md) |
 | La Colombe | brand | coffee | specialty-coffee, product-innovation, sourcing, scale | canon | [Brands/la-colombe.md](Brands/la-colombe.md) |
 | La Maison du Chocolat | brand | chocolate | ganache, french-luxury, restraint, heritage | canon | [Brands/la-maison-du-chocolat.md](Brands/la-maison-du-chocolat.md) |
@@ -203,6 +207,7 @@ Full cards, grouped by type. A card link means a file exists.
 | Moscot | brand | eyewear, accessories | eyewear, heritage, new-york, craft | canon | [Brands/moscot.md](Brands/moscot.md) |
 | Nayara Springs | brand | travel, hospitality, experiences | five-star-hospitality, pinnacle-standard, experience-design, ritual | canon | [Brands/nayara-springs.md](Brands/nayara-springs.md) |
 | Nike | brand | fashion, footwear, athletics | selective-alignment, sub-line-curation, sneaker, high-low | canon | [Brands/nike.md](Brands/nike.md) |
+| Nubian Heritage | brand | bath and body, personal care | heritage, african-black-soap, diaspora | canon | [Brands/nubian-heritage.md](Brands/nubian-heritage.md) |
 | Olive and Sinclair | brand | chocolate | southern, place-rooted, craft, bean-to-bar | canon | [Brands/olive-and-sinclair.md](Brands/olive-and-sinclair.md) |
 | Our Legacy | brand | fashion | scandinavian, fabric-first, textured, restraint | canon | [Brands/our-legacy.md](Brands/our-legacy.md) |
 | Paraboot | brand | footwear, fashion | french, heritage, footwear, craft | canon | [Brands/paraboot.md](Brands/paraboot.md) |
@@ -210,6 +215,7 @@ Full cards, grouped by type. A card link means a file exists.
 | Ralph Lauren | brand | fashion | americana, quiet-luxury, tiered-curation, logo-avoidance | canon | [Brands/ralph-lauren.md](Brands/ralph-lauren.md) |
 | Rapha | brand | cycling, fashion | cycling, performance, premium, community | canon | [Brands/rapha.md](Brands/rapha.md) |
 | Rieti | brand | eyewear, accessories | eyewear, korean, accessible-cool, detail | active | [Brands/rieti.md](Brands/rieti.md) |
+| Salt and Stone | brand | deodorant, skincare | deodorant, elevated-design, fragrance-led | canon | [Brands/salt-and-stone.md](Brands/salt-and-stone.md) |
 | Santa Maria Novella | brand | fragrance, grooming | heritage-craft, apothecary, cross-category, ritual | canon | [Brands/santa-maria-novella.md](Brands/santa-maria-novella.md) |
 | Scribe Winery | brand | wine | natural-wine, place-as-experience, minimal-intervention, new-world | canon | [Brands/scribe-winery.md](Brands/scribe-winery.md) |
 | Singita | brand | travel, hospitality, conservation | five-star-hospitality, conservation-luxury, sense-of-place, ritual | canon | [Brands/singita.md](Brands/singita.md) |
@@ -294,9 +300,6 @@ Known references with no card yet.
 
 **Creators:** Mike Dean, Noah "40" Shebib, Kendrick Lamar, Future, Young Thug, Donald Glover, Michelangelo, Masashi Kishimoto, Eiichiro Oda, Michael Singer, Myron Golden, Alex Hormozi
 **Brands – fragrance:** Xerjoff, Creed, Byredo, Maison Francis Kurkdjian, Clive Christian, Maison Crivelli, Dolce and Gabbana, Bond No 9, Dior, Bottega Veneta, Le Labo, Diptyque, Cire Trudon
-
-**Brands – grooming:** Dr. Bronner's, Nubian Heritage, Kiehl's, Cecred, Salt and Stone, Innersense
-
 **Brands – stationery and analog:** Leuchtturm1917, Midori, Kaweco, Stalogy, Rhodia, Blackwing, Smythson
 
 **Brands – publishing:** Rizzoli, Taschen, Phaidon, Assouline
