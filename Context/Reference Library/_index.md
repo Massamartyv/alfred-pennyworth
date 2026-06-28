@@ -2,7 +2,7 @@
 file_type: reference_library_index
 scope: personal
 created: 2026-06-21
-last_updated: 2026-06-27
+last_updated: 2026-06-28
 ---
 
 # Reference Library
@@ -165,15 +165,24 @@ Full cards, grouped by type. A card link means a file exists.
 | Baserange | brand | fashion | natural-fibre, sustainability, basics, restraint | canon | [Brands/baserange.md](Brands/baserange.md) |
 | Blackstock and Weber | brand | footwear, fashion | loafer, americana-reimagined, statement, footwear | canon | [Brands/blackstock-and-weber.md](Brands/blackstock-and-weber.md) |
 | Blue Bottle Coffee | brand | coffee | third-wave, freshness-first, minimalism, craft | canon | [Brands/blue-bottle-coffee.md](Brands/blue-bottle-coffee.md) |
+| Bond No. 9 | brand | fragrance | niche, new-york, place-as-concept, collectible | canon | [Brands/bond-no-9.md](Brands/bond-no-9.md) |
+| Bottega Veneta | brand | fragrance | designer-fragrance, quiet-luxury, leather, restraint | canon | [Brands/bottega-veneta.md](Brands/bottega-veneta.md) |
 | Brooklyn Circus | brand | fashion | americana, heritage, storytelling, high-low | canon | [Brands/brooklyn-circus.md](Brands/brooklyn-circus.md) |
 | Buly 1803 | brand | fragrance, grooming | heritage-craft, apothecary, world-building, ritual | canon | [Brands/buly-1803.md](Brands/buly-1803.md) |
 | Burlap and Barrel | brand | spices, pantry | single-origin, provenance, direct-trade, ethics | canon | [Brands/burlap-and-barrel.md](Brands/burlap-and-barrel.md) |
+| Byredo | brand | fragrance | niche, memory-and-mood, art-direction, abstract | canon | [Brands/byredo.md](Brands/byredo.md) |
 | Cécred | brand | haircare, personal care | haircare, prestige, ownership-as-strategy | canon | [Brands/cecred.md](Brands/cecred.md) |
 | Celine | brand | fashion, leather goods | quiet-luxury, restraint, parisian, minimalism | canon | [Brands/celine.md](Brands/celine.md) |
+| Cire Trudon | brand | fragrance | heritage, candle-house, lineage, restraint | canon | [Brands/cire-trudon.md](Brands/cire-trudon.md) |
+| Clive Christian | brand | fragrance | ultra-luxury, rare-ingredient, opulence, british-heritage | canon | [Brands/clive-christian.md](Brands/clive-christian.md) |
 | Common Projects | brand | footwear, fashion | minimalism, sneaker, gold-stamp, restraint | canon | [Brands/common-projects.md](Brands/common-projects.md) |
 | COS | brand | fashion | minimalism, architectural, accessible, restraint | canon | [Brands/cos.md](Brands/cos.md) |
+| Creed | brand | fragrance | niche, heritage-coded, status-scent, masculine | canon | [Brands/creed.md](Brands/creed.md) |
 | Diaspora Co. | brand | spices, pantry | single-origin, equity, anti-colonial, brand-identity | canon | [Brands/diaspora-co.md](Brands/diaspora-co.md) |
 | Dick Taylor | brand | chocolate | single-origin, maker-craft, materiality, two-ingredient | canon | [Brands/dick-taylor.md](Brands/dick-taylor.md) |
+| Dior | brand | fragrance | prestige-niche, collection-privee, couture, maison | canon | [Brands/dior.md](Brands/dior.md) |
+| Diptyque | brand | fragrance | heritage, candle-and-scent, botanical, restraint | canon | [Brands/diptyque.md](Brands/diptyque.md) |
+| Dolce and Gabbana | brand | fragrance | designer-fragrance, mediterranean, italian, accessible-luxury | canon | [Brands/dolce-and-gabbana.md](Brands/dolce-and-gabbana.md) |
 | Dr. Bronner's | brand | personal care, soap | castile-soap, values-led, heritage | canon | [Brands/dr-bronners.md](Brands/dr-bronners.md) |
 | Drake's | brand | fashion | british, tailoring, sprezzatura, menswear | canon | [Brands/drakes.md](Brands/drakes.md) |
 | Duke and Dexter | brand | footwear, fashion | loafer, velvet, british, statement | canon | [Brands/duke-and-dexter.md](Brands/duke-and-dexter.md) |
@@ -193,12 +202,15 @@ Full cards, grouped by type. A card link means a file exists.
 | Kreation Organic | brand | juice, cafe, wellness | organic, cold-pressed, wellness, ritual | canon | [Brands/kreation-organic.md](Brands/kreation-organic.md) |
 | La Colombe | brand | coffee | specialty-coffee, product-innovation, sourcing, scale | canon | [Brands/la-colombe.md](Brands/la-colombe.md) |
 | La Maison du Chocolat | brand | chocolate | ganache, french-luxury, restraint, heritage | canon | [Brands/la-maison-du-chocolat.md](Brands/la-maison-du-chocolat.md) |
+| Le Labo | brand | fragrance | niche, ritual, anti-luxury-luxury, experiential | canon | [Brands/le-labo.md](Brands/le-labo.md) |
 | Lemaire | brand | fashion | materiality, anti-logo, restraint, quiet-luxury | canon | [Brands/lemaire.md](Brands/lemaire.md) |
 | Levain Bakery | brand | bakery, dessert | signature-product, cult-object, indulgence, craft | canon | [Brands/levain-bakery.md](Brands/levain-bakery.md) |
 | Liverpool FC | brand | sports, identity, culture | tribal-identity, unambiguous-loyalty, cultural-affiliation, world-building | canon | [Brands/liverpool-fc.md](Brands/liverpool-fc.md) |
 | Loewe | brand | fashion, leather goods | investment-luxury, craft-led, materiality, artistic-direction | canon | [Brands/loewe.md](Brands/loewe.md) |
 | Louis Vuitton | brand | fashion, leather goods, fragrance | investment-luxury, high-low, world-building, craft-led | canon | [Brands/louis-vuitton.md](Brands/louis-vuitton.md) |
 | Lululemon | brand | activewear, fashion | activewear, technical, performance, repositioned | canon | [Brands/lululemon.md](Brands/lululemon.md) |
+| Maison Crivelli | brand | fragrance | niche, olfactive-shock, nature-forward, concept-led | canon | [Brands/maison-crivelli.md](Brands/maison-crivelli.md) |
+| Maison Francis Kurkdjian | brand | fragrance | haute-parfumerie, technical-precision, signature-scent, parisian | canon | [Brands/maison-francis-kurkdjian.md](Brands/maison-francis-kurkdjian.md) |
 | Maison Pierre Marcolini | brand | chocolate | haute-chocolate, craft-led, seasonality, provenance | canon | [Brands/maison-pierre-marcolini.md](Brands/maison-pierre-marcolini.md) |
 | Mango | brand | fashion | high-street, mediterranean, accessible, foundation-fashion | canon | [Brands/mango.md](Brands/mango.md) |
 | Margaret Howell | brand | fashion | british, utility, restraint, fabric-first | canon | [Brands/margaret-howell.md](Brands/margaret-howell.md) |
@@ -230,6 +242,8 @@ Full cards, grouped by type. A card link means a file exists.
 |---|---|---|---|---|---|
 | Albert Einstein Education and Research Center | work | architecture, institutional, landscape | biophilic, spatial-direction, color-and-light, atrium | canon | [Works/albert-einstein-education-research-center.md](Works/albert-einstein-education-research-center.md) |
 | Astroworld | work | music | sound-design, world-building, immersive-atmosphere, ear-candy | canon | [Works/astroworld.md](Works/astroworld.md) |
+| Baccarat Rouge 540 Extrait | work | fragrance | oriental-floral, status-scent, amber, cultural-reach | canon | [Works/baccarat-rouge-540-extrait.md](Works/baccarat-rouge-540-extrait.md) |
+| Bal d'Afrique | work | fragrance | woody-floral-musk, modern-classic, warm, gateway-niche | canon | [Works/bal-dafrique.md](Works/bal-dafrique.md) |
 | Bonhomía | work | restaurant, salumeria | salumeria, convivial, indoor-outdoor, hospitality | canon | [Works/bonhomia.md](Works/bonhomia.md) |
 | Breaking Bad | work | television | narrative, character-study, long-form-structure, pride-and-hubris | canon | [Works/breaking-bad.md](Works/breaking-bad.md) |
 | Building Frame of the House | work | architecture, residential | materiality, spatial-direction, structural-honesty, small-space-ingenuity | canon | [Works/building-frame-of-the-house.md](Works/building-frame-of-the-house.md) |
@@ -242,19 +256,27 @@ Full cards, grouped by type. A card link means a file exists.
 | Good Will Hunting | work | film | narrative, emotional-suppression, cost-of-greatness, mentor-dynamics | canon | [Works/good-will-hunting.md](Works/good-will-hunting.md) |
 | Holocaust Memorial Miami Beach | work | architecture, memorial, sculpture | memorial, monumental, emotional-weight, spatial-direction | canon | [Works/holocaust-memorial-miami-beach.md](Works/holocaust-memorial-miami-beach.md) |
 | Homegoing | work | literature | narrative, structure-as-argument, diaspora, historical-weight | canon | [Works/homegoing-yaa-gyasi.md](Works/homegoing-yaa-gyasi.md) |
+| Lafayette Street | work | fragrance | fresh-woody-musk, versatile, new-york, easy-wear | canon | [Works/lafayette-street.md](Works/lafayette-street.md) |
+| L'Homme à la Rose | work | fragrance | masculine-floral, rose, elegant, prestige | canon | [Works/lhomme-a-la-rose.md](Works/lhomme-a-la-rose.md) |
 | Menace II Society | work | film | hood-realism, coming-of-age, fatalism, black-cinema | canon | [Works/menace-ii-society.md](Works/menace-ii-society.md) |
+| Millésime Impérial | work | fragrance | marine, aquatic-citrus, warm-weather, fresh-luxury | canon | [Works/millesime-imperial.md](Works/millesime-imperial.md) |
 | My Beautiful Dark Twisted Fantasy | work | music | sound-design, world-building, maximalism, ambition-as-form | canon | [Works/my-beautiful-dark-twisted-fantasy.md](Works/my-beautiful-dark-twisted-fantasy.md) |
 | Naruto: Shippuden | work | animation, television | narrative, world-building, found-family, perseverance-and-identity | canon | [Works/naruto-shippuden.md](Works/naruto-shippuden.md) |
 | One Piece | work | animation | narrative, world-building, long-form-structure, found-family | canon | [Works/one-piece.md](Works/one-piece.md) |
+| Oud Ispahan | work | fragrance | oud, rose-oud, refined, collection-privee | canon | [Works/oud-ispahan.md](Works/oud-ispahan.md) |
+| Pulp Fiction | work | film | nonlinear-structure, dialogue-as-set-piece, high-low, needle-drop | canon | [Works/pulp-fiction.md](Works/pulp-fiction.md) |
 | Renaissance | work | music | sound-design, Black-joy, house-culture, precision-as-freedom | canon | [Works/renaissance-beyonce.md](Works/renaissance-beyonce.md) |
+| Reservoir Dogs | work | film | nonlinear-structure, dialogue-as-suspense, restraint-of-means, debut-grammar | canon | [Works/reservoir-dogs.md](Works/reservoir-dogs.md) |
 | Roka Akor | work | restaurant, japanese | robatayaki, japanese, moody-dining, hospitality | canon | [Works/roka-akor.md](Works/roka-akor.md) |
 | Scarface | work | film | narrative, ambition-and-hubris, cost-of-the-climb, dramatic-inevitability | canon | [Works/scarface.md](Works/scarface.md) |
 | Selena | work | film | narrative, cultural-identity, crossover-ambition, legacy | canon | [Works/selena-film.md](Works/selena-film.md) |
 | Sex and the City | work | television | editorial, voice-and-tone, narrative, desire-and-identity | canon | [Works/sex-and-the-city.md](Works/sex-and-the-city.md) |
 | Sex Education | work | television | voice-and-tone, vulnerability, community-dynamics, British-comedic-lens | canon | [Works/sex-education.md](Works/sex-education.md) |
 | The Fresh Prince of Bel-Air | work | television | voice-and-tone, code-switching, cultural-identity, humor-as-armor | canon | [Works/fresh-prince-of-bel-air.md](Works/fresh-prince-of-bel-air.md) |
+| The One | work | fragrance | oriental-spicy, tobacco-amber, masculine-benchmark, accessible | canon | [Works/the-one.md](Works/the-one.md) |
 | Ushiku Daibutsu | work | architecture, monument, sculpture | monumental, inhabitable-sculpture, scale, spatial-direction | canon | [Works/ushiku-daibutsu.md](Works/ushiku-daibutsu.md) |
 | Whiplash | work | film | narrative, pacing, cost-of-greatness | canon | [Works/whiplash.md](Works/whiplash.md) |
+| Young Rose | work | fragrance | floral-woody-musk, modern-rose, unisex, restrained | canon | [Works/young-rose.md](Works/young-rose.md) |
 
 ### Curators
 
@@ -298,9 +320,7 @@ Museums and institutions – galleries and museums held as tastemaking contexts.
 
 Known references with no card yet.
 
-**Creators:** Mike Dean, Noah "40" Shebib, Kendrick Lamar, Future, Young Thug, Donald Glover, Michelangelo, Masashi Kishimoto, Eiichiro Oda, Michael Singer, Myron Golden, Alex Hormozi
-**Brands – fragrance:** Xerjoff, Creed, Byredo, Maison Francis Kurkdjian, Clive Christian, Maison Crivelli, Dolce and Gabbana, Bond No 9, Dior, Bottega Veneta, Le Labo, Diptyque, Cire Trudon
-**Brands – stationery and analog:** Leuchtturm1917, Midori, Kaweco, Stalogy, Rhodia, Blackwing, Smythson
+**Creators:** Mike Dean, Noah "40" Shebib, Kendrick Lamar, Future, Young Thug, Donald Glover, Michelangelo, Masashi Kishimoto, Eiichiro Oda, Michael Singer, Myron Golden, Alex Hormozi**Brands – stationery and analog:** Leuchtturm1917, Midori, Kaweco, Stalogy, Rhodia, Blackwing, Smythson
 
 **Brands – publishing:** Rizzoli, Taschen, Phaidon, Assouline
 
@@ -311,7 +331,7 @@ Known references with no card yet.
 
 **Curators:** Goodhood, SSENSE, END.
 
-**Works – albums:** Blonde, Coloring Book, Good Kid M.A.A.D City, Swimming, The Miseducation of Lauryn Hill**Works – fragrances:** Millesime Imperial, Bal d'Afrique, Baccarat Rouge 540 Extrait, Oud Ispahan, The One, Young Rose, Lafayette Street, L'Homme a la Rose
+**Works – albums:** Blonde, Coloring Book, Good Kid M.A.A.D City, Swimming, The Miseducation of Lauryn Hill
 
 ---
 

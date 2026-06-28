@@ -2,7 +2,7 @@
 name: liverpool-fc
 type: brand
 domains: [sports, identity, culture]
-spheres: [Fashion]
+spheres: [Social Development]
 tags: [tribal-identity, unambiguous-loyalty, cultural-affiliation, world-building, heritage]
 status: canon
 added: 2026-06-21

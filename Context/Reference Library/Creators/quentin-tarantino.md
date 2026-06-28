@@ -6,6 +6,8 @@ spheres: [Cinema]
 tags: [cinematography, surrealism, outrageousness, genre-defiance, style-as-resistance]
 status: canon
 added: 2026-06-21
+signal_refreshed: 2026-06-28
+signal_volatility: medium
 ---
 
 # Quentin Tarantino
@@ -16,8 +18,8 @@ added: 2026-06-21
 
 **The formula** – Earn the right to be outrageous, then commit fully. Let the cinematography and the surreal register carry meaning the plot does not state. Use style as the argument – the aesthetic is the resistance, not a coat of paint over it. Defy the genre while operating inside its grammar.
 
-**Canon** – *Django Unchained* (2012); the surreal, cinematographic, outrageous body of direction.
+**Canon** – *Reservoir Dogs*, 1992; *Pulp Fiction*, 1994; *Django Unchained*, 2012 – each carded in Works; the surreal, cinematographic, outrageous body of direction.
 
 **Pull for** – cinematography, visual-direction, style-as-resistance framing, maximalism, film-direction.
 
-**Trend read** – pending enrichment.
+**Trend read** – A living, active auteur whose back catalogue is canon and whose announced "tenth and final film" keeps forward anticipation high. Periodically active signal.
