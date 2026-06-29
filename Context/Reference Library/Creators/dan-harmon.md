@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – the Story Circle. *Community* (2009). *Rick and Morty* (2013), co-created with Justin Roiland.
 
 **Pull for** – narrative-structure, story-circle, world-building, character-flaw, voice-and-tone.
-
-**Trend read** – The Story Circle is among the most widely used practical screenwriting frameworks working today. Pending enrichment for current-cycle signal.

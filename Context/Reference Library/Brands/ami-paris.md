@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the Ami de Coeur heart logo; the relaxed Parisian tailoring; Mattiussi's everyday-wardrobe thesis.
 
 **Pull for** – parisian, accessible-luxury, everyday-chic, restraint.
-
-**Trend read** – pending enrichment.

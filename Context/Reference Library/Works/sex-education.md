@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – Jean Milburn's group therapy sessions; Eric Effiong's coming-out arc; the school assembly sequence in Season 2; Maeve's decision to prioritise her own education.
 
 **Pull for** – voice-and-tone, vulnerability, community-dynamics, British-comedic-lens, identity-formation, ensemble-structure.
-
-**Trend read** – pending enrichment.

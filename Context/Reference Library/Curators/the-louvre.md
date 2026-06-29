@@ -20,5 +20,3 @@ added: 2026-06-24
 **Canon** – *Mona Lisa* by Leonardo da Vinci. the *Venus de Milo* (c. 130-100 BC). the *Winged Victory of Samothrace* (c. 190 BC). I. M. Pei's glass pyramid (inaugurated 1988).
 
 **Pull for** – the-canon, masterpiece, spatial-direction, art-direction, antiquity.
-
-**Trend read** – The most visited museum in the world and the popular shorthand for "great art." Pending enrichment for current-cycle signal.

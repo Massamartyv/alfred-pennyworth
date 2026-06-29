@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – solo and live-painting shows at Chase Contemporary, SoHo. *Speaking in Two Tongues*, the duo exhibition with Cristiano Mangovo at Allouche Gallery.
 
 **Pull for** – street-to-gallery, high-low, surreal-expressionism, emerging-artist, illustration.
-
-**Trend read** – An emerging name with commercial traction and critical credibility at once – the rare zone where both hold. Pending enrichment for current-cycle signal.

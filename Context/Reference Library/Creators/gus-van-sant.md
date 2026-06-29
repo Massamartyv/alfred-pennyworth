@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – *Drugstore Cowboy* (1989). *My Own Private Idaho* (1991). *Good Will Hunting* (1997). *Elephant* (2003). *Milk* (2008).
 
 **Pull for** – emotional-restraint, outsiders, naturalism, character-study, narrative.
-
-**Trend read** – The reference for the restrained American character drama that trusts the audience to feel without being told. Pending enrichment for current-cycle signal.

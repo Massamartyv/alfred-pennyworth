@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – the patterned-paper wrappers. the Brooklyn craft-chocolate aesthetic. **The caveat** – a 2015 controversy alleged the brothers remelted industrial couverture in their early years while marketing as bean-to-bar; they said the practice ended by 2009 and denied mislabeling. A study in how a story can outrun the substance.
 
 **Pull for** – packaging-design, craft-aesthetics, brand-storytelling, cautionary.
-
-**Trend read** – Cited now as much for the authenticity controversy as for the design – a reminder that the narrative has to be true. Pending enrichment for current-cycle signal.

@@ -6,8 +6,6 @@ spheres: [Cinema]
 tags: [nonlinear-structure, dialogue-as-set-piece, high-low, needle-drop, pop-culture-canon]
 status: canon
 added: 2026-06-28
-signal_refreshed: 2026-06-28
-signal_volatility: low
 ---
 
 # Pulp Fiction
@@ -21,5 +19,3 @@ signal_volatility: low
 **Canon** – the "Royale with Cheese" exchange; the twist contest at Jack Rabbit Slim's; the adrenaline-shot scene; the diner hold-up that bookends the film; the briefcase that is never explained.
 
 **Pull for** – nonlinear-structure, dialogue-as-set-piece, high-low, needle-drop, narrative.
-
-**Trend read** – Among the most influential American films of the 1990s; its structural and dialogue innovations became standard film grammar and its imagery stays in continuous cultural circulation. Canonical and stable.

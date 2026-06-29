@@ -19,5 +19,3 @@ added: 2026-06-29
 **Canon** – the daily fantasy sports format; the Hubdub prediction-market origin; the 2018 pivot to sportsbook after the federal ban fell; the Flutter Entertainment parentage.
 
 **Pull for** – positioning, product-pivot, conversion, category-leadership, offer-design.
-
-**Trend read** – pending enrichment for current-cycle signal.

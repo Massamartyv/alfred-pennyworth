@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – the body of food-and-travel work as a single compass for taste without snobbery.
 
 **Pull for** – narrative, taste-compass framing, hospitality, food-culture direction, travel.
-
-**Trend read** – pending enrichment.

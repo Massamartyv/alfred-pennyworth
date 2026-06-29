@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – the flagship boutique at Place du Grand Sablon, Brussels. seasonal chocolate collections. bean-to-bar since 2001.
 
 **Pull for** – haute-chocolate, craft-led, seasonality, provenance, restraint.
-
-**Trend read** – A reference point for chocolate positioned at the luxury-gastronomy tier rather than confectionery. Pending enrichment for current-cycle signal.

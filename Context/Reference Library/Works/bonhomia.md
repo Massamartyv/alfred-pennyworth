@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – the cured-meat-and-cheese boards. the wood-fired pizza. the El Poblado terrace on Vía Primavera. the name meaning affability and goodness of character.
 
 **Pull for** – salumeria, convivial, indoor-outdoor, charcuterie, hospitality.
-
-**Trend read** – A standout of the Medellín dining scene, consistently top-ranked. Pending enrichment for current-cycle signal.

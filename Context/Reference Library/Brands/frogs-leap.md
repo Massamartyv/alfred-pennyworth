@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – the Rutherford Red Barn Ranch. the first CCOF organic certification in Napa (1989). dry-farmed Sauvignon Blanc and Cabernet Sauvignon.
 
 **Pull for** – organic, dry-farmed, sustainability, new-world, principled-craft.
-
-**Trend read** – A long-standing reference for organic, dry-farmed sustainable winemaking in Napa. Pending enrichment for current-cycle signal.

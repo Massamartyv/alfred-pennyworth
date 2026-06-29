@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – Red Rooster Harlem (2010). Aquavit, the youngest chef to earn a three-star New York Times review. *Yes, Chef* (2012). multiple James Beard Awards, including Best Chef NYC (2003).
 
 **Pull for** – diaspora, three-continent-fusion, hospitality, cultural-bridge, autobiography-as-cuisine.
-
-**Trend read** – A defining figure of contemporary American dining and one of its most influential advocates for diasporic and community-rooted cuisine. Pending enrichment for current-cycle signal.

@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – the Rittenhouse Square origin. the Draft Latte, a pressurized canned cold latte. the 2023 Chobani acquisition.
 
 **Pull for** – specialty-coffee, product-innovation, sourcing, scale, craft.
-
-**Trend read** – A specialty roaster that turned a product innovation into a national ready-to-drink line. Pending enrichment for current-cycle signal.

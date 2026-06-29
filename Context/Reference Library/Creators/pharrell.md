@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – the streetwear-couture fusion and the signature accessory as a recurring move.
 
 **Pull for** – art-direction, high-low, playful-eclecticism, accessory direction, streetwear.
-
-**Trend read** – pending enrichment.

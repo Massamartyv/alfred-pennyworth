@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – Will's father Will Sr. abandonment monologue (Season 4); "How come he don't want me, man?"; Carlton's Tom Jones dance; the Banks family dinner table as a site of constant negotiation.
 
 **Pull for** – voice-and-tone, code-switching, cultural-identity, class-and-identity, humor-as-armor, emotional-range.
-
-**Trend read** – pending enrichment.

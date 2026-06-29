@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the Étoile diffusion line; the concealed-wedge sneaker; the bohemian Parisian tailoring.
 
 **Pull for** – parisian, effortless, bohemian, sprezzatura.
-
-**Trend read** – pending enrichment.

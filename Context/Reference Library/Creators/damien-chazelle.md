@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – *Whiplash* (2014). *La La Land* (2016). *First Man* (2018). *Babylon* (2022).
 
 **Pull for** – obsession, cost-of-greatness, music-and-rhythm, kinetic, narrative.
-
-**Trend read** – The contemporary reference for the cost-of-greatness drama and rhythm-driven filmmaking. Pending enrichment for current-cycle signal.

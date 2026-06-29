@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – Mies' Farnsworth House and Barcelona Pavilion; Le Corbusier's Villa Savoye; the Eames House; Philip Johnson's Glass House; Adolf Loos and "Ornament and Crime" as the founding argument.
 
 **Pull for** – clean-line, open-plan, form-follows-function, spatial-direction, restraint.
-
-**Trend read** – The permanent baseline grammar of contemporary design, perpetually recombined rather than replaced. Midcentury Modern in particular remains in steady demand. Pending enrichment for current-cycle signal.

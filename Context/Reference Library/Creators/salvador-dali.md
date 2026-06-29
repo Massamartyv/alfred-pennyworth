@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – *The Persistence of Memory* (1931). *Un Chien Andalou* (1929) and *L'Âge d'or* (1930) with Luis Buñuel. The melting watches, the lobster telephone.
 
 **Pull for** – surrealism, dream-logic, conviction, art-direction, theatrical.
-
-**Trend read** – The reference for making the strange land as inevitable rather than gimmicky – conviction as the difference. Pending enrichment for current-cycle signal.

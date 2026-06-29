@@ -17,5 +17,3 @@ added: 2026-06-27
 **Canon** – the rose-and-agarwood core; the saffron-patchouli frame; the New Look limited editions and the 2024 Esprit de Parfum.
 
 **Pull for** – oud, rose-oud, refined, collection-privee.
-
-**Trend read** – pending enrichment.

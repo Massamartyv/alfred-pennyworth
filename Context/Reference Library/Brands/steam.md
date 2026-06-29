@@ -19,5 +19,3 @@ added: 2026-06-29
 **Canon** – the Steam seasonal sale; user reviews and wishlists; the Steam Workshop for mods; the Steam Deck (2022) as the platform made portable hardware.
 
 **Pull for** – platform-ecosystem, distribution, community, merchandising, positioning.
-
-**Trend read** – pending enrichment for current-cycle signal.

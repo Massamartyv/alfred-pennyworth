@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – the U line; the Uniqlo and Lemaire collaboration; the quality-basics catalogue.
 
 **Pull for** – foundation fashion, quality basics, accessible luxury, anti-logo, fashion.
-
-**Trend read** – pending enrichment for current-cycle signal.

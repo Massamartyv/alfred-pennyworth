@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – Whitewashed Cycladic island houses; Andalusian courtyards; Spanish Colonial Revival; terracotta, lime plaster, wrought iron, weathered timber, internal courtyards and loggias.
 
 **Pull for** – materiality, indoor-outdoor, warmth, color-and-light, spatial-direction.
-
-**Trend read** – Strong current pull in residential design, especially the pared-back "modern Mediterranean" reading. The risk is dilution into cliché – the warmth and craft are what to keep. Pending enrichment for current-cycle signal.

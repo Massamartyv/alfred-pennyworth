@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – cold-pressed juices and tonics. the Montana Avenue origin. the Persian-Mediterranean organic menu.
 
 **Pull for** – organic, cold-pressed, wellness, juice, ritual.
-
-**Trend read** – A Los Angeles fixture of the organic cold-pressed wellness category. Pending enrichment for current-cycle signal.

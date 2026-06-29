@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the market-hall retail concept; the in-store café; the muted Scandinavian essentials.
 
 **Pull for** – scandinavian, basics, market-hall, accessible.
-
-**Trend read** – pending enrichment.

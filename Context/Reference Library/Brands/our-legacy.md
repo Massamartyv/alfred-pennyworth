@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the textured overshirts and knitwear; the boxy-but-refined silhouette; the muted off-palette.
 
 **Pull for** – scandinavian, fabric-first, textured, restraint.
-
-**Trend read** – pending enrichment.

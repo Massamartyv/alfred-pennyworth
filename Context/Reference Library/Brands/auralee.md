@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the bespoke yarn and fabric development; the muted tactile collections; the cult standing among Japanese-wardrobe purists.
 
 **Pull for** – japanese, fabric-first, quiet-luxury, materiality.
-
-**Trend read** – pending enrichment.

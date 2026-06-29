@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – Naruto and Sasuke's childhood backstory; Pain's invasion of the Hidden Leaf Village; the Fourth Great Ninja War arc; the final confrontation in the valley of the end.
 
 **Pull for** – narrative, world-building, long-form-structure, found-family, perseverance-and-identity, legacy.
-
-**Trend read** – pending enrichment.

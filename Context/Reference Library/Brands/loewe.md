@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – the Spanish leather craft heritage; the artistically directed ready-to-wear; the small leather goods.
 
 **Pull for** – investment-luxury, craft-led direction, materiality, artistic-direction, fashion.
-
-**Trend read** – pending enrichment for current-cycle signal.

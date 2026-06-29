@@ -17,5 +17,3 @@ added: 2026-06-27
 **Canon** – the peppered-rose signature; the ambroxan base; the "restless youth" concept.
 
 **Pull for** – floral-woody-musk, modern-rose, unisex, restrained.
-
-**Trend read** – pending enrichment.

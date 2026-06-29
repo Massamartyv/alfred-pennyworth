@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – the mansion sequence; the "say hello to my little friend" staircase finale; "the world is yours" blimp.
 
 **Pull for** – narrative, ambition-and-hubris, cost-of-the-climb, fatal-flaw-structure, dramatic-inevitability.
-
-**Trend read** – pending enrichment.

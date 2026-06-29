@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the 1643 candle house; the 2017 Maison Trudon debut (Bruma, Mortel, Révolution among the five); the beeswax heritage.
 
 **Pull for** – heritage, candle-house, lineage, restraint.
-
-**Trend read** – pending enrichment.

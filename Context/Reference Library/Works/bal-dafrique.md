@@ -17,5 +17,3 @@ added: 2026-06-27
 **Canon** – the citrus-and-marigold opening; the warm musk-amber drydown; its gateway-niche status; the 2025 Absolu.
 
 **Pull for** – woody-floral-musk, modern-classic, warm, gateway-niche.
-
-**Trend read** – pending enrichment.

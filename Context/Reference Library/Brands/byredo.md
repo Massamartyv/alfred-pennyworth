@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – Gypsy Water; Mojave Ghost; Bal d'Afrique; the Ben Gorham era through the 2025 Puig handover.
 
 **Pull for** – niche-fragrance, memory-and-mood, art-direction, abstract.
-
-**Trend read** – pending enrichment.

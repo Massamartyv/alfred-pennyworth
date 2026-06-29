@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – *My Beautiful Dark Twisted Fantasy* (2010); the Sunday Service staging; the brutalist earth-tone wardrobe.
 
 **Pull for** – art-direction, visual-direction, color-and-light, materiality, cross-disciplinary direction, maximalism.
-
-**Trend read** – pending enrichment.

@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – the world-building, atmosphere-led body of direction.
 
 **Pull for** – world-building, art-direction, atmosphere, spatial-direction, film-direction.
-
-**Trend read** – pending enrichment.

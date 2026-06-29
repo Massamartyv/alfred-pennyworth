@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – Purple Label; RRL; the considered main line; the Americana heritage narrative.
 
 **Pull for** – americana, quiet-luxury, tiered curation, logo-avoidance, fashion.
-
-**Trend read** – pending enrichment for current-cycle signal.

@@ -20,5 +20,3 @@ added: 2026-06-24
 **Canon** – Michelangelo's Sistine Chapel ceiling and *The Last Judgment*. the Raphael Rooms. classical antiquities including the *Laocoön*. the celebrated spiral staircase.
 
 **Pull for** – renaissance, sacred-art, michelangelo, spatial-direction, art-direction.
-
-**Trend read** – One of the most visited art destinations on earth and the pilgrimage point for Renaissance painting. Pending enrichment for current-cycle signal.

@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – the Infinity Mirror Rooms. the pumpkins. lifelong polka-dot motifs. the Louis Vuitton collaborations (2012, revived 2022-2023) under Marc Jacobs.
 
 **Pull for** – repetition, visual-system, immersive-atmosphere, world-building, art-fashion.
-
-**Trend read** – The Infinity Rooms are a fixture of the experiential-art era and her draw remains enormous. Pending enrichment for current-cycle signal.

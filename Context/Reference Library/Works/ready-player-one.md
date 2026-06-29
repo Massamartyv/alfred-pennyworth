@@ -19,5 +19,3 @@ added: 2026-06-29
 **Canon** – the OASIS as a fully realized virtual world; the Easter-egg hunt structure; the 1980s pop-culture collage; Spielberg's 2018 visualization of the metaverse premise.
 
 **Pull for** – world-building, immersive-atmosphere, virtual-world, nostalgia, narrative.
-
-**Trend read** – pending enrichment for current-cycle signal.

@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – *Top Chef* season 14 win (2017). Playa Provisions, Los Angeles. Food Network's Tournament of Champions. *Sun-Kissed Cooking: Vegetables Front and Center* (2024).
 
 **Pull for** – vegetable-forward, california-cuisine, produce-first, technique, hospitality.
-
-**Trend read** – Vegetable-forward cooking is a defining current of contemporary American dining, and she is among its most visible champions. Pending enrichment for current-cycle signal.

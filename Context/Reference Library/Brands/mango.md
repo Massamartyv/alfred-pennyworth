@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the Barcelona origin; the women's tailoring and linen anchoring the recent elevation; the Mango Man line.
 
 **Pull for** – high-street, mediterranean, accessible, foundation-fashion.
-
-**Trend read** – pending enrichment.

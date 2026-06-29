@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – Butter Restaurant, Manhattan. the Iron Chef title (2012). *Old-School Comfort Food* (2013). *Italian American Forever* (2024).
 
 **Pull for** – french-technique, comfort-food, precision, hospitality, warmth.
-
-**Trend read** – A fixture of the competitive-cooking television world and a steady voice for technique-driven home cooking. Pending enrichment for current-cycle signal.

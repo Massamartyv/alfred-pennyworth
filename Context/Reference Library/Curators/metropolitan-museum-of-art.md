@@ -20,5 +20,3 @@ added: 2026-06-24
 **Canon** – the encyclopedic collection across all eras. the Costume Institute (35,000-plus costumes) and the Met Gala, the most-watched annual event at the seam of fashion, art and celebrity. the Fifth Avenue building (from 1880).
 
 **Pull for** – breadth, juxtaposition, costume-institute, editorial, art-direction.
-
-**Trend read** – The Met Gala makes it the most culturally visible museum on earth each May, fashion and art fused for a night. Pending enrichment for current-cycle signal.

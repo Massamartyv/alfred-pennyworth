@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the Pocono nylon backpack (1984); ugly-chic as a stance; Miu Miu as the younger line; the Raf Simons co-creative era; the Fondazione Prada.
 
 **Pull for** – intellectual-fashion, restraint, materiality, anti-pretty.
-
-**Trend read** – pending enrichment.

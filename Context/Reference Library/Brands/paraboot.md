@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the Michael derby; the Norwegian welt construction; the in-house Para rubber sole; over a century of making in Izeaux.
 
 **Pull for** – french, heritage, footwear, craft.
-
-**Trend read** – pending enrichment.

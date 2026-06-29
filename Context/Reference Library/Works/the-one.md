@@ -17,5 +17,3 @@ added: 2026-06-27
 **Canon** – The One for Men (2008) and its tobacco-amber drydown; The One for Women (2006); the perfumers' later pedigree.
 
 **Pull for** – oriental-spicy, tobacco-amber, masculine-benchmark, accessible.
-
-**Trend read** – pending enrichment.

@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the bamboo and natural-fibre basics; the undyed tonal palette; the soft-essentials catalogue.
 
 **Pull for** – natural-fibre, sustainability, basics, restraint.
-
-**Trend read** – pending enrichment.

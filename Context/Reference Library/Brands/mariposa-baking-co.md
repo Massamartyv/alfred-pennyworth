@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – the dedicated gluten-free facility. the Oakland and Ferry Building shops. named Best Gluten-Free Bakery in the country by USA Today 10Best.
 
 **Pull for** – gluten-free, no-compromise, artisan, dedicated-facility, craft.
-
-**Trend read** – A reference for the dedicated-facility, artisan-quality gluten-free bakery. Pending enrichment for current-cycle signal.

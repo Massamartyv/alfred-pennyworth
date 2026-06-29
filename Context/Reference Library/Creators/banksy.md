@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – *Girl with Balloon* (2002) and its self-shredding into *Love Is in the Bin* at Sotheby's (2018). *Dismaland* (2015). the Walled Off Hotel, Bethlehem (2017).
 
 **Pull for** – subversion, context-as-content, wit, anti-establishment, street-art.
-
-**Trend read** – The reference for the stunt-as-statement and the power of restraint plus placement over spectacle. Pending enrichment for current-cycle signal.

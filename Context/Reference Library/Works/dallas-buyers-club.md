@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – McConaughey as Ron Woodroof and Jared Leto as Rayon, both Oscar-winning. the 1980s Texas AIDS-crisis setting. the McConaissance turning point.
 
 **Pull for** – transformation, defiance, total-commitment, against-the-system, character-study.
-
-**Trend read** – A landmark of the actor-transformation drama and the reference for commitment as craft. Pending enrichment for current-cycle signal.

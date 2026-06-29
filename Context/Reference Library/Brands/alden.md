@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the Indy boot; the shell cordovan loafers and boots; the Massachusetts factory running since 1884.
 
 **Pull for** – american, heritage, footwear, craft.
-
-**Trend read** – pending enrichment.

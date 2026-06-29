@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – "CUFF IT"; "BREAK MY SOUL"; "ALIEN SUPERSTAR"; the album's continuous mixing structure; the "Uncle Jonny" dedication.
 
 **Pull for** – sound-design, Black-joy, house-culture, precision-as-freedom, ancestral-reference, excellence.
-
-**Trend read** – pending enrichment.

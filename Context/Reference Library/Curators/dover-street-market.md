@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – the London and Ginza flagships; the seasonal in-store installations.
 
 **Pull for** – merchandising, spatial-direction, high-low, curation strategy, retail editorial.
-
-**Trend read** – pending enrichment.

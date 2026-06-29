@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – the final nine-minute drum sequence; the line "not quite my tempo".
 
 **Pull for** – narrative, pacing, cost-of-greatness, mentor dynamics, dramatic structure.
-
-**Trend read** – pending enrichment.

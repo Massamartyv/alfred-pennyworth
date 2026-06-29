@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the architectural knitwear and trousers; the gallery-toned palette; the H&M Group's elevated line.
 
 **Pull for** – minimalism, architectural, accessible, restraint.
-
-**Trend read** – pending enrichment.

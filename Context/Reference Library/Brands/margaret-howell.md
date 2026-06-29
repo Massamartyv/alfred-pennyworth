@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the shirting; the MHL utility line; the mid-century British sensibility.
 
 **Pull for** – british, utility, restraint, fabric-first.
-
-**Trend read** – pending enrichment.

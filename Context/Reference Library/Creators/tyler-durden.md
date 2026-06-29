@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the red leather jacket; the fur-collared coat and bold-pattern shirts; the thrift-store maximalism of Fight Club (1999).
 
 **Pull for** – anti-style, maximalist, high-low, statement.
-
-**Trend read** – pending enrichment.

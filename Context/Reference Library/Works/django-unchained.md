@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – Django's first horse scene; the Mandingo fight at Candieland; the final dynamite sequence; the Ennio Morricone-inflected score.
 
 **Pull for** – narrative, genre-inversion, style-as-resistance, power-and-identity, dramatic-catharsis.
-
-**Trend read** – pending enrichment.

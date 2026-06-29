@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the trunk and the Monogram canvas; the Virgil Abloh menswear era (2018-2021); Pharrell Williams as menswear creative director (2023-); the fragrance line.
 
 **Pull for** – investment-luxury, high-low, world-building, craft-led.
-
-**Trend read** – pending enrichment.

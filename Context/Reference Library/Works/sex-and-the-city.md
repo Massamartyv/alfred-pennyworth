@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – Carrie's closing voiceover structure; Charlotte's apartment as aspirational object; the Manolo Blahnik shoes as value-system shorthand; Carrie's column as the editorial device.
 
 **Pull for** – editorial, voice-and-tone, narrative, New-York-as-world, desire-and-identity, friendship-as-structure.
-
-**Trend read** – pending enrichment.

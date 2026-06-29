@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – the nine-foot clay sculpture of Sade from the *Love Deluxe* cover, commissioned by Drake and completed April 2026. *Some Things I Can't Forget*, Stems Gallery (2022).
 
 **Pull for** – hip-hop-iconography, nostalgia, album-cover-art, sculpture, emerging-artist.
-
-**Trend read** – The Drake commission put her before a mass cultural audience in 2026. An emerging name to watch rather than a settled one – identity and trajectory still firming up. Pending enrichment for current-cycle signal.

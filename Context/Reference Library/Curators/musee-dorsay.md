@@ -20,5 +20,3 @@ added: 2026-06-24
 **Canon** – Van Gogh's self-portraits and *Starry Night Over the Rhône*. Manet's *Olympia*. Degas' dancers. the great glass station clock. the Gare d'Orsay conversion (1986).
 
 **Pull for** – impressionism, color-and-light, adaptive-reuse, paris, art-direction.
-
-**Trend read** – A fixture of any Paris art itinerary and the definitive Impressionist destination. Pending enrichment for current-cycle signal.

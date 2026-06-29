@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – the Astrodome performance; Selena's exchange with her father about being Mexican-American – "We have to be more Mexican than the Mexicans and more American than the Americans"; Jennifer Lopez's command of the physical presence.
 
 **Pull for** – narrative, cultural-identity, crossover-ambition, legacy, belonging-and-exclusion.
-
-**Trend read** – pending enrichment.

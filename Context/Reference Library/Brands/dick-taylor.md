@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – single-origin bars. the Eureka, California workshop. the carpenter-to-chocolatier maker story.
 
 **Pull for** – single-origin, maker-craft, materiality, restraint, two-ingredient.
-
-**Trend read** – A reference for the craftsman-maker school of American bean-to-bar. Pending enrichment for current-cycle signal.

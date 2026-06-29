@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – the Rue du Faubourg Saint-Honoré house (1977). Robert Linxe, the master of ganache. the first US boutique, New York (1990).
 
 **Pull for** – ganache, french-luxury, restraint, heritage, chocolate-as-gastronomy.
-
-**Trend read** – The heritage reference for chocolate as a refined gastronomic category. Pending enrichment for current-cycle signal.

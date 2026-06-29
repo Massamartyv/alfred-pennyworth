@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – Seoul Home/L.A. Home (1999); the Hub and corridor fabric works; Some/One, the floor of dog tags rising into a hollow armour; the staircase pieces.
 
 **Pull for** – spatial-memory, fabric-architecture, materiality, displacement.
-
-**Trend read** – pending enrichment.

@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the Pure-Castile Peppermint liquid soap; the "All-One!" manifesto label; the 18-in-1 multi-use claim; five generations of family ownership.
 
 **Pull for** – values-led, heritage, ritual.
-
-**Trend read** – pending enrichment.

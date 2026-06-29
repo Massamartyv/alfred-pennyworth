@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – "STARGAZING"; "SICKO MODE" (the structural unpredictability of its three-beat section shifts); "STOP TRYING TO BE GOD"; the Stevie Wonder voice memo.
 
 **Pull for** – sound-design, world-building, immersive-atmosphere, ear-candy, nostalgia-as-texture, Houston-mythology.
-
-**Trend read** – pending enrichment.

@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – the Afghan cumin origin story. the direct-trade model. the Shark Tank appearance.
 
 **Pull for** – single-origin, provenance, direct-trade, ethics, specialty-pantry.
-
-**Trend read** – A leading name in the specialty single-origin spice movement. Pending enrichment for current-cycle signal.

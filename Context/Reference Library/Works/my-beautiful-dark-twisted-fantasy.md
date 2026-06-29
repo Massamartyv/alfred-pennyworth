@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – "POWER" (the opening statement); the "Runaway" piano line and toast to douchebags; "Lost in the World" / "Who Will Survive in America"; the Chris Rock skits; the album cover by George Condo.
 
 **Pull for** – sound-design, world-building, maximalism, ambition-as-form, vulnerability-and-grandiosity, cultural-reference.
-
-**Trend read** – pending enrichment.

@@ -6,8 +6,6 @@ spheres: [Cinema]
 tags: [nonlinear-structure, dialogue-as-suspense, restraint-of-means, debut-grammar, style-as-resistance]
 status: canon
 added: 2026-06-28
-signal_refreshed: 2026-06-28
-signal_volatility: low
 ---
 
 # Reservoir Dogs
@@ -21,5 +19,3 @@ signal_volatility: low
 **Canon** – the "Like a Virgin" diner monologue; the ear scene set to "Stuck in the Middle with You"; the warehouse standoff; the colour-coded aliases – Mr. White, Mr. Orange, Mr. Blonde.
 
 **Pull for** – nonlinear-structure, dialogue-as-suspense, restraint-of-means, debut-grammar, narrative.
-
-**Trend read** – The founding text of 1990s American independent crime cinema and the origin of the full Tarantino grammar that Pulp Fiction later expanded to mass reach. Its devices – nonlinear structure, dialogue as set piece – are now baseline film language. Canonical and stable; held as a source text.

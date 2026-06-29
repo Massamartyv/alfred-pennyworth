@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the Valentine's Day 2024 four-cap capsule, each carrying an uplifting Korean phrase; distribution through Asian fashion aggregators.
 
 **Pull for** – naming, narrative, headwear, sentiment-led.
-
-**Trend read** – pending enrichment.

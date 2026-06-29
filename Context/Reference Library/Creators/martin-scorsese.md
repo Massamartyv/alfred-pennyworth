@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – *Taxi Driver* (1976). *Raging Bull* (1980). *Goodfellas* (1990). *The Departed* (2006). *The Irishman* (2019). *Killers of the Flower Moon* (2023).
 
 **Pull for** – kinetic-camera, music-as-structure, moral-weight, auteur, narrative.
-
-**Trend read** – Still actively making major work and the most vocal advocate for cinema as an art form against the content tide. Pending enrichment for current-cycle signal.

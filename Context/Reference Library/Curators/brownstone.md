@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – Brooklyn's brownstone belts – Park Slope, Bedford-Stuyvesant, Fort Greene; Harlem's striver's rows; Boston's South End. Italianate stoops and bracketed cornices; the parlor-floor piano nobile; original sandstone facades.
 
 **Pull for** – historical-fabric, urban-vernacular, materiality, warmth, rowhouse-typology.
-
-**Trend read** – Restoration over reinvention is the dominant current mode – period brownstones renovated with contemporary, often dark-warm, interiors behind preserved facades. Pending enrichment for current-cycle signal.

@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the Lemtosh and Miltzen frames; the Orchard Street origin; five generations of family ownership.
 
 **Pull for** – eyewear, heritage, detail, craft.
-
-**Trend read** – pending enrichment.

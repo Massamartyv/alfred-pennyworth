@@ -19,5 +19,3 @@ added: 2026-06-29
 **Canon** – Las Vegas as the historic American home; the line, the odds and the vig as the core product; the 2018 fall of the federal ban as the inflection that opened United States online betting.
 
 **Pull for** – odds-as-product, engagement-loop, positioning, conversion, offer-design.
-
-**Trend read** – pending enrichment for current-cycle signal.

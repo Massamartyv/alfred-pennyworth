@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – the Superflat manifesto. Kanye West's *Graduation* cover (2007). the Louis Vuitton collaboration with Marc Jacobs (from 2003). the DOB character and the smiling flowers.
 
 **Pull for** – high-low, art-fashion, collaboration, anime-iconography, art-direction.
-
-**Trend read** – The blueprint every artist-brand collaboration still works from. The Louis Vuitton partnership reset what art-fashion could be. Pending enrichment for current-cycle signal.

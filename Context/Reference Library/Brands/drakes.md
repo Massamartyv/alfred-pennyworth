@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the origin in ties and scarves (1977); the soft-tailored menswear; the easy-elegance editorial world.
 
 **Pull for** – british, tailoring, sprezzatura, menswear.
-
-**Trend read** – pending enrichment.

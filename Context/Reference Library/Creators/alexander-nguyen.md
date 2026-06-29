@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – held as a personal style reference; no public works sourced.
 
 **Pull for** – minimalism, texture, quiet-luxury, fashion.
-
-**Trend read** – pending enrichment.

@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – *Aquemini* (1998), *The Love Below* (2003), *New Blue Sun* (2023).
 
 **Pull for** – voice-and-tone, reinvention, restraint, creative-risk framing, anti-formula direction.
-
-**Trend read** – *New Blue Sun* is the proof case: audience permission follows conviction, it does not precede it. The market rewarded a flute album because the commitment was total. Pending enrichment for current-cycle signal.

@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – the Sonoma hacienda above the town square. Forever Wild Farming. the estate Chardonnay and Pinot Noir. the 1857 winemaking roots.
 
 **Pull for** – natural-wine, place-as-experience, minimal-intervention, new-world, world-building.
-
-**Trend read** – A reference for the experiential, minimal-intervention New World wine estate. Pending enrichment for current-cycle signal.

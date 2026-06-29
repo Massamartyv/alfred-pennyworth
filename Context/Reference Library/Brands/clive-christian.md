@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – No. 1 (the Original Collection, 2000); Imperial Majesty; the Crown Perfumery royal-crown lineage.
 
 **Pull for** – ultra-luxury, rare-ingredient, opulence, heritage.
-
-**Trend read** – pending enrichment.

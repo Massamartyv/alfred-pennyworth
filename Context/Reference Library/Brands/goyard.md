@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the hand-painted Goyardine chevron; the St Louis tote; the bespoke trunk; the deliberately limited distribution.
 
 **Pull for** – heritage, discreet-luxury, accessories, travel.
-
-**Trend read** – pending enrichment.

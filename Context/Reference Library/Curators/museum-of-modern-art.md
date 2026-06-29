@@ -20,5 +20,3 @@ added: 2026-06-24
 **Canon** – Van Gogh's *The Starry Night* (1889). Picasso's *Les Demoiselles d'Avignon* (1907). Monet's *Water Lilies*. Warhol holdings. Founded by Abby Aldrich Rockefeller, Lillie P. Bliss and Mary Quinn Sullivan.
 
 **Pull for** – modern-art, canon-setting, art-direction, institutional-authority.
-
-**Trend read** – Still the world's most influential modern-art institution and a fixture of any New York cultural itinerary. Pending enrichment for current-cycle signal.

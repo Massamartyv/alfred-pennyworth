@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the Baies and Feu de Bois candles; Philosykos; Do Son; the 1961 Saint-Germain origin.
 
 **Pull for** – heritage, candle-and-scent, botanical, restraint.
-
-**Trend read** – pending enrichment.

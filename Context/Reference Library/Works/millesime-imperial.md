@@ -17,5 +17,3 @@ added: 2026-06-27
 **Canon** – the sea-salt and citrus opening; the marine-woody drydown; the 1995 anniversary release.
 
 **Pull for** – marine, aquatic-citrus, warm-weather, fresh-luxury.
-
-**Trend read** – pending enrichment.

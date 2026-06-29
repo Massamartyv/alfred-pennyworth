@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – the Temescal potting-shed origin. the forty-eight-hour freshness pledge. the New Orleans-style iced coffee. the later Nestlé majority acquisition.
 
 **Pull for** – third-wave, freshness-first, minimalism, craft, ritual.
-
-**Trend read** – One of the brands that defined third-wave coffee, now at global scale. Pending enrichment for current-cycle signal.

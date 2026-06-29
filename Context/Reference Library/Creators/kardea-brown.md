@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – *Delicious Miss Brown* on Food Network. the Gullah Geechee Lowcountry repertoire. the 2025 Daytime Emmy double, a first for a Black woman.
 
 **Pull for** – gullah-geechee, heritage-preservation, southern, hospitality, cultural-bridge.
-
-**Trend read** – A leading public voice for Gullah Geechee and Lowcountry cuisine, part of a wider elevation of regional African American foodways. Pending enrichment for current-cycle signal.

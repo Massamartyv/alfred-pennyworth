@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the @stuccigus style persona; Copenhagen Fashion Week appearances. Public record is thin and carried at watch.
 
 **Pull for** – editorial-risk, avant-garde, proportion-play, fashion.
-
-**Trend read** – pending enrichment.

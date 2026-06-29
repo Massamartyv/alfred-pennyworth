@@ -19,5 +19,3 @@ added: 2026-06-29
 **Canon** – Tom Caudell's coining of the term at Boeing (1990); the head-mounted-display lineage shared with VR; Pokémon GO (2016) as the mass-market proof; the smartphone as the everyday AR device.
 
 **Pull for** – layered-reality, context-as-content, spatial-direction, overlay, immersive-atmosphere.
-
-**Trend read** – pending enrichment for current-cycle signal.

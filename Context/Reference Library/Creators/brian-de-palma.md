@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – *Carrie* (1976). *Blow Out* (1981). *Scarface* (1983). *The Untouchables* (1987). *Mission: Impossible* (1996).
 
 **Pull for** – visual-bravura, suspense, operatic-excess, stylist, cinematography.
-
-**Trend read** – The reference for camera virtuosity and the set piece as pure cinema. Pending enrichment for current-cycle signal.

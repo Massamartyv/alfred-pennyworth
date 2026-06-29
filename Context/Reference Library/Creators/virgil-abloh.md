@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – the spatial-rigour principle itself, applied across design disciplines.
 
 **Pull for** – spatial-direction, art-direction, restraint, negative-space framing, cross-disciplinary direction.
-
-**Trend read** – pending enrichment.

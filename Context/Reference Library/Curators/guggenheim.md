@@ -20,5 +20,3 @@ added: 2026-06-24
 **Canon** – Wright's spiral rotunda, New York (1959). Gehry's Guggenheim Bilbao (1997) and the Bilbao effect. the Peggy Guggenheim Collection, Venice. a deep modern and contemporary holding.
 
 **Pull for** – architecture-as-destination, spatial-direction, modern-art, art-direction, world-building.
-
-**Trend read** – Bilbao remains the textbook case of architecture as urban catalyst, and the Guggenheim name is shorthand for the museum-as-icon. Pending enrichment for current-cycle signal.

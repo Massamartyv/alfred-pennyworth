@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – Green Irish Tweed (1985); Aventus (2010); the contested 1760 origin claim; the 2023 acquisition.
 
 **Pull for** – niche-fragrance, heritage-coded, status-scent, masculine.
-
-**Trend read** – pending enrichment.

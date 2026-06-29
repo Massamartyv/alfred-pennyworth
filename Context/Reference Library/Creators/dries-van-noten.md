@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the Antwerp Six London showing (1986); decades of print-led runway collections; the move to Puig backing while keeping creative independence; the 2024 step back from the creative lead.
 
 **Pull for** – print, textile, fabric-first, restraint-in-cut.
-
-**Trend read** – pending enrichment.

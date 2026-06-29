@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the aluminium-free deodorant; the elevated fragrance and pastel-neutral minimalist packaging; the skincare and SPF extensions.
 
 **Pull for** – deodorant, elevated-design, fragrance-led.
-
-**Trend read** – pending enrichment.

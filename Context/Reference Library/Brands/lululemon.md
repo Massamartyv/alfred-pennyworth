@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the Align legging; the technical fabrics (Luon, Nulu); the yoga-origin Vancouver brand.
 
 **Pull for** – activewear, technical, performance, repositioned.
-
-**Trend read** – pending enrichment.

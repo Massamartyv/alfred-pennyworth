@@ -20,5 +20,3 @@ added: 2026-06-24
 **Canon** – the Winter Palace state rooms. a vast holding of Rembrandt and European masters, including two Leonardo Madonnas. the founding collection of Catherine the Great (1764).
 
 **Pull for** – scale, opulence, spatial-direction, imperial, art-direction.
-
-**Trend read** – An enduring symbol of imperial collecting and one of the great museum interiors on earth. Pending enrichment for current-cycle signal.

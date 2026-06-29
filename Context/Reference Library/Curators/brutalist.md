@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – Le Corbusier's Unité d'Habitation, Marseille (1952); the Barbican Estate, London; the National Theatre, London; Boston City Hall; Safdie's Habitat 67, Montreal. Board-marked concrete, deep shadow, monumental cantilevers.
 
 **Pull for** – materiality, raw-and-warm, sculptural-mass, structural-honesty, monumental.
-
-**Trend read** – A strong revival across design – "brutalist" furniture, type and interiors – though much of the trend is surface styling. The enduring value is the material honesty, not the look. Pending enrichment for current-cycle signal.

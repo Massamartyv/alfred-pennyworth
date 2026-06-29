@@ -20,5 +20,3 @@ added: 2026-06-24
 **Canon** – 60 sqm, 2.9m frontage; seven staggered floor slabs; exposed board-marked reinforced concrete; black-metal stairs and ladders; no fixed partitions. Published in ArchDaily, Dezeen and Designboom, 2023.
 
 **Pull for** – materiality, spatial-direction, structural-honesty, small-space-ingenuity, constraint-as-engine.
-
-**Trend read** – Part of a continuing Japanese tradition of extracting spatial richness from micro-urban sites, where section does the work that floor area cannot. Pending enrichment for current-cycle signal.

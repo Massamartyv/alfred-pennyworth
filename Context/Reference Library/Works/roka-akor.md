@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – the bincho-tan robata grill. Scottsdale, Chicago, San Francisco and Oak Brook. the sushi, wagyu and seafood program.
 
 **Pull for** – robatayaki, japanese, moody-dining, upscale-social, hospitality.
-
-**Trend read** – A reference for the upscale modern-Japanese robata dining format. Pending enrichment for current-cycle signal.

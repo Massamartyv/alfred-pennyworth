@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – the cream-cheese base. salty caramel and brambleberry crisp. the New York Times-bestselling cookbook (2011).
 
 **Pull for** – flavor-invention, technique, artisan, dessert, craft.
-
-**Trend read** – A defining brand of the artisan ice-cream era and a steady national presence. Pending enrichment for current-cycle signal.

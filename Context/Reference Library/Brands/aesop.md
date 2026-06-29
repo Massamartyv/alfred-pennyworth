@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – the amber-glass apothecary bottle; the considered store interiors; the bathroom-integrated range.
 
 **Pull for** – design-conscious products, ritual, restraint, interior integration, grooming.
-
-**Trend read** – pending enrichment for current-cycle signal.

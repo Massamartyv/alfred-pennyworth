@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the brush-velvet loafer; the Sheffield "Handmade in England" make; the founding story (Hewlett, £5,000 and a love of vintage slippers, 2015).
 
 **Pull for** – loafer, velvet, british, statement.
-
-**Trend read** – pending enrichment.

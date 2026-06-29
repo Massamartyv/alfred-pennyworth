@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – the high-low layered streetwear silhouette as a recurring template.
 
 **Pull for** – art-direction, high-low, layering direction, oversized-silhouette, streetwear.
-
-**Trend read** – pending enrichment.

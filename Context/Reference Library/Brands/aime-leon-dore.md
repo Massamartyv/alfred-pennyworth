@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – the New York heritage-streetwear silhouette; the coffee-shop-as-brand-world model; the considered collaboration.
 
 **Pull for** – streetwear, high-low, world-building, cultural-credibility, fashion.
-
-**Trend read** – pending enrichment for current-cycle signal.

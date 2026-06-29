@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – Rose Saltifolia; Tolu Aromatique; the olfactive-shock concept and its invented-name compositions.
 
 **Pull for** – niche-fragrance, olfactive-shock, nature-forward, concept-led.
-
-**Trend read** – pending enrichment.

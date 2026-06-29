@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – Santal 33; Rose 31; Another 13; the hand-labelled made-to-order ritual.
 
 **Pull for** – niche-fragrance, ritual, anti-luxury-luxury, experiential.
-
-**Trend read** – pending enrichment.

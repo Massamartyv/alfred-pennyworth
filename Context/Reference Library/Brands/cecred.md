@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the February 2024 launch after six years' development; the all-textures positioning; the 2025 Ulta expansion, Ulta's largest haircare launch; 100% founder ownership.
 
 **Pull for** – haircare, prestige, ownership-as-strategy.
-
-**Trend read** – pending enrichment.

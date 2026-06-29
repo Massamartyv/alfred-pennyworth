@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – the Grenache and Syrah Rhône blends. Helen Keplinger, formerly of Bryant Family. Food and Wine Winemaker of the Year (2012).
 
 **Pull for** – cult-wine, rhone-varietals, small-production, terroir, new-world.
-
-**Trend read** – A reference for the small-production, winemaker-led California cult label. Pending enrichment for current-cycle signal.

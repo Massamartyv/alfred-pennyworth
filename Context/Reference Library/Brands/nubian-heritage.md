@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the African black soap bar; the shea-butter range; the Sundial Brands lineage with SheaMoisture; the 2017 Unilever acquisition.
 
 **Pull for** – heritage, african-black-soap, diaspora.
-
-**Trend read** – pending enrichment.

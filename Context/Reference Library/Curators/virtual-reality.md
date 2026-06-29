@@ -19,5 +19,3 @@ added: 2026-06-29
 **Canon** – Sutherland's Sword of Damocles (1968); Lanier and VPL Research; the Oculus Rift as the consumer revival; immersion and presence as the organizing principles of the medium.
 
 **Pull for** – immersive-atmosphere, presence, world-building, spatial-direction, embodiment.
-
-**Trend read** – pending enrichment for current-cycle signal.

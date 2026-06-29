@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – the divergence at Maame's choice; the dungeon section; the letter-writing scene across the generational break; the final reunion at the water.
 
 **Pull for** – narrative, structure-as-argument, diaspora, multi-generational, historical-weight, Black-Atlantic-tradition.
-
-**Trend read** – pending enrichment.

@@ -19,5 +19,3 @@ added: 2026-06-29
 **Canon** – the four-symbol controller language; the PS2 as best-selling console of all time; the DualShock controller; the cinematic first-party exclusive as the platform's signature.
 
 **Pull for** – world-building, platform-ecosystem, brand-identity, immersive-atmosphere, high-low.
-
-**Trend read** – pending enrichment for current-cycle signal.

@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – Mesa Grill (1991), the founding restaurant. Iron Chef America. *Beat Bobby Flay*. Food Network from 1994 onward.
 
 **Pull for** – bold-flavor, grilling, competition, brand-building, hospitality.
-
-**Trend read** – The longest-running celebrity-chef brand on American television, the template for the chef as media enterprise. Pending enrichment for current-cycle signal.

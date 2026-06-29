@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – the centuries-old Florentine apothecary; the heritage fragrance formulas; the cross-category grooming range.
 
 **Pull for** – heritage craft, apothecary, cross-category alignment, ritual, fragrance.
-
-**Trend read** – pending enrichment for current-cycle signal.

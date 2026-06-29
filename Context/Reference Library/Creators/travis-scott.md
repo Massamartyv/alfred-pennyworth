@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – *Astroworld* (2018).
 
 **Pull for** – world-building, sound-design, immersive-atmosphere, narrative, ear-candy framing.
-
-**Trend read** – pending enrichment.

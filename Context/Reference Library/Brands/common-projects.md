@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the Achilles Low; the gold-foil serial number; Italian manufacture.
 
 **Pull for** – minimalism, sneaker, restraint, detail.
-
-**Trend read** – pending enrichment.

@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the Vogue editor-at-large tenure; the memoirs "The Chiffon Trenches" (2020) and "A.L.T." (2003); the Met Gala red-carpet stewardship; the capes and caftans.
 
 **Pull for** – editorial, taste-authority, voice-and-tone, fashion-as-culture.
-
-**Trend read** – pending enrichment.

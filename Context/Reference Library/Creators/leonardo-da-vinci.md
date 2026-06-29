@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – *Mona Lisa* (c. 1503-1519), the Louvre. *The Last Supper* (c. 1495-1498), Milan. *Vitruvian Man* (c. 1490). The notebooks.
 
 **Pull for** – polymath, art-and-science, mastery, curiosity, craft.
-
-**Trend read** – The permanent template for the cross-disciplinary creative mind. Timeless rather than cyclical. Pending enrichment for current-cycle signal.

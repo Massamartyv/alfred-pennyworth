@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – the silk scarves; the small leather goods; the homeware, tableware and blankets.
 
 **Pull for** – investment-luxury, craft-led direction, cross-category alignment, accessories, homeware.
-
-**Trend read** – pending enrichment for current-cycle signal.

@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – Miss Dior (1947); La Collection Privée (the 2004 trilogy, consolidated circa 2010); Oud Ispahan; Gris Dior.
 
 **Pull for** – prestige-niche, collection-privee, couture, maison.
-
-**Trend read** – pending enrichment.

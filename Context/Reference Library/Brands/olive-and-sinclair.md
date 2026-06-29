@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – "Southern Artisan Chocolate," Nashville. buttermilk white chocolate. bourbon-nib brittle. the Fatherland Street factory.
 
 **Pull for** – southern, place-rooted, craft, heritage, bean-to-bar.
-
-**Trend read** – A reference for regionally rooted American craft chocolate. Pending enrichment for current-cycle signal.

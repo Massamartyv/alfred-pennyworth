@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – *Channel Orange* (2012), *Blonde* (2016).
 
 **Pull for** – sound-design, voice-and-tone, restraint, nostalgia-as-texture framing, atmosphere.
-
-**Trend read** – pending enrichment.

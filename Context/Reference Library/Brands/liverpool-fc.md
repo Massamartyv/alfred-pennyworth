@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – the club crest and colours; the anthem and the Kop; the tribal football culture.
 
 **Pull for** – tribal identity, unambiguous loyalty, cultural affiliation, possessed-not-performed identity, world-building.
-
-**Trend read** – pending enrichment for current-cycle signal.

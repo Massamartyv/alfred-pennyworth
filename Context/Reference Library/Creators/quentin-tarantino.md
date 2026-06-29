@@ -6,8 +6,6 @@ spheres: [Cinema]
 tags: [cinematography, surrealism, outrageousness, genre-defiance, style-as-resistance]
 status: canon
 added: 2026-06-21
-signal_refreshed: 2026-06-28
-signal_volatility: medium
 ---
 
 # Quentin Tarantino
@@ -21,5 +19,3 @@ signal_volatility: medium
 **Canon** – *Reservoir Dogs*, 1992; *Pulp Fiction*, 1994; *Django Unchained*, 2012 – each carded in Works; the surreal, cinematographic, outrageous body of direction.
 
 **Pull for** – cinematography, visual-direction, style-as-resistance framing, maximalism, film-direction.
-
-**Trend read** – A living, active auteur whose back catalogue is canon and whose announced "tenth and final film" keeps forward anticipation high. Periodically active signal.

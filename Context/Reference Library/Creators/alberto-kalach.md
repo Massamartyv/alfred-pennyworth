@@ -20,5 +20,3 @@ added: 2026-06-24
 **Canon** – Biblioteca Vasconcelos, Mexico City (competition won 2004, opened 2006). Casa GGG (1999). México Ciudad Futura / Return to the City of Lakes, the Lake Texcoco regeneration vision, special prize at the 2002 Venice Biennale. Reforma 27 Tower (2007-2010).
 
 **Pull for** – biophilic, materiality, spatial-direction, nature-integration, world-building.
-
-**Trend read** – The biophilic turn in architecture moved from amenity to organizing principle over the last decade, and Kalach held that position before it was fashionable. Pending enrichment for current-cycle signal.

@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – the menswear edit; the editorial and styling layer; the curated brand roster.
 
 **Pull for** – menswear curation, editorial filter, taste proxy, secondary storefront, fashion.
-
-**Trend read** – pending enrichment for current-cycle signal.

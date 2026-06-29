@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – Tom Hanks as Forrest. the bench and the box of chocolates. the run across America. adapted from Winston Groom's novel.
 
 **Pull for** – innocence-as-wisdom, americana, sentiment, narrative, history.
-
-**Trend read** – A permanent fixture of the American popular canon, equally beloved and debated. Pending enrichment for current-cycle signal.

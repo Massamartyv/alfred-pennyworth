@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – Robie House, Chicago (1910). Unity Temple, Oak Park (1909). Fallingwater, Mill Run (1935-1939). The Guggenheim, New York (1959). Taliesin and Taliesin West. The Jacobs House (1936), the first Usonian. Eight works inscribed as UNESCO World Heritage in 2019.
 
 **Pull for** – spatial-direction, materiality, nature-integration, horizontal-calm, total-design.
-
-**Trend read** – Organic architecture is the intellectual ancestor of today's biophilic movement; the throughline from Wright to Kalach is direct. Pending enrichment for current-cycle signal.

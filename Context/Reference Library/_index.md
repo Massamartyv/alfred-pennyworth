@@ -15,7 +15,7 @@ This is the personal library. Every venture holds its own isolated Reference Lib
 
 1. A task calls for inspiration, creative direction or a research batch.
 2. Alfred reads this index and matches the task to cards by type, domain and the Pull-for tags.
-3. Alfred loads only the matched cards and returns a batch with the formula, the canon and the trend read already surfaced on each card.
+3. Alfred loads only the matched cards and returns a batch with the formula and the canon already surfaced on each card.
 
 Adding an entry is two motions: write the card in the right folder, then add one row to the registry.
 
@@ -65,7 +65,6 @@ Body sections, in order:
 
 - **Canon** – the landmark works, moments or products that anchor the reference.
 - **Pull for** – the task tags that should summon this card.
-- **Trend read** – how it relates to what is working now. Dated when time-sensitive. Marked "pending enrichment" when the source carries no current signal – never invented.
 
 ## Pull-for vocabulary
 

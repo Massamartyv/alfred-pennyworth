@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – the Marineford War arc; the Straw Hat crew's reunion at Sabaody Archipelago; "I want to live" (Robin); Luffy's declaration at Marine Ford.
 
 **Pull for** – narrative, world-building, long-form-structure, found-family, dreams-and-ambition, tonal-range.
-
-**Trend read** – pending enrichment.

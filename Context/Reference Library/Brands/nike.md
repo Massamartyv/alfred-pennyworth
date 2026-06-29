@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – ACG technical outerwear; Tech Fleece; the Dunk; the Air Force 1.
 
 **Pull for** – selective alignment, sub-line curation, sneaker, high-low, fashion.
-
-**Trend read** – pending enrichment for current-cycle signal.

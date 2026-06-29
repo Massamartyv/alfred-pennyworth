@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – Breton's 1924 manifesto. Dalí's paranoid-critical method. Magritte's enigmatic juxtapositions. Ernst's collage and frottage. Miró's biomorphic abstraction.
 
 **Pull for** – dream-logic, the-uncanny, juxtaposition, conviction, art-direction.
-
-**Trend read** – The permanent reference for dream-logic imagery, perpetually revived in advertising, film and fashion. Pending enrichment for current-cycle signal.

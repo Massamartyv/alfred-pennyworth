@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – more than three hundred blends. the signature tins. the family lineage through Michael and Paul Harney.
 
 **Pull for** – fine-tea, blending, family-craft, packaging, accessible-luxury.
-
-**Trend read** – A broadly distributed fine-tea house that holds an artisan reputation at scale. Pending enrichment for current-cycle signal.

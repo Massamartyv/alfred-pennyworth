@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – *Campbell's Soup Cans* (1962). *Marilyn Diptych* (1962). *Brillo Boxes* (1964). The Factory and the films. Cross-disciplinary into music with the Velvet Underground.
 
 **Pull for** – high-low, icon-making, commodity-as-icon, repetition, art-direction.
-
-**Trend read** – The logic of turning consumer objects into icons still governs how brands build visual equity. Warhol is the patron saint of the brand-as-culture move. Pending enrichment for current-cycle signal.

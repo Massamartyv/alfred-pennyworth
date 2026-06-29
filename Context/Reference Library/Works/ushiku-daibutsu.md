@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the 120-metre figure (10m lotus base, 10m pedestal, 100m statue); the 6,000-panel bronze skin on a steel frame; the interior museum and the 85-metre observation floor.
 
 **Pull for** – monumental, inhabitable-sculpture, scale, spatial-direction.
-
-**Trend read** – pending enrichment.

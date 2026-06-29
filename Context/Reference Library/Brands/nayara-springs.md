@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – the Costa Rica resort; the drive in; the pinned five-star Accommodations entry.
 
 **Pull for** – five-star hospitality, pinnacle standard, experience design, ritual, travel.
-
-**Trend read** – pending enrichment for current-cycle signal.

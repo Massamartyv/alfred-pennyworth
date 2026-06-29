@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the Superstar low-top; the hand-applied distressing and star motif; the Venice origin.
 
 **Pull for** – sneaker, distressed, statement, high-low.
-
-**Trend read** – pending enrichment.

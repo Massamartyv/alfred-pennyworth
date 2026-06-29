@@ -17,5 +17,3 @@ added: 2026-06-27
 **Canon** – the two-rose construction; the grapefruit-and-amberwood frame; its standing as a masculine-floral standard-bearer.
 
 **Pull for** – masculine-floral, rose, elegant, prestige.
-
-**Trend read** – pending enrichment.

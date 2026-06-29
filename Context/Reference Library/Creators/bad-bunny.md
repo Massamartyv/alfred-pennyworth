@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – the relaxed, sensual, colour-forward silhouette as a recurring template.
 
 **Pull for** – materiality, color-and-light, colour-confidence direction, relaxed-silhouette, fashion.
-
-**Trend read** – pending enrichment.

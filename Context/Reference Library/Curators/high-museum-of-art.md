@@ -20,5 +20,3 @@ added: 2026-06-24
 **Canon** – the Richard Meier building (1983), named among the best American works of its decade. the Renzo Piano expansion (2005), "a village for the arts" that more than doubled the footprint. the 2025 Kim Chong Hak retrospective.
 
 **Pull for** – atlanta, architecture, spatial-direction, home-institution, art-direction.
-
-**Trend read** – Atlanta's principal art museum and a steady cultural anchor in the home city. Pending enrichment for current-cycle signal.

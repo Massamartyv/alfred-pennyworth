@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the premium road kit; the Rapha Cycling Club (RCC); the muted editorial brand world.
 
 **Pull for** – cycling, performance, premium, community.
-
-**Trend read** – pending enrichment.

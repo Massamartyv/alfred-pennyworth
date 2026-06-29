@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the Creme de Corps and Ultra Facial Cream; the 1851 East Village apothecary; the plain clinical packaging and sampling ethos.
 
 **Pull for** – apothecary, heritage, formulation.
-
-**Trend read** – pending enrichment.

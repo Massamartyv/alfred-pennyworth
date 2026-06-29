@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – Le Smoking (1966); the Mondrian dress (1965); the safari jacket; the Rive Gauche ready-to-wear; the lean modern Saint Laurent silhouette.
 
 **Pull for** – tailoring, androgyny, parisian, statement.
-
-**Trend read** – pending enrichment.

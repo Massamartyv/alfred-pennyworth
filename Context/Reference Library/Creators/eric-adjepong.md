@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – *Top Chef* finalist, seasons 16 and 17. Elmina, Washington DC (2025). *Ghana to the World* (2025). the West African tasting menus that put the cuisine on the map.
 
 **Pull for** – west-african, diaspora, forward-looking-heritage, fine-dining, cultural-bridge.
-
-**Trend read** – Among the most prominent voices bringing West African cuisine into the American fine-dining conversation. Pending enrichment for current-cycle signal.

@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – the pilot scene in the desert with the RV; "I am the one who knocks"; Ozymandias (Season 5, Episode 14); the finale's return to the lab.
 
 **Pull for** – narrative, character-study, long-form-structure, pride-and-hubris, moral-decay, dramatic-inevitability.
-
-**Trend read** – pending enrichment.

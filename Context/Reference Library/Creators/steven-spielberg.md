@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – *Jaws* (1975). *Raiders of the Lost Ark* (1981). *E.T.* (1982). *Jurassic Park* (1993). *Schindler's List* (1993). *Saving Private Ryan* (1998).
 
 **Pull for** – wonder, populist-craft, world-building, spectacle, narrative.
-
-**Trend read** – The enduring template for the event film that also has a soul. Pending enrichment for current-cycle signal.

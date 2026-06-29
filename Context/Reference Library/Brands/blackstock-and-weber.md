@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the Ellis loafer; the colour-forward penny loafer revival.
 
 **Pull for** – loafer, americana-reimagined, statement, footwear.
-
-**Trend read** – pending enrichment.

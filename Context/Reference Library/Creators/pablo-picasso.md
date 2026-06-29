@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – *Les Demoiselles d'Avignon* (1907), the proto-Cubist rupture. *Guernica* (1937), painting as political force. The Blue and Rose periods.
 
 **Pull for** – reinvention, multiple-perspective, art-direction, creative-risk, truth-over-accuracy.
-
-**Trend read** – The enduring argument that fracturing a fixed perspective reveals more than rendering it whole. Applies to brand and narrative as cleanly as to paint. Pending enrichment for current-cycle signal.

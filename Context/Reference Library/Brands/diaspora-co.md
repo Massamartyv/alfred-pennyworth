@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – the single-origin Pragati turmeric. the equitable-sourcing model. the vivid, color-saturated brand identity.
 
 **Pull for** – single-origin, equity, anti-colonial, brand-identity, provenance.
-
-**Trend read** – A reference for values-led brand building in specialty food, widely cited for both its ethics and its design. Pending enrichment for current-cycle signal.

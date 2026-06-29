@@ -20,5 +20,3 @@ added: 2026-06-24
 **Canon** – Edgar J. Kaufmann Sr. as client; reinforced-concrete cantilevered terraces over Bear Run; the hearth set on living boulders; the stair descending to the water. Owned and operated by the Western Pennsylvania Conservancy.
 
 **Pull for** – nature-integration, materiality, spatial-direction, sense-of-place, restraint.
-
-**Trend read** – The reference standard whenever a project asks how built form should meet water and rock. Timeless rather than cyclical. Pending enrichment for current-cycle signal.

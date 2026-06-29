@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – the BabyCakes origin on the Lower East Side. the 2015 rebrand. the New York, Los Angeles and Orlando shops.
 
 **Pull for** – vegan, gluten-free, allergen-free, no-compromise, craft.
-
-**Trend read** – Credited with opening the allergen-free bakery category commercially in the US. Pending enrichment for current-cycle signal.

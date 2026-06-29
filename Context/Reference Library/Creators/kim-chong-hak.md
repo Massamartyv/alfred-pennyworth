@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – the Seoraksan and Sokcho landscape and flower paintings. *Summer Gaewoon* (2004). the 2025 High Museum retrospective *Painter of Seoraksan*, which traveled to the Phoenix Art Museum.
 
 **Pull for** – color-and-light, nature, depth-of-attention, materiality, anti-trend.
-
-**Trend read** – His US institutional debut in 2025 placed him before an American audience for the first time, part of a broader rediscovery of postwar Korean painting beyond the monochrome canon. Pending enrichment for current-cycle signal.

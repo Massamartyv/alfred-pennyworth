@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – the rock scene (two rocks on a cliff in a universe where life never evolved); "be kind, especially when it's difficult"; the laundromat finale.
 
 **Pull for** – narrative, identity, tonal-range, formal-experimentation, emotional-honesty, chaos-and-meaning.
-
-**Trend read** – pending enrichment.

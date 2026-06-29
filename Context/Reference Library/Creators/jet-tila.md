@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – inaugural Culinary Ambassador of Thai Cuisine (2013). *101 Asian Dishes You Need to Cook Before You Die* (2017). Dragon Tiger Noodle Co. the family's Bangkok Market, Los Angeles.
 
 **Pull for** – thai-cuisine, pan-asian, heritage, fusion, cultural-custodian.
-
-**Trend read** – A leading public face for Thai and pan-Asian cooking in American media. Pending enrichment for current-cycle signal.

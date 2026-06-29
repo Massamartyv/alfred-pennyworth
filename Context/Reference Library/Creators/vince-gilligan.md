@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – *Breaking Bad* (2008-2013). *Better Call Saul* (2015-2022). early work writing on *The X-Files*.
 
 **Pull for** – long-form-structure, moral-transformation, slow-burn, consequence, narrative.
-
-**Trend read** – The reference standard for serialized character transformation and the rigorously plotted prestige drama. Pending enrichment for current-cycle signal.

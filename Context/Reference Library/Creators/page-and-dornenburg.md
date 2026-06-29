@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – *The Flavor Bible* (2008). *Culinary Artistry* (1996). *What to Drink with What You Eat* (2006).
 
 **Pull for** – flavor-pairing, culinary-reference, creative-engine, technique, improvisation.
-
-**Trend read** – *The Flavor Bible* remains the most-cited working reference for flavor composition in professional and home kitchens alike. Pending enrichment for current-cycle signal.

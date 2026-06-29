@@ -20,5 +20,3 @@ added: 2026-06-24
 **Canon** – The vaulted garden atrium; planted terraces threaded through labs and 40 classrooms; a 400-seat auditorium; clinical simulation suites. Landscape by Isabel Duprat. Safdie's section-as-social-landscape signature applied to medicine.
 
 **Pull for** – biophilic, spatial-direction, color-and-light, institutional-warmth, atrium.
-
-**Trend read** – Healthcare and research architecture is moving decisively toward daylight, planting and wellbeing as measurable design goals, and this sits at the front of that shift. Pending enrichment for current-cycle signal.

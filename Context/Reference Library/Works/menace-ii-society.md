@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – Caine (Tyrin Turner) and O-Dog (Larenz Tate). the Watts setting. the opening liquor-store scene. its place beside *Boyz n the Hood* in the 1990s hood-film canon.
 
 **Pull for** – hood-realism, coming-of-age, fatalism, black-cinema, atmosphere.
-
-**Trend read** – A foundational text of 1990s Black American cinema, still referenced for its unsparing realism and visual style. Pending enrichment for current-cycle signal.

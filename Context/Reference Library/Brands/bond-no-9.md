@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – Chinatown; New Haarlem; the neighbourhood-atlas concept; the star-shaped collectible bottles.
 
 **Pull for** – niche-fragrance, new-york, place-as-concept, collectible.
-
-**Trend read** – pending enrichment.

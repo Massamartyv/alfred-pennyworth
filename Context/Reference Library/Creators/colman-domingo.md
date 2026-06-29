@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – the controlled-statement formalwear silhouette as a recurring template.
 
 **Pull for** – art-direction, restraint, materiality, statement-with-control direction, fashion.
-
-**Trend read** – pending enrichment.

@@ -17,5 +17,3 @@ added: 2026-06-27
 **Canon** – the saffron-and-almond signature; the amber-ambroxan drydown; the 2015 eau de parfum and the contained 2014 Baccarat-crystal commission; the dupe phenomenon.
 
 **Pull for** – oriental-floral, status-scent, amber, cultural-reach.
-
-**Trend read** – pending enrichment.

@@ -17,5 +17,3 @@ added: 2026-06-27
 **Canon** – the bergamot-and-apple opening; the tonka-ambergris drydown; the New-York-street naming.
 
 **Pull for** – fresh-woody-musk, versatile, new-york, easy-wear.
-
-**Trend read** – pending enrichment.

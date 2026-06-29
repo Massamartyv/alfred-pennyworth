@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the Shawn Stussy hand-scrawled signature; the surf-to-streetwear lineage; the International Stussy Tribe.
 
 **Pull for** – streetwear, surf, heritage, high-low.
-
-**Trend read** – pending enrichment.

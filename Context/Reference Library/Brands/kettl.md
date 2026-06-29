@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – single-origin matcha, gyokuro and sencha. the Fukuoka producer relationships. *Stories of Japanese Tea* (2022).
 
 **Pull for** – japanese-tea, single-origin, provenance, seasonality, connoisseurship.
-
-**Trend read** – A leading US reference for serious single-origin Japanese tea. Pending enrichment for current-cycle signal.

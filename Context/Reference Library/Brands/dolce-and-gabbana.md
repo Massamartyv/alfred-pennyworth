@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – Light Blue (2001); The One (2006 women, 2008 men); the Velvet Collection as the rarified tier.
 
 **Pull for** – designer-fragrance, mediterranean, italian, accessible-luxury.
-
-**Trend read** – pending enrichment.

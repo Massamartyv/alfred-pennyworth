@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – *President Barack Obama* (2018), National Portrait Gallery. *Rumors of War* (2019), the 27-foot bronze equestrian answer to Confederate monuments, now at the Virginia Museum of Fine Arts.
 
 **Pull for** – portraiture, reclaiming-the-canon, art-direction, heroic-posture, ornament.
-
-**Trend read** – A central figure in the contemporary reframing of the Western canon around Black subjecthood, with the cultural weight to set terms rather than follow them. Pending enrichment for current-cycle signal.

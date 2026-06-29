@@ -19,5 +19,3 @@ added: 2026-06-29
 **Canon** – the Cluedo deduction lineage (1949); Decipher's "How to Host a Murder" boxed kits of the 1980s; the dinner-party-as-game structure of roles, secrets and staged reveals.
 
 **Pull for** – participation, role-play, ritual, hospitality, narrative.
-
-**Trend read** – pending enrichment for current-cycle signal.

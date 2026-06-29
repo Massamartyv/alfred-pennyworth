@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – the grunge-era thrifted layering as the anti-style template.
 
 **Pull for** – anti-style direction, grunge, restraint, effortless-nonchalance, fashion.
-
-**Trend read** – pending enrichment.

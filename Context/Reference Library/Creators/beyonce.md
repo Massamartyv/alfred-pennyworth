@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – *Renaissance* (2022).
 
 **Pull for** – performance, precision-as-freedom framing, ancestral-tribute, cadence, excellence direction.
-
-**Trend read** – pending enrichment.

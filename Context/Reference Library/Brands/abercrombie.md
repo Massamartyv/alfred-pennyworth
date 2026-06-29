@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the 2020s turnaround; the linen sets and knitwear; the logo-stripped elevated basics.
 
 **Pull for** – rebrand, elevated-basics, americana, foundation-fashion.
-
-**Trend read** – pending enrichment.

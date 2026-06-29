@@ -20,5 +20,3 @@ added: 2026-06-21
 **Canon** – The Sabi Sand origin lodges; Grumeti in the Serengeti; Pamushana in Zimbabwe; Kwitonda at Volcanoes in Rwanda. The conservation-finance model itself is the signature artefact.
 
 **Pull for** – hospitality, ritual, sense-of-place, world-building, positioning, conservation-as-purpose, spatial-direction.
-
-**Trend read** – Pending enrichment. Conservation-led luxury and regenerative travel are an ascendant register at the top of the market, and Singita is among the references that set it rather than followed it.

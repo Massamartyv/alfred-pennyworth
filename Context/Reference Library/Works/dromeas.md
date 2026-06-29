@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the twelve-metre green-glass figure near the Hilton Athens; the original 1988 Omonia Square installation; the 1994 permanent relocation.
 
 **Pull for** – glass, motion, materiality, public-sculpture.
-
-**Trend read** – pending enrichment.

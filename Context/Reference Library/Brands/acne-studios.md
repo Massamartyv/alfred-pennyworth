@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the Stockholm raw-denim origin; the oversized wool scarf; the pink branding as anti-luxury signal; Acne Paper.
 
 **Pull for** – scandinavian, minimalism, denim, subversive.
-
-**Trend read** – pending enrichment.

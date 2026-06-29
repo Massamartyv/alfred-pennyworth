@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – the body of work as a single evolving argument, from the early provocation to the later craftsmanship.
 
 **Pull for** – taste-evolution framing, reinvention, creative-risk direction, craft-over-brand.
-
-**Trend read** – pending enrichment.

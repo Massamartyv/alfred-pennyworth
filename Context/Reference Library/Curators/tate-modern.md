@@ -20,5 +20,3 @@ added: 2026-06-24
 **Canon** – the Turbine Hall and its rotating large-scale commissions. the Bankside Power Station conversion by Herzog and de Meuron (2000). a deep modern and contemporary collection.
 
 **Pull for** – contemporary, adaptive-reuse, exposed-structure, london, spatial-direction.
-
-**Trend read** – Among the most visited modern-art museums in the world and the model for the power-station-to-gallery conversion. Pending enrichment for current-cycle signal.

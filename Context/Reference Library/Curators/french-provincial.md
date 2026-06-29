@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – Provençal mas and bastide farmhouses; Norman manor houses; steep hipped roofs, dormers, limestone and lime render, shuttered casements, herringbone parquet, weathered terracotta.
 
 **Pull for** – materiality, warmth, rustic-refinement, craftsmanship, patina.
-
-**Trend read** – A perennial in luxury residential interiors, most credible in its restrained "modern French country" form. Pending enrichment for current-cycle signal.

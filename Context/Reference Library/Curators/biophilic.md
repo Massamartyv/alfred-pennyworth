@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – Bosco Verticale, Milan (Stefano Boeri); the Amazon Spheres, Seattle; Parkroyal Collection Pickering, Singapore (WOHA); Gardens by the Bay. Kalach and Wright as the architectural ancestors.
 
 **Pull for** – biophilic, nature-integration, color-and-light, greenery, wellbeing.
-
-**Trend read** – One of the genuinely ascendant movements in architecture and interiors, moving from amenity to organizing principle and into wellbeing metrics. Currently load-bearing, not a passing trend.

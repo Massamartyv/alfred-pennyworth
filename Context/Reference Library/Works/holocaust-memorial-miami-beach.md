@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the 42-foot bronze arm and its roughly 100 figures; the Memorial Wall and Jerusalem-stone enclosure; the 1933-1945 Meridian Avenue address; dedicated 1990.
 
 **Pull for** – memorial, monumental, emotional-weight, spatial-direction.
-
-**Trend read** – pending enrichment.

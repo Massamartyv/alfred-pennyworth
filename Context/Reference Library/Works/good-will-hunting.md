@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – the park bench sessions between Will and Sean Maguire; the line "it's not your fault"; the final scene on the open road.
 
 **Pull for** – narrative, emotional-suppression, cost-of-greatness, class-and-identity, mentor-dynamics, dramatic-structure.
-
-**Trend read** – pending enrichment.

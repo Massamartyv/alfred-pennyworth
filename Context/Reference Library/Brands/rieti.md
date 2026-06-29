@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the Kinfolk Seongsu flagship; the artist following across Korean music and screen; the transparent and pastel frame range.
 
 **Pull for** – eyewear, korean, accessible-cool, detail.
-
-**Trend read** – pending enrichment.

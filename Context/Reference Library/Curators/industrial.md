@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – SoHo cast-iron lofts; converted warehouse living; Bauhaus material logic; black steel, board-marked concrete, reclaimed wood, Edison-era fixtures used with restraint.
 
 **Pull for** – materiality, loft, exposed-structure, raw-and-warm, spatial-direction.
-
-**Trend read** – Mature rather than trending – the warehouse-loft language has settled into a permanent vocabulary, most alive now when softened rather than played cold. Pending enrichment for current-cycle signal.

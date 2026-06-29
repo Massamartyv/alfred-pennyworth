@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – *Impression, Sunrise* (1872), the painting that named the movement. The *Water Lilies* cycle at the Musée de l'Orangerie. Giverny, the garden as studio.
 
 **Pull for** – light, atmosphere, water-and-garden, color-and-light, biophilic.
-
-**Trend read** – The reference whenever light and atmosphere are the brief rather than the object. The Orangerie cycle remains a pilgrimage. Pending enrichment for current-cycle signal.

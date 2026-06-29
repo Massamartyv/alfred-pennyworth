@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the Old Skool side stripe; the Authentic; the checkerboard slip-on; the Off the Wall skate heritage.
 
 **Pull for** – skate, heritage, foundation-fashion, high-low.
-
-**Trend read** – pending enrichment.

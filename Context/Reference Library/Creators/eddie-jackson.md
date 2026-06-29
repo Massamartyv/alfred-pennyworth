@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – *Food Network Star* season 11 win (2015). an NFL cornerback career across four teams. *Kids BBQ Championship* and Food Network hosting. the Chefs United Foundation.
 
 **Pull for** – athlete-to-chef, southern, bbq, discipline, competition.
-
-**Trend read** – An established Food Network host whose athlete-to-chef arc remains his defining public narrative. Pending enrichment for current-cycle signal.

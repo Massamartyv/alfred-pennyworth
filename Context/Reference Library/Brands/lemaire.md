@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – the Uniqlo U line, the croissant bag, the soft-tailoring silhouette.
 
 **Pull for** – materiality, anti-logo, restraint, quiet-luxury direction, fashion.
-
-**Trend read** – the quiet-luxury cycle moved the mainstream toward Lemaire's position years after it set it. The reference predates the trend, which is the point. Pending enrichment for current-cycle signal.

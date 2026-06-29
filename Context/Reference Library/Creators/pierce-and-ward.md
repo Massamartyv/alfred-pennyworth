@@ -19,5 +19,3 @@ added: 2026-06-21
 **Canon** – the constrained-maximalist interiors; the high-object-count rooms that still read as sprezzatura.
 
 **Pull for** – spatial-direction, materiality, constrained-maximalism framing, intention-density, maximalism.
-
-**Trend read** – pending enrichment.

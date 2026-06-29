@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the varsity and workwear pieces; Ouigi Theodore's dress-code ethos; the brownstone-rooted brand world.
 
 **Pull for** – americana, heritage, storytelling, high-low.
-
-**Trend read** – pending enrichment.

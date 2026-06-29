@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – Diallo (launched in New York, February 2021); the reimagined mesh practice jersey; Paris Men's Fashion Week appearances; repeated NFL best-dressed listings.
 
 **Pull for** – athletic-tailoring, fitted-silhouette, americana, fashion.
-
-**Trend read** – pending enrichment.

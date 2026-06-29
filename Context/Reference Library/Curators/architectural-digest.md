@@ -20,5 +20,3 @@ added: 2026-06-24
 **Canon** – Founded 1920; Condé Nast title. The annual AD100 list of leading interior designers and architects. The Open Door celebrity home-tour series. International editions across Spain, Italy, France, Germany, India and the Middle East.
 
 **Pull for** – editorial, interiors, taste-proxy, art-direction, luxury-homes.
-
-**Trend read** – The Open Door franchise made AD a force on video well beyond the print subscriber, and the AD100 remains the industry's most-watched annual marker. Pending enrichment for current-cycle signal.

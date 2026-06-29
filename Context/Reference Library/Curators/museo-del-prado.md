@@ -20,5 +20,3 @@ added: 2026-06-24
 **Canon** – Velázquez's *Las Meninas*. Goya's *The Third of May 1808* and the Black Paintings. Bosch's *The Garden of Earthly Delights*. El Greco holdings.
 
 **Pull for** – old-master, spanish-masters, art-direction, drama, portraiture.
-
-**Trend read** – The reference destination for Spanish Old Master painting and the Velázquez-Goya lineage. Pending enrichment for current-cycle signal.

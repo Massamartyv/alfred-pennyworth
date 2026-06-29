@@ -19,5 +19,3 @@ added: 2026-06-29
 **Canon** – chaturanga and the Indian origin; the late-15th-century European rule changes that produced the modern game; the standing role as the universal symbol of strategy and intellect across art, film and literature.
 
 **Pull for** – strategy, constraint-as-depth, timeless-system, mastery, positioning.
-
-**Trend read** – pending enrichment for current-cycle signal.

@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – *How Not to Die* (2015). *How Not to Diet*. NutritionFacts.org. the Daily Dozen framework.
 
 **Pull for** – evidence-based-nutrition, health-as-foundation, plant-forward, longevity, food-science.
-
-**Trend read** – The reference authority for the evidence-first wing of the wellness conversation, against the supplement-and-biohack noise. Pending enrichment for current-cycle signal.

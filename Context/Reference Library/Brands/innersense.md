@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the salon-first distribution; the paraben, silicone, sulfate and synthetic-fragrance-free formulation; the 2006 founding ahead of the clean-beauty curve.
 
 **Pull for** – clean-haircare, salon-led, professional-grade.
-
-**Trend read** – pending enrichment.

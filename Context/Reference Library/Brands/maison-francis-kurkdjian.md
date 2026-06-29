@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – Baccarat Rouge 540 (2015); Grand Soir; Aqua Celestia; the LVMH era and Kurkdjian's parallel role as Dior's perfume director.
 
 **Pull for** – haute-parfumerie, technical-precision, signature-scent, parisian.
-
-**Trend read** – pending enrichment.

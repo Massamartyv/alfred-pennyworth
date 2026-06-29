@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the 2011 debut leathery floral chypre; the Intrecciato-coded identity; the later Venetian-heritage collection.
 
 **Pull for** – designer-fragrance, quiet-luxury, leather, restraint.
-
-**Trend read** – pending enrichment.

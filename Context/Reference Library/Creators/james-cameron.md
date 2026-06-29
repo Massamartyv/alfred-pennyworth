@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – *The Terminator* (1984) and *Terminator 2* (1991). *Aliens* (1986). *Titanic* (1997). *Avatar* (2009) and *Avatar: The Way of Water* (2022). Repeated holder of the highest-grossing-film record.
 
 **Pull for** – world-building, immersive-atmosphere, spectacle, technical-innovation, scale.
-
-**Trend read** – The reference for technology-led world-building and the theatrical-scale event film. The *Avatar* sequels remain the test case for spectacle as a reason to leave the house. Pending enrichment for current-cycle signal.

@@ -19,5 +19,3 @@ added: 2026-06-27
 **Canon** – the Phoebe Philo era and its cult of quiet luxury; the Hedi Slimane reinvention and the dropped accent; the Triomphe, Luggage and Classic Box bags.
 
 **Pull for** – quiet-luxury, restraint, parisian, minimalism.
-
-**Trend read** – pending enrichment.

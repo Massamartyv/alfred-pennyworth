@@ -19,5 +19,3 @@ added: 2026-06-24
 **Canon** – the six-ounce chocolate-chip walnut cookie. the 1997 New York Times rave. the original Upper West Side shop.
 
 **Pull for** – signature-product, cult-object, indulgence, craft, focus.
-
-**Trend read** – The reference case for the single-hero-product bakery and the cookie as destination. Pending enrichment for current-cycle signal.
