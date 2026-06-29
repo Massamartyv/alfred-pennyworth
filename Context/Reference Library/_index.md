@@ -2,7 +2,7 @@
 file_type: reference_library_index
 scope: personal
 created: 2026-06-21
-last_updated: 2026-06-28
+last_updated: 2026-06-29
 ---
 
 # Reference Library
@@ -187,6 +187,7 @@ Full cards, grouped by type. A card link means a file exists.
 | Drake's | brand | fashion | british, tailoring, sprezzatura, menswear | canon | [Brands/drakes.md](Brands/drakes.md) |
 | Duke and Dexter | brand | footwear, fashion | loafer, velvet, british, statement | canon | [Brands/duke-and-dexter.md](Brands/duke-and-dexter.md) |
 | Erin McKenna's Bakery | brand | bakery | vegan, gluten-free, allergen-free, no-compromise | canon | [Brands/erin-mckennas-bakery.md](Brands/erin-mckennas-bakery.md) |
+| FanDuel | brand | gaming, sports betting, fantasy sports | positioning, product-pivot, conversion, category-leadership | canon | [Brands/fanduel.md](Brands/fanduel.md) |
 | Frog's Leap | brand | wine | organic, dry-farmed, sustainability, new-world | canon | [Brands/frogs-leap.md](Brands/frogs-leap.md) |
 | Golden Goose | brand | footwear, fashion | sneaker, distressed, italian, statement | canon | [Brands/golden-goose.md](Brands/golden-goose.md) |
 | Goyard | brand | fashion, accessories, travel | heritage, discreet-luxury, accessories, travel | canon | [Brands/goyard.md](Brands/goyard.md) |
@@ -223,6 +224,7 @@ Full cards, grouped by type. A card link means a file exists.
 | Olive and Sinclair | brand | chocolate | southern, place-rooted, craft, bean-to-bar | canon | [Brands/olive-and-sinclair.md](Brands/olive-and-sinclair.md) |
 | Our Legacy | brand | fashion | scandinavian, fabric-first, textured, restraint | canon | [Brands/our-legacy.md](Brands/our-legacy.md) |
 | Paraboot | brand | footwear, fashion | french, heritage, footwear, craft | canon | [Brands/paraboot.md](Brands/paraboot.md) |
+| PlayStation | brand | gaming, hardware, entertainment | world-building, platform-ecosystem, brand-identity, immersive-atmosphere | canon | [Brands/playstation.md](Brands/playstation.md) |
 | Prada | brand | fashion, leather goods | intellectual-fashion, restraint, materiality, anti-pretty | canon | [Brands/prada.md](Brands/prada.md) |
 | Ralph Lauren | brand | fashion | americana, quiet-luxury, tiered-curation, logo-avoidance | canon | [Brands/ralph-lauren.md](Brands/ralph-lauren.md) |
 | Rapha | brand | cycling, fashion | cycling, performance, premium, community | canon | [Brands/rapha.md](Brands/rapha.md) |
@@ -231,6 +233,7 @@ Full cards, grouped by type. A card link means a file exists.
 | Santa Maria Novella | brand | fragrance, grooming | heritage-craft, apothecary, cross-category, ritual | canon | [Brands/santa-maria-novella.md](Brands/santa-maria-novella.md) |
 | Scribe Winery | brand | wine | natural-wine, place-as-experience, minimal-intervention, new-world | canon | [Brands/scribe-winery.md](Brands/scribe-winery.md) |
 | Singita | brand | travel, hospitality, conservation | five-star-hospitality, conservation-luxury, sense-of-place, ritual | canon | [Brands/singita.md](Brands/singita.md) |
+| Steam | brand | gaming, software, digital distribution | platform-ecosystem, distribution, community, merchandising | canon | [Brands/steam.md](Brands/steam.md) |
 | Stüssy | brand | fashion, streetwear | streetwear, surf, heritage, high-low | canon | [Brands/stussy.md](Brands/stussy.md) |
 | Uniqlo | brand | fashion | foundation-fashion, quality-basics, anti-logo, restraint | canon | [Brands/uniqlo.md](Brands/uniqlo.md) |
 | Vans | brand | footwear, fashion | skate, heritage, foundation-fashion, high-low | canon | [Brands/vans.md](Brands/vans.md) |
@@ -247,6 +250,7 @@ Full cards, grouped by type. A card link means a file exists.
 | Bonhomía | work | restaurant, salumeria | salumeria, convivial, indoor-outdoor, hospitality | canon | [Works/bonhomia.md](Works/bonhomia.md) |
 | Breaking Bad | work | television | narrative, character-study, long-form-structure, pride-and-hubris | canon | [Works/breaking-bad.md](Works/breaking-bad.md) |
 | Building Frame of the House | work | architecture, residential | materiality, spatial-direction, structural-honesty, small-space-ingenuity | canon | [Works/building-frame-of-the-house.md](Works/building-frame-of-the-house.md) |
+| Chess | work | gaming, strategy | strategy, constraint-as-depth, timeless-system, mastery | canon | [Works/chess.md](Works/chess.md) |
 | Dallas Buyers Club | work | film | transformation, defiance, total-commitment, against-the-system | canon | [Works/dallas-buyers-club.md](Works/dallas-buyers-club.md) |
 | Django Unchained | work | film | narrative, genre-inversion, style-as-resistance, power-and-identity | canon | [Works/django-unchained.md](Works/django-unchained.md) |
 | Dromeas (The Runner) | work | sculpture, public art | glass, motion, materiality, public-sculpture | canon | [Works/dromeas.md](Works/dromeas.md) |
@@ -265,6 +269,7 @@ Full cards, grouped by type. A card link means a file exists.
 | One Piece | work | animation | narrative, world-building, long-form-structure, found-family | canon | [Works/one-piece.md](Works/one-piece.md) |
 | Oud Ispahan | work | fragrance | oud, rose-oud, refined, collection-privee | canon | [Works/oud-ispahan.md](Works/oud-ispahan.md) |
 | Pulp Fiction | work | film | nonlinear-structure, dialogue-as-set-piece, high-low, needle-drop | canon | [Works/pulp-fiction.md](Works/pulp-fiction.md) |
+| Ready Player One | work | literature, film, gaming | world-building, immersive-atmosphere, virtual-world, nostalgia | canon | [Works/ready-player-one.md](Works/ready-player-one.md) |
 | Renaissance | work | music | sound-design, Black-joy, house-culture, precision-as-freedom | canon | [Works/renaissance-beyonce.md](Works/renaissance-beyonce.md) |
 | Reservoir Dogs | work | film | nonlinear-structure, dialogue-as-suspense, restraint-of-means, debut-grammar | canon | [Works/reservoir-dogs.md](Works/reservoir-dogs.md) |
 | Roka Akor | work | restaurant, japanese | robatayaki, japanese, moody-dining, hospitality | canon | [Works/roka-akor.md](Works/roka-akor.md) |
@@ -300,6 +305,15 @@ Aesthetic styles and movements – filed as curators, with the movement or verna
 | Mediterranean | curator | architecture, interior design | materiality, indoor-outdoor, warmth, color-and-light | canon | [Curators/mediterranean.md](Curators/mediterranean.md) |
 | Modern | curator | architecture, interior design | clean-line, open-plan, form-follows-function, restraint | canon | [Curators/modern.md](Curators/modern.md) |
 | Surrealism | curator | visual art, literature, film | dream-logic, the-uncanny, juxtaposition, conviction | canon | [Curators/surrealism.md](Curators/surrealism.md) |
+
+Mediums and formats – immersive mediums and game, social and betting formats held as creative contexts.
+
+| Entity | Type | Domains | Pull for | Status | Card |
+|---|---|---|---|---|---|
+| Augmented Reality | curator | gaming, technology, immersive media | layered-reality, context-as-content, spatial-direction, overlay | canon | [Curators/augmented-reality.md](Curators/augmented-reality.md) |
+| Murder Mystery Parties | curator | gaming, social games, hospitality | participation, role-play, ritual, hospitality | canon | [Curators/murder-mystery-parties.md](Curators/murder-mystery-parties.md) |
+| Sportsbooks | curator | gaming, sports betting, finance | odds-as-product, engagement-loop, positioning, conversion | canon | [Curators/sportsbooks.md](Curators/sportsbooks.md) |
+| Virtual Reality | curator | gaming, technology, immersive media | immersive-atmosphere, presence, world-building, spatial-direction | canon | [Curators/virtual-reality.md](Curators/virtual-reality.md) |
 
 Museums and institutions – galleries and museums held as tastemaking contexts.
 
