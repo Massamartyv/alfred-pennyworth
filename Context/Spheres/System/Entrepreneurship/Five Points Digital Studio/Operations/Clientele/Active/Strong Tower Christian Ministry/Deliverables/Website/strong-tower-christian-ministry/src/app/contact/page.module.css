@@ -6,8 +6,8 @@
 }
 
 .h2 {
-  font-size: 1.8rem;
-  margin-bottom: 1.75rem;
+  font-size: var(--text-h3);
+  margin-bottom: var(--space-lg);
 }
 
 .infoCol {

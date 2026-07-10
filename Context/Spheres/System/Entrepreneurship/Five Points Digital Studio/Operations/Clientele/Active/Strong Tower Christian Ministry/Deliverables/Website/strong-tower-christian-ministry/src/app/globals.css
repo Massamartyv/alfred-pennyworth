@@ -45,7 +45,18 @@
 
   --spacing-section: var(--space-5xl);
   --spacing-container: var(--space-lg);
-  --max-width: 1400px;
+  --max-width: 1280px;
+
+  /* ── Type scale — one ramp for every page. Cormorant sized up for its light weight. ── */
+  --text-display: clamp(3rem, 7.6vw, 6.2rem); /* page heroes */
+  --text-h1: clamp(3rem, 6.6vw, 5.5rem); /* home hero */
+  --text-h2: clamp(2.1rem, 4.2vw, 3.1rem); /* section titles */
+  --text-h3: clamp(1.7rem, 3.2vw, 2.3rem); /* band + feature titles */
+  --text-h4: clamp(1.4rem, 2.4vw, 1.8rem); /* card titles */
+  --text-scripture: clamp(1.5rem, 3vw, 2.1rem); /* the Word, spoken */
+  --text-lead: clamp(1.125rem, 1.8vw, 1.25rem); /* leading paragraphs */
+  --measure-lead: 56ch;
+  --measure-heading: 20ch;
 
   --colour-error: #c0573f;
   --colour-success: #4f8a6b;
@@ -115,7 +126,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Display voice — Fraunces, the church speaking */
+/* Display voice — the church speaking */
 h1,
 h2,
 h3,
@@ -124,9 +135,10 @@ h5,
 h6 {
   font-family: var(--font-heading), Georgia, serif;
   font-optical-sizing: auto;
-  line-height: 1.12;
+  line-height: 1.08;
   font-weight: 600;
-  letter-spacing: -0.005em;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
 }
 
 button,
@@ -166,33 +178,42 @@ img {
 }
 
 /* ───────── Typographic utilities ───────── */
-/* Eyebrow / label — Jost uppercase, where tracking lives */
+/* Eyebrow / label — uppercase, where tracking lives. One voice for all labels. */
 .eyebrow {
   font-family: var(--font-body), sans-serif;
   text-transform: uppercase;
-  letter-spacing: 0.2em;
-  font-size: 0.78rem;
-  font-weight: 500;
+  letter-spacing: 0.22em;
+  font-size: 0.75rem;
+  font-weight: 600;
   color: var(--accent-gold-deep);
 }
 
 /* Order-of-service section index, with an editorial leading rule */
 .section-index {
   font-family: var(--font-body), sans-serif;
-  font-size: 0.8rem;
-  font-weight: 500;
-  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
   color: var(--accent-gold-deep);
 }
 
 .section-index::before {
   content: "";
   display: inline-block;
-  width: 1.5rem;
+  width: 2rem;
   height: 1px;
   margin-right: var(--space-xs);
   vertical-align: middle;
   background: var(--accent-gold);
+}
+
+/* Leading paragraph — capped measure, one size everywhere */
+.lead-text {
+  font-size: var(--text-lead);
+  line-height: 1.75;
+  max-width: var(--measure-lead);
+  color: var(--text-main);
 }
 
 /* The Word — italic Fraunces, the second voice */
@@ -207,27 +228,43 @@ img {
   color: var(--accent-garnet);
 }
 
-/* Illuminated initial — the manuscript move, used sparingly */
-.dropcap::first-letter {
-  float: left;
-  font-family: var(--font-heading), Georgia, serif;
-  font-weight: 600;
+/* Understated editorial link — the tertiary action voice */
+.link-arrow {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2xs);
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0.01em;
+  color: var(--brand-blue-deep);
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--border-medium);
+  transition: color 0.25s var(--ease-out-expo),
+    border-color 0.25s var(--ease-out-expo);
+}
+
+.link-arrow svg {
+  transition: transform 0.25s var(--ease-out-expo);
+}
+
+.link-arrow:hover {
   color: var(--accent-gold-deep);
-  font-size: 3.6em;
-  line-height: 0.72;
-  padding-right: 0.09em;
-  padding-top: 0.04em;
+  border-color: var(--accent-gold);
+}
+
+.link-arrow:hover svg {
+  transform: translateX(4px);
 }
 
 .global-hero-title {
   font-family: var(--font-heading), Georgia, serif;
   font-optical-sizing: auto;
-  font-size: clamp(3rem, 7.6vw, 6.2rem);
+  font-size: var(--text-display);
   font-weight: 600;
   line-height: 1.03;
-  letter-spacing: -0.005em;
+  letter-spacing: -0.01em;
   text-wrap: balance;
-  margin-bottom: 1.5rem;
+  margin-bottom: var(--space-md);
 }
 
 .global-hero-title-light {
@@ -302,13 +339,14 @@ img {
 
 .btn-secondary {
   background: transparent;
-  color: var(--brand-blue-deep);
-  border-color: var(--brand-blue);
+  color: var(--text-main);
+  border-color: var(--border-medium);
 }
 
 .btn-secondary:hover {
-  background: var(--brand-blue);
-  color: var(--text-inverse);
+  border-color: var(--brand-blue-deep);
+  color: var(--brand-blue-deep);
+  background: rgba(94, 126, 168, 0.06);
 }
 
 /* ───────── Live pulse — a beacon atop the tower ───────── */

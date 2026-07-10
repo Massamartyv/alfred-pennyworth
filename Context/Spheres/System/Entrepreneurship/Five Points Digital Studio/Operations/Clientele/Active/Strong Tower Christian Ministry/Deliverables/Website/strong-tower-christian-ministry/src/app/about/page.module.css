@@ -6,7 +6,7 @@
 }
 
 .scriptureText {
-  font-size: clamp(1.4rem, 3.2vw, 2.1rem);
+  font-size: var(--text-scripture);
   line-height: 1.45;
   max-width: 900px;
   margin: 0 auto 1rem;
@@ -27,7 +27,7 @@
 }
 
 .sectionTitle {
-  font-size: clamp(1.9rem, 4vw, 2.8rem);
+  font-size: var(--text-h2);
   font-weight: 600;
   margin-top: 0.5rem;
 }
@@ -56,13 +56,13 @@
 }
 
 .statementTitle {
-  font-size: clamp(1.9rem, 4vw, 2.8rem);
+  font-size: var(--text-h2);
   font-weight: 600;
   margin: 0.5rem 0 1.5rem;
 }
 
 .statementBody {
-  font-size: clamp(1.15rem, 2.2vw, 1.4rem);
+  font-size: var(--text-lead);
   line-height: 1.65;
   color: var(--text-main);
   font-family: var(--font-heading), Georgia, serif;
@@ -104,7 +104,7 @@
 .tagPrimary {
   font-family: var(--font-heading), Georgia, serif;
   font-style: italic;
-  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-size: var(--text-h3);
   line-height: 1.35;
   color: var(--accent-gold-light);
   margin-bottom: 1.25rem;
@@ -177,7 +177,7 @@
 }
 
 .ctaTitle {
-  font-size: clamp(1.8rem, 3.8vw, 2.6rem);
+  font-size: var(--text-h2);
   font-weight: 600;
   color: var(--text-inverse);
   margin-bottom: 1rem;

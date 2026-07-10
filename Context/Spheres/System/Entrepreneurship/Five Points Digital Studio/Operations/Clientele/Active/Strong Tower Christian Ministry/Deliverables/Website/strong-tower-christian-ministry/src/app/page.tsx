@@ -79,14 +79,14 @@ export default function Home() {
           <div className={`${styles.welcomeBody} reveal`}>
             <p className="section-index">01 — Welcome home</p>
             <h2 className={styles.h2}>A place to run to, and a place to grow</h2>
-            <p className={`${styles.lead} dropcap`}>
+            <p className={`${styles.lead} lead-text`}>
               Strong Tower Christian Ministry is a church body dependent on the
               Word of God, preaching it, teaching it and living it. We exist to
               help every person grow in the knowledge of Jesus Christ and walk
               in the love He has shown us.
             </p>
-            <Link href="/about" className="btn btn-secondary">
-              Our story <ArrowRight size={18} />
+            <Link href="/about" className="link-arrow">
+              Our story <ArrowRight size={16} />
             </Link>
           </div>
         </div>
