@@ -1,31 +1,24 @@
 ---
-file_type: registry
-registry_type: clients
-venture: Five Points Digital Studio
-last_updated: 2026-04-22
+derived_from: Notion – Five Points workspace
+refreshed: 2026-07-10
+refreshed_by: phase-3 migration
+buffered: false
 ---
+ONE-WAY CACHE. Notion holds the truth. Regenerated each session close. Never hand-edit; never cite as source when currency matters.
 
 # Client Registry
 
-## Active Clients
+Refreshed after the Phase 3 migration folded Five Points client and CRM state into the Five Points workspace. Folder paths below remain the local reference for working files and codebases; status, offer and value live in Notion.
 
-| Client | Offer | Type | Monthly | Start Date | Folder |
-|---|---|---|---|---|---|
-| Custom Window Decorators | Landing page redesign | Project | Scoped | 2026-04 | Active/Custom Window Decorators/ |
-| Fountain Christian Center | Website (Next.js) | Project | Scoped | 2026-04 | Active/Fountain Christian Center/ |
+| Client | Notion Status | Offer / Scope | Folder |
+|---|---|---|---|
+| McCauley Electrical Services | Planned | Three-door booking slate, $1,000 to $3,000, client selects one; proposal staged, send pending | `Active/McCauley Electrical Services/` |
+| Strong Tower Christian Ministry | In progress | Full website rebuild (Next.js), promoted to production 2026-07-03, pre-DNS-cutover | `Active/Strong Tower Christian Ministry/` |
+| Fountain Christian Center | Paused | Full website rebuild (Next.js), substantially complete since 2026-05-07, stalled pre-DNS-cutover | `Active/Fountain Christian Center/` |
 
-## Archived Clients
+## Churned (static, no longer tracked as a Notion Project)
 
-(None yet.)
-
-## Churned Clients
-
-| Client | Offer | Type | End Date | Reason | Folder |
-|---|---|---|---|---|---|
-| Nomad Express | Website and Brand Overhaul | Project | 2026-04 | Engagement ended – offboarded | (files removed) |
-
-## Summary
-
-- Total active: 2 project-based clients (CWD, FCC)
-- Current MRR from retainers: ~$2,500
-- Pipeline: $25K MRR target by September 2026
+| Client | Offer | End Date | Reason |
+|---|---|---|---|
+| Nomad Express | Website and Brand Overhaul | 2026-04 | Engagement ended – offboarded |
+| Custom Window Decorators | Landing page redesign (PRD locked, build not started) | 2026-07 | Engagement scrapped by operator ruling 2026-07-10 – see the Five Points Decision Log |
