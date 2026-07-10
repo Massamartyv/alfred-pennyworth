@@ -1,0 +1,33 @@
+#!/bin/bash
+# Pre-commit tripwire: warns when staged markdown adds state-shaped lines
+# outside allowed engine paths. State belongs in Notion. Warn-only: always
+# exits 0. Pattern list shared with the drift-audit agent.
+
+repo="$(git rev-parse --show-toplevel)"
+patterns="$repo/Automations/Guards/state-patterns.grep"
+[ -f "$patterns" ] || exit 0
+
+allowed='^(Agents/|Manual/|\.claude/|\.githooks/|Automations/|Integrations/|Templates/|Apps/|Projects/|Context/Archive/)'
+
+files=$(git diff --cached --name-only --diff-filter=ACM -- '*.md' | grep -Ev "$allowed" || true)
+[ -z "$files" ] && exit 0
+
+found=0
+while IFS= read -r f; do
+  [ -n "$f" ] || continue
+  hits=$(git diff --cached -U0 -- "$f" | grep -E '^\+[^+]' | sed 's/^+//' | grep -E -i -f "$patterns" || true)
+  if [ -n "$hits" ]; then
+    if [ "$found" -eq 0 ]; then
+      echo ""
+      echo "state tripwire: state-shaped content staged in tracked markdown."
+      echo "State belongs in Notion; local files hold engine and knowledge."
+      echo "The commit proceeds - move the state to Notion or justify keeping it."
+      echo ""
+      found=1
+    fi
+    echo "  $f:"
+    echo "$hits" | sed 's/^/    + /'
+  fi
+done <<< "$files"
+
+exit 0

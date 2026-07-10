@@ -62,9 +62,10 @@ Five Points repos override email per-repo to `martavious@fivepoints.studio`.
 
 ```bash
 git clone https://github.com/Massamartyv/alfred-pennyworth.git "/Users/martyspicer/Alfred Pennyworth"
+cd "/Users/martyspicer/Alfred Pennyworth" && git config core.hooksPath .githooks
 ```
 
-The path, including the space, is exact. Do not rename.
+The path, including the space, is exact. Do not rename. The second command wires the tracked git hooks (pre-commit state tripwire); it is per-clone configuration and must be rerun on every fresh clone.
 
 ## Step 5 – Restore the vault (BEFORE first Claude Code launch)
 

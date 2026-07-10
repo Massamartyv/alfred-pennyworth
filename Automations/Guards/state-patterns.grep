@@ -1,0 +1,4 @@
+^[[:space:]]*[-*]?[[:space:]]*(status|stage|current state|active state|current priority|active campaign|current mrr|mrr|pipeline stage|open items|open gate items|gate items|pending|queued|next actions)[[:space:]]*:
+^\|.*\|.*(status|stage|mrr|pipeline stage).*\|
+^#{1,6}[[:space:]].*(current state|active state|open .*items|pending before)
+^venture_stage:

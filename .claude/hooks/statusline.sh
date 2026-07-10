@@ -20,8 +20,8 @@ case "$cwd" in
   *"Athena"*) scope="athena (dormant)" ;;
 esac
 
-# Pull active fitness phase from global CLAUDE.md.
-phase=$(grep -E "^- Fitness phase:" "$HOME/.claude/CLAUDE.md" 2>/dev/null | sed -E 's/^- Fitness phase: *([A-Za-z]+).*/\1/' | head -n 1)
+# Pull active fitness phase from the Notion state cache.
+phase=$(grep -E "^- Fitness phase:" "${CLAUDE_PROJECT_DIR:-$HOME/Alfred Pennyworth}/.claude/cache/state-cache.md" 2>/dev/null | sed -E 's/^- Fitness phase: *([A-Za-z]+).*/\1/' | head -n 1)
 [ -z "$phase" ] && phase="—"
 
 # Cost rendering.

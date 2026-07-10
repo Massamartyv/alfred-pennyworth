@@ -1,26 +1,46 @@
 #!/bin/bash
-# SessionStart hook. Injects current active state from the global CLAUDE.md
-# Current state snapshot section as additionalContext for the new session.
-# Read-only, no external calls, falls back gracefully if grep fails.
+# SessionStart hook. Injects the one-way Notion state cache, warns on an
+# unsynced offline buffer, and raises the monthly heartbeat reminder on
+# month rollover. Local reads only; no network calls. Read-only: the
+# last-heartbeat marker is written by the heartbeat run itself, not here.
 
-claude_md="$HOME/.claude/CLAUDE.md"
+project_dir="${CLAUDE_PROJECT_DIR:-$HOME/Alfred Pennyworth}"
+cache="$project_dir/.claude/cache/state-cache.md"
+buffer_dir="$project_dir/.working/session-buffer"
+marker="$project_dir/.claude/cache/last-heartbeat"
 
-if [ ! -f "$claude_md" ]; then
-  exit 0
+parts=""
+
+if [ -f "$cache" ]; then
+  mtime=$(stat -f %m "$cache" 2>/dev/null || echo 0)
+  now=$(date +%s)
+  days=$(( (now - mtime) / 86400 ))
+  header="State cache, refreshed $days day(s) ago:"
+  if [ "$days" -ge 7 ]; then
+    header="STALE state cache ($days days old) - a session-end bookend was likely missed. Refresh from Notion early this session."
+  fi
+  parts="$header
+$(cat "$cache")"
+else
+  parts="No state cache present. Render one from Notion at this session's end bookend."
 fi
 
-# Pull the four lines under "Current state snapshot:" — fitness phase, language, content priority, business priority.
-state=$(awk '
-  /^\*\*Current state snapshot:\*\*$/ { capturing=1; next }
-  capturing && /^---$/ { exit }
-  capturing && /^- / { print }
-' "$claude_md")
+if [ -d "$buffer_dir" ] && [ -n "$(ls -A "$buffer_dir" 2>/dev/null)" ]; then
+  parts="$parts
 
-if [ -z "$state" ]; then
-  exit 0
+Unsynced state buffer present at .working/session-buffer/ - sync it to Notion before any other state work."
 fi
 
-context="Active state at session start:
-$state"
+current_month=$(date +%Y-%m)
+last_month=$(cat "$marker" 2>/dev/null || echo "")
+if [ "$current_month" != "$last_month" ]; then
+  parts="$parts
 
-jq -n --arg ctx "$context" '{hookSpecificOutput: {hookEventName: "SessionStart", additionalContext: $ctx}}'
+Month rollover: run the monthly heartbeat cadences in Agents/heartbeat.md, then write $current_month to .claude/cache/last-heartbeat."
+fi
+
+parts="$parts
+
+Standing doctrine: state reads and writes go to Notion in the correct scope; never write Status, Stage or Pending blocks to local files. Close the session with the bookend - Alfred Logs entry, leftovers filed as Tasks, state cache refreshed."
+
+jq -n --arg ctx "$parts" '{hookSpecificOutput: {hookEventName: "SessionStart", additionalContext: $ctx}}'

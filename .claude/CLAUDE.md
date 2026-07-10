@@ -11,9 +11,11 @@ Alfred Pennyworth/
 ├── .claude/                       – Project configuration. Tracked: CLAUDE.md, settings.json, hooks/, agents/, workflows/.
 │   ├── CLAUDE.md                  – This file. Project-level configuration.
 │   ├── agents/                    – Native crew subagents: researcher, creator, reviewer-scrutiny, reviewer-behavioural.
+│   ├── cache/                     – One-way Notion state cache and heartbeat marker. Machine-derived, never hand-edited, gitignored.
 │   └── hooks/                     – SessionStart, Stop and statusline scripts.
 ├── .mcp.json                      – Project MCP servers. Secret-free; sources .env by reference. Tracked.
-├── .working/                       – Transient session files. Not committed to git.
+├── .githooks/                     – Tracked git hooks: pre-commit state tripwire. Wired per clone via core.hooksPath (Manual/genesis.md).
+├── .working/                       – Transient session files and the offline state buffer (session-buffer/). Not committed to git.
 ├── Manual/                        – Owner's manual: genesis protocol, account and secret inventories, MCP registry, Brewfile, restore drill.
 ├── Context/
 │   ├── personal-brand-identity.md  – How everything sounds. Governs all pillars.
@@ -43,12 +45,11 @@ Alfred Pennyworth/
 │   ├── System/                    – Infrastructure agents: context-audit, media-scanner, sphere-review
 │   ├── Orchestration/             – Portfolio agents: pattern-memo, pennyone, watchtower
 │   └── templates/                 – Validation contract, source inventory, handoff schema, model assignment
-├── Automations/                   – Scripted workflows
+├── Automations/                   – Scripted workflows. Guards/ holds the state-pattern list and the working sweep.
 ├── Integrations/                  – MCP servers and platform bridges
 ├── Apps/                          – Personal apps bank. Each app is its own git repository; ignored here. Current: nabu. Venture apps live in an Apps/ folder inside each venture directory.
 ├── Projects/                      – Personal local-only projects. Gitignored.
-├── Templates/                     – Reusable project templates
-└── Logs/                          – Session and maintenance logs, build-history/
+└── Templates/                     – Reusable project templates
 ```
 
 ---
@@ -59,18 +60,19 @@ When Alfred needs context to perform a task, read files in this order:
 
 1. Global `~/.claude/CLAUDE.md` – identity, rules, ecosystem, sphere index (always loaded automatically)
 2. `~/.claude/projects/-Users-martyspicer-Alfred-Pennyworth/memory/MEMORY.md` – always loaded; pull the linked memory files relevant to the task
-3. This file – project architecture, conventions
-4. `Context/personal-brand-identity.md` – if the task involves any content creation
-5. `Context/martyv-identity.md` – if the task involves Marty Gras, the podcast, newsletter, or personal brand platforms
-6. `Context/creative-director.md` – if the task involves aesthetic direction, sensory design, or brand alignment
-7. Relevant sphere file – domain-specific context
-8. Relevant graduated sphere file – if the sphere has promoted a topic to its own file
-9. Relevant venture `_index.md` – if the task is venture-scoped; entry point that routes to the seven studios
-10. Relevant venture `Agents/integrations.md` – if the task involves a specific venture's plugins
-11. Relevant venture `Agents/department-heads.md` – if the task involves venture roles or studio leadership
-12. Relevant venture `Agents/agent-guidelines.md` – if dispatching an agent inside a venture (execution tiers, red lines)
-13. Relevant agent definition – if dispatching an agent for a specific mission
-14. Relevant automation README – specific workflow instructions
+3. `.claude/cache/state-cache.md` – injected by the SessionStart hook; orientation only, refresh from Notion before acting on state
+4. This file – project architecture, conventions
+5. `Context/personal-brand-identity.md` – if the task involves any content creation
+6. `Context/martyv-identity.md` – if the task involves Marty Gras, the podcast, newsletter, or personal brand platforms
+7. `Context/creative-director.md` – if the task involves aesthetic direction, sensory design, or brand alignment
+8. Relevant sphere file – domain-specific context
+9. Relevant graduated sphere file – if the sphere has promoted a topic to its own file
+10. Relevant venture `_index.md` – if the task is venture-scoped; entry point that routes to the seven studios
+11. Relevant venture `Agents/integrations.md` – if the task involves a specific venture's plugins
+12. Relevant venture `Agents/department-heads.md` – if the task involves venture roles or studio leadership
+13. Relevant venture `Agents/agent-guidelines.md` – if dispatching an agent inside a venture (execution tiers, red lines)
+14. Relevant agent definition – if dispatching an agent for a specific mission
+15. Relevant automation README – specific workflow instructions
 
 Do not load all sphere files at once. Read the Sphere Index in the global CLAUDE.md to identify which file is relevant.
 
@@ -105,13 +107,14 @@ Do not load all sphere files at once. Read the Sphere Index in the global CLAUDE
 - Intermediate agent output (raw scan results, data exports, generated files)
 - Temporary downloads or transformations
 - Anything that needs disk presence but does not belong in the permanent architecture
+- The offline state buffer at `.working/session-buffer/` under the buffer rule – synced to Notion at the next session, always exempt from the sweep
 
 **What does not go here:**
 - Context files, sphere files or anything permanent
 - Memory files (those live in `.claude/projects/.../memory/`)
 - Agent definitions, skill files or configuration
 
-**Lifecycle:** Files here are ephemeral. Alfred may clear this directory at session end or when files are no longer needed. Nothing here should be treated as durable. Standing rule: at the first session of each month, any subdirectory untouched for 30 days is swept – deleted, or moved to `Context/Archive/` if it holds the only copy of something worth keeping. A directory with a `handoff.md` for an open mission is held until that mission closes.
+**Lifecycle:** Files here are ephemeral. Alfred may clear this directory at session end or when files are no longer needed. Nothing here should be treated as durable. Standing rule: at the first session of each month the heartbeat reviews the dry-run of `Automations/Guards/working-sweep.sh`, then runs it with `--execute` – any subdirectory untouched for 30 days moves to `Context/Archive/working-{YYYY-MM}/`. A directory whose `handoff.md` carries status `partial` or `blocked` is held until that mission closes; `session-buffer/` is always held.
 
 ---
 
@@ -121,7 +124,9 @@ When the task involves the items in the left column, load the files in the right
 
 | Intent / Trigger | Always load | Also load if scoped |
 |---|---|---|
-| Any session start | `~/.claude/CLAUDE.md`, `MEMORY.md` index, this file | – |
+| Any session start | `~/.claude/CLAUDE.md`, `MEMORY.md` index, this file, state cache (hook-injected) | – |
+| Task, project, mission or pipeline status – reading or writing | Notion, scoped workspace – never a local file | State cache for orientation only |
+| Session close | Session-end bookend – Alfred Logs entry, leftovers filed as Tasks, cache refresh | `.working/session-buffer/` if Notion was unreachable |
 | Content creation, copy, voice | `Context/personal-brand-identity.md` | Venture brand-fingerprint if venture-scoped |
 | Marty Gras content | `Context/martyv-identity.md` | `Marty Gras/Foundation/brand-fingerprint.md` |
 | Aesthetic direction, sensory design | `Context/creative-director.md` | – |
@@ -151,10 +156,13 @@ Before specific actions, run the corresponding check. These are non-negotiable p
 | Committing to a remote | Run `git status` and read the diff, confirm staged set matches intent |
 | Dispatching an agent | Check `.working/{agent-name}/` for a recent run within 24 hours |
 | Sending or publishing anything | Confirm the venture or personal scope explicitly before send |
-| Completing an agent run | Write handoff document to `.working/{agent-name}/handoff.md` per `Agents/templates/handoff-schema.md` before exit |
+| Completing an agent run | Write handoff document to `.working/{agent-name}/handoff.md` per `Agents/templates/handoff-schema.md` before exit; for mission-scoped runs, note the mission record URL in the handoff frontmatter |
 | Opening a Manor Protocol mission with 2+ Creator dispatches | Draft validation contract per `Agents/templates/validation-contract.md` and surface at Direction |
 | Planning a mission with 2+ active roles | Author per-mission model assignment per `Agents/templates/model-assignment.md` and surface at Direction |
 | Opening a Manor Protocol mission that synthesises a corpus of mixed-provenance sources | Draft source inventory per `Agents/templates/source-inventory.md` before synthesis and surface at Direction |
+| Writing any Status, Stage, Pending, metric or pipeline block to a local file | Stop – state routes to Notion in the correct scope. If Notion is unreachable, buffer to `.working/session-buffer/` with a `buffered: true` stamp and sync next session |
+| Opening any Manor Protocol mission | Create or locate the mission record – a plain Projects entry in the scoped workspace, phases as Tasks beneath – before Execution begins |
+| Closing a session with completed or deferred work | Run the session-end bookend – Alfred Logs entry written, leftovers filed as Tasks via the New Alfred Task template, state cache refreshed |
 
 ---
 
@@ -163,21 +171,27 @@ Before specific actions, run the corresponding check. These are non-negotiable p
 ### Adding a new sphere file
 
 1. Create the file inside the relevant sphere folder: `Context/Spheres/{Cluster Name}/{Sphere Name}/{topic-name}.md`.
-2. Structure it with four sections: Spheres Covered, Current State, Context, Maintenance.
+2. Structure it with four sections: Spheres Covered, Domain Constants, Context, Maintenance – durable targets, protocols and principles only; live values belong to Sphere Manager.
 3. Add an entry to the Sphere Index in the global `~/.claude/CLAUDE.md`.
-4. If the sphere has phase-based or priority-based state, add a line to the current state snapshot in the global file.
+4. If the sphere carries live state, confirm it is represented in Sphere Manager – nothing is added to any local snapshot.
 
 ### Deprecating a sphere file
 
 1. Remove the entry from the Sphere Index in the global `~/.claude/CLAUDE.md`.
 2. Move the file to `Context/Archive/` rather than deleting it.
-3. Update the current state snapshot if applicable.
+3. If the sphere carried live state, update Sphere Manager accordingly.
 
 ### Updating a sphere file
 
 1. When a conversation reveals outdated information, update the file immediately.
 2. Update the `Last updated` date at the bottom of the file.
-3. If the change affects active state, also update the current state snapshot in the global CLAUDE.md.
+3. If the change is state, it belongs in Notion – update Sphere Manager, not the file.
+
+### Retired patterns
+
+- `Logs/` is retired. Session records are Alfred Logs entries – the log of days; historical logs are preserved at `Context/Archive/Logs/`.
+- Venture `Working Files/` folders are retired. State goes to Notion, drafts and scratch to `.working/`, durable assets to the owning studio folder.
+- Active State and Current State blocks in venture and department `_index.md` files are retired. Each file keeps durable context and gains a one-line pointer: "Live state: Notion Projects and Tasks, {workspace} workspace."
 
 ---
 
@@ -295,12 +309,12 @@ Reviewer carries two tiers dispatched as distinct subtypes:
 
 Every session follows a consistent lifecycle:
 
-1. **Orient** – Read memory, active state, recent context
+1. **Orient** – Read memory and the injected state cache. Sync any pending `.working/session-buffer/` entries to Notion before other state work.
 2. **Scope** – Determine personal vs venture context. If unclear, ask.
-3. **Load** – Pull relevant sphere, venture and department files
+3. **Load** – Pull relevant sphere, venture and department files. Pull live Notion state when the task turns on current values.
 4. **Execute** – Handle the task directly or dispatch an agent with crew classification
-5. **Update** – Mark tasks complete, update state, write memory if warranted
-6. **Exit** – Confirm clean state. Write progress notes for multi-session work.
+5. **Update** – State lands in Notion as it happens – task status, mission phases, decisions to the scoped Decision Log. Memory only for durable facts.
+6. **Exit** – The session-end bookend: write the Alfred Logs entry, file leftovers as Tasks via the New Alfred Task template, refresh `.claude/cache/state-cache.md` from Notion. If Notion is unreachable, buffer and flag.
 
 ### Creating a New Agent Definition
 
@@ -312,4 +326,4 @@ Every session follows a consistent lifecycle:
 
 ---
 
-*Last updated: 2026-06-19 – Source inventory template added to Agents/templates/ and Pre-Action Checks; input-side Manor Protocol hardening.*
+*Last updated: 2026-07-10 – Second-brain rewiring: state cache and githooks in the architecture, Notion-first routing rows, session bookends, retired patterns.*
