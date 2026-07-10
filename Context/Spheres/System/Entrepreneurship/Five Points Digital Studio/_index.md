@@ -3,7 +3,7 @@ file_type: venture_index
 venture_name: "Five Points Digital Studio"
 venture_stage: "Growth"
 methodology: "The Manor Protocol"
-last_updated: 2026-04-07
+last_updated: 2026-07-10
 ---
 
 # Five Points Digital Studio – Venture Index
@@ -49,10 +49,7 @@ All work follows The Manor Protocol – five phases, two hard gates, creative ex
 
 ## Active State
 
-- **Current MRR:** ~$2,500
-- **Active clients:** 2 retainer + 1 project (Nomad Express)
-- **Current priority:** $25K MRR by September 30, 2026
-- **Active campaign:** 25k-battle-plan.md
+Live state: Notion Projects and Tasks, Five Points workspace (Five Points Digital Studio – Venture Operations).
 
 ## Key Registries
 

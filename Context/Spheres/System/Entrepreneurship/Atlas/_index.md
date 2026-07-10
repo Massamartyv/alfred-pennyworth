@@ -6,7 +6,7 @@ final_identity_pending: art-direction
 venture_stage: Reconnaissance
 status: active
 methodology: The Manor Protocol
-last_updated: 2026-05-14
+last_updated: 2026-07-10
 ---
 
 # Atlas – Venture Index
@@ -68,12 +68,7 @@ Plugin scope to be determined. No `Agents/integrations.md` exists until configur
 
 ## Active State
 
-- Stage: Reconnaissance (Manor Protocol Phase 1)
-- Current MRR: $0 (pre-revenue)
-- Pilot site: Arlando Parker Jr. (Clinical Advisor; not a paying client)
-- Phase 1 target: SOAP note generator, one EHR adapter, doctor-in-loop review
-- Current priority: Discovery extraction from Arlando – primary EHR, technique style, payer mix, pilot constraints; commercial terms structuring; identity art direction
-- Active campaign: None – pre-launch
+Live state: Notion Projects and Tasks, Five Points workspace (Atlas – Arlando Parker Jr. Pilot Terms).
 
 ## Open Direction-Gate Items
 

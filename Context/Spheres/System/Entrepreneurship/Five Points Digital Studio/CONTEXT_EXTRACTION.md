@@ -1,6 +1,7 @@
 # Context Extraction – Five Points Digital Studio
 
 > Read-only research archive for the Five Points Digital Studio website build. Fragments quoted verbatim with file path attribution. Extraction performed 2026-05-23.
+> Note, 2026-07-10: `25k-battle-plan.md` has since been retired to `Context/Archive/` by operator ruling – its links below resolve there. Quotes remain accurate to the extraction date.
 
 ---
 

@@ -1,10 +1,10 @@
 ---
 file_type: venture_index
 venture: Paradigm
-venture_stage: Ideation
+venture_stage: Validation
 status: active
 methodology: The Manor Protocol
-last_updated: 2026-04-22
+last_updated: 2026-07-10
 ---
 
 # Paradigm – Venture Index
@@ -50,10 +50,7 @@ Plugin scope is still to be determined. No `Agents/integrations.md` exists yet.
 
 ## Active State
 
-- Current MRR: $0
-- Active clients: 0
-- Current priority: To be set – Strategy and Creative foundations during ideation
-- Active campaign: None
+Live state: Notion Projects and Tasks, personal workspace (Paradigm – Venture Operations).
 
 ## Key Registries
 

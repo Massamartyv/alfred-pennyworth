@@ -2,7 +2,7 @@
 file_type: strategy
 venture: Lillie and Lynette
 status: active
-last_updated: 2026-06-11
+last_updated: 2026-07-10
 related_files:
   - "../Foundation/brand-fingerprint.md"
   - "../_index.md"
@@ -37,57 +37,7 @@ Each rung earns trust for the next. Products ride every rung as amenity, gift an
 | 3 | Estate Care retainer | $900–$2,500 per month | Keeping plus vendor coordination, provisioning, seasonal calendar |
 | 4 | Portfolio management – short-let and second homes | Per-door fee plus turnovers | Asset-light scale on property the house does not own |
 
-## Phases
-
-Phases advance on triggers, not dates. Dates below are targets.
-
-### Phase 0 – The Standard – this week
-
-Write down what the hands already know. Every action one pomodoro.
-
-- [ ] The Lillie and Lynette Standard v1 – room-by-room sequence, supply list, finishing rituals, photographic checkpoints
-- [ ] Pricing card – the four rungs above, plus short-let turnover at $120–$180 held for Phase 2
-- [ ] Google Business Profile live
-- [ ] Booking link and one-page site
-- [ ] Proof kit – before-and-after photo set and one 60-second walkthrough video from completed jobs
-- [ ] Warm prospect list – 25 names from the Greek network, church, family and Five Points adjacency
-
-**Exit trigger:** Standard v1 written, pricing card final, booking path live.
-
-### Phase 1 – First 10 Doors – weeks 1–6
-
-Founder on tools strictly as R&D. Every job extracts SOP refinements, timing data, supply consumption and a review.
-
-- Warm-network blitz across the prospect list. Direct asks, not announcements.
-- Targets: 10 paid jobs, 5 Google reviews, 4–6 recurring conversions.
-- Every job photographed to the Standard's checkpoints.
-
-**Exit trigger:** 4 recurring doors booked, or week 6, whichever lands first.
-
-### Phase 2 – First Crew – weeks 6–16
-
-- Hire or subcontract the first cleaner pair. Train to the Standard. Pay well, expect the Standard.
-- Founder shifts to quality inspections and selling. **Founder-on-tools ends here. Hard line.**
-- The amenity ritual begins – small-batch body butter or linen mist left with a folded note in every kept home. Cost built into pricing.
-- Short-let turnover work opens, curated hosts only.
-- Targets: 12–15 recurring doors, roughly $5,000–$7,000 MRR.
-
-**Exit trigger:** crew delivers to the Standard without founder presence on two consecutive inspections.
-
-### Phase 3 – Ascension – months 4–9
-
-- Estate Care retainer offered to the best recurring clients – scheduled keeping, vendor coordination, provisioning, seasonal calendar.
-- Curated short-let portfolio on per-door fees plus turnover revenue.
-- Second crew. A field lead owns delivery quality.
-- Targets: 2–4 retainers, 20–25 recurring doors, $12,000–$18,000 MRR.
-
-**Exit trigger:** field lead passes a full month of inspections without founder correction.
-
-### Phase 4 – The Formulary Goes Retail – months 9–18
-
-- The products guests already live with become the selling line: body butter, home mist, candle, cleaning concentrate. Bedding and linens explored via white-label partners.
-- Light e-commerce plus local stockists. Internal demand precedes public demand – the amenity ritual is the waitlist.
-- Spaces remains scouting-only until cash earns it. The sequence funds the soul.
+Live state: Notion Tasks, personal workspace (Lillie and Lynette – Venture Operations project, Phases 0 to 4).
 
 ## Guardrails
 

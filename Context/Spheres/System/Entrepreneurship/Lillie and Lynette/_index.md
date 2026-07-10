@@ -4,7 +4,7 @@ venture: Lillie and Lynette
 venture_stage: Validation
 status: active
 methodology: The Manor Protocol
-last_updated: 2026-06-11
+last_updated: 2026-07-10
 ---
 
 # Lillie and Lynette – Venture Index
@@ -82,10 +82,7 @@ All work follows The Manor Protocol – five phases, two hard gates, creative ex
 
 ## Active State
 
-- Current MRR: $0 – first revenue earned June 2026, one-off clean, already allocated
-- Active guests, clients or venues: None recurring – first 10 doors in acquisition
-- Current priority: Battle plan Phase 0 – the Standard, pricing card, booking path
-- Active campaign: Warm-network blitz, opens at Phase 0 exit
+Live state: Notion Projects and Tasks, personal workspace (Lillie and Lynette – Venture Operations).
 
 ## Key Registries
 

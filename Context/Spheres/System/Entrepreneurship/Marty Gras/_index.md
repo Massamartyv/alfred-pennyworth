@@ -4,7 +4,7 @@ venture: Marty Gras
 venture_stage: Launch
 status: active
 methodology: The Manor Protocol
-last_updated: 2026-04-22
+last_updated: 2026-07-10
 ---
 
 # Marty Gras – Venture Index
@@ -50,10 +50,7 @@ All work follows The Manor Protocol – five phases, two hard gates, creative ex
 
 ## Active State
 
-- Current MRR: $0
-- Active audience relationships: N/A – pre-launch
-- Current priority: Launch preparation – Epiphany newsletter and podcast foundations
-- Active campaign: None
+Live state: Notion Projects and Tasks, personal workspace (Marty Gras – Venture Operations).
 
 ## Key Registries
 

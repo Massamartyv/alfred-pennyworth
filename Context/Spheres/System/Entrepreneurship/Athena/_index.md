@@ -3,7 +3,7 @@ file_type: venture_index
 venture: Athena
 venture_stage: Dormant
 status: active
-last_updated: 2026-04-05
+last_updated: 2026-07-10
 ---
 
 # Athena – Venture Index
@@ -39,11 +39,7 @@ When a task arrives, load the relevant department `_index.md` first. Each depart
 
 ## Active State
 
-- Current MRR: $0
-- Active talent: 0
-- Active clients: 0
-- Current priority: Dormant – awaiting reactivation
-- Active campaign: None
+Live state: Notion Projects and Tasks, personal workspace (Athena – Venture Operations).
 
 ## Key Registries
 
