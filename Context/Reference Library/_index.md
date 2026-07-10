@@ -92,6 +92,7 @@ Full cards, grouped by type. A card link means a file exists.
 
 | Entity | Type | Domains | Pull for | Status | Card |
 |---|---|---|---|---|---|
+| Adele | creator | music, vocal performance | restraint, voice-and-tone, anti-trend, era-pacing | canon | [Creators/adele.md](Creators/adele.md) |
 | Alberto Kalach | creator | architecture, urbanism, landscape | biophilic, materiality, spatial-direction, nature-integration | canon | [Creators/alberto-kalach.md](Creators/alberto-kalach.md) |
 | Alex Guarnaschelli | creator | culinary, restaurants | french-technique, comfort-food, precision, hospitality | canon | [Creators/alex-guarnaschelli.md](Creators/alex-guarnaschelli.md) |
 | Alexander Nguyen | creator | fashion | minimalism, texture, quiet-luxury, fashion | watch | [Creators/alexander-nguyen.md](Creators/alexander-nguyen.md) |
@@ -106,6 +107,7 @@ Full cards, grouped by type. A card link means a file exists.
 | Bobby Flay | creator | culinary, restaurants | bold-flavor, grilling, competition, brand-building | canon | [Creators/bobby-flay.md](Creators/bobby-flay.md) |
 | Brian De Palma | creator | film, directing | visual-bravura, suspense, operatic-excess, cinematography | canon | [Creators/brian-de-palma.md](Creators/brian-de-palma.md) |
 | Brooke Williamson | creator | culinary, restaurants | vegetable-forward, california-cuisine, produce-first, hospitality | canon | [Creators/brooke-williamson.md](Creators/brooke-williamson.md) |
+| Caroline Shaw | creator | music, composition, vocal music | high-low, voice-as-instrument, form-invention, cultural-bridge | canon | [Creators/caroline-shaw.md](Creators/caroline-shaw.md) |
 | Claude Monet | creator | visual art | light, atmosphere, color-and-light, biophilic | canon | [Creators/claude-monet.md](Creators/claude-monet.md) |
 | Colman Domingo | creator | fashion, acting | art-direction, restraint, materiality, statement-with-control | canon | [Creators/colman-domingo.md](Creators/colman-domingo.md) |
 | Damien Chazelle | creator | film, directing | obsession, cost-of-greatness, music-and-rhythm, kinetic | canon | [Creators/damien-chazelle.md](Creators/damien-chazelle.md) |
@@ -116,6 +118,7 @@ Full cards, grouped by type. A card link means a file exists.
 | Eric Adjepong | creator | culinary, restaurants | west-african, diaspora, forward-looking-heritage, cultural-bridge | canon | [Creators/eric-adjepong.md](Creators/eric-adjepong.md) |
 | Frank Lloyd Wright | creator | architecture, interior design, furniture | spatial-direction, materiality, nature-integration, total-design | canon | [Creators/frank-lloyd-wright.md](Creators/frank-lloyd-wright.md) |
 | Frank Ocean | creator | music, production, aesthetics | sound-design, voice-and-tone, restraint, nostalgia-as-texture | canon | [Creators/frank-ocean.md](Creators/frank-ocean.md) |
+| Gunna | creator | music, hip-hop, atlanta | melodic-trap, slang-as-brand, cadence, resilience | canon | [Creators/gunna.md](Creators/gunna.md) |
 | Gus Van Sant | creator | film, directing | emotional-restraint, outsiders, naturalism, character-study | canon | [Creators/gus-van-sant.md](Creators/gus-van-sant.md) |
 | Gustavo Piers Milton | creator | fashion | editorial-risk, avant-garde, proportion-play, fashion | watch | [Creators/gustavo-piers-milton.md](Creators/gustavo-piers-milton.md) |
 | James Cameron | creator | film, directing, technology | world-building, immersive-atmosphere, spectacle, technical-innovation | canon | [Creators/james-cameron.md](Creators/james-cameron.md) |
@@ -127,27 +130,35 @@ Full cards, grouped by type. A card link means a file exists.
 | Kim Chong Hak | creator | visual art | color-and-light, nature, depth-of-attention, anti-trend | canon | [Creators/kim-chong-hak.md](Creators/kim-chong-hak.md) |
 | Kurt Cobain | creator | fashion, music | anti-style, restraint, effortless-nonchalance, fashion | canon | [Creators/kurt-cobain.md](Creators/kurt-cobain.md) |
 | Leonardo da Vinci | creator | visual art, science, engineering | polymath, art-and-science, mastery, curiosity | canon | [Creators/leonardo-da-vinci.md](Creators/leonardo-da-vinci.md) |
+| Lil Uzi Vert | creator | music, hip-hop, rage | genre-blur, persona-as-asset, high-low, world-building | canon | [Creators/lil-uzi-vert.md](Creators/lil-uzi-vert.md) |
 | Logan Sylve | creator | visual art, illustration | street-to-gallery, high-low, surreal-expressionism, emerging-artist | active | [Creators/logan-sylve.md](Creators/logan-sylve.md) |
 | Marcus Samuelsson | creator | culinary, restaurants | diaspora, three-continent-fusion, hospitality, cultural-bridge | canon | [Creators/marcus-samuelsson.md](Creators/marcus-samuelsson.md) |
 | Martin Scorsese | creator | film, directing | kinetic-camera, music-as-structure, moral-weight, auteur | canon | [Creators/martin-scorsese.md](Creators/martin-scorsese.md) |
 | Michael Greger | creator | nutrition, food science, medicine | evidence-based-nutrition, health-as-foundation, plant-forward, longevity | canon | [Creators/michael-greger.md](Creators/michael-greger.md) |
+| Miguel | creator | music, r&b | auteur, texture, sound-design, reinvention | canon | [Creators/miguel.md](Creators/miguel.md) |
+| Mötley Crüe | creator | music, rock, spectacle | maximalism, spectacle, image-first, conviction | canon | [Creators/motley-crue.md](Creators/motley-crue.md) |
 | Pablo Picasso | creator | visual art | reinvention, multiple-perspective, creative-risk, art-direction | canon | [Creators/pablo-picasso.md](Creators/pablo-picasso.md) |
 | Page and Dornenburg | creator | food writing, flavor theory | flavor-pairing, culinary-reference, creative-engine, technique | canon | [Creators/page-and-dornenburg.md](Creators/page-and-dornenburg.md) |
 | Pharrell | creator | fashion, music | art-direction, high-low, playful-eclecticism, accessory direction | canon | [Creators/pharrell.md](Creators/pharrell.md) |
 | Pierce and Ward | creator | interior design | spatial-direction, materiality, constrained-maximalism, maximalism | canon | [Creators/pierce-and-ward.md](Creators/pierce-and-ward.md) |
 | Quentin Tarantino | creator | film, directing | cinematography, visual-direction, style-as-resistance, maximalism | canon | [Creators/quentin-tarantino.md](Creators/quentin-tarantino.md) |
+| Quincy Jones | creator | music, production, film, arranging | polymath, producer-as-architect, ego-management, breadth | canon | [Creators/quincy-jones.md](Creators/quincy-jones.md) |
 | Rebecca Maria | creator | visual art, sculpture | hip-hop-iconography, nostalgia, album-cover-art, emerging-artist | watch | [Creators/rebecca-maria.md](Creators/rebecca-maria.md) |
+| Rihanna | creator | music, beauty, fashion, business | empire-pivot, catalog-longevity, scarcity, reinvention | canon | [Creators/rihanna.md](Creators/rihanna.md) |
 | Ryan Coogler | creator | film, directing | world-building, art-direction, atmosphere, spatial-direction | canon | [Creators/ryan-coogler.md](Creators/ryan-coogler.md) |
 | Salvador Dalí | creator | visual art, film | surrealism, dream-logic, conviction, theatrical | canon | [Creators/salvador-dali.md](Creators/salvador-dali.md) |
 | Steven Spielberg | creator | film, directing | wonder, populist-craft, world-building, spectacle | canon | [Creators/steven-spielberg.md](Creators/steven-spielberg.md) |
 | Takashi Murakami | creator | visual art, fashion | high-low, art-fashion, collaboration, anime-iconography | canon | [Creators/takashi-murakami.md](Creators/takashi-murakami.md) |
+| Tems | creator | music, r&b, afrobeats | restraint, negative-space, self-production, cultural-bridge | canon | [Creators/tems.md](Creators/tems.md) |
 | Travis Scott | creator | music, production, world-building | world-building, sound-design, immersive-atmosphere, narrative | canon | [Creators/travis-scott.md](Creators/travis-scott.md) |
 | Tyler Durden | creator | fashion | anti-style, maximalist, high-low, statement | canon | [Creators/tyler-durden.md](Creators/tyler-durden.md) |
 | Tyler, the Creator | creator | music | taste-evolution, reinvention, creative-risk, craft-over-brand | canon | [Creators/tyler-the-creator.md](Creators/tyler-the-creator.md) |
 | Tyrod Taylor | creator | fashion | athletic-tailoring, fitted-silhouette, americana, fashion | canon | [Creators/tyrod-taylor.md](Creators/tyrod-taylor.md) |
 | Vince Gilligan | creator | television, writing | long-form-structure, moral-transformation, slow-burn, consequence | canon | [Creators/vince-gilligan.md](Creators/vince-gilligan.md) |
 | Virgil Abloh | creator | interior design, fashion, architecture | spatial-direction, art-direction, restraint, negative-space | canon | [Creators/virgil-abloh.md](Creators/virgil-abloh.md) |
+| Wu-Tang Clan | creator | music, hip-hop, business strategy | brand-architecture, world-building, collective-and-sovereign, scarcity | canon | [Creators/wu-tang-clan.md](Creators/wu-tang-clan.md) |
 | Yayoi Kusama | creator | visual art | repetition, visual-system, immersive-atmosphere, world-building | canon | [Creators/yayoi-kusama.md](Creators/yayoi-kusama.md) |
+| Yeat | creator | music, hip-hop, rage | world-building, sonic-signature, lexicon-as-brand, sound-design | canon | [Creators/yeat.md](Creators/yeat.md) |
 
 ### Brands
 
@@ -179,6 +190,7 @@ Full cards, grouped by type. A card link means a file exists.
 | COS | brand | fashion | minimalism, architectural, accessible, restraint | canon | [Brands/cos.md](Brands/cos.md) |
 | Crate and Barrel | brand | home goods, furniture, retail | merchandising, design-democratization, heritage, accessible | canon | [Brands/crate-and-barrel.md](Brands/crate-and-barrel.md) |
 | Creed | brand | fragrance | niche, heritage-coded, status-scent, masculine | canon | [Brands/creed.md](Brands/creed.md) |
+| Def Jam Recordings | brand | music, record labels, hip-hop | culture-making, artist-development, institution-building, reinvention | canon | [Brands/def-jam.md](Brands/def-jam.md) |
 | Diaspora Co. | brand | spices, pantry | single-origin, equity, anti-colonial, brand-identity | canon | [Brands/diaspora-co.md](Brands/diaspora-co.md) |
 | Dick Taylor | brand | chocolate | single-origin, maker-craft, materiality, two-ingredient | canon | [Brands/dick-taylor.md](Brands/dick-taylor.md) |
 | Dior | brand | fragrance | prestige-niche, collection-privee, couture, maison | canon | [Brands/dior.md](Brands/dior.md) |
@@ -222,6 +234,7 @@ Full cards, grouped by type. A card link means a file exists.
 | Mariposa Baking Co. | brand | bakery | gluten-free, no-compromise, artisan, dedicated-facility | canon | [Brands/mariposa-baking-co.md](Brands/mariposa-baking-co.md) |
 | Mast Brothers | brand | chocolate | packaging-design, craft-aesthetics, brand-storytelling, cautionary | watch | [Brands/mast-brothers.md](Brands/mast-brothers.md) |
 | Moscot | brand | eyewear, accessories | eyewear, heritage, new-york, craft | canon | [Brands/moscot.md](Brands/moscot.md) |
+| Motown | brand | music, record labels | systems-as-creativity, hit-factory, artist-development, institution-building | canon | [Brands/motown.md](Brands/motown.md) |
 | Nayara Springs | brand | travel, hospitality, experiences | five-star-hospitality, pinnacle-standard, experience-design, ritual | canon | [Brands/nayara-springs.md](Brands/nayara-springs.md) |
 | Nike | brand | fashion, footwear, athletics | selective-alignment, sub-line-curation, sneaker, high-low | canon | [Brands/nike.md](Brands/nike.md) |
 | Nubian Heritage | brand | bath and body, personal care | heritage, african-black-soap, diaspora | canon | [Brands/nubian-heritage.md](Brands/nubian-heritage.md) |
@@ -300,6 +313,7 @@ Editorial and retail tastemakers.
 | Architectural Digest | curator | architecture, interior design, media | editorial, interiors, taste-proxy, luxury-homes | canon | [Curators/architectural-digest.md](Curators/architectural-digest.md) |
 | Dover Street Market | curator | fashion, retail | merchandising, spatial-direction, high-low, curation-strategy | canon | [Curators/dover-street-market.md](Curators/dover-street-market.md) |
 | Mr Porter | curator | fashion, menswear | menswear-curation, editorial-filter, taste-proxy, secondary-storefront | canon | [Curators/mr-porter.md](Curators/mr-porter.md) |
+| Sylvia Rhone | curator | music, record labels, a&r | taste-authority, curation-strategy, anti-silo, artist-development | canon | [Curators/sylvia-rhone.md](Curators/sylvia-rhone.md) |
 
 Aesthetic styles and movements – filed as curators, with the movement or vernacular standing as the tastemaking context.
 
