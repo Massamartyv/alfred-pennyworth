@@ -2,7 +2,7 @@
 file_type: reference_library_index
 scope: personal
 created: 2026-06-21
-last_updated: 2026-06-29
+last_updated: 2026-07-10
 ---
 
 # Reference Library
@@ -173,9 +173,11 @@ Full cards, grouped by type. A card link means a file exists.
 | Cécred | brand | haircare, personal care | haircare, prestige, ownership-as-strategy | canon | [Brands/cecred.md](Brands/cecred.md) |
 | Celine | brand | fashion, leather goods | quiet-luxury, restraint, parisian, minimalism | canon | [Brands/celine.md](Brands/celine.md) |
 | Cire Trudon | brand | fragrance | heritage, candle-house, lineage, restraint | canon | [Brands/cire-trudon.md](Brands/cire-trudon.md) |
+| Clare Paint | brand | paint, interior design | curated-palette, color-and-light, decision-design, restraint | canon | [Brands/clare-paint.md](Brands/clare-paint.md) |
 | Clive Christian | brand | fragrance | ultra-luxury, rare-ingredient, opulence, british-heritage | canon | [Brands/clive-christian.md](Brands/clive-christian.md) |
 | Common Projects | brand | footwear, fashion | minimalism, sneaker, gold-stamp, restraint | canon | [Brands/common-projects.md](Brands/common-projects.md) |
 | COS | brand | fashion | minimalism, architectural, accessible, restraint | canon | [Brands/cos.md](Brands/cos.md) |
+| Crate and Barrel | brand | home goods, furniture, retail | merchandising, design-democratization, heritage, accessible | canon | [Brands/crate-and-barrel.md](Brands/crate-and-barrel.md) |
 | Creed | brand | fragrance | niche, heritage-coded, status-scent, masculine | canon | [Brands/creed.md](Brands/creed.md) |
 | Diaspora Co. | brand | spices, pantry | single-origin, equity, anti-colonial, brand-identity | canon | [Brands/diaspora-co.md](Brands/diaspora-co.md) |
 | Dick Taylor | brand | chocolate | single-origin, maker-craft, materiality, two-ingredient | canon | [Brands/dick-taylor.md](Brands/dick-taylor.md) |
@@ -195,6 +197,7 @@ Full cards, grouped by type. A card link means a file exists.
 | House of Nangman | brand | fashion, accessories | naming, narrative, headwear, sentiment-led | active | [Brands/house-of-nangman.md](Brands/house-of-nangman.md) |
 | Innersense | brand | haircare, personal care | clean-haircare, salon-led, professional-grade | canon | [Brands/innersense.md](Brands/innersense.md) |
 | Isabel Marant | brand | fashion | parisian, effortless, bohemian, sprezzatura | canon | [Brands/isabel-marant.md](Brands/isabel-marant.md) |
+| Italic | brand | home goods, marketplace, fashion | anti-logo, quality-over-brand, materiality, merchandising | canon | [Brands/italic.md](Brands/italic.md) |
 | Jeni's Splendid Ice Creams | brand | ice cream, dessert | flavor-invention, technique, artisan, craft | canon | [Brands/jenis-splendid-ice-creams.md](Brands/jenis-splendid-ice-creams.md) |
 | Keplinger | brand | wine | cult-wine, rhone-varietals, small-production, terroir | canon | [Brands/keplinger.md](Brands/keplinger.md) |
 | Kettl | brand | tea | japanese-tea, single-origin, provenance, seasonality | canon | [Brands/kettl.md](Brands/kettl.md) |
@@ -208,8 +211,10 @@ Full cards, grouped by type. A card link means a file exists.
 | Liverpool FC | brand | sports, identity, culture | tribal-identity, unambiguous-loyalty, cultural-affiliation, world-building | canon | [Brands/liverpool-fc.md](Brands/liverpool-fc.md) |
 | Loewe | brand | fashion, leather goods | investment-luxury, craft-led, materiality, artistic-direction | canon | [Brands/loewe.md](Brands/loewe.md) |
 | Louis Vuitton | brand | fashion, leather goods, fragrance | investment-luxury, high-low, world-building, craft-led | canon | [Brands/louis-vuitton.md](Brands/louis-vuitton.md) |
+| Lulu and Georgia | brand | home decor, furniture | curated-decor, lineage, designer-collaboration, merchandising | canon | [Brands/lulu-and-georgia.md](Brands/lulu-and-georgia.md) |
 | Lululemon | brand | activewear, fashion | activewear, technical, performance, repositioned | canon | [Brands/lululemon.md](Brands/lululemon.md) |
 | Maison Crivelli | brand | fragrance | niche, olfactive-shock, nature-forward, concept-led | canon | [Brands/maison-crivelli.md](Brands/maison-crivelli.md) |
+| Maison d'Etto | brand | fragrance, home fragrance | narrative, world-building, ritual, niche | canon | [Brands/maison-detto.md](Brands/maison-detto.md) |
 | Maison Francis Kurkdjian | brand | fragrance | haute-parfumerie, technical-precision, signature-scent, parisian | canon | [Brands/maison-francis-kurkdjian.md](Brands/maison-francis-kurkdjian.md) |
 | Maison Pierre Marcolini | brand | chocolate | haute-chocolate, craft-led, seasonality, provenance | canon | [Brands/maison-pierre-marcolini.md](Brands/maison-pierre-marcolini.md) |
 | Mango | brand | fashion | high-street, mediterranean, accessible, foundation-fashion | canon | [Brands/mango.md](Brands/mango.md) |
@@ -225,17 +230,20 @@ Full cards, grouped by type. A card link means a file exists.
 | Paraboot | brand | footwear, fashion | french, heritage, footwear, craft | canon | [Brands/paraboot.md](Brands/paraboot.md) |
 | PlayStation | brand | gaming, hardware, entertainment | world-building, platform-ecosystem, brand-identity, immersive-atmosphere | canon | [Brands/playstation.md](Brands/playstation.md) |
 | Prada | brand | fashion, leather goods | intellectual-fashion, restraint, materiality, anti-pretty | canon | [Brands/prada.md](Brands/prada.md) |
+| Puebco | brand | home goods, interior design | found-materials, patina, imperfection-as-design, high-low | canon | [Brands/puebco.md](Brands/puebco.md) |
 | Ralph Lauren | brand | fashion | americana, quiet-luxury, tiered-curation, logo-avoidance | canon | [Brands/ralph-lauren.md](Brands/ralph-lauren.md) |
 | Rapha | brand | cycling, fashion | cycling, performance, premium, community | canon | [Brands/rapha.md](Brands/rapha.md) |
 | Rieti | brand | eyewear, accessories | eyewear, korean, accessible-cool, detail | active | [Brands/rieti.md](Brands/rieti.md) |
 | Salt and Stone | brand | deodorant, skincare | deodorant, elevated-design, fragrance-led | canon | [Brands/salt-and-stone.md](Brands/salt-and-stone.md) |
 | Santa Maria Novella | brand | fragrance, grooming | heritage-craft, apothecary, cross-category, ritual | canon | [Brands/santa-maria-novella.md](Brands/santa-maria-novella.md) |
 | Scribe Winery | brand | wine | natural-wine, place-as-experience, minimal-intervention, new-world | canon | [Brands/scribe-winery.md](Brands/scribe-winery.md) |
+| Seasons | brand | home fragrance, diffusers, interior design | diffuser-as-object, design-conscious, ritual, scent | active | [Brands/seasons.md](Brands/seasons.md) |
 | Singita | brand | travel, hospitality, conservation | five-star-hospitality, conservation-luxury, sense-of-place, ritual | canon | [Brands/singita.md](Brands/singita.md) |
 | Steam | brand | gaming, software, digital distribution | platform-ecosystem, distribution, community, merchandising | canon | [Brands/steam.md](Brands/steam.md) |
 | Stüssy | brand | fashion, streetwear | streetwear, surf, heritage, high-low | canon | [Brands/stussy.md](Brands/stussy.md) |
 | Uniqlo | brand | fashion | foundation-fashion, quality-basics, anti-logo, restraint | canon | [Brands/uniqlo.md](Brands/uniqlo.md) |
 | Vans | brand | footwear, fashion | skate, heritage, foundation-fashion, high-low | canon | [Brands/vans.md](Brands/vans.md) |
+| West Elm | brand | furniture, home goods, retail | certified-sourcing, artisan-collaboration, accessible-modern, positioning | canon | [Brands/west-elm.md](Brands/west-elm.md) |
 | Yves Saint Laurent | brand | fashion | tailoring, androgyny, parisian, statement | canon | [Brands/yves-saint-laurent.md](Brands/yves-saint-laurent.md) |
 
 ### Works
@@ -253,6 +261,7 @@ Full cards, grouped by type. A card link means a file exists.
 | Dallas Buyers Club | work | film | transformation, defiance, total-commitment, against-the-system | canon | [Works/dallas-buyers-club.md](Works/dallas-buyers-club.md) |
 | Django Unchained | work | film | narrative, genre-inversion, style-as-resistance, power-and-identity | canon | [Works/django-unchained.md](Works/django-unchained.md) |
 | Dromeas (The Runner) | work | sculpture, public art | glass, motion, materiality, public-sculpture | canon | [Works/dromeas.md](Works/dromeas.md) |
+| Dune | work | furniture, design | furniture-as-topography, modular, status-object, world-building | canon | [Works/dune-pierre-paulin.md](Works/dune-pierre-paulin.md) |
 | Everything Everywhere All at Once | work | film | narrative, tonal-range, formal-experimentation, emotional-honesty | canon | [Works/everything-everywhere-all-at-once.md](Works/everything-everywhere-all-at-once.md) |
 | Fallingwater | work | architecture, residential | nature-integration, materiality, spatial-direction, restraint | canon | [Works/fallingwater.md](Works/fallingwater.md) |
 | Forrest Gump | work | film | innocence-as-wisdom, americana, sentiment, history | canon | [Works/forrest-gump.md](Works/forrest-gump.md) |
@@ -299,11 +308,21 @@ Aesthetic styles and movements – filed as curators, with the movement or verna
 | Biophilic | curator | architecture, interior design, landscape | biophilic, nature-integration, greenery, wellbeing | canon | [Curators/biophilic.md](Curators/biophilic.md) |
 | Brownstone | curator | architecture, interior design, urbanism | historical-fabric, urban-vernacular, materiality, warmth | canon | [Curators/brownstone.md](Curators/brownstone.md) |
 | Brutalist | curator | architecture, interior design | materiality, raw-and-warm, sculptural-mass, monumental | canon | [Curators/brutalist.md](Curators/brutalist.md) |
+| California Bungalow | curator | architecture, interior design, residential | craftsman, joinery, horizontal-massing, indoor-outdoor | canon | [Curators/california-bungalow.md](Curators/california-bungalow.md) |
+| Feng Shui | curator | interior design, spatial philosophy | spatial-arrangement, energy-flow, ritual, wellbeing | canon | [Curators/feng-shui.md](Curators/feng-shui.md) |
 | French Provincial | curator | architecture, interior design | materiality, warmth, rustic-refinement, craftsmanship | active | [Curators/french-provincial.md](Curators/french-provincial.md) |
 | Industrial | curator | architecture, interior design | materiality, loft, exposed-structure, raw-and-warm | canon | [Curators/industrial.md](Curators/industrial.md) |
+| Japandi | curator | interior design | natural-materials, pared-palette, quiet-warmth, restraint | canon | [Curators/japandi.md](Curators/japandi.md) |
 | Mediterranean | curator | architecture, interior design | materiality, indoor-outdoor, warmth, color-and-light | canon | [Curators/mediterranean.md](Curators/mediterranean.md) |
+| Midcentury Modern | curator | architecture, interior design, furniture | clean-line, organic-shape, warm-modernism, furniture-as-icon | canon | [Curators/midcentury-modern.md](Curators/midcentury-modern.md) |
 | Modern | curator | architecture, interior design | clean-line, open-plan, form-follows-function, restraint | canon | [Curators/modern.md](Curators/modern.md) |
+| Native Plant Gardens | curator | landscape, gardening, ecology | habitat-gardening, native-species, nature-integration, biophilic | canon | [Curators/native-plant-gardens.md](Curators/native-plant-gardens.md) |
+| Organic Modern | curator | interior design | warm-minimalism, sculptural-silhouette, earthy-palette, tactile | canon | [Curators/organic-modern.md](Curators/organic-modern.md) |
+| Speakeasy | curator | interior design, hospitality | concealment, moody-intimacy, ritual, world-building | canon | [Curators/speakeasy.md](Curators/speakeasy.md) |
 | Surrealism | curator | visual art, literature, film | dream-logic, the-uncanny, juxtaposition, conviction | canon | [Curators/surrealism.md](Curators/surrealism.md) |
+| Tropical Modernism | curator | architecture, interior design | indoor-outdoor, climate-responsive, passive-cooling, materiality | canon | [Curators/tropical-modernism.md](Curators/tropical-modernism.md) |
+| Verdant | curator | interior design | green-saturation, plant-density, garden-room, biophilic | active | [Curators/verdant.md](Curators/verdant.md) |
+| West African Modern | curator | architecture, interior design | heritage-forward, textile-and-symbol, diaspora, cultural-bridge | active | [Curators/west-african-modern.md](Curators/west-african-modern.md) |
 
 Mediums and formats – immersive mediums and game, social and betting formats held as creative contexts.
 
@@ -313,6 +332,20 @@ Mediums and formats – immersive mediums and game, social and betting formats h
 | Murder Mystery Parties | curator | gaming, social games, hospitality | participation, role-play, ritual, hospitality | canon | [Curators/murder-mystery-parties.md](Curators/murder-mystery-parties.md) |
 | Sportsbooks | curator | gaming, sports betting, finance | odds-as-product, engagement-loop, positioning, conversion | canon | [Curators/sportsbooks.md](Curators/sportsbooks.md) |
 | Virtual Reality | curator | gaming, technology, immersive media | immersive-atmosphere, presence, world-building, spatial-direction | canon | [Curators/virtual-reality.md](Curators/virtual-reality.md) |
+
+Typologies and features – dwelling typologies, home features and design techniques held as creative contexts.
+
+| Entity | Type | Domains | Pull for | Status | Card |
+|---|---|---|---|---|---|
+| Ambient Lighting | curator | interior design, lighting | color-and-light, light-as-material, warmth, atmosphere | canon | [Curators/ambient-lighting.md](Curators/ambient-lighting.md) |
+| The Dream Home | curator | architecture, interior design, residential | dream-home-standard, nature-inside, engineering-of-ease, personal-canon | active | [Curators/the-dream-home.md](Curators/the-dream-home.md) |
+| Homestead | curator | land, lifestyle, sustainability | self-sufficiency, land-as-system, food-production, sustainability | canon | [Curators/homestead.md](Curators/homestead.md) |
+| Houseboats | curator | architecture, dwelling, travel | floating-dwelling, water-living, regional-vernacular, adaptive-reuse | canon | [Curators/houseboats.md](Curators/houseboats.md) |
+| Outdoor Showers | curator | architecture, residential | open-air-bathing, ritual, coastal, elemental | canon | [Curators/outdoor-showers.md](Curators/outdoor-showers.md) |
+| Smart Home | curator | interior design, technology | concealed-technology, integration, intelligent-comfort, restraint | canon | [Curators/smart-home.md](Curators/smart-home.md) |
+| Solariums | curator | architecture, interior design | light-capture, glass-room, color-and-light, indoor-outdoor | canon | [Curators/solariums.md](Curators/solariums.md) |
+| Sunroofs | curator | architecture, residential | open-sky, transformation, light-capture, indoor-outdoor | canon | [Curators/sunroofs.md](Curators/sunroofs.md) |
+| Treehouses | curator | architecture, hospitality, travel | nature-immersion, elevated-perspective, hospitality, world-building | canon | [Curators/treehouses.md](Curators/treehouses.md) |
 
 Museums and institutions – galleries and museums held as tastemaking contexts.
 
