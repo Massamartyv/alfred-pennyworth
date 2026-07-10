@@ -27,7 +27,7 @@ A role is active if at least one dispatch will be made under that role inside th
 2. Operator approves at the Direction gate
 3. Every dispatch inside the mission reads the assignment and selects its model accordingly
 4. The assignment overrides global model defaults for the duration of the mission
-5. The assignment is stored on the Notion mission record for tracked missions
+5. The assignment is stored on the mission record – the scoped Projects entry – for tracked missions
 
 ## Relationship to global Model Selection Protocol
 
@@ -87,4 +87,4 @@ The Creator override to Opus is the kind of conscious upgrade this template forc
 
 ---
 
-*Schema version 1. Manor Protocol Phase 1 deliverable. 2026-05-10.*
+*Schema version 1. Manor Protocol Phase 1 deliverable. 2026-05-10. Updated 2026-07-10 – mission record made concrete.*

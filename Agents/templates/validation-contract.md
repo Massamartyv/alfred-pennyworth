@@ -24,6 +24,7 @@ For missions below the threshold, a validation contract is optional but recommen
 - Each assertion has exactly one owner – the feature, milestone or worker that satisfies it
 - Each assertion declares its evidence – the artefact that proves satisfaction
 - Each assertion declares its review tier – `scrutiny` for mechanical compliance, `behavioural` for end-user verification
+- The template is the schema and stays local; instances live in `.working/{mission-name}/` and, after Critique, on the mission record as an H3 section
 
 Assertions are written as outcomes, not steps. "The dispatched agent writes a handoff document" is an assertion. "Run the handoff write step" is not.
 
@@ -35,7 +36,7 @@ Assertions are written as outcomes, not steps. "The dispatched agent writes a ha
 4. The contract is stored at `.working/{mission-name}/validation-contract.md` during execution
 5. Every Reviewer dispatch reads the contract before reviewing
 6. The orchestrator reads the contract at every milestone boundary
-7. The contract is copied to the Notion mission record once Critique clears
+7. The contract is copied onto the mission record – the scoped Notion Projects entry, defined in `Agents/_index.md` – once Critique clears
 
 ## Relationship to Manor Protocol gates
 
@@ -119,4 +120,4 @@ A4. The retrofit does not change any agent's mission scope or tool set.
 
 ---
 
-*Schema version 1. Manor Protocol Phase 1 deliverable. 2026-05-10.*
+*Schema version 1. Manor Protocol Phase 1 deliverable. 2026-05-10. Updated 2026-07-10 – mission record made concrete; authoring rule on template vs instance location added.*

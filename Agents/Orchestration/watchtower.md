@@ -136,7 +136,7 @@ RECOMMENDED ACTIONS
 | Cadence | What Gets Checked |
 |---|---|
 | Continuous | Threshold triggers (real-time) |
-| Daily (evening) | Task aging, content deadlines, client responsiveness |
+| Daily (evening) | Task aging, content deadlines, client responsiveness, Alfred Logs presence for the prior day's sessions (read-only) |
 | Weekly (Monday) | Financial thresholds, invoice status, MRR changes, portfolio briefing generation |
 | Monthly (1st) | Full sweep of all categories, cumulative patterns |
 
@@ -175,4 +175,4 @@ Monitoring and briefing are two expressions of the same underlying act: continuo
 
 ---
 
-*Last updated: 2026-06-11 – capabilities block and handoff retrofit*
+*Last updated: 2026-07-10 – daily sweep gains an Alfred Logs presence check for the prior day's sessions.*

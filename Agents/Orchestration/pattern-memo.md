@@ -5,7 +5,7 @@ model: sonnet
 type: orchestration
 crew: researcher, creator
 cadence: First of every month
-scope: Personal. Reads from Notion personal workspace (Reflections, Tasks, Content, Achievements, Sphere Manager) and from session memory and build history logs. Writes to Reflections.
+scope: Personal. Reads from Notion personal workspace (Reflections, Tasks, Projects, Content, Achievements, Sphere Manager, Alfred Logs) and from session memory. Writes to Reflections.
 working_dir: .working/pattern-memo/
 tools: Read, Write, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-search, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-fetch, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-create-pages, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-update-page, mcp__Read_and_Send_iMessages__send_imessage
 ---
@@ -17,6 +17,8 @@ tools: Read, Write, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-search, mc
 Once a month, surface the patterns that ran underneath the prior month's activity. Three observations the operator may not have noticed himself, each anchored in concrete evidence drawn from the data. One open question that the observations together raise. Drafted, surfaced for review, then written into Movement 0 of the new Monthly Review entry in Notion Reflections.
 
 This is the closest thing in the system to the "you have intuited things via the data I am able to validate" experience. It scales that pattern recognition into a standing rhythm.
+
+Canonical output lives in Notion Reflections – the house pattern all agent output now follows.
 
 ---
 
@@ -45,7 +47,7 @@ This is the closest thing in the system to the "you have intuited things via the
 - **Achievements database** (`collection://bfd6a3ba-73b0-4789-ab58-e05af77078f4`) -- anything logged
 - **Sphere Manager** (`collection://4d195180-7fd5-4b7d-a407-2e1a44124002`) -- sphere state changes, phase shifts, graduations
 - **Session memory** at `.claude/projects/-Users-martyspicer-Alfred-Pennyworth/memory/` -- new feedback, project and user memories written in the prior month
-- **Build history** at `Logs/build-history/` -- the month's log file
+- **Alfred Logs database** (`collection://aa62732e-8055-4fd5-af72-5d4e4aec35b3`) -- the month's session entries
 
 ### Target
 
@@ -113,4 +115,4 @@ The question worth sitting with -- {single open question}.
 
 ---
 
-*Last updated: 2026-06-11 – capabilities block and handoff retrofit*
+*Last updated: 2026-07-10 – build history reference replaced with the Alfred Logs database; canonical-output note added.*

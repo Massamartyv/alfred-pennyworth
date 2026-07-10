@@ -60,7 +60,7 @@ Verify that the Sphere Index in the global CLAUDE.md, the Sphere Manager databas
 
 ### State currency
 
-- Review the "Current state snapshot" in the global CLAUDE.md
+- Verify `.claude/cache/state-cache.md` matches Sphere Manager – any divergence is a cache-refresh failure to report, never a fact to hand-edit
 - Flag any state that may have shifted (fitness phase, active language, content priority, business priority)
 
 ---
@@ -82,7 +82,7 @@ GRADUATION CANDIDATES
 - {topic}: {reason it is ready} -- {suggested file path}
 
 STATE DRIFT
-- {field}: Currently says "{current}" -- may need update to "{suggested}"
+- {field}: cache says "{cached}", Sphere Manager says "{actual}" -- cache-refresh failure, report only
 
 ALIGNED
 - {confirmation of what is in sync}
@@ -101,9 +101,9 @@ All intermediate output goes to `.working/sphere-review/`. This includes index s
 1. Present the report
 2. For approved corrections, update the Sphere Index, create missing folders or files
 3. For graduation candidates, create the graduated file and update the cluster index
-4. Update state snapshot if confirmed by the user
+4. State drift is a cache-refresh failure -- report it; never hand-edit `.claude/cache/state-cache.md` or Sphere Manager to reconcile
 5. Write the handoff to `.working/sphere-review/handoff.md` per `Agents/templates/handoff-schema.md` as the final action before exit -- required regardless of outcome
 
 ---
 
-*Last updated: 2026-06-11 – capabilities block and handoff retrofit*
+*Last updated: 2026-07-10 – state currency check repointed from the global CLAUDE.md snapshot to the Notion state cache.*

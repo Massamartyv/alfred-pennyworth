@@ -106,7 +106,8 @@ Operate across the entire ecosystem. Infrastructure-level maintenance.
 | Agent | Location | Crew | Cadence | Purpose |
 |---|---|---|---|---|
 | context-audit | System/ | Reviewer:Scrutiny | Monthly | Scan context files for stale or inconsistent information |
-| media-scanner | System/ | Researcher | Monthly | Surface new five-star entries from Notion databases |
+| drift-audit | System/ | Reviewer:Scrutiny | Monthly | Verify state lives in Notion, caches carry stamps and retired patterns stay retired |
+| media-scanner | System/ | Researcher | Monthly | Enrich new five-star entries on their Notion pages; no local writes |
 | sphere-review | System/ | Reviewer:Scrutiny | Quarterly | Verify Sphere Index alignment |
 
 ### Orchestration Agents
@@ -129,6 +130,7 @@ In-session dispatchable agents that live at `.claude/agents/` and are invoked by
 | creator | Creator | sonnet | A tangible deliverable must be produced |
 | reviewer-scrutiny | Reviewer:Scrutiny | sonnet | Mechanical compliance gate -- lint, types, brand, schema, links |
 | reviewer-behavioural | Reviewer:Behavioural | sonnet | End-user verification -- spawn the app, read as the reader, dry-run automations |
+| job-applier | Researcher + Creator chain | sonnet | The operator points at a freelance job; qualify, draft, stage to the one-click line, never submit |
 
 Reviewer subagents run in fresh context with no memory of the Creator they audit, per the fresh-context rule above. Mediator and Broadcaster are not yet standalone subagents -- Broadcaster is orchestrator work, Mediator is dispatched rarely enough that a standing subagent would be premature.
 
@@ -146,7 +148,7 @@ Alfred operating system operates within a six-layer agent infrastructure stack. 
 |---|---|---|
 | 1. Compute and sandboxing | Safe, isolated execution environments | Local Mac. `.working/` for transient files. Cloud sandboxes needed for deployed agents. |
 | 2. Identity and communication | How agents exist and communicate on the internet | Email Directory, iMessage, MCP auth. Shim-heavy -- functional but not agent-native. |
-| 3. Memory and state | Persistent recall across sessions and tasks | `.claude/` memory system with active curation. Notion as durable portable layer. |
+| 3. Memory and state | Persistent recall across sessions and tasks | `.claude/` memory for durable facts; Notion as the single state layer; local caches stamped and one-way. |
 | 4. Tools and integration | Connecting agents to external services | MCP connections. Per-venture `integrations.md` files. Strong but MCP-dependent. |
 | 5. Provisioning and billing | Agents acquiring and paying for services | Token budget framework, execution tiers. Needs formal billing protocol at scale. |
 | 6. Orchestration and coordination | Multi-agent reliability at scale | Pennyone, Watchtower, five-crew system. **This is where we are building.** |
@@ -202,7 +204,7 @@ Followed by: Mission, Scope, Criteria, Working Directory, After the Mission.
 
 ### Handoff is the closing artefact
 
-Every agent run ends with a handoff document written to `.working/{agent-name}/handoff.md`. The canonical schema lives at `templates/handoff-schema.md` and is required output – no exceptions. The handoff replaces the loose Report Format that previously sat under this section.
+Every agent run ends with a handoff document written to `.working/{agent-name}/handoff.md`. The canonical schema lives at `templates/handoff-schema.md` and is required output – no exceptions. For mission-scoped runs the handoff also lands on the mission record – the scoped Notion Projects entry – when the Critique gate clears; the `.working/` copy is working state, the project-page copy is the durable receipt. The handoff replaces the loose Report Format that previously sat under this section.
 
 Existing agents (`context-audit`, `media-scanner`, `sphere-review`, `penny-one`, `watchtower`) retrofit to the schema on their next definition update – no stop-the-world rewrite.
 
@@ -216,6 +218,14 @@ Gates fire on irreversibility, not category.
 | External-facing or irreversible (sends, publishes, payments, force-pushes, deploys) | – | Required |
 
 The Direction gate is retired as a structural requirement. Agents may still produce a direction artefact for their own planning. The Critique gate is the load-bearing one – it is the last opportunity to catch a compounding error before the work leaves the system.
+
+### The mission record
+
+Every portfolio-tracked Manor Protocol mission has its record as a plain Projects entry in the correctly scoped Notion workspace – personal or Five Points, never both. Phases and next actions are Tasks related to it. No schema extensions. When the Critique gate clears, the handoff receipt and validation contract are copied onto the project page. Templates stay local schemas; instances live in `.working/{mission-name}/` during execution.
+
+Anchors: personal Projects `collection://5243521a-dbd8-4c7d-892e-9c6cb1e25ec8`, personal Tasks `collection://bdfa49b5-e3b1-4ba0-89c2-e8badeb72f3d` (template New Alfred Task `33218961-65cf-8005-bb5a-cffe950614ed`), Five Points Projects `4a9f9bab-7026-414e-9820-40925b56a7b6`, Five Points Tasks `c12b060f-63a8-4c3a-b7d4-27eed30da695`.
+
+The two workspaces never mix – a mission is personal or Five Points and its record, tasks and receipts stay inside that scope.
 
 ### Model defaults
 
@@ -261,7 +271,8 @@ Defined under `Agents/System/` and `Agents/Orchestration/`.
 | Name          | Type          | Crew                | Model  | Cadence                                                            | Tools                                                                                                                        |
 | ------------- | ------------- | ------------------- | ------ | ------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
 | context-audit | maintenance   | reviewer            | haiku  | First of every month                                               | 3 (Read, Glob, Grep)                                                                                                         |
-| media-scanner | maintenance   | researcher          | haiku  | First of every month                                               | 4 (Read, Write, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-search…)                                                   |
+| drift-audit   | maintenance   | reviewer            | haiku  | First of every month                                               | 6 (Read, Glob, Grep…)                                                                                                        |
+| media-scanner | maintenance   | researcher          | haiku  | First of every month                                               | 5 (Read, Write, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-search…)                                                   |
 | sphere-review | maintenance   | reviewer            | haiku  | First of each quarter                                              | 5 (Read, Glob, Grep…)                                                                                                        |
 | pattern-memo  | orchestration | researcher, creator | sonnet | First of every month                                               | 7 (Read, Write, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-search…)                                                   |
 | pennyone      | orchestration | creator             | sonnet | On-demand (per publish event)                                      | 4 (mcp__pennyone__publish, mcp__pennyone__pipeline_status, mcp__pennyone__list_pipelines…)                                   |
@@ -274,6 +285,7 @@ Defined under `.claude/agents/` at the project root. Dispatched in-session via t
 | Name                 | Model  | Tools                  | Disallowed Tools          |
 | -------------------- | ------ | ---------------------- | ------------------------- |
 | creator              | sonnet | 6 (Read, Grep, Glob…)  | none                      |
+| job-applier          | sonnet | 8 (Read, Write, Edit…) | none                      |
 | researcher           | sonnet | 6 (Read, Grep, Glob…)  | none                      |
 | reviewer-behavioural | sonnet | 18 (Read, Grep, Glob…) | Write, Edit, NotebookEdit |
 | reviewer-scrutiny    | sonnet | 4 (Read, Grep, Glob…)  | Write, Edit, NotebookEdit |
@@ -282,16 +294,20 @@ Defined under `.claude/agents/` at the project root. Dispatched in-session via t
 
 Registered under `~/.claude/scheduled-tasks/`. These are the live scheduler entries.
 
-| Name          | Allowed Tools          | Description                                                              |
-| ------------- | ---------------------- | ------------------------------------------------------------------------ |
-| context-audit | 4 (Read, Glob, Grep…)  | Monthly scan of all context files for stale, outdated or inconsistent…   |
-| media-scanner | 7 (Read, Glob, Grep…)  | Monthly scan of Notion Media and Literature databases for new five-star… |
-| pattern-memo  | 9 (Read, Glob, Grep…)  | First-of-month pattern memo: synthesise three patterns from the prior…   |
-| penny-one     | 10 (Read, Glob, Grep…) | Weekly Monday morning portfolio briefing. Aggregates tasks, projects,…   |
-| sphere-review | 6 (Read, Glob, Grep…)  | Quarterly alignment check between Sphere Index, Sphere Manager database… |
-| watchtower    | 6 (Read, Glob, Grep…)  | Daily evening sweep of Notion for overdue tasks, stale high-priority…    |
+| Name                     | Allowed Tools                                         | Description                                                              |
+| ------------------------ | ----------------------------------------------------- | ------------------------------------------------------------------------ |
+| catalogue-likes          | none                                                  | RETIRED — renamed to nabu-likes. Safe to delete from the Scheduled…      |
+| contact-card-sync        | none                                                  | Self-Reference Scan                                                      |
+| context-audit            | 4 (Read, Glob, Grep…)                                 | Monthly scan of all context files for stale, outdated or inconsistent…   |
+| media-scanner            | 7 (Read, Glob, Grep…)                                 | Monthly scan of Notion Media and Literature databases for new five-star… |
+| nabu-likes               | 2 (Bash, mcp__Read_and_Send_iMessages__send_imessage) | Daily Nabu liked-video watcher: files new YouTube likes into Notion…     |
+| pattern-memo             | 9 (Read, Glob, Grep…)                                 | First-of-month pattern memo: synthesise three patterns from the prior…   |
+| penny-one                | 10 (Read, Glob, Grep…)                                | Weekly Monday morning portfolio briefing. Aggregates tasks, projects,…   |
+| sphere-review            | 6 (Read, Glob, Grep…)                                 | Quarterly alignment check between Sphere Index, Sphere Manager database… |
+| watchtower               | 7 (Read, Write, Glob…)                                | Daily evening sweep of Notion for overdue tasks, stale high-priority…    |
+| wealth-benchmark-refresh | none                                                  | Wealth Benchmark                                                         |
 
-_Generated automatically. Scheduled agents: 6. Native subagents: 4. Scheduled-task registrations: 6._
+_Generated automatically. Scheduled agents: 7. Native subagents: 5. Scheduled-task registrations: 10._
 
 <!-- capability-matrix:end -->
 
@@ -305,6 +321,7 @@ Agents/
 +-- crews.md           -- Universal crew definitions
 +-- System/            -- Infrastructure and maintenance agents
 |   +-- context-audit.md
+|   +-- drift-audit.md
 |   +-- media-scanner.md
 |   +-- sphere-review.md
 +-- Orchestration/     -- Portfolio-level agents
@@ -315,4 +332,4 @@ Agents/
 
 ---
 
-*Last updated: 2026-06-19 – manor-recon gains an Inventory phase ahead of synthesis, producing the source-inventory pack per `templates/source-inventory.md`.*
+*Last updated: 2026-07-10 – mission record defined with its Projects/Tasks anchors; drift-audit added to System Agents; handoff rule and Stack Awareness updated for the Notion state layer.*

@@ -28,6 +28,8 @@ These are the domains of creative practice that are core to identity:
 
 ### Five-Star Media – Reference Library
 
+Derived from Notion Media and Literature five-star entries – refreshed by the monthly media scan; the live corpus is canonical.
+
 Alfred draws on these naturally for pop culture references, metaphors, analogies, and examples. References should feel earned, not inserted – used when the work genuinely illuminates the point.
 
 **Feature Films**
@@ -88,9 +90,9 @@ Skills live at `~/.claude/skills/` and are referenced logically by sphere.
 
 | Trigger | Action |
 |---|---|
-| First of every month | Search Media and Library databases for new five-star entries. Update this file under the appropriate category with thematic notes. |
-| First of every month | If a previously five-star entry has been downgraded, move it to an archive section within this file. |
+| First of every month | Media scanner queries the Media and Literature databases for new five-star entries and writes the thematic DNA paragraph directly onto each new entry's Notion page. No local rewrite of this file. |
+| First of every month | Downgraded entries are flagged in the scan report only. This file is not edited – Notion is the canonical, current corpus. |
 
 ---
 
-*Last updated: 2026-04-23*
+*Last updated: 2026-07-10 – cache-stamp line added to the Five-Star Media section; Maintenance rows repointed to Notion page-body enrichment, no local rewrite.*

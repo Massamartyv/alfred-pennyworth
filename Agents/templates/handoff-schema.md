@@ -17,7 +17,7 @@ Required output for every agent run. No exceptions. Whether the agent succeeded,
 - Mandatory for every agent run, regardless of outcome
 - Written as the agent's final action before exit
 - Stored at `.working/{agent-name}/handoff.md` for the active run
-- Persisted into the mission record on completion for portfolio-tracked missions
+- Copied onto the mission record – the scoped Notion Projects entry – when the Critique gate clears, for portfolio-tracked missions
 - Status field is one of: `complete`, `partial`, `blocked`
 - Severity values are one of: `blocking`, `follow-up`, `observation`
 - Procedural compliance values are one of: `followed`, `deviated`, `not applicable`
@@ -31,6 +31,7 @@ If the agent deviated from a procedure, the deviation must include the reason in
 - Reviewers read the handoff as input to their review
 - The orchestrator reads the handoff at every milestone boundary
 - The operator reads the handoff at the Critique gate
+- The operator reads the project-page copy after Release – the durable receipt
 
 ## Retroactivity
 
@@ -46,6 +47,7 @@ Copy the block below into `.working/{agent-name}/handoff.md` and fill in.
 ---
 agent: {agent-name}
 mission: {mission-name or 'standalone'}
+mission_record: {Notion project URL, or none for standalone runs}
 started: {ISO 8601 timestamp}
 completed: {ISO 8601 timestamp}
 status: complete | partial | blocked
@@ -83,6 +85,7 @@ A successful run of the `context-audit` agent against a single venture:
 ---
 agent: context-audit
 mission: standalone
+mission_record: none
 started: 2026-06-01T14:00:00Z
 completed: 2026-06-01T14:18:00Z
 status: complete
@@ -114,4 +117,4 @@ status: complete
 
 ---
 
-*Schema version 1. Manor Protocol Phase 1 deliverable. 2026-05-10.*
+*Schema version 1. Manor Protocol Phase 1 deliverable. 2026-05-10. Updated 2026-07-10 – mission_record field and project-page consumption line added.*

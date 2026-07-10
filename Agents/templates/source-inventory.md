@@ -29,6 +29,7 @@ Not required for missions with no meaningful source set – a logo, a workout lo
 - The missing-context list is mandatory even when empty. Absent material is often more load-bearing than present material
 - Authority values are one of: `authoritative`, `supporting`, `background`, `superseded`
 - Status values are one of: `current`, `superseded`, `duplicate`, `orphaned`
+- The template is the schema and stays local; instances live in `.working/{mission-name}/` and, after Critique, on the mission record as an H3 section
 
 ## The discipline: find, do not silently resolve
 
@@ -44,7 +45,7 @@ This is also the one place Navigation Rule 1 is scoped rather than overridden. N
 4. The inventory is stored at `.working/{mission-name}/source-inventory.md` during execution
 5. Every Creator and Researcher dispatch reads the inventory and treats the operator-confirmed authority order as binding
 6. The final writing prompt references the inventory: which source is authoritative, which is background, what is unsupported
-7. The inventory is copied to the Notion mission record once Critique clears
+7. The inventory is copied onto the mission record – the scoped Notion Projects entry, defined in `Agents/_index.md` – once Critique clears
 
 ## Relationship to Manor Protocol gates
 
@@ -173,4 +174,4 @@ The conflict log entry is the point of the artefact. Without it, the two revenue
 
 ---
 
-*Schema version 1. Manor Protocol Phase 1 deliverable – input-side hardening. 2026-06-19.*
+*Schema version 1. Manor Protocol Phase 1 deliverable – input-side hardening. 2026-06-19. Updated 2026-07-10 – mission record made concrete; authoring rule on template vs instance location added.*
