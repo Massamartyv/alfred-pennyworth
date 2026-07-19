@@ -337,14 +337,13 @@
   <button class="tab" onclick="switchTab('patterns')">Patterns</button>
   <button class="tab" onclick="switchTab('deep')">Deep Signals</button>
   <button class="tab" onclick="switchTab('business')">Five Points</button>
-  <button class="tab" onclick="switchTab('battleplan')">Battle Plan</button>
 </div>
 
 <!-- CASH FLOW PANEL -->
 <div id="cashflow" class="panel active">
   <div class="chart-container">
     <div class="chart-title">Monthly Cash Flow</div>
-    <div class="chart-subtitle">Deposits vs outflows -- the margin between the two lines is your room to breathe</div>
+    <div class="chart-subtitle">Deposits vs outflows -- the margin between the two lines is investable capital</div>
     <canvas id="cashflowChart" height="100"></canvas>
   </div>
   <div class="chart-container">
@@ -417,7 +416,7 @@
 
     <div class="slider-row">
       <span class="slider-label">Desired Take-Home</span>
-      <input type="range" id="takeHomeSlider" min="2000" max="20000" step="500" value="8000" oninput="updateProjections()">
+      <input type="range" id="takeHomeSlider" min="2000" max="200000" step="1000" value="8000" oninput="updateProjections()">
       <span class="slider-value" id="takeHomeTarget" style="color:var(--accent)">$8,000</span>
     </div>
 
@@ -467,7 +466,7 @@
 
     <div class="slider-row">
       <span class="slider-label">Business MRR</span>
-      <input type="range" id="mrrSlider" min="2500" max="50000" step="500" value="7000" oninput="updateForward()">
+      <input type="range" id="mrrSlider" min="2500" max="500000" step="2500" value="7000" oninput="updateForward()">
       <span class="slider-value" id="mrrValue">$7,000</span>
     </div>
 
@@ -497,11 +496,13 @@
     <table>
       <tr><th>MRR</th><th>Take-Home (40%)</th><th>After Spend</th><th>What It Unlocks</th></tr>
       <tr><td>$5,000</td><td>$2,000</td><td>$32</td><td>Break-even. Zero overdrafts if buffer is set.</td></tr>
-      <tr><td>$7,000</td><td>$2,800</td><td>$832</td><td>Breathing room. Travel fund possible.</td></tr>
+      <tr><td>$7,000</td><td>$2,800</td><td>$832</td><td>First surplus tranche routes to the contribution engine.</td></tr>
       <tr><td>$10,000</td><td>$4,000</td><td>$2,032</td><td>Savings + investment begins.</td></tr>
       <tr><td>$15,000</td><td>$6,000</td><td>$4,032</td><td>Wealth building. S-Corp makes sense.</td></tr>
-      <tr><td>$25,000</td><td>$10,000</td><td>$8,032</td><td>Full financial freedom. Max investment.</td></tr>
-      <tr><td>$50,000</td><td>$20,000</td><td>$18,032</td><td>Generational wealth velocity.</td></tr>
+      <tr><td>$25,000</td><td>$10,000</td><td>$8,032</td><td>Contribution engine at full draw. The instrument starts moving.</td></tr>
+      <tr><td>$50,000</td><td>$20,000</td><td>$18,032</td><td>Operating leverage proven; the model is ready to replicate.</td></tr>
+      <tr><td>$100,000</td><td>$40,000</td><td>$38,032</td><td>Leverage compounds; the curve steepens past a single operator's ceiling.</td></tr>
+      <tr><td>$1,000,000+</td><td>$400,000+</td><td>$398,032+</td><td>Enterprise value becomes the metric, not monthly draw. See the Wealth Trajectory instrument.</td></tr>
     </table>
   </div>
 </div>
@@ -543,207 +544,6 @@
       <div class="metric positive">$1,100</div>
       <p>in fees would have been avoided with a $500 minimum balance floor. That is the single highest-ROI financial decision available right now. The next large deposit that puts the account above $1,200 -- $500 becomes untouchable infrastructure.</p>
     </div>
-  </div>
-</div>
-
-<!-- BATTLE PLAN PANEL -->
-<div id="battleplan" class="panel">
-  <p class="subtitle" style="margin-bottom:24px;">$25K MRR Battle Plan -- April through September 2026. What you need to do and what the numbers need to be.</p>
-
-  <div class="kpi-grid">
-    <div class="kpi">
-      <div class="kpi-label">Current MRR</div>
-      <div class="kpi-value warning">$2,500</div>
-      <div class="kpi-delta" style="color:var(--text-muted)">2 retainer clients</div>
-    </div>
-    <div class="kpi">
-      <div class="kpi-label">Target MRR</div>
-      <div class="kpi-value positive">$25,000</div>
-      <div class="kpi-delta positive">By September 30</div>
-    </div>
-    <div class="kpi">
-      <div class="kpi-label">Gap to Close</div>
-      <div class="kpi-value" style="color:var(--blue)">$22,500</div>
-      <div class="kpi-delta positive">At 1K/day this closes in 60 -- 90 days</div>
-    </div>
-    <div class="kpi">
-      <div class="kpi-label">Months Remaining</div>
-      <div class="kpi-value">6</div>
-      <div class="kpi-delta" style="color:var(--text-muted)">April -- September</div>
-    </div>
-    <div class="kpi">
-      <div class="kpi-label">Expected Close Rate</div>
-      <div class="kpi-value positive">5 -- 10/mo</div>
-      <div class="kpi-delta positive">At 1K/day, $25K in weeks not months</div>
-    </div>
-    <div class="kpi">
-      <div class="kpi-label">Daily Prospect Volume</div>
-      <div class="kpi-value">1,000</div>
-      <div class="kpi-delta positive">5,000/wk -- fully automated pipeline</div>
-    </div>
-  </div>
-
-  <!-- REVENUE TRAJECTORY CHART -->
-  <div class="chart-container">
-    <div class="chart-title">Revenue Trajectory: Current to $25K</div>
-    <div class="chart-subtitle">At 1,000 prospects/day (automated), $25K is a waypoint -- not the destination. The trajectory goes past it.</div>
-    <canvas id="trajectoryChart" height="100"></canvas>
-  </div>
-
-  <!-- WHAT IS EXPECTED OF YOU -->
-  <div class="chart-container" style="border-color:var(--yellow-dim);">
-    <div class="chart-title" style="color:var(--yellow);">What Is Expected of You -- Weekly Commitments</div>
-    <div class="chart-subtitle">The daily and weekly actions that produce the numbers above. Non-negotiable.</div>
-    <table>
-      <tr><th>Activity</th><th>Frequency</th><th>Time</th><th>What It Produces</th></tr>
-      <tr><td style="font-weight:600">Monitor automated pipeline (agent-run)</td><td>Daily glance</td><td>~10 min</td><td>5,000 new prospects/wk (1,000/day -- fully automated)</td></tr>
-      <tr><td style="font-weight:600">Review and respond to replies</td><td>Daily</td><td>~30 min</td><td>10 -- 20 positive replies per week converted to calls</td></tr>
-      <tr><td style="font-weight:600">Discovery calls</td><td>5 -- 10/week</td><td>~30 min each</td><td>20 -- 40 calls per month, 5 -- 10 closes</td></tr>
-      <tr><td style="font-weight:600">Workshop prep and delivery</td><td>Monthly</td><td>~4 hrs total</td><td>$3K -- $4K in workshop revenue + 2 -- 5 qualified upsell leads</td></tr>
-      <tr><td style="font-weight:600">Client delivery (with contractor)</td><td>Daily</td><td>~3 hrs</td><td>Retained clients, case studies, referrals</td></tr>
-      <tr><td style="font-weight:600">Content creation (LinkedIn/podcast)</td><td>3x/week</td><td>~30 min each</td><td>Inbound leads, authority, Marty Gras growth</td></tr>
-      <tr><td style="font-weight:600">Friday scoreboard review</td><td>Weekly</td><td>~15 min</td><td>Course correction before problems compound</td></tr>
-      <tr style="border-top:2px solid var(--accent)"><td style="font-weight:700;color:var(--accent)">Total weekly time</td><td></td><td style="font-weight:700;color:var(--accent)">~25 hrs</td><td style="color:var(--text-muted)">Leaving 15+ hrs for systems, strategy, and life</td></tr>
-    </table>
-  </div>
-
-  <!-- PIPELINE FUNNEL -->
-  <div class="chart-container">
-    <div class="chart-title">Pipeline Funnel -- Monthly Conversion Math (Aggressive)</div>
-    <div class="chart-subtitle">What 1,000 prospects per day produces. Fully automated loading. You only touch the calls.</div>
-    <canvas id="funnelChart" height="100"></canvas>
-  </div>
-
-  <!-- OFFER MIX -->
-  <div class="two-col">
-    <div class="chart-container">
-      <div class="chart-title">Target $25K MRR by Offer Type</div>
-      <canvas id="offerMixChart" height="200"></canvas>
-    </div>
-    <div class="chart-container">
-      <div class="chart-title">Revenue by Pillar</div>
-      <canvas id="pillarChart" height="200"></canvas>
-    </div>
-  </div>
-
-  <!-- PHASE TIMELINE -->
-  <div class="chart-container">
-    <div class="chart-title">The Six Phases</div>
-    <div style="display:grid;grid-template-columns:repeat(6,1fr);gap:8px;margin-top:16px;">
-      <div style="background:var(--surface-2);border-radius:8px;padding:16px;border-top:3px solid var(--red);">
-        <div style="font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--red);margin-bottom:8px;">Phase 0</div>
-        <div style="font-size:13px;font-weight:600;margin-bottom:4px;">Seal Leaks</div>
-        <div style="font-size:11px;color:var(--text-muted);">This week</div>
-        <div style="font-size:11px;color:var(--text-muted);margin-top:8px;">Move expenses, buffer, consolidate Instantly</div>
-      </div>
-      <div style="background:var(--surface-2);border-radius:8px;padding:16px;border-top:3px solid var(--yellow);">
-        <div style="font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--yellow);margin-bottom:8px;">Phase 1</div>
-        <div style="font-size:13px;font-weight:600;margin-bottom:4px;">Front Door</div>
-        <div style="font-size:11px;color:var(--text-muted);">Apr 1 -- 14</div>
-        <div style="font-size:11px;color:var(--text-muted);margin-top:8px;">Workshop landing page, Starter Kit, first event</div>
-      </div>
-      <div style="background:var(--surface-2);border-radius:8px;padding:16px;border-top:3px solid var(--blue);">
-        <div style="font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--blue);margin-bottom:8px;">Phase 2</div>
-        <div style="font-size:13px;font-weight:600;margin-bottom:4px;">Pipeline</div>
-        <div style="font-size:11px;color:var(--text-muted);">Apr 7 -- 21</div>
-        <div style="font-size:11px;color:var(--text-muted);margin-top:8px;">ICP lock, sequences drafted, Instantly live, 200/wk</div>
-      </div>
-      <div style="background:var(--surface-2);border-radius:8px;padding:16px;border-top:3px solid var(--purple);">
-        <div style="font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--purple);margin-bottom:8px;">Phase 3</div>
-        <div style="font-size:13px;font-weight:600;margin-bottom:4px;">Close</div>
-        <div style="font-size:11px;color:var(--text-muted);">Apr 14 -- May 31</div>
-        <div style="font-size:11px;color:var(--text-muted);margin-top:8px;">Sales calls, offer routing, onboarding system</div>
-      </div>
-      <div style="background:var(--surface-2);border-radius:8px;padding:16px;border-top:3px solid #f472b6;">
-        <div style="font-size:11px;text-transform:uppercase;letter-spacing:1px;color:#f472b6;margin-bottom:8px;">Phase 4</div>
-        <div style="font-size:13px;font-weight:600;margin-bottom:4px;">Delivery Flip</div>
-        <div style="font-size:11px;color:var(--text-muted);">Jun -- Jul</div>
-        <div style="font-size:11px;color:var(--text-muted);margin-top:8px;">Hire contractor, templatize, flip to 40/60</div>
-      </div>
-      <div style="background:var(--surface-2);border-radius:8px;padding:16px;border-top:3px solid var(--accent);">
-        <div style="font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--accent);margin-bottom:8px;">Phase 5</div>
-        <div style="font-size:13px;font-weight:600;margin-bottom:4px;">$25K</div>
-        <div style="font-size:11px;color:var(--text-muted);">Jul -- Sep</div>
-        <div style="font-size:11px;color:var(--text-muted);margin-top:8px;">Productize Bronze, raise prices, land Platinum</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- WHAT $25K UNLOCKS -->
-  <div class="chart-container">
-    <div class="chart-title">What $25K MRR Unlocks</div>
-    <div class="two-col" style="margin-top:16px;">
-      <div>
-        <canvas id="unlockChart" height="200"></canvas>
-      </div>
-      <div>
-        <div class="insight-card" style="margin-bottom:12px;">
-          <h3 style="color:var(--accent)">Personal Take-Home</h3>
-          <div class="metric positive">$10,000/mo</div>
-          <p>After subscriptions and living expenses: $7,532/mo to savings and investment. $90,384/yr in wealth building.</p>
-        </div>
-        <div class="insight-card" style="margin-bottom:12px;">
-          <h3 style="color:var(--accent)">S-Corp Election</h3>
-          <div class="metric positive">~$18K/yr</div>
-          <p>Tax savings from splitting income into salary ($75K) and distributions ($120K+). Consult a CPA to execute.</p>
-        </div>
-        <div class="insight-card">
-          <h3 style="color:var(--accent)">Business Account Health</h3>
-          <div class="metric positive">$0 fees</div>
-          <p>Balance above $2K kills the $15/mo service fee. Revenue flow eliminates overdrafts. The $587/yr fee bleed stops.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- BALLPARK EXPECTATIONS -->
-  <div class="chart-container" style="border-color:var(--yellow-dim);">
-    <div class="chart-title" style="color:var(--yellow);">What the Numbers Expect from You -- By Phase</div>
-    <table>
-      <tr><th>Phase</th><th>Your Commitment</th><th>Hours/Week</th><th>Expected Revenue Impact</th><th>Cumulative MRR</th></tr>
-      <tr>
-        <td><span class="timeline-marker" style="background:var(--red-dim);color:var(--red)">Phase 0</span></td>
-        <td>Admin cleanup. Move billing, cancel plans, set distribution schedule.</td>
-        <td>2 hrs total</td>
-        <td>$100/mo saved</td>
-        <td>$2,500</td>
-      </tr>
-      <tr>
-        <td><span class="timeline-marker" style="background:var(--yellow-dim);color:var(--yellow)">Phase 1</span></td>
-        <td>Build workshop landing page. Write Starter Kit. Schedule first event. Post on LinkedIn.</td>
-        <td>8 hrs over two weeks</td>
-        <td>$2K -- $4K from first workshop</td>
-        <td>$4,500</td>
-      </tr>
-      <tr>
-        <td><span class="timeline-marker" style="background:#1e1b4b;color:var(--blue)">Phase 2</span></td>
-        <td>One ICP session with Alfred. Review email sequences. Load 200 prospects. Launch campaign. Check replies daily (15 min).</td>
-        <td>3 hrs first week, then 2 hrs/wk ongoing</td>
-        <td>First positive replies in week 2. First calls in week 3.</td>
-        <td>$4,500</td>
-      </tr>
-      <tr>
-        <td><span class="timeline-marker" style="background:#2e1065;color:var(--purple)">Phase 3</span></td>
-        <td>Take 5 -- 10 discovery calls per week. Use the offer matrix. Close 5 -- 10 per month. Build onboarding template.</td>
-        <td>8 -- 12 hrs/wk (calls + prep + onboarding)</td>
-        <td>+$15K -- $50K MRR per month from new clients</td>
-        <td>$17,500+</td>
-      </tr>
-      <tr>
-        <td><span class="timeline-marker" style="background:#831843;color:#f472b6">Phase 4</span></td>
-        <td>Hire and onboard contractor. Build delivery playbooks. Shift to 40% delivery. Monday reviews.</td>
-        <td>6 hrs first two weeks, then saves 10+ hrs/wk</td>
-        <td>Capacity unlocked for 2 -- 3 more clients without burnout</td>
-        <td>$17,000</td>
-      </tr>
-      <tr>
-        <td><span class="timeline-marker" style="background:var(--accent-dim);color:var(--accent)">Phase 5</span></td>
-        <td>Pipeline on autopilot. Upsell existing clients. Raise prices. Land Platinum engagements. Content 3x/wk. The machine runs.</td>
-        <td>25 hrs/wk steady state</td>
-        <td>At this volume, $25K is the floor -- not the ceiling</td>
-        <td style="font-weight:700;color:var(--accent)">$50,000+</td>
-      </tr>
-    </table>
   </div>
 </div>
 
@@ -968,8 +768,8 @@
           <div style="font-size:48px;font-weight:700;color:var(--red);">1.5%</div>
         </div>
         <div style="margin-top:24px;padding-top:16px;border-top:1px solid var(--border);">
-          <div class="kpi-label">At $10K/mo with 20% retention</div>
-          <div style="font-size:28px;font-weight:700;color:var(--accent);">$24,000/yr saved</div>
+          <div class="kpi-label">At 20% retention</div>
+          <div style="font-size:20px;font-weight:700;color:var(--accent);">The container holds -- retained capital seeds the investment engine, not savings</div>
         </div>
       </div>
     </div>
@@ -1411,148 +1211,6 @@ function updateProjectionChart(takeHome) {
     });
   }
 }
-
-// BATTLE PLAN CHARTS
-
-// Revenue trajectory
-new Chart(document.getElementById('trajectoryChart'), {
-  type: 'line',
-  data: {
-    labels: ['Mar 26','Apr','May','Jun','Jul','Aug','Sep'],
-    datasets: [
-      {
-        label: 'Projected MRR',
-        data: [2500, 7500, 17500, 25000, 35000, 45000, 50000],
-        borderColor: '#60a5fa',
-        backgroundColor: 'rgba(96,165,250,0.12)',
-        fill: true,
-        tension: 0.3,
-        pointRadius: 6,
-        pointBackgroundColor: ['#facc15','#facc15','#60a5fa','#60a5fa','#a78bfa','#a78bfa','#4ade80']
-      },
-      {
-        label: '$25K Target',
-        data: [25000,25000,25000,25000,25000,25000,25000],
-        borderColor: '#4ade80',
-        borderDash: [8,4],
-        pointRadius: 0,
-        borderWidth: 2
-      },
-      {
-        label: 'Personal Take-Home (40%)',
-        data: [1000, 3000, 7000, 10000, 14000, 18000, 20000],
-        borderColor: '#a78bfa',
-        borderDash: [4,4],
-        pointRadius: 3,
-        borderWidth: 1
-      }
-    ]
-  },
-  options: {
-    responsive: true,
-    plugins: { legend: { position: 'top', labels: { boxWidth: 12 } }, tooltip: { callbacks: { label: ctx => ctx.dataset.label + ': $' + ctx.raw.toLocaleString() } } },
-    scales: { y: { ticks: { callback: v => '$' + (v/1000) + 'K' }, beginAtZero: true } }
-  }
-});
-
-// Pipeline funnel
-new Chart(document.getElementById('funnelChart'), {
-  type: 'bar',
-  data: {
-    labels: ['Prospects Loaded\n(1K/day)', 'Emails Sent\n(20K/mo)', 'Positive Replies\n(2%)', 'Calls Booked\n(50%)', 'Deals Closed\n(25%)', 'New MRR Added'],
-    datasets: [{
-      label: 'Monthly Volume',
-      data: [20000, 20000, 400, 200, 50, 250000],
-      backgroundColor: ['#525252','#525252','#facc15','#60a5fa','#a78bfa','#4ade80'],
-      borderRadius: 4
-    }]
-  },
-  options: {
-    responsive: true,
-    plugins: {
-      legend: { display: false },
-      tooltip: {
-        callbacks: {
-          label: ctx => {
-            if (ctx.dataIndex === 5) return '$' + ctx.raw.toLocaleString() + '/mo new MRR';
-            return ctx.raw.toLocaleString() + (ctx.dataIndex < 2 ? ' prospects' : ctx.dataIndex < 4 ? ' replies/calls' : ' deals');
-          }
-        }
-      }
-    },
-    scales: {
-      y: { display: false },
-      x: { ticks: { font: { size: 10 } } }
-    }
-  }
-});
-
-// Offer mix donut
-new Chart(document.getElementById('offerMixChart'), {
-  type: 'doughnut',
-  data: {
-    labels: ['Fractional CMO ($5K x2)', 'Content Engine ($4K)', 'Paid Media ($3K)', 'Social Presence ($3K)', 'Automation Mgmt ($2K)', 'Workshops + Audits ($3K)'],
-    datasets: [{
-      data: [10000, 4000, 3000, 3000, 2000, 3000],
-      backgroundColor: ['#4ade80','#60a5fa','#a78bfa','#f472b6','#facc15','#fb923c'],
-      borderWidth: 0
-    }]
-  },
-  options: {
-    responsive: true,
-    cutout: '60%',
-    plugins: {
-      legend: { position: 'bottom', labels: { boxWidth: 10, padding: 8, font: { size: 10 } } },
-      tooltip: { callbacks: { label: ctx => ctx.label + ' = $' + ctx.raw.toLocaleString() + '/mo' } }
-    }
-  }
-});
-
-// Revenue by pillar
-new Chart(document.getElementById('pillarChart'), {
-  type: 'bar',
-  data: {
-    labels: ['Pillar 1\nEducation', 'Pillar 2\nConsulting', 'Pillar 3\nMarketing', 'Pillar 4\nDesign', 'Pillar 5\nDevelopment'],
-    datasets: [{
-      label: 'Monthly Revenue at $25K',
-      data: [3000, 12000, 10000, 0, 0],
-      backgroundColor: ['#fb923c','#4ade80','#60a5fa','#525252','#525252'],
-      borderRadius: 4
-    }]
-  },
-  options: {
-    responsive: true,
-    plugins: {
-      legend: { display: false },
-      tooltip: { callbacks: { label: ctx => '$' + ctx.raw.toLocaleString() + '/mo' } }
-    },
-    scales: {
-      y: { ticks: { callback: v => '$' + (v/1000) + 'K' } },
-      x: { ticks: { font: { size: 10 } } }
-    }
-  }
-});
-
-// What $25K unlocks - allocation
-new Chart(document.getElementById('unlockChart'), {
-  type: 'doughnut',
-  data: {
-    labels: ['Owner Distribution (40%)', 'Operating Expenses (30%)', 'Tax Reserve (15%)', 'Retained Earnings (15%)'],
-    datasets: [{
-      data: [10000, 7500, 3750, 3750],
-      backgroundColor: ['#4ade80','#ef4444','#facc15','#60a5fa'],
-      borderWidth: 0
-    }]
-  },
-  options: {
-    responsive: true,
-    cutout: '65%',
-    plugins: {
-      legend: { position: 'bottom', labels: { boxWidth: 10, padding: 8, font: { size: 10 } } },
-      tooltip: { callbacks: { label: ctx => ctx.label + ': $' + ctx.raw.toLocaleString() } }
-    }
-  }
-});
 
 // FIVE POINTS BUSINESS CHARTS
 const bizPeriods = ['Jan 25','Feb 25','Mar 25','Apr 25','May 25','Jun 25','Jul 25','Aug 25','Sep 25','Oct 25','Nov 25','Dec 25','Jan 26','Feb 26'];

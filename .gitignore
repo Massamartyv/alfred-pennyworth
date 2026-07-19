@@ -70,6 +70,10 @@ Apps/
 Private/
 Context/Spheres/System/Personal Finance/*.csv
 
+# Prospecting data (PII lead lists and outreach queues, any venture)
+Context/Spheres/System/Entrepreneurship/*/Growth/Prospecting/*.csv
+Context/Spheres/System/Entrepreneurship/*/Growth/Prospecting/*.xlsx
+
 # Transient venture scratch (large binaries, drafts, downloaded material)
 **/Working Files/
 Context/Spheres/System/Entrepreneurship/Library/

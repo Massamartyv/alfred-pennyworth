@@ -140,6 +140,7 @@ When the task involves the items in the left column, load the files in the right
 | Spanish | `Spheres/Mind/Spanish/spanish.md` | – |
 | AI infrastructure, agent stack | `Spheres/System/Artificial Intelligence/agent-infrastructure-stack.md` | `ai-cost-reference.md`, `agent-events-taxonomy.md` |
 | Maintenance trigger (first of month or quarter) | `Agents/heartbeat.md` | – |
+| Vault pull – "check my notes", "consult the vault", or a topic the operator's Zettelkasten plausibly covers | Skill `card-catalogue` (searches Notion Annotations; read-only, cite when it matters) | – |
 | Ambient snippet ("save this") | – | Memory shard, sphere file, Notion Inbox or `.working/` per topic match |
 
 ---

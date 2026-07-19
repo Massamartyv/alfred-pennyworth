@@ -55,6 +55,37 @@
         "-c",
         "set -a; source '/Users/martyspicer/Alfred Pennyworth/.env'; set +a; exec '/Users/martyspicer/Alfred Pennyworth/Integrations/fullscript-mcp/.venv/bin/python' '/Users/martyspicer/Alfred Pennyworth/Integrations/fullscript-mcp/server.py'"
       ]
+    },
+    "elevenlabs": {
+      "type": "stdio",
+      "command": "/bin/bash",
+      "args": [
+        "-c",
+        "set -a; source '/Users/martyspicer/Alfred Pennyworth/.env'; set +a; export ELEVENLABS_MCP_BASE_PATH='/Users/martyspicer/Alfred Pennyworth/.working/elevenlabs'; mkdir -p \"$ELEVENLABS_MCP_BASE_PATH\"; exec uvx elevenlabs-mcp"
+      ]
+    },
+    "calcom": {
+      "type": "stdio",
+      "command": "/bin/bash",
+      "args": [
+        "-c",
+        "set -a; source '/Users/martyspicer/Alfred Pennyworth/.env'; set +a; exec '/Users/martyspicer/Alfred Pennyworth/Integrations/calcom/.venv/bin/python' '/Users/martyspicer/Alfred Pennyworth/Integrations/calcom/server.py'"
+      ]
+    },
+    "fivepoints-calendar": {
+      "type": "stdio",
+      "command": "/bin/bash",
+      "args": [
+        "-c",
+        "set -a; source '/Users/martyspicer/Alfred Pennyworth/.env'; set +a; exec '/Users/martyspicer/Alfred Pennyworth/Integrations/fivepoints-calendar/.venv/bin/python' '/Users/martyspicer/Alfred Pennyworth/Integrations/fivepoints-calendar/server.py'"
+      ]
+    },
+    "apple-calendar": {
+      "type": "stdio",
+      "command": "/Users/martyspicer/Alfred Pennyworth/Integrations/apple-calendar/.venv/bin/python",
+      "args": [
+        "/Users/martyspicer/Alfred Pennyworth/Integrations/apple-calendar/server.py"
+      ]
     }
   }
 }

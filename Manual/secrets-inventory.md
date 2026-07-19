@@ -29,7 +29,8 @@
 | `APIFY_FIVEPOINTS_TOKEN` | scraping – Five Points scope | Apify console (Five Points account) > same path as above |
 | `ANTHROPIC_API_KEY` | Catalogue app didactic panel (its own `.env.local`, not the repo root `.env`) | Anthropic console > API keys; the Catalogue app manages this separately from the Claude Code session |
 | `DISCORD_BOT_TOKEN` | discord-setup MCP | Discord developer portal > Applications > select the bot > Bot tab > Reset Token; update permissions and re-invite if the bot was removed during the reset |
-| ElevenLabs API key | ElevenLabs integrations (if wired) | confirm against `.env` by hand; this inventory was assembled from integration documentation because `.env` is read-denied |
+| `ELEVENLABS_API_KEY` | elevenlabs MCP (`uvx elevenlabs-mcp`, project scope) | elevenlabs.io/app/settings/api-keys > create API key; add the line to `.env` by hand. **Pending 2026-07-10:** launch check confirms the variable is not yet present in `.env` – the server halts demanding it. While in the dashboard, confirm the account login email against `accounts-inventory.md` |
+| `NOTION_PERSONAL_TOKEN` | notion-personal icon helper (`Integrations/notion-personal/upload_icon.py`) | Notion personal workspace settings > Connections > Develop or manage integrations > new internal integration with content read, update and insert capabilities; copy the secret; connect the integration to the Projects database. **Pending 2026-07-10:** variable not yet in `.env` – the helper halts demanding it |
 | Perplexity API key | Perplexity integrations (if wired) | confirm against `.env` by hand; same caveat as above |
 
 ---
@@ -60,4 +61,4 @@ Items that must be present and verified in the password manager before any resto
 
 ---
 
-*Last updated: 2026-06-11*
+*Last updated: 2026-07-10*

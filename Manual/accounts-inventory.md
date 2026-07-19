@@ -16,7 +16,7 @@
 | opportunities@ fivepoints.studio | Business – press / vendors / hiring | Press inquiries, vendor relationships, hiring platforms |
 | finance@ fivepoints.studio | Business – financial | Banking, financial platforms, payment processors |
 | martavious.spicer@icloud.com | Personal – primary | Meaningful personal accounts; default account recovery for personal scope |
-| martavious.spicer@gmail.com | Personal – disposable | Retail accounts, coupons, low-signal signups only |
+| martavious.spicer@gmail.com | Personal – life-admin buffer | Retail accounts and coupons, plus operational life threads: housing search, community, recurring services (ruling 2026-07-10) |
 
 **Recovery default:** iCloud for personal; business recovery routes to the owning business address unless the provider requires a secondary, in which case hello@ is the fallback.
 
@@ -38,7 +38,8 @@
 | Supabase – personal | Personal | confirm | Personal project databases and infrastructure | confirm |
 | Supabase – Five Points | Business | systems@fivepoints.studio | Five Points project databases and infrastructure | systems@ |
 | Stripe – Five Points | Business | finance@fivepoints.studio | Payments and offer architecture (Priestley ATM); note: NO personal Stripe account exists – all Stripe operations are business-scoped by rule | finance@ |
-| Instantly | Business | confirm | Outbound lead-generation campaigns for Five Points new-business pipeline | confirm |
+| Instantly | Business – retired 2026-07-10 | confirm | Replaced by Clay; account cancellation pending operator | confirm |
+| Clay | Business | confirm | Outbound lead engine for Five Points: enrichment, sequencing, sending | confirm |
 | Zernio – personal pipeline | Personal | confirm | Social syndication via Pennyone: Instagram, Threads, TikTok connected as massamartyv | confirm |
 | Zernio – Five Points pipeline | Business | confirm | Social syndication via Pennyone: Instagram connected as studio.fivepoints | confirm |
 | Strava | Personal | martavious.spicer@icloud.com | Fitness activity data; developer app registered for strava MCP API access (callback domain: localhost) | iCloud |
@@ -61,4 +62,4 @@ The quarterly restore drill (`restore-drill.md`) explicitly validates this list 
 
 ---
 
-*Last updated: 2026-06-11*
+*Last updated: 2026-07-10*
