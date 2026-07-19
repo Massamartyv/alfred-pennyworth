@@ -81,6 +81,7 @@ Stage 1 Recruit. Stage 2 Collegiate. Stage 3 Pro Rookie. Stage 4 Veteran / Post-
 | Months 4-6 | Body, Mind, Reps, Field online. Hudl, WHOOP, Opendorse ingestion. 30-athlete cohort. | $25k MRR, NPS above 60. |
 | Months 7-9 | Stage transition logic. Collective and AD enterprise tier. Franchise upsells. | One collective on contract. Three Franchise athletes. |
 | Months 10-12 | Stage 3 unlock. Equity-deal modelling. Agency pilot. | $1M ARR. Three pro signees. One institutional partner. |
+| Beyond month 12 | Enterprise and league-level distribution | The $1M ARR gate is the ignition check, not the orbit – the enterprise tiers carry the venture toward institutional scale. |
 
 ---
 

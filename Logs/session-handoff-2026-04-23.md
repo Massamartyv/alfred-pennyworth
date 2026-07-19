@@ -102,7 +102,7 @@ Three commits pushed to `origin/main` of `Massamartyv/alfred-pennyworth`:
 - Active clients (Five Points): Custom Window Decorators, Fountain Christian Center
 - Active ventures: Five Points, Marty Gras, Paradigm, Lillie and Lynette
 - Dormant ventures: Athena
-- MRR (Five Points): ~$2,500. Target: $25K by September 2026
+- MRR (Five Points): ~$2,500. First rung: $25K by September 2026, on the compounding architecture that scales past it – see the retired battle plan at `Context/Archive/25k-battle-plan.md`, superseded by the Priestley ATM and the Wealth Trajectory North Star.
 
 ---
 
