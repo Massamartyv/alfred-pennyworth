@@ -121,7 +121,7 @@ If system uptime falls below 99.5% in any calendar month due to a failure on the
 
 ## Revenue Projection
 
-Assuming a modest conversion rate from Development engagements:
+At a deliberately understated 50% conversion rate from Development engagements – the floor case, before any conversion engineering:
 
 - If 50% of Gold and Platinum Development clients convert to Managed Services at an average of $1,000 per month, and Five Points completes 20 Development engagements in year one, that is 10 Managed Services clients generating $120,000 in annual recurring revenue
 - This compounds: unlike project revenue, Managed Services revenue carries forward. Year two doubles if the same conversion rate holds and no clients churn

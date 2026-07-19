@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "workshop-site",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-c", "cd \"Apps/workshop-site\" && npm run dev"],
+      "port": 3000
+    },
+    {
+      "name": "fivepoints-site",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-c", "cd \"Apps/fivepoints-site\" && npm run dev"],
+      "autoPort": true
+    }
+  ]
+}

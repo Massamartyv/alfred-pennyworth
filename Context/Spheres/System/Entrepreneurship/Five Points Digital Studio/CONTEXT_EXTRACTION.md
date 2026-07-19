@@ -2,6 +2,7 @@
 
 > Read-only research archive for the Five Points Digital Studio website build. Fragments quoted verbatim with file path attribution. Extraction performed 2026-05-23.
 > Note, 2026-07-10: `25k-battle-plan.md` has since been retired to `Context/Archive/` by operator ruling – its links below resolve there. Quotes remain accurate to the extraction date.
+> Note, 2026-07-12 (Trajectory Language Purge): every quoted `$25K MRR` target below – including the `25k-battle-plan.md` thesis quote and the `Growth/_index.md` extract – reflects the retired battle-plan ceiling as it stood at extraction time. `Growth/_index.md` no longer carries that target; live pipeline and revenue targets route to Notion Five Points workspace. Quotes are preserved verbatim as an accurate historical record and are not live doctrine.
 
 ---
 
@@ -1067,8 +1068,8 @@ CWD prd.md mentions "Structured for future Sanity CMS migration." FCC prd.md men
 
 ### 6. Active client count
 
-[`_index.md`](_index.md) (top of repo) says: `**Active clients:** 2 retainer + 1 project (Nomad Express)` and `**Current MRR:** ~$2,500`.
-[`Operations/Clientele/_clients-registry.md`](Operations/Clientele/_clients-registry.md) lists two active clients (CWD, FCC) and Nomad Express in Churned. **Open:** the venture root is stale; only CWD and FCC are active. The CWD engagement is positioned as Bronze (monthly) + Silver/Gold (project) with founding-client pricing in the proposal, so the MRR figure may be in flux.
+[`_index.md`](_index.md) (top of repo) said, at extraction time: `**Active clients:** 2 retainer + 1 project (Nomad Express)` and `**Current MRR:** ~$2,500`.
+[`Operations/Clientele/_clients-registry.md`](Operations/Clientele/_clients-registry.md) lists two active clients (CWD, FCC) and Nomad Express in Churned. **Resolved, 2026-07-12:** both the venture root `_index.md` (cleaned 2026-07-10) and `Finance/_index.md` (cleaned 2026-07-12, Trajectory Language Purge) now route live client counts and MRR to Notion Five Points workspace rather than hardcoding a figure. Quote above is the extraction-date snapshot, not current state.
 
 ### 7. Foundation tone in offers vs brand fingerprint
 

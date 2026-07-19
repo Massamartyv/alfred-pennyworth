@@ -2,7 +2,7 @@
 file_type: department_index
 department: Growth
 venture: Five Points Digital Studio
-last_updated: 2026-04-22
+last_updated: 2026-07-12
 ---
 
 # Growth
@@ -15,6 +15,7 @@ Sales, business development, partnerships, pipeline and the offer suite. Everyth
 Growth/
   _index.md              – This file
   Product Development/   – The complete offer suite (5 pillars, 50+ offers, 3 bundles)
+  Discovery Kit/         – Cold-outreach discovery instrument: pre-call card, call spine, post-call capture, qualification scorecard
   Proposal Templates/    – Retainer, project, bundle proposal skeletons
   Agents/                – Department-specific agents, workflows, criteria
     _index.md            – Agent roster and workflow registry
@@ -42,11 +43,15 @@ Growth/
 
 - **Pricing sweet spot:** $5,000 to $8,000+ monthly retainers
 - **Never discount – add value instead**
-- **ICP:** $1M to $10M professional services and healthcare, 10 to 50 team
+- **ICP:** $1M to $50M professional services and healthcare, 10 to 50 team (floor locked at $1M, ceiling raised to ~$50M per Touchpoint A, 2026-06-02 – see Strategy/positioning-prospecting-directive.md)
 - **Front door offer:** Bronze AI Fluency Workshop ($197/seat)
-- **Target:** 7 clients across 4 offer types for $25K MRR
-- **Outbound tool:** Instantly (dormant as of March 2026, activation planned Phase 2)
+- **Outbound tool:** Clay (replaced Instantly 2026-07-10 – see Agents/integrations.md)
 - **Proposal to close target:** 50% within 14 days
+- **Live pipeline and revenue targets:** Notion Five Points workspace, Projects and Tasks.
+
+## Trajectory
+
+Five Points grows along the Priestley Ascending Transaction Model – an ascending ladder from the Gift at the entry, through the lead-facing and client tiers, to the Human Construct at Platinum and the Evolution continuity beyond it, each rung qualifying the next. The ladder has no terminal rung: Platinum is priced from the floor up, never toward a ceiling, and the ambition is enterprise value built on owned, compounding infrastructure – a marque on a billion-dollar portfolio trajectory, not a retainer shop optimising for the next month. Near-term revenue and pipeline floors are rungs on that climb, never destinations. Live pipeline, revenue and target numbers live in the Notion Five Points workspace, Projects and Tasks – never here; this file holds the ladder, not the numbers.
 
 ## Agent Instructions
 

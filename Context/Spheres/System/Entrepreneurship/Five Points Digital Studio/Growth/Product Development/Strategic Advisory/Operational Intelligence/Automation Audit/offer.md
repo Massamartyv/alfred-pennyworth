@@ -32,7 +32,7 @@ If the report does not identify at least five actionable automation opportunitie
 
 ## Credit Mechanism
 
-Your $497 applies as credit toward any Silver or Gold engagement booked within 90 days.
+Your $497 applies as credit toward any Silver or Gold engagement booked within 90 days. Per the suite credit doctrine (2026-07-09), credits are single-count and cumulative: on a path through the Sprint, the $497 nets into the Sprint credit and never counts twice.
 
 ## Upsell Path
 

@@ -3,7 +3,7 @@ file_type: department_agent_index
 department: Growth
 venture: Five Points Digital Studio
 methodology: The Manor Protocol
-last_updated: 2026-06-11
+last_updated: 2026-07-14
 ---
 
 # Growth – Agent Roster and Workflow Registry
@@ -34,7 +34,12 @@ Single follow-up emails engage only the BD Lead. Full proposals activate BD Lead
 
 | Workflow | Description | File |
 |---|---|---|
-| – | To be populated as workflows are codified | – |
+| Outbound Prospecting | Attract stage – ICP sourcing via Clay, inbound and referral capture, the Gift front door. Execution dispatches to email-copy, social-copy and ad-copy. | `Workflows/outbound-prospecting.md` |
+| Lead Qualification | Qualify stage – buying-power appraisal and ICP scoring via the prospect-appraiser skill, star-rated to the CRM. | `Workflows/lead-qualification.md` |
+| Discovery Call | Discover stage – the Working Call run against the Discovery Kit, converted into the client dossier by discovery-architect. Carries the Direction hard gate. | `Workflows/discovery-call.md` |
+| Proposal Build | Propose stage – offer architecture and the Two Prices assembled into a Proposal Template. Execution dispatches to sales-copy; consumes the catalogue offer-creator builds. | `Workflows/proposal-build.md` |
+| Deal Close | Close stage – final terms, MSA and SOW, Stripe registration. Jointly owned with Administration. | `Workflows/deal-close.md` |
+| Expansion and Referral | Ascend and Refer stage – the upsell to the next Priestley rung, the case study and the referral ask. Execution dispatches to sales-copy, email-copy and social-copy. Closes the loop back to Attract. | `Workflows/expansion-referral.md` |
 
 ---
 

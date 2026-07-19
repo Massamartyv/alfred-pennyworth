@@ -1,8 +1,8 @@
 ---
 file_type: brand_fingerprint
 venture: Five Points Digital Studio
-version: 2.0
-last_updated: 2026-06-01
+version: 2.2
+last_updated: 2026-07-18
 ---
 
 # Five Points Digital Studio – Brand Fingerprint
@@ -341,7 +341,7 @@ Approximately 65 characters per line, roughly 10 words at body size. Maximum mea
 
 **Photography sourcing strategy:**
 
-Imagery-minimum as the structural default – the type and colour system carry most of the brand's weight. When imagery is required, it is generated via AI against tight prompt discipline referencing the Ferrari and Rolls-Royce canonical stack, and curated into a tightly-held library. Commissioned original photography is the long-term goal, budgeted for Q3 2026 or later once MRR clears sustained $15,000.
+Imagery-minimum as the structural default – the type and colour system carry most of the brand's weight. When imagery is required, it is generated via AI against tight prompt discipline referencing the Ferrari and Rolls-Royce canonical stack, and curated into a tightly-held library. Commissioned original photography enters the budget at the next revenue rung – scheduled, not aspirational. Until then the AI-generated library holds the standard; the transition is an operational trigger recorded in Notion Five Points workspace, not a hope.
 
 ---
 
@@ -485,27 +485,23 @@ The numeral 5 in PP Editorial New Semi-Bold 600. Ships immediately on all mark s
 
 The interim mark is scale-invariant. A single character holds its identity at 8px where the commissioned five-circle mark would fragment. It steps aside cleanly when the commissioned mark arrives.
 
-#### Commissioned geometric mark – creative prompt
+#### Commissioned geometric mark – the Quintessence
 
-The geometric mark is deferred to commissioned execution. The prompt below is the governing brief.
+The primary geometric mark is commissioned as the Quintessence: a five-fold faceted snowflake. Nature builds every snowflake six-fold; a five-fold crystal exists only by design – the studio thesis in one object. The lead idea is one of one: no two snowflakes alike, no two commissions alike. The mark is a generative system producing a unique issued crystal per commission, with one canonical crystal reserved for the studio itself.
 
-> Design the primary geometric mark for Five Points Digital Studio. The mark lives alongside the "FIVE POINTS" wordmark set in PP Editorial New, and it carries the studio across the surfaces where the wordmark is absent or too long to work: business card fronts, envelope flaps, email signatures, social avatars, ceremonial seals and favicons.
->
-> Honour the DNA of the existing Five Points mark. The current mark is a composition of five circles of descending sizes arranged as a cluster, with diameters that nod to the golden ratio. Preserve the five-circle form. Do not replace the circles with a polygon, a star, a radial, a letterform or a monogram.
->
-> Apply the golden ratio as a strict mathematical discipline rather than a loose visual suggestion. Five circles in proportional descent of 1 to 1/phi to 1/phi squared to 1/phi cubed to 1/phi to the fourth, where phi is 1.618. The arrangement is a cluster rather than a chain or a pentagon. The feeling is grape-cluster organic, not engineered line.
->
-> Solve the scale-down problem. The existing mark collapses below 40px because the smallest circles fall below pixel viability. The new mark must hold its identity at 8px digital. Either through a composition that naturally preserves all five circles at small scale, or through a tiered simplification rule where the mark reduces progressively while preserving the golden ratio between the remaining elements. The designer chooses the strategy.
->
-> The register is editorial luxury. Think Bottega Veneta Intrecciato, the carriage mark of Hermes, the Aesop wordmark, the Aman monogram, Pentagram Design rigour, Vitsoe discipline, Aman resort editorial, Kinfolk architectural restraint and A Friend Of Mine collateral execution. Reference Rolls-Royce Bespoke and Ferrari Special Projects as the Marque Principle lens when in doubt.
->
-> Forbidden register: anything that reads as crypto, corporate memphis, tech startup SaaS landing page, playful bubbles, stock geometric logos, generic flat illustration or anything that would look at home on Product Hunt.
->
-> Render in a single colour only. No strokes on filled circles. No gradients. No shading. No drop shadows. No filters. Primary application is Obsidian on Parchment. Reversed application is Parchment on Obsidian. Additional approved applications are Burnt Orange on Parchment and Emerald on Parchment.
->
-> Deliver a master SVG vector, PNG renders at 400px, 120px, 40px, 16px and 8px for scale verification, a horizontal lockup alongside the "FIVE POINTS" wordmark in PP Editorial New Medium 500 UPPERCASE, a vertical lockup, a favicon at 64 by 64px, and clear space and minimum size notation matching the conventions in this document.
->
-> Process: present three concept directions before committing to one. Each direction carries the five-circle golden-ratio DNA but explores a different arrangement and a different scale-down strategy. The founder selects one for refinement. Refinement iterates until the mark is correct.
+The governing commission brief lives at `Creative/Identity/quintessence-mark-brief.md`, with founder-approved reference sketches beside it. The construction law in summary:
+
+- Five identical arms at 72 degrees; no six-fold read may survive at any scale
+- Every closed facet is a golden rhombus – diagonals in ratio phi – stepping down the Fibonacci ladder: base kite 34, first branch pair 21, second branch pair 13, tip mote 13 in construction units
+- Regular pentagon core, circumradius 21, vertex aligned to each arm; the pentagon carries phi natively in its diagonal-to-side ratio
+- Spine of 47 units in descending Fibonacci segments – 21, 13 and 13 – with the two branch pairs springing at the stations 21 and 34
+- Detached tip mote as the terminal punctuation of each arm
+- One uniform seam channel across the entire mark; one small corner radius on every join, with tips still reading as points
+- Flat single colour; no visible strokes, no gradients, no shading, no dimensional effects
+- One form at every scale: the seam channels close optically at small size and the crystal self-simplifies; verification runs to 8px and optical-size seam compensation may be approved at refinement
+- Signature rendering is Parchment on Obsidian for ceremonial surfaces, seals, avatars and the favicon; Obsidian on Parchment remains the default on light surfaces
+
+The five-circle golden-ratio cluster brief is retired by amendment; its phi discipline survives in full as the law above. The prior prohibition on radial forms is lifted for this commission only. The literal five-pointed star and the interlaced pentagram remain forbidden, as does any snowflake-as-winter framing – no frost textures, no blue, no seasonal presentation.
 
 #### Lockup rules
 
@@ -557,7 +553,7 @@ Clear space is measured in units of the mark's height at the rendered size, refe
 | Digital raster | PNG at 1x, 2x and 3x retina variants |
 | Email signature | 40 by 40px PNG with transparent background |
 | Social avatar | 400 by 400px PNG square, centred, with 1x clear space padding |
-| Favicon | 64 by 64px ICO, constructed from the reduced form per the scale-down rule |
+| Favicon | 64 by 64px ICO, rendered from the canonical mark per the governing brief's scale discipline |
 
 ### Video Standards
 
@@ -672,6 +668,10 @@ Forbidden: Instagram-aesthetic filters, pastel shifts, crushed blacks, heavy tea
 | Deliverable | The studio builds assets, not deliverables |
 | Content, as a mass noun | Name the form – essay, case study, film, photograph |
 
+#### Scope notes
+
+- **The Construct row governs the named product, not the word "AI".** Call the product a Construct, never "an AI", "a bot", "an agent" or "an assistant" – a Construct is an entity with an identity, not a feature. The word "AI" itself is permitted where it names the technology field or functions as a literal market search term – "AI fluency", "AI strategy", established offer names – in headlines, page titles, meta descriptions and offer nomenclature. In brand prose describing the studio's own product, "Construct" and "operating infrastructure" govern. Operator ruling, The Loom mission, 2026-07-14.
+
 ### Decision Defaults
 
 | # | Default | Rationale |
@@ -770,8 +770,8 @@ Every check is pass or fail. A single failure holds the output until resolved.
 | # | Element | Specification |
 |---|---|---|
 | I1 | Hover | Tonal only. Opacity shifts or background tint. No scale-up, no colour transformation, no glow |
-| I2 | Links | Obsidian text with a 1px Emerald underline. Hover shifts the underline to Burnt Orange |
-| I3 | Primary button | Obsidian background, Parchment text, sharp corners, no shadow. Hover: Graphite background |
+| I2 | Links | Obsidian text with a 1px Emerald underline. Hover shifts the underline to Burnt Orange. On Obsidian-flood surfaces the text is Parchment; underline rules unchanged |
+| I3 | Primary button | Obsidian background, Parchment text, sharp corners, no shadow. Hover: Graphite background. **Obsidian-flood register exception (amendment 2026-07-08):** on Obsidian-flood surfaces the primary button inverts – Parchment background, Obsidian text, hover toward Stone – because an Obsidian button fails visibility on Obsidian and a Graphite hover fails the dark-on-dark contrast rule |
 | I4 | Secondary button | Parchment background, 1px Obsidian border, Obsidian text. Hover: Stone background |
 | I5 | Form inputs | 1px Obsidian border, Parchment background. Focus: Emerald border. Error: Burnt Orange border. Placeholder text in Stone |
 | I6 | Disabled states | Stone text on Parchment, 50% opacity |
@@ -817,7 +817,14 @@ Every check is pass or fail. A single failure holds the output until resolved.
 
 - **2026-06-01 – Standardisation to the portfolio fingerprint standard.** Relocated from `Creative/Identity/` to `Foundation/`, the single home for the governing fingerprint across every venture. Restructured to the standard: a Governance living-canon wrapper and a Layer 0 Spine added above the existing layers, this Amendment Log opened. Layer 0's four-question brand journey and brand story were drafted from existing material – the Asset and Marque principles, the singular-minds positioning, the archetypes – and stand as the first candidates for operator review. Layers 1 through 4 and the Cross-Layer Principles carried over unchanged. Version 1.0 to 2.0.
 - **2026-06-01 – Positioning discipline named.** Operator confirmed the asset-and-commission positioning is the invariant truth and that retainers are not, and never were, the heart of the business – only the vehicle that has been easiest to sell. Added "The positioning discipline" to Layer 0: the retainer is reframed as a possible on-ramp that delivers an asset, never sold as rented time, and the central challenge is named as communication, not identity.
+- **2026-07-08 – Obsidian-flood interaction exceptions.** Operator-approved amendment arising from the workshop microsite Critique gate. Supersedes the unqualified I3 primary-button rule and clarifies I2 link text on dark surfaces: on Obsidian-flood pages the primary button inverts (Parchment background, Obsidian text, hover toward Stone) and link text renders Parchment. Additionally, hairline rules (section rules, component rules, footer rules) may lift Emerald one tone to #1F5C42 on Obsidian for visibility; the palette token #13402E is unchanged and the lift applies to hairlines only. Scoped strictly to Obsidian-flood surfaces; Parchment-register pages follow the original rules unchanged.
+- **2026-07-10 – Web typography register and the camp accent dispensation.** Operator-ratified at the Survey redesign Direction gate, formalising the 3 July site ratification. On web surfaces the display and body system runs a single bold grotesque with weight-led hierarchy – Manrope variable as the interim face, the licensed PP purchase deferred – and the mono face is promoted from technical labels to the annotation voice of the Survey design world (sheet numbers, coordinates, dates, meta strips). The three-face system of Layer 2 remains canon for documents, collateral and print. Camp Pennyworth web surfaces carry a scoped colour dispensation: Burnt Orange leads as the camp accent at display size, in drawn rules and in mark fills – never as small running text – while studio surfaces hold the reserved 5% weight. Emerald remains the studio accent. Contrast engineering, corrected the same day after independent computation at the Critique gate. Stone on Obsidian enters the approved combinations for captions, metadata and marginalia at 13px minimum – measured 5.23:1, passing AA. Stone on Parchment measures 2.79:1 – incapable of AA at any text size – so on light surfaces it is reclassified as decoration only: hairlines, ticks and aria-hidden apparatus, never text. Metadata and caption text on Parchment or White renders in Stone Ink, a darkened tone of Stone computed to clear 4.5:1 on both, introduced as a text tone in the manner of the Emerald hairline lift. Small-text Burnt Orange fails AA in both registers – 3.64:1 on Parchment, 4.01:1 on Obsidian – so eyebrows at 11 to 13px render in Burnt Orange Ink on light surfaces and Burnt Orange Lift on Obsidian, each computed to clear 4.5:1; Burnt Orange itself is unchanged at display size, in drawn rules and in mark fills. Exact hex values are recorded in the site DESIGN_SYSTEM v3 token manifest. The prior wording of this entry sanctioned the 11px eyebrow in its original tone; that sanction is withdrawn as arithmetically unsound. Decision receipts dated 2026-07-10 in the Five Points Decision Log; the Survey design world governs both site surfaces under the mission record of the same date.
+
+- **2026-07-12 – Photography gate reframed off a milestone number.** Trajectory Language Purge mission. Layer 3's photography sourcing strategy previously gated commissioned original photography on MRR clearing a sustained $15,000, framing a routine operating expense as a distant aspiration. Reframed as a scheduled revenue-rung trigger tracked in Notion Five Points workspace rather than a local milestone number; the AI-generated library holds the standard until the trigger fires. No change to imagery-minimum doctrine or the canonical reference stack.
+- **2026-07-14 – "AI" scope clarified against the Construct row.** The Loom mission, operator-ruled. The always-use Construct governance was being read as a blanket ban on the word "AI". Clarified that it governs the named product only – the product is a Construct, never "an AI" or "a bot" – while "AI" as a technology-field reference and as a literal market search term is permitted in headlines, page titles, meta descriptions and offer names. Added a Scope notes subsection to Terminology Governance. No change to the never-use list, which never contained "AI".
+
+- **2026-07-18 – The Quintessence supersedes the five-circle mark brief.** Operator-directed through a five-round Direction gate in session, final form approved against the filed reference sketch. The commissioned geometric mark becomes a five-fold faceted snowflake – the Quintessence – governed by the commission brief at `Creative/Identity/quintessence-mark-brief.md`: golden-rhombus morpheme in Fibonacci descent, pentagon core, branch pairs springing at the Fibonacci stations of the spine, uniform seams, softened joins with held points, a generative one-of-one issue system with a canonical studio crystal and a single-form scale rule – the seam channels close optically at small size, with optical-size compensation permitted at refinement. The five-circle cluster prompt is retired; its golden-ratio discipline is retained in full as the new construction law. The old brief's ban on star and radial forms is lifted for this commission alone; the literal five-pointed star and interlaced pentagram remain forbidden. Signature rendering designated Parchment on Obsidian. Reference sketch `quintessence-sketch-hero.svg` filed beside the brief. The interim numeral 5 continues on all mark surfaces until the commissioned mark ships, per the existing transition rule.
 
 ---
 
-*Version 2.0. Last updated 1 June 2026.*
+*Version 2.2. Last updated 18 July 2026 – the Quintessence mark commission supersedes the five-circle brief.*

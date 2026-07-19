@@ -2,7 +2,7 @@
 file_type: department_index
 department: Product Development
 venture: Five Points Digital Studio
-last_updated: 2026-03-31
+last_updated: 2026-07-09
 ---
 
 # Product Development
@@ -61,12 +61,28 @@ The complete Five Points offer suite. Five pillars, 50+ individual offers across
 | Brand Launchpad | Creative + Development | Scoped | Bundles/Brand Launchpad/ |
 | Total Transformation | All | Scoped | Bundles/Total Transformation/ |
 
+### Sessions
+
+| Session | Edition | Price | Key File |
+|---|---|---|---|
+| The Command Session | Private team (B2B) | $5,500 on site / $3,500 remote; enterprise $10,700-$16,700 | Sessions/The Command Session/ |
+| Camp Pennyworth | Open cohort (B2C) | Three-term engagement: $197 per term seat, $397 pass; twelve seats per session | Sessions/Camp Pennyworth/ |
+
+Camp Pennyworth is the masthead of the session family; the Command Session retains its name and routes beneath it. Decision receipts of 8 and 9 July 2026 in the Five Points Decision Log. Camp Pennyworth is live: Stripe catalogue complete (four products), Term One payment link live, microsite in production; three consecutive Fridays 7, 14 and 21 August 2026. Pass payment link and full go-live gated on operator word.
+
 ## Tier Structure
 
 - **Bronze** – Entry-level, self-serve or light-touch
 - **Silver** – Mid-tier, strategic with guided execution
 - **Gold** – Full-service, the retainer sweet spot ($5K-$8K/mo)
 - **Platinum** – Enterprise or comprehensive transformation
+
+## Suite Doctrines
+
+Ratified 9 July 2026; receipts in the Five Points Decision Log. Both apply suite-wide at the Tier B reconciliation.
+
+- **Guarantee doctrine.** Offers at or below $497 carry unconditional money-back risk reversal. Above $497 the remedy is make-good service - free continued work until the promised outcome is delivered - stated explicitly at every tier. Monetary late-fee waivers above the line retire. Silence is not a remedy. Receipt: "Adopt the Suite Guarantee Doctrine - Money-Back at $497 and Below."
+- **Credit doctrine.** A dollar paid on the ladder credits once toward the rung above. Credits are cumulative along the path and never multiply; every path to a rung totals its sticker price. Windows and attendance conditions per offer. Receipt: "Adopt the Single-Count Ladder Credit Doctrine."
 
 ## Agent Instructions
 

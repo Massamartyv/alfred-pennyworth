@@ -24,7 +24,7 @@ Three virtual sessions over two weeks, 90 minutes each
 
 ## Bonus
 
-Book your Gold build within 30 days of Sprint completion and your Sprint investment applies as credit toward the build.
+Book your Gold build within 30 days of Sprint completion and your Sprint investment applies as credit toward the build. Per the suite credit doctrine (2026-07-09), credits are single-count and cumulative: any Audit credit already applied nets into this credit and never counts twice.
 
 ## Guarantee
 

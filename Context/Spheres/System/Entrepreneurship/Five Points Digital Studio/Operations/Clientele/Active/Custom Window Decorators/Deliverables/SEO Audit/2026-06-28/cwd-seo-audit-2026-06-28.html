@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search Audit – Custom Window Decorators</title>
+
+<!--
+  Five Points Digital Studio – Client SEO Audit Report
+  Print-ready, self-contained template. Renders to PDF via Playwright + system Chrome on macOS.
+  Static HTML and CSS only. No JavaScript required to render.
+
+  String-replace tokens (double-brace) the skill substitutes:
+    Custom Window Decorators customwindowdecorators.com 2026-06-28 Five Points Digital Studio
+    C+ Custom Window Decorators runs a WordPress site with competent baseline hygiene – a self-referencing canonical, a Yoast sitemap, clean meta and a single H1 – but the fundamentals that win local search are not yet in place. The homepage targets "custom windows", which reads as window replacement rather than the window treatments the business sells, and the site carries no LocalBusiness structured data despite being a showroom-led company with two service areas. Three quick wins sit in the robots and image layers. Technical and performance, the layer the redesign brief already flags as dated and not mobile-optimised, is owned by the partner audit and pending. <li>Retarget the homepage and core pages from "custom windows" to window-treatment intent.</li>
+        <li>Add LocalBusiness structured data and align it to the Google Business Profile.</li>
+        <li>Commission the web-quality audit to close the technical and mobile gaps the redesign brief already names.</li> <li>Declare the sitemap in robots.txt.</li>
+        <li>Remove the 30-second crawl-delay.</li>
+        <li>Add descriptive alt text to the nine homepage images that lack it.</li>
+    The live customwindowdecorators.com, audited on the findability and content layers – crawlability and indexation, on-page, content quality and E-E-A-T, and international. The homepage, the products and services page, robots.txt and the XML sitemap were sampled. Technical and performance was out of scope for this half. Direct retrieval of the live HTML, response headers, robots.txt and the XML sitemap. The server-rendered Yoast schema graph was read from source. No paid crawler was used on this pass. Search Console and analytics access was not available, so index coverage, impressions and the queries already driving traffic could not be confirmed and are inferred from the live markup. Schema was read from the server-rendered Yoast graph and should be confirmed with the Rich Results Test before delivery. The crawl was sampled rather than exhaustive. Technical and performance findings await the web-quality audit.
+    Pending the web-quality audit, the partner skill that owns speed, Core Web Vitals, accessibility and security. The redesign brief already records the current site as dated and not mobile-optimised, so this layer is expected to carry material findings. It will be completed and folded into this same deliverable once web-quality ships. 
+    <div class="action-tier">
+      <div class="tier-head"><span class="badge prio-p1">P1 Critical</span><h2 class="tier-name">No critical blocks found</h2></div>
+      <ul class="brand-list"><li>Nothing is holding the site out of the index. Indexation, canonicalisation and meta robots are sound, so work begins at the high-impact tier.</li></ul>
+    </div>
+    <div class="action-tier">
+      <div class="tier-head"><span class="badge prio-p2">P2 High-impact</span><h2 class="tier-name">Fix intent and local signals</h2></div>
+      <ul class="brand-list">
+        <li>Retarget the homepage and core pages to window-treatment intent, aligning title, H1 and meta description.</li>
+        <li>Add LocalBusiness structured data and align it to the Google Business Profile.</li>
+      </ul>
+    </div>
+    <div class="action-tier">
+      <div class="tier-head"><span class="badge prio-p3">P3 Quick win</span><h2 class="tier-name">Ship the immediate gains</h2></div>
+      <ul class="brand-list">
+        <li>Declare the sitemap in robots.txt and remove the crawl-delay.</li>
+        <li>Add descriptive alt text to the homepage images that lack it.</li>
+        <li>Surface heritage, credentials and reviews as trust signals, and add Organisation and Review schema.</li>
+        <li>Build a dedicated location page for each of the two showrooms.</li>
+        <li>Set thin tag and category archives to noindex and drop them from the sitemap.</li>
+      </ul>
+    </div>
+    <div class="action-tier">
+      <div class="tier-head"><span class="badge prio-p4">P4 Long-term</span><h2 class="tier-name">Resolve in the redesign</h2></div>
+      <ul class="brand-list"><li>Trim the homepage internal-link sprawl so signal concentrates on priority pages.</li></ul>
+    </div> Five Points is already engaged on the redesign of this site, so these findings do not sit on a shelf. The keyword retarget and the LocalBusiness schema land in the rebuild, the robots and image fixes ship at once, and the web-quality audit completes the technical picture. The recommended next step is to authorise the web-quality pass so the full technical layer joins this same report, then sequence the fixes into the redesign. Pricing for the expanded engagement is named from the Five Points offer suite.
+
+  Brand fingerprint v2.0 governs every token below. Punctuation rules are absolute:
+  no em dashes, no double hyphens, no parenthetical asides, no Oxford commas, no contractions.
+-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+  /* ---------------------------------------------------------------------
+     BRAND TOKENS – Five Points fingerprint v2.0. Only these colours.
+     --------------------------------------------------------------------- */
+  :root {
+    --obsidian:        #0F0F10;  /* primary anchor, body text on light surfaces */
+    --parchment:       #EAE0C8;  /* neutral base – the working-document surface */
+    --emerald:         #13402E;  /* primary accent – hairlines, layer labels */
+    --burnt-orange:    #B65730;  /* RESERVED – eyebrows and marque detail only */
+    --graphite:        #2A2A2C;  /* tier-2 dark surface */
+    --stone:           #8B857A;  /* warm mid-grey */
+    --shadow-emerald:  #0A2518;  /* deep green shadow */
+    --aged-brass:      #7A5D2E;  /* editorial detail */
+
+    --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
+    --font-body:    'Space Grotesk', system-ui, -apple-system, sans-serif;
+    --font-mono:    'Space Mono', 'Courier New', monospace;
+
+    --rule-width: 48px;
+    --measure: 680px;          /* fingerprint F3 – body copy max measure */
+    --page-pad-x: 22mm;
+    --page-pad-y: 20mm;
+  }
+
+  /* ---------------------------------------------------------------------
+     PAGE SETUP – US Letter portrait, comfortable margins.
+     --------------------------------------------------------------------- */
+  @page {
+    size: Letter portrait;
+    margin: 16mm;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--parchment);
+    color: var(--obsidian);
+    font-family: var(--font-body);
+    font-size: 11pt;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Print fidelity – force backgrounds and colours through to PDF. */
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* ---------------------------------------------------------------------
+     PAGE STRUCTURE
+     Each major section is a full printed page. Sharp corners throughout (F4).
+     --------------------------------------------------------------------- */
+  .page {
+    position: relative;
+    min-height: calc(279.4mm - 32mm);   /* Letter height minus @page margins */
+    padding: var(--page-pad-y) var(--page-pad-x);
+    background: var(--parchment);
+    page-break-after: always;
+    break-after: page;
+    overflow: hidden;
+  }
+  .page:last-child { page-break-after: auto; break-after: auto; }
+
+  .section { page-break-before: always; break-before: page; }
+
+  /* ---------------------------------------------------------------------
+     TYPOGRAPHY PRIMITIVES
+     --------------------------------------------------------------------- */
+  .eyebrow {
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 9.5pt;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--burnt-orange);   /* RESERVED accent – eyebrows only */
+    margin: 0 0 14px 0;
+  }
+
+  .section-title {
+    font-family: var(--font-display);
+    font-weight: 300;
+    font-size: 34pt;
+    line-height: 1.05;
+    letter-spacing: -0.015em;
+    color: var(--obsidian);
+    margin: 0 0 6px 0;
+  }
+
+  h2.block-title {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: 17pt;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: var(--obsidian);
+    margin: 30px 0 10px 0;
+  }
+
+  h3.sub-title {
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 9.5pt;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--emerald);
+    margin: 24px 0 10px 0;
+  }
+
+  p { max-width: var(--measure); margin: 0 0 12px 0; }
+  p.lede {
+    font-size: 13pt;
+    line-height: 1.55;
+    color: var(--obsidian);
+    max-width: var(--measure);
+  }
+
+  /* Section rule – 2px emerald hairline, 48px wide, flush-left. */
+  .rule {
+    width: var(--rule-width);
+    height: 2px;
+    background: var(--emerald);
+    border: 0;
+    margin: 18px 0 26px 0;
+  }
+
+  /* Mono treatment – hex, filenames, dates, URLs, versions, technical labels. */
+  .mono {
+    font-family: var(--font-mono);
+    font-size: 9.5pt;
+    letter-spacing: 0;
+    color: var(--obsidian);
+  }
+
+  /* Page footer – corner-anchored, Stone on Parchment (AFOM principle 5). */
+  .footer {
+    position: absolute;
+    left: var(--page-pad-x);
+    right: var(--page-pad-x);
+    bottom: 12mm;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: var(--font-mono);
+    font-size: 7.5pt;
+    letter-spacing: 0.04em;
+    color: var(--stone);
+    border-top: 1px solid rgba(139, 133, 122, 0.35);
+    padding-top: 8px;
+  }
+  .footer .mark { font-weight: 700; color: var(--emerald); letter-spacing: 0.1em; }
+
+  /* ---------------------------------------------------------------------
+     COVER PAGE
+     Burnt Orange eyebrow, large Fraunces light title, Space Mono URL,
+     2px emerald rule, marque eyebrow at the foot. Generous whitespace.
+     --------------------------------------------------------------------- */
+  .cover {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(279.4mm - 32mm);
+    padding: 34mm var(--page-pad-x) 22mm var(--page-pad-x);
+  }
+  .cover .eyebrow { margin-bottom: 0; }
+
+  .cover-body {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .cover-title {
+    font-family: var(--font-display);
+    font-weight: 300;
+    font-size: 58pt;
+    line-height: 1.0;
+    letter-spacing: -0.025em;
+    color: var(--obsidian);
+    margin: 0 0 22px 0;
+    max-width: 95%;
+  }
+  .cover-url {
+    font-family: var(--font-mono);
+    font-size: 12pt;
+    letter-spacing: 0.01em;
+    color: var(--emerald);
+    margin: 0;
+  }
+  .cover .rule { margin: 30px 0 30px 0; }
+
+  .cover-meta {
+    display: flex;
+    gap: 56px;
+    margin-top: 4px;
+  }
+  .cover-meta .label {
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 8pt;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--stone);
+    margin: 0 0 4px 0;
+  }
+  .cover-meta .value {
+    font-family: var(--font-mono);
+    font-size: 10pt;
+    color: var(--obsidian);
+    margin: 0;
+  }
+  .cover-meta .value.named {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: 12pt;
+  }
+
+  .cover-foot {
+    margin-top: auto;
+  }
+  .cover-marque {
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 9pt;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--burnt-orange);   /* RESERVED – marque detail */
+    margin: 0;
+  }
+
+  /* ---------------------------------------------------------------------
+     EXECUTIVE SUMMARY – grade panel + prose + two lists.
+     --------------------------------------------------------------------- */
+  .summary-grid {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 36px;
+    align-items: start;
+    margin-top: 4px;
+  }
+  .grade-panel {
+    background: var(--graphite);   /* tier-2 dark surface */
+    color: var(--parchment);
+    padding: 26px 18px;
+    text-align: center;
+  }
+  .grade-panel .grade-label {
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 7.5pt;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--stone);
+    margin: 0 0 10px 0;
+  }
+  .grade-panel .grade-value {
+    font-family: var(--font-display);
+    font-weight: 300;
+    font-size: 52pt;
+    line-height: 1;
+    color: var(--parchment);
+    margin: 0;
+  }
+  .grade-panel .grade-rule {
+    width: 32px;
+    height: 2px;
+    background: var(--emerald);
+    margin: 14px auto 0 auto;
+  }
+
+  .twin-lists {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin-top: 6px;
+  }
+
+  /* Editorial lists – flush-left, emerald markers, no bullets. */
+  ul.brand-list {
+    list-style: none;
+    margin: 8px 0 0 0;
+    padding: 0;
+    max-width: var(--measure);
+  }
+  ul.brand-list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 9px;
+    line-height: 1.5;
+  }
+  ul.brand-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.62em;
+    width: 10px;
+    height: 2px;
+    background: var(--emerald);
+  }
+
+  /* ---------------------------------------------------------------------
+     SCOPE AND METHODOLOGY – three editorial blocks.
+     --------------------------------------------------------------------- */
+  .meta-block { margin-bottom: 22px; }
+
+  /* ---------------------------------------------------------------------
+     FINDINGS – layer groups + finding cards.
+     --------------------------------------------------------------------- */
+  .layer-group { margin-bottom: 4px; }
+  .layer-header {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    margin: 28px 0 4px 0;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--emerald);
+  }
+  .layer-header .layer-index {
+    font-family: var(--font-mono);
+    font-size: 8.5pt;
+    color: var(--aged-brass);
+    letter-spacing: 0.05em;
+  }
+  .layer-header .layer-name {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: 15pt;
+    letter-spacing: -0.01em;
+    color: var(--emerald);   /* layer labels – Emerald on Parchment */
+    margin: 0;
+  }
+
+  .layer-note {
+    font-style: italic;
+    color: var(--stone);
+    font-size: 10.5pt;
+    max-width: var(--measure);
+    margin: 12px 0 8px 0;
+  }
+
+  /* Finding card – sharp corners, parchment with a thin obsidian frame. */
+  .finding {
+    border: 1px solid rgba(15, 15, 16, 0.5);
+    border-left: 3px solid var(--emerald);
+    background: var(--parchment);
+    padding: 18px 20px 16px 20px;
+    margin: 14px 0;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .finding-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 10px;
+  }
+  .finding-title {
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: 14pt;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: var(--obsidian);
+    margin: 0;
+    flex: 1;
+  }
+  .badge-row {
+    display: flex;
+    gap: 6px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    max-width: 46%;
+  }
+
+  /* Badges – small, editorial. Palette only. */
+  .badge {
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 6.8pt;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    white-space: nowrap;
+    border: 1px solid currentColor;
+    line-height: 1.3;
+  }
+  /* Impact – High Burnt Orange, Medium Aged Brass, Low Stone. */
+  .impact-high   { color: var(--burnt-orange); }
+  .impact-medium { color: var(--aged-brass); }
+  .impact-low    { color: var(--stone); }
+  /* Priority – P1 Emerald; the rest descend through the supporting palette. */
+  .prio-p1 { color: var(--parchment); background: var(--emerald); border-color: var(--emerald); }
+  .prio-p2 { color: var(--burnt-orange); }
+  .prio-p3 { color: var(--aged-brass); }
+  .prio-p4 { color: var(--stone); }
+  /* Layer tag – quiet emerald outline. */
+  .tag-layer { color: var(--emerald); }
+
+  .finding-fields {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin-top: 6px;
+  }
+  .field {
+    display: grid;
+    grid-template-columns: 92px 1fr;
+    gap: 14px;
+    padding: 7px 0;
+    border-top: 1px solid rgba(139, 133, 122, 0.3);
+    align-items: baseline;
+  }
+  .field:first-child { border-top: 0; }
+  .field-label {
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 7.5pt;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--stone);
+  }
+  .field-value {
+    font-size: 10pt;
+    line-height: 1.55;
+    color: var(--obsidian);
+    margin: 0;
+    max-width: var(--measure);
+  }
+  .field-value .mono { font-size: 9pt; }
+
+  /* ---------------------------------------------------------------------
+     ACTION PLAN – P1 to P4 register.
+     --------------------------------------------------------------------- */
+  .action-intro { margin-bottom: 6px; }
+  .prio-legend {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 14px 0 26px 0;
+  }
+  .action-tier { margin-bottom: 8px; }
+  .action-tier .tier-head {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin: 22px 0 8px 0;
+  }
+  .action-tier .tier-name {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: 13pt;
+    color: var(--obsidian);
+    margin: 0;
+  }
+
+  /* ---------------------------------------------------------------------
+     NEXT STEPS – the one page that floods Emerald. Parchment on Emerald.
+     --------------------------------------------------------------------- */
+  .page.closing {
+    background: var(--emerald);
+    color: var(--parchment);
+    display: flex;
+    flex-direction: column;
+    padding: 40mm var(--page-pad-x) 24mm var(--page-pad-x);
+  }
+  .closing .eyebrow { color: var(--parchment); opacity: 0.78; }
+  .closing .section-title { color: var(--parchment); }
+  .closing .rule { background: var(--parchment); }
+  .closing p { color: var(--parchment); }
+  .closing p.lede { color: var(--parchment); }
+  .closing .body-zone { margin-top: 8px; }
+
+  .closing ul.brand-list li::before { background: var(--parchment); }
+  .closing ul.brand-list li { color: var(--parchment); }
+
+  .cta {
+    margin-top: auto;
+    border-top: 1px solid rgba(234, 224, 200, 0.35);
+    padding-top: 22px;
+  }
+  .cta .cta-line {
+    font-family: var(--font-display);
+    font-weight: 300;
+    font-size: 22pt;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    color: var(--parchment);
+    margin: 0 0 16px 0;
+    max-width: var(--measure);
+  }
+  .cta .cta-contact {
+    font-family: var(--font-mono);
+    font-size: 10pt;
+    color: var(--parchment);
+    opacity: 0.9;
+    margin: 0;
+  }
+  .closing-marque {
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 9pt;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--burnt-orange);   /* RESERVED – marque detail, the single spark on the flood */
+    margin: 26px 0 0 0;
+  }
+</style>
+<style>*{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;}</style>
+</head>
+
+<body>
+
+<!-- =====================================================================
+     1 – COVER
+     ===================================================================== -->
+<section class="page cover">
+  <p class="eyebrow">Search Audit</p>
+
+  <div class="cover-body">
+    <h1 class="cover-title">Custom Window Decorators</h1>
+    <p class="cover-url">customwindowdecorators.com</p>
+    <hr class="rule">
+    <div class="cover-meta">
+      <div>
+        <p class="label">Date</p>
+        <p class="value mono">2026-06-28</p>
+      </div>
+      <div>
+        <p class="label">Prepared by</p>
+        <p class="value named">Five Points Digital Studio</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="cover-foot">
+    <p class="cover-marque">A Five Points Commission</p>
+  </div>
+</section>
+
+<!-- =====================================================================
+     2 – EXECUTIVE SUMMARY
+     ===================================================================== -->
+<section class="page section">
+  <p class="eyebrow">Executive Summary</p>
+  <h1 class="section-title">The standing of the search estate</h1>
+  <hr class="rule">
+
+  <div class="summary-grid">
+    <div class="grade-panel">
+      <p class="grade-label">Health Grade</p>
+      <p class="grade-value">C+</p>
+      <div class="grade-rule"></div>
+    </div>
+    <div>
+      <p class="lede">Custom Window Decorators runs a WordPress site with competent baseline hygiene – a self-referencing canonical, a Yoast sitemap, clean meta and a single H1 – but the fundamentals that win local search are not yet in place. The homepage targets "custom windows", which reads as window replacement rather than the window treatments the business sells, and the site carries no LocalBusiness structured data despite being a showroom-led company with two service areas. Three quick wins sit in the robots and image layers. Technical and performance, the layer the redesign brief already flags as dated and not mobile-optimised, is owned by the partner audit and pending.</p>
+    </div>
+  </div>
+
+  <div class="twin-lists">
+    <div>
+      <h3 class="sub-title">Top priorities</h3>
+      <ul class="brand-list">
+        <li>Retarget the homepage and core pages from "custom windows" to window-treatment intent.</li>
+        <li>Add LocalBusiness structured data and align it to the Google Business Profile.</li>
+        <li>Commission the web-quality audit to close the technical and mobile gaps the redesign brief already names.</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="sub-title">Quick wins</h3>
+      <ul class="brand-list">
+        <li>Declare the sitemap in robots.txt.</li>
+        <li>Remove the 30-second crawl-delay.</li>
+        <li>Add descriptive alt text to the nine homepage images that lack it.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span>Search Audit</span>
+    <span class="mark">FIVE POINTS</span>
+    <span>Custom Window Decorators</span>
+  </div>
+</section>
+
+<!-- =====================================================================
+     3 – SCOPE AND METHODOLOGY
+     ===================================================================== -->
+<section class="page section">
+  <p class="eyebrow">Scope and Methodology</p>
+  <h1 class="section-title">How this audit was conducted</h1>
+  <hr class="rule">
+
+  <div class="meta-block">
+    <h2 class="block-title">Scope</h2>
+    <p>The live customwindowdecorators.com, audited on the findability and content layers – crawlability and indexation, on-page, content quality and E-E-A-T, and international. The homepage, the products and services page, robots.txt and the XML sitemap were sampled. Technical and performance was out of scope for this half.</p>
+  </div>
+
+  <div class="meta-block">
+    <h2 class="block-title">Tools used</h2>
+    <p>Direct retrieval of the live HTML, response headers, robots.txt and the XML sitemap. The server-rendered Yoast schema graph was read from source. No paid crawler was used on this pass.</p>
+  </div>
+
+  <div class="meta-block">
+    <h2 class="block-title">Limitations</h2>
+    <p>Search Console and analytics access was not available, so index coverage, impressions and the queries already driving traffic could not be confirmed and are inferred from the live markup. Schema was read from the server-rendered Yoast graph and should be confirmed with the Rich Results Test before delivery. The crawl was sampled rather than exhaustive. Technical and performance findings await the web-quality audit.</p>
+  </div>
+
+  <div class="footer">
+    <span>Scope and Methodology</span>
+    <span class="mark">FIVE POINTS</span>
+    <span>Custom Window Decorators</span>
+  </div>
+</section>
+
+<!-- =====================================================================
+     4 – FINDINGS
+     Layer order: Crawl and Index, On-Page, Content and E-E-A-T,
+     International, then the reserved Technical and Performance group.
+     ===================================================================== -->
+<section class="page section">
+  <p class="eyebrow">Findings</p>
+  <h1 class="section-title">What the audit surfaced</h1>
+  <hr class="rule">
+  <p>Findings are grouped by layer and carry a fixed field set – the issue, its impact, the layer it sits in, the supporting evidence, the prescribed fix and a priority marker. The priority marker maps to the action plan that follows.</p>
+
+  <!-- LAYER: Crawl and Index -->
+  <div class="layer-group">
+    <div class="layer-header">
+      <span class="layer-index">01</span>
+      <h2 class="layer-name">Crawl and Index</h2>
+    </div>
+
+    
+
+    
+
+    <div class="finding">
+      <div class="finding-head">
+        <h3 class="finding-title">The XML sitemap is not declared in robots.txt</h3>
+        <div class="badge-row">
+          <span class="badge impact-medium">Medium Impact</span>
+          <span class="badge tag-layer">Crawl and Index</span>
+          <span class="badge prio-p3">P3 Quick win</span>
+        </div>
+      </div>
+      <div class="finding-fields">
+        <div class="field"><span class="field-label">Issue</span><p class="field-value">The sitemap index exists and is reachable, but robots.txt does not point crawlers to it, so discovery relies on manual submission alone.</p></div>
+        <div class="field"><span class="field-label">Evidence</span><p class="field-value"><span class="mono">/robots.txt</span> returns only a user-agent rule and a crawl-delay, with no Sitemap line. The index is live at <span class="mono">/sitemap.xml</span> and lists four sub-sitemaps.</p></div>
+        <div class="field"><span class="field-label">Fix</span><p class="field-value">Add <span class="mono">Sitemap: https://customwindowdecorators.com/sitemap.xml</span> to robots.txt so every crawler discovers the full URL set.</p></div>
+        <div class="field"><span class="field-label">Priority</span><p class="field-value">P3 Quick win – a one-line change that improves crawl discovery immediately.</p></div>
+      </div>
+    </div>
+<div class="finding">
+      <div class="finding-head">
+        <h3 class="finding-title">A 30-second crawl-delay throttles discovery</h3>
+        <div class="badge-row">
+          <span class="badge impact-low">Low Impact</span>
+          <span class="badge tag-layer">Crawl and Index</span>
+          <span class="badge prio-p3">P3 Quick win</span>
+        </div>
+      </div>
+      <div class="finding-fields">
+        <div class="field"><span class="field-label">Issue</span><p class="field-value">robots.txt sets a 30-second crawl-delay. Google ignores the directive, but Bing and other engines honour it, slowing how quickly new and changed pages are seen.</p></div>
+        <div class="field"><span class="field-label">Evidence</span><p class="field-value"><span class="mono">/robots.txt</span> contains <span class="mono">Crawl-delay: 30</span>.</p></div>
+        <div class="field"><span class="field-label">Fix</span><p class="field-value">Remove the crawl-delay unless a server-load reason requires it. The site is small enough not to need throttling.</p></div>
+        <div class="field"><span class="field-label">Priority</span><p class="field-value">P3 Quick win – removes an unnecessary brake on non-Google crawlers.</p></div>
+      </div>
+    </div>
+<div class="finding">
+      <div class="finding-head">
+        <h3 class="finding-title">Tag and category archives are indexable and in the sitemap</h3>
+        <div class="badge-row">
+          <span class="badge impact-medium">Medium Impact</span>
+          <span class="badge tag-layer">Crawl and Index</span>
+          <span class="badge prio-p3">P3 Quick win</span>
+        </div>
+      </div>
+      <div class="finding-fields">
+        <div class="field"><span class="field-label">Issue</span><p class="field-value">The sitemap includes tag and category archive sets. On a small site these archives are usually thin and near-duplicate, diluting crawl focus away from the service pages that earn revenue.</p></div>
+        <div class="field"><span class="field-label">Evidence</span><p class="field-value"><span class="mono">/sitemap.xml</span> lists <span class="mono">category-sitemap.xml</span> and <span class="mono">post_tag-sitemap.xml</span>.</p></div>
+        <div class="field"><span class="field-label">Fix</span><p class="field-value">Assess whether the archives carry unique value. Where they do not, set them to noindex and drop them from the sitemap to concentrate crawl budget on service and location pages.</p></div>
+        <div class="field"><span class="field-label">Priority</span><p class="field-value">P3 Quick win – tightens the indexable set without touching primary content.</p></div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- LAYER: On-Page -->
+  <div class="layer-group">
+    <div class="layer-header">
+      <span class="layer-index">02</span>
+      <h2 class="layer-name">On-Page</h2>
+    </div>
+    <div class="finding">
+      <div class="finding-head">
+        <h3 class="finding-title">The homepage keyword targets the wrong intent</h3>
+        <div class="badge-row">
+          <span class="badge impact-high">High Impact</span>
+          <span class="badge tag-layer">On-Page</span>
+          <span class="badge prio-p2">P2 High-impact</span>
+        </div>
+      </div>
+      <div class="finding-fields">
+        <div class="field"><span class="field-label">Issue</span><p class="field-value">The homepage is optimised for "custom windows", which reads as window manufacture or replacement. The business sells window treatments – blinds, shades and drapes. The site is competing for the wrong query and the wrong visitor.</p></div>
+        <div class="field"><span class="field-label">Evidence</span><p class="field-value">The homepage title is <span class="mono">Custom Windows in Lewiston, Maine | Custom Window Decorators Inc</span> and the og:title matches. The product range is window treatments, not windows.</p></div>
+        <div class="field"><span class="field-label">Fix</span><p class="field-value">Retarget the homepage and core pages to window-treatment intent, for example "Custom Window Treatments in Lewiston, Maine | Blinds, Shades and Drapes", and align the H1 and meta description to match.</p></div>
+        <div class="field"><span class="field-label">Priority</span><p class="field-value">P2 High-impact – intent alignment governs which searches the site can ever win.</p></div>
+      </div>
+    </div>
+<div class="finding">
+      <div class="finding-head">
+        <h3 class="finding-title">Nine of seventeen homepage images lack descriptive alt text</h3>
+        <div class="badge-row">
+          <span class="badge impact-medium">Medium Impact</span>
+          <span class="badge tag-layer">On-Page</span>
+          <span class="badge prio-p3">P3 Quick win</span>
+        </div>
+      </div>
+      <div class="finding-fields">
+        <div class="field"><span class="field-label">Issue</span><p class="field-value">Image alt text is missing or empty on more than half of the homepage images, costing image-search visibility and accessibility, and wasting a natural place for relevant terms.</p></div>
+        <div class="field"><span class="field-label">Evidence</span><p class="field-value">Of seventeen homepage images, two have no alt attribute and seven carry an empty alt value.</p></div>
+        <div class="field"><span class="field-label">Fix</span><p class="field-value">Add descriptive, naturally phrased alt text to the showroom and product imagery. Leave only genuinely decorative images with empty alt.</p></div>
+        <div class="field"><span class="field-label">Priority</span><p class="field-value">P3 Quick win – contained, no design change, immediate accessibility and image-search benefit.</p></div>
+      </div>
+    </div>
+<div class="finding">
+      <div class="finding-head">
+        <h3 class="finding-title">The homepage carries an unusually high internal-link count</h3>
+        <div class="badge-row">
+          <span class="badge impact-low">Low Impact</span>
+          <span class="badge tag-layer">On-Page</span>
+          <span class="badge prio-p4">P4 Long-term</span>
+        </div>
+      </div>
+      <div class="finding-fields">
+        <div class="field"><span class="field-label">Issue</span><p class="field-value">The homepage exposes 112 internal links, largely through the menu and footer. A link count this high flattens the site hierarchy and spreads ranking signal thinly across pages of unequal importance.</p></div>
+        <div class="field"><span class="field-label">Evidence</span><p class="field-value">A parse of the live homepage counts 112 internal links.</p></div>
+        <div class="field"><span class="field-label">Fix</span><p class="field-value">Trim the menu and footer to the priority service and location pages so internal linking concentrates signal where it matters.</p></div>
+        <div class="field"><span class="field-label">Priority</span><p class="field-value">P4 Long-term – best handled within the redesign rather than as a patch.</p></div>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- LAYER: Content and E-E-A-T -->
+  <div class="layer-group">
+    <div class="layer-header">
+      <span class="layer-index">03</span>
+      <h2 class="layer-name">Content and E-E-A-T</h2>
+    </div>
+    <div class="finding">
+      <div class="finding-head">
+        <h3 class="finding-title">No LocalBusiness structured data is present</h3>
+        <div class="badge-row">
+          <span class="badge impact-high">High Impact</span>
+          <span class="badge tag-layer">Content and E-E-A-T</span>
+          <span class="badge prio-p2">P2 High-impact</span>
+        </div>
+      </div>
+      <div class="finding-fields">
+        <div class="field"><span class="field-label">Issue</span><p class="field-value">For a showroom-led local company, LocalBusiness schema is the single highest-value structured-data signal for local search and map visibility. It is absent from the schema graph.</p></div>
+        <div class="field"><span class="field-label">Evidence</span><p class="field-value">The server-rendered Yoast schema graph contains <span class="mono">WebPage</span>, <span class="mono">WebSite</span> and <span class="mono">BreadcrumbList</span> but no <span class="mono">LocalBusiness</span> or <span class="mono">HomeAndConstructionBusiness</span> type. Confirm with the Rich Results Test before delivery.</p></div>
+        <div class="field"><span class="field-label">Fix</span><p class="field-value">Add LocalBusiness schema carrying name, address, phone, geo-coordinates, opening hours and service area, with sameAs pointing to the Google Business Profile.</p></div>
+        <div class="field"><span class="field-label">Priority</span><p class="field-value">P2 High-impact – the core local-search signal for a business that lives on local intent.</p></div>
+      </div>
+    </div>
+<div class="finding">
+      <div class="finding-head">
+        <h3 class="finding-title">Thirty-seven years of heritage are underused as trust signals</h3>
+        <div class="badge-row">
+          <span class="badge impact-medium">Medium Impact</span>
+          <span class="badge tag-layer">Content and E-E-A-T</span>
+          <span class="badge prio-p3">P3 Quick win</span>
+        </div>
+      </div>
+      <div class="finding-fields">
+        <div class="field"><span class="field-label">Issue</span><p class="field-value">The company dates to 1987 and carries premium brand lines, but that experience, those credentials and customer reviews are not structured as the experience and trust signals Google rewards.</p></div>
+        <div class="field"><span class="field-label">Evidence</span><p class="field-value">The business was founded in 1987 and stocks Hunter Douglas and other recognised lines. Credentials, reviews and an authoritative About presence are not surfaced as trust signals on key pages.</p></div>
+        <div class="field"><span class="field-label">Fix</span><p class="field-value">Surface the heritage, the certifications, the brand affiliations and customer reviews on the homepage and service pages, and add Organisation and Review schema.</p></div>
+        <div class="field"><span class="field-label">Priority</span><p class="field-value">P3 Quick win – the proof already exists and only needs surfacing.</p></div>
+      </div>
+    </div>
+<div class="finding">
+      <div class="finding-head">
+        <h3 class="finding-title">Two service areas share one set of pages</h3>
+        <div class="badge-row">
+          <span class="badge impact-medium">Medium Impact</span>
+          <span class="badge tag-layer">Content and E-E-A-T</span>
+          <span class="badge prio-p3">P3 Quick win</span>
+        </div>
+      </div>
+      <div class="finding-fields">
+        <div class="field"><span class="field-label">Issue</span><p class="field-value">The business serves Lewiston and a second location in Topsham, yet local intent is concentrated on a single set of pages, limiting visibility in each distinct market.</p></div>
+        <div class="field"><span class="field-label">Evidence</span><p class="field-value">The site references The Window Dresser location in Topsham alongside the Lewiston showroom.</p></div>
+        <div class="field"><span class="field-label">Fix</span><p class="field-value">Build a dedicated, uniquely written location page for each showroom, each with its own NAP, an embedded map and genuinely local content.</p></div>
+        <div class="field"><span class="field-label">Priority</span><p class="field-value">P3 Quick win – unlocks a second local market the business already operates in.</p></div>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- LAYER: International -->
+  <div class="layer-group">
+    <div class="layer-header">
+      <span class="layer-index">04</span>
+      <h2 class="layer-name">International</h2>
+    </div>
+    
+    <p class="layer-note">Not applicable. The site serves a single en-US locale, so hreflang, multi-locale canonicalisation and international sitemaps are not in scope. This was checked and cleared.</p>
+  </div>
+
+  <!-- LAYER: Technical and Performance – RESERVED for the web-quality audit -->
+  <div class="layer-group">
+    <div class="layer-header">
+      <span class="layer-index">05</span>
+      <h2 class="layer-name">Technical and Performance</h2>
+    </div>
+    <p class="layer-note">Pending the web-quality audit, the partner skill that owns speed, Core Web Vitals, accessibility and security. The redesign brief already records the current site as dated and not mobile-optimised, so this layer is expected to carry material findings. It will be completed and folded into this same deliverable once web-quality ships.</p>
+  </div>
+
+  <div class="footer">
+    <span>Findings</span>
+    <span class="mark">FIVE POINTS</span>
+    <span>Custom Window Decorators</span>
+  </div>
+</section>
+
+<!-- =====================================================================
+     5 – PRIORITISED ACTION PLAN
+     ===================================================================== -->
+<section class="page section">
+  <p class="eyebrow">Action Plan</p>
+  <h1 class="section-title">The prioritised sequence of work</h1>
+  <hr class="rule">
+  <p class="action-intro">The plan is ordered by priority rather than by layer. Work descends from the critical caps that gate everything else, through the high-impact moves, the quick wins and finally the long-term architecture.</p>
+
+  <div class="prio-legend">
+    <span class="badge prio-p1">P1 Critical</span>
+    <span class="badge prio-p2">P2 High-impact</span>
+    <span class="badge prio-p3">P3 Quick win</span>
+    <span class="badge prio-p4">P4 Long-term</span>
+  </div>
+
+  <div class="action-body">
+    <div class="action-tier">
+      <div class="tier-head"><span class="badge prio-p1">P1 Critical</span><h2 class="tier-name">No critical blocks found</h2></div>
+      <ul class="brand-list"><li>Nothing is holding the site out of the index. Indexation, canonicalisation and meta robots are sound, so work begins at the high-impact tier.</li></ul>
+    </div>
+    <div class="action-tier">
+      <div class="tier-head"><span class="badge prio-p2">P2 High-impact</span><h2 class="tier-name">Fix intent and local signals</h2></div>
+      <ul class="brand-list">
+        <li>Retarget the homepage and core pages to window-treatment intent, aligning title, H1 and meta description.</li>
+        <li>Add LocalBusiness structured data and align it to the Google Business Profile.</li>
+      </ul>
+    </div>
+    <div class="action-tier">
+      <div class="tier-head"><span class="badge prio-p3">P3 Quick win</span><h2 class="tier-name">Ship the immediate gains</h2></div>
+      <ul class="brand-list">
+        <li>Declare the sitemap in robots.txt and remove the crawl-delay.</li>
+        <li>Add descriptive alt text to the homepage images that lack it.</li>
+        <li>Surface heritage, credentials and reviews as trust signals, and add Organisation and Review schema.</li>
+        <li>Build a dedicated location page for each of the two showrooms.</li>
+        <li>Set thin tag and category archives to noindex and drop them from the sitemap.</li>
+      </ul>
+    </div>
+    <div class="action-tier">
+      <div class="tier-head"><span class="badge prio-p4">P4 Long-term</span><h2 class="tier-name">Resolve in the redesign</h2></div>
+      <ul class="brand-list"><li>Trim the homepage internal-link sprawl so signal concentrates on priority pages.</li></ul>
+    </div>
+
+    <!--
+      ACTION PLAN STRUCTURE the skill may follow per tier:
+
+      <div class="action-tier">
+        <div class="tier-head">
+          <span class="badge prio-p1">P1 Critical</span>
+          <h2 class="tier-name">Clear the indexation caps</h2>
+        </div>
+        <ul class="brand-list">
+          <li>Action item one.</li>
+          <li>Action item two.</li>
+        </ul>
+      </div>
+    -->
+  </div>
+
+  <div class="footer">
+    <span>Action Plan</span>
+    <span class="mark">FIVE POINTS</span>
+    <span>Custom Window Decorators</span>
+  </div>
+</section>
+
+<!-- =====================================================================
+     6 – NEXT STEPS – the Emerald closing page
+     ===================================================================== -->
+<section class="page closing section">
+  <p class="eyebrow">Next Steps</p>
+  <h1 class="section-title">Where this goes from here</h1>
+  <hr class="rule">
+
+  <div class="body-zone">
+    Five Points is already engaged on the redesign of this site, so these findings do not sit on a shelf. The keyword retarget and the LocalBusiness schema land in the rebuild, the robots and image fixes ship at once, and the web-quality audit completes the technical picture. The recommended next step is to authorise the web-quality pass so the full technical layer joins this same report, then sequence the fixes into the redesign. Pricing for the expanded engagement is named from the Five Points offer suite.
+  </div>
+
+  <div class="cta">
+    <p class="cta-line">Five Points builds the search infrastructure a singular brand owns and compounds. This audit is the survey. The build is the commission.</p>
+    <p class="cta-contact">Five Points Digital Studio – customwindowdecorators.com</p>
+    <p class="closing-marque">A Five Points Commission</p>
+  </div>
+</section>
+
+</body>
+</html>

@@ -67,6 +67,7 @@ Ship it. Hand it off. Deliver it to the world or to the next person in the chain
 | `department-heads.md` | Role definitions and specialist seats |
 | `token-budget-framework.md` | Task complexity tiers and budget ceilings |
 | `integrations.md` | Plugin and tool connections scoped to Five Points |
+| `operating-loop.md` | The client flywheel – nine stages across the studios, the venture operating loop |
 
 ### Department-level agentic layer
 

@@ -253,7 +253,9 @@ Applications are reviewed for fit. The anti-ICP characteristics that disqualify 
 
 ## Revenue Projection
 
-### Year One Snapshot (Conservative)
+### Year One Floor (Capacity-Constrained Launch Year)
+
+The snapshot below is the deliberate floor of a capacity-gated launch year. The compounding table that follows is the real revenue story.
 
 | Tier | Units | Avg. Price | Revenue |
 |------|-------|-----------|---------|
@@ -279,7 +281,7 @@ The year one snapshot understates the value of each client relationship. Human C
 
 A single Platinum client who converts to Evolution and stays 18 months is worth $96,500. Six Platinum clients over three years approach $600,000 from six humans. That is the number that belongs in the revenue story — not the year one snapshot, but the compounding value of the relationship over time.
 
-At 25% Evolution conversion (conservative) with 80% annual retention, the recurring revenue book entering year two is $64,800 to $81,000 before a single new engagement is sold. By year three, the Evolution book alone can sustain the business through any project-revenue drought.
+At a 25% Evolution conversion floor with 80% annual retention, the recurring book entering year two is $64,800 to $81,000 before a single new engagement is sold. By year three the Evolution book is the compounding base layer – recurring, owned revenue that funds expansion regardless of project cadence.
 
 ---
 

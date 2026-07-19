@@ -82,7 +82,7 @@ Evolution clients are natural candidates for:
 
 **Scalability:** The monthly health check and platform sweep can be partially systematized as the client base grows. Skill builds get faster as the template library expands. The recalibration session remains high-touch and founder-delivered. At 10 active Evolution clients, the retainer book consumes approximately 50 to 60 hours per month of founder time. That is roughly 30 to 35% of a 10-to-5 workday schedule.
 
-**Capacity ceiling:** At current solo operator capacity, approximately 12 to 15 active Evolution clients is the maximum before retainer work begins displacing project work. This ceiling rises with contractor support for health checks and skill builds.
+**Capacity design:** The solo-delivery configuration serves 12 to 15 active Evolution clients. The book scales past that by design – contractor pods absorb health checks and skill builds, and the template library compresses delivery hours every quarter. Capacity is a hiring decision, not a limit of the model.
 
 **Profitability:** At $3,000 per month and four to six hours of delivery, the effective hourly rate is $500 to $750. At the annual rate of $2,250 per month, the effective rate is $375 to $562. Both exceed the $100/hour labor rate and clear the 75% gross margin floor comfortably.
 
@@ -92,7 +92,7 @@ Evolution clients are natural candidates for:
 
 ## Revenue Model Impact
 
-Using the conservative scenario (six HC builds in year one, 25% retainer conversion):
+Using the floor scenario (six HC builds in year one, 25% retainer conversion – the launch-year minimum, before pipeline maturity):
 
 | Metric | Value |
 |--------|-------|
