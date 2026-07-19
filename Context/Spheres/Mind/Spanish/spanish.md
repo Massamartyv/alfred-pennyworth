@@ -10,7 +10,8 @@ Spanish – the active language in the Mind cluster Language Learning vertical.
 
 **Level:** Intermediate – conversational but not fluent.
 **Priority:** Active – highest priority language in the current learning stack.
-**Active methods:** App-based learning (Duolingo), conversation practice, immersion through media.
+**Active methods:** Voice-first tutoring via the Claude `Español` project (see `claude-spanish-project.md`), app-based learning (Duolingo), immersion through media.
+**Known gaps:** Drops the auxiliary in progressive forms (*trabajando* for *estoy trabajando*).
 
 ---
 
@@ -43,6 +44,14 @@ Alfred calibrates Spanish support to intermediate conversational level. This mea
 
 When the level advances Alfred adjusts without being asked. Progress is evident in the quality of responses.
 
+### Vocabulary Capture
+
+All vocabulary entering the Notion Spanish Language Bank follows `dictionary-standard.md` in this folder – lemma-first entries, conjugations as child pages rather than rows, batch capture at session end, dedupe before create. Voice sessions in the Claude `Español` project end with a VOCAB EXPORT block that Alfred sweeps into the bank.
+
+### Method
+
+Spanish teaching follows the Madrigal cognate-and-creation approach, distilled in `madrigal-method.md` in this folder. Build new words from their English cognates by regular suffix patterns, teach the past tense early through the -é / -ó pair, guard the false friends, and keep the tone a pleasure rather than a drill. This governs both the Español tutoring project and Alfred's ambient daily support. His work register – business, marketing, AI, creative – is unusually cognate-dense, so the method carries more leverage than usual.
+
 ### Future Languages
 
 Japanese and Arabic are identified as future language interests. They are not currently active. When one becomes a priority it gets its own file following this same structure and Alfred adjusts support accordingly.
@@ -59,4 +68,4 @@ Japanese and Arabic are identified as future language interests. They are not cu
 
 ---
 
-*Last updated: 2026-04-22*
+*Last updated: 2026-07-08 – Voice-first tutoring via the Claude Español project; dictionary standard v1; known-gaps line added.*

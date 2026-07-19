@@ -4,7 +4,7 @@ Provenance and refresh runbook for the figures in `wealth-trajectory.md`. Every 
 
 **Definition of "live."** Demographic income and wealth distributions are annual and triennial statistics, not a real-time feed. "Live" here means a living benchmark refreshed on the cadence the source publishes, with full provenance and an as-of date. Anything claiming real-time would be false precision.
 
-Last full pull: **2026-06-13.**
+Last full pull: **2026-06-13.** Last checked for new waves: **2026-07-07** — neither source had published; see change log.
 
 ---
 
@@ -92,6 +92,7 @@ Remaining limitation: Black income is computed at the person level, not the hous
 
 ## Change log
 
+- 2026-07-07 — Annual refresh check. Neither wave has published: CPS ASEC income year 2025 (`asecpub26csv.zip`) returns 404 — due September 2026; 2025 SCF (`scfp2025s.zip`) returns 404 — due late 2026. No figures changed; last full pull remains 2026-06-13. Finance Manager still holds no current balances (all account Live Balance fields null, Investments principle 0), so the Current position slots remain unpopulated. No nudge sent — nothing material moved.
 - 2026-06-13 — Target rung set to top 1% (operator: top 5% read low). Income 99th percentiles computed from CPS ASEC 2025; topcoding caveat recorded. Net-worth 99th percentiles already present from the SCF computation.
 - 2026-06-13 — Standard set to national. Atlanta metro cut removed. Demographic income percentiles computed from CPS ASEC 2025 microdata (income year 2024), replacing earlier published-only and metro figures. Income method validated against DQYDJ.
 - 2026-06-13 — Ledger created. Net-worth percentiles computed from 2022 SCF microdata (method validated to 0.4% against DQYDJ).

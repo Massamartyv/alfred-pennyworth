@@ -93,7 +93,7 @@ Candidate method: the Odyssey Plans from *Designing Your Life* — three diverge
 
 - Target rung is the **top 1%** (operator recalibrated from top 5% on 2026-06-13).
 - Benchmarks auto-refresh on source cadence. See `benchmark-ledger.md` → Refresh runbook.
-- Last benchmark pull: 2026-06-13.
+- Last benchmark pull: 2026-06-13. Last checked for new waves: 2026-07-07 — neither CPS ASEC income year 2025 nor the 2025 SCF had published; figures unchanged.
 - Next refresh: September 2026 (CPS ASEC income, annual), late 2026 (2025 SCF net worth, triennial).
 - Standard is national. Demographic inputs sourced from the Notion personal profile.
 

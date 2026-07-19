@@ -372,7 +372,7 @@ Tea over coffee at an 80/20 split. Coffee is taken black – a preference inheri
 
 ### Alcohol
 
-Hard liquor consumption is virtually zero. Cocktail of choice: tequila in sparkling water. Wine is the exception – actively developing a sommelier-level palate. Drawn to New World wines (South Africa, California, Colombia, Australia) but open to Old World with more exposure. Both red and white. The goal is to own a winery and produce a personal label.
+Hard liquor consumption is virtually zero. Cocktail of choice: tequila in sparkling water. Wine is the exception – actively developing a sommelier-level palate. Drawn to New World wines (South Africa, California, Colombia, Australia) but open to Old World with more exposure. Both red and white. The long game is a winery of the portfolio – a personal label produced on owned land, an enterprise asset as much as a creative one.
 
 ### Rituals
 
@@ -631,6 +631,30 @@ Two wells: Atlanta hip-hop – Andre 3000's philosophical elegance, Future's unb
 - Dark-warm as the spatial default, not bright-airy
 - The system behind the thing matters as much as the thing (frameworks, structure, architecture of taste, not just the surface)
 
+### The Cross-Domain Grammar
+
+The reference library holds 173 creators, brands, works and curators, chosen independently across fashion, film, food, art, architecture and sound. Read as one corpus, a small set of formulas recurs in domains that share nothing else. That recurrence is the proof – these are not the conventions of any single field but the laws beneath the taste itself. Each is written as an instruction, not an observation. They are the empirical spine under the Design Principles above.
+
+**The world, not the object.** Build an environment the audience enters, not an artefact they observe. The garment is the door into a city (Aimé Leon Dore, Ralph Lauren), the album is a place you live inside for its duration (Astroworld, Renaissance), the building competes with what it holds (the Guggenheim, Tate Modern), the spice arrives inside a whole world (Buly 1803, Scribe, Singita). The most universal pattern in the corpus, present in every slice – the third force of the Throughline made into method.
+
+**Withhold to amplify, constrain to clarify.** Two faces of one law. What you leave out raises the signal on everything that remains – anonymity as luxury (Lemaire, Goyard), absence doing the work (Frank Ocean, Good Will Hunting), pleasure led and virtue kept quiet (Salt and Stone). And the hard limit forces the decisive move – seven slabs on a 2.9-metre frontage (Building Frame of the House), two ingredients with nothing to hide behind (Dick Taylor), a stencil that reads in a glance (Banksy). Restraint is the most saturated tag in the library, and not by accident.
+
+**Collapse the hierarchy, choose the low end with equal rigour.** High and low belong on the same floor with no apology (Dover Street Market, the Met, A$AP Rocky, Warhol). The discipline is that the cheap thing is selected as carefully as the dear one – judge the plate, not the postcode (Bourdain); total credibility earned at the bottom of the price ladder (Vans, Nike). Selectivity is the whole game. Randomness reads as noise.
+
+**Heritage as a platform, not a costume.** Inherit at the source's level of seriousness and carry it forward – it does not name-drop house music, it is house music (Renaissance); the codes handed to the most credible cultural directors (Louis Vuitton); the apothecary revived down to the ritual of the counter (Buly 1803, Santa Maria Novella); the industrial shell kept visible and filled with new life (Tate Modern, the brownstone). The failure mode is named in the corpus too – performed heritage outrunning the substance (Mast Brothers).
+
+**Begin at the material.** Meaning starts at the fibre, the hide, the origin – before the cut, before the label. Develop the cloth from scratch (Auralee, Loewe, Dries Van Noten); leave the concrete board-marked and honest (Kalach, Building Frame of the House); name the farm and the harvest (Burlap and Barrel, Diaspora Co., Kettl). Traceability is itself the luxury signal, and the maker's prior craft – the woodworker turned chocolatier, the clarinetist turned roaster – is the proof of intent.
+
+**Precision disguised as ease.** Drill the craft until the discipline is invisible and only the joy shows. Sprezzatura is not a fashion tic – it is a cross-domain law: the starch taken out of the tailoring (Drake's, Isabel Marant), the record engineered to the inch that sounds like pure release (Renaissance, Beyoncé), the camera moved like a pulse that reads as natural (Scorsese, Chazelle). The effort is concealed by design, never by accident.
+
+**The frame is content, the structure is the argument.** Where a thing sits and how it is built carry meaning before the content speaks. The medium is the moment (Banksy); the form enacts the thesis so the reader feels the weight accumulate (Homegoing); style is the argument, not a coat of paint over it (Tarantino, De Palma); the space a thing occupies treated with as much rigour as the thing (the Virgil Abloh principle, already load-bearing here). Placement and form are decisions, never defaults.
+
+**Synthesis from between two worlds.** The position between cultures – belonging fully to neither – is the engine, not the wound. Diaspora as creative force (Marcus Samuelsson, Eric Adjepong, Diaspora Co.); the hyphen used as fuel (Selena, Fresh Prince of Bel-Air, Everything Everywhere All at Once). This is the Throughline's own two wells – Atlanta and the U.K. – named as a working method. Displacement produces a third, original thing.
+
+**Ritual over transaction.** Sustained, sincere engagement compounds where the single encounter cannot. The café as daily rite, not a cleanse gimmick (Kreation); the one allegiance carried without irony (Liverpool FC); the thousand episodes that ask for trust before they repay it (One Piece); the ritual of the beautiful drink mattering more than the drink. The retainer, the newsletter, the standing practice – all of a piece.
+
+One pattern sits underneath the rest: the proxy filter. Trust a selector already calibrated to the same frequency and the first pass is done for you – the buying is the taste at Mr Porter and Dover Street Market, and what cleared the Louvre or MoMA cleared the longer filter of history. The reference library is that principle turned on the self – a portfolio of trusted references so the next creative decision never starts from a blank page. Naming its recurring formulas is what turns the collection into an instrument.
+
 ---
 
-*Last updated: 2026-04-22. Renamed from taste.md. Style bible integrated. Pinterest boards analysed. Notion databases cross-referenced. Aligned Brands expanded across home, objects, books, food and drink, coffee and tea, wine, curators, plants, flowers and experiences.*
+*Last updated: 2026-07-12 – Winery ambition reframed from single-asset goal to portfolio enterprise asset under the Trajectory Language Purge. Prior: 2026-06-27, cross-domain grammar synthesised from the 173-card personal Reference Library by a five-reader pattern sweep. Prior: 2026-04-22. Renamed from taste.md. Style bible integrated. Pinterest boards analysed. Notion databases cross-referenced. Aligned Brands expanded across home, objects, books, food and drink, coffee and tea, wine, curators, plants, flowers and experiences.*
