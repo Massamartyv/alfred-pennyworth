@@ -4,12 +4,16 @@ venture: Paradigm
 venture_stage: Validation
 status: active
 methodology: The Manor Protocol
-last_updated: 2026-07-10
+last_updated: 2026-07-12
 ---
 
 # Paradigm – Venture Index
 
 Health and wellness brand. Reimagining how people relate to their bodies, minds and daily rituals. Stage: Ideation.
+
+## Trajectory
+
+Paradigm is built for scale, leverage and long-term enterprise value – a wellness brand on a billion-dollar portfolio trajectory, engineered to become a category rather than a shelf of products. The leverage is brand and formulation that travel: a sensory world people return to, with margin that compounds as the line extends from ritual to ritual and channel to channel. Near-term revenue, distribution and cohort floors are rungs on that climb, never ceilings – each one proves the model and funds the next reach. Live targets live in Notion Projects and Tasks, personal workspace – never here; this file holds the trajectory, not the numbers.
 
 ## The Manor Protocol
 

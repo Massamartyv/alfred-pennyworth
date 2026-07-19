@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  html,body{margin:0;padding:0;background:#111;}
+  #banner{width:1584px;height:396px;overflow:hidden;}
+</style>
+</head>
+<body>
+<div id="banner">
+<svg width="1584" height="396" viewBox="0 0 1584 396" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="ground" cx="52%" cy="46%" r="75%">
+      <stop offset="0%" stop-color="#2C2442"/>
+      <stop offset="62%" stop-color="#28203C"/>
+      <stop offset="100%" stop-color="#211A33"/>
+    </radialGradient>
+    <linearGradient id="deck" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#78436B"/>
+      <stop offset="55%" stop-color="#6B3A5E"/>
+      <stop offset="100%" stop-color="#572F4D"/>
+    </linearGradient>
+    <linearGradient id="deckEdge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4E2B45"/>
+      <stop offset="100%" stop-color="#3B2135"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C9A84C" stop-opacity="0.6"/>
+      <stop offset="55%" stop-color="#C9A84C" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#C9A84C" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="jet" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#EED9A0" stop-opacity="0.95"/>
+      <stop offset="45%" stop-color="#C9A84C" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#C9A84C" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="deckClip">
+      <rect x="472" y="122" width="700" height="118" rx="59"/>
+    </clipPath>
+  </defs>
+
+  <!-- ground -->
+  <rect width="1584" height="396" fill="url(#ground)"/>
+
+  <!-- hover glow beneath the board -->
+  <ellipse cx="822" cy="310" rx="330" ry="42" fill="url(#glow)"/>
+  <ellipse cx="640" cy="304" rx="72" ry="14" fill="url(#jet)"/>
+  <ellipse cx="1010" cy="304" rx="72" ry="14" fill="url(#jet)"/>
+  <rect x="524" y="301.25" width="600" height="1.5" fill="#C9A84C" opacity="0.35"/>
+
+  <!-- deck underside edge -->
+  <rect x="472" y="134" width="700" height="118" rx="59" fill="url(#deckEdge)"/>
+  <!-- deck body -->
+  <rect x="472" y="122" width="700" height="118" rx="59" fill="url(#deck)"/>
+
+  <g clip-path="url(#deckClip)">
+    <!-- sheen: thin light inset along the top edge only -->
+    <rect x="486" y="130" width="672" height="7" rx="3.5" fill="#B8787F" opacity="0.5"/>
+    <!-- two clean parallel chevron bands, verdigris above, saffron below -->
+    <g fill="none" stroke="#4A7B6B" stroke-width="12" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M712 192 L 746 158 L 780 192 L 814 158 L 848 192 L 882 158 L 916 192 L 950 158 L 984 192"/>
+    </g>
+    <g fill="none" stroke="#C9A84C" stroke-width="12" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M712 232 L 746 198 L 780 232 L 814 198 L 848 232 L 882 198 L 916 232 L 950 198 L 984 232"/>
+    </g>
+  </g>
+
+  <!-- deck rim light above inner art -->
+  <rect x="472" y="122" width="700" height="118" rx="59" fill="none" stroke="#DED7CB" stroke-opacity="0.55" stroke-width="2.5"/>
+
+  <!-- foot pad: verdigris disc left-of-centre -->
+  <circle cx="618" cy="183" r="64" fill="#3D6759"/>
+  <circle cx="618" cy="180" r="61" fill="#4A7B6B"/>
+  <circle cx="618" cy="180" r="44" fill="none" stroke="#DED7CB" stroke-opacity="0.75" stroke-width="3"/>
+  <circle cx="618" cy="180" r="26" fill="#3D6759"/>
+  <circle cx="618" cy="180" r="12" fill="#C9A84C"/>
+
+  <!-- rosewood thruster discs, right end -->
+  <circle cx="1072" cy="166" r="26" fill="#B8787F"/>
+  <circle cx="1072" cy="166" r="26" fill="none" stroke="#2E2A2F" stroke-opacity="0.55" stroke-width="4"/>
+  <circle cx="1072" cy="166" r="9" fill="#28203C"/>
+  <circle cx="1126" cy="198" r="18" fill="#B8787F"/>
+  <circle cx="1126" cy="198" r="18" fill="none" stroke="#2E2A2F" stroke-opacity="0.55" stroke-width="3.5"/>
+  <circle cx="1126" cy="198" r="6.5" fill="#28203C"/>
+</svg>
+</div>
+</body>
+</html>

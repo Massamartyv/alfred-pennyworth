@@ -3,7 +3,7 @@ file_type: integration_registry
 department: Agents
 venture: Marty Gras
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-07-10
 ---
 
 # Integrations
@@ -25,7 +25,7 @@ Marty Gras does not yet own dedicated venture-scoped MCP connections. The table 
 | Service | Routing | MCP package | Status | Environment variable | Notes |
 |---|---|---|---|---|---|
 | Notion | Personal workspace | Managed (enhanced) | Live | n/a (managed) | Content calendar, media database, Sphere Manager |
-| ElevenLabs | Personal | n/a – MCP broken | Needs fix | n/a | Voice production for podcast and audio content. MCP key currently broken – manual fix required. |
+| ElevenLabs | Personal | `elevenlabs-mcp` (uvx, server name `elevenlabs`) | Registered – awaiting key | `ELEVENLABS_API_KEY` | Voice production for podcast and audio content. Registered at project scope in `.mcp.json` on 2026-07-10; connects automatically once the operator adds the key to `.env`. Generated audio routes to `.working/elevenlabs/`. |
 | Vercel | Personal account | `@vercel/mcp@latest` | Live | `VERCEL_PERSONAL` (personal slot) | Hosting for any Marty Gras web properties |
 | Supabase | Personal management token | `@supabase/mcp-server-supabase@latest` | Live | `SUPABASE_PERSONAL_TOKEN` | Backend for any Marty Gras web properties |
 

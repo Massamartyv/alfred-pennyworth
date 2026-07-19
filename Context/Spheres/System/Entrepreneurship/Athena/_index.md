@@ -3,7 +3,7 @@ file_type: venture_index
 venture: Athena
 venture_stage: Dormant
 status: active
-last_updated: 2026-07-10
+last_updated: 2026-07-12
 ---
 
 # Athena – Venture Index
@@ -11,6 +11,10 @@ last_updated: 2026-07-10
 Modeling agency. Currently dormant – the structure exists as scaffolding for reactivation.
 
 > **This venture is dormant.** No active revenue, no active talent roster, no active operations. All files below are structural placeholders. When Athena reactivates, populate each department index with live data and update this file's stage to the appropriate phase.
+
+## Trajectory
+
+Athena is built for scale, leverage and long-term enterprise value – a modelling agency held on a billion-dollar portfolio trajectory even in dormancy, scaffolded now so reactivation begins from ambition rather than from scratch. When it reactivates the leverage is roster and reputation that compound: talent and bookings that build a name the market seeks out rather than one that chases work. Near-term commission and roster floors will be rungs on that climb, never ceilings – each one funds the next and none of them is the destination. Live targets live in Notion Projects and Tasks, personal workspace – never here; this file holds the trajectory, not the numbers.
 
 ## Navigation
 

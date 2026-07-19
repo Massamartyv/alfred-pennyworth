@@ -4,12 +4,16 @@ venture: Marty Gras
 venture_stage: Launch
 status: active
 methodology: The Manor Protocol
-last_updated: 2026-07-10
+last_updated: 2026-07-12
 ---
 
 # Marty Gras – Venture Index
 
 Personal media company. The Architect of Vibe. Podcast, Epiphany newsletter on Substack and cultural curation across all platforms.
+
+## Trajectory
+
+Marty Gras is built for scale, leverage and long-term enterprise value – a media company on a billion-dollar portfolio trajectory, not a creator side-project. The leverage is owned audience and owned catalogue that compound: a body of work – episodes, essays, cultural artefacts – that keeps accruing value long after publication and syndicates across every platform without renting reach. Near-term audience, subscriber and revenue floors are rungs on that climb, never ceilings – each one funds the next and none of them is the destination. Live targets live in Notion Projects and Tasks, personal workspace – never here; this file holds the trajectory, not the numbers.
 
 ## The Manor Protocol
 

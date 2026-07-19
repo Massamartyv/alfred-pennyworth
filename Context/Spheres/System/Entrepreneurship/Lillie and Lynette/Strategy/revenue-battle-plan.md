@@ -2,7 +2,7 @@
 file_type: strategy
 venture: Lillie and Lynette
 status: active
-last_updated: 2026-07-10
+last_updated: 2026-07-12
 related_files:
   - "../Foundation/brand-fingerprint.md"
   - "../_index.md"
@@ -63,11 +63,16 @@ Compact record. Full scholarship in the Direction session of 2026-06-11.
 - **Margin erosion via amenity costs.** Amenity spend is capped within the 55% floor.
 - **Brand drift in short-let work.** Turnover volume pulls toward utility pricing. Curation rules are the defense.
 
-## Revenue Targets
+## Phase 1 Calibration Marks
 
-| Milestone | Target | When |
+These are calibration marks for the first market, not the ambition. The ambition is the heritage house named in the fingerprint – each milestone exists only to prove the asset that compounds past it.
+
+| Milestone | Proves | When |
 |---|---|---|
-| First 10 paid jobs | ~$3,500 cumulative | Week 6 |
-| Recurring base | $5,000–$7,000 MRR | Month 4 |
-| Ascension | $12,000–$18,000 MRR | Month 9 |
-| Retail line live | First product revenue | Month 12–18 |
+| First paid jobs | The Standard survives contact with a real home | Week 6 |
+| Recurring base | Trust converts to MRR – the revenue spine is live | Month 4 |
+| Ascension | The client book compounds into the retainer tier | Month 9 |
+| Retail line live | The brand supports a purchase, not just a service | Month 12–18 |
+| Enterprise proof | Standard, brand and client book operate beyond the founder – first market of many | Month 12+ |
+
+Live targets: Notion Projects and Tasks, personal workspace (Lillie and Lynette – Venture Operations project, Phases 0 to 4).

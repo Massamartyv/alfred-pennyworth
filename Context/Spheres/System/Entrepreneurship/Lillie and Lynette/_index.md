@@ -4,7 +4,7 @@ venture: Lillie and Lynette
 venture_stage: Validation
 status: active
 methodology: The Manor Protocol
-last_updated: 2026-07-10
+last_updated: 2026-07-12
 ---
 
 # Lillie and Lynette – Venture Index
@@ -44,6 +44,10 @@ Amended 2026-06-11 – fingerprint version 0.2. Stewardship leads.
 1. **Stewardship first.** Housekeeping, estate and short-let management earn revenue at near-zero capital and prove the standard on external property. Battle plan: `Strategy/revenue-battle-plan.md`.
 2. **Objects ride inside.** Bath and body enter every kept home as the amenity and the gift, seeding demand before retail in Phase 4.
 3. **Spaces last.** Estates and resorts, funded by the first two pillars.
+
+## Trajectory
+
+Lillie and Lynette is built for scale, leverage and long-term enterprise value – a hospitality house on a billion-dollar portfolio trajectory, named with intention and built to scale from the first door. The leverage is the compounding of the pillars: Stewardship places the standard on property the company never had to buy, objects seed the world at low cost and each managed door returns new buyers to the top of the funnel. Near-term revenue and portfolio floors are rungs on that climb, never ceilings – Stewardship funds Objects, the first two pillars fund Spaces and no rung is the destination. Live targets live in Notion Projects and Tasks, personal workspace – never here; this file holds the trajectory, not the numbers.
 
 ## The Manor Protocol
 

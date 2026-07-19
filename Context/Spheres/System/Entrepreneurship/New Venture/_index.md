@@ -3,12 +3,16 @@ file_type: venture_index
 venture: "{Venture Name}"
 status: template
 methodology: The Manor Protocol
-last_updated: 2026-04-22
+last_updated: 2026-07-12
 ---
 
 # {Venture Name} – Venture Index
 
 {Description}. Stage: {Stage}.
+
+## Trajectory
+
+{Venture Name} is built for scale, leverage and long-term enterprise value – a venture on a billion-dollar portfolio trajectory from its first day, never a lifestyle business. The leverage is whatever compounds here – owned assets, brand, catalogue or infrastructure that accrue value rather than churn. Near-term revenue and milestone floors are rungs on that climb, never ceilings – each one funds the next and none of them is the destination. Live targets live in Notion Projects and Tasks, {workspace} workspace – never here; this file holds the trajectory, not the numbers.
 
 ## The Manor Protocol
 
@@ -49,10 +53,7 @@ Plugin scope to be determined on copy. No `Agents/integrations.md` exists until 
 
 ## Active State
 
-- Current MRR: {MRR amount}
-- Active clients: {client count}
-- Current priority: {priority}
-- Active campaign: {campaign name}
+Live state: Notion Projects and Tasks, {workspace} workspace ({Venture Name} – Venture Operations).
 
 ## Key Registries
 

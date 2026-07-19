@@ -2,7 +2,7 @@
 
 Live tracking: Notion – the Paradigm – Eden Theory Vol. I project carries status, tasks and the Direction decisions
 Owner: Martavious Spicer
-Last updated: 2026-07-10 (decisions migrated to Notion Decision Log)
+Last updated: 2026-07-12 (economics reframed as engineered floors, hedging language purged per Trajectory Language Purge)
 Related documents: `../../_index.md`, `../../Growth/Offers/_offers-registry.md`, `../../Foundation/brand-fingerprint.md`
 
 ## Executive Summary
@@ -44,15 +44,15 @@ The shoot line doubles as the content engine: outtakes and process frames feed t
 | Early October | *Of Harvest & Hearth* ships |
 | Post-ship | *Stillness & Spice* planning; winter shoot line must front-load around holidays |
 
-## 3. Economics – First Cycle, Honest Ranges
+## 3. Economics – First Cycle, Engineered Floors
 
-Warm audience seed: 2,000 to 10,000 across platforms. Realistic waitlist by pre-order with disciplined content: 400 to 1,000. Launch conversion 8 to 15%.
+Warm audience seed: 2,000 to 10,000 across platforms. Planning band for the waitlist by pre-order with disciplined content: 400 to 1,000 – the floor to beat, not the ceiling. Launch conversion 8 to 15%.
 
 - Volume one: 40 to 150 copies at ~$64 average → $2,600 to $9,600
 - Year passes: 15 to 30 at $179 → $2,700 to $5,400
 - Cycle one gross: roughly $5,000 to $15,000 against a $2,500 to $7,500 budget
 
-Year-one arc across four drops plus the box set with a compounding list: $30,000 to $80,000 realistic. The $83,333-per-month figure from early ideation belongs to the full product family (Paragon Guide, concierge, apparel, retreats) layered in later years – not to this series alone. Cycle one's primary returns are the proven standard, the devoted core and the list.
+Year-one arc across four drops plus the box set with a compounding list: $30,000 to $80,000 is the planning band for this series alone. The $83,333-per-month figure from early ideation is the full-product-family run rate – Paragon Guide, concierge, apparel, retreats – that this series exists to unlock. Cycle one's job is to prove the standard, forge the devoted core and compound the list that carries the house to that rate.
 
 ## 4. Risk Register
 
