@@ -25,7 +25,6 @@ See `.env.example` for the full list. Summary:
 | `RESEND_API_KEY` | Email delivery for forms |
 | `CONTACT_TO_EMAIL`, `PRAYER_TO_EMAIL` | Recipients for the contact and prayer forms |
 | `NEWSLETTER_PROVIDER`, `NEWSLETTER_API_KEY`, `NEWSLETTER_LIST_ID` | Newsletter signup |
-| `NEXT_PUBLIC_GIVING_URL` | The church's giving destination (swap-slot) |
 
 ## Scripts
 

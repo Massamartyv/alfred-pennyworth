@@ -182,6 +182,50 @@
   color: var(--text-muted);
 }
 
+/* ───────── Atmospheric interlude — video-ready band ───────── */
+.interlude {
+  position: relative;
+  height: clamp(280px, 42vh, 460px);
+  overflow: hidden;
+  background: var(--bg-fortress-deep);
+}
+
+/* Slate-into-gold wash so the interim stock sits inside the palette and any
+   future footage reads as light, not as a loud video. */
+.interludeScrim {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(
+      180deg,
+      rgba(19, 29, 44, 0.55) 0%,
+      rgba(19, 29, 44, 0.32) 45%,
+      rgba(19, 29, 44, 0.62) 100%
+    ),
+    radial-gradient(
+      120% 90% at 50% 20%,
+      var(--gold-glow-soft) 0%,
+      transparent 55%
+    );
+  pointer-events: none;
+}
+
+.interludeGrain {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background-image: var(--grain-url);
+  background-size: 140px 140px;
+  opacity: 0.06;
+  mix-blend-mode: overlay;
+  pointer-events: none;
+}
+
+.interludeImg {
+  object-position: center 45%;
+  filter: saturate(0.6) contrast(1.03);
+}
+
 /* ───────── Location ───────── */
 .locationInner {
   display: grid;

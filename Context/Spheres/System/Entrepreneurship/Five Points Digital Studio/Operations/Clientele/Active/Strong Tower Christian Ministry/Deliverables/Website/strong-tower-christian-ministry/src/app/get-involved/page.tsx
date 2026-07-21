@@ -18,8 +18,9 @@ export const metadata = {
 };
 
 /*
-  CONFIRM: actual ministry list and leaders with the church. These are warm,
-  generic invitations to serve until the real teams and team leaders are set.
+  CONFIRM: the serving areas below are warm, generic invitations to serve until
+  the real teams and team leaders are set. The church's named ministries and
+  their leaders now live on the dedicated /ministries page.
 */
 const ministries = [
   {
@@ -118,6 +119,13 @@ export default function GetInvolvedPage() {
               );
             })}
           </div>
+
+          <p className={`${styles.serveMore} reveal`}>
+            Want to see the ministries of the Tower?{" "}
+            <Link href="/ministries" className="link-arrow">
+              Explore our ministries <ArrowRight size={16} />
+            </Link>
+          </p>
         </div>
       </section>
 

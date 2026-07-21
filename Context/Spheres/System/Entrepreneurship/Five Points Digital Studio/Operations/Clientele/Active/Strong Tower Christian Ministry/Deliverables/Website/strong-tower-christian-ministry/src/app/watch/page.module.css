@@ -1,3 +1,30 @@
+/* Ambient hero backdrop — a congregation gathered, held faint beneath the
+   deep ground behind the "Watch & Worship" title. Video-ready: the poster
+   drifts today, real footage drops in through the VideoSlot later. */
+.heroMedia {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  opacity: 0.28;
+}
+
+.heroImg {
+  object-position: center 38%;
+  filter: saturate(0.55) contrast(1.02);
+}
+
+.heroScrim {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(19, 29, 44, 0.5) 0%,
+    rgba(19, 29, 44, 0.78) 100%
+  );
+  pointer-events: none;
+}
+
 .featured {
   padding-bottom: 4rem;
 }

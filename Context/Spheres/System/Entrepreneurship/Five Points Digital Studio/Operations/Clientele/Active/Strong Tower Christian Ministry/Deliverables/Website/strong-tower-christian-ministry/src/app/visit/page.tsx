@@ -13,6 +13,7 @@ import {
 } from "lucide-react";
 import { site } from "@/lib/site";
 import RevealSection from "@/components/RevealSection/RevealSection";
+import VideoSlot from "@/components/Motion/VideoSlot";
 import styles from "./page.module.css";
 
 export const metadata = {
@@ -98,10 +99,13 @@ export default function VisitPage() {
             {/* CONFIRM: typical service length */}
           </div>
           <div className={styles.expectGrid}>
-            {expectations.map((e) => {
+            {expectations.map((e, i) => {
               const Icon = e.icon;
               return (
-                <article key={e.title} className={`${styles.expectCard} reveal`}>
+                <article
+                  key={e.title}
+                  className={`${styles.expectCard} reveal reveal-d${i + 1}`}
+                >
                   <span className={styles.expectIcon} aria-hidden="true">
                     <Icon size={22} />
                   </span>
@@ -144,10 +148,13 @@ export default function VisitPage() {
             <h2 className={styles.sectionTitle}>A few quick answers</h2>
           </div>
           <div className={styles.answerGrid}>
-            {quickAnswers.map((q) => {
+            {quickAnswers.map((q, i) => {
               const Icon = q.icon;
               return (
-                <article key={q.title} className={`${styles.answerCard} reveal`}>
+                <article
+                  key={q.title}
+                  className={`${styles.answerCard} reveal reveal-d${i + 1}`}
+                >
                   <span className={styles.answerIcon} aria-hidden="true">
                     <Icon size={20} />
                   </span>
@@ -160,6 +167,22 @@ export default function VisitPage() {
             })}
           </div>
         </div>
+      </section>
+
+      {/* Atmospheric interlude — video-ready, purely decorative. Renders the
+          poster with a slow Ken Burns drift today; to bring it to life with
+          real footage, add videoSrc="/videos/sanctuary-light.mp4" below —
+          the poster remains the fallback, so the layout does not change. */}
+      <section className={styles.interlude} aria-hidden="true">
+        <VideoSlot
+          poster="/images/atmosphere/word-candle.jpg"
+          alt=""
+          sizes="100vw"
+          imgClassName={styles.interludeImg}
+          motion="ken-burns"
+        />
+        <div className={styles.interludeScrim} />
+        <div className={styles.interludeGrain} />
       </section>
 
       {/* Location */}

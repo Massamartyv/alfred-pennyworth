@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Clock, MapPin, ArrowRight, ArrowUpRight, Play } from "lucide-react";
 import { site } from "@/lib/site";
 import RevealSection from "@/components/RevealSection/RevealSection";
+import VideoSlot from "@/components/Motion/VideoSlot";
 import HaloArc from "@/components/HaloArc/HaloArc";
 import ScriptureInterlude from "@/components/ScriptureInterlude/ScriptureInterlude";
 import Newsletter from "@/components/Newsletter/Newsletter";
@@ -16,13 +17,17 @@ export default function Home() {
       {/* Hero — Rising Light, over real light */}
       <section className={styles.hero}>
         <div className={styles.heroMedia}>
-          <Image
-            src="/images/atmosphere/rising-light-hero.jpg"
+          {/* Video-ready hero. Renders the poster with a slow Ken Burns drift
+              today; to go live with real footage, add e.g.
+              videoSrc="/videos/hero-worship.mp4" — the poster stays as the
+              LCP image and fallback, so nothing else changes. */}
+          <VideoSlot
+            poster="/images/atmosphere/rising-light-hero.jpg"
             alt="Shafts of morning light falling through tall windows into a sanctuary"
-            fill
             priority
             sizes="100vw"
-            className={styles.heroImg}
+            imgClassName={styles.heroImg}
+            motion="ken-burns-slow"
           />
           <div className={styles.heroScrim} aria-hidden="true" />
           <div className={styles.heroGrain} aria-hidden="true" />
@@ -72,7 +77,7 @@ export default function Home() {
               alt="Hands lifted in worship under warm light"
               fill
               sizes="(max-width: 900px) 100vw, 44vw"
-              className={styles.welcomeImg}
+              className={`${styles.welcomeImg} motion-kenburns`}
             />
             <HaloArc variant="up" arcs={4} className={styles.welcomeArc} />
           </div>
@@ -144,10 +149,13 @@ export default function Home() {
             alt=""
             fill
             sizes="100vw"
-            className={styles.watchImg}
+            className={`${styles.watchImg} motion-kenburns-slow`}
           />
         </div>
-        <div className={styles.watchGlow} aria-hidden="true" />
+        <div
+          className={`${styles.watchGlow} motion-ambient-glow`}
+          aria-hidden="true"
+        />
         <div className={`container ${styles.watchInner} reveal`}>
           <div>
             <p className="section-index">03 — The Word, on demand</p>
@@ -176,7 +184,7 @@ export default function Home() {
       {/* 04 / 05 — Visit + Give */}
       <section className={`section ${styles.split}`}>
         <div className={`container ${styles.splitInner}`}>
-          <div className={`${styles.splitCard} reveal`}>
+          <div className={`${styles.splitCard} reveal reveal-d1`}>
             <p className="section-index">04 — New here</p>
             <h2 className={styles.splitTitle}>We saved you a seat</h2>
             <p className={styles.splitCopy}>
@@ -186,7 +194,7 @@ export default function Home() {
               Plan your visit <ArrowRight size={18} />
             </Link>
           </div>
-          <div className={`${styles.splitCard} ${styles.splitGive} reveal`}>
+          <div className={`${styles.splitCard} ${styles.splitGive} reveal reveal-d2`}>
             <p className="section-index">05 — Give</p>
             <h2 className={styles.splitTitle}>Partner with the Tower</h2>
             <p className={styles.splitCopy}>

@@ -13,10 +13,11 @@ const leaders = [
   {
     initials: "KG",
     name: "Pastor Kelsey M. Goodson",
-    role: "Pastor",
+    role: "Senior Pastor",
     bio: [
-      "Pastor Kelsey M. Goodson was born and raised in Darlington, SC to Argie M. Goodson.",
-      "He is a graduate of Mayo High School, class of 1989.",
+      "Pastor Kelsey M. Goodson was born and raised in Darlington, South Carolina, and graduated from Mayo High School in 1989. He gave 22 years of his life to the service of his country as a soldier in the United States Army.",
+      "In 2001 he gave his life to Christ, and in 2015 he answered the call to preach. He went on to complete his studies at the Sonship School of the Firstborn in Killeen, Texas, and was licensed and ordained under Covenant Connection International.",
+      "He and Prophetess Angela Goodson have been married for 29 years. Together they are the parents of two daughters and are blessed with a son-in-law. He shepherds the Tower family with a soldier's steadiness and a father's heart.",
     ],
   },
   {
@@ -24,8 +25,8 @@ const leaders = [
     name: "Prophetess Angela Goodson",
     role: "Prophetess",
     bio: [
-      "Prophetess Angela Goodson is the wife of Pastor Kelsey Goodson.",
-      "Together they are the parents of two daughters, Chelsea and Naudia.",
+      "Prophetess Angela Goodson stands beside Pastor Goodson as his wife of 29 years and as mother to their two daughters, Chelsea and Naudia.",
+      "Down-to-earth, approachable and transparent, she is known throughout the congregation for her encouragement and her watchful, caring oversight. She meets people right where they are, and the Tower family is warmer for her presence.",
     ],
   },
 ];

@@ -7,6 +7,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/about",
     "/what-we-believe",
     "/leadership",
+    "/ministries",
     "/watch",
     "/events",
     "/visit",

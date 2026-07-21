@@ -1,0 +1,29 @@
+/* Poster image layer. next/image `fill` already sets position + inset;
+   this only guarantees the frame is covered. Page-scoped img classes
+   (object-position, tonal filters) merge on top of this. */
+.media {
+  object-fit: cover;
+}
+
+/* Ambient video layer — fills the same box, sits above the poster, fades in
+   on canplay. Decorative only: no controls, no pointer surface. */
+.video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity var(--duration-dawn) var(--ease-dawn);
+  pointer-events: none;
+}
+
+.videoReady {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .video {
+    transition: none;
+  }
+}

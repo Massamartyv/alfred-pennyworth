@@ -10,6 +10,7 @@ import {
   watchUrl,
 } from "@/lib/youtube";
 import RevealSection from "@/components/RevealSection/RevealSection";
+import VideoSlot from "@/components/Motion/VideoSlot";
 import styles from "./page.module.css";
 
 export const metadata: Metadata = {
@@ -36,6 +37,18 @@ export default async function WatchPage() {
       <RevealSection />
 
       <section className="global-page-hero">
+        {/* Video-ready ambient backdrop. Add videoSrc="/videos/gathering.mp4"
+            to bring it to life; the poster is the fallback and holds today. */}
+        <div className={styles.heroMedia} aria-hidden="true">
+          <VideoSlot
+            poster="/images/worship/congregation-gold.jpg"
+            alt=""
+            sizes="100vw"
+            imgClassName={styles.heroImg}
+            motion="ken-burns-slow"
+          />
+        </div>
+        <div className={styles.heroScrim} aria-hidden="true" />
         <div className="global-page-hero-container">
           <span className="global-page-hero-badge">
             {live.isLive ? "Live now" : "Watch"}

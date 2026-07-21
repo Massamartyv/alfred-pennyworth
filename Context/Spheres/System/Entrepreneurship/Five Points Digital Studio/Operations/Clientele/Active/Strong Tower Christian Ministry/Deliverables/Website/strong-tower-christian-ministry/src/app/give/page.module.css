@@ -53,6 +53,10 @@
 }
 
 .wayCard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   background: var(--bg-field);
   border: 1px solid var(--border-subtle);
   border-top: 3px solid var(--accent-gold);
@@ -65,6 +69,50 @@
 .wayCard:hover {
   transform: translateY(-4px);
   box-shadow: 0 12px 30px rgba(28, 42, 63, 0.1);
+}
+
+/* The primary rail — Realm — carries a touch more weight */
+.wayFeatured {
+  border: 1px solid var(--brand-blue-light);
+  border-top: 3px solid var(--accent-gold);
+  box-shadow: 0 10px 30px rgba(28, 42, 63, 0.08);
+}
+
+.wayBadge {
+  display: inline-block;
+  margin-bottom: 1.25rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: var(--radius-chip);
+  background: var(--gold-glow-soft);
+  color: var(--accent-gold-deep);
+  font-family: var(--font-body), sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+/* The button sits at the foot of the card so cards line up */
+.wayCard .btn {
+  margin-top: auto;
+}
+
+/* Cashtag and text keyword — payment handles people copy by hand.
+   Sans with lining figures: the serif's oldstyle numerals make 0 read as o. */
+.railValue {
+  font-family: var(--font-body), sans-serif;
+  font-variant-numeric: lining-nums;
+  font-size: 1.375rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--brand-blue-deep);
+  margin-bottom: 1.5rem;
+}
+
+.railInline {
+  font-weight: 600;
+  color: var(--brand-blue-deep);
+  white-space: nowrap;
 }
 
 .wayIcon {
@@ -121,9 +169,23 @@
   color: var(--text-main);
 }
 
+/* ───────── Other ways to give ───────── */
+.other {
+  background: var(--bg-accent);
+}
+
+.otherGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 /* ───────── A word on giving ───────── */
 .word {
-  background: var(--bg-accent);
+  background: var(--bg-field);
 }
 
 .wordInner {
@@ -142,7 +204,7 @@
   height: 64px;
   margin-bottom: 1.75rem;
   border-radius: var(--radius-chip);
-  background: var(--bg-field);
+  background: var(--bg-accent);
   color: var(--accent-gold-deep);
 }
 
@@ -188,7 +250,8 @@
 
 /* ───────── Responsive ───────── */
 @media (max-width: 900px) {
-  .waysGrid {
+  .waysGrid,
+  .otherGrid {
     grid-template-columns: 1fr;
   }
 

@@ -1,0 +1,169 @@
+/* Ministry index — sits on the base field tone, closing on the light accent
+   band so the rhythm steps field → accent without a low-contrast dark button. */
+
+/* ───────── Shared section bits ───────── */
+.ministries {
+  background: var(--bg-field);
+}
+
+.sectionHead {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.sectionTitle {
+  font-size: var(--text-h2);
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.sectionLede {
+  max-width: 58ch;
+  margin: 1rem auto 0;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+}
+
+/* ───────── Ministry grid ───────── */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-field);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-card);
+  padding: 2.5rem 2rem 2.25rem;
+  transition: transform 0.3s var(--ease-out-expo), box-shadow 0.3s,
+    border-color 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(28, 42, 63, 0.1);
+  border-color: var(--border-medium);
+}
+
+.cardHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-card);
+  background: var(--bg-accent);
+  color: var(--accent-gold-deep);
+}
+
+.type {
+  font-family: var(--font-body), sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--accent-gold-deep);
+}
+
+.name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.motto {
+  font-family: var(--font-heading), Georgia, serif;
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--brand-blue-deep);
+  margin-bottom: 0.9rem;
+}
+
+.desc {
+  font-size: 1.02rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+}
+
+/* Push the leader / schedule footing to the base of the card */
+.meta {
+  margin-top: auto;
+  padding-top: 1.5rem;
+}
+
+.schedule {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--text-main);
+  margin-bottom: 0.65rem;
+}
+
+.leader {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: var(--text-main);
+}
+
+.leaderLabel {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-bottom: 0.3rem;
+}
+
+/* ───────── Closing CTA ───────── */
+.ctaBand {
+  background: var(--bg-accent);
+  padding-block: var(--spacing-section);
+}
+
+.ctaInner {
+  text-align: center;
+  max-width: 640px;
+}
+
+.ctaTitle {
+  font-size: var(--text-h2);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.ctaCopy {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+}
+
+.ctaActions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ───────── Responsive ───────── */
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ctaInner {
+    max-width: none;
+  }
+}

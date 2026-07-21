@@ -65,17 +65,29 @@ export const site = {
   },
 
   giving: {
-    // Swap-slot: set NEXT_PUBLIC_GIVING_URL to the church's giving destination.
-    url: process.env.NEXT_PUBLIC_GIVING_URL || "",
+    // Rails confirmed from the church's existing giving page.
+    cashApp: {
+      cashtag: "$STCM1810",
+      url: "https://cash.app/$STCM1810",
+    },
+    textToGive: {
+      keyword: "STCM",
+      number: "73256",
+    },
+    realm: {
+      url: "https://onrealm.org/strongtowercm/give/tithes",
+      label: "Realm online giving",
+    },
   },
 
   // Concise top bar for desktop.
   navPrimary: [
     { label: "About", href: "/about" },
+    { label: "Ministries", href: "/ministries" },
     { label: "Watch", href: "/watch" },
     { label: "Events", href: "/events" },
     { label: "Visit", href: "/visit" },
-    { label: "Get Involved", href: "/get-involved" },
+    { label: "Give", href: "/give" },
     { label: "Contact", href: "/contact" },
   ],
 
@@ -84,10 +96,12 @@ export const site = {
     { label: "About", href: "/about" },
     { label: "What We Believe", href: "/what-we-believe" },
     { label: "Leadership", href: "/leadership" },
+    { label: "Ministries", href: "/ministries" },
     { label: "Watch", href: "/watch" },
     { label: "Events", href: "/events" },
     { label: "Visit", href: "/visit" },
     { label: "Get Involved", href: "/get-involved" },
+    { label: "Give", href: "/give" },
     { label: "Prayer", href: "/prayer" },
     { label: "Contact", href: "/contact" },
   ],

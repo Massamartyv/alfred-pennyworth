@@ -26,8 +26,6 @@ export default function Navigation() {
     };
   }, [open]);
 
-  const giveExternal = Boolean(site.giving.url);
-
   return (
     <header className={`${styles.header} ${scrolled ? styles.scrolled : ""}`}>
       <div className={styles.inner}>
@@ -45,20 +43,9 @@ export default function Navigation() {
 
         <div className={styles.actions}>
           <LiveButton />
-          {giveExternal ? (
-            <a
-              href={site.giving.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={`btn btn-primary ${styles.give}`}
-            >
-              Give
-            </a>
-          ) : (
-            <Link href="/give" className={`btn btn-primary ${styles.give}`}>
-              Give
-            </Link>
-          )}
+          <Link href="/give" className={`btn btn-primary ${styles.give}`}>
+            Give
+          </Link>
           <button
             className={styles.menuBtn}
             aria-label={open ? "Close menu" : "Open menu"}

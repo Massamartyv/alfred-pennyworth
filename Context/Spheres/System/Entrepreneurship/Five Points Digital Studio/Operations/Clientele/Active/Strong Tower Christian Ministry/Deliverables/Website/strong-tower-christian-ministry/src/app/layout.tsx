@@ -3,6 +3,7 @@ import { Inter, Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
 import Navigation from "@/components/Navigation/Navigation";
 import Footer from "@/components/Footer/Footer";
+import PrayerPresence from "@/components/PrayerPresence/PrayerPresence";
 import { site } from "@/lib/site";
 
 const inter = Inter({
@@ -58,6 +59,7 @@ export default function RootLayout({
         <Navigation />
         <main id="main-content">{children}</main>
         <Footer />
+        <PrayerPresence />
       </body>
     </html>
   );

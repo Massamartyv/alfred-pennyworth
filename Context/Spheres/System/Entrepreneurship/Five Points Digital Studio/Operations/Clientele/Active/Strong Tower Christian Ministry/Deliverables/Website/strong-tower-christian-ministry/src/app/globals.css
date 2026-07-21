@@ -453,6 +453,91 @@ img {
   transform: none;
 }
 
+/* ───────── Ambient motion — light, not motion for its own sake ─────────
+   Reusable, CSS-only primitives. Compositor-friendly only (transform, opacity).
+   Every animation here is neutralised by the prefers-reduced-motion block below. */
+
+/* Ken Burns — a slow, reverent drift over hero and section imagery.
+   Scale 1.0 → 1.06 across a long cycle, transform-only, no repaint.
+   The image already covers its box (object-fit: cover); the 6% overflow
+   keeps the frame full at every point of the drift, so no edge is exposed. */
+@keyframes ken-burns-drift {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.06) translate3d(0, -1.1%, 0);
+  }
+}
+
+.motion-kenburns {
+  animation: ken-burns-drift 32s var(--ease-dawn) alternate infinite;
+  transform-origin: center 42%;
+  will-change: transform;
+}
+
+.motion-kenburns-slow {
+  animation: ken-burns-drift 40s var(--ease-dawn) alternate infinite;
+  transform-origin: center 40%;
+  will-change: transform;
+}
+
+/* Ambient light-shift — a barely-perceptible breathe for gold light layers
+   sitting over the dark fortress grounds. Opacity + gentle scale, both
+   compositor-safe. Apply to a decorative, absolutely-positioned glow layer. */
+@keyframes ambient-breathe {
+  0%,
+  100% {
+    opacity: 0.55;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.06);
+  }
+}
+
+.motion-ambient-glow {
+  animation: ambient-breathe 24s ease-in-out infinite;
+  will-change: opacity, transform;
+}
+
+/* The concentric light behind every sub-page hero breathes, slowly.
+   Single point of application; scatters the same reverent light-shift across
+   about, leadership, ministries, watch, visit and the rest. Its own keyframes
+   preserve the translateX(-50%) centring the base rule depends on. */
+@keyframes hero-glow-breathe {
+  0%,
+  100% {
+    opacity: 0.6;
+    transform: translateX(-50%) scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(-50%) scale(1.06);
+  }
+}
+
+.global-page-hero::before {
+  animation: hero-glow-breathe 26s ease-in-out infinite;
+}
+
+/* Reveal stagger — opt-in transition-delay steps layered onto the existing
+   .reveal. Cards in a grid enter the viewport together and settle in gentle
+   sequence rather than all at once. Delays stay well under 400ms. */
+.reveal-d1 {
+  transition-delay: 0.08s;
+}
+.reveal-d2 {
+  transition-delay: 0.16s;
+}
+.reveal-d3 {
+  transition-delay: 0.24s;
+}
+.reveal-d4 {
+  transition-delay: 0.32s;
+}
+
 /* ───────── Focus styles ───────── */
 a:focus-visible,
 button:focus-visible,
@@ -477,5 +562,28 @@ textarea:focus-visible {
   .reveal {
     opacity: 1 !important;
     transform: none !important;
+  }
+
+  /* Ambient primitives fall back to a still frame — no drift, no breathe,
+     no stagger, no layer promotion. Light holds, it does not move. */
+  .motion-kenburns,
+  .motion-kenburns-slow,
+  .motion-ambient-glow {
+    animation: none !important;
+    transform: none !important;
+    will-change: auto !important;
+  }
+
+  /* Keep the centring transform; only still the breathe. */
+  .global-page-hero::before {
+    animation: none !important;
+    transform: translateX(-50%) !important;
+  }
+
+  .reveal-d1,
+  .reveal-d2,
+  .reveal-d3,
+  .reveal-d4 {
+    transition-delay: 0s !important;
   }
 }

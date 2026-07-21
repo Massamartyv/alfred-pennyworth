@@ -2,6 +2,8 @@ import Link from "next/link";
 import {
   Heart,
   Globe,
+  Smartphone,
+  MessageSquare,
   MapPin,
   Mail,
   Clock,
@@ -14,11 +16,11 @@ import styles from "./page.module.css";
 export const metadata = {
   title: "Give",
   description:
-    "Partner with the work of Strong Tower Christian Ministry through your tithes and offering. Give online, in person or by mail.",
+    "Partner with the work of Strong Tower Christian Ministry through your tithes and offering. Give online with Realm, by Cash App, by text, in person or by mail.",
 };
 
 export default function GivePage() {
-  const givingUrl = site.giving.url;
+  const { realm, cashApp, textToGive } = site.giving;
 
   return (
     <>
@@ -49,12 +51,12 @@ export default function GivePage() {
         </div>
       </section>
 
-      {/* Ways to give */}
+      {/* Ways to give — the three digital rails */}
       <section className={`section ${styles.ways}`}>
         <div className="container">
           <div className={`${styles.sectionHead} reveal`}>
             <p className="eyebrow">Ways to give</p>
-            <h2 className={styles.sectionTitle}>Three simple ways</h2>
+            <h2 className={styles.sectionTitle}>Three simple ways to give</h2>
             <p className={styles.sectionLede}>
               Give whichever way is easiest for you. Every gift, large or small,
               makes a difference.
@@ -62,41 +64,83 @@ export default function GivePage() {
           </div>
 
           <div className={styles.waysGrid}>
-            {/* Online — swap-slot */}
-            <article className={`${styles.wayCard} reveal`}>
+            {/* Give online — Realm, the primary rail */}
+            <article className={`${styles.wayCard} ${styles.wayFeatured} reveal`}>
+              <span className={styles.wayBadge}>Easiest way</span>
               <span className={styles.wayIcon} aria-hidden="true">
                 <Globe size={24} />
               </span>
-              <h3 className={styles.wayTitle}>Online</h3>
-              {givingUrl ? (
-                <>
-                  <p className={styles.wayDesc}>
-                    Give securely from anywhere in just a few moments. Set up a
-                    one-time gift or make it recurring.
-                  </p>
-                  <a
-                    href={givingUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn btn-primary"
-                  >
-                    Give online <ArrowRight size={18} />
-                  </a>
-                </>
-              ) : (
-                <>
-                  {/* CONFIRM: online giving destination — set NEXT_PUBLIC_GIVING_URL to enable the live button */}
-                  <p className={styles.wayDesc}>
-                    Online giving is coming soon. For now, you can give in person
-                    at any service or by mail using the details here.
-                  </p>
-                  <Link href="/contact" className="btn btn-secondary">
-                    Questions? Contact us <ArrowRight size={18} />
-                  </Link>
-                </>
-              )}
+              <h3 className={styles.wayTitle}>Give online</h3>
+              <p className={styles.wayDesc}>
+                Give securely through Realm, our church giving platform. Make a
+                one-time gift or set up a recurring gift in just a few moments.
+              </p>
+              <a
+                href={realm.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary"
+              >
+                Give with Realm <ArrowRight size={18} />
+              </a>
             </article>
 
+            {/* Cash App */}
+            <article className={`${styles.wayCard} reveal`}>
+              <span className={styles.wayIcon} aria-hidden="true">
+                <Smartphone size={24} />
+              </span>
+              <h3 className={styles.wayTitle}>Cash App</h3>
+              <p className={styles.wayDesc}>
+                Prefer to give from your phone? Send your gift to our Cash App
+                tag:
+              </p>
+              <p className={styles.railValue}>{cashApp.cashtag}</p>
+              <a
+                href={cashApp.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-secondary"
+              >
+                Open Cash App <ArrowRight size={18} />
+              </a>
+            </article>
+
+            {/* Text to give */}
+            <article className={`${styles.wayCard} reveal`}>
+              <span className={styles.wayIcon} aria-hidden="true">
+                <MessageSquare size={24} />
+              </span>
+              <h3 className={styles.wayTitle}>Give by text</h3>
+              <p className={styles.wayDesc}>
+                Text the word{" "}
+                <strong className={styles.railInline}>
+                  {textToGive.keyword}
+                </strong>{" "}
+                to{" "}
+                <strong className={styles.railInline}>
+                  {textToGive.number}
+                </strong>{" "}
+                and follow the link you receive. The first time, it walks you
+                through a quick setup. After that, giving takes seconds.
+              </p>
+              <p className={styles.railValue}>
+                {textToGive.keyword} &rarr; {textToGive.number}
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      {/* Other ways to give — in person and by mail */}
+      <section className={`section ${styles.other}`}>
+        <div className="container">
+          <div className={`${styles.sectionHead} reveal`}>
+            <p className="eyebrow">You can also give</p>
+            <h2 className={styles.sectionTitle}>In person or by mail</h2>
+          </div>
+
+          <div className={styles.otherGrid}>
             {/* In person */}
             <article className={`${styles.wayCard} reveal`}>
               <span className={styles.wayIcon} aria-hidden="true">

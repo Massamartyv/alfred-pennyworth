@@ -67,6 +67,14 @@
   color: var(--text-muted);
 }
 
+.serveMore {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+}
+
 /* ───────── Next steps ───────── */
 .steps {
   background: var(--bg-accent);
