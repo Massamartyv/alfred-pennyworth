@@ -1,26 +1,56 @@
-# Interim imagery — replace with real Strong Tower photography
+# Image & video credits — Strong Tower Christian Ministry
 
-These images are **placeholders**. They are atmospheric, architectural and textural
-only — light, hands in worship in silhouette, the Word by candlelight. None of them
-depict the Strong Tower congregation, leadership or building. They evoke the feeling
-of the room without misrepresenting it.
+## The church's own media (primary)
 
-**Priority at brand lock:** replace every file below with real Strong Tower
-photography — worship and service, the building exterior and interior, Florence.
-Until then these hold the layout and set the tone.
+Harvested from the ministry's prior website on **2026-07-21** and placed across
+the site to replace the interim Unsplash stock below. These files depict the
+real Strong Tower congregation, leadership and building — no stock, no
+AI-generated people. Source: the church's own photography and footage.
 
-Source: Unsplash. License: https://unsplash.com/license (free for commercial use,
-no attribution required, no resale of the standalone photo). Provenance recorded
-here so each file can be traced and swapped cleanly.
+**Videos** — `public/videos/` (muted, 1080p H.264 ambient loops):
 
-| File | Use | Unsplash photo id | Replace with |
-|---|---|---|---|
-| `atmosphere/rising-light-hero.jpg` | Home hero background | photo-1589198234915-b57a9ad85d1e | Wide shot of the sanctuary in light, or the building |
-| `worship/hands-raised-gold.jpg` | Home "Welcome" band | photo-1438232992991-995b7058bbb3 | Real Strong Tower worship (congregation, hands) |
-| `worship/congregation-gold.jpg` | Home "Watch" band backdrop | photo-1570786032462-2efc3ca8fccd | Real Strong Tower service / online-watch context |
-| `atmosphere/word-candle.jpg` | Reserve — "the Word" texture | photo-1695583436382-0e5e62412596 | Real detail — open Word, the altar, the room |
+| File | Placement |
+|---|---|
+| `preaching-sanctuary.mp4` | Home — "Watch" band backdrop (VideoSlot) |
+| `church-family.mp4` | Watch — hero backdrop, and Visit — atmospheric interlude (VideoSlot) |
+| `worship-band.mp4` | Get Involved — one motion band above "Next steps" (VideoSlot) |
+| `prayer-ministry.mp4` | (poster only — see below) |
 
-Hard rules carried from the redesign handoff:
+Each video ships a matching `<name>-poster.jpg` in `public/images/church/`,
+used as the LCP-safe fallback / first frame and the reduced-motion still.
+
+**Images** — `public/images/church/`:
+
+| File | Placement |
+|---|---|
+| `goodsons-ministering.jpg` | Home — "Welcome" section image |
+| `pastor-kelsey-goodson.jpg` | Leadership — Pastor Kelsey M. Goodson portrait |
+| `prophetess-angela-goodson.jpg` | Leadership — Prophetess Angela Goodson portrait |
+| `prayer-ministry-poster.jpg` | Prayer — quiet still band (still, no motion, reverent) |
+| `sonship-graduation.jpg` | Ministries — Sonship School of the Firstborn card (Class of 2021, held at ~960px, medium/card size) |
+| `church-family-poster.jpg`, `preaching-sanctuary-poster.jpg`, `worship-band-poster.jpg` | Video posters / fallbacks (see table above) |
+
+## Interim stock (Unsplash)
+
+Source: Unsplash. License: https://unsplash.com/license (free for commercial
+use, no attribution required, no resale of the standalone photo).
+
+**Still in use:**
+
+| File | Use | Why it remains |
+|---|---|---|
+| `atmosphere/rising-light-hero.jpg` | Home hero background | Held by operator ruling — the home hero is untouched. No church asset replaces it at this pass. |
+
+**No longer referenced (retired at the 2026-07-21 harvest, files retained on disk):**
+
+| File | Former use | Replaced by |
+|---|---|---|
+| `worship/hands-raised-gold.jpg` | Home "Welcome" band | `church/goodsons-ministering.jpg` |
+| `worship/congregation-gold.jpg` | Home "Watch" band + Watch hero | `church/preaching-sanctuary.mp4` (home), `church/church-family.mp4` (watch) |
+| `atmosphere/word-candle.jpg` | Visit atmospheric interlude | `church/church-family.mp4` |
+
+Hard rules carried from the redesign handoff (still in force):
 - No AI-generated people.
 - No stock photo of an obviously different congregation presented as Strong Tower.
+- Never use the dated event flyer.
 - A strong type-and-light composition beats a fake-congregation stock photo.

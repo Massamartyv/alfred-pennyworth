@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import { site } from "@/lib/site";
 import RevealSection from "@/components/RevealSection/RevealSection";
@@ -12,6 +13,9 @@ export const metadata = {
 const leaders = [
   {
     initials: "KG",
+    photo: "/images/church/pastor-kelsey-goodson.jpg",
+    photoAlt:
+      "Pastor Kelsey M. Goodson at the Strong Tower sanctuary, before the church's Strong Tower wall",
     name: "Pastor Kelsey M. Goodson",
     role: "Senior Pastor",
     bio: [
@@ -22,6 +26,9 @@ const leaders = [
   },
   {
     initials: "AG",
+    photo: "/images/church/prophetess-angela-goodson.jpg",
+    photoAlt:
+      "Prophetess Angela Goodson at the Strong Tower sanctuary, before the church's Strong Tower wall",
     name: "Prophetess Angela Goodson",
     role: "Prophetess",
     bio: [
@@ -56,9 +63,14 @@ export default function LeadershipPage() {
           <div className={styles.leaderGrid}>
             {leaders.map((leader) => (
               <article key={leader.name} className={`${styles.leaderCard} reveal`}>
-                {/* CONFIRM: leader photos and any additional leaders */}
-                <div className={styles.portrait} aria-hidden="true">
-                  <span className={styles.monogram}>{leader.initials}</span>
+                <div className={styles.portrait}>
+                  <Image
+                    src={leader.photo}
+                    alt={leader.photoAlt}
+                    fill
+                    sizes="(max-width: 900px) 100vw, 50vw"
+                    className={styles.portraitImg}
+                  />
                 </div>
                 <div className={styles.leaderBody}>
                   <p className={styles.leaderRole}>{leader.role}</p>

@@ -169,13 +169,13 @@ export default function VisitPage() {
         </div>
       </section>
 
-      {/* Atmospheric interlude — video-ready, purely decorative. Renders the
-          poster with a slow Ken Burns drift today; to bring it to life with
-          real footage, add videoSrc="/videos/sanctuary-light.mp4" below —
-          the poster remains the fallback, so the layout does not change. */}
+      {/* Atmospheric interlude — the church family gathered with the praise
+          team, the church's own footage. Poster is the fallback, so there is
+          no layout shift and reduced-motion holds on the still. */}
       <section className={styles.interlude} aria-hidden="true">
         <VideoSlot
-          poster="/images/atmosphere/word-candle.jpg"
+          poster="/images/church/church-family-poster.jpg"
+          videoSrc="/videos/church-family.mp4"
           alt=""
           sizes="100vw"
           imgClassName={styles.interludeImg}

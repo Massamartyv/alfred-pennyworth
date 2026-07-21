@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import {
   DoorOpen,
   Compass,
@@ -57,6 +58,9 @@ const ministries = [
     // CONFIRM: leader / teachers for this ministry.
     leader: null,
     motto: "Transforming Servants, to Sons",
+    image: "/images/church/sonship-graduation.jpg",
+    imageAlt:
+      "The Sonship School of the Firstborn Class of 2021 in graduation robes at the Tower",
     desc: "Teaching and formation for those being shaped and matured in the faith — a school of the Spirit for the whole body.",
   },
   {
@@ -119,6 +123,17 @@ export default function MinistriesPage() {
               const Icon = m.icon;
               return (
                 <article key={m.name} className={`${styles.card} reveal`}>
+                  {"image" in m && m.image ? (
+                    <div className={styles.cardMedia}>
+                      <Image
+                        src={m.image}
+                        alt={m.imageAlt}
+                        fill
+                        sizes="(max-width: 900px) 100vw, 50vw"
+                        className={styles.cardMediaImg}
+                      />
+                    </div>
+                  ) : null}
                   <div className={styles.cardHead}>
                     <span className={styles.icon} aria-hidden="true">
                       <Icon size={24} />

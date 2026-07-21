@@ -1,3 +1,32 @@
+/* Reverent still band — the prayer team laying on of hands. No motion by
+   design; a soft vignette seats it between the hero and the request form. */
+.presence {
+  position: relative;
+  aspect-ratio: 16 / 5;
+  overflow: hidden;
+  background: var(--bg-fortress-deep, var(--bg-fortress));
+}
+
+.presence::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    to bottom,
+    rgba(28, 42, 63, 0.3) 0%,
+    rgba(28, 42, 63, 0) 30%,
+    rgba(28, 42, 63, 0) 70%,
+    rgba(28, 42, 63, 0.34) 100%
+  );
+}
+
+.presenceImg {
+  object-fit: cover;
+  object-position: center 42%;
+  filter: saturate(0.6) contrast(1.02);
+}
+
 .inner {
   display: grid;
   grid-template-columns: 0.9fr 1.1fr;
@@ -49,5 +78,9 @@
   .inner {
     grid-template-columns: 1fr;
     gap: 2.5rem;
+  }
+
+  .presence {
+    aspect-ratio: 3 / 2;
   }
 }

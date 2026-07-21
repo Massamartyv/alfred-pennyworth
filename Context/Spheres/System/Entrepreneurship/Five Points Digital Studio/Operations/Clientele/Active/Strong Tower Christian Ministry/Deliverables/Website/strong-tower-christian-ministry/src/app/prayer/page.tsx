@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { site } from "@/lib/site";
 import RevealSection from "@/components/RevealSection/RevealSection";
 import PrayerForm from "./prayer-form";
@@ -27,6 +28,18 @@ export default function PrayerPage() {
           </p>
         </div>
       </section>
+
+      {/* A quiet, still moment — the prayer team laying on of hands. Held
+          motionless on purpose so the page stays reverent and calm. */}
+      <div className={styles.presence}>
+        <Image
+          src="/images/church/prayer-ministry-poster.jpg"
+          alt="Members of the Strong Tower prayer team laying on of hands in prayer"
+          fill
+          sizes="100vw"
+          className={styles.presenceImg}
+        />
+      </div>
 
       <section className="section">
         <div className={`container ${styles.inner}`}>

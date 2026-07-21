@@ -26,30 +26,20 @@
   box-shadow: 0 16px 40px rgba(28, 42, 63, 0.12);
 }
 
-/* Monogram portrait placeholder — brand gold on slate-navy */
+/* Leader portrait — the church's own standing portraits. The 3/4 frame
+   matches the source files, so the full figure reads with no mid-face crop
+   and no layout shift. Gold underline keeps the brand accent. */
 .portrait {
   position: relative;
-  aspect-ratio: 4 / 3;
-  background:
-    radial-gradient(
-      circle at 50% 35%,
-      rgba(198, 162, 78, 0.22) 0%,
-      transparent 60%
-    ),
-    var(--bg-fortress);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  aspect-ratio: 3 / 4;
+  background: var(--bg-fortress);
+  overflow: hidden;
   border-bottom: 3px solid var(--accent-gold);
 }
 
-.monogram {
-  font-family: var(--font-heading), Georgia, serif;
-  font-size: clamp(3.5rem, 8vw, 5.5rem);
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  color: var(--accent-gold-light);
-  line-height: 1;
+.portraitImg {
+  object-fit: cover;
+  object-position: center top;
 }
 
 .leaderBody {

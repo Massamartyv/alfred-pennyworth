@@ -37,14 +37,16 @@ export default async function WatchPage() {
       <RevealSection />
 
       <section className="global-page-hero">
-        {/* Video-ready ambient backdrop. Add videoSrc="/videos/gathering.mp4"
-            to bring it to life; the poster is the fallback and holds today. */}
+        {/* The church family gathered with the praise team at the branded
+            pulpit — the church's own footage. Poster holds as the fallback. */}
         <div className={styles.heroMedia} aria-hidden="true">
           <VideoSlot
-            poster="/images/worship/congregation-gold.jpg"
+            poster="/images/church/church-family-poster.jpg"
+            videoSrc="/videos/church-family.mp4"
             alt=""
             sizes="100vw"
             imgClassName={styles.heroImg}
+            objectPosition="center 38%"
             motion="ken-burns-slow"
           />
         </div>

@@ -9,6 +9,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import RevealSection from "@/components/RevealSection/RevealSection";
+import VideoSlot from "@/components/Motion/VideoSlot";
 import styles from "./page.module.css";
 
 export const metadata = {
@@ -127,6 +128,20 @@ export default function GetInvolvedPage() {
             </Link>
           </p>
         </div>
+      </section>
+
+      {/* One motion moment — the worship musicians in rehearsal, the church's
+          own footage. Poster is the fallback; reduced-motion holds the still. */}
+      <section className={styles.serveBand} aria-hidden="true">
+        <VideoSlot
+          poster="/images/church/worship-band-poster.jpg"
+          videoSrc="/videos/worship-band.mp4"
+          alt=""
+          sizes="100vw"
+          imgClassName={styles.serveBandImg}
+          objectPosition="center 45%"
+          motion="ken-burns-slow"
+        />
       </section>
 
       {/* Next steps */}

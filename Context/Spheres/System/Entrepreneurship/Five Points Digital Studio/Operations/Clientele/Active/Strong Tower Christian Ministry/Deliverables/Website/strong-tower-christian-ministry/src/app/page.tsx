@@ -73,8 +73,8 @@ export default function Home() {
         <div className={`container ${styles.welcomeInner}`}>
           <div className={`${styles.welcomeMedia} reveal`}>
             <Image
-              src="/images/worship/hands-raised-gold.jpg"
-              alt="Hands lifted in worship under warm light"
+              src="/images/church/goodsons-ministering.jpg"
+              alt="Pastor Kelsey M. Goodson and Prophetess Angela Goodson ministering together at the Strong Tower pulpit"
               fill
               sizes="(max-width: 900px) 100vw, 44vw"
               className={`${styles.welcomeImg} motion-kenburns`}
@@ -144,12 +144,16 @@ export default function Home() {
       {/* 03 — Watch */}
       <section className={styles.watch}>
         <div className={styles.watchMedia} aria-hidden="true">
-          <Image
-            src="/images/worship/congregation-gold.jpg"
+          {/* Pastor Goodson preaching to the congregation — the church's own
+              footage. Poster is the LCP-safe fallback; the muted loop fades in. */}
+          <VideoSlot
+            poster="/images/church/preaching-sanctuary-poster.jpg"
+            videoSrc="/videos/preaching-sanctuary.mp4"
             alt=""
-            fill
             sizes="100vw"
-            className={`${styles.watchImg} motion-kenburns-slow`}
+            imgClassName={styles.watchImg}
+            objectPosition="center 40%"
+            motion="ken-burns-slow"
           />
         </div>
         <div
