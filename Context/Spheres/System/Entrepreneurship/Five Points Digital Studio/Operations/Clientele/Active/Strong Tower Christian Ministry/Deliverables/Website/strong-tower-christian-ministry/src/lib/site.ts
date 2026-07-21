@@ -87,7 +87,6 @@ export const site = {
     { label: "Watch", href: "/watch" },
     { label: "Events", href: "/events" },
     { label: "Visit", href: "/visit" },
-    { label: "Give", href: "/give" },
     { label: "Contact", href: "/contact" },
   ],
 
@@ -101,7 +100,6 @@ export const site = {
     { label: "Events", href: "/events" },
     { label: "Visit", href: "/visit" },
     { label: "Get Involved", href: "/get-involved" },
-    { label: "Give", href: "/give" },
     { label: "Prayer", href: "/prayer" },
     { label: "Contact", href: "/contact" },
   ],
