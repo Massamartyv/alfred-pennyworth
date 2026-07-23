@@ -18,7 +18,8 @@
 | `ZERNIO_MARTYGRAS_API_KEY` | Pennyone Marty Gras pipeline (future) | Zernio dashboard for the Marty Gras account when provisioned |
 | `ZERNIO_PARADIGM_API_KEY` | Pennyone Paradigm pipeline (future) | Zernio dashboard for the Paradigm account when provisioned |
 | `ZERNIO_LILLIEANDLYNETTE_API_KEY` | Pennyone Lillie and Lynette pipeline (future) | Zernio dashboard for the L&L account when provisioned |
-| `INSTANTLY_FIVEPOINTS_API_KEY` | instantly MCP | Instantly workspace settings > API; generate a v2 API key (v1 keys are not compatible with the MCP) |
+| `INSTANTLY_FIVEPOINTS_API_KEY` | nothing – Clay replaced Instantly as the outbound lead engine 2026-07-10; the `instantly` MCP server code (`Integrations/instantly/`) and its `.mcp.json` entry were torn down 2026-07-23 (The Lamplighter, registries lane) | **pending, operator action:** delete this line from `.env` by hand; the account itself also awaits cancellation – see `accounts-inventory.md` |
+| `CALCOM_FIVEPOINTS_API_KEY` | calcom MCP, Five Points pipeline | **absent from `.env` as of 2026-07-23** – the server registers and starts but every call fails until this key is dropped in; Cal.com dashboard > Settings > Developer > API keys; scope to the `martavious-spicer` event-type owner used by the Five Points pipeline |
 | `STRAVA_CLIENT_ID` | strava MCP bootstrap | strava.com/settings/api > My API Application; the Client ID is shown in plain text and does not rotate unless the app is deleted and recreated |
 | `STRAVA_CLIENT_SECRET` | strava MCP bootstrap | same location as Client ID; reset via "Reset Secret" button; callback domain must remain localhost |
 | `FULLSCRIPT_CLIENT_ID` | fullscript MCP | Fullscript practitioner portal > Developer settings > OAuth application; Client ID is static unless the app is deleted |
@@ -27,11 +28,31 @@
 | `FULLSCRIPT_BASE_URL` | fullscript MCP | Fullscript API base URL for the environment; confirm in Fullscript developer documentation at time of re-issue |
 | `APIFY_PERSONAL_TOKEN` | scraping – personal scope | Apify console (personal account) > Settings > Integrations > Personal API tokens |
 | `APIFY_FIVEPOINTS_TOKEN` | scraping – Five Points scope | Apify console (Five Points account) > same path as above |
-| `ANTHROPIC_API_KEY` | Catalogue app didactic panel (its own `.env.local`, not the repo root `.env`) | Anthropic console > API keys; the Catalogue app manages this separately from the Claude Code session |
 | `DISCORD_BOT_TOKEN` | discord-setup MCP | Discord developer portal > Applications > select the bot > Bot tab > Reset Token; update permissions and re-invite if the bot was removed during the reset |
 | `ELEVENLABS_API_KEY` | elevenlabs MCP (`uvx elevenlabs-mcp`, project scope) | elevenlabs.io/app/settings/api-keys > create API key; add the line to `.env` by hand. **Pending 2026-07-10:** launch check confirms the variable is not yet present in `.env` – the server halts demanding it. While in the dashboard, confirm the account login email against `accounts-inventory.md` |
 | `NOTION_PERSONAL_TOKEN` | notion-personal icon helper (`Integrations/notion-personal/upload_icon.py`) | Notion personal workspace settings > Connections > Develop or manage integrations > new internal integration with content read, update and insert capabilities; copy the secret; connect the integration to the Projects database. **Pending 2026-07-10:** variable not yet in `.env` – the helper halts demanding it |
 | Perplexity API key | Perplexity integrations (if wired) | confirm against `.env` by hand; same caveat as above |
+
+---
+
+## Environment Variables in `Apps/nabu/.env.local` (Nabu's own repo, gitignored – separate from the repo-root `.env`)
+
+**Catalogued here for the first time 2026-07-23 (The Lamplighter, registries lane) – to-be-provisioned/verified as part of any restore.** Nabu (`Apps/nabu`) is a standalone Next.js app, not an MCP server; nothing in this table registers with `.mcp.json` or `~/.claude.json`. It reads its own `.env.local`, templated by its own `.env.example` (which Alfred is equally denied from reading, by the same `.env*` deny pattern). It is driven interactively by its own dev server and headlessly by the `nabu-likes` scheduled task (`npm run watch-likes`). Names and purposes below are sourced from the app's own `README.md` and its source (`lib/ai/`, `lib/notion/`, `lib/youtube/`) – every variable is optional at the code level, but the rows marked required are load-bearing for the `nabu-likes` scheduled task specifically.
+
+| Variable | Consumed by | Re-issue procedure |
+|---|---|---|
+| `ANTHROPIC_API_KEY` | Nabu's AI layer – didactic panel (abstract, key points, chapters) and the classification/sphere-assignment step of Save to Media; **required** for `nabu-likes` to file full entries | Anthropic console > API keys; Nabu manages its own key independently of the Claude Code session's credentials |
+| `NABU_MODEL` | Which Claude model writes the panel | Config flag, not a secret; defaults to `claude-sonnet-4-5` if unset |
+| `NABU_MAX_ITEMS` | Cap on videos pulled from a playlist or channel in the interactive UI | Config flag, not a secret; defaults to `25` |
+| `NABU_WATCH_MAX_PER_RUN` | Cap on new likes filed per `nabu-likes` run | Config flag, not a secret; defaults to `10` |
+| `NABU_NOTIFY_IMESSAGE` | Operator's iMessage handle for watcher per-item notices | Config value, not a secret; unset means the watcher stays silent on success |
+| `NOTION_TOKEN` | Connects Save to Media; **required** for `nabu-likes` to file anything | Create an internal integration at notion.com/my-integrations; copy its token; add the integration to both the Media and Sphere Manager databases via each database's `•••` menu > Connections |
+| `NOTION_MEDIA_DATA_SOURCE_ID` | Personal workspace Media database data-source id | Cross-check the "Notion database IDs" reference memory, or read it from the Notion API against the Media database |
+| `NOTION_SPHERE_DATA_SOURCE_ID` | Personal workspace Sphere Manager data-source id, for auto-sphere assignment | Same path as above, against the Sphere Manager database |
+| `YT_OAUTH_CLIENT_ID` | Liked-video watcher's Google OAuth client id | Google Cloud console > new project > enable YouTube Data API v3 > create an OAuth client of type Desktop app |
+| `YT_OAUTH_CLIENT_SECRET` | Liked-video watcher's Google OAuth client secret | Same app as above; same console screen |
+| `YT_OAUTH_REFRESH_TOKEN` | Liked-video watcher's long-lived Google auth | Run `npm run yt:auth` from `Apps/nabu` (wraps `scripts/authorize.mjs`), open the printed URL, grant read-only access, paste the printed refresh token into `.env.local` |
+| `YT_TRANSCRIPT_IO_TOKEN` | Optional paid fallback transcript fetch via the youtube-transcript.io API, used only when the free InnerTube/`youtube-transcript-plus` paths fail | youtube-transcript.io account dashboard |
 
 ---
 
@@ -61,4 +82,4 @@ Items that must be present and verified in the password manager before any resto
 
 ---
 
-*Last updated: 2026-07-10*
+*Last updated: 2026-07-23 – The Lamplighter, registries lane: Instantly key marked pending removal (teardown 2026-07-23, decision 2026-07-10), Cal.com key added as absent, Nabu's own environment surface catalogued for the first time.*

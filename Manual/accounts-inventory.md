@@ -1,6 +1,6 @@
 # Accounts Inventory – Every Account the System Touches
 
-**Purpose:** rebuild reference for the operating system. Pairs with `genesis.md` as the authoritative account map for a clean restore. **Last verified:** 2026-06-11.
+**Purpose:** rebuild reference for the operating system. Pairs with `genesis.md` as the authoritative account map for a clean restore. **Last verified:** 2026-07-23 (The Lamplighter, registries lane – cross-checked against current filesystem and MCP evidence; only the Instantly row was factually wrong and corrected).
 
 **Rule:** credentials never appear in this file. Passwords, tokens, and API keys live exclusively in the password manager. This file holds names, routing rules, and procedures only.
 
@@ -38,7 +38,7 @@
 | Supabase – personal | Personal | confirm | Personal project databases and infrastructure | confirm |
 | Supabase – Five Points | Business | systems@fivepoints.studio | Five Points project databases and infrastructure | systems@ |
 | Stripe – Five Points | Business | finance@fivepoints.studio | Payments and offer architecture (Priestley ATM); note: NO personal Stripe account exists – all Stripe operations are business-scoped by rule | finance@ |
-| Instantly | Business – retired 2026-07-10 | confirm | Replaced by Clay; account cancellation pending operator | confirm |
+| Instantly | Business – retired (decision 2026-07-10, MCP server torn down 2026-07-23) | confirm | Replaced by Clay; the `.env` key and the account itself both still await operator removal/cancellation – see `secrets-inventory.md` | confirm |
 | Clay | Business | confirm | Outbound lead engine for Five Points: enrichment, sequencing, sending | confirm |
 | Zernio – personal pipeline | Personal | confirm | Social syndication via Pennyone: Instagram, Threads, TikTok connected as massamartyv | confirm |
 | Zernio – Five Points pipeline | Business | confirm | Social syndication via Pennyone: Instagram connected as studio.fivepoints | confirm |
@@ -62,4 +62,4 @@ The quarterly restore drill (`restore-drill.md`) explicitly validates this list 
 
 ---
 
-*Last updated: 2026-07-10*
+*Last updated: 2026-07-23 – The Lamplighter, registries lane: Instantly row trued up to the 2026-07-23 MCP teardown. All other rows checked against current filesystem and MCP evidence and left standing; "confirm" cells intentionally left for the operator.*

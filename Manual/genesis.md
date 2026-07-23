@@ -84,6 +84,10 @@ If `~/.claude` already exists (Claude Code installed first), clone elsewhere and
 3. Run `claude doctor` – resolve anything red.
 4. Launch `claude` inside `/Users/martyspicer/Alfred Pennyworth`: trust the folder when prompted and approve the project MCP servers from `.mcp.json`.
 5. Confirm the output style is active – responses should arrive in Alfred's voice. The vault's settings.json already selects it; `/output-style alfred-voice` is the fallback only if that setting did not take effect.
+6. Confirm the three project hooks fired. All three are tracked files (`.claude/hooks/` and `.claude/settings.json` are un-ignored via the negation lines in `.gitignore`) and arrived with the Step 4 clone – nothing further to configure:
+   - **SessionStart** (`session-start.sh`) – injects the state-cache summary, flags an unsynced offline buffer, and raises the monthly heartbeat reminder on month rollover. Confirm its output appeared at this session's start.
+   - **Stop** (`stop-speak.sh`) – the voice-mode gate; silent unless voice is toggled on (Step 17).
+   - **statusLine** (`statusline.sh`) – renders `model | scope | phase | cost` in the terminal status line. Confirm it is visible and non-blank.
 
 ## Step 7 – Secrets
 
@@ -93,11 +97,11 @@ If `~/.claude` already exists (Claude Code installed first), clone elsewhere and
 
 ## Step 8 – Python integrations
 
-Each custom MCP server rebuilds its own virtual environment:
+Each custom MCP server rebuilds its own virtual environment. As of 2026-07-23 there are seven – `instantly` is gone (see `mcp-registry.md`); `discord-setup-mcp` is Node-based and rebuilds via `npm install` per Step 9, not this loop:
 
 ```bash
 cd "/Users/martyspicer/Alfred Pennyworth/Integrations"
-for d in fivepoints-mail strava pennyone instantly fullscript-mcp; do
+for d in fivepoints-mail strava pennyone fullscript-mcp calcom fivepoints-calendar apple-calendar; do
   (cd "$d" && python3 -m venv .venv && .venv/bin/pip install -r requirements.txt)
 done
 ```
@@ -155,18 +159,27 @@ supabase login      # personal; Five Points Supabase is token-based via .env
 
 ## Step 14 – Scheduled agents
 
-The vault restores the six task definitions at `~/.claude/scheduled-tasks/`, but **restoring files does not re-register schedules**. Recreate each registration per the heartbeat table (`Agents/heartbeat.md`):
+**Verified live 2026-07-23: exactly four tasks are registered with the scheduler.** The vault restores SKILL.md definitions at `~/.claude/scheduled-tasks/` for these four plus six retired ones, but **restoring files does not re-register schedules** – re-create each of the four below per its SKILL.md and the heartbeat table (`Agents/heartbeat.md`):
 
-| Task | Cadence |
+| Task | Cadence | Cron |
+|---|---|---|
+| `watchtower` | Daily, evening | `0 20 * * *` |
+| `nabu-likes` | Daily, morning | `0 8 * * *` |
+| `contact-card-sync` | Monthly, day 5 | `0 9 5 * *` |
+| `wealth-benchmark-refresh` | Annual, 20 September | `0 9 20 9 *` |
+
+**Six further SKILL.md directories survive on disk but are deliberately NOT registered** – recovery artefacts only, do not re-register them without first clearing the gate named against each:
+
+| Directory | Status |
 |---|---|
-| watchtower | Daily, evening |
-| penny-one (portfolio briefing) | Weekly, Monday morning |
-| context-audit | First of month |
-| media-scanner | First of month |
-| pattern-memo | First of month |
-| sphere-review | First of quarter |
+| `catalogue-likes` | Superseded – renamed to `nabu-likes` when the app renamed from Catalogue to Nabu |
+| `context-audit` | Deliberately absent – interactive report-and-ask agent, runs inside heartbeat sessions only |
+| `media-scanner` | Deliberately absent – same reason |
+| `sphere-review` | Deliberately absent – same reason |
+| `penny-one` | Deregistered 2026-07-23 (The Lamplighter) – portfolio-briefing ownership collapsed to Watchtower; gated on a redesign session before reactivation |
+| `pattern-memo` | Headless scheduling paused 2026-07-23 – gated on a Notion API quota / plan decision; runs on demand inside a live session until reactivated |
 
-Ask Alfred to re-register them (the scheduled-task tools handle creation), then verify the scheduler list matches the table above.
+Ask Alfred to re-register the four live tasks (the scheduled-task tools handle creation), then verify the scheduler list matches the four-row table above exactly – not ten, not six.
 
 ## Step 15 – Plugins
 
@@ -174,12 +187,14 @@ Ask Alfred to re-register them (the scheduled-task tools handle creation), then 
 
 ## Step 16 – Apps
 
+Nabu (built as "Catalogue", renamed since): the app's own remote is still named `catalogue` as of 2026-07-23 – **a rename to `nabu` is pending operator action** – but it clones into the `Apps/nabu` directory per the standard Apps/ layout:
+
 ```bash
-git clone https://github.com/Massamartyv/catalogue.git "/Users/martyspicer/Alfred Pennyworth/Apps/catalogue"
-cd "/Users/martyspicer/Alfred Pennyworth/Apps/catalogue" && npm install
+git clone https://github.com/Massamartyv/catalogue.git "/Users/martyspicer/Alfred Pennyworth/Apps/nabu"
+cd "/Users/martyspicer/Alfred Pennyworth/Apps/nabu" && npm install
 ```
 
-`.env.local` from its `.env.example` (ANTHROPIC_API_KEY optional – enables the didactic panel).
+Build `.env.local` from its `.env.example` – every variable is optional at the code level, but `ANTHROPIC_API_KEY` and `NOTION_TOKEN` are required for the `nabu-likes` scheduled task (Step 14) to file complete Media entries, and the `YT_OAUTH_*` trio needs its own one-time browser authorisation (`npm run yt:auth`). Full variable set and re-issue procedures: `secrets-inventory.md`.
 
 ## Step 17 – Voice mode
 
@@ -194,12 +209,12 @@ Run after rebuild; every line must pass before declaring the system restored.
 | Probe | Expected |
 |---|---|
 | `claude doctor` | No errors |
-| `claude mcp list` | All servers connected |
-| `health_check` on pennyone, instantly, fivepoints-mail | Healthy responses |
+| `claude mcp list` | All ten project-scope servers connected, no `instantly` |
+| `health_check` on pennyone, fivepoints-mail | Healthy responses |
 | Ask Alfred: "What fitness phase am I in?" | Correct answer from memory/state (proves memory restored) |
 | Ask Alfred to draft (not send) an iMessage | Draft produced; send prompts for confirmation (proves gating intact) |
-| Scheduled-task list vs heartbeat table | All six registered with correct cadences |
-| Statusline visible with scope and phase | Hook layer working |
+| Scheduled-task list vs Step 14 table | Exactly four registered (`watchtower`, `nabu-likes`, `contact-card-sync`, `wealth-benchmark-refresh`) with correct cadences; the six retired SKILL.md directories present but NOT in the live list |
+| Statusline visible with scope and phase | Hook layer working (see Step 6.6 for all three hooks) |
 | Voice toggle on, say one response, toggle off | Voice automation working |
 | `git -C ~/.claude status` and repo `git status` | Clean, tracking remotes |
 
@@ -216,3 +231,7 @@ Run after rebuild; every line must pass before declaring the system restored.
 | `Integrations/fivepoints-mail/credentials/` | Google service-account key; outside git; re-downloaded from GCP |
 | `~/.claude.json` | User-scope MCP registrations and session state; recreated, never restored |
 | iCloud Drive `Alfred Archives/` | Cold archives (retired Alfred-os source, manual PDF) |
+
+---
+
+*Last updated: 2026-07-23 – The Lamplighter, registries lane: hooks wiring made explicit (Step 6.6), the venv rebuild loop corrected to the live seven-server set with `instantly` removed, Step 14 rewritten to the four live scheduled tasks plus the six retired SKILL.md directories, Step 16 corrected to clone into `Apps/nabu` from the still-named `catalogue` remote, Step 18 checklist trued up to match.*
