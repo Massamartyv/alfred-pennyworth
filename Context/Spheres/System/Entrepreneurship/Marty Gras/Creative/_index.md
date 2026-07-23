@@ -59,7 +59,7 @@ Creative/
 ## Key Context
 
 - **Voice foundation:** `Context/personal-brand-identity.md`
-- **Brand profile:** `Context/martyv-identity.md`
+- **Brand profile:** `Foundation/brand-fingerprint.md` at venture root (retired `Context/martyv-identity.md` archived 2026-07-23, unique content inherited there)
 - **Aesthetic sensibility:** `Context/creative-director.md`
 - **Visual system:** `brand-fingerprint.md` at venture root
 

@@ -8,25 +8,7 @@ Dance, Fitness, Human Anatomy, Martial Arts
 
 ## Current State
 
-**Fitness phase:** Determined automatically by calendar date.
-- Cut phase: April 1 through September 30. Goal is revealing the leanest athletic frame possible.
-- Bulk phase: October 1 through March 31. Goal is building during the winter season.
-- Transition ramp: Final two weeks of March and September – gradually shift toward the approaching phase. Hard cutover on April 1 and October 1.
-
-**Movement target:** 4-5 days per week
-**Movement types:** Strength training, endurance (run, swim, bike), martial arts and combat sports, yoga and mobility, sports and recreation
-**Strength/endurance balance:** 80/20. Athletic, muscular, lean frame prioritized over a lean runner's frame.
-**Build target:** Athletic and muscular with visible leanness. Not a bodybuilder's frame, not a distance runner's frame.
-**Sleep target:** 7-8 hours. Ideal bedtime 10:00 PM local time. Natural rhythm is night owl – sharpest after dark.
-
-**Ironman aspiration:** Base-building phase. No race date. All three disciplines accessible – pool, bike and running routes available. Running is the most developed discipline. Swimming and cycling are in early development. Long-term goal is completing an Ironman while maintaining the strength-first athletic build.
-
-**Endurance benchmarks:**
-- Running: sub-5-minute mile (target)
-- Swimming: baseline to be established
-- Cycling: baseline to be established
-
-**Endurance data sources:** Strava (primary detailed tracking), Apple Health (synced from Apple Watch), Fitness Journal in Notion (summary log)
+Live state: Notion Sphere Manager, personal workspace.
 
 ---
 
@@ -103,4 +85,4 @@ Skills live at `~/.claude/skills/` and are referenced logically by sphere.
 
 ---
 
-*Last updated: 2026-04-23*
+*Last updated: 2026-07-23 – retired Current State block replaced with the standard Notion pointer.*

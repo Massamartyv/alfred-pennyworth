@@ -1,6 +1,6 @@
 # Alfred operating system – Project Configuration
 
-This file governs the Alfred Pennyworth directory (`~/Alfred Pennyworth/`). It defines file architecture, naming conventions, lifecycle rules, and the load order for this project. Character, identity, ecosystem, and navigation rules live in the global CLAUDE.md (`~/.claude/CLAUDE.md`).
+This file governs the Alfred Pennyworth directory (`~/Alfred Pennyworth/`). It defines file architecture, naming conventions, lifecycle rules, and the routing rules for this project. Character, identity, ecosystem, and navigation rules live in the global CLAUDE.md (`~/.claude/CLAUDE.md`).
 
 ---
 
@@ -19,7 +19,6 @@ Alfred Pennyworth/
 ├── Manual/                        – Owner's manual: genesis protocol, account and secret inventories, MCP registry, Brewfile, restore drill.
 ├── Context/
 │   ├── personal-brand-identity.md  – How everything sounds. Governs all pillars.
-│   ├── martyv-identity.md          – Brand Profile, podcast, newsletter, platforms.
 │   ├── creative-director.md         – Sensory operating system, aesthetic sensibility, aligned brands.
 │   ├── vibe-coding-prd-template.md  – PRD template for AI-assisted web development.
 │   ├── Reference Library/          – Creators, brands, works and curators for research, inspiration and creative direction. Personal corpus; each venture holds its own inside Knowledge Base.
@@ -32,7 +31,7 @@ Alfred Pennyworth/
 │   │   │       ├── Paradigm/                    – Active venture
 │   │   │       ├── Lillie and Lynette/          – Active venture
 │   │   │       ├── Atlas/                       – Active venture (chiropractic intelligence)
-│   │   │       ├── Athena/                      – Revived; nine-department structure, seven-studio migration pending
+│   │   │       ├── Athena/                      – Dormant; nine-department structure, seven-studio migration pending
 │   │   │       └── New Venture/                 – Template for future ventures
 │   │   ├── Soul/                  – 4 spheres.
 │   │   ├── Body/                  – 4 spheres.
@@ -51,30 +50,6 @@ Alfred Pennyworth/
 ├── Projects/                      – Personal local-only projects. Gitignored.
 └── Templates/                     – Reusable project templates
 ```
-
----
-
-## Load Order
-
-When Alfred needs context to perform a task, read files in this order:
-
-1. Global `~/.claude/CLAUDE.md` – identity, rules, ecosystem, sphere index (always loaded automatically)
-2. `~/.claude/projects/-Users-martyspicer-Alfred-Pennyworth/memory/MEMORY.md` – always loaded; pull the linked memory files relevant to the task
-3. `.claude/cache/state-cache.md` – injected by the SessionStart hook; orientation only, refresh from Notion before acting on state
-4. This file – project architecture, conventions
-5. `Context/personal-brand-identity.md` – if the task involves any content creation
-6. `Context/martyv-identity.md` – if the task involves Marty Gras, the podcast, newsletter, or personal brand platforms
-7. `Context/creative-director.md` – if the task involves aesthetic direction, sensory design, or brand alignment
-8. Relevant sphere file – domain-specific context
-9. Relevant graduated sphere file – if the sphere has promoted a topic to its own file
-10. Relevant venture `_index.md` – if the task is venture-scoped; entry point that routes to the seven studios
-11. Relevant venture `Agents/integrations.md` – if the task involves a specific venture's plugins
-12. Relevant venture `Agents/department-heads.md` – if the task involves venture roles or studio leadership
-13. Relevant venture `Agents/agent-guidelines.md` – if dispatching an agent inside a venture (execution tiers, red lines)
-14. Relevant agent definition – if dispatching an agent for a specific mission
-15. Relevant automation README – specific workflow instructions
-
-Do not load all sphere files at once. Read the Sphere Index in the global CLAUDE.md to identify which file is relevant.
 
 ---
 
@@ -120,15 +95,16 @@ Do not load all sphere files at once. Read the Sphere Index in the global CLAUDE
 
 ## Routing Map
 
-When the task involves the items in the left column, load the files in the right column. Use this as the primary load decision tree, ahead of the Load Order list (which is the fallback for general session start).
+When the task involves the items in the left column, load the files in the right column. This is the primary load decision tree.
 
 | Intent / Trigger | Always load | Also load if scoped |
 |---|---|---|
-| Any session start | `~/.claude/CLAUDE.md`, `MEMORY.md` index, this file, state cache (hook-injected) | – |
+| Any session start | `~/.claude/CLAUDE.md`, `MEMORY.md` index – pull the linked memory files relevant to the task, this file, state cache (hook-injected) | – |
 | Task, project, mission or pipeline status – reading or writing | Notion, scoped workspace – never a local file | State cache for orientation only |
 | Session close | Session-end bookend – Alfred Logs entry, leftovers filed as Tasks, cache refresh | `.working/session-buffer/` if Notion was unreachable |
 | Content creation, copy, voice | `Context/personal-brand-identity.md` | Venture brand-fingerprint if venture-scoped |
-| Marty Gras content | `Context/martyv-identity.md` | `Marty Gras/Foundation/brand-fingerprint.md` |
+| Venture direction, strategic decisions, tactical execution mechanics (proof, standards, volume, velocity, patience) | `Context/working-principles.md` | – |
+| Marty Gras content | `Context/Spheres/System/Entrepreneurship/Marty Gras/Foundation/brand-fingerprint.md` | – |
 | Aesthetic direction, sensory design | `Context/creative-director.md` | – |
 | Inspiration, creative direction, research batch, reference pull | `Context/Reference Library/_index.md`, then the matched cards | Venture `Knowledge Base/Reference Library/_index.md` if venture-scoped |
 | Domain knowledge in a sphere | Cluster index `Spheres/{Cluster}/{cluster}.md` | Sphere folder `_index.md` and any graduated sphere file |
@@ -140,6 +116,7 @@ When the task involves the items in the left column, load the files in the right
 | Spanish | `Spheres/Mind/Spanish/spanish.md` | – |
 | AI infrastructure, agent stack | `Spheres/System/Artificial Intelligence/agent-infrastructure-stack.md` | `ai-cost-reference.md`, `agent-events-taxonomy.md` |
 | Maintenance trigger (first of month or quarter) | `Agents/heartbeat.md` | – |
+| Running or modifying an automation | Relevant automation README under `Automations/` | – |
 | Vault pull – "check my notes", "consult the vault", or a topic the operator's Zettelkasten plausibly covers | Skill `card-catalogue` (searches Notion Annotations; read-only, cite when it matters) | – |
 | Ambient snippet ("save this") | – | Memory shard, sphere file, Notion Inbox or `.working/` per topic match |
 
@@ -213,6 +190,12 @@ When a topic within a sphere becomes detailed enough to warrant its own file, it
 **Current graduated files:**
 - `Context/Spheres/Mind/Spanish/spanish.md` – Spanish language support protocol
 - `Context/Spheres/System/Artificial Intelligence/agent-infrastructure-stack.md` – Six-layer agent infrastructure stack framework
+- `Context/Spheres/System/Artificial Intelligence/ai-cost-reference.md` – System-level reference for reasoning about agent and AI cost
+- `Context/Spheres/System/Artificial Intelligence/agent-events-taxonomy.md` – System-level vocabulary for agent activity and event taxonomy
+- `Context/Spheres/System/Personal Finance/wealth-trajectory.md` – Personal net-worth North Star and the live percentile progress instrument
+- `Context/Spheres/System/Personal Finance/benchmark-ledger.md` – Provenance and annual refresh runbook for the wealth-trajectory benchmarks
+- `Context/Spheres/Soul/Astrology/natal-chart.md` – Canonical natal chart data, founding artefact of the Astrology sphere
+- `Context/Spheres/Soul/Religion/magnum-opus.md` – Contemplative-practice distillate, founding artefact of the Religion sphere's Contemplation track
 
 ---
 
@@ -306,17 +289,6 @@ Reviewer carries two tiers dispatched as distinct subtypes:
 6. Present the report when the agent returns
 7. Act on approved recommendations
 
-### Session Protocol
-
-Every session follows a consistent lifecycle:
-
-1. **Orient** – Read memory and the injected state cache. Sync any pending `.working/session-buffer/` entries to Notion before other state work.
-2. **Scope** – Determine personal vs venture context. If unclear, ask.
-3. **Load** – Pull relevant sphere, venture and department files. Pull live Notion state when the task turns on current values.
-4. **Execute** – Handle the task directly or dispatch an agent with crew classification
-5. **Update** – State lands in Notion as it happens – task status, mission phases, decisions to the scoped Decision Log. Memory only for durable facts.
-6. **Exit** – The session-end bookend: write the Alfred Logs entry, file leftovers as Tasks via the New Alfred Task template, refresh `.claude/cache/state-cache.md` from Notion. If Notion is unreachable, buffer and flag.
-
 ### Creating a New Agent Definition
 
 1. Create the file in the appropriate subfolder of `~/Alfred Pennyworth/Agents/`
@@ -327,4 +299,4 @@ Every session follows a consistent lifecycle:
 
 ---
 
-*Last updated: 2026-07-10 – Second-brain rewiring: state cache and githooks in the architecture, Notion-first routing rows, session bookends, retired patterns.*
+*Last updated: 2026-07-23 – The Lamplighter doctrine pass: Athena revival claim corrected to dormant, martyv-identity.md retirement wired through the Routing Map and File Architecture, working-principles.md routed, Logs/ fork resolved, graduated files synced.*

@@ -2,36 +2,40 @@
 file_type: department_index
 department: Foundation
 venture: Five Points Digital Studio
-last_updated: 2026-04-03
+last_updated: 2026-07-22
 ---
 
 # Foundation
 
-The philanthropic and non-operational arm of Five Points Digital Studio. Community impact, charitable initiatives, and giving strategy.
+The constitutional layer of Five Points Digital Studio – one of the two shared resources beside Knowledge Base in the seven-studio structure. Foundation holds what governs the venture rather than what operates it: the brand fingerprint, standing doctrine, the venture mission and the community work. Per the portfolio fingerprint standard, the brand fingerprint lives here as the single source of truth for the venture.
 
 ## Contents
 
 | File | Purpose | Status |
 |---|---|---|
+| brand-fingerprint.md | The governing brand fingerprint – single source of truth for every studio-facing and client-facing output. v2.9 | Active |
+| asset-governance-doctrine.md | Asset governance lens – Evolution's internal anatomy: three pillars, quarterly governance review. Established 2026-07-22 | Active |
 | giving-strategy.md | Annual philanthropic goals, budget allocation, focus areas | To be created |
 | community-initiatives.md | Local engagement, mentorship programmes, workshops | To be created |
 | partnerships.md | Non-profit partnerships, sponsorships, pro bono work | To be created |
 
 ## Key Context
 
-Foundation is not an operational department. It does not house brand identity, AI infrastructure, or business operations. Those live in Administration and Operations respectively. Foundation exists for the work Five Points does beyond the bottom line.
+Foundation is not an operational studio. Nothing here executes; everything here governs. The fingerprint gates every output through its quality checklist, doctrine files define standing lenses the studios apply, and the philanthropic strand records the work Five Points does beyond the bottom line. When any output touches brand voice, visual system, terminology or document standards, the fingerprint in this folder is the authority.
 
 ## What Belongs Here
 
-- Charitable giving strategy and tracking
-- Community engagement programmes
-- Pro bono client work documentation
-- Mentorship and education initiatives
-- Non-profit partnerships
+- The brand fingerprint and its amendment history
+- Standing doctrine – durable lenses that govern how engagements are held, such as asset governance
+- The venture mission
+- Charitable giving strategy, community engagement programmes and mentorship initiatives
+- Pro bono engagement documentation and non-profit partnerships
 
 ## What Does Not Belong Here
 
-- Brand voice, positioning, or company identity (Administration/)
-- AI agent guidelines, registries, or integrations (Agents/)
-- Revenue-generating operations (Operations/, Marketing & Sales/)
-- Financial reporting (Finances/)
+- Client delivery, SOPs and the Clientele directory – Operations/
+- Offers, positioning directives and market strategy – Strategy/
+- Prospecting, outbound and revenue growth – Growth/
+- Identity execution and creative assets – Creative/
+- Financial reporting – Finance/
+- Live state of any kind – Notion Five Points workspace, per the magnum opus ruling

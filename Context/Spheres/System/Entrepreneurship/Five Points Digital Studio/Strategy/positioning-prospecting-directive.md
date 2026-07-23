@@ -1,8 +1,10 @@
 # Five Points Digital — Positioning & Prospecting Directive
 
+**SUPERSEDED 2026-07-23.** This directive's luxury-vertical ICP (Section 2-4: lifestyle, luxury and stewardship sectors, five named verticals) is the ICP the Offer Pressure Test (`Strategy/offer-pressure-test-2026-07.md`, 2026-07-07) found contradicted by live outbound data. The active prospecting system is the psychographic, network-driven engine at `Growth/Prospecting/lookalike-engine.md` – AI-active operator DNA discovered from responder data, not a fixed vertical list – with the current outbound tool and ICP documented in `Growth/_index.md` Key Context and the validated offer ladder in `Growth/private-menu-quoting-discipline.md`. Retained below for historical trace only; do not deploy prospecting agents against this file's vertical list or geography targets.
+
 **File type:** Operational context / master prompt for the Five Points Digital repository
 **Primary reader:** Alfred (orchestrator) and any prospecting agent Alfred deploys
-**Status:** Positioning LOCKED · Messaging IN PROGRESS · Visual brand PENDING (Claude Design import)
+**Status:** SUPERSEDED · Positioning LOCKED · Messaging IN PROGRESS · Visual brand PENDING (Claude Design import)
 **Owner:** Marty (CEO / Creative Director)
 
 ---
@@ -241,3 +243,7 @@ These are the points where Alfred needs input or sign-off from Marty. Everything
 **Conventions:** Follow the existing Five Points artifact reference standard (e.g., proposals as `FPD-[CLIENT]-2026-###`, matching the Custom Window Decorators proposal `FPD-CWD-2026-001`). Apply the values filter (Section 2) to every prospect score. Human labor on any of the above requires documented justification per standing policy; default to agentic execution.
 
 **North-star timing:** Marty's read is that this positioning — long meditated on — converts to real cash flow and compounding revenue on a near-term horizon (the work is the unlock, not the wait). Move accordingly.
+
+---
+
+*Last updated: 2026-07-23 – marked superseded, pointer added to the active successor system at `Growth/Prospecting/lookalike-engine.md`.*

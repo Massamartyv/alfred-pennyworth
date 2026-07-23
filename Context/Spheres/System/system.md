@@ -6,6 +6,8 @@ Artificial Intelligence, Entrepreneurship, Personal Finance, Real Estate
 
 **Graduated files:**
 - `Context/Spheres/System/Artificial Intelligence/agent-infrastructure-stack.md` – The six-layer agent infrastructure stack framework and how Alfred operating system maps to it
+- `Context/Spheres/System/Artificial Intelligence/ai-cost-reference.md` – System-level reference for reasoning about agent and AI cost
+- `Context/Spheres/System/Artificial Intelligence/agent-events-taxonomy.md` – System-level vocabulary for agent activity and event taxonomy
 - `Context/Spheres/System/Personal Finance/wealth-trajectory.md` – Personal net-worth North Star ($250,000,000.23) and the live percentile progress instrument, benchmarked against demographic and overall-US data
 - `Context/Spheres/System/Personal Finance/benchmark-ledger.md` – Provenance and annual refresh runbook for the wealth-trajectory benchmarks, computed from SCF and CPS microdata
 
@@ -15,9 +17,7 @@ Artificial Intelligence, Entrepreneurship, Personal Finance, Real Estate
 
 ## Current State
 
-**Methodology:** GTD (Getting Things Done). All tasks must be completable within a single pomodoro. If they cannot, break them into next actions that can be.
-**Financial tracking:** Active but structure to be fully built. Personal and business finances are never mixed.
-**Operating rhythm:** Six cadences active (morning, evening, weekly, monthly, quarterly, annual).
+Live state: Notion Sphere Manager, personal workspace.
 
 ---
 
@@ -120,4 +120,4 @@ Skills live at `~/.claude/skills/` and are referenced logically by sphere.
 
 ---
 
-*Last updated: 2026-06-13*
+*Last updated: 2026-07-23 – retired Current State block replaced with the standard Notion pointer; ai-cost-reference.md and agent-events-taxonomy.md registered as graduated files.*

@@ -4,13 +4,15 @@
 
 Astrology, Personal Development, Religion, Social Development
 
+**Graduated files:**
+- `Context/Spheres/Soul/Astrology/natal-chart.md` – Canonical natal chart data, founding artefact of the Astrology sphere
+- `Context/Spheres/Soul/Religion/magnum-opus.md` – Contemplative-practice distillate, founding artefact of the Religion sphere's Contemplation track
+
 ---
 
 ## Current State
 
-**Meditation target:** Daily – both morning and evening bookends.
-**Preferred forms:** Guided meditation, silent sitting, breathwork, journaling, nature and walking.
-**Off-pattern threshold:** Flag after 3 consecutive days without any stillness practice.
+Live state: Notion Sphere Manager, personal workspace.
 
 ---
 
@@ -65,4 +67,4 @@ Skills live at `~/.claude/skills/` and are referenced logically by sphere.
 
 ---
 
-*Last updated: 2026-07-12*
+*Last updated: 2026-07-23 – retired Current State block replaced with the standard Notion pointer; natal-chart.md and magnum-opus.md registered as graduated files.*

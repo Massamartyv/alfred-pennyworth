@@ -1,8 +1,8 @@
 ---
 file_type: brand_fingerprint
 venture: Five Points Digital Studio
-version: 2.2
-last_updated: 2026-07-18
+version: 2.9
+last_updated: 2026-07-22
 ---
 
 # Five Points Digital Studio – Brand Fingerprint
@@ -140,6 +140,27 @@ Seven principles extracted from the A Friend Of Mine Bayport case study, applied
 1. Assets, not services. Infrastructure, not deliverables.
 2. Built around one mind. One set of ventures. One working life.
 3. Every build is an asset. Every asset compounds. Every quarter, the leverage grows.
+
+### The Rebuild Position – the governing frame
+
+Operator-directed 2026-07-20, widened studio-wide by ruling the same day. The market-facing frame for the hero and for every engagement – automation, Construct builds, web, brand and SEO alike are framed as the rebuild of a system the business has outgrown. The spine is unchanged – this position translates the asset canon for the buyer who arrives asking about automation, and the rebuild leads. The hero and all offer copy descend from this block.
+
+**Positioning statement – onlyness form, internal only, never customer-facing:**
+
+> Five Points Digital Studio is the only bespoke infrastructure house that rebuilds the systems a business has outgrown into owned, compounding operating infrastructure, for the principal who looks at how the work is done and asks why it is still done that way, in the decade AI made every outdated system rebuildable.
+
+**Primary message, offer surface:**
+
+> Five Points rebuilds the systems a business has outgrown – into infrastructure the owner keeps.
+
+**Secondary messages, offer surface:**
+
+1. Most operations run on systems built for the company they used to be. The gap is the most expensive line on a ledger no one keeps.
+2. The work begins with one question – why is it still done this way?
+3. Assets, not services. Infrastructure, not deliverables.
+4. Built once, owned for life, compounding every quarter.
+
+**Proof points:** the survey before the build – the operation mapped as a system before a single component is assembled; the Construct builds and the owner's books – commissioned artefacts the owner keeps and operates; the marque standard on every artefact.
 
 ### Tagline
 
@@ -671,6 +692,7 @@ Forbidden: Instagram-aesthetic filters, pastel shifts, crushed blacks, heavy tea
 #### Scope notes
 
 - **The Construct row governs the named product, not the word "AI".** Call the product a Construct, never "an AI", "a bot", "an agent" or "an assistant" – a Construct is an entity with an identity, not a feature. The word "AI" itself is permitted where it names the technology field or functions as a literal market search term – "AI fluency", "AI strategy", established offer names – in headlines, page titles, meta descriptions and offer nomenclature. In brand prose describing the studio's own product, "Construct" and "operating infrastructure" govern. Operator ruling, The Loom mission, 2026-07-14.
+- **The Evolution row gains the governance frame.** Evolution remains the name of the door; "governance" is the sanctioned name of the discipline it delivers – the stewardship of a commissioned asset across three pillars: infrastructure, maintenance terms and data integrity, audited by a quarterly governance review. "Governance" is encouraged in commissioning documents, proposals and reviews describing what the Evolution fee governs. "Maintenance" and "support" remain never-use as client-facing descriptors of the service itself; "maintenance" may name the second pillar inside a governance itemisation, where the surrounding frame is doing the positioning work. Doctrine at `Foundation/asset-governance-doctrine.md`. Operator ruling 2026-07-22.
 
 ### Decision Defaults
 
@@ -827,4 +849,15 @@ Every check is pass or fail. A single failure holds the output until resolved.
 
 ---
 
-*Version 2.2. Last updated 18 July 2026 – the Quintessence mark commission supersedes the five-circle brief.*
+- **2026-07-20 – The Rebuild Position added to Layer 1.** Operator-directed simplification of the front door. The hero and the automation and AI offer surface centre on the systems-rebuild insight: companies pay heavily for better systems, outdated operations are rebuildable around AI and the studio leads with the rebuild. A scoped messaging block – onlyness positioning statement, offer-surface primary and secondary messages, proof points – is added to Layer 1 beneath the Secondary Messages. The spine sentence, the brand-wide Primary Message and the invariant core are unchanged; the block is the market-facing translation of the asset canon for this surface. The rebuild angle leads by operator ruling in session; the offer-suite pruning question is held open. Draft and gate record in `.working/brand-copy/systems-rebuild-positioning.md`.
+- **2026-07-20 – The Rebuild Position widened studio-wide; the public offer surface pruned to three doors.** Two operator rulings logged in the Five Points Decision Log the same day. The Rebuild Position block ceases to be scoped to the automation and AI surface and becomes the governing frame for every engagement – web, brand and SEO included. The public offer surface prunes to three doors – the Survey, the Rebuild commission and Evolution – with the remaining offers sellable but unlisted, quoted on request, and the validated $197 / $1,970 / $19,700 ladder held through the prune. Offer architecture detail lives in the Decision Log; the fingerprint records the frame.
+- **2026-07-20 – Apple-pattern navigation and the nav-mark glow dispensation.** Operator-directed at the first-draft hero pass on fivepoints.studio. On web surfaces the N1 desktop navigation rule is superseded: the header becomes a fixed 48px translucent Obsidian bar – backdrop blur and saturation, a single centred row with the Quintessence glyph first and text links after – and the text wordmark leaves the header; footer and cover usage unchanged. Rule I1 gains a scoped dispensation: the nav Quintessence glyph blooms with a warm Parchment glow on hover and focus, 320ms fades, nowhere else on any surface. The full-screen N2 mobile overlay is unchanged. This is the first live use of the Quintessence ahead of the commissioned mark, adapted from the filed reference sketch; the interim numeral 5 continues on all other mark surfaces per the transition rule.
+- **2026-07-21 – The identity spine becomes a themed element, never a default.** Operator-ruled in session. The six-stripe pride spine that appeared on document covers – first on the McCauley commissioning proposal, carried into the home-services Dial Sheet – is retired as a default cover treatment; as a default it dilutes both the brand and the gesture. The standard document spine is now a neutral five-tone band, one tone per point, drawn from the document palette – Obsidian #0F0F10, Emerald #13402E, Burnt Orange #B65730, Stone #8B857A and a deepened Parchment #C9BEA3 – at the 3mm hairline width. Identity spines become a deliberate themed system reserved for identity-owned businesses: Pride for LGBTQ-owned, pan-African for Black-owned, with equivalent treatments to be drawn for women-owned and other identity-led operators as engagements warrant. When an identity spine is used it is given proper room – rendered at roughly 8mm rather than the 3mm hairline – so the gesture reads as intentional honour, never incidental decoration. First application of the neutral spine: the Dial Sheet cover, 2026-07-21.
+- **2026-07-21 – The Quintessence extends to document covers.** Operator-directed in session. Document cover mastheads carry the Quintessence glyph – the founder-approved nav adaptation, flat single colour with the seam-rounding paired stroke – in place of the text wordmark, rendered at roughly 19mm in Obsidian on Parchment. The studio name remains present in the cover footer line, so the mark never carries the identification alone. This is the second live surface for the Quintessence after the site navigation, ahead of the commissioned mark; the interim numeral 5 continues on all other mark surfaces per the transition rule. First application: the Dial Sheet cover, 2026-07-21.
+- **2026-07-21 – The middle door renamed the Commission.** Operator-ruled in session. The public door named "the Rebuild commission" at the 2026-07-20 three-door prune is renamed the Commission. The slate reads the Survey, the Commission and Evolution – map it, commission it, compound it. Grounds: the prior name welded the governing frame word to an offer label, named a task rather than the act of patronage and failed the expansion test for greenfield builds. The Rebuild Position is unchanged as the governing frame above the doors, and "rebuild" continues as the frame verb across all public copy. No door names a task. Doctrine updated in `Growth/private-menu-quoting-discipline.md`; decision receipt to be logged in the Five Points Decision Log on ratification.
+
+- **2026-07-22 – Evolution reframed as asset governance.** Operator-directed in session, the lens arriving via Evan Brown of BlackRock. Evolution gains its internal anatomy: the governance of the commissioned asset across three pillars – infrastructure, maintenance terms and data integrity – audited by a quarterly governance review with a success analysis against commissioning expectations, an integrity reconciliation and a competitive benchmark. "Governance" enters client-facing vocabulary as the name of the discipline; the Evolution door name, the 20% quarterly-billed pricing and the never-use status of "maintenance" and "support" as service descriptors are unchanged. A scope note is added to Terminology Governance. Doctrine established at `Foundation/asset-governance-doctrine.md`; operating procedure at `Operations/SOPs/quarterly-governance-review.md`.
+
+---
+
+*Version 2.9. Last updated 22 July 2026 – Evolution reframed as asset governance.*

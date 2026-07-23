@@ -8,9 +8,7 @@ Architecture, Art, Cinema, Culinary Arts, Fashion, Fragrance, Gaming, Interior D
 
 ## Current State
 
-**Creative disciplines active:** Music production, film and visual storytelling, fragrance and sensory experience, cultural curation, writing (shared with Mind)
-**Five-star media library:** Maintained and growing. Monthly scans against Notion databases.
-**Aesthetic identity:** Coherent set of principles defined. Name intentionally unassigned – will emerge from the body of work.
+Live state: Notion Sphere Manager, personal workspace.
 
 ---
 
@@ -95,4 +93,4 @@ Skills live at `~/.claude/skills/` and are referenced logically by sphere.
 
 ---
 
-*Last updated: 2026-07-10 – cache-stamp line added to the Five-Star Media section; Maintenance rows repointed to Notion page-body enrichment, no local rewrite.*
+*Last updated: 2026-07-23 – retired Current State block replaced with the standard Notion pointer.*

@@ -2,7 +2,7 @@
 file_type: department_index
 department: Growth
 venture: Five Points Digital Studio
-last_updated: 2026-07-12
+last_updated: 2026-07-23
 ---
 
 # Growth
@@ -14,7 +14,7 @@ Sales, business development, partnerships, pipeline and the offer suite. Everyth
 ```
 Growth/
   _index.md              – This file
-  Product Development/   – The complete offer suite (5 pillars, 50+ offers, 3 bundles)
+  Product Development/   – The complete offer suite (5 pillars, 39 offers, 3 bundles)
   Discovery Kit/         – Cold-outreach discovery instrument: pre-call card, call spine, post-call capture, qualification scorecard
   Proposal Templates/    – Retainer, project, bundle proposal skeletons
   Agents/                – Department-specific agents, workflows, criteria
@@ -41,7 +41,7 @@ Growth/
 
 ## Key Context
 
-- **Pricing sweet spot:** $5,000 to $8,000+ monthly retainers
+- **Pricing:** No retainer model. Three public doors – the Survey, the Commission, Evolution – priced from the validated ladder $197 / $1,970 / $19,700; Evolution quoted at commissioning as 20% of commission value annually, billed quarterly. Human Construct at Platinum is the reserved tier, principal-only, priced from a $35,000 floor. See Foundation/brand-fingerprint.md and Growth/private-menu-quoting-discipline.md
 - **Never discount – add value instead**
 - **ICP:** $1M to $50M professional services and healthcare, 10 to 50 team (floor locked at $1M, ceiling raised to ~$50M per Touchpoint A, 2026-06-02 – see Strategy/positioning-prospecting-directive.md)
 - **Front door offer:** Bronze AI Fluency Workshop ($197/seat)
@@ -67,3 +67,7 @@ Five Points grows along the Priestley Ascending Transaction Model – an ascendi
 | Follow-up emails, CRM updates, lead status flags | Light |
 | Proposals, discovery briefs, outbound sequences, pitch outlines | Standard |
 | Full pipeline strategy, territory plans, competitive intelligence | Heavy |
+
+---
+
+*Last updated: 2026-07-23 – pricing corrected to the three-door validated ladder and offer count corrected from "50+" to 39, both to match the brand fingerprint.*

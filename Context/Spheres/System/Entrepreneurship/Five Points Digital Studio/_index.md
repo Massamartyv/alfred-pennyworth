@@ -3,12 +3,12 @@ file_type: venture_index
 venture_name: "Five Points Digital Studio"
 venture_stage: "Growth"
 methodology: "The Manor Protocol"
-last_updated: 2026-07-10
+last_updated: 2026-07-23
 ---
 
 # Five Points Digital Studio – Venture Index
 
-Premium digital marketing agency specializing in automation, AI strategy and digital architecture. Pentagram-inspired partnership model. Clients at $5,000 to $8,000 and above monthly retainers with revenue-sharing arrangements.
+Bespoke infrastructure studio building owned, compounding operating infrastructure for singular minds. Pentagram-inspired partnership model. No retainer pricing model. Public offer surface: three doors – the Survey, the Commission and Evolution – priced from the validated ladder $197 / $1,970 / $19,700; Evolution is quoted at commissioning as 20% of commission value annually, billed quarterly. Human Construct at Platinum is the reserved tier, principal-only, priced from a $35,000 floor. See Foundation/brand-fingerprint.md and Growth/private-menu-quoting-discipline.md.
 
 ## The Manor Protocol
 
@@ -68,3 +68,7 @@ Live state: Notion Projects and Tasks, Five Points workspace (Five Points Digita
 5. **Development** – Website engineering, digital experience design, application engineering
 
 Plus three bundles: AI Powered Brand Ecosystem, Brand Launchpad, Total Transformation.
+
+---
+
+*Last updated: 2026-07-23 – pricing description corrected to the three-door validated ladder, retainer language removed to match the brand fingerprint.*

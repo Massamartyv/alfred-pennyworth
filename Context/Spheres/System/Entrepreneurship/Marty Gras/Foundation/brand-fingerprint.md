@@ -140,10 +140,35 @@ Dependencies: surface unification; Pennyone marty_gras provisioning; a native fi
 
 ---
 
+## Inherited from martyv-identity.md (retired 2026-07-23)
+
+Verbatim content carried forward from `Context/martyv-identity.md` at its archival to `Context/Archive/`. The file had already been named a superseded source for Marty scope in the 2026-05-19 amendment below; this section formalises that by moving its still-durable content here, unedited. Where anything here conflicts with the fingerprint above, the fingerprint above governs. The file's platform-scheduling detail (Buffer) is not carried forward — superseded ecosystem-wide by Pennyone, per the global CLAUDE.md Ecosystem section.
+
+### Brand Identity
+
+A personal media company. The central creative act is helping people feel the beauty of the world – a Cultural Facilitator who has done the work intellectually, creatively, spiritually, and physically, and speaks from that place.
+
+### What Drives the Creative Output
+
+Creating from a place of joy and abundance. Also creating to make sense of the world and communicate that perspective to others in a way that resonates – masterfully, artistically, building a bridge for people of today and people of tomorrow. Both impulses are always present. Neither cancels the other.
+
+### Platforms
+
+- **Substack** – Epiphany newsletter. Long-form essays, philosophical depth.
+- **Podcast** – Marty Gras podcast. Conversational, warm, culturally layered. Produced with ElevenLabs for audio quality.
+- **Instagram** – Visual curation, short-form, compressed precision.
+- **LinkedIn** – Professional voice, business and creative leadership.
+- **TikTok** – Cultural commentary, trend participation with intention.
+- **YouTube** – Visual storytelling, longer-form video.
+- **Threads** – Real-time cultural conversation.
+
+---
+
 ## Amendment Log
 
+- **2026-07-23 — martyv-identity.md archived, unique content inherited.** `Context/martyv-identity.md` named Buffer as the live scheduling tool (superseded by Pennyone) and pointed at a nonexistent fingerprint path. Its unique durable content — the Brand Identity paragraph, the What Drives the Creative Output paragraph and the Platforms list — was moved verbatim into the Inherited section above; the file itself moved to `Context/Archive/`. The global and project CLAUDE.md Routing Map and cross-cutting files references now point here.
 - **2026-05-19 — Consolidation into the keystone.** Identity reframed: Marty is the master brand, Marty Gras the flagship property. Name convention recommended — Marty V, @massamartyv, "Marty Gras" reserved for the property. Reference set: Warhol replaced by Basquiat, Bad Bunny added fifth — Kravitz–Kanye–Frank–Basquiat–Bad Bunny. Launch driving to the solstice, loaded-gun scope. `Strategy/brand-journey.md` absorbed with its trace and superseded. For Marty scope, `Context/martyv-identity.md` becomes a superseded source; `Context/personal-brand-identity.md` remains the shared portfolio voice, and Marty operates sovereign per this amendment. Invariant core verified unaffected; surface re-voiced from "Marty Gras" to the artist, one level down.
 
 ---
 
-*Single source of truth. Last updated 2026-05-19.*
+*Single source of truth. Last updated 2026-07-23 – martyv-identity.md archived and its unique content inherited above.*

@@ -2,12 +2,12 @@
 file_type: department_index
 department: Product Development
 venture: Five Points Digital Studio
-last_updated: 2026-07-09
+last_updated: 2026-07-23
 ---
 
 # Product Development
 
-The complete Five Points offer suite. Five pillars, 50+ individual offers across four tiers.
+The complete Five Points offer suite. Five pillars, 39 individual offers across four tiers.
 
 ## Offer Registry
 
@@ -101,3 +101,7 @@ Ratified 9 July 2026; receipts in the Five Points Decision Log. Both apply suite
 | New offer development, pricing strategy analysis | Heavy |
 
 **Agent seats operating here:** Sales Director (pricing reference), Content Strategist (offer copy).
+
+---
+
+*Last updated: 2026-07-23 – offer count corrected from "50+" to the operator-ruled 39.*

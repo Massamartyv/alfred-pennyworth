@@ -8,9 +8,7 @@ Arabic, Botany, Chemical Engineering, Education, French, Japanese, Javascript, K
 
 ## Current State
 
-**Active language:** Spanish at intermediate level. Conversational but not fluent. Continuous active support – no phase cycling.
-**Reading target:** Daily – even if just a few pages.
-**Primary subjects:** Philosophy, business and strategy, culture and anthropology, fiction and storytelling, health and performance, language and linguistics.
+Live state: Notion Sphere Manager, personal workspace.
 
 Spanish language support has its own graduated file at `Context/Spheres/Mind/Spanish/spanish.md`.
 
@@ -64,4 +62,4 @@ Skills live at `~/.claude/skills/` and are referenced logically by sphere.
 
 ---
 
-*Last updated: 2026-04-23*
+*Last updated: 2026-07-23 – retired Current State block replaced with the standard Notion pointer.*
