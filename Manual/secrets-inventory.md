@@ -15,7 +15,7 @@
 | `STRIPE_FIVEPOINTS_SECRET_KEY` | stripe-fivepoints MCP | Stripe dashboard > Developers > API keys; prefer a restricted key scoped to required resources over the full secret key; revoke the old key after rotation |
 | `ZERNIO_PERSONAL_API_KEY` | Pennyone personal pipeline | Zernio dashboard for the personal account; API keys or credentials section; generates per pipeline |
 | `ZERNIO_FIVEPOINTS_API_KEY` | Pennyone Five Points pipeline | Zernio dashboard for the Five Points account; same flow as above |
-| `ZERNIO_MARTYGRAS_API_KEY` | Pennyone Marty Gras pipeline (future) | Zernio dashboard for the Marty Gras account when provisioned |
+| `ZERNIO_MARTYGRAS_API_KEY` | not needed -- operator ruling 2026-07-23: Marty Gras is the personal media identity and its content routes through the personal Zernio pipeline (`ZERNIO_PERSONAL_API_KEY`); no separate account is planned |
 | `ZERNIO_PARADIGM_API_KEY` | Pennyone Paradigm pipeline (future) | Zernio dashboard for the Paradigm account when provisioned |
 | `ZERNIO_LILLIEANDLYNETTE_API_KEY` | Pennyone Lillie and Lynette pipeline (future) | Zernio dashboard for the L&L account when provisioned |
 | `INSTANTLY_FIVEPOINTS_API_KEY` | nothing – Clay replaced Instantly as the outbound lead engine 2026-07-10; the `instantly` MCP server code (`Integrations/instantly/`) and its `.mcp.json` entry were torn down 2026-07-23 (The Lamplighter, registries lane) | **pending, operator action:** delete this line from `.env` by hand; the account itself also awaits cancellation – see `accounts-inventory.md` |

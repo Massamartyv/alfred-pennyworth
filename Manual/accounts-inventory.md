@@ -38,13 +38,13 @@
 | Supabase – personal | Personal | confirm | Personal project databases and infrastructure | confirm |
 | Supabase – Five Points | Business | systems@fivepoints.studio | Five Points project databases and infrastructure | systems@ |
 | Stripe – Five Points | Business | finance@fivepoints.studio | Payments and offer architecture (Priestley ATM); note: NO personal Stripe account exists – all Stripe operations are business-scoped by rule | finance@ |
-| Instantly | Business – retired (decision 2026-07-10, MCP server torn down 2026-07-23) | confirm | Replaced by Clay; the `.env` key and the account itself both still await operator removal/cancellation – see `secrets-inventory.md` | confirm |
+| Instantly | Business – retired (decision 2026-07-10, MCP server torn down 2026-07-23) | confirm | Replaced by Clay; operator confirmed 2026-07-23 he will cancel the subscription and delete the `.env` key this sitting | confirm |
 | Clay | Business | confirm | Outbound lead engine for Five Points: enrichment, sequencing, sending | confirm |
 | Zernio – personal pipeline | Personal | confirm | Social syndication via Pennyone: Instagram, Threads, TikTok connected as massamartyv | confirm |
 | Zernio – Five Points pipeline | Business | confirm | Social syndication via Pennyone: Instagram connected as studio.fivepoints | confirm |
 | Strava | Personal | martavious.spicer@icloud.com | Fitness activity data; developer app registered for strava MCP API access (callback domain: localhost) | iCloud |
 | Fullscript | Personal | martavious.spicer@icloud.com | Practitioner supplement ordering; OAuth app registered for fullscript MCP | iCloud |
-| Discord developer | Personal | confirm | Discord bot token powering the discord-setup MCP | confirm |
+| Discord developer | Personal – retired 2026-07-23 (operator ruling, The Lamplighter) | confirm | discord-setup MCP deregistered; bot token can be revoked at discord.com/developers | confirm |
 | ElevenLabs | Personal | confirm | Podcast voice production for Marty Gras audio content | confirm |
 | Perplexity Pro | Shared – research layer | confirm | Cited, current intelligence: SEO research, competitive analysis, industry trends | confirm |
 | Apify – personal | Personal | confirm | Scraping and web automation; personal token scoped to personal projects | confirm |

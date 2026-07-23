@@ -17,7 +17,7 @@ The file is secret-free: each entry sources `.env` at launch and passes keys by 
 | `stripe-fivepoints` | `@stripe/mcp` (npx) | Five Points Stripe | `STRIPE_FIVEPOINTS_SECRET_KEY` |
 | `pennyone` | local FastMCP, `Integrations/pennyone/` | Cross-venture syndication; pipeline key selects account | `ZERNIO_PERSONAL_API_KEY`, `ZERNIO_FIVEPOINTS_API_KEY` (+ future pipelines) |
 | `strava` | local FastMCP, `Integrations/strava/` | Personal fitness | `STRAVA_CLIENT_ID`, `STRAVA_CLIENT_SECRET` (tokens at `~/.config/alfred/strava-tokens.json`) |
-| `fullscript` | local FastMCP, `Integrations/fullscript-mcp/` | Personal wellness | `FULLSCRIPT_CLIENT_ID`, `FULLSCRIPT_CLIENT_SECRET`, `FULLSCRIPT_ENV`, `FULLSCRIPT_BASE_URL` |
+| `fullscript` | local FastMCP, `Integrations/fullscript-mcp/` | Personal wellness -- intentionally resting, unauthenticated by design until supplement-protocol work resumes (operator ruling 2026-07-23) | `FULLSCRIPT_CLIENT_ID`, `FULLSCRIPT_CLIENT_SECRET`, `FULLSCRIPT_ENV`, `FULLSCRIPT_BASE_URL` |
 | `elevenlabs` | `elevenlabs-mcp` (uvx, official) | Personal – voice production for the Marty Gras podcast lane. **Registered 2026-07-10; awaiting key** | `ELEVENLABS_API_KEY` (wrapper also sets non-secret `ELEVENLABS_MCP_BASE_PATH` to `.working/elevenlabs/`) |
 | `calcom` | local FastMCP, `Integrations/calcom/` | Five Points booking layer (Cal.com API v2). **Registered 2026-07-10; the pipeline key is absent from `.env` as of 2026-07-23 – server registers but the Five Points pipeline has no working key** | `CALCOM_FIVEPOINTS_API_KEY` |
 | `fivepoints-calendar` | local FastMCP, `Integrations/fivepoints-calendar/` | Five Points Workspace calendars, user-routed (Calendar API v3). **Registered 2026-07-10; awaiting shared key + Calendar delegation scope** | none – service-account file shared with fivepoints-mail; optional `FIVEPOINTS_CALENDAR_SERVICE_ACCOUNT` override |
@@ -33,7 +33,7 @@ Confirmed against the live `mcpServers` block: three servers, unchanged since la
 |---|---|---|---|
 | `apple-mail` | `~/.local/bin/mcp-apple-mail` (patrickfreyer, via uv) | Personal iCloud mail | AppleScript bridge to Mail.app; sends gated |
 | `fivepoints-mail` | local FastMCP, `Integrations/fivepoints-mail/` | All five `@fivepoints.studio` inboxes | Service account + domain-wide delegation; explicit `mailbox` parameter on every call; sends gated |
-| `discord-setup` | `Integrations/discord-setup-mcp/run.sh` (own repo) | Server setup tooling | Whole server on the ask list |
+| `discord-setup` | retired 2026-07-23 (operator ruling, The Lamplighter) -- deregistered from user scope via `claude mcp remove`; bot token cleanup pending in accounts inventory | -- | -- |
 
 Re-registration commands live in `genesis.md` Step 10.
 
@@ -103,7 +103,7 @@ Scheduled (headless) agents cannot answer an ask: each scheduled task carries an
 - **Instantly deprecated 2026-07-10.** Clay owns the Five Points outbound lane (enrichment, sequencing, sending; no MCP yet). Decision made this date; the server unregistration and account cancellation followed on 2026-07-23 above.
 - **Desktop connector registry trued up 2026-07-10.** Google Calendar, Gmail and Uber connectors added; both Google connectors serve the personal Gmail account.
 - **fullscript-mcp registered at project scope, 2026-06-11.** Personal wellness tooling; built April 2026, credentials rotated 2026-04-22, previously unregistered by oversight.
-- **Buffer deprecated ecosystem-wide April 2026**; Pennyone is the syndication layer.
+- **Buffer deprecated ecosystem-wide April 2026**; Pennyone is the syndication layer. Account confirmed cancelled by the operator 2026-07-23.
 - **Stripe is venture-scoped only** – no personal Stripe exists.
 - **Nabu (`Apps/nabu`) has no MCP surface.** It is driven headlessly by the `nabu-likes` scheduled task (`npm run watch-likes`) and interactively by its own Next.js dev server; nothing in `.mcp.json` or `~/.claude.json` references it. Its environment surface lives in its own `.env.local`, catalogued for the first time in `secrets-inventory.md` this pass.
 
