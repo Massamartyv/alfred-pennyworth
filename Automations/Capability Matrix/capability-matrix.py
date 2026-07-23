@@ -7,7 +7,16 @@ matrix as a single markdown document with three tables:
 
   1. Scheduled agents        (Agents/System/*.md, Agents/Orchestration/*.md)
   2. Native crew subagents   (.claude/agents/*.md)
-  3. Scheduled-task registrations (~/.claude/scheduled-tasks/*/SKILL.md)
+  3. Scheduled-task registrations (~/.claude/scheduled-tasks/*/SKILL.md,
+     cross-checked against a JSON dump of the live scheduler)
+
+A SKILL.md directory on disk is not proof of a live registration: deleting a
+task via the scheduled-tasks MCP removes the scheduler entry but deliberately
+leaves SKILL.md on disk so the prompt can be recovered. Pass --live-tasks with
+a JSON file holding the verbatim output of the
+mcp__scheduled-tasks__list_scheduled_tasks tool and each row is marked live,
+live (disabled) or deregistered. Without the dump every row is marked
+unverified rather than presumed live.
 
 Accepts an optional --write flag that replaces the content between
   <!-- capability-matrix:start -->
@@ -20,9 +29,11 @@ No third-party dependencies. Requires Python 3.6+.
 
 import argparse
 import glob
+import json
 import os
 import sys
 import textwrap
+from datetime import datetime
 
 
 # ---------------------------------------------------------------------------
@@ -72,6 +83,46 @@ def parse_frontmatter(path):
             value = rest.strip().strip('"').strip("'")
             data[key.strip()] = value
     return data
+
+
+# ---------------------------------------------------------------------------
+# Live scheduler dump loader
+# ---------------------------------------------------------------------------
+
+def load_live_tasks(path):
+    """
+    Parse a JSON dump of the live scheduler: the verbatim output of the
+    mcp__scheduled-tasks__list_scheduled_tasks tool, a list of objects each
+    carrying at least taskId and enabled.
+
+    Returns (tasks, stamp) where tasks maps task id -> enabled flag and stamp
+    is the dump file's modification time as a display string. Exits with an
+    error on a missing or malformed file: a bad dump would mislabel every row,
+    which is worse than no dump at all.
+    """
+    try:
+        with open(path, "r", encoding="utf-8") as fh:
+            entries = json.load(fh)
+    except (OSError, ValueError) as exc:
+        print(f"ERROR: cannot read live-tasks dump at {path}: {exc}", file=sys.stderr)
+        sys.exit(1)
+
+    if not isinstance(entries, list):
+        print(f"ERROR: live-tasks dump at {path} is not a JSON list", file=sys.stderr)
+        sys.exit(1)
+
+    tasks = {}
+    for entry in entries:
+        if not isinstance(entry, dict) or "taskId" not in entry:
+            print(
+                f"ERROR: live-tasks dump entry missing taskId: {entry!r}",
+                file=sys.stderr,
+            )
+            sys.exit(1)
+        tasks[entry["taskId"]] = bool(entry.get("enabled", True))
+
+    stamp = datetime.fromtimestamp(os.path.getmtime(path)).strftime("%Y-%m-%d %H:%M")
+    return tasks, stamp
 
 
 # ---------------------------------------------------------------------------
@@ -155,10 +206,18 @@ def scan_native_subagents():
     return rows
 
 
-def scan_scheduled_tasks():
+def scan_scheduled_tasks(live_tasks=None):
     """
-    Scan ~/.claude/scheduled-tasks/*/SKILL.md.
-    Returns a list of dicts with keys: name, allowed_tools.
+    Scan ~/.claude/scheduled-tasks/*/SKILL.md and cross-check each directory
+    against the live scheduler. A SKILL.md left on disk after deregistration
+    is a recovery artifact, not a live entry, so filesystem presence alone is
+    never trusted. live_tasks maps task id -> enabled flag (see
+    load_live_tasks), or None when no dump was supplied.
+
+    Returns a list of dicts with keys: name, dir, status, allowed_tools,
+    description. Status is one of: live, live (disabled), deregistered,
+    unverified. The scheduler keys tasks by directory name (taskId), so the
+    cross-check matches on dir, not on the frontmatter name.
     """
     rows = []
     if not os.path.isdir(SCHEDULED_TASKS):
@@ -168,8 +227,18 @@ def scan_scheduled_tasks():
         if not os.path.isfile(skill_path):
             continue
         fm = parse_frontmatter(skill_path)
+        if live_tasks is None:
+            status = "unverified"
+        elif task_dir not in live_tasks:
+            status = "deregistered"
+        elif live_tasks[task_dir]:
+            status = "live"
+        else:
+            status = "live (disabled)"
         rows.append({
             "name": fm.get("name", task_dir),
+            "dir": task_dir,
+            "status": status,
             "allowed_tools": tool_summary(fm.get("allowed-tools", "")),
             "description": fm.get("description", ""),
         })
@@ -206,10 +275,10 @@ def md_table(headers, rows):
 # Matrix builder
 # ---------------------------------------------------------------------------
 
-def build_matrix():
+def build_matrix(live_tasks=None, live_stamp=None):
     scheduled = scan_scheduled_agents()
     native = scan_native_subagents()
-    tasks = scan_scheduled_tasks()
+    tasks = scan_scheduled_tasks(live_tasks)
 
     sections = []
 
@@ -243,24 +312,56 @@ def build_matrix():
 
     # Table 3: Scheduled-task registrations
     sections.append("### Scheduled-Task Registrations\n")
-    sections.append("Registered under `~/.claude/scheduled-tasks/`. These are the live scheduler entries.\n")
+    sections.append(
+        "SKILL.md directories on disk under `~/.claude/scheduled-tasks/`. "
+        "Deleting a task from the scheduler leaves its SKILL.md on disk for "
+        "prompt recovery, so presence here does not mean the task is live -- "
+        "the Status column is cross-checked against a dump of the live "
+        "scheduler (`--live-tasks`).\n"
+    )
     if tasks:
-        headers = ["Name", "Allowed Tools", "Description"]
+        headers = ["Name", "Status", "Allowed Tools", "Description"]
         table_rows = [
-            [r["name"], r["allowed_tools"], textwrap.shorten(r["description"], width=72, placeholder="…")]
+            [r["name"], r["status"], r["allowed_tools"],
+             textwrap.shorten(r["description"], width=64, placeholder="…")]
             for r in tasks
         ]
         sections.append(md_table(headers, table_rows))
     else:
-        sections.append("_No scheduled-task registrations found._")
+        sections.append("_No scheduled-task SKILL.md directories found._")
     sections.append("")
 
+    # Scheduler entries with no SKILL.md directory on disk
+    if live_tasks is not None:
+        on_disk = {r["dir"] for r in tasks}
+        orphans = sorted(t for t in live_tasks if t not in on_disk)
+        if orphans:
+            sections.append(
+                "_Live scheduler entries with no SKILL.md on disk: "
+                + ", ".join(f"`{t}`" for t in orphans)
+                + "._"
+            )
+            sections.append("")
+
     # Row counts note
+    if live_tasks is None:
+        task_note = (
+            f"Scheduled-task SKILL.md directories: {len(tasks)}, "
+            f"live status unverified (no --live-tasks dump supplied)."
+        )
+    else:
+        live_count = sum(1 for r in tasks if r["status"].startswith("live"))
+        dereg_count = sum(1 for r in tasks if r["status"] == "deregistered")
+        task_note = (
+            f"Scheduled-task SKILL.md directories: {len(tasks)} "
+            f"({live_count} live, {dereg_count} deregistered; "
+            f"scheduler dump of {live_stamp})."
+        )
     sections.append(
         f"_Generated automatically. "
         f"Scheduled agents: {len(scheduled)}. "
         f"Native subagents: {len(native)}. "
-        f"Scheduled-task registrations: {len(tasks)}._"
+        f"{task_note}_"
     )
 
     return "\n".join(sections)
@@ -322,9 +423,23 @@ def main():
         action="store_true",
         help="Replace the capability-matrix block in Agents/_index.md with current output.",
     )
+    parser.add_argument(
+        "--live-tasks",
+        metavar="PATH",
+        help=(
+            "JSON file holding the verbatim output of the "
+            "mcp__scheduled-tasks__list_scheduled_tasks tool. Each SKILL.md "
+            "directory is marked live, live (disabled) or deregistered "
+            "against it. Without this flag every row is marked unverified."
+        ),
+    )
     args = parser.parse_args()
 
-    matrix = build_matrix()
+    live_tasks, live_stamp = None, None
+    if args.live_tasks:
+        live_tasks, live_stamp = load_live_tasks(args.live_tasks)
+
+    matrix = build_matrix(live_tasks, live_stamp)
 
     if args.write:
         write_to_index(matrix)

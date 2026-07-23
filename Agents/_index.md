@@ -116,9 +116,9 @@ Portfolio-level systems that aggregate intelligence and surface alerts across al
 
 | Agent | Location | Crew | Cadence | Purpose |
 |---|---|---|---|---|
-| pattern-memo | Orchestration/ | Researcher, Creator | Monthly | Three patterns from the prior month, staged into the new Monthly Review entry in Reflections |
-| penny-one | Orchestration/ | Creator, Broadcaster | Weekly and on-demand | Portfolio briefing production and multi-platform syndication |
-| watchtower | Orchestration/ | Reviewer:Scrutiny, Broadcaster | Continuous | Threshold monitoring and alert broadcasting |
+| pattern-memo | Orchestration/ | Researcher, Creator | Monthly (headless scheduling paused, gated on a Notion plan decision) | Three patterns from the prior month, staged into the new Monthly Review entry in Reflections |
+| pennyone | Orchestration/ | Creator | On-demand | Multi-platform content syndication via Zernio. Distinct from the retired `penny-one` scheduled briefing task -- see Naming Note in `Orchestration/pennyone.md` |
+| watchtower | Orchestration/ | Reviewer:Scrutiny, Broadcaster | Continuous, daily (weekly briefing not yet built) | Threshold monitoring and alert broadcasting; sole owner of the weekly portfolio briefing on paper, unbuilt |
 
 ### Native Crew Subagents
 
@@ -256,11 +256,13 @@ Researcher-crew agents carry a directional suffix that signals where they look:
 
 ## Capability Matrix
 
-Regenerated monthly by the heartbeat agent. Run manually at any time from the project root:
+Regenerated monthly by the heartbeat agent. Run manually at any time from the project root. The script cannot call MCP tools itself, so first save the verbatim output of the `mcp__scheduled-tasks__list_scheduled_tasks` tool to a JSON file -- `.working/capability-matrix/live-tasks.json` by convention -- then:
 
 ```
-python3 "Automations/Capability Matrix/capability-matrix.py" --write
+python3 "Automations/Capability Matrix/capability-matrix.py" --live-tasks .working/capability-matrix/live-tasks.json --write
 ```
+
+Without `--live-tasks` every row in the Scheduled-Task Registrations table is marked unverified rather than presumed live, because a SKILL.md directory on disk may be a deregistered task's recovery artifact.
 
 <!-- capability-matrix:start -->
 
@@ -268,15 +270,15 @@ python3 "Automations/Capability Matrix/capability-matrix.py" --write
 
 Defined under `Agents/System/` and `Agents/Orchestration/`.
 
-| Name          | Type          | Crew                | Model  | Cadence                                                            | Tools                                                                                                                        |
-| ------------- | ------------- | ------------------- | ------ | ------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
-| context-audit | maintenance   | reviewer            | haiku  | First of every month                                               | 3 (Read, Glob, Grep)                                                                                                         |
-| drift-audit   | maintenance   | reviewer            | haiku  | First of every month                                               | 6 (Read, Glob, Grep…)                                                                                                        |
-| media-scanner | maintenance   | researcher          | haiku  | First of every month                                               | 5 (Read, Write, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-search…)                                                   |
-| sphere-review | maintenance   | reviewer            | haiku  | First of each quarter                                              | 5 (Read, Glob, Grep…)                                                                                                        |
-| pattern-memo  | orchestration | researcher, creator | sonnet | First of every month                                               | 7 (Read, Write, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-search…)                                                   |
-| pennyone      | orchestration | creator             | sonnet | On-demand (per publish event)                                      | 4 (mcp__pennyone__publish, mcp__pennyone__pipeline_status, mcp__pennyone__list_pipelines…)                                   |
-| watchtower    | orchestration | reviewer            | sonnet | Continuous (threshold triggers), daily (sweeps), weekly (briefing) | 5 (Read, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-search, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-fetch…) |
+| Name          | Type          | Crew                | Model  | Cadence                                                            | Tools                                                                                      |
+| ------------- | ------------- | ------------------- | ------ | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
+| context-audit | maintenance   | reviewer            | haiku  | First of every month                                               | 3 (Read, Glob, Grep)                                                                       |
+| drift-audit   | maintenance   | reviewer            | haiku  | First of every month                                               | 6 (Read, Glob, Grep…)                                                                      |
+| media-scanner | maintenance   | researcher          | haiku  | First of every month                                               | 5 (Read, Write, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-search…)                 |
+| sphere-review | maintenance   | reviewer            | haiku  | First of each quarter                                              | 5 (Read, Glob, Grep…)                                                                      |
+| pattern-memo  | orchestration | researcher, creator | sonnet | First of every month                                               | 7 (Read, Write, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-search…)                 |
+| pennyone      | orchestration | creator             | sonnet | On-demand (per publish event)                                      | 4 (mcp__pennyone__publish, mcp__pennyone__pipeline_status, mcp__pennyone__list_pipelines…) |
+| watchtower    | orchestration | reviewer            | sonnet | Continuous (threshold triggers), daily (sweeps), weekly (briefing) | 8 (Read, Write, Glob…)                                                                     |
 
 ### Native Crew Subagents
 
@@ -287,27 +289,27 @@ Defined under `.claude/agents/` at the project root. Dispatched in-session via t
 | creator              | sonnet | 6 (Read, Grep, Glob…)  | none                      |
 | job-applier          | sonnet | 8 (Read, Write, Edit…) | none                      |
 | researcher           | sonnet | 6 (Read, Grep, Glob…)  | none                      |
-| reviewer-behavioural | sonnet | 18 (Read, Grep, Glob…) | Write, Edit, NotebookEdit |
+| reviewer-behavioural | sonnet | 17 (Read, Grep, Glob…) | Write, Edit, NotebookEdit |
 | reviewer-scrutiny    | sonnet | 4 (Read, Grep, Glob…)  | Write, Edit, NotebookEdit |
 
 ### Scheduled-Task Registrations
 
-Registered under `~/.claude/scheduled-tasks/`. These are the live scheduler entries.
+SKILL.md directories on disk under `~/.claude/scheduled-tasks/`. Deleting a task from the scheduler leaves its SKILL.md on disk for prompt recovery, so presence here does not mean the task is live -- the Status column is cross-checked against a dump of the live scheduler (`--live-tasks`).
 
-| Name                     | Allowed Tools                                         | Description                                                              |
-| ------------------------ | ----------------------------------------------------- | ------------------------------------------------------------------------ |
-| catalogue-likes          | none                                                  | RETIRED — renamed to nabu-likes. Safe to delete from the Scheduled…      |
-| contact-card-sync        | none                                                  | Self-Reference Scan                                                      |
-| context-audit            | 4 (Read, Glob, Grep…)                                 | Monthly scan of all context files for stale, outdated or inconsistent…   |
-| media-scanner            | 7 (Read, Glob, Grep…)                                 | Monthly scan of Notion Media and Literature databases for new five-star… |
-| nabu-likes               | 2 (Bash, mcp__Read_and_Send_iMessages__send_imessage) | Daily Nabu liked-video watcher: files new YouTube likes into Notion…     |
-| pattern-memo             | 9 (Read, Glob, Grep…)                                 | First-of-month pattern memo: synthesise three patterns from the prior…   |
-| penny-one                | 10 (Read, Glob, Grep…)                                | Weekly Monday morning portfolio briefing. Aggregates tasks, projects,…   |
-| sphere-review            | 6 (Read, Glob, Grep…)                                 | Quarterly alignment check between Sphere Index, Sphere Manager database… |
-| watchtower               | 7 (Read, Write, Glob…)                                | Daily evening sweep of Notion for overdue tasks, stale high-priority…    |
-| wealth-benchmark-refresh | none                                                  | Wealth Benchmark                                                         |
+| Name                     | Status       | Allowed Tools                                         | Description                                                      |
+| ------------------------ | ------------ | ----------------------------------------------------- | ---------------------------------------------------------------- |
+| catalogue-likes          | deregistered | none                                                  | RETIRED — renamed to nabu-likes. Safe to delete from the…        |
+| contact-card-sync        | live         | none                                                  | Self-Reference Scan                                              |
+| context-audit            | deregistered | 4 (Read, Glob, Grep…)                                 | Monthly scan of all context files for stale, outdated or…        |
+| media-scanner            | deregistered | 7 (Read, Glob, Grep…)                                 | Monthly scan of Notion Media and Literature databases for new…   |
+| nabu-likes               | live         | 2 (Bash, mcp__Read_and_Send_iMessages__send_imessage) | Daily Nabu liked-video watcher: files new YouTube likes into…    |
+| pattern-memo             | deregistered | 9 (Read, Glob, Grep…)                                 | First-of-month pattern memo: synthesise three patterns from the… |
+| penny-one                | deregistered | 10 (Read, Glob, Grep…)                                | Weekly Monday morning portfolio briefing. Aggregates tasks,…     |
+| sphere-review            | deregistered | 6 (Read, Glob, Grep…)                                 | Quarterly alignment check between Sphere Index, Sphere Manager…  |
+| watchtower               | live         | 8 (Read, Write, Glob…)                                | Daily evening sweep of Notion for overdue tasks, stale high-…    |
+| wealth-benchmark-refresh | live         | none                                                  | Wealth Benchmark                                                 |
 
-_Generated automatically. Scheduled agents: 7. Native subagents: 5. Scheduled-task registrations: 10._
+_Generated automatically. Scheduled agents: 7. Native subagents: 5. Scheduled-task SKILL.md directories: 10 (4 live, 6 deregistered; scheduler dump of 2026-07-23 13:13)._
 
 <!-- capability-matrix:end -->
 
@@ -326,10 +328,10 @@ Agents/
 |   +-- sphere-review.md
 +-- Orchestration/     -- Portfolio-level agents
     +-- pattern-memo.md
-    +-- penny-one.md
+    +-- pennyone.md
     +-- watchtower.md
 ```
 
 ---
 
-*Last updated: 2026-07-10 – mission record defined with its Projects/Tasks anchors; drift-audit added to System Agents; handoff rule and Stack Awareness updated for the Notion state layer.*
+*Last updated: 2026-07-23 – The Lamplighter w1-repairs: capability matrix regenerated post scheduler cleanup; Orchestration Agents table corrected (pennyone replaces the penny-one filename typo, briefing ownership reassigned to Watchtower on paper, pattern-memo marked paused); capability-matrix.py now cross-checks the live scheduler via --live-tasks and the interim caveat note is retired.*

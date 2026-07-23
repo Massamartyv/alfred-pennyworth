@@ -7,7 +7,7 @@ model: sonnet
 cadence: Continuous (threshold triggers), daily (sweeps), weekly (briefing)
 scope: All ventures, personal operations, financial data, client health, content deadlines
 working_dir: .working/watchtower/
-tools: Read, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-search, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-fetch, mcp__stripe-fivepoints__stripe_api_read, mcp__Read_and_Send_iMessages__send_imessage
+tools: Read, Write, Glob, Grep, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-search, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-fetch, mcp__stripe-fivepoints__stripe_api_read, mcp__Read_and_Send_iMessages__send_imessage
 ---
 
 # Watchtower – Portfolio Monitoring and Briefing Agent
@@ -27,11 +27,11 @@ Watchtower reaches DOWN into ventures. Ventures never reach ACROSS to each other
 
 | Capability | Detail |
 |---|---|
-| Tools granted | Read, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-search, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-fetch, mcp__stripe-fivepoints__stripe_api_read, mcp__Read_and_Send_iMessages__send_imessage |
+| Tools granted | Read, Write, Glob, Grep, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-search, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-fetch, mcp__stripe-fivepoints__stripe_api_read, mcp__Read_and_Send_iMessages__send_imessage |
 | MCP servers touched | Personal Notion (mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7) – read only; Five Points Stripe (mcp__stripe-fivepoints) – read only; iMessage (mcp__Read_and_Send_iMessages) – send only |
 | Skills it may invoke | None |
 | Model | sonnet |
-| Scope red-lines | Never writes to Notion – read only across all Notion access. Never modifies local files. iMessage sends to martavious.spicer@icloud.com only. Stripe access is read-only via stripe_api_read – no charges, refunds or mutations. Does not publish content. The weekly portfolio briefing and Stripe financial thresholds are designed but unbuilt; do not assume they run. |
+| Scope red-lines | Never writes to Notion – read only across all Notion access. Write, Glob and Grep are local-filesystem only, scoped to `.working/watchtower/` and the scheduler-receipt liveness check across `.working/{agent}/handoff.md` files – never used to edit context, sphere or agent-definition files. iMessage sends to martavious.spicer@icloud.com only. Stripe access is read-only via stripe_api_read – no charges, refunds or mutations. Does not publish content. The weekly portfolio briefing and Stripe financial thresholds are designed but unbuilt; do not assume they run. |
 
 ---
 
@@ -166,6 +166,7 @@ All intermediate output goes to `.working/watchtower/`. Raw threshold checks, si
 - **Current scope:** Personal Notion workspace (Tasks, Projects, Content Calendar)
 - **Health-checks:** the `nabu-likes` watcher receipt -- the Nabu YouTube liked-video filer -- via the scheduler-receipt sweep; flagged if stale beyond 2 days. The watcher does the writing; Watchtower only observes its liveness, preserving the read-only red-line.
 - **Not yet wired (prose-only):** the weekly portfolio briefing absorbed from the retired Pennyone briefing role; Stripe financial thresholds; Five Points workspace sweep; venture-level breakdowns. These are designed but unbuilt -- do not assume they run.
+- **Weekly briefing collapsed to one owner, 2026-07-23 (The Lamplighter, w1-repairs):** the legacy `penny-one` scheduled task -- the briefing variant -- was deregistered from `~/.claude/scheduled-tasks/`. Watchtower keeps ownership of the weekly briefing on paper only; the redesigned briefing is not being built in this pass and is deferred to a dedicated session with the operator. The `watchtower` scheduled-task registration itself was inspected against this ruling and retained as-is: its SKILL.md performs only the daily alert sweep above (overdue tasks, stale priorities, missed content, stagnating projects, scheduler receipts) and contains no briefing logic, so it is not a second briefing variant requiring pause. Reactivation of any scheduled weekly briefing -- under this name or a new one -- is gated on the redesign.
 
 ---
 
@@ -175,4 +176,4 @@ Monitoring and briefing are two expressions of the same underlying act: continuo
 
 ---
 
-*Last updated: 2026-07-10 – daily sweep gains an Alfred Logs presence check for the prior day's sessions.*
+*Last updated: 2026-07-23 – The Lamplighter w1-repairs: weekly briefing ownership collapsed to Watchtower on paper (penny-one deregistered, redesign deferred); Tools granted reconciled with the scheduled SKILL.md's actual Write/Glob/Grep grant.*

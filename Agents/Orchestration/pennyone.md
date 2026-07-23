@@ -34,7 +34,7 @@ Pennyone does not write the content. It does not decide when to publish. It take
 
 ## Naming Note
 
-This definition (Pennyone, on-demand syndication router) is distinct from the legacy scheduled task registered as `penny-one` in `~/.claude/scheduled-tasks/penny-one/SKILL.md`. That registration delivers the weekly portfolio briefing and runs on a Monday morning schedule. Renaming that registration is deliberately deferred to avoid disturbing a working schedule. The two co-exist: `penny-one` (scheduled briefing) and `pennyone` (on-demand syndication). If the distinction causes confusion, consult `Agents/heartbeat.md` for the scheduled task context.
+This definition (Pennyone, on-demand syndication router) is distinct from the legacy scheduled task that was registered as `penny-one` in `~/.claude/scheduled-tasks/penny-one/SKILL.md`. That registration delivered the weekly portfolio briefing on a Monday morning schedule. **Deregistered 2026-07-23 (The Lamplighter, w1-repairs)**: the weekly-briefing responsibility is collapsed to one owner, Watchtower (`Agents/Orchestration/watchtower.md`), which already absorbed the briefing scope on paper on 2026-04-23. The `penny-one` scheduled task is removed from the scheduler -- its SKILL.md remains on disk for recovery -- so no weekly briefing runs headlessly today. The redesigned Watchtower briefing is not being built as part of this pass; that build is deferred to a dedicated session with the operator. `pennyone` (this definition, on-demand syndication) is unaffected and continues to operate independently of the briefing question.
 
 ---
 
@@ -153,4 +153,4 @@ The Content Calendar schema is documented in `Integrations/pennyone/README.md`. 
 
 ---
 
-*Last updated: 2026-06-11 – capabilities block and handoff retrofit*
+*Last updated: 2026-07-23 – The Lamplighter w1-repairs: Naming Note updated for the `penny-one` scheduled-task deregistration; weekly-briefing ownership collapsed to Watchtower.*

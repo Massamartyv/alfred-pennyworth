@@ -30,6 +30,12 @@ Query the Media and Literature databases in the personal Notion workspace for en
 
 ---
 
+## Execution Model
+
+Runs inside heartbeat sessions, not headless. Triggered via `Agents/heartbeat.md` at the first Alfred session of the month -- never as a standalone scheduled-task registration. The `media-scanner` entry in `~/.claude/scheduled-tasks/` was deregistered 2026-07-23 (The Lamplighter, w1-repairs): this is an interactive report-and-ask agent whose "ask for approval before updating" step cannot resolve without an operator present, so a headless run had no path to completion.
+
+---
+
 ## Scope
 
 - **Media database**: `collection://a2368097-fca1-428c-8101-afbe6b20b959`
@@ -94,4 +100,4 @@ All intermediate output goes to `.working/media-scanner/`. This includes raw que
 
 ---
 
-*Last updated: 2026-07-10 – destination shifts to Notion page-body enrichment; culture.md retired as a write target, kept as loadable reference.*
+*Last updated: 2026-07-23 – The Lamplighter w1-repairs: scheduled-task registration deregistered, execution model clarified as heartbeat-only.*

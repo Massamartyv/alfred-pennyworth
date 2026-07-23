@@ -30,6 +30,12 @@ Verify that the Sphere Index in the global CLAUDE.md, the Sphere Manager databas
 
 ---
 
+## Execution Model
+
+Runs inside heartbeat sessions, not headless. Triggered via `Agents/heartbeat.md` at the first Alfred session of each quarter -- never as a standalone scheduled-task registration. The `sphere-review` entry in `~/.claude/scheduled-tasks/` was deregistered 2026-07-23 (The Lamplighter, w1-repairs): this is an interactive report-and-ask agent whose "ask for approval before making corrections" step cannot resolve without an operator present, so a headless run had no path to completion.
+
+---
+
 ## Scope
 
 - **Sphere Index**: Global `~/.claude/CLAUDE.md` -- Sphere Index table
@@ -106,4 +112,4 @@ All intermediate output goes to `.working/sphere-review/`. This includes index s
 
 ---
 
-*Last updated: 2026-07-10 – state currency check repointed from the global CLAUDE.md snapshot to the Notion state cache.*
+*Last updated: 2026-07-23 – The Lamplighter w1-repairs: scheduled-task registration deregistered, execution model clarified as heartbeat-only.*

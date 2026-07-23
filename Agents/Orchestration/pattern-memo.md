@@ -105,6 +105,12 @@ The question worth sitting with -- {single open question}.
 
 ---
 
+## Implementation Status
+
+**Scheduling paused 2026-07-23 (The Lamplighter, w1-repairs).** Lifetime record against the headless scheduled-task registration: 0-for-2 -- both runs produced no completed memo, and one run was killed mid-execution by a Notion API quota limit. The `pattern-memo` entry in `~/.claude/scheduled-tasks/` has been deregistered; the SKILL.md remains on disk for recovery. Reactivation is gated on a Notion plan decision (the quota ceiling that killed the run needs resolving before a monthly headless run is trustworthy again) -- not on any change to this definition or the memo criteria above, which stand as designed. Until reactivated, the monthly pattern memo does not run automatically; it may still be run on demand inside a live session.
+
+---
+
 ## After the Mission
 
 1. Write the candidate memo and full evidence list to `.working/pattern-memo/draft.md`
@@ -115,4 +121,4 @@ The question worth sitting with -- {single open question}.
 
 ---
 
-*Last updated: 2026-07-10 – build history reference replaced with the Alfred Logs database; canonical-output note added.*
+*Last updated: 2026-07-23 – The Lamplighter w1-repairs: headless scheduling paused pending a Notion plan decision; scheduled-task registration deregistered.*

@@ -30,6 +30,12 @@ Scan every context file in the Alfred operating system ecosystem for information
 
 ---
 
+## Execution Model
+
+Runs inside heartbeat sessions, not headless. Triggered via `Agents/heartbeat.md` at the first Alfred session of the month -- never as a standalone scheduled-task registration. The `context-audit` entry in `~/.claude/scheduled-tasks/` was deregistered 2026-07-23 (The Lamplighter, w1-repairs): this is an interactive report-and-ask agent whose "ask which findings to act on" step cannot resolve without an operator present, so a headless run had no path to completion.
+
+---
+
 ## Scope
 
 ### Primary scan targets
@@ -136,4 +142,4 @@ All intermediate output goes to `.working/context-audit/`. This includes raw sca
 
 ---
 
-*Last updated: 2026-06-11 – capabilities block and handoff retrofit*
+*Last updated: 2026-07-23 – The Lamplighter w1-repairs: scheduled-task registration deregistered, execution model clarified as heartbeat-only.*
