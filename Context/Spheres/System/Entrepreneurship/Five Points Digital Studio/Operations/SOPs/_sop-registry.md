@@ -2,7 +2,7 @@
 file_type: registry
 registry_type: sops
 venture: Five Points Digital Studio
-last_updated: 2026-04-06
+last_updated: 2026-07-22
 ---
 
 # SOP Registry
@@ -18,6 +18,7 @@ Catalog of all standard operating procedures for Five Points Digital Studio.
 | OPS-003 | Quality Assurance | Before any client delivery | quality-assurance.md | To be created |
 | OPS-004 | Client Offboarding | Contract ends or churns | client-offboarding.md | To be created |
 | OPS-005 | Project Handoff | Client requests ownership transfer | project-handoff.md | Active |
+| OPS-006 | Quarterly Governance Review | Evolution principal reaches quarterly anniversary | quarterly-governance-review.md | Active |
 
 ## Agent Instructions
 
