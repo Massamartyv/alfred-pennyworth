@@ -170,8 +170,7 @@ Each pipeline runs its own Notion workspace with its own Content Calendar. The c
 | `Type` | select | Informs default `MediaAsset.kind` (Short/Long Form Videography -> `video`) |
 | `Status` | status | Editorial workflow. `Scheduled` = eligible. On success -> `Published` |
 | `Media` | files | Images or videos. Publisher downloads Notion-hosted files to temp paths before dispatch |
-| `Zernio Log` | rich_text | Written after successful dispatch -- holds the Zernio post ID |
-| `Pennyone Log` | rich_text | Per-platform outcomes + any mapper warnings |
+| `Pennyone Log` | rich_text | Per-platform outcomes + any mapper warnings; Zernio post IDs appear inline in the `[success]` lines |
 
 The Platforms database stores one row per platform with `Name` as the title. Row names map to Pennyone platforms via `PLATFORM_NAME_MAP` in `publisher.py` (`Instagram`, `TikTok`, `Threads`, `X`, `Reddit`, `Snapchat`).
 
@@ -221,7 +220,7 @@ Note: the managed Notion MCP used inside Claude sessions is separate from the CL
 
 ### Eligibility filter
 
-An entry is eligible when `Status == "Scheduled"` and `Publish Date <= now`. After a successful dispatch (no partials or failures), the status moves to `Published` and the Zernio post ID lands in `Zernio Post ID`. Partial or failed dispatches leave the status at `Scheduled` and log the detail in `Pennyone Log` so the next run retries.
+An entry is eligible when `Status == "Scheduled"` and `Publish Date <= now`. After a successful dispatch (no partials or failures), the status moves to `Published` and the per-platform outcomes, including Zernio post IDs, land in `Pennyone Log`. Partial or failed dispatches leave the status at `Scheduled` and log the detail in `Pennyone Log` so the next run retries.
 
 ---
 

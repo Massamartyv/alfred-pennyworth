@@ -336,14 +336,11 @@ async def _notion_update_page(
 def _writeback_properties(
     response: server.PublishResponse, log_text: str, mark_published: bool
 ) -> Dict[str, Any]:
-    first_success = response.success[0] if response.success else None
+    # Pennyone Log is the single write-back rail; per-platform post IDs appear
+    # inline in its [success] lines. The former Zernio Log property is retired.
     properties: Dict[str, Any] = {
         "Pennyone Log": {"rich_text": [{"type": "text", "text": {"content": log_text[:2000]}}]},
     }
-    if first_success and first_success.post_id:
-        properties["Zernio Log"] = {
-            "rich_text": [{"type": "text", "text": {"content": first_success.post_id}}]
-        }
     if mark_published:
         properties["Status"] = {"status": {"name": "Published"}}
     return properties
