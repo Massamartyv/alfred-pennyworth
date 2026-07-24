@@ -130,6 +130,7 @@ Before specific actions, run the corresponding check. These are non-negotiable p
 |---|---|
 | Drafting any email reply | Search inbox for prior thread, read last two messages |
 | Creating a Notion task or project | Search for existing entry with overlapping title or sphere |
+| Creating a goal, Achievements entry, project or mission | Run the specificity gate – record the answers to "what do I actually want to have happen" and "what does that change about my actual daily life" on the entry before writing it |
 | Publishing content | Check Content Calendar for duplicate hook within 14 days |
 | Committing to a remote | Run `git status` and read the diff, confirm staged set matches intent |
 | Dispatching an agent | Check `.working/{agent-name}/` for a recent run within 24 hours |
