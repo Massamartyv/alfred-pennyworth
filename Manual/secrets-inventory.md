@@ -35,23 +35,23 @@
 
 ---
 
-## Environment Variables in `Apps/nabu/.env.local` (Nabu's own repo, gitignored – separate from the repo-root `.env`)
+## Environment Variables in `Apps/oracle/.env.local` (Oracle's own repo, gitignored – separate from the repo-root `.env`)
 
-**Catalogued here for the first time 2026-07-23 (The Lamplighter, registries lane) – to-be-provisioned/verified as part of any restore.** Nabu (`Apps/nabu`) is a standalone Next.js app, not an MCP server; nothing in this table registers with `.mcp.json` or `~/.claude.json`. It reads its own `.env.local`, templated by its own `.env.example` (which Alfred is equally denied from reading, by the same `.env*` deny pattern). It is driven interactively by its own dev server and headlessly by the `nabu-likes` scheduled task (`npm run watch-likes`). Names and purposes below are sourced from the app's own `README.md` and its source (`lib/ai/`, `lib/notion/`, `lib/youtube/`) – every variable is optional at the code level, but the rows marked required are load-bearing for the `nabu-likes` scheduled task specifically.
+**Catalogued here for the first time 2026-07-23 (The Lamplighter, registries lane) – to-be-provisioned/verified as part of any restore.** Oracle (`Apps/oracle`) is a standalone Next.js app, not an MCP server; nothing in this table registers with `.mcp.json` or `~/.claude.json`. It reads its own `.env.local`, templated by its own `.env.example` (which Alfred is equally denied from reading, by the same `.env*` deny pattern). It is driven interactively by its own dev server and headlessly by the `oracle-likes` scheduled task (`npm run watch-likes`). Names and purposes below are sourced from the app's own `README.md` and its source (`lib/ai/`, `lib/notion/`, `lib/youtube/`) – every variable is optional at the code level, but the rows marked required are load-bearing for the `oracle-likes` scheduled task specifically.
 
 | Variable | Consumed by | Re-issue procedure |
 |---|---|---|
-| `ANTHROPIC_API_KEY` | Nabu's AI layer – didactic panel (abstract, key points, chapters) and the classification/sphere-assignment step of Save to Media; **required** for `nabu-likes` to file full entries | Anthropic console > API keys; Nabu manages its own key independently of the Claude Code session's credentials |
-| `NABU_MODEL` | Which Claude model writes the panel | Config flag, not a secret; defaults to `claude-sonnet-4-5` if unset |
-| `NABU_MAX_ITEMS` | Cap on videos pulled from a playlist or channel in the interactive UI | Config flag, not a secret; defaults to `25` |
-| `NABU_WATCH_MAX_PER_RUN` | Cap on new likes filed per `nabu-likes` run | Config flag, not a secret; defaults to `10` |
-| `NABU_NOTIFY_IMESSAGE` | Operator's iMessage handle for watcher per-item notices | Config value, not a secret; unset means the watcher stays silent on success |
-| `NOTION_TOKEN` | Connects Save to Media; **required** for `nabu-likes` to file anything | Create an internal integration at notion.com/my-integrations; copy its token; add the integration to both the Media and Sphere Manager databases via each database's `•••` menu > Connections |
+| `ANTHROPIC_API_KEY` | Oracle's AI layer – didactic panel (abstract, key points, chapters) and the classification/sphere-assignment step of Save to Media; **required** for `oracle-likes` to file full entries | Anthropic console > API keys; Oracle manages its own key independently of the Claude Code session's credentials |
+| `ORACLE_MODEL` | Which Claude model writes the panel | Config flag, not a secret; defaults to `claude-sonnet-4-5` if unset |
+| `ORACLE_MAX_ITEMS` | Cap on videos pulled from a playlist or channel in the interactive UI | Config flag, not a secret; defaults to `25` |
+| `ORACLE_WATCH_MAX_PER_RUN` | Cap on new likes filed per `oracle-likes` run | Config flag, not a secret; defaults to `10` |
+| `ORACLE_NOTIFY_IMESSAGE` | Operator's iMessage handle for watcher per-item notices | Config value, not a secret; unset means the watcher stays silent on success |
+| `NOTION_TOKEN` | Connects Save to Media; **required** for `oracle-likes` to file anything | Create an internal integration at notion.com/my-integrations; copy its token; add the integration to both the Media and Sphere Manager databases via each database's `•••` menu > Connections |
 | `NOTION_MEDIA_DATA_SOURCE_ID` | Personal workspace Media database data-source id | Cross-check the "Notion database IDs" reference memory, or read it from the Notion API against the Media database |
 | `NOTION_SPHERE_DATA_SOURCE_ID` | Personal workspace Sphere Manager data-source id, for auto-sphere assignment | Same path as above, against the Sphere Manager database |
 | `YT_OAUTH_CLIENT_ID` | Liked-video watcher's Google OAuth client id | Google Cloud console > new project > enable YouTube Data API v3 > create an OAuth client of type Desktop app |
 | `YT_OAUTH_CLIENT_SECRET` | Liked-video watcher's Google OAuth client secret | Same app as above; same console screen |
-| `YT_OAUTH_REFRESH_TOKEN` | Liked-video watcher's long-lived Google auth | Run `npm run yt:auth` from `Apps/nabu` (wraps `scripts/authorize.mjs`), open the printed URL, grant read-only access, paste the printed refresh token into `.env.local` |
+| `YT_OAUTH_REFRESH_TOKEN` | Liked-video watcher's long-lived Google auth | Run `npm run yt:auth` from `Apps/oracle` (wraps `scripts/authorize.mjs`), open the printed URL, grant read-only access, paste the printed refresh token into `.env.local` |
 | `YT_TRANSCRIPT_IO_TOKEN` | Optional paid fallback transcript fetch via the youtube-transcript.io API, used only when the free InnerTube/`youtube-transcript-plus` paths fail | youtube-transcript.io account dashboard |
 
 ---
@@ -82,4 +82,4 @@ Items that must be present and verified in the password manager before any resto
 
 ---
 
-*Last updated: 2026-07-23 – The Lamplighter, registries lane: Instantly key marked pending removal (teardown 2026-07-23, decision 2026-07-10), Cal.com key added as absent, Nabu's own environment surface catalogued for the first time.*
+*Last updated: 2026-07-23 – The Lamplighter, registries lane: Instantly key marked pending removal (teardown 2026-07-23, decision 2026-07-10), Cal.com key added as absent, Oracle's own environment surface catalogued for the first time.*

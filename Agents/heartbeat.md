@@ -21,6 +21,8 @@ The standing rhythm of Alfred operating system. Cadenced maintenance and opportu
 | First of every month | Working directory sweep | Review the dry-run of `Automations/Guards/working-sweep.sh`, then run with `--execute`. 30-day rule; `session-buffer/` always held; open handoffs held. |
 | First of each quarter | Memory consolidation | Run the consolidate-memory pass – merge duplicate memories, fix stale facts, prune the index. |
 | First of each quarter | Appraisal review | Via the prospect-appraiser skill: surface active-pipeline CRM cards (Prospect, Lead, Discovery Session) whose Appraised date predates the quarter and propose a sweep; reconcile any Clientele conversion still carrying its pre-signing appraisal against actuals. Propose, then run on approval -- never unbidden. |
+| First of every month | Achievements current-value sync | Refresh Current Value on Achievements entries whose source is another database: films from Media, books from Literature, bucket-list count from Bucket List, lift totals from the Fitness Journal, monthly revenue from the venture ledgers. Values move toward Notion-derived truth only; targets and wagers never change in this pass. |
+| First of each quarter | Achievements quarterly triage | Advance the This Quarter view's date filter to the new quarter end. Review every goal whose Achieve By has passed: retime with the operator, mark Done or archive with a reason in the Wager. Confirm every open goal still has an Achieve By and a Wager -- the specificity gate applied on cadence. |
 | First of every month | Drift audit | Scan tracked markdown for state-shaped blocks outside allowed paths (shared pattern file `Automations/Guards/state-patterns.grep`). Verify cache stamp and buffer hygiene. Confirm Alfred Logs continuity for the prior month. Agent: `Agents/System/drift-audit.md`. |
 | First of every month | Credential expiry sweep | Read every `*_EXPIRES` variable in `.env`. Any credential inside 21 days of expiry is flagged to the operator via iMessage with its rotation path. Any credential whose matching `*_ACCOUNT` reads `personal` while sitting in a venture section is flagged as a provenance mismatch awaiting rotation to the venture account. |
 
@@ -39,4 +41,4 @@ These run during any session where the trigger surfaces.
 
 ---
 
-*Last updated: 2026-07-23 – The Lamplighter w1-repairs: portfolio briefing marked not-currently-running (penny-one deregistered), pattern memo marked paused, scheduler audit gains the heartbeat-only exception list, capability matrix regeneration added to the monthly cadence with the live-scheduler dump step.*
+*Last updated: 2026-07-24 – Achievements revival: monthly current-value sync and quarterly triage added, keeping the rebuilt goals board live against its source databases and the specificity gate.*

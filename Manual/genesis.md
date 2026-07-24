@@ -164,7 +164,7 @@ supabase login      # personal; Five Points Supabase is token-based via .env
 | Task | Cadence | Cron |
 |---|---|---|
 | `watchtower` | Daily, evening | `0 20 * * *` |
-| `nabu-likes` | Daily, morning | `0 8 * * *` |
+| `oracle-likes` | Daily, morning | `0 8 * * *` |
 | `contact-card-sync` | Monthly, day 5 | `0 9 5 * *` |
 | `wealth-benchmark-refresh` | Annual, 20 September | `0 9 20 9 *` |
 
@@ -172,7 +172,7 @@ supabase login      # personal; Five Points Supabase is token-based via .env
 
 | Directory | Status |
 |---|---|
-| `catalogue-likes` | Superseded – renamed to `nabu-likes` when the app renamed from Catalogue to Nabu |
+| `catalogue-likes` | Superseded – renamed to `oracle-likes` when the app renamed from Catalogue to Oracle |
 | `context-audit` | Deliberately absent – interactive report-and-ask agent, runs inside heartbeat sessions only |
 | `media-scanner` | Deliberately absent – same reason |
 | `sphere-review` | Deliberately absent – same reason |
@@ -187,14 +187,14 @@ Ask Alfred to re-register the four live tasks (the scheduled-task tools handle c
 
 ## Step 16 – Apps
 
-Nabu (built as "Catalogue", renamed since): the app's own remote is still named `catalogue` as of 2026-07-23 – **a rename to `nabu` is pending operator action** – but it clones into the `Apps/nabu` directory per the standard Apps/ layout:
+Oracle (built as "Catalogue", renamed since): the app's own remote is still named `catalogue` as of 2026-07-23 – **a rename to `oracle` is pending operator action** – but it clones into the `Apps/oracle` directory per the standard Apps/ layout:
 
 ```bash
-git clone https://github.com/Massamartyv/catalogue.git "/Users/martyspicer/Alfred Pennyworth/Apps/nabu"
-cd "/Users/martyspicer/Alfred Pennyworth/Apps/nabu" && npm install
+git clone https://github.com/Massamartyv/catalogue.git "/Users/martyspicer/Alfred Pennyworth/Apps/oracle"
+cd "/Users/martyspicer/Alfred Pennyworth/Apps/oracle" && npm install
 ```
 
-Build `.env.local` from its `.env.example` – every variable is optional at the code level, but `ANTHROPIC_API_KEY` and `NOTION_TOKEN` are required for the `nabu-likes` scheduled task (Step 14) to file complete Media entries, and the `YT_OAUTH_*` trio needs its own one-time browser authorisation (`npm run yt:auth`). Full variable set and re-issue procedures: `secrets-inventory.md`.
+Build `.env.local` from its `.env.example` – every variable is optional at the code level, but `ANTHROPIC_API_KEY` and `NOTION_TOKEN` are required for the `oracle-likes` scheduled task (Step 14) to file complete Media entries, and the `YT_OAUTH_*` trio needs its own one-time browser authorisation (`npm run yt:auth`). Full variable set and re-issue procedures: `secrets-inventory.md`.
 
 ## Step 17 – Voice mode
 
@@ -213,7 +213,7 @@ Run after rebuild; every line must pass before declaring the system restored.
 | `health_check` on pennyone, fivepoints-mail | Healthy responses |
 | Ask Alfred: "What fitness phase am I in?" | Correct answer from memory/state (proves memory restored) |
 | Ask Alfred to draft (not send) an iMessage | Draft produced; send prompts for confirmation (proves gating intact) |
-| Scheduled-task list vs Step 14 table | Exactly four registered (`watchtower`, `nabu-likes`, `contact-card-sync`, `wealth-benchmark-refresh`) with correct cadences; the six retired SKILL.md directories present but NOT in the live list |
+| Scheduled-task list vs Step 14 table | Exactly four registered (`watchtower`, `oracle-likes`, `contact-card-sync`, `wealth-benchmark-refresh`) with correct cadences; the six retired SKILL.md directories present but NOT in the live list |
 | Statusline visible with scope and phase | Hook layer working (see Step 6.6 for all three hooks) |
 | Voice toggle on, say one response, toggle off | Voice automation working |
 | `git -C ~/.claude status` and repo `git status` | Clean, tracking remotes |
@@ -234,4 +234,4 @@ Run after rebuild; every line must pass before declaring the system restored.
 
 ---
 
-*Last updated: 2026-07-23 – The Lamplighter, registries lane: hooks wiring made explicit (Step 6.6), the venv rebuild loop corrected to the live seven-server set with `instantly` removed, Step 14 rewritten to the four live scheduled tasks plus the six retired SKILL.md directories, Step 16 corrected to clone into `Apps/nabu` from the still-named `catalogue` remote, Step 18 checklist trued up to match.*
+*Last updated: 2026-07-23 – The Lamplighter, registries lane: hooks wiring made explicit (Step 6.6), the venv rebuild loop corrected to the live seven-server set with `instantly` removed, Step 14 rewritten to the four live scheduled tasks plus the six retired SKILL.md directories, Step 16 corrected to clone into `Apps/oracle` from the still-named `catalogue` remote, Step 18 checklist trued up to match.*

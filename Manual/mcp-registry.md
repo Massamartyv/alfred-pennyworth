@@ -57,7 +57,7 @@ Not independently re-verified this pass (no filesystem or config surface to chec
 
 iMessage (`Read_and_Send_iMessages`), Apple Notes (`Read_and_Write_Apple_Notes`), computer use, preview (`Claude_Preview`), Chrome bridge (`Claude_in_Chrome`), scheduled tasks. No registration; they need macOS TCC permissions only.
 
-**Scheduled tasks – live registry, verified 2026-07-23.** Four tasks are actually registered with the scheduler: `watchtower`, `nabu-likes`, `wealth-benchmark-refresh`, `contact-card-sync`. Six further SKILL.md directories survive on disk at `~/.claude/scheduled-tasks/` as deregistered recovery artefacts – `catalogue-likes` (superseded by the `nabu-likes` rename), `context-audit`, `media-scanner`, `pattern-memo`, `penny-one`, `sphere-review` – per the exception list in `Agents/heartbeat.md`'s Scheduler audit row. A SKILL.md on disk is not proof of a live registration; cross-check with `mcp__scheduled-tasks__list_scheduled_tasks` (or the `Capability Matrix` automation's `--live-tasks` cross-check) before trusting the filesystem. Full rebuild sequence: `genesis.md` Step 14.
+**Scheduled tasks – live registry, verified 2026-07-23.** Four tasks are actually registered with the scheduler: `watchtower`, `oracle-likes`, `wealth-benchmark-refresh`, `contact-card-sync`. Six further SKILL.md directories survive on disk at `~/.claude/scheduled-tasks/` as deregistered recovery artefacts – `catalogue-likes` (superseded by the `oracle-likes` rename), `context-audit`, `media-scanner`, `pattern-memo`, `penny-one`, `sphere-review` – per the exception list in `Agents/heartbeat.md`'s Scheduler audit row. A SKILL.md on disk is not proof of a live registration; cross-check with `mcp__scheduled-tasks__list_scheduled_tasks` (or the `Capability Matrix` automation's `--live-tasks` cross-check) before trusting the filesystem. Full rebuild sequence: `genesis.md` Step 14.
 
 ---
 
@@ -91,7 +91,7 @@ Scheduled (headless) agents cannot answer an ask: each scheduled task carries an
 ## Intentional denies (do not re-flag in audits)
 
 - `Skill(anthropic-skills:michelin-chef)` and `Skill(anthropic-skills:frontend-design)` – plugin duplicates of locally maintained skills; the local versions win.
-- `Read(./.env*)`, `Read(./.envrc)` – Alfred never reads the secrets file, including key names, in this project or in any nested app directory (confirmed 2026-07-23: the deny also catches `Apps/nabu/.env.example`, a values-free template). The secrets inventory is maintained by hand.
+- `Read(./.env*)`, `Read(./.envrc)` – Alfred never reads the secrets file, including key names, in this project or in any nested app directory (confirmed 2026-07-23: the deny also catches `Apps/oracle/.env.example`, a values-free template). The secrets inventory is maintained by hand.
 - Blanket `python3 -c`, `pip3 install` and bare `osascript` approvals were removed 2026-06-11; script execution approvals are scoped to `Automations/` and `Integrations/` paths.
 
 ## Decisions of record
@@ -105,7 +105,7 @@ Scheduled (headless) agents cannot answer an ask: each scheduled task carries an
 - **fullscript-mcp registered at project scope, 2026-06-11.** Personal wellness tooling; built April 2026, credentials rotated 2026-04-22, previously unregistered by oversight.
 - **Buffer deprecated ecosystem-wide April 2026**; Pennyone is the syndication layer. Account confirmed cancelled by the operator 2026-07-23.
 - **Stripe is venture-scoped only** – no personal Stripe exists.
-- **Nabu (`Apps/nabu`) has no MCP surface.** It is driven headlessly by the `nabu-likes` scheduled task (`npm run watch-likes`) and interactively by its own Next.js dev server; nothing in `.mcp.json` or `~/.claude.json` references it. Its environment surface lives in its own `.env.local`, catalogued for the first time in `secrets-inventory.md` this pass.
+- **Oracle (`Apps/oracle`) has no MCP surface.** It is driven headlessly by the `oracle-likes` scheduled task (`npm run watch-likes`) and interactively by its own Next.js dev server; nothing in `.mcp.json` or `~/.claude.json` references it. Its environment surface lives in its own `.env.local`, catalogued for the first time in `secrets-inventory.md` this pass.
 
 ---
 
