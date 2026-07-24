@@ -298,11 +298,11 @@ SKILL.md directories on disk under `~/.claude/scheduled-tasks/`. Deleting a task
 
 | Name                     | Status       | Allowed Tools                                         | Description                                                      |
 | ------------------------ | ------------ | ----------------------------------------------------- | ---------------------------------------------------------------- |
-| catalogue-likes          | deregistered | none                                                  | RETIRED — renamed to oracle-likes. Safe to delete from the…        |
+| catalogue-likes          | deregistered | none                                                  | RETIRED — renamed to oracle-platform. Safe to delete from the…        |
 | contact-card-sync        | live         | none                                                  | Self-Reference Scan                                              |
 | context-audit            | deregistered | 4 (Read, Glob, Grep…)                                 | Monthly scan of all context files for stale, outdated or…        |
 | media-scanner            | deregistered | 7 (Read, Glob, Grep…)                                 | Monthly scan of Notion Media and Literature databases for new…   |
-| oracle-likes               | live         | 2 (Bash, mcp__Read_and_Send_iMessages__send_imessage) | Daily Oracle liked-video watcher: files new YouTube likes into…    |
+| oracle-platform               | live         | 2 (Bash, mcp__Read_and_Send_iMessages__send_imessage) | Daily Oracle liked-video watcher: files new YouTube likes into…    |
 | pattern-memo             | deregistered | 9 (Read, Glob, Grep…)                                 | First-of-month pattern memo: synthesise three patterns from the… |
 | penny-one                | deregistered | 10 (Read, Glob, Grep…)                                | Weekly Monday morning portfolio briefing. Aggregates tasks,…     |
 | sphere-review            | deregistered | 6 (Read, Glob, Grep…)                                 | Quarterly alignment check between Sphere Index, Sphere Manager…  |

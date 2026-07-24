@@ -57,7 +57,7 @@ Not independently re-verified this pass (no filesystem or config surface to chec
 
 iMessage (`Read_and_Send_iMessages`), Apple Notes (`Read_and_Write_Apple_Notes`), computer use, preview (`Claude_Preview`), Chrome bridge (`Claude_in_Chrome`), scheduled tasks. No registration; they need macOS TCC permissions only.
 
-**Scheduled tasks – live registry, verified 2026-07-23.** Four tasks are actually registered with the scheduler: `watchtower`, `oracle-likes`, `wealth-benchmark-refresh`, `contact-card-sync`. Six further SKILL.md directories survive on disk at `~/.claude/scheduled-tasks/` as deregistered recovery artefacts – `catalogue-likes` (superseded by the `oracle-likes` rename), `context-audit`, `media-scanner`, `pattern-memo`, `penny-one`, `sphere-review` – per the exception list in `Agents/heartbeat.md`'s Scheduler audit row. A SKILL.md on disk is not proof of a live registration; cross-check with `mcp__scheduled-tasks__list_scheduled_tasks` (or the `Capability Matrix` automation's `--live-tasks` cross-check) before trusting the filesystem. Full rebuild sequence: `genesis.md` Step 14.
+**Scheduled tasks – live registry, verified 2026-07-23.** Four tasks are actually registered with the scheduler: `watchtower`, `oracle-platform`, `wealth-benchmark-refresh`, `contact-card-sync`. Six further SKILL.md directories survive on disk at `~/.claude/scheduled-tasks/` as deregistered recovery artefacts – `catalogue-likes` (superseded by the `oracle-platform` rename), `context-audit`, `media-scanner`, `pattern-memo`, `penny-one`, `sphere-review` – per the exception list in `Agents/heartbeat.md`'s Scheduler audit row. A SKILL.md on disk is not proof of a live registration; cross-check with `mcp__scheduled-tasks__list_scheduled_tasks` (or the `Capability Matrix` automation's `--live-tasks` cross-check) before trusting the filesystem. Full rebuild sequence: `genesis.md` Step 14.
 
 ---
 
@@ -105,7 +105,7 @@ Scheduled (headless) agents cannot answer an ask: each scheduled task carries an
 - **fullscript-mcp registered at project scope, 2026-06-11.** Personal wellness tooling; built April 2026, credentials rotated 2026-04-22, previously unregistered by oversight.
 - **Buffer deprecated ecosystem-wide April 2026**; Pennyone is the syndication layer. Account confirmed cancelled by the operator 2026-07-23.
 - **Stripe is venture-scoped only** – no personal Stripe exists.
-- **Oracle (`Apps/oracle`) has no MCP surface.** It is driven headlessly by the `oracle-likes` scheduled task (`npm run watch-likes`) and interactively by its own Next.js dev server; nothing in `.mcp.json` or `~/.claude.json` references it. Its environment surface lives in its own `.env.local`, catalogued for the first time in `secrets-inventory.md` this pass.
+- **Oracle (`Apps/oracle`) has no MCP surface.** It is driven headlessly by the `oracle-platform` scheduled task (`npm run watch-likes`) and interactively by its own Next.js dev server; nothing in `.mcp.json` or `~/.claude.json` references it. Its environment surface lives in its own `.env.local`, catalogued for the first time in `secrets-inventory.md` this pass.
 
 ---
 
