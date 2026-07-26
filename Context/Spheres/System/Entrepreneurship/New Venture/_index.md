@@ -3,7 +3,7 @@ file_type: venture_index
 venture: "{Venture Name}"
 status: template
 methodology: The Manor Protocol
-last_updated: 2026-07-12
+last_updated: 2026-07-26
 ---
 
 # {Venture Name} – Venture Index
@@ -40,6 +40,10 @@ All work follows The Manor Protocol – five phases, two hard gates, creative ex
 |---|---|---|
 | Knowledge Base/ | Research, case studies, industry intelligence, methodologies | Knowledge Base/_index.md |
 | Foundation/ | Community initiatives, philanthropy, education, giving | Foundation/_index.md |
+
+### Sub-Brands
+
+None at the template stage. A sub-brand copies the `New Sub-Brand/` template folder from `Entrepreneurship/` into this venture root, renames it and registers here in a Sub-Brands table. Structure and graduation criteria live in that template's `_index.md`.
 
 ### Shared Governance
 

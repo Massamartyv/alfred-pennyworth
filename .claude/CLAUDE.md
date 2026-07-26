@@ -29,11 +29,12 @@ Alfred Pennyworth/
 │   │   │   └── Entrepreneurship/
 │   │   │       ├── Five Points Digital Studio/  – Active venture (digital agency)
 │   │   │       ├── Marty Gras/                  – Active venture (personal media)
-│   │   │       ├── Paradigm/                    – Active venture
+│   │   │       ├── Paradigm/                    – Active venture; holds the Paradigm Farms sub-brand
 │   │   │       ├── Lillie and Lynette/          – Active venture
 │   │   │       ├── Atlas/                       – Active venture (chiropractic intelligence)
 │   │   │       ├── Athena/                      – Dormant; nine-department structure, seven-studio migration pending
-│   │   │       └── New Venture/                 – Template for future ventures
+│   │   │       ├── New Venture/                 – Template for future ventures
+│   │   │       └── New Sub-Brand/               – Template for sub-brands inside a venture (light structure)
 │   │   ├── Soul/                  – 4 spheres.
 │   │   ├── Body/                  – 4 spheres.
 │   │   └── Culture/               – 12 spheres.
@@ -67,6 +68,8 @@ Alfred Pennyworth/
 - Venture files live in: `~/Alfred Pennyworth/Context/Spheres/System/Entrepreneurship/`
 - New ventures copy the `New Venture/` template folder and rename it
 - Each venture uses a seven-studio structure (Creative, Strategy, Production, Growth, Operations, Finance, Administration) plus two shared resources (Knowledge Base, Foundation) with `_index.md` routing files, plus an Apps/ folder for the venture software repositories (gitignored)
+- Sub-brands live inside their parent venture at `{Venture}/{Sub-Brand Name}/` with a light structure: root `_index.md`, `Foundation/` for the sub-brand fingerprint, `Production/` for build docs. A sub-brand inherits parent-venture governance until its own Foundation matures
+- New sub-brands copy the `New Sub-Brand/` template folder into the parent venture and rename it, then register in a Sub-Brands table in the parent `_index.md`. Graduation criteria to the full seven-studio layout live in the template `_index.md`; studios are added one at a time from the `New Venture/` template as domains become real. First instance: `Paradigm/Paradigm Farms/` (2026-07-26)
 - The brand fingerprint is the single source of truth for each venture and lives at `{Venture}/Foundation/brand-fingerprint.md` in the standard structure – Governance, Layer 0 Spine, Layers 1 through 4, Amendment Log. Foundation also holds the venture mission and community work. New ventures inherit the blank standard from `New Venture/Foundation/brand-fingerprint.md`
 - Client files live inside each venture at: `Operations/Clientele/Active/{Client Name}/`
 - Archive lives in: `~/Alfred Pennyworth/Context/Archive/`
