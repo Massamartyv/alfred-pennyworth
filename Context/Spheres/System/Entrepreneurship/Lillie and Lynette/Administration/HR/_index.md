@@ -4,7 +4,7 @@ department: Administration
 subdepartment: HR
 venture: Lillie and Lynette
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-07-27
 ---
 
 # HR – Lillie and Lynette
@@ -44,6 +44,6 @@ Solo operation. All concept development and planning handled personally with Alf
 | Events coordinator | When event programming is active | Private events, buyouts, logistics |
 | Sales and marketing lead | When revenue supports the hire | Event sales, guest acquisition, brand stewardship |
 
-## Current State
+## Active State
 
-No team members or contractors. All work is solo. Hiring plans will develop alongside venue selection and launch timeline.
+Live state: Notion Projects and Tasks, personal workspace.

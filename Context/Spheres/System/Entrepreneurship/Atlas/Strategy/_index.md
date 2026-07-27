@@ -2,7 +2,7 @@
 file_type: reference
 venture: Atlas
 status: active
-last_updated: 2026-05-14
+last_updated: 2026-07-27
 ---
 
 # Strategy – Atlas
@@ -56,6 +56,6 @@ The following beliefs are baked into the venture thesis:
 4. Does Atlas compete with or partner with EHR vendors as those vendors build their own AI?
 5. What is the path to network effects? Is there one beyond curated knowledge accumulation?
 
-## Current State
+## Active State
 
-Strategic priors committed. Active landscape analysis begins post Direction-gate approval.
+Live state: Notion Projects and Tasks, Five Points workspace.

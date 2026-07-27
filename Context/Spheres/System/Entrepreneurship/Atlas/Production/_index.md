@@ -2,7 +2,7 @@
 file_type: reference
 venture: Atlas
 status: active
-last_updated: 2026-05-14
+last_updated: 2026-07-27
 ---
 
 # Production – Atlas
@@ -90,6 +90,6 @@ The implementation lives at `~/Alfred Pennyworth/Integrations/atlas/` once Phase
 9. End-to-end sandbox test with synthetic visit data
 10. Arlando pilot deployment under doctor-in-loop
 
-## Current State
+## Active State
 
-Pre-build. Architectural pattern committed. Build begins post Direction-gate approval of the validation contract.
+Live state: Notion Projects and Tasks, Five Points workspace.

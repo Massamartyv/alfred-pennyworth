@@ -2,7 +2,7 @@
 file_type: reference
 venture: Atlas
 status: active
-last_updated: 2026-05-14
+last_updated: 2026-07-27
 ---
 
 # Finance – Atlas
@@ -85,9 +85,9 @@ Monthly cohort retention, expansion within cohort, churn drivers. Healthcare Saa
 
 These targets are aspirational and refined post-pilot. They exist to anchor the scale ambition – billion-dollar trajectory requires the path from $50K MRR to $50M+ ARR within five years, which means the unit economics need to support a path to $50M ARR with healthy margins, not just the first $1M.
 
-## Current State
+## Active State
 
-Pre-revenue. All financial planning is forward-looking. Phase 1 finance work: per-note inference cost modelling, infrastructure cost projection, Arlando retainer terms structuring.
+Live state: Notion Projects and Tasks, Five Points workspace.
 
 ## Key Registries
 

@@ -2,7 +2,7 @@
 file_type: reference
 venture: Paradigm
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-07-27
 ---
 
 # Knowledge Base – Paradigm
@@ -35,6 +35,6 @@ Industry research, ingredient science, competitive intelligence and the accumula
 | Reference Library/ | Creators, brands, works and curators for inspiration and creative direction |
 | Research/ | Market research, ingredient science, consumer insights |
 
-### Current State
+### Active State
 
-Empty. Knowledge base will be populated as research begins during ideation phase.
+Live state: Notion Projects and Tasks, personal workspace.

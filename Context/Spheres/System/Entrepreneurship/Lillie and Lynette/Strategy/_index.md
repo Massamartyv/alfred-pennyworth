@@ -3,7 +3,7 @@ file_type: department_index
 department: Strategy
 venture: Lillie and Lynette
 status: active
-last_updated: 2026-06-11
+last_updated: 2026-07-27
 ---
 
 # Strategy
@@ -62,6 +62,6 @@ Strategy/
 | Competitive briefs, guest behaviour summaries, market scans | Standard |
 | Full positioning frameworks, venue strategy dossiers, unit economics models | Heavy |
 
-## Current State
+## Active State
 
-Revenue battle plan approved at Direction on 2026-06-11 – `revenue-battle-plan.md`. Concept, sequence and wedge market are set. Next strategic deliverables: target guest profile from Phase 1 field data and a competitive set for premium home services in the Atlanta metro.
+Live state: Notion Projects and Tasks, personal workspace.

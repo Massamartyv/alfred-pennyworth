@@ -2,7 +2,7 @@
 file_type: reference
 venture: Athena
 status: dormant
-last_updated: 2026-04-05
+last_updated: 2026-07-27
 ---
 
 # Business Development – Athena
@@ -23,6 +23,6 @@ Brand partnerships, client acquisition, talent scouting pipeline and industry ne
 - Booking logistics – those go in Operations
 - Commission structures – those go in Finances
 
-### Current State
+### Active State
 
-Dormant. ICP definitions and outreach strategy to be developed during reactivation.
+Live state: Notion Projects and Tasks, personal workspace.

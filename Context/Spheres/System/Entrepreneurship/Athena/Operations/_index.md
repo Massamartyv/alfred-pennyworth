@@ -2,7 +2,7 @@
 file_type: reference
 venture: Athena
 status: dormant
-last_updated: 2026-04-05
+last_updated: 2026-07-27
 ---
 
 # Operations – Athena
@@ -36,6 +36,6 @@ Booking workflows, talent management, production coordination and the systems th
 | Templates/ | Reusable templates for recurring operations |
 | Tools/ | Tool documentation and configuration |
 
-### Current State
+### Active State
 
-Dormant. Operational infrastructure to be built during reactivation. SOPs, playbooks and tool stack to be defined as the agency model crystallises.
+Live state: Notion Projects and Tasks, personal workspace.

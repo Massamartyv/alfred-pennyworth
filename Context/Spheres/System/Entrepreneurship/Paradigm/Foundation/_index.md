@@ -2,7 +2,7 @@
 file_type: reference
 venture: Paradigm
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-07-27
 ---
 
 # Foundation – Paradigm
@@ -23,6 +23,6 @@ Philanthropy, community wellness initiatives and giving. Where the brand invests
 - Marketing campaigns with a charitable angle – those go in Marketing & Sales
 - Personal charitable giving – that lives in personal finance, not venture scope
 
-### Current State
+### Active State
 
-No active foundation initiatives. To be developed as the brand scales and revenue allows meaningful investment in community wellness.
+Live state: Notion Projects and Tasks, personal workspace.

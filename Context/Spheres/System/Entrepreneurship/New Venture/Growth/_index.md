@@ -2,7 +2,7 @@
 file_type: reference
 venture: "{Venture Name}"
 status: template
-last_updated: 2026-04-22
+last_updated: 2026-07-27
 ---
 
 # Growth – {Venture Name}
@@ -37,9 +37,9 @@ Revenue generation and channel architecture. Sales, partnerships, distribution a
 | Affiliates and Ambassadors/ | Programme architecture, participant pipelines, performance |
 | Offers/ | Offer catalogue, launch offers, bundles, subscription tiers |
 
-## Current State
+## Active State
 
-Pre-revenue. No active channels. Channel strategy and offer architecture to be built once the core product or service is defined.
+Live state: Notion Projects and Tasks, {workspace} workspace.
 
 ## Key Registries
 

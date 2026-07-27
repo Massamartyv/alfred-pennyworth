@@ -2,7 +2,7 @@
 file_type: reference
 venture: "{Venture Name}"
 status: template
-last_updated: 2026-04-22
+last_updated: 2026-07-27
 ---
 
 # Strategy – {Venture Name}
@@ -37,9 +37,9 @@ Market intelligence, competitive analysis, positioning and consumer behaviour. T
 | Consumer Insight/ | Target profiles, segment research, behavioural studies |
 | Positioning/ | Venture positioning, differentiation, narrative architecture |
 
-## Current State
+## Active State
 
-Pre-positioning. Strategy is the first studio to activate during {Stage} phase.
+Live state: Notion Projects and Tasks, {workspace} workspace.
 
 ## Key Registries
 

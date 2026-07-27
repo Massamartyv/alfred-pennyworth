@@ -2,7 +2,7 @@
 file_type: reference
 venture: Paradigm
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-07-27
 ---
 
 # Strategy – Paradigm
@@ -38,9 +38,9 @@ Market intelligence, competitive analysis, positioning and consumer behaviour. T
 | Consumer Insight/ | Target profiles, segment research, behavioural studies |
 | Positioning/ | Paradigm positioning, differentiation, narrative architecture |
 
-## Current State
+## Active State
 
-Pre-positioning. Strategy is the first studio to light up during ideation – competitive landscape, consumer behaviour and positioning must be understood before formulation and brand identity lock in.
+Live state: Notion Projects and Tasks, personal workspace.
 
 ## Key Registries
 

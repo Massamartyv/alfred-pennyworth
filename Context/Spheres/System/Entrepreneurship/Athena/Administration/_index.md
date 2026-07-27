@@ -2,7 +2,7 @@
 file_type: reference
 venture: Athena
 status: dormant
-last_updated: 2026-04-05
+last_updated: 2026-07-27
 ---
 
 # Administration – Athena
@@ -24,6 +24,6 @@ Legal, compliance, contracts and talent agreements. The backbone that protects t
 - Client relationship management – that goes in Operations
 - Talent scouting strategy – that goes in Business Development
 
-### Current State
+### Active State
 
-Dormant. Contract templates and legal framework to be established when the agency reactivates.
+Live state: Notion Projects and Tasks, personal workspace.

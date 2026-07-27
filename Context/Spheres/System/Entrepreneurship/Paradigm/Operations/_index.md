@@ -2,7 +2,7 @@
 file_type: reference
 venture: Paradigm
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-07-27
 ---
 
 # Operations – Paradigm
@@ -50,9 +50,9 @@ Fulfilment, supply chain, quality control, tools and the systems that keep every
 | To be selected | 3PL and fulfilment | Not yet active |
 | To be selected | Customer service platform | Not yet active |
 
-## Current State
+## Active State
 
-Pre-operational. Operations infrastructure to be designed alongside product development. First SOPs reserved in `SOPs/_sop-registry.md` with IDs PD-001 through PD-005.
+Live state: Notion Projects and Tasks, personal workspace.
 
 ## Key Registries
 

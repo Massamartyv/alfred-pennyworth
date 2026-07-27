@@ -2,7 +2,7 @@
 file_type: reference
 venture: Atlas
 status: active
-last_updated: 2026-05-14
+last_updated: 2026-07-27
 ---
 
 # Operations – Atlas
@@ -64,9 +64,9 @@ Operations/Clientele/
 
 The Clinical Advisor role at Atlas carries a specific obligation: Arlando is the Reviewer:Behavioural authority for clinical knowledge curation during Phase 1. His clinic is also the pilot site for product validation. Both relationships are documented in his dossier at `Clientele/Active/Arlando Parker Jr./`.
 
-## Current State
+## Active State
 
-Pre-operational. Arlando Parker Jr. dossier in place. Onboarding workflow design pending Direction-gate approval of pilot commercial terms.
+Live state: Notion Projects and Tasks, Five Points workspace.
 
 ## Key Registries
 

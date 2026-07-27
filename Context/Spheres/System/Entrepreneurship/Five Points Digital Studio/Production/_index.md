@@ -2,7 +2,7 @@
 file_type: department_index
 department: Production
 venture: Five Points Digital Studio
-last_updated: 2026-04-07
+last_updated: 2026-07-27
 ---
 
 # Production
@@ -34,11 +34,14 @@ Production/
 - Client delivery and project management (Operations)
 - Offer scoping and pricing (Growth)
 
-## Current State
+## Active State
 
-- Web template repo live (studio-fivepoints/fp-starter-template on GitHub)
-- Active client builds: CWD Luxury, Nomad Express
-- Production tooling: Next.js, Vercel, Supabase, Adobe Creative Suite
+Live state: Notion Projects and Tasks, Five Points workspace.
+
+## Key Registries
+
+- Web template repo: `studio-fivepoints/fp-starter-template` (GitHub)
+- Production stack: Next.js, Vercel, Supabase, Adobe Creative Suite
 
 ## Agent Instructions
 

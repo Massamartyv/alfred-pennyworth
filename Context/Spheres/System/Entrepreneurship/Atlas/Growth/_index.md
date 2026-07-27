@@ -2,7 +2,7 @@
 file_type: reference
 venture: Atlas
 status: active
-last_updated: 2026-05-14
+last_updated: 2026-07-27
 ---
 
 # Growth – Atlas
@@ -65,9 +65,9 @@ EHR vendor partnerships – Jane App and Prompt EMR are likely partnership candi
 
 Once Atlas has a meaningful share of chiropractic AI documentation, distribution flips. The EHR vendors themselves want to ship Atlas because their customers ask for it. The conversation becomes acquisition versus continued partnership.
 
-## Current State
+## Active State
 
-Pre-revenue. Pilot pipeline contains Arlando Parker Jr. (Clinical Advisor). All channel activation contingent on Phase 1 product clearance through Critique.
+Live state: Notion Projects and Tasks, Five Points workspace.
 
 ## Key Registries
 

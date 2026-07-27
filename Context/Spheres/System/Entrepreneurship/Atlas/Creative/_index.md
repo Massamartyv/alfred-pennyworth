@@ -2,7 +2,7 @@
 file_type: reference
 venture: Atlas
 status: active
-last_updated: 2026-05-14
+last_updated: 2026-07-27
 ---
 
 # Creative – Atlas
@@ -60,6 +60,6 @@ This is the floor, not the ceiling. The art-direction pass replaces it.
 4. Patient-facing copy register (if and when Atlas produces patient-facing artefacts)
 5. Clinical communication standards – how the AI itself sounds to the clinician using it
 
-## Current State
+## Active State
 
-Pre-identity. Working code name in use. Placeholder voice register in effect until art direction lands.
+Live state: Notion Projects and Tasks, Five Points workspace.

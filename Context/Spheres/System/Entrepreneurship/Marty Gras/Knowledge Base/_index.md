@@ -2,7 +2,7 @@
 file_type: reference
 venture: Marty Gras
 status: draft
-last_updated: 2026-04-05
+last_updated: 2026-07-27
 ---
 
 # Knowledge Base – Marty Gras
@@ -34,6 +34,6 @@ Cultural references, audience insights, content research and the intellectual fu
 | Reference Library/ | Creators, brands, works and curators for inspiration and creative direction |
 | Research/ | Audience research, market analysis, trend reports |
 
-### Current State
+### Active State
 
-Empty. Knowledge base will be populated as content production begins and insights accumulate.
+Live state: Notion Projects and Tasks, personal workspace.

@@ -2,7 +2,7 @@
 file_type: reference
 venture: Paradigm
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-07-27
 ---
 
 # HR – Paradigm
@@ -40,6 +40,6 @@ Solo operation. All research, strategy and early development handled personally 
 | Operations manager | When fulfilment volume exceeds solo capacity | Supply chain and order management |
 | Growth lead | When products are ready for market | Channel strategy and acquisition |
 
-## Current State
+## Active State
 
-No team members or contractors. All work is solo. Revisit when the venture moves beyond ideation.
+Live state: Notion Projects and Tasks, personal workspace.

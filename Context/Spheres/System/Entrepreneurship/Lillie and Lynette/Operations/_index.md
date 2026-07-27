@@ -3,7 +3,7 @@ file_type: department_index
 department: Operations
 venture: Lillie and Lynette
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-07-27
 ---
 
 # Operations
@@ -71,6 +71,6 @@ Both types follow the same registry structure and lifecycle (Active > Archived >
 | Scheduling | Staff scheduling, shift management | To be selected |
 | Notion | Clientele registry, SOPs, internal documentation | Active (to be scoped) |
 
-## Current State
+## Active State
 
-Shell structure in place. SOPs and playbooks to be written as the hospitality concept takes shape and service standards are defined.
+Live state: Notion Projects and Tasks, personal workspace.

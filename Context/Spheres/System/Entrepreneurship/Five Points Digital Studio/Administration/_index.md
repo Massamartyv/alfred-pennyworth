@@ -2,7 +2,7 @@
 file_type: department_index
 department: Administration
 venture: Five Points Digital Studio
-last_updated: 2026-04-07
+last_updated: 2026-07-27
 ---
 
 # Administration
@@ -40,13 +40,9 @@ Administration/
 - Financial reporting and revenue tracking (Finance)
 - Client delivery SOPs (Operations)
 
-## Current State
+## Active State
 
-- **Team:** Sole operator (Martavious Spicer) + Claude Max (AI operating system)
-- **3-month target:** +1 delivery contractor
-- **6-month target:** +BD contractor
-- **12-month target:** Pentagram-style partnership with 2+ equal partners
-- Most legal and compliance templates are planned but not yet created
+Live state: Notion Projects and Tasks, Five Points workspace.
 
 ## Agent Instructions
 

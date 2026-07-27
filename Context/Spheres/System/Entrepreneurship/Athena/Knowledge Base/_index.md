@@ -2,7 +2,7 @@
 file_type: reference
 venture: Athena
 status: dormant
-last_updated: 2026-04-05
+last_updated: 2026-07-27
 ---
 
 # Knowledge Base – Athena
@@ -30,6 +30,6 @@ Industry research, market intelligence, casting trends and accumulated expertise
 |---|---|
 | Reference Library/ | Creators, brands, works and curators for inspiration and creative direction |
 
-### Current State
+### Active State
 
-Dormant. Research and intelligence to be compiled as the agency reactivates and enters the market.
+Live state: Notion Projects and Tasks, personal workspace.

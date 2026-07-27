@@ -2,7 +2,7 @@
 file_type: reference
 venture: Athena
 status: dormant
-last_updated: 2026-04-05
+last_updated: 2026-07-27
 ---
 
 # Foundation – Athena
@@ -22,6 +22,6 @@ Philanthropy, community and cultural investment. Where the agency gives back to 
 - Talent marketing – that goes in Marketing & Sales
 - Personal charitable giving – that lives in personal finance, not venture scope
 
-### Current State
+### Active State
 
-Dormant. No active foundation initiatives. To be developed when the agency reactivates and revenue supports meaningful investment.
+Live state: Notion Projects and Tasks, personal workspace.

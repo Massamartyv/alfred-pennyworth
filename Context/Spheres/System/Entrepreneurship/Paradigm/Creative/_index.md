@@ -38,9 +38,9 @@ The aesthetic standard-bearer of the brand. Everything that carries the Paradigm
 | Content Direction/ | Editorial standards, photo direction, tone of voice |
 | References/ | Mood boards, reference decks, cultural inputs |
 
-## Current State
+## Active State
 
-Pre-identity. Brand system to be defined during ideation phase. Reference boards and aesthetic direction are the first Creative outputs before formulation decisions lock in packaging volumes.
+Live state: Notion Projects and Tasks, personal workspace.
 
 ## Key Registries
 

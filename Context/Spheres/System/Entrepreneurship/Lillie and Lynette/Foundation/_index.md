@@ -3,7 +3,7 @@ file_type: department_index
 department: Foundation
 venture: Lillie and Lynette
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-07-27
 ---
 
 # Foundation – Lillie and Lynette
@@ -36,6 +36,6 @@ Foundation/
 - Marketing sponsorships – Growth
 - Personal charitable giving – that lives in personal finance, not venture scope
 
-## Current State
+## Active State
 
-No active foundation initiatives. To be developed as the company establishes revenue and can invest meaningfully in the communities it serves.
+Live state: Notion Projects and Tasks, personal workspace.

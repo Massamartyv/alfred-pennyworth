@@ -2,7 +2,7 @@
 file_type: department_index
 department: Creative
 venture: Five Points Digital Studio
-last_updated: 2026-04-07
+last_updated: 2026-07-27
 ---
 
 # Creative
@@ -36,11 +36,9 @@ Creative/
 - Content distribution and marketing strategy (Growth)
 - Market research and competitive analysis (Strategy)
 
-## Current State
+## Active State
 
-- Brand identity files are planned but not yet created
-- Creative direction references: `~/Alfred Pennyworth/Context/creative-director.md` and `~/Alfred Pennyworth/Context/personal-brand-identity.md`
-- Agency brand positioning: to be developed
+Live state: Notion Projects and Tasks, Five Points workspace.
 
 ## Agent Instructions
 

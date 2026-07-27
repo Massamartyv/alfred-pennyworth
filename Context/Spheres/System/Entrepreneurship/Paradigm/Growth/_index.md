@@ -2,7 +2,7 @@
 file_type: reference
 venture: Paradigm
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-07-27
 ---
 
 # Growth – Paradigm
@@ -40,9 +40,9 @@ Revenue generation and channel architecture. Sales, partnerships, wholesale, dis
 | Affiliates and Ambassadors/ | Programme architecture, participant pipelines, performance tracking |
 | Offers/ | Offer catalogue, launch offers, bundles, subscription tiers |
 
-## Current State
+## Active State
 
-Pre-revenue. No active channels. Channel strategy and offer architecture to be built once product line is defined. DTC-first launch strategy presumed until Strategy confirms otherwise.
+Live state: Notion Projects and Tasks, personal workspace.
 
 ## Key Registries
 

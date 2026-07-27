@@ -70,6 +70,6 @@ Detailed SOPs for each content type live in `Operations/SOPs/`.
 
 Note: Buffer is deprecated ecosystem-wide as of April 2026. Pennyone replaces it for social syndication.
 
-## Current State
+## Active State
 
-Pipeline structure defined. SOPs and playbooks to be written as production cadence stabilises. Pennyone integration pending.
+Live state: Notion Projects and Tasks, personal workspace.

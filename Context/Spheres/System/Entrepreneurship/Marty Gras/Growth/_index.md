@@ -74,6 +74,6 @@ Growth/
 | Outreach drafts, guest prep briefs, partnership proposals | Standard |
 | Full growth strategy, sponsorship deck development | Heavy |
 
-## Current State
+## Active State
 
-No active growth pipeline. Building the content foundation first, then layering in partnerships, sponsorships and systematic audience growth.
+Live state: Notion Projects and Tasks, personal workspace.

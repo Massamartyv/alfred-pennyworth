@@ -2,7 +2,7 @@
 file_type: reference
 venture: "{Venture Name}"
 status: template
-last_updated: 2026-04-22
+last_updated: 2026-07-27
 ---
 
 # HR – {Venture Name}
@@ -37,6 +37,6 @@ Solo operation. All work handled personally with Alfred as the AI operating laye
 | {Placeholder} | {Placeholder} | {Placeholder} |
 | {Placeholder} | {Placeholder} | {Placeholder} |
 
-## Current State
+## Active State
 
-No team members or contractors. All work is solo. Revisit when the venture moves beyond {Stage}.
+Live state: Notion Projects and Tasks, Five Points workspace.

@@ -2,7 +2,7 @@
 file_type: reference
 venture: Paradigm
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-07-27
 ---
 
 # Finance – Paradigm
@@ -41,9 +41,9 @@ Revenue, COGS, expenses, projections and the financial health of the venture. Fi
 | Reports/ | Monthly, quarterly and annual reports |
 | Tax/ | Federal, state, sales tax filings and documentation |
 
-## Current State
+## Active State
 
-Pre-revenue. No active income streams. All financial planning is forward-looking. Pricing and unit economics modelling sit ahead of first formulation lock so COGS targets inform formula decisions.
+Live state: Notion Projects and Tasks, personal workspace.
 
 ## Key Registries
 

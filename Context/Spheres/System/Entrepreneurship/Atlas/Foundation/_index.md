@@ -2,7 +2,7 @@
 file_type: reference
 venture: Atlas
 status: active
-last_updated: 2026-05-14
+last_updated: 2026-07-27
 ---
 
 # Foundation – Atlas
@@ -42,6 +42,6 @@ Phase-by-phase Foundation activation:
 | Phase 4 (Scale) | Open knowledge release; mentorship pilots for under-resourced clinics; chiropractic research partnership |
 | Phase 5 (Distribution at scale) | Profession-level standards work; advocacy on AI in chiropractic |
 
-## Current State
+## Active State
 
-Pre-launch. No active Foundation initiatives.
+Live state: Notion Projects and Tasks, Five Points workspace.

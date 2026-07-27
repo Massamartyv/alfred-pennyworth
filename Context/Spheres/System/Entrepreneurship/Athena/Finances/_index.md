@@ -2,7 +2,7 @@
 file_type: reference
 venture: Athena
 status: dormant
-last_updated: 2026-04-05
+last_updated: 2026-07-27
 ---
 
 # Finances – Athena
@@ -28,6 +28,6 @@ Revenue models, commission structures, projections, invoicing and financial comp
 
 Modeling agencies typically operate on commission – a percentage of talent earnings per booking. The specific commission structure, rate card and payment terms will be defined when the agency reactivates.
 
-### Current State
+### Active State
 
-Dormant. MRR: $0. Financial infrastructure to be built during reactivation.
+Live state: Notion Projects and Tasks, personal workspace.

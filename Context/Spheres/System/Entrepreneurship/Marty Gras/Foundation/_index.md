@@ -2,7 +2,7 @@
 file_type: reference
 venture: Marty Gras
 status: draft
-last_updated: 2026-04-05
+last_updated: 2026-07-27
 ---
 
 # Foundation – Marty Gras
@@ -22,6 +22,6 @@ Philanthropy, community and cultural initiatives. Where the brand gives back and
 - Sponsored content – that goes in Marketing & Sales
 - Personal charitable giving – that lives in personal finance, not venture scope
 
-### Current State
+### Active State
 
-No active foundation initiatives. To be developed as the brand scales and revenue allows meaningful investment back into culture.
+Live state: Notion Projects and Tasks, personal workspace.

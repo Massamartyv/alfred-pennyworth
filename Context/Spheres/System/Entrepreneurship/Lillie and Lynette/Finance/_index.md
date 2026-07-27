@@ -3,7 +3,7 @@ file_type: department_index
 department: Finance
 venture: Lillie and Lynette
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-07-27
 ---
 
 # Finance
@@ -66,6 +66,6 @@ Finance/
 | Monthly P&L, prime cost reports, cash flow statements | Standard |
 | Annual forecasting, capital raise materials, revenue model design | Heavy |
 
-## Current State
+## Active State
 
-Pre-revenue. All financial planning is forward-looking. Capital requirements and funding strategy to be developed alongside the concept and venue strategy.
+Live state: Notion Projects and Tasks, personal workspace.

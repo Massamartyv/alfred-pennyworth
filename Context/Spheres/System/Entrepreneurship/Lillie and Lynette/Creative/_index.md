@@ -3,7 +3,7 @@ file_type: department_index
 department: Creative
 venture: Lillie and Lynette
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-07-27
 ---
 
 # Creative
@@ -62,6 +62,6 @@ Creative/
 | Experience design briefs, menu narrative drafts, collateral concepts | Standard |
 | Full brand identity systems, venue launch creative direction | Heavy |
 
-## Current State
+## Active State
 
-All creative direction is in ideation. Brand identity, experience framework and menu narrative to be developed once the hospitality concept is shaped.
+Live state: Notion Projects and Tasks, personal workspace.

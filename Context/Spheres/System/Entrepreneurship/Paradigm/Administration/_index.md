@@ -2,7 +2,7 @@
 file_type: reference
 venture: Paradigm
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-07-27
 ---
 
 # Administration – Paradigm
@@ -42,9 +42,9 @@ Legal, FDA and FTC compliance, labelling, brand protection and HR. The structura
 | Brand Protection/ | Trademark monitoring, brand misuse response, reputation management |
 | HR/ | Team, contractors, advisors, culture |
 
-## Current State
+## Active State
 
-No legal documents filed yet. Entity structure, trademarks and regulatory research are earliest-priority Administration work. Compliance reading must start before any public-facing claim or label draft.
+Live state: Notion Projects and Tasks, personal workspace.
 
 ## Key Registries
 

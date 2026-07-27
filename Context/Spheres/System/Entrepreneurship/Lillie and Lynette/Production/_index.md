@@ -3,7 +3,7 @@ file_type: department_index
 department: Production
 venture: Lillie and Lynette
 status: active
-last_updated: 2026-06-11
+last_updated: 2026-07-27
 ---
 
 # Production
@@ -63,6 +63,6 @@ Production/
 | Event production plans, shoot briefs, service flow drafts | Standard |
 | Venue launch production plan, flagship event production, full content campaigns | Heavy |
 
-## Current State
+## Active State
 
-Pre-launch. Production workflows to be developed as the concept is defined and the venue is sourced.
+Live state: Notion Projects and Tasks, personal workspace.

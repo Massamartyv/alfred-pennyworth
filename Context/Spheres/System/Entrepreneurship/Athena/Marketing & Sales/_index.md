@@ -2,7 +2,7 @@
 file_type: reference
 venture: Athena
 status: dormant
-last_updated: 2026-04-05
+last_updated: 2026-07-27
 ---
 
 # Marketing & Sales – Athena
@@ -24,6 +24,6 @@ Agency positioning, talent marketing, portfolio presentation and brand presence.
 - Booking fulfilment – that goes in Operations
 - Service tier definitions – those go in Product Development
 
-### Current State
+### Active State
 
-Dormant. Brand positioning and marketing infrastructure to be established during reactivation.
+Live state: Notion Projects and Tasks, personal workspace.

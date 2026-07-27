@@ -39,6 +39,6 @@ Solo operation. All creative direction, production and distribution handled pers
 | Epiphany editor | When the subscriber base justifies investment | Copy editing, formatting, QA |
 | Graphic designer | When visual output demand exceeds personal capacity | Social assets, brand collateral |
 
-## Current State
+## Active State
 
-No team members or contractors. All work is solo. Revisit when revenue supports investment in people.
+Live state: Notion Projects and Tasks, personal workspace.

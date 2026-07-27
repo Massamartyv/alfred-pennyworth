@@ -2,7 +2,7 @@
 file_type: reference
 venture: Atlas
 status: active
-last_updated: 2026-05-14
+last_updated: 2026-07-27
 ---
 
 # Knowledge Base – Atlas
@@ -121,6 +121,6 @@ Every Clinical and Coding file passes through Reviewer:Behavioural (Arlando-grad
 
 ---
 
-## Current State
+## Active State
 
-Scaffold structure only. No clinical content authored yet. First curation pass begins post Direction-gate approval of the validation contract.
+Live state: Notion Projects and Tasks, Five Points workspace.

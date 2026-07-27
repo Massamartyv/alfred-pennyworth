@@ -3,7 +3,7 @@ file_type: department_index
 department: Knowledge Base
 venture: Lillie and Lynette
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-07-27
 ---
 
 # Knowledge Base – Lillie and Lynette
@@ -41,6 +41,6 @@ Knowledge Base/
 - Other venture research – each venture is entirely separate
 - Active service design documents – Creative
 
-## Current State
+## Active State
 
-Empty. Knowledge base will be populated as research begins and the hospitality concept takes shape.
+Live state: Notion Projects and Tasks, personal workspace.

@@ -2,7 +2,7 @@
 file_type: reference
 venture: Athena
 status: dormant
-last_updated: 2026-04-05
+last_updated: 2026-07-27
 ---
 
 # Product Development – Athena
@@ -31,6 +31,6 @@ To be defined during reactivation. Typical modeling agency divisions include:
 - Digital and influencer
 - New faces and development
 
-### Current State
+### Active State
 
-Dormant. Service tiers, divisions and rate card to be designed when the agency reactivates.
+Live state: Notion Projects and Tasks, personal workspace.

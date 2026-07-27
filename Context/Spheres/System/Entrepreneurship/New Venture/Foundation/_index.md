@@ -2,7 +2,7 @@
 file_type: reference
 venture: "{Venture Name}"
 status: template
-last_updated: 2026-04-22
+last_updated: 2026-07-27
 ---
 
 # Foundation – {Venture Name}
@@ -23,6 +23,6 @@ Philanthropy, community initiatives and giving. Where the venture invests in the
 - Marketing campaigns with a charitable angle – those go in Growth
 - Personal charitable giving – that lives in personal finance, not venture scope
 
-### Current State
+### Active State
 
-No active foundation initiatives. To be developed as the venture scales and revenue allows meaningful investment in community impact.
+Live state: Notion Projects and Tasks, {workspace} workspace.

@@ -2,7 +2,7 @@
 file_type: reference
 venture: "{Venture Name}"
 status: template
-last_updated: 2026-04-22
+last_updated: 2026-07-27
 ---
 
 # Production – {Venture Name}
@@ -35,9 +35,9 @@ The execution engine. Where products or services are developed, built and produc
 | Suppliers/ | Supplier profiles, production runs, sourcing records |
 | Content Production/ | Photography, video, social asset production files |
 
-## Current State
+## Active State
 
-Pre-production. No active builds. Development roadmap to be defined once Strategy locks positioning and Creative sets direction.
+Live state: Notion Projects and Tasks, {workspace} workspace.
 
 ## Key Registries
 

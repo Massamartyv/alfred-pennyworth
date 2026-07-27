@@ -2,7 +2,7 @@
 file_type: reference
 venture: Atlas
 status: active
-last_updated: 2026-05-14
+last_updated: 2026-07-27
 ---
 
 # Administration – Atlas
@@ -91,9 +91,9 @@ Pending Direction-gate approval of commercial terms. Three structures under cons
 
 Operator decision required at Direction gate. Counsel review required before any term sheet is presented to Arlando.
 
-## Current State
+## Active State
 
-Pre-formation. No legal documents filed. Entity formation, BAA negotiations and Arlando advisor agreement are first-priority Administration work post Direction gate.
+Live state: Notion Projects and Tasks, Five Points workspace.
 
 ## Key Registries
 

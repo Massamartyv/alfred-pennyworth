@@ -2,7 +2,7 @@
 file_type: reference
 venture: "{Venture Name}"
 status: template
-last_updated: 2026-04-22
+last_updated: 2026-07-27
 ---
 
 # Operations – {Venture Name}
@@ -45,9 +45,9 @@ Delivery, supply chain, quality control, tools and the systems that keep everyth
 | {Placeholder} | {Placeholder} | Not yet active |
 | {Placeholder} | {Placeholder} | Not yet active |
 
-## Current State
+## Active State
 
-Pre-operational. Operations infrastructure to be designed alongside product and service development.
+Live state: Notion Projects and Tasks, {workspace} workspace.
 
 ## Key Registries
 

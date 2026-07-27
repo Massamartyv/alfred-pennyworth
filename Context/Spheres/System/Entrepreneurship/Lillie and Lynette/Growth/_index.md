@@ -3,7 +3,7 @@ file_type: department_index
 department: Growth
 venture: Lillie and Lynette
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-07-27
 ---
 
 # Growth
@@ -76,6 +76,6 @@ Growth/
 | Venue dossiers, partnership briefs, outreach drafts, pitch decks | Standard |
 | Full venue strategy, capital strategy, launch go-to-market plans | Heavy |
 
-## Current State
+## Active State
 
-No active pipeline. Concept definition comes first, then venue sourcing and partnership outreach begin.
+Live state: Notion Projects and Tasks, personal workspace.

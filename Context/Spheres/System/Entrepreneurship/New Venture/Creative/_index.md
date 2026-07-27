@@ -2,7 +2,7 @@
 file_type: reference
 venture: "{Venture Name}"
 status: template
-last_updated: 2026-04-22
+last_updated: 2026-07-27
 ---
 
 # Creative – {Venture Name}
@@ -36,9 +36,9 @@ The aesthetic standard-bearer of the venture. Everything that carries the {Ventu
 | Content Direction/ | Editorial standards, photo direction, tone of voice |
 | References/ | Mood boards, reference decks, cultural inputs |
 
-## Current State
+## Active State
 
-Pre-identity. Brand system to be defined during {Stage} phase.
+Live state: Notion Projects and Tasks, {workspace} workspace.
 
 ## Key Registries
 

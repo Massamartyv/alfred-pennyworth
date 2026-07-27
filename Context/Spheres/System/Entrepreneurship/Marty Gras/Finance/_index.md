@@ -63,6 +63,6 @@ Finance/
 | Monthly P&L, cash flow reports | Standard |
 | Annual forecasting, revenue model changes | Heavy |
 
-## Current State
+## Active State
 
-Pre-revenue. No active income streams. All financial planning is forward-looking.
+Live state: Notion Projects and Tasks, personal workspace.

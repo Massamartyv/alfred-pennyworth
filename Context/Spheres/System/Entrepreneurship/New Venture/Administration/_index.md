@@ -2,7 +2,7 @@
 file_type: reference
 venture: "{Venture Name}"
 status: template
-last_updated: 2026-04-22
+last_updated: 2026-07-27
 ---
 
 # Administration – {Venture Name}
@@ -40,9 +40,9 @@ Legal, compliance, brand protection and HR. The structural backbone that keeps t
 | Brand Protection/ | Trademark monitoring, brand misuse response |
 | HR/ | Team, contractors, advisors, culture |
 
-## Current State
+## Active State
 
-No legal documents filed. Entity structure, trademarks and compliance research are earliest-priority Administration work.
+Live state: Notion Projects and Tasks, {workspace} workspace.
 
 ## Key Registries
 

@@ -2,7 +2,7 @@
 file_type: reference
 venture: Paradigm
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-07-27
 ---
 
 # Production – Paradigm
@@ -37,9 +37,9 @@ The execution engine. Where formulas are developed, products are manufactured, p
 | Packaging Production/ | Packaging specs, supplier files, print production assets |
 | Content Production/ | Photography, video, social asset production files |
 
-## Current State
+## Active State
 
-Pre-production. No formulations, no manufacturing partners, no production runs. Formulation roadmap to be defined once Strategy locks positioning and Creative sets packaging direction.
+Live state: Notion Projects and Tasks, personal workspace.
 
 ## Key Registries
 

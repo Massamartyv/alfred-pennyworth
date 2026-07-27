@@ -2,7 +2,7 @@
 file_type: reference
 venture: "{Venture Name}"
 status: template
-last_updated: 2026-04-22
+last_updated: 2026-07-27
 ---
 
 # Finance – {Venture Name}
@@ -40,9 +40,9 @@ Revenue, costs, expenses, projections and the financial health of the venture. F
 | Reports/ | Monthly, quarterly and annual reports |
 | Tax/ | Federal, state, sales tax filings and documentation |
 
-## Current State
+## Active State
 
-Pre-revenue. All financial planning is forward-looking.
+Live state: Notion Projects and Tasks, {workspace} workspace.
 
 ## Key Registries
 
