@@ -24,6 +24,12 @@
     --emerald: #13402E;
     --burnt: #B65730;
     --stone: #8B857A;
+    /* Fingerprint amendment 2026-07-10: contrast-engineered text tones.
+       Stone and small Burnt Orange are decoration-only on their grounds;
+       running text at small sizes uses these AA-clearing tones instead. */
+    --burnt-ink: #9A4826;   /* small-text Burnt Orange on Parchment, 4.8:1 */
+    --burnt-lift: #C66A42;  /* small-text Burnt Orange on Obsidian, 5.0:1 */
+    --stone-ink: #625D54;   /* metadata and caption text on Parchment, 5.0:1 */
   }
 
   @page { size: A4; margin: 0; }
@@ -58,7 +64,7 @@
     font-size: 8pt;
     letter-spacing: 0.22em;
     text-transform: uppercase;
-    color: var(--burnt);
+    color: var(--burnt-ink);
   }
   .rule {
     width: 13mm;
@@ -88,7 +94,7 @@
     align-items: baseline;
     font-size: 7pt;
     letter-spacing: 0.06em;
-    color: var(--stone);
+    color: var(--stone-ink);
   }
   .footer .folio {
     font-family: 'Fraunces', serif;
@@ -104,7 +110,7 @@
     font-size: 6.5pt;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    color: var(--stone);
+    color: var(--stone-ink);
     margin-top: 2mm;
   }
   svg text {
@@ -148,7 +154,7 @@
     font-size: 8pt;
     letter-spacing: 0.22em;
     text-transform: uppercase;
-    color: var(--stone);
+    color: var(--stone-ink);
     text-align: right;
   }
   .cover .centre { margin-top: 50mm; }
@@ -178,7 +184,7 @@
     font-family: 'Space Grotesk', sans-serif;
     font-size: 7.5pt;
     line-height: 1.7;
-    color: var(--stone);
+    color: var(--stone-ink);
   }
   .cover .contact .studio {
     font-weight: 600;
@@ -275,7 +281,8 @@
   .flood .ghost { color: var(--parchment); opacity: 0.18; }
   .flood .footer { color: rgba(234, 224, 200, 0.55); }
   .flood .footer .folio { color: var(--parchment); }
-  .flood .block h3 { color: var(--burnt); }
+  .flood .eyebrow { color: var(--burnt-lift); }
+  .flood .block h3 { color: var(--burnt-lift); }
   .flood .block p { font-size: 9.2pt; line-height: 1.55; color: rgba(234, 224, 200, 0.92); }
 
   table.ledger {
@@ -327,7 +334,7 @@
     font-size: 9pt;
     letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: var(--burnt);
+    color: var(--burnt-lift);
   }
   table.ledger tr.total td.worth {
     font-size: 21pt;
@@ -383,7 +390,7 @@
     font-size: 8pt;
     letter-spacing: 0.14em;
     text-transform: uppercase;
-    color: var(--stone);
+    color: var(--stone-ink);
     border-top: none;
     padding-top: 0;
   }
@@ -438,7 +445,7 @@
   .signature .role {
     font-size: 8.5pt;
     letter-spacing: 0.06em;
-    color: var(--stone);
+    color: var(--stone-ink);
     line-height: 1.7;
   }
 </style>
