@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<title>The Digital Home - A Five Points Commission</title>
+<link rel="stylesheet" href="fonts.css">
+<style>
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url(fonts/SpaceGrotesk-Variable.woff2) format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Fraunces Italic';
+    src: url(fonts/Fraunces-VariableItalic.woff2) format('woff2');
+    font-weight: 300 700;
+    font-style: italic;
+  }
+
+  :root {
+    --obsidian: #0F0F10;
+    --parchment: #EAE0C8;
+    --emerald: #13402E;
+    --burnt: #B65730;
+    --stone: #8B857A;
+  }
+
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    background: var(--parchment);
+  }
+  body {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    color: var(--obsidian);
+    font-size: 10.5pt;
+    line-height: 1.62;
+  }
+
+  .sheet {
+    width: 210mm;
+    height: 297mm;
+    position: relative;
+    background: var(--parchment);
+    padding: 22mm 26mm 24mm 26mm;
+    page-break-after: always;
+    overflow: hidden;
+  }
+  .sheet:last-child { page-break-after: avoid; }
+
+  .eyebrow {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 8pt;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--burnt);
+  }
+  .rule {
+    width: 13mm;
+    height: 2px;
+    background: var(--emerald);
+    border: none;
+  }
+
+  h1, h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 300;
+    letter-spacing: -0.015em;
+    color: var(--obsidian);
+  }
+
+  .measure { max-width: 122mm; }
+
+  p { margin: 0 0 4.2mm 0; }
+
+  .footer {
+    position: absolute;
+    left: 26mm;
+    right: 26mm;
+    bottom: 12mm;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 7pt;
+    letter-spacing: 0.06em;
+    color: var(--stone);
+  }
+  .footer .folio {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: 9.5pt;
+    color: var(--obsidian);
+  }
+
+  /* ---------- Plates (drawn matter) ---------- */
+  .plate-caption {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 6.5pt;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--stone);
+    margin-top: 2mm;
+  }
+  svg text {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+  }
+
+  /* ---------- Cover ---------- */
+  .cover { display: flex; flex-direction: column; padding-left: 34mm; }
+  .spine {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3mm;
+    display: flex;
+    flex-direction: column;
+  }
+  .spine span { flex: 1; }
+  .spine .s1 { background: #C6A24E; }
+  .spine .s2 { background: #9DB2CE; }
+  .spine .s3 { background: #5E7EA8; }
+  .spine .s4 { background: #3C5A86; }
+  .spine .s5 { background: #1C2A3F; }
+  .cover .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .cover .mark {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: 34pt;
+    line-height: 1;
+    color: var(--obsidian);
+  }
+  .cover .date-line {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 8pt;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--stone);
+    text-align: right;
+  }
+  .cover .centre { margin-top: 50mm; }
+  .cover .centre .eyebrow { margin-bottom: 10mm; }
+  .cover h1 {
+    font-size: 58pt;
+    line-height: 1.02;
+    margin-bottom: 12mm;
+  }
+  .cover .rule { margin-bottom: 11mm; }
+  .cover .prepared {
+    font-size: 10.5pt;
+    line-height: 1.75;
+  }
+  .cover .prepared strong { font-weight: 600; }
+  .cover .plate { margin-top: 15mm; max-width: 128mm; }
+  .cover .bottom {
+    position: absolute;
+    left: 34mm;
+    right: 26mm;
+    bottom: 16mm;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .cover .contact {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 7.5pt;
+    line-height: 1.7;
+    color: var(--stone);
+  }
+  .cover .contact .studio {
+    font-weight: 600;
+    color: var(--obsidian);
+    letter-spacing: 0.02em;
+  }
+
+  /* ---------- Content pages ---------- */
+  .page-head { margin-bottom: 10mm; position: relative; }
+  .page-head .eyebrow { margin-bottom: 5mm; }
+  .page-head h2 { font-size: 30pt; line-height: 1.06; margin-bottom: 6mm; }
+  .ghost {
+    position: absolute;
+    top: -5mm;
+    right: 0;
+    font-family: 'Fraunces', serif;
+    font-weight: 300;
+    font-size: 58pt;
+    line-height: 1;
+    color: var(--stone);
+    opacity: 0.28;
+  }
+
+  .dropcap::first-letter {
+    font-family: 'Fraunces', serif;
+    font-weight: 300;
+    float: left;
+    font-size: 63pt;
+    line-height: 0.78;
+    padding: 2mm 3.5mm 0 0;
+    color: var(--obsidian);
+  }
+
+  .margin-plate {
+    position: absolute;
+    right: 24mm;
+    top: 96mm;
+    width: 30mm;
+    text-align: left;
+  }
+
+  .findings { counter-reset: finding; }
+  .finding { display: flex; gap: 6mm; margin-bottom: 4.6mm; max-width: 148mm; }
+  .finding .num {
+    font-family: 'Fraunces', serif;
+    font-weight: 300;
+    font-size: 21pt;
+    color: var(--burnt);
+    min-width: 12mm;
+    line-height: 1;
+  }
+  .finding h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 9pt;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--emerald);
+    margin-bottom: 1.6mm;
+  }
+  .finding p { font-size: 9.8pt; line-height: 1.52; margin: 0; }
+
+  .pullquote {
+    background: var(--emerald);
+    color: var(--parchment);
+    padding: 8mm 11mm;
+    margin: 6mm 0 0 0;
+    max-width: 158mm;
+  }
+  .pullquote p {
+    font-family: 'Fraunces Italic', 'Fraunces', serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15.5pt;
+    line-height: 1.3;
+    margin: 0;
+  }
+
+  .block { margin-bottom: 6.5mm; }
+  .block h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 9pt;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--emerald);
+    margin-bottom: 3mm;
+  }
+
+  /* ---------- The Ledger (flood page) ---------- */
+  .flood { background: var(--obsidian); color: var(--parchment); }
+  .flood h2 { color: var(--parchment); }
+  .flood .rule { background: var(--parchment); }
+  .flood .ghost { color: var(--parchment); opacity: 0.18; }
+  .flood .footer { color: rgba(234, 224, 200, 0.55); }
+  .flood .footer .folio { color: var(--parchment); }
+  .flood .block h3 { color: var(--burnt); }
+  .flood .block p { font-size: 9.2pt; line-height: 1.55; color: rgba(234, 224, 200, 0.92); }
+
+  table.ledger {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2mm 0 6mm 0;
+  }
+  table.ledger td, table.ledger th {
+    text-align: left;
+    vertical-align: top;
+    padding: 2.6mm 5mm 2.6mm 0;
+    border-top: 1px solid rgba(234, 224, 200, 0.24);
+  }
+  table.ledger th {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 8pt;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: rgba(234, 224, 200, 0.62);
+    border-top: none;
+    padding-top: 0;
+  }
+  table.ledger td { font-size: 9.4pt; line-height: 1.5; color: rgba(234, 224, 200, 0.92); }
+  table.ledger td.item {
+    font-family: 'Fraunces Italic', 'Fraunces', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11.5pt;
+    color: var(--parchment);
+    white-space: nowrap;
+  }
+  table.ledger td.worth {
+    font-family: 'Fraunces', serif;
+    font-weight: 300;
+    font-size: 12.5pt;
+    color: var(--parchment);
+    white-space: nowrap;
+    text-align: right;
+  }
+  table.ledger tr.total td {
+    border-top: 2px solid var(--burnt);
+    padding-top: 3.4mm;
+  }
+  table.ledger tr.total td.item {
+    font-style: normal;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 9pt;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--burnt);
+  }
+  table.ledger tr.total td.worth {
+    font-size: 21pt;
+  }
+  .turn-line {
+    font-family: 'Fraunces Italic', 'Fraunces', serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 14pt;
+    line-height: 1.4;
+    color: var(--parchment);
+    max-width: 138mm;
+  }
+
+  /* ---------- Ledger page (light) ---------- */
+  .price-line {
+    font-family: 'Fraunces', serif;
+    font-weight: 300;
+    font-size: 34pt;
+    line-height: 1;
+    margin-bottom: 3.5mm;
+  }
+  .paylane {
+    border-left: 2px solid var(--emerald);
+    padding: 2mm 0 2mm 6mm;
+    margin: 4mm 0 5.5mm 0;
+    max-width: 138mm;
+  }
+  .paylane p {
+    font-family: 'Fraunces Italic', 'Fraunces', serif;
+    font-style: italic;
+    font-weight: 350;
+    font-size: 13pt;
+    line-height: 1.4;
+    margin: 0;
+    color: var(--obsidian);
+  }
+
+  table.schedule {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 3mm;
+  }
+  table.schedule td, table.schedule th {
+    text-align: left;
+    vertical-align: top;
+    padding: 2.5mm 5mm 2.5mm 0;
+    border-top: 1px solid rgba(15, 15, 16, 0.18);
+  }
+  table.schedule th {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 8pt;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--stone);
+    border-top: none;
+    padding-top: 0;
+  }
+  table.schedule td.step {
+    font-family: 'Fraunces Italic', 'Fraunces', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12.5pt;
+    color: var(--obsidian);
+    white-space: nowrap;
+  }
+  table.schedule td { font-size: 9.5pt; line-height: 1.55; }
+
+  /* ---------- Route page ---------- */
+  .route-plate { margin: 0 0 8mm 0; }
+  .steps { counter-reset: step; max-width: 132mm; }
+  .step-item { display: flex; gap: 7mm; margin-bottom: 6mm; }
+  .step-item .num {
+    font-family: 'Fraunces', serif;
+    font-weight: 300;
+    font-size: 20pt;
+    color: var(--burnt);
+    min-width: 12mm;
+    line-height: 1;
+  }
+  .step-item h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 9pt;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--emerald);
+    margin-bottom: 2mm;
+  }
+  .step-item p { font-size: 9.8pt; line-height: 1.55; }
+
+  /* Page 5 compression: the two-prices sheet runs dense */
+  .tight .page-head { margin-bottom: 7mm; }
+  .tight .block { margin-bottom: 4.5mm; }
+  .tight .block h3 { margin-bottom: 2.2mm; }
+  .tight .paylane { margin: 3mm 0 4.5mm 0; }
+  .tight table.schedule td, .tight table.schedule th { padding: 2mm 5mm 2mm 0; }
+  .tight .price-line { margin-bottom: 2.8mm; }
+
+  .signature { margin-top: 8mm; }
+  .signature .name {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: 15pt;
+    margin-bottom: 1.5mm;
+  }
+  .signature .role {
+    font-size: 8.5pt;
+    letter-spacing: 0.06em;
+    color: var(--stone);
+    line-height: 1.7;
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ PAGE 1 - COVER ============ -->
+<section class="sheet cover">
+  <div class="spine"><span class="s1"></span><span class="s2"></span><span class="s3"></span><span class="s4"></span><span class="s5"></span></div>
+  <div class="top">
+    <div class="mark">5</div>
+    <div class="date-line">Commissioning Proposal<br>29 July 2026</div>
+  </div>
+  <div class="centre">
+    <div class="eyebrow">The front door of the ministry</div>
+    <h1>The Digital<br>Home</h1>
+    <hr class="rule">
+    <div class="prepared measure">
+      Prepared for <strong>Pastor Kelsey M. Goodson</strong><br>
+      Strong Tower Christian Ministry, Florence, South Carolina
+    </div>
+    <div class="plate">
+      <!-- Cover plate: the tower under the rising light, drawn as line work -->
+      <svg viewBox="0 0 128 34" width="128mm" height="34mm" xmlns="http://www.w3.org/2000/svg">
+        <!-- ground line -->
+        <line x1="4" y1="30" x2="124" y2="30" stroke="#13402E" stroke-width="0.7"/>
+        <!-- tower body -->
+        <rect x="52" y="12" width="24" height="18" fill="none" stroke="#13402E" stroke-width="0.8"/>
+        <!-- crenellations -->
+        <rect x="52" y="9.2" width="5" height="2.8" fill="none" stroke="#13402E" stroke-width="0.7"/>
+        <rect x="61.5" y="9.2" width="5" height="2.8" fill="none" stroke="#13402E" stroke-width="0.7"/>
+        <rect x="71" y="9.2" width="5" height="2.8" fill="none" stroke="#13402E" stroke-width="0.7"/>
+        <!-- open door -->
+        <path d="M 61 30 L 61 24.5 A 3 3 0 0 1 67 24.5 L 67 30" fill="none" stroke="#13402E" stroke-width="0.8"/>
+        <!-- rising light: arcs above the tower -->
+        <path d="M 50 8 A 26 26 0 0 1 78 8" fill="none" stroke="#B65730" stroke-width="0.7"/>
+        <path d="M 45 6.5 A 36 36 0 0 1 83 6.5" fill="none" stroke="#B65730" stroke-width="0.55" opacity="0.7"/>
+        <path d="M 40 5.5 A 60 60 0 0 1 88 5.5" fill="none" stroke="#B65730" stroke-width="0.45" opacity="0.45"/>
+        <!-- runners on the ground line, moving toward the door -->
+        <g fill="none" stroke="#0F0F10" stroke-width="0.55">
+          <circle cx="14" cy="27.6" r="1.4"/>
+          <circle cx="24" cy="27.6" r="1.4"/>
+          <circle cx="110" cy="27.6" r="1.4"/>
+        </g>
+        <g stroke="#0F0F10" stroke-width="0.5">
+          <line x1="16" y1="27.6" x2="20" y2="27.6"/>
+          <line x1="26" y1="27.6" x2="30" y2="27.6"/>
+          <line x1="104" y1="27.6" x2="108" y2="27.6"/>
+        </g>
+      </svg>
+      <div class="plate-caption">Proverbs 18:10 &middot; The righteous run to it and are safe</div>
+    </div>
+  </div>
+  <div class="bottom">
+    <div class="contact">
+      <div class="studio">Five Points Digital Studio</div>
+      martavious@fivepoints.studio<br>
+      fivepoints.studio
+    </div>
+    <div class="eyebrow">A Five Points Commission</div>
+  </div>
+</section>
+
+<!-- ============ PAGE 2 - THE CONVERSATION ============ -->
+<section class="sheet">
+  <div class="page-head">
+    <div class="ghost">02</div>
+    <div class="eyebrow">What You Asked</div>
+    <h2>The conversation,<br>continued</h2>
+    <hr class="rule">
+  </div>
+  <div class="measure">
+    <p class="dropcap">Every Sunday at 10:30 am the doors on National Cemetery Road open, and within minutes a visitor feels the thing your own words promise: He Loves You to Life, So We Love You to Life. That welcome is the ministry&rsquo;s gift. Nobody who walks in misses it.</p>
+    <p>The trouble is where people look first. Before a first-time visitor ever drives to the building, they search. And what the search returns today is a page whose newest sermon is four years old &ndash; a quiet room standing in front of a living church. The gap is nobody&rsquo;s failure. Churches are built to shepherd people, not websites. But the gap is real, and it works against the ministry every single week, silently, among the very people most in need of finding you.</p>
+    <p>You also said something that shaped this document. You said Strong Tower intends to pay what the work is worth. That request honours the labourer, and it deserves a precise answer in return. So this document names everything: what has been built, what each part of it is worth at open-market rates and what Strong Tower is asked to invest. Nothing is vague, nothing is hidden and no number appears without its reason.</p>
+    <p>This is that answer, on paper.</p>
+  </div>
+  <div class="margin-plate">
+    <!-- Marginal plate: the tower lit, rays reaching many small nodes -->
+    <svg viewBox="0 0 30 74" width="30mm" height="74mm" xmlns="http://www.w3.org/2000/svg">
+      <rect x="4" y="6" width="10" height="12" fill="none" stroke="#13402E" stroke-width="0.7"/>
+      <rect x="4" y="3.8" width="2.6" height="2.2" fill="none" stroke="#13402E" stroke-width="0.55"/>
+      <rect x="8" y="3.8" width="2.6" height="2.2" fill="none" stroke="#13402E" stroke-width="0.55"/>
+      <rect x="11.4" y="3.8" width="2.6" height="2.2" fill="none" stroke="#13402E" stroke-width="0.55"/>
+      <line x1="9" y1="18" x2="9" y2="70" stroke="#13402E" stroke-width="0.9"/>
+      <g stroke="#B65730" stroke-width="0.5" fill="none">
+        <line x1="9" y1="26" x2="24" y2="26"/>
+        <line x1="9" y1="33" x2="24" y2="33"/>
+        <line x1="9" y1="40" x2="24" y2="40"/>
+        <line x1="9" y1="47" x2="24" y2="47"/>
+        <line x1="9" y1="54" x2="24" y2="54"/>
+        <line x1="9" y1="61" x2="24" y2="61"/>
+      </g>
+      <g fill="none" stroke="#0F0F10" stroke-width="0.5">
+        <circle cx="25.8" cy="26" r="1.3"/>
+        <circle cx="25.8" cy="33" r="1.3"/>
+        <circle cx="25.8" cy="40" r="1.3"/>
+        <circle cx="25.8" cy="47" r="1.3"/>
+        <circle cx="25.8" cy="54" r="1.3"/>
+        <circle cx="25.8" cy="61" r="1.3"/>
+      </g>
+    </svg>
+    <div class="plate-caption">One tower,<br>many found</div>
+  </div>
+  <div class="footer">
+    <span class="folio">02</span>
+    <span>Strong Tower Christian Ministry &middot; A Five Points Commission &middot; 2 of 6</span>
+  </div>
+</section>
+
+<!-- ============ PAGE 3 - WHAT NOW STANDS ============ -->
+<section class="sheet">
+  <div class="page-head">
+    <div class="ghost">03</div>
+    <div class="eyebrow">The Build</div>
+    <h2>What now stands</h2>
+    <hr class="rule">
+  </div>
+  <div class="measure" style="margin-bottom: 5mm;">
+    <p>The new digital home of Strong Tower Christian Ministry is built and standing &ndash; designed from your own identity, tested and ready for its congregation. Four things about it matter most.</p>
+  </div>
+  <div class="findings">
+    <div class="finding">
+      <div class="num">01</div>
+      <div>
+        <h3>A sanctuary online</h3>
+        <p>Tower blue and gold as light, your taglines carried through every page, scripture set with reverence. Type runs large and contrast runs high, so the elders of the congregation read as comfortably as the youth. It does not look like a website with a church&rsquo;s name on it. It looks like Strong Tower.</p>
+      </div>
+    </div>
+    <div class="finding">
+      <div class="num">02</div>
+      <div>
+        <h3>A pulpit that reaches</h3>
+        <p>Each new sermon appears on the site automatically, pulled from your YouTube channel with no staff effort at all &ndash; the four-year silence can never happen again. When the church streams, the site shows a live indicator and carries the visitor straight into the service.</p>
+      </div>
+    </div>
+    <div class="finding">
+      <div class="num">03</div>
+      <div>
+        <h3>The prayer door</h3>
+        <p>A private prayer-request form delivers straight to the pastors and to no one else &ndash; a door a prophetic house should have. Beside it stand the giving page, the contact form, the newsletter and a Plan Your Visit page written for the person deciding whether to come this Sunday.</p>
+      </div>
+    </div>
+    <div class="finding">
+      <div class="num">04</div>
+      <div>
+        <h3>Your keys</h3>
+        <p>Strong Tower owns this home outright &ndash; the site, its content and the code beneath it. After one training session your staff edit service times, events and pages themselves. If this studio disappeared tomorrow, the house would still stand and it would still be yours.</p>
+      </div>
+    </div>
+  </div>
+  <div class="pullquote">
+    <p>Most people will meet Strong Tower online before they ever walk through its doors. The website is the ministry&rsquo;s first handshake &ndash; and now it feels like the church.</p>
+  </div>
+  <div class="footer">
+    <span class="folio">03</span>
+    <span>Strong Tower Christian Ministry &middot; A Five Points Commission &middot; 3 of 6</span>
+  </div>
+</section>
+
+<!-- ============ PAGE 4 - THE HONEST LEDGER (FLOOD) ============ -->
+<section class="sheet flood">
+  <div class="page-head">
+    <div class="ghost">04</div>
+    <div class="eyebrow">The Honest Ledger</div>
+    <h2>What this work is worth</h2>
+    <hr class="rule">
+  </div>
+  <div style="max-width: 150mm; margin-bottom: 3mm;">
+    <p style="color: rgba(234,224,200,0.92);">You asked to pay what the work is worth, so here is the worth, part by part, at the open-market rates each piece commands on its own. This is the ledger a commercial engagement would carry.</p>
+  </div>
+  <table class="ledger">
+    <tr>
+      <th>The work</th>
+      <th style="text-align: right; width: 34mm;">Open-market worth</th>
+    </tr>
+    <tr>
+      <td class="item">Bespoke design and art direction</td>
+      <td class="worth">$3,000</td>
+    </tr>
+    <tr>
+      <td class="item">11 pages, designed and built</td>
+      <td class="worth">$4,500</td>
+    </tr>
+    <tr>
+      <td class="item">Sermon engine and live indicator</td>
+      <td class="worth">$1,200</td>
+    </tr>
+    <tr>
+      <td class="item">Prayer, contact and newsletter systems</td>
+      <td class="worth">$1,000</td>
+    </tr>
+    <tr>
+      <td class="item">Staff editing system and training</td>
+      <td class="worth">$1,500</td>
+    </tr>
+    <tr>
+      <td class="item">Accessibility engineered for the congregation</td>
+      <td class="worth">$1,000</td>
+    </tr>
+    <tr>
+      <td class="item">Local search foundation for Florence</td>
+      <td class="worth">$800</td>
+    </tr>
+    <tr>
+      <td class="item">First three months of hosting and care</td>
+      <td class="worth">$1,500</td>
+    </tr>
+    <tr>
+      <td class="item">Full ownership, transferred to the church</td>
+      <td class="worth">$500</td>
+    </tr>
+    <tr class="total">
+      <td class="item">The ledger, in full</td>
+      <td class="worth">$15,000</td>
+    </tr>
+  </table>
+  <p class="turn-line">The number Strong Tower is asked for is not this one. It is on the next page &ndash; and the difference between the two has a name.</p>
+  <div class="footer">
+    <span class="folio">04</span>
+    <span>Strong Tower Christian Ministry &middot; A Five Points Commission &middot; 4 of 6</span>
+  </div>
+</section>
+
+<!-- ============ PAGE 5 - THE TWO PRICES ============ -->
+<section class="sheet tight">
+  <div class="page-head">
+    <div class="ghost">05</div>
+    <div class="eyebrow">The Two Prices</div>
+    <h2>What yes costs,<br>and what no costs</h2>
+    <hr class="rule">
+  </div>
+  <div class="measure">
+    <div class="block">
+      <h3>The price of yes</h3>
+      <div class="price-line">$7,500, once.</div>
+      <p style="max-width: 138mm;">Half the ledger. The other $7,500 of worth is the studio&rsquo;s own investment in this ministry, named plainly and given gladly. This is not a discount, because nothing was marked up. It is patronage, and it runs one direction only.</p>
+    </div>
+    <div class="paylane">
+      <p>Paid as three payments of $2,500 &ndash; at the commissioning word, at staff training and on the Sunday the site goes live. The money moves at the rhythm of the work.</p>
+    </div>
+    <div class="block">
+      <h3>The promise that travels with it</h3>
+      <p style="max-width: 138mm;">At launch the site scores 80 or better on Google&rsquo;s own speed measure, on phone and desktop, or the studio tunes it at no charge until it does. Thirty days of care, the training session and three months of hosting sit inside the price. Nothing bills quietly afterward.</p>
+    </div>
+    <div class="block">
+      <h3>The price of no</h3>
+      <p style="max-width: 138mm;">Declining costs nothing today. It costs what it has cost since 2022: each week, people in Florence search for a church, find a quiet page and keep scrolling. No invoice is written for them &ndash; which is what makes them expensive.</p>
+    </div>
+  </div>
+  <div class="block" style="max-width: 158mm;">
+    <h3>Later chapters, priced now</h3>
+    <table class="schedule">
+      <tr>
+        <th style="width: 42mm;">Chapter</th>
+        <th style="width: 30mm;">Investment</th>
+        <th>What it is</th>
+      </tr>
+      <tr>
+        <td class="step">The Photography Day</td>
+        <td>$850, once</td>
+        <td>Worship, leadership and the church family.</td>
+      </tr>
+      <tr>
+        <td class="step">The Mark, Redrawn</td>
+        <td>$600, once</td>
+        <td>The tower and halo as a permanent emblem.</td>
+      </tr>
+      <tr>
+        <td class="step">The Care Plan</td>
+        <td>$250 monthly</td>
+        <td>Updates, monitoring and small changes.</td>
+      </tr>
+    </table>
+    <p style="margin-top: 2mm; color: var(--stone); font-size: 9pt;">Named now so nothing surprises you. Commissioned only when the church wants them.</p>
+  </div>
+  <div class="footer">
+    <span class="folio">05</span>
+    <span>Strong Tower Christian Ministry &middot; A Five Points Commission &middot; 5 of 6</span>
+  </div>
+</section>
+
+<!-- ============ PAGE 6 - HOW THIS PROCEEDS ============ -->
+<section class="sheet">
+  <div class="page-head">
+    <div class="ghost">06</div>
+    <div class="eyebrow">Next</div>
+    <h2>How this proceeds</h2>
+    <hr class="rule">
+  </div>
+  <div class="route-plate">
+    <!-- Route plate: the commission as one line, word to live -->
+    <svg viewBox="0 0 158 26" width="158mm" height="26mm" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="12" cy="10" r="2.6" fill="none" stroke="#0F0F10" stroke-width="0.7"/>
+      <circle cx="12" cy="10" r="0.9" fill="#0F0F10"/>
+      <text x="12" y="20" font-size="3" fill="#0F0F10" text-anchor="middle">THE WORD</text>
+      <line x1="14.6" y1="10" x2="52" y2="10" stroke="#0F0F10" stroke-width="0.6"/>
+      <rect x="52" y="6.5" width="7" height="7" fill="none" stroke="#0F0F10" stroke-width="0.7"/>
+      <text x="55.5" y="20" font-size="3" fill="#0F0F10" text-anchor="middle">TRAINING &middot; PHOTOS</text>
+      <line x1="59" y1="10" x2="100" y2="10" stroke="#0F0F10" stroke-width="0.6"/>
+      <rect x="100" y="5" width="9" height="10" fill="none" stroke="#B65730" stroke-width="0.8"/>
+      <line x1="102" y1="12.6" x2="107" y2="7.2" stroke="#B65730" stroke-width="1.1"/>
+      <text x="104.5" y="20" font-size="3" fill="#B65730" text-anchor="middle">THE CUTOVER SUNDAY</text>
+      <line x1="109" y1="10" x2="146" y2="10" stroke="#0F0F10" stroke-width="0.6"/>
+      <circle cx="149" cy="10" r="2.6" fill="none" stroke="#13402E" stroke-width="0.8"/>
+      <circle cx="149" cy="10" r="0.9" fill="#13402E"/>
+      <text x="149" y="20" font-size="3" fill="#13402E" text-anchor="middle">LIVE</text>
+    </svg>
+    <div class="plate-caption">The commission, drawn as one line</div>
+  </div>
+  <div class="steps">
+    <div class="step-item">
+      <div class="num">1</div>
+      <div>
+        <h3>The walkthrough</h3>
+        <p>I will call you this week and walk this document page by page &ndash; and walk you through the new site itself, live on screen. Bring every question. Take whatever time the church needs to pray on it.</p>
+      </div>
+    </div>
+    <div class="step-item">
+      <div class="num">2</div>
+      <div>
+        <h3>The word</h3>
+        <p>When Strong Tower says yes, it is confirmed in writing and the first payment of $2,500 commissions the launch. From that day the schedule is set and shared.</p>
+      </div>
+    </div>
+    <div class="step-item">
+      <div class="num">3</div>
+      <div>
+        <h3>Training, then the cutover Sunday</h3>
+        <p>Your staff are trained on the editing system, the final content is confirmed with you, and then strongtowercm.org points at the new home &ndash; timed so it can be announced from the pulpit. The old site retires the same day.</p>
+      </div>
+    </div>
+  </div>
+  <div class="measure" style="margin-top: 3mm;">
+    <p>Strong Tower loved people to life for years without a website&rsquo;s help. A site will never do the ministry&rsquo;s work &ndash; it only opens the door so more people find the room where that work happens. However the church decides &ndash; it has been an honour to build for this house.</p>
+  </div>
+  <div class="signature">
+    <div class="name">Martavious Spicer</div>
+    <div class="role">
+      Five Points Digital Studio<br>
+      martavious@fivepoints.studio &middot; fivepoints.studio
+    </div>
+  </div>
+  <div class="footer">
+    <span class="folio">06</span>
+    <span>A Five Points Commission &middot; 6 of 6</span>
+  </div>
+</section>
+
+</body>
+</html>
