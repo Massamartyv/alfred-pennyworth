@@ -44,13 +44,13 @@ The structure is: connect, gap, vision, ledger, price, silence. The price is sta
 
 **5. The price – one sentence, then stop.** "And the number I am asking Strong Tower for is seven thousand five hundred – half the ledger. The other half is my investment in this ministry, and I make it gladly." Then silence. However long it takes, the next voice is his.
 
-**6. If he says it is not enough – the adamance play.** Do not argue him down and do not raise the price of the same work. "Then here is what I would rather you do than pay me more for the same build – " and turn to the later chapters on page 5: the photography day, the mark redrawn, the care plan. His generosity funds the next phase of the ministry's own house. Everyone keeps their dignity and the work compounds.
+**6. If he says it is not enough – receive, do not sell.** Do not argue him down, and do not convert his generosity into a purchase. "The price is the price – seven thousand five hundred. If the church ever wishes to bless the work beyond it, receive it as exactly that – a blessing, not an invoice." If he asks about the future: "There will be seasons when the church wants more from its house – photographs, a new emblem, a steward's hand on the site. When that season comes, call me. Today the only decision on the table is the website."
 
 **7. Close – the decision shape, not the pressure.** "Take this to whoever the church needs at the table, and take whatever time you need to pray on it. When you give me the word, we set the training date and the cutover Sunday – the site goes live the same week it is announced from the pulpit." Book the walkthrough follow-up before hanging up if the decision is not immediate.
 
 ## Notes for the operator
 
-- The three later-chapter prices – photography $850, mark redraw $600, care plan $250 monthly – are staged proposals consistent with the church scope; confirm or adjust them before sending, since the fingerprint's precision rule makes every printed number a commitment.
+- Nothing beyond the website is proposed. Page 5 closes with a single after-launch paragraph that keeps the relationship open without naming any product or price; future work is conversation-led, opened by the church.
 - The proposal promises a launch score of 80 or better on PageSpeed, thirty days of care, the training session and three months of hosting inside the $7,500 – all consistent with the Custom Website Build offer sheet.
 - Payment staging is $2,500 at the word, $2,500 at training, $2,500 on the cutover Sunday.
 - The $15,000 ledger is the value framing for this commission; it deliberately does not reference any other Five Points offer, tier or internal architecture.
