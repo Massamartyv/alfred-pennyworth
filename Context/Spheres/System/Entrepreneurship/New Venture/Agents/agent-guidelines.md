@@ -69,7 +69,7 @@ Do not proceed without explicit approval:
 
 ## Plugin Scope
 
-Plugin scope to be determined on copy. When plugin access is configured, an `Agents/integrations.md` file will be added here. Until then, operate on file-level context only and escalate any task requiring live platform access.
+Plugin scope is recorded in `Agents/integrations.md`, which ships with this template rather than being added later. Read it before any task requiring live platform access, and trust only the Active Plugins table – a row there has passed a live health check and carries a verification date. Rows under Target-State are not connected. Where the surface a task needs is unprovisioned, operate on file-level context and escalate rather than reaching for a neighbouring venture credential.
 
 ---
 

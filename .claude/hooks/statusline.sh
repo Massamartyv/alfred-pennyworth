@@ -5,7 +5,7 @@
 
 input=$(cat)
 
-model=$(echo "$input" | jq -r '.model.display_name // "Opus 4.7"' 2>/dev/null)
+model=$(echo "$input" | jq -r '.model.display_name // "Fable 5"' 2>/dev/null)
 output_style=$(echo "$input" | jq -r '.output_style.name // "default"' 2>/dev/null)
 total_cost=$(echo "$input" | jq -r '.cost.total_cost_usd // 0' 2>/dev/null)
 cwd=$(echo "$input" | jq -r '.workspace.current_dir // ""' 2>/dev/null)

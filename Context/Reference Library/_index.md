@@ -2,7 +2,7 @@
 file_type: reference_library_index
 scope: personal
 created: 2026-06-21
-last_updated: 2026-07-10
+last_updated: 2026-08-04
 ---
 
 # Reference Library
@@ -75,6 +75,9 @@ A controlled tag set keeps retrieval consistent. Extend it deliberately, not cas
 - **Sound** – sound-design, cadence
 - **Strategy and offer** – positioning, proposition, offer-design, merchandising, hospitality, ritual
 - **Posture** – restraint, maximalism, reinvention, high-low, anti-logo
+- **Argument and rhetoric** – rhetoric, moral-clarity, essay-as-form, self-authorship, proof-as-argument, revision-in-public, image-as-argument, owned-distribution, self-education
+
+The argument group was added 2026-08-04 with the first four writers and orators to enter the library. Until then the corpus held makers of objects, sound and space but no makers of arguments, so it had no vocabulary for how a case is built. Extend it as deliberately as the rest.
 
 ## Status values
 
@@ -103,10 +106,13 @@ Full cards, grouped by type. A card link means a file exists.
 | A$AP Rocky | creator | fashion, music | art-direction, high-low, layering direction, oversized-silhouette | canon | [Creators/asap-rocky.md](Creators/asap-rocky.md) |
 | Bad Bunny | creator | fashion, music | materiality, color-and-light, colour-confidence, relaxed-silhouette | canon | [Creators/bad-bunny.md](Creators/bad-bunny.md) |
 | Banksy | creator | visual art, street art | subversion, context-as-content, wit, anti-establishment | canon | [Creators/banksy.md](Creators/banksy.md) |
+| Ben Taylor | creator | fashion, accessories, luxury, interior design | luxury, price-transparency, accessories, merchandising | active | [Creators/ben-taylor.md](Creators/ben-taylor.md) |
+| Benjamin Banneker | creator | mathematics, astronomy, surveying, publishing | proof-as-argument, self-education, rigour, high-low, almanac | canon | [Creators/benjamin-banneker.md](Creators/benjamin-banneker.md) |
 | Beyoncé | creator | music, performance | performance, precision-as-freedom, ancestral-tribute, cadence | canon | [Creators/beyonce.md](Creators/beyonce.md) |
 | Bobby Flay | creator | culinary, restaurants | bold-flavor, grilling, competition, brand-building | canon | [Creators/bobby-flay.md](Creators/bobby-flay.md) |
 | Brian De Palma | creator | film, directing | visual-bravura, suspense, operatic-excess, cinematography | canon | [Creators/brian-de-palma.md](Creators/brian-de-palma.md) |
 | Brooke Williamson | creator | culinary, restaurants | vegetable-forward, california-cuisine, produce-first, hospitality | canon | [Creators/brooke-williamson.md](Creators/brooke-williamson.md) |
+| Cal Cologne | creator | fragrance | fragrance, designer-vs-niche, ranked-shortlist, blind-buy | watch | [Creators/cal-cologne.md](Creators/cal-cologne.md) |
 | Caroline Shaw | creator | music, composition, vocal music | high-low, voice-as-instrument, form-invention, cultural-bridge | canon | [Creators/caroline-shaw.md](Creators/caroline-shaw.md) |
 | Claude Monet | creator | visual art | light, atmosphere, color-and-light, biophilic | canon | [Creators/claude-monet.md](Creators/claude-monet.md) |
 | Colman Domingo | creator | fashion, acting | art-direction, restraint, materiality, statement-with-control | canon | [Creators/colman-domingo.md](Creators/colman-domingo.md) |
@@ -118,9 +124,11 @@ Full cards, grouped by type. A card link means a file exists.
 | Eric Adjepong | creator | culinary, restaurants | west-african, diaspora, forward-looking-heritage, cultural-bridge | canon | [Creators/eric-adjepong.md](Creators/eric-adjepong.md) |
 | Frank Lloyd Wright | creator | architecture, interior design, furniture | spatial-direction, materiality, nature-integration, total-design | canon | [Creators/frank-lloyd-wright.md](Creators/frank-lloyd-wright.md) |
 | Frank Ocean | creator | music, production, aesthetics | sound-design, voice-and-tone, restraint, nostalgia-as-texture | canon | [Creators/frank-ocean.md](Creators/frank-ocean.md) |
+| Frederick Douglass | creator | oratory, autobiography, publishing, photography | rhetoric, self-authorship, owned-distribution, image-as-argument, photography | canon | [Creators/frederick-douglass.md](Creators/frederick-douglass.md) |
 | Gunna | creator | music, hip-hop, atlanta | melodic-trap, slang-as-brand, cadence, resilience | canon | [Creators/gunna.md](Creators/gunna.md) |
 | Gus Van Sant | creator | film, directing | emotional-restraint, outsiders, naturalism, character-study | canon | [Creators/gus-van-sant.md](Creators/gus-van-sant.md) |
 | Gustavo Piers Milton | creator | fashion | editorial-risk, avant-garde, proportion-play, fashion | watch | [Creators/gustavo-piers-milton.md](Creators/gustavo-piers-milton.md) |
+| James Baldwin | creator | literature, essay, cultural criticism | voice-and-tone, moral-clarity, essay-as-form, cadence, self-authorship | canon | [Creators/james-baldwin.md](Creators/james-baldwin.md) |
 | James Cameron | creator | film, directing, technology | world-building, immersive-atmosphere, spectacle, technical-innovation | canon | [Creators/james-cameron.md](Creators/james-cameron.md) |
 | Jean-Michel Basquiat | creator | visual art | visual-direction, art-direction, rawness, street-to-gallery | canon | [Creators/jean-michel-basquiat.md](Creators/jean-michel-basquiat.md) |
 | Jet Tila | creator | culinary, restaurants | thai-cuisine, pan-asian, heritage, cultural-custodian | canon | [Creators/jet-tila.md](Creators/jet-tila.md) |
@@ -132,6 +140,7 @@ Full cards, grouped by type. A card link means a file exists.
 | Leonardo da Vinci | creator | visual art, science, engineering | polymath, art-and-science, mastery, curiosity | canon | [Creators/leonardo-da-vinci.md](Creators/leonardo-da-vinci.md) |
 | Lil Uzi Vert | creator | music, hip-hop, rage | genre-blur, persona-as-asset, high-low, world-building | canon | [Creators/lil-uzi-vert.md](Creators/lil-uzi-vert.md) |
 | Logan Sylve | creator | visual art, illustration | street-to-gallery, high-low, surreal-expressionism, emerging-artist | active | [Creators/logan-sylve.md](Creators/logan-sylve.md) |
+| Malcolm X | creator | oratory, political thought, autobiography | rhetoric, revision-in-public, self-education, uncompromising-position, reinvention | canon | [Creators/malcolm-x.md](Creators/malcolm-x.md) |
 | Marcus Samuelsson | creator | culinary, restaurants | diaspora, three-continent-fusion, hospitality, cultural-bridge | canon | [Creators/marcus-samuelsson.md](Creators/marcus-samuelsson.md) |
 | Martin Scorsese | creator | film, directing | kinetic-camera, music-as-structure, moral-weight, auteur | canon | [Creators/martin-scorsese.md](Creators/martin-scorsese.md) |
 | Michael Greger | creator | nutrition, food science, medicine | evidence-based-nutrition, health-as-foundation, plant-forward, longevity | canon | [Creators/michael-greger.md](Creators/michael-greger.md) |
@@ -139,6 +148,7 @@ Full cards, grouped by type. A card link means a file exists.
 | Mötley Crüe | creator | music, rock, spectacle | maximalism, spectacle, image-first, conviction | canon | [Creators/motley-crue.md](Creators/motley-crue.md) |
 | Pablo Picasso | creator | visual art | reinvention, multiple-perspective, creative-risk, art-direction | canon | [Creators/pablo-picasso.md](Creators/pablo-picasso.md) |
 | Page and Dornenburg | creator | food writing, flavor theory | flavor-pairing, culinary-reference, creative-engine, technique | canon | [Creators/page-and-dornenburg.md](Creators/page-and-dornenburg.md) |
+| Paula Scher | creator | graphic design, typography, identity, environmental graphics | typography, art-direction, high-low, maximalism, spatial-direction | canon | [Creators/paula-scher.md](Creators/paula-scher.md) |
 | Pharrell | creator | fashion, music | art-direction, high-low, playful-eclecticism, accessory direction | canon | [Creators/pharrell.md](Creators/pharrell.md) |
 | Pierce and Ward | creator | interior design | spatial-direction, materiality, constrained-maximalism, maximalism | canon | [Creators/pierce-and-ward.md](Creators/pierce-and-ward.md) |
 | Quentin Tarantino | creator | film, directing | cinematography, visual-direction, style-as-resistance, maximalism | canon | [Creators/quentin-tarantino.md](Creators/quentin-tarantino.md) |
@@ -156,6 +166,7 @@ Full cards, grouped by type. A card link means a file exists.
 | Tyrod Taylor | creator | fashion | athletic-tailoring, fitted-silhouette, americana, fashion | canon | [Creators/tyrod-taylor.md](Creators/tyrod-taylor.md) |
 | Vince Gilligan | creator | television, writing | long-form-structure, moral-transformation, slow-burn, consequence | canon | [Creators/vince-gilligan.md](Creators/vince-gilligan.md) |
 | Virgil Abloh | creator | interior design, fashion, architecture | spatial-direction, art-direction, restraint, negative-space | canon | [Creators/virgil-abloh.md](Creators/virgil-abloh.md) |
+| Wisdom Kaye | creator | fashion, styling, modelling | high-low, character-styling, reference-as-brief, fashion | canon | [Creators/wisdom-kaye.md](Creators/wisdom-kaye.md) |
 | Wu-Tang Clan | creator | music, hip-hop, business strategy | brand-architecture, world-building, collective-and-sovereign, scarcity | canon | [Creators/wu-tang-clan.md](Creators/wu-tang-clan.md) |
 | Yayoi Kusama | creator | visual art | repetition, visual-system, immersive-atmosphere, world-building | canon | [Creators/yayoi-kusama.md](Creators/yayoi-kusama.md) |
 | Yeat | creator | music, hip-hop, rage | world-building, sonic-signature, lexicon-as-brand, sound-design | canon | [Creators/yeat.md](Creators/yeat.md) |

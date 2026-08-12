@@ -21,7 +21,7 @@ export default function HaloArc({
   if (variant === "full") {
     return (
       <svg
-        className={`${styles.halo} ${className}`}
+        className={`${styles.halo} sd-draw ${className}`}
         viewBox="0 0 400 400"
         aria-hidden="true"
       >
@@ -35,6 +35,7 @@ export default function HaloArc({
             stroke="var(--accent-gold)"
             strokeWidth={1.25}
             opacity={0.42 - i * 0.08}
+            pathLength={1}
           />
         ))}
       </svg>
@@ -43,7 +44,7 @@ export default function HaloArc({
 
   return (
     <svg
-      className={`${styles.arc} ${className}`}
+      className={`${styles.arc} sd-draw ${className}`}
       viewBox="0 0 400 130"
       aria-hidden="true"
     >
@@ -57,6 +58,7 @@ export default function HaloArc({
             stroke="var(--accent-gold)"
             strokeWidth={1.5}
             opacity={0.5 - i * 0.1}
+            pathLength={1}
           />
         );
       })}

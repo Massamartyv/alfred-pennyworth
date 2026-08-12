@@ -17,13 +17,13 @@ export default function Home() {
       {/* Hero — Rising Light, over real light */}
       <section className={styles.hero}>
         <div className={styles.heroMedia}>
-          {/* Video-ready hero. Renders the poster with a slow Ken Burns drift
-              today; to go live with real footage, add e.g.
-              videoSrc="/videos/hero-worship.mp4" — the poster stays as the
-              LCP image and fallback, so nothing else changes. */}
+          {/* The Goodsons and the praise team beneath the cross — the church's
+              own footage. The poster is the LCP image and reduced-motion
+              fallback; the muted loop fades in over it. */}
           <VideoSlot
-            poster="/images/atmosphere/rising-light-hero.jpg"
-            alt="Shafts of morning light falling through tall windows into a sanctuary"
+            poster="/images/church/hero-family-poster.jpg"
+            alt="Pastor and Prophetess Goodson ministering at the Strong Tower pulpit with the praise team gathered beneath the cross"
+            videoSrc="/videos/hero-family.mp4"
             priority
             sizes="100vw"
             imgClassName={styles.heroImg}
@@ -32,15 +32,15 @@ export default function Home() {
           <div className={styles.heroScrim} aria-hidden="true" />
           <div className={styles.heroGrain} aria-hidden="true" />
         </div>
-        <div className={`container ${styles.heroInner}`}>
+        <div className={`container hero-scroll-drift ${styles.heroInner}`}>
           <p className={`eyebrow ${styles.heroEyebrow}`}>
             Strong Tower Christian Ministry · {site.contact.address.city}, South
             Carolina
           </p>
           <h1 className={styles.heroTitle}>
-            He loves you to life,
+            He Loves You to Life,
             <span className={styles.heroTitleScript}>
-              so we love you to life.
+              So We Love You to Life.
             </span>
           </h1>
           <p className={styles.heroSub}>
@@ -71,7 +71,7 @@ export default function Home() {
       {/* 01 — Welcome */}
       <section className={`section ${styles.welcome}`}>
         <div className={`container ${styles.welcomeInner}`}>
-          <div className={`${styles.welcomeMedia} reveal`}>
+          <div className={`${styles.welcomeMedia} motion-float reveal`}>
             <Image
               src="/images/church/goodsons-ministering.jpg"
               alt="Pastor Kelsey M. Goodson and Prophetess Angela Goodson ministering together at the Strong Tower pulpit"
@@ -83,7 +83,7 @@ export default function Home() {
           </div>
           <div className={`${styles.welcomeBody} reveal`}>
             <p className="section-index">01 — Welcome home</p>
-            <h2 className={styles.h2}>A place to run to, and a place to grow</h2>
+            <h2 className={styles.h2}>A Place to Run To, and a Place to Grow</h2>
             <p className={`${styles.lead} lead-text`}>
               Strong Tower Christian Ministry is a church body dependent on the
               Word of God, preaching it, teaching it and living it. We exist to
@@ -123,7 +123,7 @@ export default function Home() {
         <div className="container">
           <div className={`${styles.sectionHead} reveal`}>
             <p className="section-index">02 — When we gather</p>
-            <h2 className={styles.h2}>Come as you are</h2>
+            <h2 className={styles.h2}>Come as You Are</h2>
           </div>
           <ul className={styles.serviceList}>
             {site.services.map((s, i) => (
@@ -164,7 +164,7 @@ export default function Home() {
           <div>
             <p className="section-index">03 — The Word, on demand</p>
             <h2 className={styles.watchTitle}>
-              Missed a service? Watch any time.
+              Missed a Service? Watch Any Time.
             </h2>
             <p className={styles.watchCopy}>
               Every Sunday and midweek message, ready when you are. New messages
@@ -190,7 +190,7 @@ export default function Home() {
         <div className={`container ${styles.splitInner}`}>
           <div className={`${styles.splitCard} reveal reveal-d1`}>
             <p className="section-index">04 — New here</p>
-            <h2 className={styles.splitTitle}>We saved you a seat</h2>
+            <h2 className={styles.splitTitle}>We Saved You a Seat</h2>
             <p className={styles.splitCopy}>
               Know what to expect before you walk in. Come as you are.
             </p>
@@ -216,7 +216,7 @@ export default function Home() {
         <div className={`container ${styles.locationInner}`}>
           <div className={`${styles.locationText} reveal`}>
             <p className="section-index">06 — Find the Tower</p>
-            <h2 className={styles.h2}>We would love to meet you</h2>
+            <h2 className={styles.h2}>We Would Love to Meet You</h2>
             <address className={styles.locationAddr}>
               <MapPin size={18} /> {site.contact.full}
             </address>

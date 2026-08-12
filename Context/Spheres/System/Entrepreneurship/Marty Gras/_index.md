@@ -4,16 +4,18 @@ venture: Marty Gras
 venture_stage: Launch
 status: active
 methodology: The Manor Protocol
-last_updated: 2026-07-12
+last_updated: 2026-08-04
 ---
 
 # Marty Gras – Venture Index
 
-Personal media company. The Architect of Vibe. Podcast, Epiphany newsletter on Substack and cultural curation across all platforms.
+The flagship media property of the Marty V master brand. The Conversation – long-form video – and Epiphany – the essay line on Substack. The master brand carries a second property, the music, which ships under the artist's own name and is governed by the same fingerprint.
+
+Terminology holds here as everywhere: Conversation never podcast, Epiphany never newsletter, Perspective never content. "The Architect of Vibe" is retired. The line is *Nothing is unrelated*.
 
 ## Trajectory
 
-Marty Gras is built for scale, leverage and long-term enterprise value – a media company on a billion-dollar portfolio trajectory, not a creator side-project. The leverage is owned audience and owned catalogue that compound: a body of work – episodes, essays, cultural artefacts – that keeps accruing value long after publication and syndicates across every platform without renting reach. Near-term audience, subscriber and revenue floors are rungs on that climb, never ceilings – each one funds the next and none of them is the destination. Live targets live in Notion Projects and Tasks, personal workspace – never here; this file holds the trajectory, not the numbers.
+Marty Gras is built for scale, leverage and long-term enterprise value – a media company on a billion-dollar portfolio trajectory, not a creator side-project. The leverage is owned audience and owned catalogue that compound: a body of work – Conversations, essays, mixes, cultural artefacts – that keeps accruing value long after publication and syndicates across every platform without renting reach. Near-term audience, subscriber and revenue floors are rungs on that climb, never ceilings – each one funds the next and none of them is the destination. Live targets live in Notion Projects and Tasks, personal workspace – never here; this file holds the trajectory, not the numbers.
 
 ## The Manor Protocol
 
@@ -29,7 +31,7 @@ All work follows The Manor Protocol – five phases, two hard gates, creative ex
 |---|---|---|
 | Creative/ | Editorial direction, voice, brand system, content product definitions | Creative/_index.md |
 | Strategy/ | Audience research, platform intelligence, cultural positioning | Strategy/_index.md |
-| Production/ | Podcast, newsletter, social and video production | Production/_index.md |
+| Production/ | The Conversation, Epiphany, the music, social and video production | Production/_index.md |
 | Growth/ | Audience growth, partnerships, sponsorships, collaborations, guests | Growth/_index.md |
 | Operations/ | Content pipeline, scheduling, tool stack, clientele management | Operations/_index.md |
 | Finance/ | Revenue, expenses, projections, tax, metrics | Finance/_index.md |
@@ -73,7 +75,7 @@ Every file in this venture uses YAML frontmatter:
 file_type: "{content_product | sop | playbook | strategy | template | reference | registry}"
 venture: Marty Gras
 status: "{active | draft | archived}"
-last_updated: "{YYYY-MM-DD}"
+last_updated: 2026-08-04
 related_files:
   - "{path/to/related-file.md}"
 ---

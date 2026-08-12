@@ -2,7 +2,7 @@
 file_type: department_index
 department: Growth
 venture: Marty Gras
-last_updated: 2026-04-22
+last_updated: 2026-08-04
 ---
 
 # Growth
@@ -17,7 +17,7 @@ Growth/
   Audience/              -- Growth tactics, referral loops, cross-platform expansion
   Partnerships/          -- Collaborator pipeline, aligned creators, cross-promotion
   Sponsorships/          -- Sponsor pipeline, outreach, proposals, agreements
-  Guests/                -- Podcast guest pipeline, outreach, booking, preparation
+  Guests/                -- Conversation guest pipeline, outreach, booking, preparation
   Agents/                -- Studio-specific agents, workflows, criteria
 ```
 
@@ -28,7 +28,7 @@ Growth/
 - Audience growth strategy and referral programmes
 - Partnership pipeline – aligned creators, cross-promotions, media partners
 - Sponsorship outreach, qualification, proposals and negotiation
-- Podcast guest identification, outreach, booking and preparation
+- Conversation guest identification, outreach, booking and preparation
 - Revenue-generating relationships (excluding subscription and merchandise)
 
 ### What does not belong here
@@ -41,8 +41,8 @@ Growth/
 
 | Type | Description | Status |
 |---|---|---|
-| Podcast guests | Cultural voices, creators, entrepreneurs | Pipeline to be built |
-| Brand sponsors | Aligned brands for podcast and newsletter | Pipeline to be built |
+| Conversation guests | Cultural voices, creators, entrepreneurs | Pipeline to be built |
+| Brand sponsors | Aligned brands for the Conversation and Epiphany | Pipeline to be built |
 | Collaborators | Cross-platform creators for audience growth | Pipeline to be built |
 | Media partners | Publications, platforms for syndication | Pipeline to be built |
 
@@ -53,8 +53,8 @@ Growth/
 | Instagram | Visual storytelling, reels, stories | Active via personal brand |
 | LinkedIn | Thought leadership, longform posts | Active via personal brand |
 | TikTok | Short-form cultural commentary | Active via personal brand |
-| YouTube | Podcast video, long-form video | To be developed |
-| Substack | Epiphany newsletter | To be launched |
+| YouTube | The Conversation, the mixes, long-form video | To be developed |
+| Substack | Epiphany | To be launched |
 | Threads | Conversational engagement | Active via personal brand |
 | X | Cultural commentary, thread longform | Active via personal brand |
 | Reddit | Community engagement, long-form discussion | Growth channel to explore |

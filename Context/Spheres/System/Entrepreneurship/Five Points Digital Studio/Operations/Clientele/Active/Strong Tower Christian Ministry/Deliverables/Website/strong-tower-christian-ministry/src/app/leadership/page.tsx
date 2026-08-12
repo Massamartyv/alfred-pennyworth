@@ -96,7 +96,7 @@ export default function LeadershipPage() {
       {/* Closing CTA */}
       <section className={`section ${styles.cta}`}>
         <div className={`container ${styles.ctaInner} reveal`}>
-          <h2 className={styles.ctaTitle}>We would love to meet you</h2>
+          <h2 className={styles.ctaTitle}>We Would Love to Meet You</h2>
           <p className={styles.ctaBody}>
             Plan a visit and worship with us, or reach out with any question —
             our door and our hearts are open.

@@ -11,6 +11,7 @@ import {
 import { site } from "@/lib/site";
 import RevealSection from "@/components/RevealSection/RevealSection";
 import ScriptureInterlude from "@/components/ScriptureInterlude/ScriptureInterlude";
+import MinistryPlaceholder from "@/components/MinistryPlaceholder/MinistryPlaceholder";
 import styles from "./page.module.css";
 
 export const metadata = {
@@ -31,6 +32,7 @@ const ministries = [
     icon: DoorOpen,
     name: "SCORE",
     type: "Outreach",
+    monogram: "S",
     // CONFIRM: leader attribution — the former site named Pastor Goodson; verify.
     leader: "Pastor Kelsey M. Goodson",
     desc: "A reentry ministry that walks alongside citizens returning home from incarceration — meeting them with support, dignity and a family to belong to as they begin again.",
@@ -39,6 +41,7 @@ const ministries = [
     icon: Compass,
     name: "Is there Not a Cause",
     type: "Mentoring",
+    monogram: "C",
     // CONFIRM: leader attribution — the former site named Pastor Goodson; verify.
     leader: "Pastor Kelsey M. Goodson",
     desc: "A mentoring ministry for those who are searching — coming alongside them with guidance, encouragement and people who believe in the cause God has set within them.",
@@ -47,6 +50,7 @@ const ministries = [
     icon: Sparkles,
     name: "GEMS & GENTS",
     type: "Mentoring",
+    monogram: "G&G",
     // CONFIRM: leader attribution — the former site named Pastor Goodson; verify.
     leader: "Pastor Kelsey M. Goodson",
     desc: "Mentoring for young adults — pouring into the next generation of women and men and helping them grow into all that God has called them to be.",
@@ -67,6 +71,7 @@ const ministries = [
     icon: Flame,
     name: "Prophetic Impartation Service",
     type: "Worship",
+    monogram: "P",
     // CONFIRM: who carries this service week to week.
     leader: null,
     schedule: "Saturdays · 10:00 AM · In house",
@@ -108,7 +113,7 @@ export default function MinistriesPage() {
           <div className={`${styles.sectionHead} reveal`}>
             <p className="eyebrow">The work of the Tower</p>
             <h2 className={styles.sectionTitle}>
-              Where His love takes hold
+              Where His Love Takes Hold
             </h2>
             <p className={styles.sectionLede}>
               Each of these ministries is a hand extended in the name of Jesus.
@@ -119,12 +124,15 @@ export default function MinistriesPage() {
           </div>
 
           <div className={styles.grid}>
-            {ministries.map((m) => {
+            {ministries.map((m, i) => {
               const Icon = m.icon;
               return (
-                <article key={m.name} className={`${styles.card} reveal`}>
-                  {"image" in m && m.image ? (
-                    <div className={styles.cardMedia}>
+                <article
+                  key={m.name}
+                  className={`${styles.card} reveal ${i % 2 === 1 ? "reveal-d1" : ""}`}
+                >
+                  <div className={`${styles.cardMedia} motion-float`}>
+                    {"image" in m ? (
                       <Image
                         src={m.image}
                         alt={m.imageAlt}
@@ -132,8 +140,10 @@ export default function MinistriesPage() {
                         sizes="(max-width: 900px) 100vw, 50vw"
                         className={styles.cardMediaImg}
                       />
-                    </div>
-                  ) : null}
+                    ) : (
+                      <MinistryPlaceholder monogram={m.monogram} />
+                    )}
+                  </div>
                   <div className={styles.cardHead}>
                     <span className={styles.icon} aria-hidden="true">
                       <Icon size={24} />
@@ -172,7 +182,7 @@ export default function MinistriesPage() {
       {/* Closing CTA */}
       <section className={styles.ctaBand}>
         <div className={`container ${styles.ctaInner} reveal`}>
-          <h2 className={styles.ctaTitle}>There is a place for you here</h2>
+          <h2 className={styles.ctaTitle}>There Is a Place for You Here</h2>
           <p className={styles.ctaCopy}>
             If the Lord is stirring something in you, come and serve alongside
             us. Meet the leaders who shepherd this family, or take your first

@@ -10,20 +10,21 @@ This file governs the Alfred Pennyworth directory (`~/Alfred Pennyworth/`). It d
 Alfred Pennyworth/
 ├── .claude/                       – Project configuration. Tracked: CLAUDE.md, settings.json, hooks/, agents/, workflows/.
 │   ├── CLAUDE.md                  – This file. Project-level configuration.
-│   ├── agents/                    – Native crew subagents: researcher, creator, reviewer-scrutiny, reviewer-behavioural.
+│   ├── agents/                    – Native crew subagents: researcher, creator, reviewer-scrutiny, reviewer-behavioural, job-applier.
 │   ├── cache/                     – One-way Notion state cache and heartbeat marker. Machine-derived, never hand-edited, gitignored.
 │   └── hooks/                     – SessionStart, Stop and statusline scripts.
 ├── .mcp.json                      – Project MCP servers. Secret-free; sources .env by reference. Tracked.
 ├── .githooks/                     – Tracked git hooks: pre-commit state tripwire. Wired per clone via core.hooksPath (Manual/genesis.md).
 ├── .working/                       – Transient session files and the offline state buffer (session-buffer/). Not committed to git.
 ├── Manual/                        – Owner's manual: genesis protocol, account and secret inventories, MCP registry, Brewfile, restore drill.
+├── Private/                       – Operator-only sealed documents (emergency kit). Gitignored, mode 700, never read by Alfred.
 ├── Context/
 │   ├── personal-brand-identity.md  – How everything sounds. Governs all pillars.
 │   ├── creative-director.md         – Sensory operating system, aesthetic sensibility, aligned brands.
 │   ├── vibe-coding-prd-template.md  – PRD template for AI-assisted web development.
 │   ├── Reference Library/          – Creators, brands, works and curators for research, inspiration and creative direction. Personal corpus; each venture holds its own inside Knowledge Base.
 │   ├── Spheres/
-│   │   ├── Mind/                  – 18 spheres. Spanish graduated to own file.
+│   │   ├── Mind/                  – 19 spheres. Spanish, Medicine, Philosophy and Mathematics hold folders.
 │   │   ├── System/                – 4 spheres. Entrepreneurship contains ventures.
 │   │   │   └── Entrepreneurship/
 │   │   │       ├── Five Points Digital Studio/  – Active venture (digital agency)
@@ -46,7 +47,7 @@ Alfred Pennyworth/
 │   └── templates/                 – Validation contract, source inventory, handoff schema, model assignment
 ├── Automations/                   – Scripted workflows. Guards/ holds the state-pattern list and the working sweep.
 ├── Integrations/                  – MCP servers and platform bridges
-├── Apps/                          – Personal apps bank. Each app is its own git repository; ignored here. Current: nabu. Venture apps live in an Apps/ folder inside each venture directory.
+├── Apps/                          – Personal apps bank. Each app is its own git repository; ignored here. Current: oracle. Venture apps live in an Apps/ folder inside each venture directory.
 ├── Projects/                      – Personal local-only projects. Gitignored.
 └── Templates/                     – Reusable project templates
 ```
@@ -103,11 +104,13 @@ When the task involves the items in the left column, load the files in the right
 | Task, project, mission or pipeline status – reading or writing | Notion, scoped workspace – never a local file | State cache for orientation only |
 | Session close | Session-end bookend – Alfred Logs entry, leftovers filed as Tasks, cache refresh | `.working/session-buffer/` if Notion was unreachable |
 | Content creation, copy, voice | `Context/personal-brand-identity.md` | Venture brand-fingerprint if venture-scoped |
+| Personal brand, positioning, edge, "what makes me different", content strategy | `Context/alpha-doctrine.md` | Marty V fingerprint if the work touches the music or Marty Gras |
 | Venture direction, strategic decisions, tactical execution mechanics (proof, standards, volume, velocity, patience) | `Context/working-principles.md` | – |
 | Marty Gras content | `Context/Spheres/System/Entrepreneurship/Marty Gras/Foundation/brand-fingerprint.md` | – |
 | Aesthetic direction, sensory design | `Context/creative-director.md` | – |
 | Inspiration, creative direction, research batch, reference pull | `Context/Reference Library/_index.md`, then the matched cards | Venture `Knowledge Base/Reference Library/_index.md` if venture-scoped |
 | Domain knowledge in a sphere | Cluster index `Spheres/{Cluster}/{cluster}.md` | Sphere folder `_index.md` and any graduated sphere file |
+| Any meaningful decision – reversibility, stakes, incentives, uncertainty, a judgement call | `~/.claude/heuristics.md` – loaded every session | `Context/Spheres/Mind/Philosophy/worldly-wisdom.md` for the full latticework; `Mathematics/_index.md` when the call turns on a number |
 | Venture operations | Venture `_index.md` | `Agents/integrations.md`, `Agents/department-heads.md`, `Agents/agent-guidelines.md` |
 | Dispatching a venture agent | Venture `Agents/agent-guidelines.md`, agent definition | `Agents/integrations.md` if venture plugins |
 | Dispatching system or orchestration agent | Agent definition | `Agents/_index.md`, `Agents/crews.md` |
@@ -135,7 +138,7 @@ Before specific actions, run the corresponding check. These are non-negotiable p
 | Committing to a remote | Run `git status` and read the diff, confirm staged set matches intent |
 | Dispatching an agent | Check `.working/{agent-name}/` for a recent run within 24 hours |
 | Sending or publishing anything | Confirm the venture or personal scope explicitly before send |
-| Completing an agent run | Write handoff document to `.working/{agent-name}/handoff.md` per `Agents/templates/handoff-schema.md` before exit; for mission-scoped runs, note the mission record URL in the handoff frontmatter |
+| Completing a mission-scoped agent dispatch | Write the handoff to `.working/{agent-name}/handoff.md` per `Agents/templates/handoff-schema.md` before exit, noting the mission record URL in the frontmatter. Standalone ad hoc runs are exempt – Domesday ruling 2026-08-11 |
 | Opening a Manor Protocol mission with 2+ Creator dispatches | Draft validation contract per `Agents/templates/validation-contract.md` and surface at Direction |
 | Planning a mission with 2+ active roles | Author per-mission model assignment per `Agents/templates/model-assignment.md` and surface at Direction |
 | Opening a Manor Protocol mission that synthesises a corpus of mixed-provenance sources | Draft source inventory per `Agents/templates/source-inventory.md` before synthesis and surface at Direction |
@@ -189,7 +192,10 @@ When a topic within a sphere becomes detailed enough to warrant its own file, it
 3. Add the graduated file to the global CLAUDE.md Sphere Index under "Graduated sphere files."
 
 **Current graduated files:**
+- `Context/Spheres/Mind/Philosophy/worldly-wisdom.md` – the Munger latticework, founding artefact of the Philosophy sphere's reasoning track
+- `Context/Spheres/Mind/Mathematics/_index.md` – Mathematics sphere, founded 2026-08-04, holding statistics, probability and accounting
 - `Context/Spheres/Mind/Spanish/spanish.md` – Spanish language support protocol
+- `Context/Spheres/Mind/Medicine/values-charter.md` – Nature First, Truth Always values charter, founding artefact of the Medicine sphere
 - `Context/Spheres/System/Artificial Intelligence/agent-infrastructure-stack.md` – Six-layer agent infrastructure stack framework
 - `Context/Spheres/System/Artificial Intelligence/ai-cost-reference.md` – System-level reference for reasoning about agent and AI cost
 - `Context/Spheres/System/Artificial Intelligence/agent-events-taxonomy.md` – System-level vocabulary for agent activity and event taxonomy
@@ -207,7 +213,7 @@ Plugins – MCP connections – are scoped to the context they serve. Business p
 ### Default Behavior
 
 When no business context is active, all plugin operations target personal accounts and workspaces:
-- **Notion** – personal workspace (Sphere Manager, Tasks, Projects, Fitness Journal, Recipes, etc.)
+- **Notion** – personal workspace (Sphere Manager, Tasks, Projects, Fitness Journal, Recipes, etc.), served by the project-scoped `notion-personal` server on `NOTION_PERSONAL_TOKEN` – live-verified 2026-08-11; the retired OAuth enhanced connector is not the route
 - **Supabase, Vercel** – personal projects and infrastructure
 - **Pennyone** – routes through `ZERNIO_PERSONAL_API_KEY` for social syndication when `pipeline: "personal"` is passed. Pennyone itself is cross-venture; the routing key selects the Zernio account.
 - **Apple Mail** – personal iCloud inbox via `mcp-apple-mail` (patrickfreyer, installed from GitHub, registered at user scope as `apple-mail`). Bridges to Mail.app over AppleScript. Full read, draft, send surface. Navigation Rule 3 still gates actual sends behind explicit confirmation. Requires macOS Automation permission for Mail.app on first use.
@@ -216,9 +222,17 @@ When no business context is active, all plugin operations target personal accoun
 
 When operating in a venture's context – clients, offers, business operations, venture strategy – plugin operations target that venture's accounts. Each venture documents its plugins in `Agents/integrations.md`.
 
-**Current venture plugin registries:**
-- Five Points Digital Studio: `Context/Spheres/System/Entrepreneurship/Five Points Digital Studio/Agents/integrations.md`
-- Marty Gras: `Context/Spheres/System/Entrepreneurship/Marty Gras/Agents/integrations.md`
+**Every venture holds a plugin registry.** As of 2026-08-08 all six do, including the dormant one and the template – a venture without a registry is indistinguishable from a venture nobody wired.
+
+| Venture | Registry |
+|---|---|
+| Five Points Digital Studio | `…/Five Points Digital Studio/Agents/integrations.md` |
+| Marty Gras | `…/Marty Gras/Agents/integrations.md` |
+| Paradigm | `…/Paradigm/Agents/integrations.md` |
+| Lillie and Lynette | `…/Lillie and Lynette/Agents/integrations.md` |
+| Atlas | `…/Atlas/Agents/integrations.md` |
+| Athena (dormant) | `…/Athena/Operations/AI/integrations.md` – placed beside its siblings on the retired nine-department shape; moves to `Agents/` on reactivation |
+| New Venture (template) | `…/New Venture/Agents/integrations.md` – ships with the provisioning checklist |
 
 ### Routing Rules
 
@@ -228,14 +242,19 @@ When operating in a venture's context – clients, offers, business operations, 
 4. **Data never crosses.** Personal data stays in personal plugins. Business data stays in venture plugins. This is the same boundary from the global CLAUDE.md Navigation Rules, extended to the plugin layer.
 5. **Stripe is always venture-scoped.** No personal Stripe account exists. All Stripe operations are business operations routed through the relevant venture.
 6. **Multi-venture isolation.** When multiple ventures exist, each owns its own plugin connections. Venture A's Stripe is not Venture B's Stripe. Venture A's Notion workspace is not Venture B's Notion workspace.
+7. **One Notion workspace per sovereign venture** – ruled 2026-08-08, the execution of rule 6. Marty Gras is the single standing exception, routing to the personal workspace as the personal media identity. Sub-brands inherit the parent workspace; only ventures provision. Full table in `Manual/mcp-registry.md`.
+8. **Registered is not connected.** A `.mcp.json` entry proves a server starts, not that it works – four registered servers currently fail every call (calcom, fivepoints-calendar, elevenlabs, strava – verified 2026-08-11), and two venture registry rows once claimed servers that never existed. Trust a status only where it carries a verification date from a live call. When a needed surface is dark, say so and escalate; never substitute a neighbouring credential.
+9. **Never substitute a reachable workspace for an unreachable one.** While a venture workspace is unprovisioned or dark, its state buffers to `.working/session-buffer/` and syncs when the workspace exists. Writing it somewhere convenient is how Atlas state ended up inside the Five Points workspace.
 
 ### Adding a New Plugin
 
 1. Determine scope – personal or venture
 2. If venture-scoped, add to that venture's `Agents/integrations.md`
 3. If personal, document in this file under Default Behavior
-4. Update any skills that should have access via their `allowed-tools` list
-5. If the same service exists at both personal and venture level, document the routing rule that distinguishes them
+4. Add the variable row to `Manual/secrets-inventory.md` and the server row to `Manual/mcp-registry.md` in the same pass
+5. Update any skills that should have access via their `allowed-tools` list
+6. If the same service exists at both personal and venture level, document the routing rule that distinguishes them
+7. Run the live health check before recording the plugin as active, and record the verification date
 
 ---
 
@@ -300,4 +319,4 @@ Reviewer carries two tiers dispatched as distinct subtypes:
 
 ---
 
-*Last updated: 2026-07-23 – The Lamplighter doctrine pass: Athena revival claim corrected to dormant, martyv-identity.md retirement wired through the Routing Map and File Architecture, working-principles.md routed, Logs/ fork resolved, graduated files synced.*
+*Last updated: 2026-08-11 – Domesday: Apps bank corrected to oracle, job-applier and Private/ documented, the broken-server count trued to four, notion-personal recorded as the personal workspace route, handoff scope narrowed to mission-scoped dispatches by operator ruling.*

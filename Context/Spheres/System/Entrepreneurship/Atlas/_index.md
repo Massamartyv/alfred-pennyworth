@@ -63,12 +63,13 @@ All work follows The Manor Protocol – five phases, two hard gates, creative ex
 | Agents/department-heads.md | Role definitions and specialist seats |
 | Agents/validation-contract.md | Phase 1 binary assertions, evidence, reviewers |
 | Agents/model-assignment.md | Per-mission model allocation |
+| Agents/integrations.md | Plugin and tool connections; the HIPAA boundary |
 
-Plugin scope to be determined. No `Agents/integrations.md` exists until configured. Initial integrations expected: Jane App API (first EHR adapter), Anthropic API (LLM calls), Stripe Atlas (entity formation), HIPAA-compliant log infrastructure.
+Plugin scope is recorded in `Agents/integrations.md`, created 2026-08-08. Nothing is connected yet, which is appropriate at Reconnaissance. Expected first integrations: Jane App API as the first EHR adapter, Anthropic API for the clinical documentation layer, BAA-covered hosting, database and logging, and a payment rail at pilot conversion. **The HIPAA boundary in that file gates the whole integration lane** – no surface touching protected health information is provisioned before a Business Associate Agreement covers it, and no surface in the current estate has one.
 
 ## Active State
 
-Live state: Notion Projects and Tasks, Five Points workspace (Atlas – Arlando Parker Jr. Pilot Terms).
+Live state: Notion Projects and Tasks – **currently misfiled in the Five Points workspace** (Atlas – Arlando Parker Jr. Pilot Terms). Atlas is a sovereign venture and a peer brand, not a Five Points asset. Under the 2026-08-08 one-workspace-per-venture ruling it provisions its own workspace and these records migrate out. Recorded in `Agents/integrations.md`, Finding 1.
 
 ## Open Direction-Gate Items
 

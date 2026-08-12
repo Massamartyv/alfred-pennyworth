@@ -3,7 +3,7 @@ file_type: reference
 document_type: agent_guidelines
 venture: Marty Gras
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-08-04
 ---
 
 # Agent Guidelines – Marty Gras
@@ -17,7 +17,7 @@ Rules for AI agent behaviour within Marty Gras. Read this before executing any t
 ### Tier 1 – Full Autonomy
 
 Execute without approval:
-- Drafting content – newsletter editions, social posts, podcast outlines, show notes
+- Drafting – Epiphany drafts, social fragments, Conversation outlines, show notes
 - Research – cultural trends, audience insights, competitive analysis
 - Data extraction – analytics summaries, performance metrics, audience data
 - Generating templates and content variations
@@ -27,7 +27,7 @@ Execute without approval:
 
 Act within defined parameters, then notify for review:
 - Scheduling content via the syndication pipeline (Pennyone) – must be reviewed before going live
-- Populating episode templates and newsletter templates
+- Populating Conversation templates and Epiphany templates
 - Creating performance reports from analytics data
 - Updating SOPs with improvements
 - Guest outreach drafts – must be reviewed before sending
@@ -35,7 +35,7 @@ Act within defined parameters, then notify for review:
 ### Tier 3 – Approval Required Before Execution
 
 Do not proceed without explicit approval:
-- Publishing any content externally – newsletter, podcast, social
+- Publishing anything externally – the Epiphany, the Conversation, the music, social
 - Sending messages to sponsors, guests or collaborators
 - Committing to partnerships, sponsorship terms or collaboration agreements
 - Modifying brand voice or editorial direction documents

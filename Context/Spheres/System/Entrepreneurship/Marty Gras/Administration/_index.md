@@ -2,7 +2,7 @@
 file_type: department_index
 department: Administration
 venture: Marty Gras
-last_updated: 2026-04-22
+last_updated: 2026-08-04
 ---
 
 # Administration
@@ -31,7 +31,7 @@ Administration/
 - Content licensing and usage rights
 - Platform terms of service compliance
 - Privacy policies and disclaimers
-- Music licensing and rights clearance for podcast
+- Music licensing and rights clearance for the Conversation and the music
 - Team structure, contractor management, hiring plans (HR)
 
 ### What does not belong here
@@ -44,7 +44,7 @@ Administration/
 ## Key Context
 
 - No legal entity filed yet. Structure to be determined as revenue materialises.
-- Content licensing and music rights are standing concerns for podcast production.
+- Content licensing and music rights are standing concerns for the Conversation and the music.
 - HR currently a solo operation – future roles tracked in `HR/_index.md`.
 
 ## Agent Instructions

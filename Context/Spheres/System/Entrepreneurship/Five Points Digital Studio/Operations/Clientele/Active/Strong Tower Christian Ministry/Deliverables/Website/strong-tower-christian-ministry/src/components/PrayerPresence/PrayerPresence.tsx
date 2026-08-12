@@ -83,7 +83,7 @@ export default function PrayerPresence() {
             <div className={styles.headingGroup}>
               <p className={styles.eyebrow}>Prayer</p>
               <p id={titleId} className={styles.title}>
-                Let us pray with you
+                Let Us Pray with You
               </p>
             </div>
             <button
@@ -99,7 +99,7 @@ export default function PrayerPresence() {
           {state?.ok ? (
             <div className={styles.success} role="status">
               <p className={styles.successTitle}>
-                Our prayer team has received this.
+                Our Prayer Team Has Received This.
               </p>
               <p className={styles.successBody}>
                 We will lift it up before the Lord. You are not walking through

@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marty OS — Final System Overview</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --void: #08080d;
+  --void-mid: #0e0e16;
+  --teal: #2dd4bf;
+  --teal-dim: rgba(45,212,191,0.15);
+  --teal-glow: rgba(45,212,191,0.06);
+  --gold: #d4a017;
+  --gold-dim: rgba(212,160,23,0.15);
+  --gold-glow: rgba(212,160,23,0.06);
+  --crimson: #dc2626;
+  --crimson-dim: rgba(220,38,38,0.12);
+  --amber: #d97706;
+  --amber-dim: rgba(217,119,6,0.15);
+  --nerve: #7c3aed;
+  --nerve-dim: rgba(124,58,237,0.15);
+  --nerve-glow: rgba(124,58,237,0.06);
+  --nerve-bright: rgba(124,58,237,0.3);
+  --text: #e8e6e1;
+  --text-mid: #9ca3af;
+  --text-dim: #6b7280;
+  --text-faint: #4b5563;
+  --green: #22c55e;
+}
+
+*{margin:0;padding:0;box-sizing:border-box}
+
+body{
+  background:var(--void);color:var(--text);
+  font-family:'IBM Plex Mono',monospace;
+  -webkit-font-smoothing:antialiased;
+}
+
+body::before{
+  content:'';position:fixed;top:0;left:0;right:0;bottom:0;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events:none;z-index:9999;
+}
+
+.page{max-width:1280px;margin:0 auto;padding:60px 32px 100px}
+
+/* ── HEADER ── */
+.hdr{margin-bottom:48px;opacity:0;animation:fi 1s ease .2s forwards}
+.hdr h1{font-family:'Playfair Display',serif;font-size:3.2rem;font-weight:400;letter-spacing:.02em;line-height:1.05;margin-bottom:6px}
+.hdr h1 em{color:var(--teal);font-style:italic}
+.hdr-meta{font-size:.55rem;letter-spacing:.22em;text-transform:uppercase;color:var(--text-dim);margin-bottom:16px}
+.hdr-desc{font-size:.72rem;color:var(--text-mid);line-height:1.8;max-width:800px}
+
+/* ── TWO-SYSTEM LAYOUT ── */
+.dual{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:48px;
+  margin-top:8px;
+}
+
+.system-card{
+  border:1px solid rgba(255,255,255,.04);
+  border-radius:10px;
+  padding:32px 28px;
+  background:var(--void-mid);
+  position:relative;
+  opacity:0;
+  animation:su .6s ease forwards;
+}
+
+.system-card:nth-child(1){animation-delay:.4s}
+.system-card:nth-child(2){animation-delay:.6s}
+
+.system-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:3px;
+  border-radius:10px 10px 0 0;
+}
+
+.card-personal::before{background:linear-gradient(90deg,var(--gold),var(--amber),var(--teal))}
+.card-alfred::before{background:linear-gradient(90deg,var(--nerve),var(--nerve-bright),var(--teal))}
+
+.card-title{
+  font-family:'Playfair Display',serif;
+  font-size:1.5rem;font-weight:400;
+  margin-bottom:4px;
+}
+
+.card-personal .card-title{color:var(--gold)}
+.card-alfred .card-title{color:var(--nerve)}
+
+.card-sub{
+  font-size:.55rem;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--text-dim);margin-bottom:20px;
+}
+
+.card-desc{
+  font-size:.65rem;color:var(--text-mid);line-height:1.7;margin-bottom:24px;
+}
+
+/* ── LAYER ROWS ── */
+.lr{
+  display:flex;align-items:flex-start;gap:12px;
+  padding:12px 0;
+  border-top:1px solid rgba(255,255,255,.03);
+}
+
+.lr:first-of-type{border-top:none}
+
+.lr-id{
+  font-size:.5rem;color:var(--text-faint);letter-spacing:.08em;
+  min-width:20px;padding-top:2px;
+}
+
+.lr-body{flex:1}
+
+.lr-name{
+  font-size:.78rem;font-weight:500;margin-bottom:2px;
+}
+
+.lr-desc{
+  font-size:.58rem;color:var(--text-dim);line-height:1.5;margin-bottom:8px;
+}
+
+.lr[data-p="permanent"] .lr-name{color:var(--gold)}
+.lr[data-p="durable"] .lr-name{color:var(--amber)}
+.lr[data-p="modular"] .lr-name{color:var(--teal)}
+
+/* ── PERMANENCE DOT ── */
+.lr-dot{
+  width:6px;height:6px;border-radius:50%;
+  margin-top:6px;flex-shrink:0;
+}
+
+.lr[data-p="permanent"] .lr-dot{background:var(--gold)}
+.lr[data-p="durable"] .lr-dot{background:var(--amber)}
+.lr[data-p="modular"] .lr-dot{background:var(--teal)}
+
+/* ── TAGS ── */
+.tags{display:flex;flex-wrap:wrap;gap:4px}
+.t{
+  padding:2px 7px;border-radius:2px;font-size:.52rem;letter-spacing:.02em;
+  border:1px solid rgba(255,255,255,.04);background:rgba(255,255,255,.015);
+  color:var(--text-mid);cursor:default;transition:all .15s ease;
+}
+.t:hover{border-color:var(--teal);color:var(--teal);background:var(--teal-glow)}
+.t-t{border-color:var(--teal-dim);color:var(--teal)}
+.t-g{border-color:var(--gold-dim);color:var(--gold)}
+.t-c{border-color:var(--crimson-dim);color:var(--crimson)}
+.t-a{border-color:var(--amber-dim);color:var(--amber)}
+.t-n{border-color:var(--nerve-dim);color:var(--nerve)}
+.t-m{border-color:var(--crimson-dim);color:var(--crimson);opacity:.5;font-style:italic}
+
+/* ── FUNNEL (compact) ── */
+.funnel{margin-top:8px}
+.f-row{
+  padding:10px 12px;border-radius:4px;
+  background:rgba(0,0,0,.2);border:1px solid rgba(255,255,255,.02);
+  margin-bottom:2px;
+}
+.f-row-title{font-size:.52rem;letter-spacing:.12em;text-transform:uppercase;font-weight:500;margin-bottom:2px}
+.f-row-sub{font-size:.45rem;color:var(--text-faint);font-style:italic;margin-bottom:6px}
+.f-arrow{
+  text-align:center;font-size:.42rem;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--text-faint);padding:3px 0;
+}
+.f-bypass{font-size:.42rem;color:var(--gold);opacity:.4;text-align:right;margin-top:4px}
+
+/* ── GATES (compact) ── */
+.gates-compact{display:flex;gap:8px;margin-top:8px}
+.gc{
+  flex:1;padding:10px 12px;border-left:2px solid;background:rgba(0,0,0,.15);
+}
+.gc:nth-child(1){border-color:var(--gold)}
+.gc:nth-child(2){border-color:var(--teal)}
+.gc:nth-child(3){border-color:var(--amber)}
+.gc-title{font-size:.48rem;letter-spacing:.08em;text-transform:uppercase;font-weight:500;margin-bottom:2px}
+.gc:nth-child(1) .gc-title{color:var(--gold)}
+.gc:nth-child(2) .gc-title{color:var(--teal)}
+.gc:nth-child(3) .gc-title{color:var(--amber)}
+.gc-desc{font-size:.48rem;color:var(--text-faint);line-height:1.4}
+
+/* ── ALFRED SUBSYSTEMS ── */
+.sub-item{
+  padding:14px 16px;border:1px solid var(--nerve-dim);border-radius:6px;
+  background:var(--nerve-glow);margin-bottom:10px;
+  transition:border-color .2s ease;
+}
+.sub-item:hover{border-color:var(--nerve-bright)}
+.sub-name{font-size:.72rem;font-weight:500;color:var(--nerve);margin-bottom:3px}
+.sub-role{font-size:.55rem;color:var(--text-dim);line-height:1.6}
+.sub-span{font-size:.45rem;color:var(--nerve);opacity:.5;margin-top:4px;letter-spacing:.06em}
+
+.sub-connector{width:1px;height:10px;background:var(--nerve-dim);margin:0 auto 4px}
+
+/* ── VOICE LENSES ── */
+.voices{
+  margin-top:16px;padding-top:14px;border-top:1px solid rgba(255,255,255,.03);
+}
+.voices-title{font-size:.45rem;letter-spacing:.14em;text-transform:uppercase;color:var(--text-faint);margin-bottom:8px}
+.voices-list{font-size:.52rem;color:var(--text-faint);line-height:1.8}
+.voices-list span{display:inline-block;margin-right:12px;transition:color .15s ease;cursor:default}
+.voices-list span:hover{color:var(--nerve)}
+
+/* ── FILE ARCHITECTURE ── */
+.files{
+  margin-top:12px;padding:12px 14px;border:1px solid rgba(255,255,255,.03);
+  border-radius:5px;background:rgba(0,0,0,.15);
+}
+.files-title{font-size:.45rem;letter-spacing:.12em;text-transform:uppercase;color:var(--text-faint);margin-bottom:8px}
+.file-row{
+  display:flex;align-items:baseline;gap:8px;
+  font-size:.52rem;line-height:1.7;
+}
+.file-name{color:var(--nerve);font-weight:500}
+.file-desc{color:var(--text-faint)}
+
+/* ── PIPELINE ── */
+.pipeline-row{
+  margin-top:12px;padding:10px 12px;border:1px solid rgba(255,255,255,.03);
+  border-radius:5px;background:rgba(0,0,0,.1);
+}
+.pl-label{font-size:.42rem;letter-spacing:.12em;text-transform:uppercase;color:var(--text-faint);margin-bottom:6px}
+.sf{display:flex;align-items:center;gap:0;flex-wrap:wrap}
+.sp{
+  padding:2px 7px;border-radius:2px;font-size:.46rem;letter-spacing:.03em;
+  border:1px solid rgba(255,255,255,.04);background:rgba(255,255,255,.015);color:var(--text-mid);
+}
+.sa{padding:0 4px;font-size:.4rem;color:var(--text-faint)}
+.sp.act{border-color:var(--teal-dim);color:var(--teal)}
+.sp.man{border-color:var(--amber-dim);color:var(--amber)}
+.sp.dn{border-color:rgba(34,197,94,.2);color:var(--green);opacity:.7}
+
+/* ── DYNAMICS BAR ── */
+.dynamics{
+  margin-top:48px;display:grid;grid-template-columns:1fr 1fr;gap:12px;
+  opacity:0;animation:fi .8s ease 1.2s forwards;
+}
+
+.dyn{
+  padding:16px 18px;border:1px solid;border-radius:6px;
+  display:flex;align-items:flex-start;gap:12px;
+}
+.dyn-icon{font-size:1rem;flex-shrink:0;margin-top:1px;opacity:.5}
+.dyn-text{font-size:.6rem;color:var(--text-mid);line-height:1.7}
+.dyn-text strong{font-weight:500}
+
+.d-nerve{border-color:var(--nerve-dim);background:var(--nerve-glow)}
+.d-nerve .dyn-icon{color:var(--nerve)}
+.d-nerve strong{color:var(--nerve)}
+
+.d-feedback{border-color:var(--crimson-dim);background:rgba(220,38,38,.02)}
+.d-feedback .dyn-icon{color:var(--crimson);animation:pulse 3s ease-in-out infinite}
+.d-feedback strong{color:var(--crimson)}
+
+.d-replace{border-color:var(--gold-dim);background:var(--gold-glow)}
+.d-replace .dyn-icon{color:var(--gold)}
+.d-replace strong{color:var(--gold)}
+
+.d-lanes{border-color:var(--teal-dim);background:var(--teal-glow)}
+.d-lanes .dyn-icon{color:var(--teal)}
+.d-lanes strong{color:var(--teal)}
+
+/* ── LEGEND ── */
+.legend{
+  margin-top:36px;padding:16px 20px;
+  border:1px solid rgba(255,255,255,.03);border-radius:6px;
+  background:var(--void-mid);
+  display:flex;gap:32px;flex-wrap:wrap;
+  opacity:0;animation:fi .8s ease 1.5s forwards;
+}
+.lg-group{min-width:140px}
+.lg-title{font-size:.42rem;letter-spacing:.15em;text-transform:uppercase;color:var(--text-faint);margin-bottom:6px}
+.lg-item{display:flex;align-items:center;gap:5px;margin-bottom:3px;font-size:.5rem;color:var(--text-dim)}
+.lg-sw{width:8px;height:3px;border-radius:1px;flex-shrink:0}
+
+/* ── RESPONSIVE ── */
+@media(max-width:900px){
+  .dual{grid-template-columns:1fr}
+  .dynamics{grid-template-columns:1fr}
+  .gates-compact{flex-direction:column}
+  .hdr h1{font-size:2rem}
+}
+
+@keyframes fi{to{opacity:1}}
+@keyframes su{to{opacity:1;transform:translateY(0)}}
+@keyframes pulse{0%,100%{opacity:.3}50%{opacity:.7}}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="hdr">
+    <h1>Marty <em>OS</em></h1>
+    <div class="hdr-meta">Complete System Overview &mdash; Final Architecture &mdash; March 31, 2026</div>
+    <div class="hdr-desc">
+      Two systems in relationship. The Personal Operating System is the stack: seven layers mapping how reality enters, gets filtered through consciousness and infrastructure, and exits as output. Alfred OS is the nervous system that sits on top of it: the connective tissue, the intelligence, the orchestration layer that makes the stack move. One is anatomy. The other is neurology.
+    </div>
+  </div>
+
+  <!-- TWO SYSTEM CARDS -->
+  <div class="dual">
+
+    <!-- LEFT: PERSONAL OS -->
+    <div class="system-card card-personal">
+      <div class="card-title">Personal Operating System</div>
+      <div class="card-sub">The Stack &mdash; Anatomy</div>
+      <div class="card-desc">Seven layers from raw input to commercial output. The permanent structure of how you process reality and create value. Alfred OS sits on top of this, but this stack exists with or without it.</div>
+
+      <!-- L7 -->
+      <div class="lr" data-p="modular">
+        <div class="lr-dot"></div>
+        <span class="lr-id">L7</span>
+        <div class="lr-body">
+          <div class="lr-name">Output</div>
+          <div class="lr-desc">Y-shape funnel. Two social modes, one media engine, one commercial terminus.</div>
+          <div class="funnel">
+            <div class="f-row" style="display:grid;grid-template-columns:1fr 1fr;gap:6px;">
+              <div>
+                <div class="f-row-title" style="color:var(--teal)">Broadcast Social</div>
+                <div class="f-row-sub">Marty / @MassaMarty / @MartyDelGhetto</div>
+                <div class="tags">
+                  <span class="t t-t">Instagram</span><span class="t t-t">TikTok</span><span class="t t-t">Threads</span><span class="t t-t">X</span><span class="t t-t">Reddit</span><span class="t t-t">Snap</span><span class="t t-m">Twitch</span><span class="t t-m">Tumblr</span><span class="t t-m">PSN/Steam</span><span class="t t-m">OnlyFans</span>
+                </div>
+              </div>
+              <div>
+                <div class="f-row-title" style="color:var(--gold)">Professional Social</div>
+                <div class="f-row-sub">Martavious Spicer</div>
+                <div class="tags"><span class="t t-g">LinkedIn</span><span class="t t-g">Facebook</span></div>
+                <div class="f-bypass">Bypasses media. Direct to ventures.</div>
+              </div>
+            </div>
+            <div class="f-arrow">&darr; feeds</div>
+            <div class="f-row">
+              <div class="f-row-title" style="color:var(--teal)">Media / Marty Gras</div>
+              <div class="f-row-sub">IP engine. Cultural gravity &rarr; narrative &rarr; audience &rarr; intellectual property.</div>
+              <div class="tags"><span class="t t-t">Apple Podcasts</span><span class="t t-t">YouTube</span><span class="t t-t">Substack (Epiphany)</span><span class="t">Content trailers</span></div>
+            </div>
+            <div class="f-arrow">&darr; converts to</div>
+            <div class="f-row">
+              <div class="f-row-title" style="color:var(--gold)">Ventures</div>
+              <div class="f-row-sub">Commercial terminus. Revenue from media IP and professional social.</div>
+              <div class="tags"><span class="t t-g">Five Points Digital Studio</span><span class="t t-g">LAL</span><span class="t">Products</span><span class="t">Future entities</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- L6 -->
+      <div class="lr" data-p="modular">
+        <div class="lr-dot"></div>
+        <span class="lr-id">L6</span>
+        <div class="lr-body">
+          <div class="lr-name">Projects</div>
+          <div class="lr-desc">Bounded initiatives with defined scope and completion criteria.</div>
+          <div class="tags"><span class="t t-g">Client engagements</span><span class="t t-t">Marty Gras content</span><span class="t t-c">Product builds</span><span class="t">Creative IP</span><span class="t t-a">Cyberdeck</span><span class="t">Fragrance</span><span class="t">Silk line</span></div>
+        </div>
+      </div>
+
+      <!-- L5 -->
+      <div class="lr" data-p="modular">
+        <div class="lr-dot"></div>
+        <span class="lr-id">L5</span>
+        <div class="lr-body">
+          <div class="lr-name">Workflows</div>
+          <div class="lr-desc">E-Myth systematized processes. Recurring machines that convert tool output into project progress.</div>
+          <div class="tags"><span class="t t-t">Daily debrief</span><span class="t t-n">Watchtower / ATC</span><span class="t t-a">GTD capture/process/review</span><span class="t">Content pipeline</span><span class="t">Client lifecycle</span><span class="t">Outreach cadence</span><span class="t">Fitness programming</span></div>
+        </div>
+      </div>
+
+      <!-- L4 -->
+      <div class="lr" data-p="modular">
+        <div class="lr-dot"></div>
+        <span class="lr-id">L4</span>
+        <div class="lr-body">
+          <div class="lr-name">Tools</div>
+          <div class="lr-desc">Instruments that execute work. Replaceable without breaking workflows.</div>
+          <div class="tags"><span class="t t-t">Claude / Claude Code</span><span class="t t-t">Notion</span><span class="t t-n">Pennyone (Outstand + Zernio)</span><span class="t">Stripe</span><span class="t">Figma</span><span class="t">Logic Pro</span><span class="t">Final Cut</span><span class="t">Ableton</span><span class="t">GitHub</span><span class="t">Vercel</span><span class="t">Supabase</span><span class="t t-a">Pinterest</span></div>
+        </div>
+      </div>
+
+      <!-- L3 -->
+      <div class="lr" data-p="durable">
+        <div class="lr-dot"></div>
+        <span class="lr-id">L3</span>
+        <div class="lr-body">
+          <div class="lr-name">Digital Infrastructure</div>
+          <div class="lr-desc">Apple ecosystem end to end. Durable but swappable.</div>
+          <div class="tags"><span class="t t-g">iPhone</span><span class="t t-g">iPad</span><span class="t t-g">MacBook</span><span class="t">Watch</span><span class="t">AirPods</span><span class="t">iCloud</span><span class="t">iOS/macOS</span><span class="t t-a">XREAL One Pro</span><span class="t t-a">Cyberdeck</span></div>
+        </div>
+      </div>
+
+      <!-- L2 -->
+      <div class="lr" data-p="permanent">
+        <div class="lr-dot"></div>
+        <span class="lr-id">L2</span>
+        <div class="lr-body">
+          <div class="lr-name">The Filter</div>
+          <div class="lr-desc">Consciousness. Three sequential gates. The Michael Singer layer.</div>
+          <div class="gates-compact">
+            <div class="gc"><div class="gc-title">Values + Identity</div><div class="gc-desc">Who you are determines what enters.</div></div>
+            <div class="gc"><div class="gc-title">Taste + Curation</div><div class="gc-desc">The aesthetic filter. The artist layer.</div></div>
+            <div class="gc"><div class="gc-title">Goals + Intent</div><div class="gc-desc">Filtered signal directed toward action.</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- L1 -->
+      <div class="lr" data-p="permanent">
+        <div class="lr-dot"></div>
+        <span class="lr-id">L1</span>
+        <div class="lr-body">
+          <div class="lr-name">Raw Input</div>
+          <div class="lr-desc">The ground. Everything. Enters through the feet like electricity.</div>
+          <div class="tags"><span class="t">Music</span><span class="t">Movies</span><span class="t">Ideas</span><span class="t">Theater</span><span class="t">Architecture</span><span class="t">Philosophy</span><span class="t">History</span><span class="t">Art</span><span class="t">Experience</span><span class="t">Tech</span><span class="t">Stories</span><span class="t">Icons</span><span class="t">Friends</span><span class="t">Money</span><span class="t">Social</span><span class="t">Fun</span><span class="t">Family</span><span class="t">Heritage</span></div>
+        </div>
+      </div>
+
+    </div><!-- /card-personal -->
+
+    <!-- RIGHT: ALFRED OS -->
+    <div class="system-card card-alfred">
+      <div class="card-title">Alfred OS</div>
+      <div class="card-sub">The Nervous System &mdash; Neurology</div>
+      <div class="card-desc">Not a layer in the stack. The connective tissue that carries signal between all seven layers. When you consciously direct Alfred, that is tool-like behavior through the nervous system. When Alfred surfaces a connection you had not seen, that is the system operating below conscious direction. Both modes are Alfred.</div>
+
+      <!-- Identity -->
+      <div style="padding:14px 16px;border:1px solid var(--nerve-dim);border-radius:6px;background:var(--nerve-glow);margin-bottom:16px;">
+        <div style="font-size:.55rem;letter-spacing:.12em;text-transform:uppercase;color:var(--nerve);margin-bottom:6px;font-weight:500;">Identity</div>
+        <div style="font-size:.62rem;color:var(--text-mid);line-height:1.7;">
+          Defined by <span style="color:var(--nerve);font-weight:500;">alfred.md</span> (the canonical behavioral spec, formerly maestro.md). Character voice and conduct defined separately in <span style="color:var(--nerve);font-weight:500;">alfred-pennyworth.md</span>. Operational boot file for Claude Code: <span style="color:var(--nerve);font-weight:500;">CLAUDE.md</span>.
+        </div>
+      </div>
+
+      <!-- Subsystems -->
+      <div style="font-size:.48rem;letter-spacing:.15em;text-transform:uppercase;color:var(--text-faint);margin-bottom:10px;">Named Subsystems</div>
+
+      <div class="sub-item">
+        <div class="sub-name">Watchtower</div>
+        <div class="sub-role">Content coordination. Reads Notion calendar, resolves timing conflicts, assigns routing (API-ready vs. draft-to-native), issues dispatch orders to Pennyone.</div>
+        <div class="sub-span">Operates at L5 (Workflows)</div>
+      </div>
+
+      <div class="sub-connector"></div>
+
+      <div class="sub-item">
+        <div class="sub-name">Pennyone</div>
+        <div class="sub-role">Social distribution relay. MCP server routing posts to Outstand (Instagram, TikTok, Threads, X) and Zernio (Reddit, Snapchat). Executes dispatch orders. No editorial judgment.</div>
+        <div class="sub-span">Operates at L4 (Tools) &mdash; Python/FastMCP &mdash; Phased Build</div>
+      </div>
+
+      <div class="sub-connector"></div>
+
+      <div class="sub-item" style="border-color:rgba(255,255,255,.04);background:rgba(255,255,255,.01);">
+        <div class="sub-name" style="color:var(--text-dim);font-size:.65rem">Future Subsystems</div>
+        <div class="sub-role" style="font-size:.5rem">Analytics normalization, Notion pipeline automation, Five Points client distribution (productized Pennyone).</div>
+      </div>
+
+      <!-- Content Pipeline -->
+      <div class="pipeline-row" style="margin-top:20px;">
+        <div class="pl-label">Content Pipeline (Watchtower &rarr; Pennyone)</div>
+        <div class="sf">
+          <span class="sp">Idea</span><span class="sa">&rarr;</span>
+          <span class="sp">Drafting</span><span class="sa">&rarr;</span>
+          <span class="sp act">Ready</span><span class="sa">&rarr;</span>
+          <span class="sp act">Scheduled</span><span class="sa">&rarr;</span>
+          <span class="sp dn">Published</span>
+        </div>
+        <div class="sf" style="margin-top:4px">
+          <span class="sp" style="opacity:0">Idea</span><span class="sa" style="opacity:0">&rarr;</span>
+          <span class="sp" style="opacity:0">Drafting</span><span class="sa">&rarr;</span>
+          <span class="sp man">Draft to Native</span><span class="sa">&rarr;</span>
+          <span class="sp dn">Published</span>
+        </div>
+      </div>
+
+      <!-- Voice Lenses -->
+      <div class="voices">
+        <div class="voices-title">Voice Lenses (callable from any layer)</div>
+        <div class="voices-list">
+          <span>Carrie Bradshaw</span><span>Rick Rubin</span><span>Eiichiro Oda</span><span>bell hooks</span><span>Kierkegaard</span><span>Peter Parker</span><span>Norrin Radd</span>
+        </div>
+      </div>
+
+      <!-- File Architecture -->
+      <div class="files" style="margin-top:16px;">
+        <div class="files-title">File Architecture</div>
+        <div class="file-row"><span class="file-name">~/.claude/CLAUDE.md</span><span class="file-desc">&mdash; Boot file (Claude Code reads this)</span></div>
+        <div class="file-row"><span class="file-name">~/alfred-os/context/alfred.md</span><span class="file-desc">&mdash; Canonical behavioral spec</span></div>
+        <div class="file-row"><span class="file-name">~/alfred-os/context/alfred-pennyworth.md</span><span class="file-desc">&mdash; Character voice + conduct</span></div>
+        <div class="file-row"><span class="file-name">~/alfred-os/context/personal/</span><span class="file-desc">&mdash; Domain context files</span></div>
+        <div class="file-row"><span class="file-name">~/alfred-os/context/business/</span><span class="file-desc">&mdash; Five Points + ventures</span></div>
+      </div>
+
+    </div><!-- /card-alfred -->
+
+  </div><!-- /dual -->
+
+  <!-- DYNAMICS -->
+  <div class="dynamics">
+    <div class="dyn d-nerve">
+      <div class="dyn-icon">&#x26A1;</div>
+      <div class="dyn-text"><strong>Nervous system, not a layer.</strong> Alfred runs alongside the stack carrying signal between all seven layers. Watchtower and Pennyone are specialized subsystems within it. alfred.md is its DNA.</div>
+    </div>
+    <div class="dyn d-feedback">
+      <div class="dyn-icon">&#x21bb;</div>
+      <div class="dyn-text"><strong>Feedback loop.</strong> Output reshapes input. What you publish, ship, and sell changes what the world sends back. L7 feeds to L1. The stack is a cycle.</div>
+    </div>
+    <div class="dyn d-replace">
+      <div class="dyn-icon">&#x2693;</div>
+      <div class="dyn-text"><strong>Replaceability.</strong> L1-L2 permanent (you, reality). L3 durable (hardware). L4-L7 modular. The dot color on each layer indicates its permanence class.</div>
+    </div>
+    <div class="dyn d-lanes">
+      <div class="dyn-icon">&#x2261;</div>
+      <div class="dyn-text"><strong>Two content lanes.</strong> API-ready posts flow Watchtower &rarr; Pennyone automatically. Posts needing native finishing are flagged "Draft to Native" for manual completion.</div>
+    </div>
+  </div>
+
+  <!-- LEGEND -->
+  <div class="legend">
+    <div class="lg-group">
+      <div class="lg-title">Permanence</div>
+      <div class="lg-item"><div class="lg-sw" style="background:var(--gold)"></div>Permanent</div>
+      <div class="lg-item"><div class="lg-sw" style="background:var(--amber)"></div>Durable</div>
+      <div class="lg-item"><div class="lg-sw" style="background:var(--teal)"></div>Modular</div>
+    </div>
+    <div class="lg-group">
+      <div class="lg-title">Tags</div>
+      <div class="lg-item"><div class="lg-sw" style="background:var(--teal)"></div>Core / Marty Gras</div>
+      <div class="lg-item"><div class="lg-sw" style="background:var(--gold)"></div>Ventures</div>
+      <div class="lg-item"><div class="lg-sw" style="background:var(--crimson)"></div>Products</div>
+      <div class="lg-item"><div class="lg-sw" style="background:var(--amber)"></div>Peripheral</div>
+    </div>
+    <div class="lg-group">
+      <div class="lg-title">Alfred</div>
+      <div class="lg-item"><div class="lg-sw" style="background:var(--nerve)"></div>Nervous system</div>
+      <div class="lg-item"><span style="color:var(--crimson);font-style:italic;font-size:.48rem">italic red</span>&ensp;Manual only</div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

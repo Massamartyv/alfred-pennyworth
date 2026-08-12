@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Cormorant_Garamond } from "next/font/google";
+import { Inter, Marcellus, Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
 import Navigation from "@/components/Navigation/Navigation";
 import Footer from "@/components/Footer/Footer";
@@ -13,9 +13,17 @@ const inter = Inter({
   weight: ["300", "400", "500", "600"],
 });
 
-const cormorant = Cormorant_Garamond({
+const marcellus = Marcellus({
   subsets: ["latin"],
   variable: "--font-heading",
+  display: "swap",
+  weight: "400",
+});
+
+/* Accent voice — the wordmark, scripture and italic script moments */
+const cormorant = Cormorant_Garamond({
+  subsets: ["latin"],
+  variable: "--font-accent",
   display: "swap",
   weight: ["400", "500", "600", "700"],
   style: ["normal", "italic"],
@@ -51,7 +59,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${cormorant.variable}`}>
+    <html
+      lang="en"
+      className={`${inter.variable} ${marcellus.variable} ${cormorant.variable}`}
+    >
+      <head>
+        {/* The scroll reveal holds sections at opacity 0 until the observer
+            fires. Without JavaScript that observer never runs, so the content
+            is restored here rather than left invisible. */}
+        <noscript>
+          <style>{`.reveal{opacity:1 !important;transform:none !important}`}</style>
+        </noscript>
+      </head>
       <body>
         <a href="#main-content" className="skip-link">
           Skip to content

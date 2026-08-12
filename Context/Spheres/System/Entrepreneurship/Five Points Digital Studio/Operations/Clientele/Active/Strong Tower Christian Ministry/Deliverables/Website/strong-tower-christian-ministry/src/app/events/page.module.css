@@ -6,7 +6,7 @@
 
 .sectionTitle {
   font-size: var(--text-h2);
-  font-weight: 600;
+  font-weight: 400;
   margin-top: 0.5rem;
 }
 
@@ -63,7 +63,7 @@
   gap: 0.5rem;
   font-family: var(--font-heading), serif;
   font-size: 1.5rem;
-  color: var(--accent-gold-deep);
+  color: var(--accent-gold-text);
   margin-bottom: 0.5rem;
 }
 
@@ -81,13 +81,17 @@
   background: var(--bg-accent);
 }
 
+/* A finished panel, not a dashed placeholder — the calendar being empty is
+   a season, not an unbuilt page. Gold top edge matches the gathering cards. */
 .emptyState {
   max-width: 640px;
   margin: 0 auto;
   text-align: center;
   background: var(--bg-field);
-  border: 1px dashed var(--border-medium);
+  border: 1px solid var(--border-subtle);
+  border-top: 3px solid var(--accent-gold);
   border-radius: var(--radius-card);
+  box-shadow: 0 12px 30px rgba(28, 42, 63, 0.06);
   padding: 4rem 2.5rem;
 }
 
@@ -203,4 +207,9 @@
   .emptyState {
     padding: 3rem 1.5rem;
   }
+}
+
+/* Fortress band — the label takes the light gold, not the pale-ground value. */
+.notifyBand :global(.eyebrow) {
+  color: var(--accent-gold-light);
 }

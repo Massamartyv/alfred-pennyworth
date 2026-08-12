@@ -28,7 +28,7 @@
 
 .sectionTitle {
   font-size: var(--text-h2);
-  font-weight: 600;
+  font-weight: 400;
   margin-top: 0.5rem;
 }
 
@@ -84,7 +84,7 @@
   padding: 0.35rem 0.85rem;
   border-radius: var(--radius-chip);
   background: var(--gold-glow-soft);
-  color: var(--accent-gold-deep);
+  color: var(--accent-gold-text);
   font-family: var(--font-body), sans-serif;
   font-size: 0.7rem;
   font-weight: 600;

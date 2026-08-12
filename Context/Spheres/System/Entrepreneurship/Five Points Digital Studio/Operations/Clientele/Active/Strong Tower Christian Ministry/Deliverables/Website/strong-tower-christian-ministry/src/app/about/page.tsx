@@ -12,12 +12,12 @@ export const metadata = {
 const values = [
   {
     icon: BookOpen,
-    title: "Word-centered",
+    title: "Word-Centered",
     body: "We are a church body dependent on the Word of God — preaching it, teaching it and living it in all we do.",
   },
   {
     icon: Flame,
-    title: "Spirit-led",
+    title: "Spirit-Led",
     body: "We make room for the presence of God, expecting Him to move, heal and speak in the life of every believer.",
   },
   {
@@ -80,7 +80,7 @@ export default function AboutPage() {
       <section className={`section ${styles.vision}`}>
         <div className={`container ${styles.statementInner} reveal`}>
           <p className="eyebrow">Our vision</p>
-          <h2 className={styles.statementTitle}>Growing in His love</h2>
+          <h2 className={styles.statementTitle}>Growing in His Love</h2>
           <p className={styles.statementBody}>
             To provide an environment for each person to grow in the knowledge
             of Jesus Christ and demonstrate that same love He has shown to all
@@ -94,7 +94,7 @@ export default function AboutPage() {
         <div className={`container ${styles.storyInner}`}>
           <div className={`${styles.storyText} reveal`}>
             <p className="eyebrow">Who we are</p>
-            <h2 className={styles.sectionTitle}>A place to run to</h2>
+            <h2 className={styles.sectionTitle}>A Place to Run To</h2>
             <p className={styles.bodyLg}>
               Strong Tower Christian Ministry is a Spirit-filled, prophetic
               church family in {site.contact.address.city}, South Carolina. We
@@ -115,7 +115,7 @@ export default function AboutPage() {
               </Link>
             </div>
           </div>
-          <aside className={`${styles.tagCard} reveal`}>
+          <aside className={`${styles.tagCard} motion-float reveal`}>
             <p className={styles.tagPrimary}>
               &ldquo;{site.taglines.primary}.&rdquo;
             </p>
@@ -129,7 +129,7 @@ export default function AboutPage() {
         <div className="container">
           <div className={`${styles.sectionHead} reveal`}>
             <p className="eyebrow">What we hold to</p>
-            <h2 className={styles.sectionTitle}>The heart of the Tower</h2>
+            <h2 className={styles.sectionTitle}>The Heart of the Tower</h2>
           </div>
           <div className={styles.valueGrid}>
             {values.map((v) => {
@@ -151,7 +151,7 @@ export default function AboutPage() {
       {/* Closing CTA */}
       <section className={styles.ctaBand}>
         <div className={`container ${styles.ctaInner} reveal`}>
-          <h2 className={styles.ctaTitle}>Come and see for yourself</h2>
+          <h2 className={styles.ctaTitle}>Come and See for Yourself</h2>
           <p className={styles.ctaBody}>
             Read the faith we stand on, or plan a visit and meet the family in
             person.

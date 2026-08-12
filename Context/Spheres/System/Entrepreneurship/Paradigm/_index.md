@@ -4,12 +4,12 @@ venture: Paradigm
 venture_stage: Validation
 status: active
 methodology: The Manor Protocol
-last_updated: 2026-07-12
+last_updated: 2026-07-26
 ---
 
 # Paradigm – Venture Index
 
-Health and wellness brand. Reimagining how people relate to their bodies, minds and daily rituals. Stage: Ideation.
+Health and wellness brand. Reimagining how people relate to their bodies, minds and daily rituals.
 
 ## Trajectory
 
@@ -42,6 +42,12 @@ All work follows The Manor Protocol – five phases, two hard gates, creative ex
 | Knowledge Base/ | Ingredient science, case studies, industry research, methodologies | Knowledge Base/_index.md |
 | Foundation/ | Brand fingerprint (source of truth); community wellness initiatives, philanthropy, education | Foundation/_index.md |
 
+### Sub-Brands
+
+| Sub-Brand | Purpose | Start Here |
+|---|---|---|
+| Paradigm Farms/ | Nutrition pillar – AR plant management and horticultural education; first product is the iOS app | Paradigm Farms/_index.md |
+
 ### Shared Governance
 
 | File | Purpose |
@@ -49,12 +55,17 @@ All work follows The Manor Protocol – five phases, two hard gates, creative ex
 | Agents/_index.md | The Manor Protocol definition |
 | Agents/agent-guidelines.md | Execution tiers, red lines, approval gates |
 | Agents/department-heads.md | Role definitions and specialist seats |
+| Agents/integrations.md | Plugin and tool connections; the provisioning checklist |
 
-Plugin scope is still to be determined. No `Agents/integrations.md` exists yet.
+Plugin scope is recorded in `Agents/integrations.md`, created 2026-08-08. Nothing is connected yet: no Notion workspace, no Pennyone key, no payment rail. Paradigm Farms inherits all three rather than provisioning its own – sub-brands inherit, only ventures provision.
+
+## Paradigm Farms
+
+Nutrition pillar of Paradigm, structured as a sub-brand on the Studio-under-Lululemon model – its own visual identity and voice register under the Paradigm marque. First product: a native iOS application for AR plant management and horticultural education (ARKit, RealityKit, Core ML, Vision framework), with visionOS as the premium tier from the same codebase and Meta Ray-Ban Display as the aspirational north star. Home gardener leads v1 messaging; young farmer follows once the AI layer proves itself. Food-as-medicine positioning carried through credible-not-fringe framing – pro-real-food language over anti-big-pharma language. Full build plan: `Paradigm Farms/Production/build-plan-v1.md`.
 
 ## Active State
 
-Live state: Notion Projects and Tasks, personal workspace (Paradigm – Venture Operations).
+Live state: Notion Projects and Tasks, personal workspace (Paradigm – Venture Operations; Paradigm Farms v1 under The Orangery mission record).
 
 ## Key Registries
 

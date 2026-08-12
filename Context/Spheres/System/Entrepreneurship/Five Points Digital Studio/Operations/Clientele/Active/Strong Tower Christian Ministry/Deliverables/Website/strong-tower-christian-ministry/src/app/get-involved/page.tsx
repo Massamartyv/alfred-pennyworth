@@ -59,17 +59,17 @@ const ministries = [
 const steps = [
   {
     num: "01",
-    title: "Come and gather",
+    title: "Come and Gather",
     desc: "Join us for a service and simply be present. The best first step is showing up and worshipping with us.",
   },
   {
     num: "02",
-    title: "Say hello",
+    title: "Say Hello",
     desc: "Let us know you would like to get involved. Reach out and tell us a little about where you feel led to serve.",
   },
   {
     num: "03",
-    title: "Find your team",
+    title: "Find Your Team",
     desc: "We will help you take the next step toward a ministry where your gifts and your heart fit best.",
   },
 ];
@@ -99,7 +99,7 @@ export default function GetInvolvedPage() {
         <div className="container">
           <div className={`${styles.sectionHead} reveal`}>
             <p className="eyebrow">Ways to serve</p>
-            <h2 className={styles.sectionTitle}>Where will you serve?</h2>
+            <h2 className={styles.sectionTitle}>Where Will You Serve?</h2>
             <p className={styles.sectionLede}>
               Every gift matters and every hand is needed. Explore a few of the
               ways you can give your time and talent to the body of Christ.
@@ -149,7 +149,7 @@ export default function GetInvolvedPage() {
         <div className="container">
           <div className={`${styles.sectionHead} reveal`}>
             <p className="eyebrow">Next steps</p>
-            <h2 className={styles.sectionTitle}>How to get connected</h2>
+            <h2 className={styles.sectionTitle}>How to Get Connected</h2>
             <p className={styles.sectionLede}>
               Getting plugged in is simpler than you might think. Here is how it
               works.
@@ -171,7 +171,7 @@ export default function GetInvolvedPage() {
       {/* Closing CTA */}
       <section className={styles.ctaBand}>
         <div className={`container ${styles.ctaInner} reveal`}>
-          <h2 className={styles.ctaTitle}>Let&apos;s get you connected</h2>
+          <h2 className={styles.ctaTitle}>Let&apos;s Get You Connected</h2>
           <p className={styles.ctaCopy}>
             Tell us you are interested and we will walk with you from here. Your
             place at the Tower is waiting.

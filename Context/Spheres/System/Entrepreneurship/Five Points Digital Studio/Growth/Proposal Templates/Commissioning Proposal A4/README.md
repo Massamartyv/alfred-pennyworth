@@ -1,30 +1,171 @@
-# Commissioning Proposal - A4 Template
+# Commissioning Proposal - A4
 
-Version 1 reference implementation, seeded from the McCauley Electrical
-commission of July 2026. Six-page A4 commissioning document on the brand
-fingerprint: Parchment flood, Fraunces display with Space Grotesk body via the
-local woff2 files, Burnt Orange eyebrows, Emerald rules, ghost folio numerals,
-corner-anchored contact clusters and the marque eyebrow.
+Template v2. Six-page A4 commissioning document on the Quintessence
+ratification of 24 July 2026: bone paper against one ink, the mismatched serif
+pair, IBM Plex Mono for indices and metadata, and colour supplied by a single
+voice through the `data-voice` contract.
+
+Built from the design system at `~/.claude/skills/five-points-design/`, which
+is the imported mirror of the Claude Design project
+`de001169-e481-46a4-be13-6eb348868e6f`. Read that system first; this document
+only records what is specific to the proposal.
+
+## What changed from v1
+
+v1 was a McCauley Electrical instance wearing the word "template". Its copy,
+its electrical one-line plates and its $1,000 / $2,000 / $3,000 doors were all
+that one engagement, and its palette and faces belong to a direction that has
+since been retired. It is preserved in `Archive/` and should not be reopened
+for a new client.
+
+| | v1 | v2 |
+|---|---|---|
+| Display face | Fraunces 300 | PP Editorial New 400, interim Sentient |
+| Body face | Space Grotesk | PP Neue Montreal, interim General Sans |
+| Datum face | none | IBM Plex Mono |
+| Accent | Burnt Orange eyebrows, Emerald rules | one voice, coral by default, via `data-voice` |
+| Page index | 58pt ghosted display numeral | mono index numeral in the margin |
+| Cover masthead | the numeral 5 | the Quintessence at 19mm |
+| Cover spine | six-stripe pride flag | neutral five-tone ramp |
+| Doors | three ad-hoc prices | the Survey, the Commission, the Evolution |
+| Two prices | yes first | no first, so the ledger anchors the fee |
+| Overflow | eyeballed | gated in the build, page by page |
 
 ## Files
 
-- `proposal.html` - the document. Duplicate per client and replace the copy;
-  the page grammar (cover, conversation, evidence, commission, two prices,
-  next) generalizes across offers.
-- `build.py` - Playwright + system Chrome render to A4 PDF. Update the RENDER
-  path per engagement.
-- `fonts.css` + `fonts/` - local font subsets with unicode ranges.
+- `proposal.html` - the document. Duplicate per client and replace the slots.
+- `build.py` - render to A4 PDF, with the overflow gate. `--proof` also writes
+  per-page PNGs to `proof/`.
+- `localize_fonts.py` - pull the three faces into `fonts/` and write
+  `fonts.css`. Run once per checkout.
+- `fonts.css` + `fonts/` - local woff2. Generated; do not hand-edit.
+- `Archive/` - v1, retired.
 
-## Per-client personalization
+## Rendering
 
-The `.spine` block on the cover (six-stripe pride flag, full-height left edge)
-is a McCauley-specific personalization honoring the client's own brand
-identity. Remove the block, or replace it with a client-specific detail, for
-other commissions. The rest of the palette is fingerprint-locked.
+Playwright is not installed system-wide and a venv inside a template would be
+copied into every client folder, so the build runs through an ephemeral
+environment:
 
-## Page discipline
+```bash
+uv run --with playwright python build.py --proof
+```
 
-Every page is a fixed 297mm sheet with `overflow: hidden` - content that grows
-must be trimmed or re-spaced, and every render gets a visual page-by-page pass
-before it ships. Copy conventions per the fingerprint: no contractions, en
-dashes only, British spelling, numerals for 10 and above.
+System Chrome does the rendering, and every font is local, so the render needs
+no network and reproduces years from now.
+
+**The overflow gate.** Each page is a fixed 297mm sheet with `overflow:
+hidden`, which means copy that grows past the sheet is silently guillotined
+rather than reported. `build.py` measures every sheet and refuses to write a
+PDF that has lost content. When it refuses, trim the copy or re-space the page.
+Do not raise the tolerance. Page 5 in particular sits closest to its ceiling.
+
+## Per-client personalisation
+
+Every client-specific field is a `«GUILLEMET SLOT»`, set in mono on a coral
+tint so that anything unfilled is impossible to miss in the proof. The register:
+
+| Slot | Where |
+|---|---|
+| `«DD MONTH YYYY»` | cover date line |
+| `«PRINCIPAL»` | cover, page 2 |
+| `«PRACTICE»` | cover, page 2, footers on pages 2 to 5 |
+| `«CITY»` | cover |
+| `«THE FOUNDING PROPOSITION»` | page 2 |
+| `«THE EVIDENCE OF DEMAND»` | page 2 |
+| `«FINDING ONE»`, `«FINDING TWO»` | page 3 headings |
+| `«WHAT WAS FOUND, WHAT IT COSTS, IN TWO SENTENCES»` | page 3, twice |
+| `«THE SMALL THINGS FOUND WRONG»` | page 3, finding 03 |
+| `«THE INACTION LEDGER, IN FIGURES»` | page 5 |
+| `«$197 – $19,700»` | page 5 price line |
+| `«BOOKING LINK»`, `«N»` | page 6 |
+
+The cover title reads "Excellence at volume." by default. It is a working
+default, not a fixture, and it is the first thing to replace.
+
+Everything else is studio-side canon and changes rarely: the wall, the three
+doors, the guarantee, the two-prices logic and the three next steps. That is
+deliberate. The argument of the studio is the same for every premium operator
+near one million in revenue, and a proposal that re-argues it from scratch each
+time is a proposal that does not believe it.
+
+**Search for `«` before sending.** A live slot in a client document is the one
+failure this template can still produce.
+
+## Design decisions worth knowing
+
+**One voice, one attribute.** `<body data-voice="coral">` sets the whole
+document. Swap in `cornflower`, `sun`, `lavender` or `sage` and every rule,
+numeral, bullet, facet and well follows, because no rule in the document names
+a hue. Coral is the lead voice and holds the accent role by default. One voice
+per surface is absolute, and the document is one surface, so never mix two.
+
+**The neutral spine.** The five voices meet in exactly one place, the mark, so
+the default cover spine is five tones of the neutral ramp rather than five
+voices. An identity spine - pride, pan-African or similar - is a themed
+substitution, wider than the default, and reserved for identity-owned clients
+per the standing ruling. It is not the house default.
+
+**The mark at 19mm.** The cover carries the Quintessence in place of the text
+wordmark, per the fingerprint amendment of 2026-07-21, with the studio name
+held in the cover footer line so the mark never carries identification alone.
+19mm resolves to roughly 72 CSS px, which sits between the UI grade at 48 and
+the sign grade at 96 on the mark size ladder, so it takes the full crystal at
+stroke-width 2.5 verbatim. Do not thicken the stroke to make the seams close:
+they are meant to stay open at this grade and they resolve at print resolution
+even though they turn to noise in a screen-scale raster. Only below 26px does
+the mark change form, and there it becomes the reduction in `favicon.svg`.
+
+**One ink field.** Page 4 is the document's only inversion, declared with
+`data-register="ink"`. The pull quote on page 3 therefore takes the quieter
+device, a voice-tint well with an ink rule, rather than a second flood.
+
+**Two figures step outside the reading measure.** The price line and the
+schedule table are set to 152mm rather than the 122mm measure. A price that
+wraps stops reading as a figure, and a three-column schedule held to 122mm
+falls to 46mm in its last column and wraps four deep.
+
+**Deliberate deviation, one.** On the ink register the ratified `--border` is
+`rgba(bone, 0.14)`, which is tuned for a backlit display and disappears when
+printed on obsidian, taking the door edges with it. `--rule-on-ink` raises it
+to `0.30`. Nothing else departs from the token sheet.
+
+**Headroom.** Pages 3, 5 and 6 render with space at the foot. That is
+deliberate: the slots on those pages are the ones that grow most when real
+client copy replaces them. Do not fill the space with new material, and let the
+gate tell you when the copy has grown too far.
+
+## Copy conventions
+
+Per the brand fingerprint, quality gate V6, and enforced against the rendered
+text rather than the source: no em dashes, en dashes only. No contractions. No
+parentheses. No Oxford comma. No exclamation marks. Romance possessives, "the
+live conditions of the practice" and not the other way round. British spelling.
+Numerals for 10 and above. The middle dot separates metadata.
+
+Note that the design system README permits the em dash for a considered aside.
+The fingerprint bans it. The fingerprint governs.
+
+`gate.py` enforces all of it, plus one more thing: it fails on any unfilled
+`«SLOT»`, which makes it the last check before a send.
+
+```bash
+uv run --with playwright python gate.py
+```
+
+It grades the rendered text rather than the source, and it exits non-zero when
+anything is found. Note that the template itself fails the slot check by
+design; a client instance must pass clean.
+
+## Open
+
+- The fingerprint amendment of 2026-07-21 describes the cover glyph as "the
+  founder-approved nav adaptation, flat single colour with the seam-rounding
+  paired stroke". That adaptation is not in the design system, so the cover here
+  renders the standard `mark.svg` at the sign-grade stroke. Reconcile when the
+  adaptation surfaces.
+- The licensed PP files are pending. Drop them into `fonts/` under their real
+  family names and the document upgrades itself, because every stack already
+  names PP first.
+- The ceremonial seal is deliberately absent. It belongs to the countersigned
+  commissioning agreement, not to a proposal.

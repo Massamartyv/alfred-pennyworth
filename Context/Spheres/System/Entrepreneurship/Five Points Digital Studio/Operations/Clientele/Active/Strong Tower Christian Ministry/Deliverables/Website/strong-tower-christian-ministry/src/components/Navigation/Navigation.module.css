@@ -62,13 +62,18 @@
   padding: 0.55rem 1.2rem;
 }
 
+/* The primary navigation control on mobile — a full 44px hit area around a
+   24px glyph, pulled flush to the edge so the optical alignment is unchanged. */
 .menuBtn {
   display: none;
   background: transparent;
   border: none;
   color: var(--text-inverse);
   cursor: pointer;
-  padding: 0.25rem;
+  padding: 0;
+  min-width: 44px;
+  min-height: 44px;
+  margin-right: -0.6rem;
 }
 
 .mobileMenu {
@@ -101,5 +106,6 @@
   .menuBtn {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
   }
 }

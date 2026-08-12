@@ -2,7 +2,7 @@
 file_type: department_index
 department: Finance
 venture: Marty Gras
-last_updated: 2026-04-22
+last_updated: 2026-08-04
 ---
 
 # Finance
@@ -43,7 +43,7 @@ Finance/
 | Stream | Platform | Status |
 |---|---|---|
 | Subscriptions | Substack (Epiphany) | Not yet active |
-| Sponsorships | Podcast, newsletter, social | Not yet active |
+| Sponsorships | The Conversation, Epiphany, the music, social | Not yet active |
 | Merchandise | To be determined | Not yet active |
 | Consulting | Cultural strategy, brand advisory | Not yet active |
 | Speaking fees | Events, panels, conferences | Not yet active |

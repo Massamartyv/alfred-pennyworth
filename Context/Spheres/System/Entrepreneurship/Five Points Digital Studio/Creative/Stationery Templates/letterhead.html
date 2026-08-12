@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="trim" content="210x297mm">
+<title>Letterhead – Five Points Digital Studio</title>
+<link rel="stylesheet" href="stationery.css">
+<style>
+/* ==========================================================================
+   LETTERHEAD – A4 house stationery
+
+   The Bayport architecture: the mark alone in its margin column, the
+   identification and reach on the text axis beside it, the letter body
+   indented to that same axis, and a two-column metadata footer returning to
+   it. The reader's eye meets one vertical line and never leaves it.
+   ========================================================================== */
+
+@page { size: 210mm 297mm; margin: 0; }
+
+.sheet {
+  width: 210mm;
+  height: 297mm;
+  --margin-t: 24mm;
+  --margin-x: 22mm;
+  --axis: 50mm;
+  --margin-r: 40mm;
+  --margin-b: 22mm;
+}
+
+.letter {
+  /* Close to the masthead without touching it: the mark column ends around
+     37mm and the date line opens at 50mm, so the head and the letter read
+     as one composition rather than two events. Operator-tuned 2026-08-06. */
+  top: 50mm;
+  /* Stops clear of the footer so the body can never collide with it. The
+     overflow gate turns a letter that outgrows this box into a build
+     failure rather than a guillotined last paragraph. */
+  bottom: 52mm;
+}
+
+.letter .meta { margin-bottom: 7mm; }
+.letter .to { margin-bottom: 7mm; }
+.letter .body + .body { margin-top: 4mm; }
+.letter .signoff { margin-top: 9mm; }
+.letter .signoff .name { font-weight: 600; margin-top: 7mm; }
+</style>
+</head>
+<body data-voice="coral">
+
+<section class="sheet">
+
+  <header class="masthead">
+    <img class="mark" src="assets/mark-ink.svg" alt="Five Points">
+    <div class="ident">
+      <div class="wordmark">Five Points</div>
+      <div class="reach">
+        martavious@fivepoints.studio<br>
+        fivepoints.studio
+      </div>
+    </div>
+  </header>
+
+  <div class="letter axis">
+    <div class="meta mono"><span class="slot">«DD MONTH YYYY»</span></div>
+
+    <div class="to small">
+      <span class="slot">«PRINCIPAL NAME»</span><br>
+      <span class="slot">«HOUSE OR COMPANY»</span><br>
+      <span class="slot">«CITY»</span>
+    </div>
+
+    <p class="body"><span class="slot">«THE SALUTATION»</span></p>
+    <p class="body"><span class="slot">«THE LETTER – THE FIRST MOVEMENT, WHICH NAMES WHY THIS LETTER EXISTS»</span></p>
+    <p class="body"><span class="slot">«THE SECOND MOVEMENT, WHICH CARRIES THE SUBSTANCE»</span></p>
+    <p class="body"><span class="slot">«THE THIRD MOVEMENT, WHICH NAMES WHAT HAPPENS NEXT»</span></p>
+
+    <div class="signoff small">
+      <div><span class="slot">«THE CLOSE»</span></div>
+      <div class="name"><span class="slot">«NAME»</span></div>
+      <div><span class="slot">«TITLE»</span></div>
+    </div>
+  </div>
+
+  <footer class="footgrid">
+    <div class="col">
+      <div class="group">
+        <div class="lead">Five Points Digital Studio</div>
+      </div>
+      <div class="group">
+        martavious@fivepoints.studio<br>
+        fivepoints.studio
+      </div>
+    </div>
+    <div class="col">
+      <div class="group">
+        <div class="marque">A Five Points Commission</div>
+      </div>
+      <div class="group">
+        Bespoke operating infrastructure<br>
+        Decatur, Georgia
+      </div>
+    </div>
+  </footer>
+
+</section>
+
+</body>
+</html>

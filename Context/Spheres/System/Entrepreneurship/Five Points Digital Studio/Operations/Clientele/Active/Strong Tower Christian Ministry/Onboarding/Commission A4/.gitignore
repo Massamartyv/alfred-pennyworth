@@ -1,0 +1,3 @@
+# Render output. Regenerate with `uv run --with playwright python build.py --proof`.
+proposal.pdf
+proof/

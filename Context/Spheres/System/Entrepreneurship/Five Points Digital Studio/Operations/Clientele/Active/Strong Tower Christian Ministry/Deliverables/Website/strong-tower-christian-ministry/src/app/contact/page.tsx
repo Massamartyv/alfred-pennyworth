@@ -32,13 +32,13 @@ export default function ContactPage() {
       <section className="section">
         <div className={`container ${styles.grid}`}>
           <div className={`${styles.formCol} reveal`}>
-            <h2 className={styles.h2}>Send a message</h2>
+            <h2 className={styles.h2}>Send a Message</h2>
             <ContactForm />
           </div>
 
           <aside className={`${styles.infoCol} reveal`}>
             <div className={styles.infoCard}>
-              <h3 className={styles.infoTitle}>Reach us</h3>
+              <h3 className={styles.infoTitle}>Reach Us</h3>
               <ul className={styles.infoList}>
                 <li>
                   <Phone size={18} />
@@ -62,7 +62,7 @@ export default function ContactPage() {
             </div>
 
             <div className={styles.infoCard}>
-              <h3 className={styles.infoTitle}>Service times</h3>
+              <h3 className={styles.infoTitle}>Service Times</h3>
               <ul className={styles.svcList}>
                 {site.services.map((s) => (
                   <li key={s.name}>

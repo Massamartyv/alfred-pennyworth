@@ -61,7 +61,6 @@
 
 .button:hover:not(:disabled) {
   background: var(--accent-gold-deep);
-  color: var(--text-inverse);
 }
 
 .button:disabled {
@@ -93,4 +92,13 @@
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
+}
+
+/* Honeypot — off-canvas, never seen, never tabbed to. */
+.hp {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }

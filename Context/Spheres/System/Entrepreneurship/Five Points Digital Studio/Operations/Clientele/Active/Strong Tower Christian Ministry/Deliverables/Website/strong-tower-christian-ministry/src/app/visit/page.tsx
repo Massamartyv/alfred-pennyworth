@@ -24,22 +24,22 @@ export const metadata = {
 const expectations = [
   {
     icon: Heart,
-    title: "Come as you are",
+    title: "Come as You Are",
     body: "No dress code, no pretense, no perfect record required. Walk in exactly as you are — you are welcome at the Tower.",
   },
   {
     icon: Music,
-    title: "Heartfelt worship",
+    title: "Heartfelt Worship",
     body: "We make room for the presence of God in worship — a time to sing, lift your hands and simply be with Him.",
   },
   {
     icon: BookOpen,
-    title: "The Word, preached",
+    title: "The Word, Preached",
     body: "At the center of everything is the Word of God, taught plainly and lived out — something to carry into your week.",
   },
   {
     icon: HandHeart,
-    title: "Prayer for you",
+    title: "Prayer for You",
     body: "Whatever you are carrying, you do not carry it alone. There is always someone ready to stand and pray with you.",
   },
 ];
@@ -47,18 +47,18 @@ const expectations = [
 const quickAnswers = [
   {
     icon: Shirt,
-    title: "What should I wear?",
+    title: "What Should I Wear?",
     body: "Whatever you are comfortable in. Some dress up, many keep it casual — either way you will fit right in.",
   },
   {
     icon: Baby,
-    title: "Are kids welcome?",
+    title: "Are Kids Welcome?",
     body: "Absolutely. Children are a gift to this family and are welcome in the service with you.",
     // CONFIRM: kids/childcare specifics — dedicated children's ministry, ages, check-in
   },
   {
     icon: Car,
-    title: "Where do I park?",
+    title: "Where Do I Park?",
     body: "Parking is available on site. Arrive a few minutes early and a friendly face will help you find your way in.",
     // CONFIRM: parking specifics — lot location, accessibility, overflow
   },
@@ -89,7 +89,7 @@ export default function VisitPage() {
         <div className="container">
           <div className={`${styles.sectionHead} reveal`}>
             <p className="eyebrow">What to expect</p>
-            <h2 className={styles.sectionTitle}>Your first time with us</h2>
+            <h2 className={styles.sectionTitle}>Your First Time with Us</h2>
             <p className={styles.lead}>
               A service usually runs around 90 minutes — unhurried, warm and
               centered on Christ. Expect worship, the preaching of the Word and
@@ -123,7 +123,7 @@ export default function VisitPage() {
         <div className="container">
           <div className={`${styles.sectionHead} reveal`}>
             <p className="eyebrow">When we gather</p>
-            <h2 className={styles.sectionTitle}>Service times</h2>
+            <h2 className={styles.sectionTitle}>Service Times</h2>
           </div>
           <div className={styles.serviceGrid}>
             {site.services.map((s) => (
@@ -145,7 +145,7 @@ export default function VisitPage() {
         <div className="container">
           <div className={`${styles.sectionHead} reveal`}>
             <p className="eyebrow">Before you come</p>
-            <h2 className={styles.sectionTitle}>A few quick answers</h2>
+            <h2 className={styles.sectionTitle}>A Few Quick Answers</h2>
           </div>
           <div className={styles.answerGrid}>
             {quickAnswers.map((q, i) => {
@@ -169,13 +169,13 @@ export default function VisitPage() {
         </div>
       </section>
 
-      {/* Atmospheric interlude — the church family gathered with the praise
-          team, the church's own footage. Poster is the fallback, so there is
-          no layout shift and reduced-motion holds on the still. */}
+      {/* Atmospheric interlude — the church praying together, the church's own
+          footage. Poster is the fallback, so there is no layout shift and
+          reduced-motion holds on the still. */}
       <section className={styles.interlude} aria-hidden="true">
         <VideoSlot
-          poster="/images/church/church-family-poster.jpg"
-          videoSrc="/videos/church-family.mp4"
+          poster="/images/church/prayer-ministry-poster.jpg"
+          videoSrc="/videos/prayer-ministry.mp4"
           alt=""
           sizes="100vw"
           imgClassName={styles.interludeImg}
@@ -190,7 +190,7 @@ export default function VisitPage() {
         <div className={`container ${styles.locationInner}`}>
           <div className={`${styles.locationText} reveal`}>
             <p className="eyebrow">Find the Tower</p>
-            <h2 className={styles.sectionTitle}>Where to find us</h2>
+            <h2 className={styles.sectionTitle}>Where to Find Us</h2>
             <address className={styles.locationAddr}>
               <MapPin size={18} aria-hidden="true" /> {site.contact.full}
             </address>
@@ -223,7 +223,7 @@ export default function VisitPage() {
       {/* Closing CTA */}
       <section className={styles.ctaBand}>
         <div className={`container ${styles.ctaInner} reveal`}>
-          <h2 className={styles.ctaTitle}>Questions before you come?</h2>
+          <h2 className={styles.ctaTitle}>Questions before You Come?</h2>
           <p className={styles.ctaBody}>
             Reach out — we would love to hear from you and help however we can
             before your first visit.

@@ -1,13 +1,16 @@
 import Link from "next/link";
+import Image from "next/image";
 import styles from "./Wordmark.module.css";
 
 type Props = {
   /** "sm" for the nav bar, "lg" for the footer and standalone lockups */
   size?: "sm" | "lg";
-  /** text colour: light on dark grounds, dark on light grounds */
+  /** ground the lockup sits on: "light" = light ink on a dark ground */
   tone?: "light" | "dark";
-  /** show the "Christian Ministry" sub-line */
+  /** show the "Christian Ministry" sub-line beside the emblem */
   full?: boolean;
+  /** render the logo alone, at a size where its own wordmark is legible */
+  markOnly?: boolean;
   /** when set, wraps the lockup in a link to home */
   href?: string;
   className?: string;
@@ -15,51 +18,52 @@ type Props = {
 };
 
 /**
- * The typographic identity. A slim tower stroke rising into concentric arcs of
- * light — the brand's own signature, set in Fraunces — leads in place of the
- * logo emblem. Decorative glyph is aria-hidden; the words carry the name.
+ * The church's own logo — the tower beneath the cross, wrapped in the halo.
+ *
+ * The artwork is an integrated lockup: the name is drawn into it and stops
+ * being readable below roughly 100px. So it is used two ways.
+ *   markOnly  — the logo alone, large enough to speak for itself (footer).
+ *   otherwise — the logo as an emblem beside the name set in type (nav),
+ *               where at 46px the drawn name reads as texture, not words.
+ *
+ * Two files, because the drawn name is near-black and would vanish on the
+ * fortress grounds: logo.png for pale grounds, logo-light.png for dark.
  */
 export default function Wordmark({
   size = "sm",
   tone = "light",
   full = false,
+  markOnly = false,
   href,
   className = "",
   onClick,
 }: Props) {
-  const rings = [0, 1, 2];
+  const src = tone === "light" ? "/logo-light.png" : "/logo.png";
+  const px = markOnly ? 190 : size === "lg" ? 76 : 46;
 
   const content = (
-    <span className={`${styles.lockup} ${styles[size]} ${styles[tone]} ${className}`}>
-      <svg className={styles.glyph} viewBox="0 0 48 30" aria-hidden="true">
-        {rings.map((i) => {
-          const r = 9 + i * 7;
-          return (
-            <path
-              key={i}
-              d={`M ${24 - r} 27 A ${r} ${r} 0 0 1 ${24 + r} 27`}
-              fill="none"
-              stroke="var(--accent-gold)"
-              strokeWidth={1.5}
-              opacity={0.85 - i * 0.22}
-            />
-          );
-        })}
-        {/* the tower — a slim upright rising into the light */}
-        <line
-          x1="24"
-          y1="27"
-          x2="24"
-          y2="6"
-          stroke="var(--accent-gold)"
-          strokeWidth={1.5}
-          opacity={0.95}
-        />
-      </svg>
-      <span className={styles.words}>
-        <span className={styles.name}>Strong Tower</span>
-        {full && <span className={styles.sub}>Christian Ministry</span>}
-      </span>
+    <span
+      className={`${styles.lockup} ${styles[size]} ${styles[tone]} ${
+        markOnly ? styles.markOnly : ""
+      } ${className}`}
+    >
+      {/* Beside the typographic name the emblem is decorative; standing
+          alone it is the only thing carrying the name, so it speaks. */}
+      <Image
+        src={src}
+        alt={markOnly ? "Strong Tower Christian Ministry" : ""}
+        aria-hidden={markOnly ? undefined : true}
+        width={px}
+        height={px}
+        className={styles.mark}
+        priority={size === "sm"}
+      />
+      {!markOnly && (
+        <span className={styles.words}>
+          <span className={styles.name}>Strong Tower</span>
+          {full && <span className={styles.sub}>Christian Ministry</span>}
+        </span>
+      )}
     </span>
   );
 

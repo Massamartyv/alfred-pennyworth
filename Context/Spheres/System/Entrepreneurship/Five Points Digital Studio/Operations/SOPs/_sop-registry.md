@@ -9,16 +9,19 @@ last_updated: 2026-07-22
 
 Catalog of all standard operating procedures for Five Points Digital Studio.
 
+Catalog of record: the Notion Resources database in the Five Points workspace. Every SOP is an entry typed Standard Operating Procedure, tagged to its studio sphere and wired to its kit through the Supporting Resource relation (Below Stairs mission, 2026-07-27). These local files remain the agent-execution layer; each Notion SOP page points back to its local counterpart where one exists.
+
 ## Active SOPs
 
 | SOP ID | Name | Trigger | File | Status |
 |---|---|---|---|---|
-| OPS-001 | Client Onboarding | New contract signed | client-onboarding.md | To be created |
-| OPS-002 | Project Delivery | Deliverable due date | project-delivery.md | To be created |
-| OPS-003 | Quality Assurance | Before any client delivery | quality-assurance.md | To be created |
-| OPS-004 | Client Offboarding | Contract ends or churns | client-offboarding.md | To be created |
+| OPS-001 | Client Onboarding | New contract signed | Notion entry only | Active |
+| OPS-002 | Project Delivery | Deliverable due date | Notion entry only | Active |
+| OPS-003 | Quality Assurance | Before any client delivery | Notion entry only | Active |
+| OPS-004 | Client Offboarding | Contract ends or churns | Notion entry only | Active |
 | OPS-005 | Project Handoff | Client requests ownership transfer | project-handoff.md | Active |
 | OPS-006 | Quarterly Governance Review | Evolution principal reaches quarterly anniversary | quarterly-governance-review.md | Active |
+| OPS-007 | File Naming Convention | Naming any client file or asset | Notion entry only | Active |
 
 ## Agent Instructions
 

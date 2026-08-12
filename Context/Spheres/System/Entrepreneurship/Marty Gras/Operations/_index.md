@@ -2,7 +2,7 @@
 file_type: department_index
 department: Operations
 venture: Marty Gras
-last_updated: 2026-04-22
+last_updated: 2026-08-04
 ---
 
 # Operations
@@ -54,7 +54,7 @@ Three stages:
 
 1. **Ideation** – captured in Notion Content database, tagged by sphere and platform
 2. **Production** – drafted, reviewed, refined per the relevant Production SOP
-3. **Distribution** – scheduled via Pennyone for social syndication, Substack for newsletter, podcast host for audio
+3. **Distribution** – scheduled via Pennyone for social syndication, Substack for Epiphany, the audio host for the Conversation
 
 Detailed SOPs for each content type live in `Operations/SOPs/`.
 
@@ -63,9 +63,9 @@ Detailed SOPs for each content type live in `Operations/SOPs/`.
 | Tool | Purpose | Status |
 |---|---|---|
 | Pennyone | Social syndication (Zernio under the hood for IG, TikTok, Threads, X, Reddit, Snap) | Scaffold ready; awaiting Zernio key |
-| ElevenLabs | Podcast audio production and voice content | Active |
-| Substack | Newsletter publishing (Epiphany) | To be configured |
-| Podcast host | Audio distribution | To be selected |
+| ElevenLabs | Conversation audio production and voice work | Active |
+| Substack | Epiphany publishing | To be configured |
+| Audio host | Audio distribution | To be selected |
 | Notion | Content calendar, editorial planning, production tracking | Active (personal workspace) |
 
 Note: Buffer is deprecated ecosystem-wide as of April 2026. Pennyone replaces it for social syndication.

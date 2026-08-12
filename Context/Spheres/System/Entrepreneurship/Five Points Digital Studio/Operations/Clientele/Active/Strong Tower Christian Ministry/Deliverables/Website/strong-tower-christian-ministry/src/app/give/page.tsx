@@ -56,7 +56,7 @@ export default function GivePage() {
         <div className="container">
           <div className={`${styles.sectionHead} reveal`}>
             <p className="eyebrow">Ways to give</p>
-            <h2 className={styles.sectionTitle}>Three simple ways to give</h2>
+            <h2 className={styles.sectionTitle}>Three Simple Ways to Give</h2>
             <p className={styles.sectionLede}>
               Give whichever way is easiest for you. Every gift, large or small,
               makes a difference.
@@ -70,7 +70,7 @@ export default function GivePage() {
               <span className={styles.wayIcon} aria-hidden="true">
                 <Globe size={24} />
               </span>
-              <h3 className={styles.wayTitle}>Give online</h3>
+              <h3 className={styles.wayTitle}>Give Online</h3>
               <p className={styles.wayDesc}>
                 Give securely through Realm, our church giving platform. Make a
                 one-time gift or set up a recurring gift in just a few moments.
@@ -111,7 +111,7 @@ export default function GivePage() {
               <span className={styles.wayIcon} aria-hidden="true">
                 <MessageSquare size={24} />
               </span>
-              <h3 className={styles.wayTitle}>Give by text</h3>
+              <h3 className={styles.wayTitle}>Give by Text</h3>
               <p className={styles.wayDesc}>
                 Text the word{" "}
                 <strong className={styles.railInline}>
@@ -137,7 +137,7 @@ export default function GivePage() {
         <div className="container">
           <div className={`${styles.sectionHead} reveal`}>
             <p className="eyebrow">You can also give</p>
-            <h2 className={styles.sectionTitle}>In person or by mail</h2>
+            <h2 className={styles.sectionTitle}>In Person or by Mail</h2>
           </div>
 
           <div className={styles.otherGrid}>
@@ -146,7 +146,7 @@ export default function GivePage() {
               <span className={styles.wayIcon} aria-hidden="true">
                 <MapPin size={24} />
               </span>
-              <h3 className={styles.wayTitle}>In person</h3>
+              <h3 className={styles.wayTitle}>In Person</h3>
               <p className={styles.wayDesc}>
                 Bring your tithes and offering with you when we gather. You are
                 welcome to give at any of our services:
@@ -168,7 +168,7 @@ export default function GivePage() {
               <span className={styles.wayIcon} aria-hidden="true">
                 <Mail size={24} />
               </span>
-              <h3 className={styles.wayTitle}>By mail</h3>
+              <h3 className={styles.wayTitle}>By Mail</h3>
               <p className={styles.wayDesc}>
                 Prefer to send a check? Mail your gift to the church office at:
               </p>
@@ -185,7 +185,7 @@ export default function GivePage() {
             <Heart size={28} />
           </span>
           <h2 className={styles.wordTitle}>
-            Your generosity moves the ministry forward
+            Your Generosity Moves the Ministry Forward
           </h2>
           <p className={styles.wordCopy}>
             Tithes and offerings are how we keep the doors of the Tower open and
@@ -201,7 +201,7 @@ export default function GivePage() {
       {/* Closing CTA */}
       <section className={styles.ctaBand}>
         <div className={`container ${styles.ctaInner} reveal`}>
-          <h2 className={styles.ctaTitle}>Have a question about giving?</h2>
+          <h2 className={styles.ctaTitle}>Have a Question about Giving?</h2>
           <p className={styles.ctaCopy}>
             We are glad to help. Reach out to the church office and we will get
             back to you.

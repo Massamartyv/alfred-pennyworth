@@ -9,11 +9,17 @@
   gap: 0.6rem;
 }
 
-.glyph {
-  height: 1.85em;
+/* The logo itself. Height is set per size in the component; the square
+   artwork keeps its own proportion. */
+.mark {
+  height: auto;
   width: auto;
   flex-shrink: 0;
-  overflow: visible;
+}
+
+/* Standing alone, the logo carries the name — no type beside it. */
+.markOnly {
+  display: block;
 }
 
 .words {
@@ -23,7 +29,7 @@
 }
 
 .name {
-  font-family: var(--font-heading), Georgia, serif;
+  font-family: var(--font-accent), Georgia, serif;
   font-weight: 700;
   letter-spacing: -0.006em;
 }
@@ -69,5 +75,5 @@
 }
 
 .dark .sub {
-  color: var(--accent-gold-deep);
+  color: var(--accent-gold-text);
 }

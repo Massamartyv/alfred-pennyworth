@@ -48,8 +48,9 @@ All work follows The Manor Protocol – five phases, two hard gates, creative ex
 | Agents/_index.md | The Manor Protocol definition |
 | Agents/agent-guidelines.md | Execution tiers, red lines, approval gates |
 | Agents/department-heads.md | Role definitions and specialist seats |
+| Agents/integrations.md | Plugin and tool connections; the provisioning checklist |
 
-Plugin scope to be determined on copy. No `Agents/integrations.md` exists until configured.
+Plugin scope is provisioned on copy, not deferred. `Agents/integrations.md` ships with the template carrying a three-row provisioning checklist – Notion workspace, Pennyone pipeline, payment rail. Work it from the top on first use.
 
 ## Active State
 

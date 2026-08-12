@@ -3,7 +3,7 @@ file_type: registry
 registry_type: collaborators
 venture: Marty Gras
 status: active
-last_updated: 2026-04-05
+last_updated: 2026-08-04
 ---
 
 # Collaborator and Sponsor Registry – Marty Gras
@@ -18,7 +18,7 @@ Master roster of all collaborations, sponsorships and featured guests. For a med
 
 ## Featured Guests
 
-| Guest | Episode | Topic | Recording Date | Status | Notes |
+| Guest | Conversation | Topic | Recording Date | Status | Notes |
 |---|---|---|---|---|---|
 | – | – | – | – | – | – |
 
@@ -36,10 +36,7 @@ Master roster of all collaborations, sponsorships and featured guests. For a med
 
 ## Summary
 
-- Total active sponsors: 0
-- Total MRR from sponsorships: $0
-- Total podcast guests booked: 0
-- Total active collaborators: 0
+Live state: Notion Projects and Tasks, personal workspace – Marty Gras, Venture Operations. Counts and revenue are never held in this file.
 
 ## Agent Instructions
 

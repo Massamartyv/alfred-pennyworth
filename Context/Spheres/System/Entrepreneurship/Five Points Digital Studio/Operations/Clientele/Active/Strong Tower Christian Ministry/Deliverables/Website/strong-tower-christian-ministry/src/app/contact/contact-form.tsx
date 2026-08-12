@@ -14,7 +14,7 @@ export default function ContactForm() {
   if (state?.ok) {
     return (
       <div className={styles.success} role="status">
-        <p className={styles.successTitle}>Thank you.</p>
+        <p className={styles.successTitle}>Thank You.</p>
         <p>Your message is on its way. We will be in touch soon.</p>
       </div>
     );

@@ -1,0 +1,15 @@
+.placeholder {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.monogram {
+  font-family: var(--font-heading), Georgia, serif;
+  font-size: 172px;
+  letter-spacing: 0.04em;
+  fill: var(--accent-gold-light);
+  opacity: 0.94;
+}

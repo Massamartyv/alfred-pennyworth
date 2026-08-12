@@ -116,7 +116,6 @@ Portfolio-level systems that aggregate intelligence and surface alerts across al
 
 | Agent | Location | Crew | Cadence | Purpose |
 |---|---|---|---|---|
-| pattern-memo | Orchestration/ | Researcher, Creator | Monthly (headless scheduling paused, gated on a Notion plan decision) | Three patterns from the prior month, staged into the new Monthly Review entry in Reflections |
 | pennyone | Orchestration/ | Creator | On-demand | Multi-platform content syndication via Zernio. Distinct from the retired `penny-one` scheduled briefing task -- see Naming Note in `Orchestration/pennyone.md` |
 | watchtower | Orchestration/ | Reviewer:Scrutiny, Broadcaster | Continuous, daily (weekly briefing not yet built) | Threshold monitoring and alert broadcasting; sole owner of the weekly portfolio briefing on paper, unbuilt |
 
@@ -204,7 +203,7 @@ Followed by: Mission, Scope, Criteria, Working Directory, After the Mission.
 
 ### Handoff is the closing artefact
 
-Every agent run ends with a handoff document written to `.working/{agent-name}/handoff.md`. The canonical schema lives at `templates/handoff-schema.md` and is required output – no exceptions. For mission-scoped runs the handoff also lands on the mission record – the scoped Notion Projects entry – when the Critique gate clears; the `.working/` copy is working state, the project-page copy is the durable receipt. The handoff replaces the loose Report Format that previously sat under this section.
+Every mission-scoped dispatch ends with a handoff document written to `.working/{agent-name}/handoff.md`. The canonical schema lives at `templates/handoff-schema.md`; standalone ad hoc runs are exempt per the 2026-08-11 Domesday ruling. For mission-scoped runs the handoff also lands on the mission record – the scoped Notion Projects entry – when the Critique gate clears; the `.working/` copy is working state, the project-page copy is the durable receipt. The handoff replaces the loose Report Format that previously sat under this section.
 
 Existing agents (`context-audit`, `media-scanner`, `sphere-review`, `penny-one`, `watchtower`) retrofit to the schema on their next definition update – no stop-the-world rewrite.
 
@@ -230,7 +229,7 @@ The two workspaces never mix – a mission is personal or Five Points and its re
 ### Model defaults
 
 - System maintenance agents (`context-audit`, `media-scanner`, `sphere-review`): `haiku`. Mechanical scans, low judgment, high frequency.
-- Orchestration agents (`penny-one`, `watchtower`): `sonnet`. Mid-judgment, mid-frequency, content production and threshold logic.
+- Orchestration agents (`watchtower`, `pennyone`): `sonnet`. Mid-judgment, mid-frequency, content production and threshold logic.
 - Department heads doing strategic or creative judgment work: `opus`. Taste, synthesis and direction calls.
 
 ### Working directory convention
@@ -327,11 +326,10 @@ Agents/
 |   +-- media-scanner.md
 |   +-- sphere-review.md
 +-- Orchestration/     -- Portfolio-level agents
-    +-- pattern-memo.md
     +-- pennyone.md
     +-- watchtower.md
 ```
 
 ---
 
-*Last updated: 2026-07-23 – The Lamplighter w1-repairs: capability matrix regenerated post scheduler cleanup; Orchestration Agents table corrected (pennyone replaces the penny-one filename typo, briefing ownership reassigned to Watchtower on paper, pattern-memo marked paused); capability-matrix.py now cross-checks the live scheduler via --live-tasks and the interim caveat note is retired.*
+*Last updated: 2026-08-11 – Domesday: pattern-memo retired by operator ruling and removed from the Orchestration table and directory map; handoff scope narrowed to mission-scoped dispatches. Capability matrix regeneration pending the next heartbeat run.*

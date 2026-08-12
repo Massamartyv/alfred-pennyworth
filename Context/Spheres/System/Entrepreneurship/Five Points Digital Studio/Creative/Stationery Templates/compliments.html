@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="trim" content="220x110mm">
+<title>With Compliments – Five Points Digital Studio</title>
+<link rel="stylesheet" href="stationery.css">
+<style>
+/* ==========================================================================
+   WITH-COMPLIMENTS SLIP – DL landscape, 220 x 110mm
+
+   The ceremonial piece of the suite, redesigned 2026-08-06 on the Bayport
+   invitation architecture by operator direction: a total flood of one colour
+   with the message set tonally in the same voice, a vast quiet middle, and
+   two whisper clusters anchored at the bottom corners. Where every working
+   document in the suite holds the bone-and-ink register, the slip floods the
+   voice itself - the one full-voice object in the hand, because it is the
+   object that travels with a gift.
+
+   One voice per surface holds: the flood is the voice's deep grade, the
+   message its light grade, the clusters its tint. No second hue anywhere.
+   The mark renders parchment, per the one-colour-per-rendering rule on dark
+   grounds. The message runs display-large precisely so its tonal 2.9:1
+   contrast is a register, not a legibility problem; the whisper clusters
+   carry the tint at 8:1.
+
+   This artefact carries no slots. It is finished studio canon: the only
+   thing that ever changes on it is written by hand in ink, which is the
+   point of the object. It therefore serves as its own gate specimen.
+   ========================================================================== */
+
+@page { size: 220mm 110mm; margin: 0; }
+
+.sheet {
+  width: 220mm;
+  height: 110mm;
+  --margin-x: 16mm;
+  --axis: 40mm;
+  --margin-r: 16mm;
+  --margin-b: 12mm;
+  background: var(--voice-deep);
+  color: var(--voice-light);
+}
+
+.mark-slot { position: absolute; top: 14mm; left: var(--margin-x); }
+.mark-slot .mark { width: 11mm; height: 11mm; }
+
+/* The message. Serif roman, sentence case, stacked - the same breath as the
+   Bayport invitation's three tonal lines, in the house display voice. */
+.message {
+  position: absolute;
+  left: var(--axis);
+  top: 30mm;
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: 30pt;
+  line-height: 1.18;
+  letter-spacing: var(--track-tight);
+  color: var(--voice-light);
+  text-wrap: balance;
+}
+
+/* The hand's zone is the emptiness itself: everything right of the message
+   and down to the clusters. Nothing is drawn there on purpose. */
+
+.corner {
+  position: absolute;
+  bottom: var(--margin-b);
+  font-family: var(--font-sans);
+  font-size: 7pt;
+  line-height: 1.6;
+  color: var(--voice-tint);
+}
+.corner.sw { left: var(--margin-x); }
+.corner.se { right: var(--margin-r); text-align: right; }
+.corner .lead { font-weight: 600; }
+.corner .marque-line {
+  font-weight: 600;
+  font-size: 7pt;
+  text-transform: uppercase;
+  letter-spacing: var(--track-label);
+}
+</style>
+</head>
+<body data-voice="coral">
+
+<section class="sheet">
+
+  <div class="mark-slot">
+    <img class="mark" src="assets/mark-parchment.svg" alt="Five Points">
+  </div>
+
+  <div class="message">With the compliments<br>of the house.</div>
+
+  <div class="corner sw">
+    <div class="lead">Five Points Digital Studio</div>
+    <div>martavious@fivepoints.studio &middot; fivepoints.studio</div>
+  </div>
+
+  <div class="corner se">
+    <div class="marque-line">A Five Points Commission</div>
+    <div>Decatur, Georgia</div>
+  </div>
+
+</section>
+
+</body>
+</html>

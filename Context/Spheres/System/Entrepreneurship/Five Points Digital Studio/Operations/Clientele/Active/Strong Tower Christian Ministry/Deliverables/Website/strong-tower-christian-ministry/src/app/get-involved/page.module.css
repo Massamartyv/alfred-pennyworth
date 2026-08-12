@@ -6,7 +6,7 @@
 
 .sectionTitle {
   font-size: var(--text-h2);
-  font-weight: 600;
+  font-weight: 400;
   margin-top: 0.5rem;
 }
 
@@ -128,8 +128,8 @@
   display: block;
   font-family: var(--font-heading), serif;
   font-size: 2.4rem;
-  font-weight: 600;
-  color: var(--accent-gold);
+  font-weight: 400;
+  color: var(--accent-gold-deep);
   margin-bottom: 0.75rem;
 }
 

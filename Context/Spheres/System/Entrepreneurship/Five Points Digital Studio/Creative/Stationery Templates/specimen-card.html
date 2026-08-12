@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="trim" content="74x74mm">
+<title>Card specimen – Five Points Digital Studio</title>
+<link rel="stylesheet" href="stationery.css">
+<style>
+/* Specimen instance of card.html, set for the partner. Derive new cards from
+   the framework, never from this file. No telephone line: the house
+   publishes an email and a website, and a card that carries a number the
+   studio does not answer is worse than a card that does not. */
+
+@page { size: 74mm 74mm; margin: 0; }
+
+.sheet {
+  width: 74mm;
+  height: 74mm;
+  --margin-t: 9mm;
+  --margin-x: 9mm;
+  --axis: 21mm;
+  --margin-r: 9mm;
+  --margin-b: 9mm;
+}
+
+.front .stack {
+  position: absolute;
+  left: 0; right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.front .l1 {
+  font-size: 36mm;
+  transform: translateX(calc(-50% - 4mm));
+}
+.front .l2 {
+  font-size: 23mm;
+  margin-top: 6mm;
+  transform: translateX(calc(-50% + 3mm));
+}
+.front .tagline {
+  position: absolute;
+  left: var(--margin-x);
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--voice-light);
+  z-index: 1;
+}
+.front .colophon {
+  position: absolute;
+  left: var(--margin-x);
+  bottom: 3.5mm;
+  font-family: var(--font-mono);
+  font-size: 6pt;
+  letter-spacing: var(--track-mono);
+  text-transform: uppercase;
+  color: var(--voice-light);
+  z-index: 1;
+}
+
+.back .mark-slot { position: absolute; top: var(--margin-t); left: var(--margin-x); }
+.back .mark-slot .mark { width: 9mm; height: 9mm; }
+.back .mark-index {
+  margin-top: 2mm;
+  font-family: var(--font-mono);
+  font-size: 5.5pt;
+  letter-spacing: var(--track-mono);
+  text-transform: uppercase;
+  color: var(--fg3);
+}
+.back .role {
+  position: absolute;
+  left: var(--axis);
+  top: 28mm;
+}
+.back .person {
+  position: absolute;
+  left: var(--axis);
+  right: var(--margin-r);
+  top: 34mm;
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: 20pt;
+  line-height: 1.08;
+  letter-spacing: var(--track-tight);
+  color: var(--fg1);
+}
+.back .reachblock {
+  position: absolute;
+  left: var(--axis);
+  right: var(--margin-r);
+  bottom: var(--margin-b);
+  padding-top: 3mm;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-family: var(--font-sans);
+  font-size: 7pt;
+  line-height: 1.55;
+  color: var(--fg3);
+}
+.back .reachblock .where { text-align: right; }
+</style>
+</head>
+<body data-voice="coral">
+
+<!-- FRONT · ink flood, the name as the entire surface -->
+<section class="sheet front" data-register="ink">
+  <div class="bleedbox">
+    <div class="stack">
+      <div class="bleedline l1">Five</div>
+      <div class="bleedline l2">Points</div>
+    </div>
+  </div>
+  <div class="tagline label">Connecting passion to possibility</div>
+  <div class="colophon">A Five Points Commission &middot; est 2021</div>
+</section>
+
+<!-- BACK · bone, the mark and the person on the axis -->
+<section class="sheet back">
+  <div class="mark-slot">
+    <img class="mark" src="assets/mark-ink.svg" alt="Five Points">
+    <div class="mark-index">QT-001</div>
+  </div>
+
+  <div class="role label">Partner</div>
+
+  <div class="person">Martavious Spicer</div>
+
+  <div class="reachblock">
+    <div class="reach-lines">
+      martavious@fivepoints.studio<br>
+      fivepoints.studio
+    </div>
+    <div class="where">Decatur,<br>Georgia</div>
+  </div>
+</section>
+
+</body>
+</html>

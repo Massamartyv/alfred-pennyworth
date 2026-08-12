@@ -37,16 +37,17 @@ export default async function WatchPage() {
       <RevealSection />
 
       <section className="global-page-hero">
-        {/* The church family gathered with the praise team at the branded
-            pulpit — the church's own footage. Poster holds as the fallback. */}
+        {/* Prophetess Goodson ministering mid-word — the church's own footage,
+            a preacher in motion above "watch messages". Poster holds as the
+            fallback. */}
         <div className={styles.heroMedia} aria-hidden="true">
           <VideoSlot
-            poster="/images/church/church-family-poster.jpg"
-            videoSrc="/videos/church-family.mp4"
+            poster="/images/church/prophetess-ministering-poster.jpg"
+            videoSrc="/videos/prophetess-ministering.mp4"
             alt=""
             sizes="100vw"
             imgClassName={styles.heroImg}
-            objectPosition="center 38%"
+            objectPosition="center 30%"
             motion="ken-burns-slow"
           />
         </div>
@@ -96,7 +97,7 @@ export default async function WatchPage() {
               <div className="container">
                 <div className={`${styles.head} reveal`}>
                   <p className="eyebrow">The archive</p>
-                  <h2 className={styles.h2}>Recent messages</h2>
+                  <h2 className={styles.h2}>Recent Messages</h2>
                 </div>
                 <div className={styles.grid}>
                   {archive.map((v) => (
@@ -142,7 +143,7 @@ export default async function WatchPage() {
       ) : (
         <section className={`section ${styles.empty}`}>
           <div className={`container ${styles.emptyInner} reveal`}>
-            <h2 className={styles.h2}>Watch with us</h2>
+            <h2 className={styles.h2}>Watch with Us</h2>
             <p className={styles.emptyCopy}>
               Our services stream on YouTube and Facebook. Follow along live or
               catch the latest message there.

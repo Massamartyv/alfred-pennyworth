@@ -7,9 +7,9 @@
 
 .scriptureText {
   font-size: var(--text-scripture);
-  line-height: 1.45;
+  line-height: 1.4;
   max-width: 900px;
-  margin: 0 auto 1rem;
+  margin: 0 auto 1.5rem;
 }
 
 .scriptureRef {
@@ -28,7 +28,7 @@
 
 .sectionTitle {
   font-size: var(--text-h2);
-  font-weight: 600;
+  font-weight: 400;
   margin-top: 0.5rem;
 }
 
@@ -57,7 +57,7 @@
 
 .statementTitle {
   font-size: var(--text-h2);
-  font-weight: 600;
+  font-weight: 400;
   margin: 0.5rem 0 1.5rem;
 }
 
@@ -65,9 +65,9 @@
   font-size: var(--text-lead);
   line-height: 1.65;
   color: var(--text-main);
-  font-family: var(--font-heading), Georgia, serif;
+  font-family: var(--font-accent), Georgia, serif;
   font-style: italic;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .vision {
@@ -102,7 +102,7 @@
 }
 
 .tagPrimary {
-  font-family: var(--font-heading), Georgia, serif;
+  font-family: var(--font-accent), Georgia, serif;
   font-style: italic;
   font-size: var(--text-h3);
   line-height: 1.35;
@@ -178,7 +178,7 @@
 
 .ctaTitle {
   font-size: var(--text-h2);
-  font-weight: 600;
+  font-weight: 400;
   color: var(--text-inverse);
   margin-bottom: 1rem;
 }

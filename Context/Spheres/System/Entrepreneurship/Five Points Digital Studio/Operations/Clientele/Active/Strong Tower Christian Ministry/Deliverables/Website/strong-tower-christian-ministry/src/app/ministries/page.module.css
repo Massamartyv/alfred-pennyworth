@@ -13,7 +13,7 @@
 
 .sectionTitle {
   font-size: var(--text-h2);
-  font-weight: 600;
+  font-weight: 400;
   margin-top: 0.5rem;
 }
 
@@ -49,16 +49,29 @@
   border-color: var(--border-medium);
 }
 
-/* Sonship graduation photo — the church's own image, held at card size so it
-   is never stretched past its ~960px source. */
+/* The standard media slot — every card carries one at the same ratio, so the
+   grid reads as one set. Today: the Sonship photograph and the type-and-light
+   placeholders; church photography drops into the same slot later. */
 .cardMedia {
   position: relative;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 16 / 10;
   margin-bottom: 1.75rem;
   border-radius: var(--radius-card);
   overflow: hidden;
   border-bottom: 3px solid var(--accent-gold);
-  background: var(--bg-fortress);
+  background: var(--bg-fortress-deep);
+}
+
+/* Film grain over every media slot — placeholder art and photo alike */
+.cardMedia::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: var(--grain-url);
+  background-size: 140px 140px;
+  opacity: 0.05;
+  mix-blend-mode: overlay;
+  pointer-events: none;
 }
 
 .cardMediaImg {
@@ -91,19 +104,20 @@
   letter-spacing: 0.18em;
   font-size: 0.72rem;
   font-weight: 600;
-  color: var(--accent-gold-deep);
+  color: var(--accent-gold-text);
 }
 
 .name {
-  font-size: 1.4rem;
-  font-weight: 600;
+  font-size: 1.45rem;
+  font-weight: 400;
   margin-bottom: 0.75rem;
 }
 
 .motto {
-  font-family: var(--font-heading), Georgia, serif;
+  font-family: var(--font-accent), Georgia, serif;
   font-style: italic;
-  font-size: 1.05rem;
+  font-weight: 500;
+  font-size: 1.15rem;
   color: var(--brand-blue-deep);
   margin-bottom: 0.9rem;
 }
@@ -156,7 +170,7 @@
 
 .ctaTitle {
   font-size: var(--text-h2);
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: 1rem;
 }
 

@@ -20,7 +20,7 @@ export default function PrayerPage() {
         <div className="global-page-hero-container">
           <span className="global-page-hero-badge">Prayer</span>
           <h1 className="global-hero-title global-hero-title-light">
-            Let Us Pray With You
+            Let Us Pray with You
           </h1>
           <p className="global-page-hero-desc">
             There is power when we agree in prayer. Share your request and our

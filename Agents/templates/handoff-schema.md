@@ -10,11 +10,11 @@ The canonical handoff document. Every dispatched agent writes this as the last a
 
 ## When this template applies
 
-Required output for every agent run. No exceptions. Whether the agent succeeded, partially completed or was blocked, the handoff is the artefact that closes the run.
+Required output for every mission-scoped agent dispatch. Standalone ad hoc runs are exempt by the 2026-08-11 Domesday ruling – native session continuity carries their context, and the estate's own evidence showed the universal mandate was honoured more in the breach. Whether the dispatch succeeded, partially completed or was blocked, the handoff is the artefact that closes the run.
 
 ## Authoring rules
 
-- Mandatory for every agent run, regardless of outcome
+- Mandatory for every mission-scoped dispatch, regardless of outcome
 - Written as the agent's final action before exit
 - Stored at `.working/{agent-name}/handoff.md` for the active run
 - Copied onto the mission record – the scoped Notion Projects entry – when the Critique gate clears, for portfolio-tracked missions
@@ -117,4 +117,4 @@ status: complete
 
 ---
 
-*Schema version 1. Manor Protocol Phase 1 deliverable. 2026-05-10. Updated 2026-07-10 – mission_record field and project-page consumption line added.*
+*Schema version 1. Manor Protocol Phase 1 deliverable. 2026-05-10. Updated 2026-07-10 – mission_record field and project-page consumption line added. Updated 2026-08-11 – scope narrowed from every agent run to mission-scoped dispatches, Domesday ruling.*

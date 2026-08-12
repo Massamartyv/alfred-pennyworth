@@ -7,14 +7,16 @@ the site to replace the interim Unsplash stock below. These files depict the
 real Strong Tower congregation, leadership and building — no stock, no
 AI-generated people. Source: the church's own photography and footage.
 
-**Videos** — `public/videos/` (muted, 1080p H.264 ambient loops):
+**Videos** — `public/videos/` (muted H.264 ambient loops):
 
 | File | Placement |
 |---|---|
+| `hero-family.mp4` | Home — hero backdrop (VideoSlot, 1440w, graded toward the palette; cut 2026-07-27 from the same source film as `church-family.mp4`) |
 | `preaching-sanctuary.mp4` | Home — "Watch" band backdrop (VideoSlot) |
-| `church-family.mp4` | Watch — hero backdrop, and Visit — atmospheric interlude (VideoSlot) |
+| `prophetess-ministering.mp4` | Watch — hero backdrop (VideoSlot; cut 2026-07-27 from the harvest) |
+| `prayer-ministry.mp4` | Visit — atmospheric interlude (VideoSlot), and Prayer — quiet still band via its poster |
 | `worship-band.mp4` | Get Involved — one motion band above "Next steps" (VideoSlot) |
-| `prayer-ministry.mp4` | (poster only — see below) |
+| `church-family.mp4` | (retired from placements 2026-07-27 — file retained on disk) |
 
 Each video ships a matching `<name>-poster.jpg` in `public/images/church/`,
 used as the LCP-safe fallback / first frame and the reduced-motion still.
@@ -35,19 +37,16 @@ used as the LCP-safe fallback / first frame and the reduced-motion still.
 Source: Unsplash. License: https://unsplash.com/license (free for commercial
 use, no attribution required, no resale of the standalone photo).
 
-**Still in use:**
+**Still in use:** none — as of 2026-07-27 every placed image and film is the church's own media.
 
-| File | Use | Why it remains |
-|---|---|---|
-| `atmosphere/rising-light-hero.jpg` | Home hero background | Held by operator ruling — the home hero is untouched. No church asset replaces it at this pass. |
-
-**No longer referenced (retired at the 2026-07-21 harvest, files retained on disk):**
+**No longer referenced (files retained on disk):**
 
 | File | Former use | Replaced by |
 |---|---|---|
+| `atmosphere/rising-light-hero.jpg` | Home hero background (until 2026-07-27) | `church/hero-family-poster.jpg` + `videos/hero-family.mp4` |
 | `worship/hands-raised-gold.jpg` | Home "Welcome" band | `church/goodsons-ministering.jpg` |
 | `worship/congregation-gold.jpg` | Home "Watch" band + Watch hero | `church/preaching-sanctuary.mp4` (home), `church/church-family.mp4` (watch) |
-| `atmosphere/word-candle.jpg` | Visit atmospheric interlude | `church/church-family.mp4` |
+| `atmosphere/word-candle.jpg` | Visit atmospheric interlude | `church/church-family.mp4`, then `videos/prayer-ministry.mp4` (2026-07-27) |
 
 Hard rules carried from the redesign handoff (still in force):
 - No AI-generated people.

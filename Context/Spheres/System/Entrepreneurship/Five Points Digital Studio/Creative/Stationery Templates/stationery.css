@@ -1,0 +1,267 @@
+/* ==========================================================================
+   STATIONERY SUITE – the house hand (The Letterpress, LP)
+
+   Four artefacts at three trims, one grammar: letterhead (A4),
+   with-compliments slip (DL landscape), business card (74mm square) and the
+   email signature. Each document declares its own trim in a
+   <meta name="trim"> tag; build.py reads it and sizes the render from there.
+
+   THE AXIS. Every artefact in the suite is built on two vertical lines: a
+   narrow mark column at the outer margin, and the text axis indented from
+   it. The mark sits alone in its column, the identification and everything
+   the reader reads sit on the axis, and the metadata footer returns to the
+   axis in two columns. Nothing is centred except the one bled moment on the
+   card front. This is the architecture of the A Friend Of Mine Bayport
+   stationery, which is the case study the fingerprint's own AFOM execution
+   principles were extracted from, translated into the Quintessence world.
+
+   Tokens are copied verbatim from the presentation framework, which copied
+   them from the design system foundations, so the whole Letterpress speaks
+   one colour and one type system with no network at render time.
+   ========================================================================== */
+
+@import url("fonts.css");
+
+:root {
+  --font-serif: 'PP Editorial New', 'Sentient', Georgia, 'Times New Roman', serif;
+  --font-sans:  'PP Neue Montreal', 'General Sans', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+  --font-mono:  'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+  /* The mail stack. Sanctioned exception to the three ratified stacks: mail
+     clients strip webfonts, so the signature must survive on faces every
+     client already has. Named as a token so the exception stays declared
+     and auditable rather than leaking in as an ad hoc font-family. */
+  --font-mail: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+
+  --bone-050: #FBF7EE;
+  --bone-100: #F4EDDD;
+  --bone-200: #EAE0C8;
+  --bone-300: #DED2B5;
+  --bone-400: #C9BC9C;
+
+  --ink-900: #0F0F10;
+  --ink-800: #1C1A17;
+
+  --warm-800: #2B2823;
+  --warm-600: #5E574C;
+  --warm-500: #7A7264;
+  --warm-400: #9A9284;
+  --warm-300: #BDB4A2;
+
+  --coral-light: #D96E6E; --coral: #A72C2C; --coral-deep: #832222; --coral-tint: #F6DDDD; --coral-wash: #F5ECEC;
+  --cornflower-light: #8AACD9; --cornflower: #305A92; --cornflower-deep: #25456F; --cornflower-tint: #DEE8F4; --cornflower-wash: #EDF0F5;
+  --sun-light: #F8DC55; --sun: #695804; --sun-deep: #453A03; --sun-tint: #FDF6D5; --sun-wash: #F8F6EA;
+  --lavender-light: #A491CD; --lavender: #6549A1; --lavender-deep: #513B81; --lavender-tint: #E6E1F1; --lavender-wash: #F0EEF4;
+  --sage-light: #8CBFA6; --sage: #37624D; --sage-deep: #274536; --sage-tint: #E3F0E9; --sage-wash: #EFF3F1;
+
+  --bg: var(--bone-200);
+  --bg-raised: var(--bone-100);
+  --bg-sunken: var(--bone-300);
+  --fg1: var(--ink-900);
+  --fg2: var(--warm-800);
+  --fg3: var(--warm-600);
+  --border: var(--bone-400);
+  --border-strong: var(--warm-500);
+
+  --voice: var(--warm-600);
+  --voice-light: var(--bone-200);
+  --voice-deep: var(--ink-900);
+  --voice-tint: var(--bone-100);
+  --voice-wash: var(--bone-100);
+  --voice-accent: var(--ink-900);
+
+  --track-display: -0.012em;
+  --track-tight: -0.008em;
+  --track-label: 0.14em;
+  --track-mono: 0.08em;
+
+  /* The axis system. Overridden per trim by each document. */
+  --margin-x: 22mm;   /* the mark column */
+  --axis: 50mm;       /* the text axis */
+  --margin-r: 40mm;   /* the right margin */
+  --margin-b: 20mm;   /* the foot */
+}
+
+[data-voice="coral"]      { --voice: var(--coral);      --voice-light: var(--coral-light);      --voice-deep: var(--coral-deep);      --voice-tint: var(--coral-tint);      --voice-wash: var(--coral-wash);      --voice-accent: var(--coral); }
+[data-voice="cornflower"] { --voice: var(--cornflower); --voice-light: var(--cornflower-light); --voice-deep: var(--cornflower-deep); --voice-tint: var(--cornflower-tint); --voice-wash: var(--cornflower-wash); --voice-accent: var(--cornflower); }
+[data-voice="sun"]        { --voice: var(--sun);        --voice-light: var(--sun-light);        --voice-deep: var(--sun-deep);        --voice-tint: var(--sun-tint);        --voice-wash: var(--sun-wash);        --voice-accent: var(--sun); }
+[data-voice="lavender"]   { --voice: var(--lavender);   --voice-light: var(--lavender-light);   --voice-deep: var(--lavender-deep);   --voice-tint: var(--lavender-tint);   --voice-wash: var(--lavender-wash);   --voice-accent: var(--lavender); }
+[data-voice="sage"]       { --voice: var(--sage);       --voice-light: var(--sage-light);       --voice-deep: var(--sage-deep);       --voice-tint: var(--sage-tint);       --voice-wash: var(--sage-wash);       --voice-accent: var(--sage); }
+
+[data-register="ink"] {
+  --bg: var(--ink-900);
+  --bg-raised: var(--ink-800);
+  --bg-sunken: var(--ink-900);
+  --fg1: var(--bone-200);
+  --fg2: var(--bone-300);
+  --fg3: var(--warm-300);
+  --border: rgba(234, 224, 200, 0.30); /* print-tuned: 0.14 vanishes on obsidian paper */
+  --border-strong: var(--bone-200);
+  --voice-accent: var(--voice-light);
+  --voice-tint: var(--ink-800);
+  --voice-wash: var(--ink-800);
+  /* Re-assert the consumed properties so the register works at any depth.
+     Inherited law from the presentation framework: redefining custom
+     properties alone cannot recolour text whose colour was resolved on an
+     ancestor. The card front is a nested flood; without this it would fail. */
+  background: var(--bg);
+  color: var(--fg1);
+}
+
+/* ---- Base ---------------------------------------------------------------- */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { background: var(--bone-300); }
+body {
+  font-family: var(--font-sans);
+  color: var(--fg1);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+p { text-wrap: pretty; }
+
+.sheet {
+  overflow: hidden;
+  position: relative;
+  background: var(--bg);
+  color: var(--fg1);
+  page-break-after: always;
+  break-after: page;
+}
+
+/* ---- type ---------------------------------------------------------------- */
+.body { font-family: var(--font-sans); font-size: 10.5pt; line-height: 1.62; color: var(--fg1); }
+.small { font-family: var(--font-sans); font-size: 9pt; line-height: 1.55; color: var(--fg2); }
+.label {
+  font-family: var(--font-sans); font-weight: 600; font-size: 7.5pt;
+  text-transform: uppercase; letter-spacing: var(--track-label); color: var(--fg3);
+}
+.mono {
+  font-family: var(--font-mono); font-size: 7.5pt;
+  text-transform: uppercase; letter-spacing: var(--track-mono);
+  color: var(--fg3); font-feature-settings: "tnum" 1;
+}
+
+/* ---- the wordmark -------------------------------------------------------- */
+/* Serif at 400. The fingerprint's Layer 3 specifies Medium 500 for the
+   wordmark; the Quintessence ratification caps the serif at 400 and the gate
+   enforces it. The cap governs; the drift is recorded in the canon
+   amendment staged for Release. */
+.wordmark {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--fg1);
+  line-height: 1;
+}
+
+/* ---- LP-02 derivative · the masthead ------------------------------------- */
+/* The mark alone in its column, the identification and reach on the axis.
+   The wordmark appears here, on a working document, which the fingerprint's
+   AFOM principle 3 forbids and the Bayport artefact that principle was
+   extracted from does anyway. Operator-directed 2026-08-06; the delta is
+   staged for the canon amendment. */
+.masthead {
+  position: absolute;
+  top: var(--margin-t, 22mm);
+  left: var(--margin-x);
+  right: var(--margin-r);
+}
+.masthead .mark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: var(--mark-size, 13mm);
+  height: var(--mark-size, 13mm);
+}
+.masthead .ident {
+  margin-left: calc(var(--axis) - var(--margin-x));
+}
+.masthead .wordmark { font-size: 13pt; }
+.masthead .reach {
+  margin-top: 2.5mm;
+  font-family: var(--font-sans);
+  font-size: 7.5pt;
+  line-height: 1.5;
+  color: var(--fg3);
+}
+
+/* ---- the text axis ------------------------------------------------------- */
+.axis {
+  position: absolute;
+  left: var(--axis);
+  right: var(--margin-r);
+}
+
+/* ---- the metadata footer, two columns ------------------------------------ */
+/* Bayport runs identification and standing side by side rather than as one
+   corner cluster. Two columns on the axis, each holding two groups. It does
+   not run the full width, so AFOM principle 5 survives intact. */
+.footgrid {
+  position: absolute;
+  left: var(--axis);
+  right: var(--margin-r);
+  bottom: var(--margin-b);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 8mm;
+  font-family: var(--font-sans);
+  font-size: 7pt;
+  line-height: 1.5;
+  color: var(--fg3);
+}
+.footgrid .lead { color: var(--fg1); font-weight: 600; }
+.footgrid .group + .group { margin-top: 3mm; }
+
+/* ---- LP-07 derivative · the marque eyebrow ------------------------------- */
+.marque {
+  font-family: var(--font-sans); font-weight: 600; font-size: 7pt;
+  text-transform: uppercase; letter-spacing: var(--track-label);
+  color: var(--voice-accent);
+}
+
+/* ---- slots · guillemet fields, impossible to miss in a proof ------------- */
+.slot {
+  font-family: var(--font-mono);
+  font-size: 0.86em;
+  letter-spacing: 0.04em;
+  background: var(--voice-tint);
+  color: var(--voice-deep);
+  padding: 0 0.18em;
+}
+[data-register="ink"] .slot { color: var(--voice-light); }
+
+/* ---- the bled wordmark · the card front ---------------------------------- */
+/* The one symmetric moment in the suite. The wordmark is set larger than the
+   card and cropped by the trim on both edges, so the object reads as a
+   fragment of something bigger than itself.
+
+   The bleed lives inside its own clipping box rather than overflowing the
+   sheet, because the sheet's overflow is what the build's gate measures. An
+   intentional bleed must not be indistinguishable from a guillotined line. */
+.bleedbox {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+/* Centred by construction, not by text-align. A line wider than its box does
+   not centre its overflow: Chrome anchors it left and spills right only,
+   which crops one edge and leaves the other intact. Sizing the box to the
+   text and offsetting it by half its own width is what actually shaves both
+   edges alike. Measured, not assumed. */
+.bleedline {
+  width: max-content;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-family: var(--font-serif);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  line-height: 0.92;
+  color: var(--fg1);
+}
+
+/* ---- the rule ------------------------------------------------------------ */
+.rule { border: 0; border-top: 1px solid var(--border); }

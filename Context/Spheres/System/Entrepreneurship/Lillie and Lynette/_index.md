@@ -83,10 +83,13 @@ All work follows The Manor Protocol – five phases, two hard gates, creative ex
 | Agents/_index.md | The Manor Protocol definition |
 | Agents/agent-guidelines.md | Execution tiers, red lines, approval gates |
 | Agents/department-heads.md | Role definitions and specialist seats |
+| Agents/integrations.md | Plugin and tool connections; the provisioning checklist |
+
+Plugin scope is recorded in `Agents/integrations.md`, created 2026-08-08. Nothing is connected: no Notion workspace, no Pennyone key, no payment rail, no property management system and no calendar. Stewardship is the live revenue engine and it runs on no wiring at all – the widest gap in the portfolio measured against stated stage. The PMS selection is the gating decision.
 
 ## Active State
 
-Live state: Notion Projects and Tasks, personal workspace (Lillie and Lynette – Venture Operations).
+Live state: Notion Projects and Tasks, personal workspace (Lillie and Lynette – Venture Operations) – **and the personal workspace has been unreachable since 12 July 2026.** Under the 2026-08-08 one-workspace-per-venture ruling this venture graduates to its own workspace first, being the only unprovisioned venture with live revenue.
 
 ## Key Registries
 

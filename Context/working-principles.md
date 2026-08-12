@@ -6,6 +6,8 @@ A tactical doctrine distilled from the Alex Hormozi "what separates the wealthy"
 
 What remains are mechanics: proof, standards, velocity, volume and patience. Each is routed through leverage — the agentic operating system, Pennyone, the agents — so it compounds without being paid for in health or hours.
 
+Principles 7 through 9 were added 2026-07-24 from a second distillation — serving the counterparty's win, specificity as the test of a real goal, and commitment as the resolution of the crossroads — appraised through the Munger and Buffett lens and adopted by operator ruling.
+
 ---
 
 ## 1. Proof before pudding
@@ -44,10 +46,28 @@ Skills and proximity are assets, priced by the gap between where you are and whe
 
 For you: capital on skills, rooms and proximity to people already at the scale you are building toward is among the highest-return spend available. Watch the voices you decide by, and weight the ones closest to the North Star.
 
+## 7. Their win first
+
+You can have everything you want by helping other people get what they want. The discipline is never to sell what you are doing — it is to find the win of the person across the table, ask what they need and fulfil it. That is the definition of a good business, and it is Munger's oldest law in work clothes: show me the incentive and I will show you the outcome. Genuine interest in their outcome, held above your own, is what unlocks the power to move it.
+
+For you: every Five Points touchpoint already leans this way — the cold DM system opens with pure curiosity about them, the diagnostic gives its findings away. This principle names the source so the bearing survives every future instrument: the first question in any room is what this person actually wants, and the offer is only ever the shortest path to it.
+
+## 8. Goals live only in the specific
+
+Fear exists only in the specific, so goals must exist in the specific to be real and to support accurate decisions. A goal that cannot answer two questions is a wish: what do I actually want to have happen, and what does that change about my actual daily life. Buffett refuses any commitment he cannot write down in plain observables — if you cannot state it, you do not understand it, and if you do not understand it, you are gambling.
+
+For you: the two questions are a gate. Nothing enters Achievements, Projects or a mission record until both are answered in writing on the entry. The GTD discipline already forces specificity downward into pomodoro-sized actions; this forces it upward into the goal itself.
+
+## 9. Unmade decisions last forever
+
+The fetishisation of independence — options-maxing, keeping every door open — is a tax dressed as freedom. The best parts of life sit on the other side of exercising an option and leaving the other doors behind. When people are stuck it is rarely slow execution; it is an unmade decision, and unmade decisions can last forever while charging carrying cost the entire time. Munger prices every yes by the best alternative it forecloses; the refusal to choose forecloses nothing and therefore pays for everything.
+
+For you: principle 4 closes the gap between decision and action — this one closes the gap between crossroads and decision. A lingering unmade decision is a first-class finding: Alfred names it, surfaces it and pushes it to a ruling rather than treating the symptoms downstream of it.
+
 ---
 
 ## Guardrail — what this doctrine is not
 
 This is not a licence to grind. The intensity philosophy was left out by deliberate choice, for a specific reason: the script of working oneself into the ground, however well argued, is the one this entire operating system exists to make unnecessary. Leverage buys the time; the time is not sold. Mental and physical health is a held standard. When velocity is wanted, the system supplies it — the body does not.
 
-*Distilled 2026-06-15. Tactics adopted by operator ruling; philosophy excluded by the same ruling.*
+*Distilled 2026-06-15; principles 7 through 9 added 2026-07-24. Tactics adopted by operator ruling; philosophy excluded by the same ruling.*

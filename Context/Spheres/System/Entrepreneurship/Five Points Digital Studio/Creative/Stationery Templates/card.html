@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="trim" content="74x74mm">
+<title>Business Card – Five Points Digital Studio</title>
+<link rel="stylesheet" href="stationery.css">
+<style>
+/* ==========================================================================
+   BUSINESS CARD – 74 x 74mm square, two sheets: front then back
+
+   A deliberate carve-out from the A-series standard, per the fingerprint, to
+   preserve cardholder compatibility.
+
+   The front is a typographic composition in the Studio Tutto manner,
+   operator-directed 2026-08-06: the two words of the name set at display
+   scale, each line cropped by the trim on both edges, the lines offset
+   against each other so different letters enter and leave the frame, and the
+   tagline seated in the band the leading opens between them. Type as the
+   entire surface; no mark, no other element. The wordmark-only lockup is
+   sanctioned for surfaces where the mark would be redundant, and the mark
+   holds the back.
+
+   The back returns to the axis: the mark alone in its column, the role and
+   the name on the axis at reading height, and a ruled reach block anchored
+   at the foot.
+   ========================================================================== */
+
+@page { size: 74mm 74mm; margin: 0; }
+
+.sheet {
+  width: 74mm;
+  height: 74mm;
+  --margin-t: 9mm;
+  --margin-x: 9mm;
+  --axis: 21mm;
+  --margin-r: 9mm;
+  --margin-b: 9mm;
+}
+
+/* ---- front --------------------------------------------------------------- */
+.front .stack {
+  position: absolute;
+  left: 0; right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Offsets are struck through the centring transform: each line is centred by
+   construction, then pushed off-axis so the crops read asymmetric - the
+   letters enter one edge deeper than they leave the other. Sizes and shifts
+   are measured against the rendered widths, not assumed. */
+.front .l1 {
+  font-size: 36mm;
+  transform: translateX(calc(-50% - 4mm));
+}
+.front .l2 {
+  font-size: 23mm;
+  margin-top: 6mm;
+  transform: translateX(calc(-50% + 3mm));
+}
+
+/* The tagline sits in the band the leading opens between the two lines,
+   anchored to the left margin - the Tutto move. The one surface where the
+   tagline appears in the suite. One line; the band is 6mm. */
+.front .tagline {
+  position: absolute;
+  left: var(--margin-x);
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--voice-light);
+  z-index: 1;
+}
+
+/* The colophon. Foundry specimen culture in the house annotation voice -
+   the artefact states what it is, in mono, at whisper size. Facts only:
+   the marque line and the founding year. The foundry credit joins it when
+   the licensed faces land and the claim becomes true. */
+.front .colophon {
+  position: absolute;
+  left: var(--margin-x);
+  bottom: 3.5mm;
+  font-family: var(--font-mono);
+  font-size: 6pt;
+  letter-spacing: var(--track-mono);
+  text-transform: uppercase;
+  color: var(--voice-light);
+  z-index: 1;
+}
+
+/* ---- back ---------------------------------------------------------------- */
+.back .mark-slot { position: absolute; top: var(--margin-t); left: var(--margin-x); }
+.back .mark-slot .mark { width: 9mm; height: 9mm; }
+/* The crystal's own designation from the design system's asset ledger,
+   set beneath it the way a foundry annotates a specimen. Lands for someone
+   paying attention; disappears for someone who is not. */
+.back .mark-index {
+  margin-top: 2mm;
+  font-family: var(--font-mono);
+  font-size: 5.5pt;
+  letter-spacing: var(--track-mono);
+  text-transform: uppercase;
+  color: var(--fg3);
+}
+
+.back .role {
+  position: absolute;
+  left: var(--axis);
+  top: 28mm;
+}
+.back .person {
+  position: absolute;
+  left: var(--axis);
+  right: var(--margin-r);
+  top: 34mm;
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: 20pt;
+  line-height: 1.08;
+  letter-spacing: var(--track-tight);
+  color: var(--fg1);
+}
+
+.back .reachblock {
+  position: absolute;
+  left: var(--axis);
+  right: var(--margin-r);
+  bottom: var(--margin-b);
+  padding-top: 3mm;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-family: var(--font-sans);
+  font-size: 7pt;
+  line-height: 1.55;
+  color: var(--fg3);
+}
+.back .reachblock .where { text-align: right; }
+</style>
+</head>
+<body data-voice="coral">
+
+<!-- FRONT · ink flood, the name as the entire surface -->
+<section class="sheet front" data-register="ink">
+  <div class="bleedbox">
+    <div class="stack">
+      <div class="bleedline l1">Five</div>
+      <div class="bleedline l2">Points</div>
+    </div>
+  </div>
+  <div class="tagline label">Connecting passion to possibility</div>
+  <div class="colophon">A Five Points Commission &middot; est 2021</div>
+</section>
+
+<!-- BACK · bone, the mark and the person on the axis -->
+<section class="sheet back">
+  <div class="mark-slot">
+    <img class="mark" src="assets/mark-ink.svg" alt="Five Points">
+    <div class="mark-index">QT-001</div>
+  </div>
+
+  <div class="role label"><span class="slot">«TITLE»</span></div>
+
+  <div class="person">
+    <span class="slot">«NAME»</span>
+  </div>
+
+  <div class="reachblock">
+    <div class="reach-lines">
+      <span class="slot">«EMAIL»</span><br>
+      fivepoints.studio
+    </div>
+    <div class="where">Decatur,<br>Georgia</div>
+  </div>
+</section>
+
+</body>
+</html>

@@ -1,8 +1,8 @@
 ---
 file_type: brand_fingerprint
 venture: Five Points Digital Studio
-version: 2.9
-last_updated: 2026-07-22
+version: 3.1
+last_updated: 2026-08-10
 ---
 
 # Five Points Digital Studio – Brand Fingerprint
@@ -54,7 +54,7 @@ The asset-and-commission positioning is the invariant truth – it does not amen
 
 ### Governing rules
 
-The operating rules live in the Cross-Layer Principles below – the Asset Principle, the Marque Principle, the A-Series standard and the AFOM execution principles. The master filter sits above them all: does this compound or does it consume. Anything that consumes is not Five Points work.
+The operating rules live in the Cross-Layer Principles below – the Asset Principle, the Marque Principle, the Proximity Principle, the A-Series standard and the AFOM execution principles. The master filter sits above them all: does this compound or does it consume. Anything that consumes is not Five Points work.
 
 ---
 
@@ -76,6 +76,25 @@ Where it surfaces across layers:
 | Layer 2 | Ferrari and Rolls-Royce archival material in the canonical photography references. Hand-built detail shots, craftsmen at work, technical drawings, archival treatments |
 | Layer 3 | Proposals reframed as commissioning documents. Case studies as marque histories. System Operations Manuals as owner's books. "A Five Points Commission" as the marque eyebrow on every cover page |
 | Layer 4 | When in doubt, ask what Rolls-Royce Bespoke or Ferrari Special Projects would do. Treat every engagement as a commission, every client as a principal, every deliverable as a marque-grade artefact |
+
+### The Proximity Principle
+
+Five Points does not charge for work. It prices the return. Every commission is the principal's investment in their own infrastructure – an asset built to return the stake many times over – and the fee is set in proximity to the return the studio believes the asset will produce. The cost of the build never sets the number and the hour never enters the arithmetic. The asset's yield does.
+
+The Asset Principle is what Five Points makes. The Marque Principle is how Five Points treats what it makes. The Proximity Principle is how Five Points prices what it makes. Three disciplines follow:
+
+1. **No fee without a named return.** A price is not set until the believed return is stated. The Two Prices discipline names the cost of no; this principle sets the return of yes beside it, and the fee stands in honest proximity to that number.
+2. **No credible return, no commission.** Work whose return the studio cannot state with conviction is declined. There is nothing to price.
+3. **Conviction, never warranty.** The believed return is the studio's judgement, stated plainly and owned. It is never dressed as a guarantee.
+
+Where it surfaces across layers:
+
+| Surface | How it surfaces |
+|---|---|
+| The offer ladder | The $197, $1,970 and $19,700 doors read as three proximities to three magnitudes of return, never as three quantities of effort |
+| Evolution | Already priced by this law – 20% of commission value annually, indexed to the asset, never to the hours of stewardship |
+| Commissioning documents | The believed return is named beside the fee, so the principal reads the price as a stake, never a cost |
+| Decision Defaults | Default 3 – lead with the value equation, never the hourly rate – descends from this principle |
 
 ### The A-Series Paper Standard
 
@@ -161,6 +180,10 @@ Operator-directed 2026-07-20, widened studio-wide by ruling the same day. The ma
 4. Built once, owned for life, compounding every quarter.
 
 **Proof points:** the survey before the build – the operation mapped as a system before a single component is assembled; the Construct builds and the owner's books – commissioned artefacts the owner keeps and operates; the marque standard on every artefact.
+
+### The category doorway – scope note
+
+Operator-ruled 2026-08-10, reconciling the 25 July marketing-house framing through amendment rather than strike. Five Points trades in the digital-marketing category – it is where the buyer searches, how directories list the studio and the vocabulary of arrival. The category is the doorway, never the identity. On doorway surfaces – page titles, meta descriptions, directory and profile listings, ad copy and search-facing headlines – digital-marketing category vocabulary is permitted as a market search term, exactly as the Construct scope note permits the word "AI". In brand prose describing what the studio is, the invariant core holds: an infrastructure house dealing in assets and commissions, never a marketing vendor. The Rebuild Position above is the bridge that walks a category arrival into the asset canon.
 
 ### Tagline
 
@@ -858,6 +881,10 @@ Every check is pass or fail. A single failure holds the output until resolved.
 
 - **2026-07-22 – Evolution reframed as asset governance.** Operator-directed in session, the lens arriving via Evan Brown of BlackRock. Evolution gains its internal anatomy: the governance of the commissioned asset across three pillars – infrastructure, maintenance terms and data integrity – audited by a quarterly governance review with a success analysis against commissioning expectations, an integrity reconciliation and a competitive benchmark. "Governance" enters client-facing vocabulary as the name of the discipline; the Evolution door name, the 20% quarterly-billed pricing and the never-use status of "maintenance" and "support" as service descriptors are unchanged. A scope note is added to Terminology Governance. Doctrine established at `Foundation/asset-governance-doctrine.md`; operating procedure at `Operations/SOPs/quarterly-governance-review.md`.
 
+- **2026-08-10 – The Proximity Principle joins the Cross-Layer Principles.** Operator-directed in session, in the operator's founding words: the studio charges nothing – it asks a principal to invest in themselves, in infrastructure built to return the investment hand over fist – and anything charged sits in proximity to how much the studio believes will be returned. Seated as the third cross-layer principle: the Asset Principle is what Five Points makes, the Marque Principle is how it treats what it makes, the Proximity Principle is how it prices what it makes. Binds pricing three ways – no fee before the believed return is named, no commission where no credible return can be stated, conviction never dressed as warranty. The Governing rules enumeration in Layer 0 gains the principle; Decision Default 3 now traces here. The validated ladder and the Evolution 20% are unchanged – the principle reads them as proximities to magnitudes of return. Twin installation: the money-velocity law entered the operator's personal heuristics file the same day. Version 2.9 to 3.0.
+
+- **2026-08-10 – The category doorway reconciles the marketing-house frame.** Operator-ruled at the Offer Architecture Audit rulings pass, choosing reconciliation over strike for contradiction C7. The 25 July framing – "a digital marketing house at heart with AI supercharging the systems" – contradicted the Layer 0 invariant while reaching for something real: category legibility where buyers search. The reconciliation follows the Construct-and-AI precedent: a scope note added to Layer 1 beneath the Rebuild Position permits digital-marketing category vocabulary on doorway surfaces – page titles, meta descriptions, listings, ad copy and search-facing headlines – while brand prose describing what the studio is holds the asset-and-commission invariant. The phrase "at heart" is retired: the heart is the invariant, the category is the door and the Rebuild Position remains the bridge between them. Version 3.0 to 3.1.
+
 ---
 
-*Version 2.9. Last updated 22 July 2026 – Evolution reframed as asset governance.*
+*Version 3.1. Last updated 10 August 2026 – the category-doorway scope note reconciles the marketing-house frame.*

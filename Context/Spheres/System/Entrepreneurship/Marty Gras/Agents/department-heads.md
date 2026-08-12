@@ -3,7 +3,7 @@ file_type: reference
 document_type: department_heads
 venture: Marty Gras
 status: active
-last_updated: 2026-06-11
+last_updated: 2026-08-04
 ---
 
 # Department Heads – Marty Gras
@@ -39,7 +39,7 @@ When a task enters the system:
 
 | Role | Scope |
 |---|---|
-| Editorial Director | Newsletter voice, podcast themes, content pillars, editorial calendar |
+| Editorial Director | Epiphany voice, Conversation themes, content pillars, editorial calendar |
 | Cultural Curator | Trend sensing, cultural references, curation of ideas and influences |
 | Brand Voice Guardian | Consistency across platforms, tone calibration per channel |
 | Visual Director | Social aesthetics, cover art, visual storytelling standards |
@@ -71,7 +71,7 @@ When a task enters the system:
 | Field | Value |
 |---|---|
 | Studio | Production |
-| Domain | Podcast production, newsletter production, social content creation, video production |
+| Domain | Conversation production, Epiphany production, music production, social and video production |
 | Primary files | `Production/_index.md`, `Production/Agents/_index.md`, `Operations/SOPs/_sop-registry.md` |
 | Reports to | Alfred |
 
@@ -79,8 +79,8 @@ When a task enters the system:
 
 | Role | Scope |
 |---|---|
-| Podcast Producer | Episode planning, recording prep, show notes, audio post-production via ElevenLabs |
-| Newsletter Producer | Epiphany edition drafting, formatting, Substack publishing workflow |
+| Conversation Producer | Conversation planning, recording prep, show notes, audio post-production via ElevenLabs |
+| Epiphany Producer | Epiphany drafting, formatting, Substack publishing workflow |
 | Social Content Producer | Platform-native content creation, asset preparation, caption writing |
 | Quality Assurance | Pre-publish review for all content types – voice, accuracy, formatting |
 
@@ -102,7 +102,7 @@ When a task enters the system:
 | Audience Growth Lead | Subscriber growth tactics, cross-platform expansion, referral loops |
 | Partnership Scout | Identifying collaboration opportunities, aligned creators, brand partners |
 | Sponsorship Lead | Sponsor outreach, qualification, proposal, negotiation |
-| Guest Coordinator | Podcast guest identification, outreach, booking, preparation |
+| Guest Coordinator | Conversation guest identification, outreach, booking, preparation |
 
 ---
 
@@ -120,7 +120,7 @@ When a task enters the system:
 | Role | Scope |
 |---|---|
 | Pipeline Manager | Content pipeline tracking – ideation through publication |
-| Distribution Coordinator | Syndication scheduling via Pennyone, cross-platform publishing, newsletter delivery |
+| Distribution Coordinator | Syndication scheduling via Pennyone, cross-platform publishing, Epiphany delivery |
 | Systems Administrator | Tool configuration, integration management, workflow automation |
 | Clientele Coordinator | Sponsor, collaborator and featured guest relationship management |
 

@@ -10,10 +10,15 @@ The client has an existing brand. The logo and type identity were lifted from th
 
 | File | Purpose | Status |
 |---|---|---|
-| `Logo/logo-original.png` | Logo lifted from the live site (173x174, RGBA, transparent) | Present (lifted 2026-06-22) |
-| `Logo/logo-600.png` | 600px render for reference and web use | Present |
-| `Logo/logo-production.png` | Web-optimised version shipped to the codebase | Pending |
-| `Logo/logo.svg` | Vector source for retina and dark-background use | Requested from client |
+| `Logo/logo-master.png` | The operator-preferred transparent cut (448px after trim) — canonical for all placements | Present (supplied 2026-07-29) |
+| `Logo/logo-master-light.png` | Dark-ground variant — neutral ink recoloured to cream, gold and blue untouched | Present (derived 2026-07-29) |
+| `Logo/logo-source-2250.png` | The full 2250px client artwork on its white ground — the high-resolution source | Present (supplied 2026-07-29) |
+| `Logo/logo-wix-lifted-2026-06-22.png` | The 173px raster lifted from the old Wix site — superseded, retained for the record | Archived |
+| `Logo/logo-original.png` | Logo lifted from the live site (173x174, RGBA, transparent) | Superseded 2026-07-29 |
+| `Logo/logo-600.png` | 600px render for reference | Superseded 2026-07-29 |
+| `Logo/logo.svg` | Vector source for retina use | Still requested from client; the raster set covers current needs |
+
+Shipped to the codebase 2026-07-29: `public/logo.png` (colour), `public/logo-light.png` (dark-ground cream), `src/app/icon.png` (favicon), `src/app/apple-icon.png` (180px on the warm-white field, since iOS flattens transparency onto black). Site placements render at 46px (nav emblem) and 190px (footer crest), both within the master's resolution.
 
 The logo depicts a slate-blue tower topped by a gold cross, wrapped in a gold halo/crescent, with the wordmark "Strong Tower" in an elegant script and serif over "Christian Ministry". Lifted from Wix media; request the original vector from the client for crisp retina and dark-background placement.
 

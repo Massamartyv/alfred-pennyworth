@@ -28,7 +28,7 @@
   font-weight: 600;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--accent-gold-deep);
+  color: var(--accent-gold-text);
   margin-bottom: 1.25rem;
 }
 
@@ -57,7 +57,7 @@
 }
 
 .infoList a:hover {
-  color: var(--accent-gold-deep);
+  color: var(--accent-gold-text);
 }
 
 .svcList {

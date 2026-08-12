@@ -2,7 +2,7 @@
 
 ## Spheres Covered
 
-Arabic, Botany, Chemical Engineering, Education, French, Japanese, Javascript, Korean, Law, Mandarin, Mechanical Engineering, Medicine, Philosophy, Physics, Public Speaking, Python, Spanish, Swift
+Arabic, Botany, Chemical Engineering, Education, French, Japanese, Javascript, Korean, Law, Mandarin, Mathematics, Mechanical Engineering, Medicine, Philosophy, Physics, Public Speaking, Python, Spanish, Swift
 
 ---
 
@@ -11,6 +11,12 @@ Arabic, Botany, Chemical Engineering, Education, French, Japanese, Javascript, K
 Live state: Notion Sphere Manager, personal workspace.
 
 Spanish language support has its own graduated file at `Context/Spheres/Mind/Spanish/spanish.md`.
+
+Medicine has its own sphere folder at `Context/Spheres/Mind/Medicine/`, routed by `_index.md`, with the values charter at `Context/Spheres/Mind/Medicine/values-charter.md` as its founding artefact.
+
+Philosophy has a graduated file at `Context/Spheres/Mind/Philosophy/worldly-wisdom.md` – the Munger latticework, the founding artefact of the sphere's reasoning track.
+
+Mathematics was founded 2026-08-04 at `Context/Spheres/Mind/Mathematics/_index.md`. It holds statistics, probability and accounting inside it rather than splitting them into separate spheres.
 
 ---
 
@@ -33,6 +39,10 @@ These are not separate from the other spheres – they are the lens through whic
 
 Writing is both a creative discipline and a thinking tool. It spans personal reflection (journaling), public expression (Substack, social), and philosophical exploration. When advising on writing, treat it with the seriousness of craft, not the casualness of content production.
 
+### Medicine
+
+Root-cause, natural-first personal medicine practised in partnership with licensed care. The sphere holds the therapeutic ladder, the evidence grades, the consultation method stack, functional laboratory ranges and the herbal materia medica. Load `Context/Spheres/Mind/Medicine/values-charter.md` on any health question before anything else in the folder; it governs what may be recommended and how honestly it must be graded. The operating record lives in Notion as three resource databases on the Medicine sphere page, and the `dr-thompkins` skill is the instrument that practises it.
+
 ### Language Learning
 
 Active language: Spanish (see graduated file for full protocol)
@@ -49,6 +59,7 @@ Skills live at `~/.claude/skills/` and are referenced logically by sphere.
 | Skill | Sphere | Surface | When to invoke |
 |---|---|---|---|
 | grammar-nazi | Public Speaking (Writing discipline) | Both | Cross-cutting copy audit. Run after any written output against the global grammar and style ruleset. Touches every cluster in practice; anchored here because the craft of written language lives in Mind. |
+| dr-thompkins | Medicine | Personal | Personal physician. Symptoms, laboratory panels, botanicals, health decisions. Reads the Medicine sphere files and charts to the Notion resource databases. Routes fitness to personal-trainer, food to michelin-chef and inner work to therapist. |
 
 ---
 
@@ -62,4 +73,4 @@ Skills live at `~/.claude/skills/` and are referenced logically by sphere.
 
 ---
 
-*Last updated: 2026-07-23 – retired Current State block replaced with the standard Notion pointer.*
+*Last updated: 2026-07-25 – Medicine sphere founded; folder pointer, sphere context and the dr-thompkins skill row added.*

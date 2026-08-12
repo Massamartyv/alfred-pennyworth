@@ -31,7 +31,7 @@
    - **Pass** – executed without issue, documentation was accurate
    - **Fail** – execution errored or blocked and the document did not prevent it
    - **Drifted** – the procedure worked but the document no longer describes what was done (UI changed, path changed, command changed)
-   File the full scored report to `Logs/` as `restore-drill-YYYY-MM-DD.md`.
+   File the full scored report as an Alfred Logs entry – Log Type Audit/Analysis, related to the Alfred operating system project – matching the heartbeat's instruction for the same artefact.
 
 6. **Fix the manuals the same day.** Update `genesis.md`, `accounts-inventory.md`, and `secrets-inventory.md` to match what the drill revealed. Do not carry forward known drift. Drift compounds between drills and is unacceptable in a life-insurance document.
 
@@ -55,4 +55,4 @@ The manual is the system's life insurance. A known gap in life insurance is not 
 
 ---
 
-*Last updated: 2026-06-11*
+*Last updated: 2026-08-11 – Domesday truth pass: drill-report destination corrected from the retired Logs/ directory to Notion Alfred Logs, resolving the contradiction with Agents/heartbeat.md.*

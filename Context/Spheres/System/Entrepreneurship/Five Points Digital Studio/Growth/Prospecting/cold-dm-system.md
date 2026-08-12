@@ -9,7 +9,7 @@
 
 ## The bearing
 
-We do not sell. We serve. A DM sequence is four touches with air between them, and the first one does not mention Five Points at all.
+We do not sell. We serve. This is working principle 7 — their win first: find the win of the person across the table, ask what they need and become the shortest path to it. A DM sequence is four touches with air between them, and the first one does not mention Five Points at all.
 
 1. **Touch 1 is pure curiosity about them.** Show you know their world, ask one real question, and stop. No pitch, no link, no mention of what you do. The goal is a reply, not a booking. This is the change that kills the salesy read.
 2. **Let the cost do the persuading, not your opinion.** When you go deeper, you ask about the gap and what it costs — you never assert that they have a problem.
@@ -37,6 +37,8 @@ We do not sell. We serve. A DM sequence is four touches with air between them, a
 ## Instagram track
 
 **Register.** Spare, observational, human. The owner often runs the account, so it is personal — keep it cool, not familiar. No emoji. Keep Touch 1 short enough to survive the message-request preview.
+
+**Anti-template rule (operator ruling, 2026-07-24).** Never open with the "[First name] — observation" pattern; it reads as a mail merge. The templates below define structure and intent only. Every sent message is drafted fresh as flowing, natural prose — the name woven into a sentence where it belongs, sentence shapes varied across a batch so no two messages share a skeleton. Each message should read as the genuine start of a conversation that could become a partnership.
 
 ### Touch 1 — show you know them, by vertical
 

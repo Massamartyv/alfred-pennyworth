@@ -67,8 +67,9 @@ Ship it. Launch the product. Publish the campaign. Send the deliverable. Clean, 
 | `_index.md` | This file. The Manor Protocol definition. |
 | `agent-guidelines.md` | Execution tiers, red lines, approval gates |
 | `department-heads.md` | Role definitions and specialist seats |
+| `integrations.md` | Plugin and tool connections; the provisioning checklist |
 
-Plugin scope to be determined on copy. No `integrations.md` exists until configured.
+Plugin scope is provisioned on copy, not deferred. `integrations.md` ships with the template and carries the provisioning checklist every sovereign venture works through on first use.
 
 ### Studio-level agentic layer
 

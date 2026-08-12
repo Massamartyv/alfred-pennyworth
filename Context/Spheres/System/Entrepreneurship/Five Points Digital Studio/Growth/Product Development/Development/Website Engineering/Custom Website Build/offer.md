@@ -9,7 +9,11 @@
 
 ## Pricing
 
-**Price:** $7,500 to $12,000 (project based)
+**Price:** $11,500 (one number, range retired – benchmark analysis 2026-07-24, see `pricing-benchmark-analysis.md`)
+
+Scope variability is priced through named additions, never through a range. Flex floor for negotiation: $9,500.
+
+**Founding-client locks (2026-07-24 operator ruling):** Strong Tower Christian Ministry and Hibachi With A Twist hold this commission at $7,500 in appreciation as founding clients. The lock applies to these two clients only.
 
 ## Format
 

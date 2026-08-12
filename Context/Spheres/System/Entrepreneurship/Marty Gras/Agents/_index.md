@@ -2,7 +2,7 @@
 file_type: agent_governance
 venture: Marty Gras
 methodology: The Manor Protocol
-last_updated: 2026-06-11
+last_updated: 2026-08-04
 ---
 
 # The Manor Protocol – Marty Gras
@@ -13,7 +13,7 @@ The proprietary methodology governing all work at Marty Gras. Every studio is a 
 
 ## Philosophy
 
-Marty Gras is a media company. The stakes of "craft" are visible to an audience every time content ships. The Manor Protocol does not treat this lightly. A newsletter edition is craft. A podcast episode is craft. A social caption is craft. A sponsorship negotiation is craft. The methodology holds every output to the same standard regardless of which studio produced it.
+Marty Gras is a media company. The stakes of "craft" are visible to an audience every time content ships. The Manor Protocol does not treat this lightly. An Epiphany is craft. A Conversation is craft. A mix is craft. A social fragment is craft. A sponsorship negotiation is craft. The methodology holds every output to the same standard regardless of which studio produced it.
 
 ## The Lifecycle
 
@@ -35,7 +35,7 @@ The editorial call. A point of view crystallises from the reconnaissance. This i
 
 ### 3. Execution
 
-Build the thing. Write the newsletter. Record the podcast. Craft the social post. Design the asset. The brief is the guardrail. Craft is the standard.
+Build the thing. Write the Epiphany. Record the Conversation. Cut the mix. Craft the social fragment. Design the asset. The brief is the guardrail. Craft is the standard.
 
 **Primary crews:** Creator
 
@@ -49,7 +49,7 @@ Hold the output against the brief and the standard. Is it excellent? Does it sou
 
 ### 5. Release
 
-Ship it. Publish the newsletter. Release the episode. Post the content. Clean, complete, delivered.
+Ship it. Publish the Epiphany. Release the Conversation. Post the fragment. Clean, complete, delivered.
 
 **Primary crews:** Broadcaster
 
@@ -88,7 +88,7 @@ Every studio contains an `Agents/` subfolder with a standard structure:
 |---|---|---|
 | **Creative** | Editorial direction, voice, brand system, content product definitions | What Marty Gras sounds like, looks like, feels like |
 | **Strategy** | Audience research, platform intelligence, cultural positioning | The thinking behind the work |
-| **Production** | Podcast production, newsletter production, social content making | The execution engine for content |
+| **Production** | Conversation production, Epiphany production, music and social production | The execution engine for content |
 | **Growth** | Audience growth, partnerships, sponsorships, collaborations | Reach expansion and revenue relationships |
 | **Operations** | Content pipeline, scheduling, tool stack, clientele management | The engine room |
 | **Finance** | Revenue, expenses, projections, tax, metrics | The numbers |
@@ -121,15 +121,15 @@ The five universal crews classify the type of work, not who does it. Full defini
 
 ### Lightweight tasks
 
-Not every task requires all five phases. A template-based social post does not need Reconnaissance. A routine newsletter send does not need Direction approval if the edition is already in the pipeline. Use judgement.
+Not every task requires all five phases. A template-based social post does not need Reconnaissance. A routine Epiphany send does not need Direction approval if it is already in the pipeline. Use judgement.
 
 ### Multi-phase workflows
 
-Complex deliverables – a podcast episode, a major newsletter essay, a sponsorship pitch – may cycle through Execution and Critique multiple times before Release. The hard gate after Critique means human eyes before the audience sees it.
+Complex deliverables – a Conversation, a major Epiphany, a sponsorship pitch – may cycle through Execution and Critique multiple times before Release. The hard gate after Critique means human eyes before the audience sees it.
 
 ### Cross-studio work
 
-When work spans multiple studios (Creative sets the editorial direction, Production builds the episode, Growth sells the sponsorship, Operations schedules the release), each studio runs its own lifecycle on its portion. The Mediator and Broadcaster crews coordinate handoffs and distribute state.
+When work spans multiple studios (Creative sets the editorial direction, Production builds the Conversation, Growth sells the sponsorship, Operations schedules the release), each studio runs its own lifecycle on its portion. The Mediator and Broadcaster crews coordinate handoffs and distribute state.
 
 ---
 

@@ -5,9 +5,12 @@
 }
 
 /* ───────── Leader cards ───────── */
+/* Cards size to their own content. Bios differ in length, and stretching
+   them to a shared height leaves a dead panel under the shorter one. */
 .leaderGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: start;
   gap: 2rem;
 }
 
@@ -56,7 +59,7 @@
 
 .leaderName {
   font-size: var(--text-h4);
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: 1rem;
 }
 
@@ -94,7 +97,7 @@
 
 .ctaTitle {
   font-size: var(--text-h2);
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: 1rem;
 }
 

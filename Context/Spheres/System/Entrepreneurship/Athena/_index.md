@@ -38,12 +38,15 @@ When a task arrives, load the relevant department `_index.md` first. Each depart
 
 1. This file – orient to the venture
 2. `Operations/AI/agent-guidelines.md` – know the rules
-3. Relevant department `_index.md` – find the right files
-4. Specific file for the task at hand
+3. `Operations/AI/integrations.md` – know what is connected; the answer is nothing
+4. Relevant department `_index.md` – find the right files
+5. Specific file for the task at hand
 
 ## Active State
 
 Live state: Notion Projects and Tasks, personal workspace (Athena – Venture Operations).
+
+Nothing is provisioned and nothing should be while the venture is dormant, per `Operations/AI/integrations.md` created 2026-08-08. Under the 2026-08-08 one-workspace-per-venture ruling Athena would hold its own Notion workspace; provisioning is held until reactivation, at which point the seven-studio migration happens first and the registry moves to `Athena/Agents/integrations.md` with it.
 
 ## Key Registries
 

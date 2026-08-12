@@ -6,7 +6,7 @@ Governs when and how unlisted offers are quoted. Established by operator ruling 
 
 ## Definitions
 
-- **The doors.** The three public offers – the Survey, the Commission and Evolution. These are named on public surfaces. Their prices are not. The middle door was named the Rebuild commission at the 2026-07-20 prune and renamed the Commission by operator ruling 2026-07-21 – the Rebuild Position remains the governing frame above the doors and no door names a task.
+- **The doors.** The three public offers – the Survey, the Commission and Evolution. These are named on public surfaces. The Survey is priced and buyable publicly under the 2026-08-10 re-split; the Commission and Evolution are priced in conversation. The middle door was named the Rebuild commission at the 2026-07-20 prune and renamed the Commission by operator ruling 2026-07-21 – the Rebuild Position remains the governing frame above the doors and no door names a task.
 - **The private menu.** Every offer that is not a door. Sellable but unlisted, quoted on request. The 39-offer catalogue survives here as delivery architecture.
 - **The reserved tier.** Human Construct at Platinum and any commission above the $35,000 Platinum floor. Principal-only under the standing ruling of the Offer Pressure Test – a stricter gate than the private menu.
 - **Qualified discovery.** A completed discovery call plus ICP qualification – the discovery-architect dossier or a prospect-appraiser rating on the CRM card constitutes qualification.
@@ -19,19 +19,21 @@ Governs when and how unlisted offers are quoted. Established by operator ruling 
 
 ## Price rules
 
-1. No price appears on any public surface – site, social, outbound sequences, lead magnets, printed collateral. This includes door prices.
-2. Prices are quoted only in commissioning documents and direct correspondence, after the commissioning configurator or a discovery call has captured the shape of the operation.
+1. Pricing is split by rung – operator ruling 2026-08-10, superseding the 2026-07-25 posture that held every price in the sales room. The Survey and the Camp Pennyworth seat are priced and buyable on public surfaces – the machine performs the ask. The Commission, Evolution and the reserved tier are priced only in conversation – the marque performs the mystique.
+2. Prices for the Commission and above are quoted in commissioning documents and direct correspondence, after the commissioning configurator or a discovery call has captured the shape of the operation.
 3. Quoted prices come from the validated ladder – $197, $1,970, $19,700 – with the Blueprint delivered as the deep diagnostic inside the $1,970 engagement.
 4. Evolution is quoted at commissioning: 20% of the commission value annually, billed quarterly. The formula is internal and never stated as a formula to the principal – the quote is given as a number.
-5. Every quote carries the Two Prices rule – the cost of yes and the ledger of no, the cost of inaction anchored before the fee.
+5. Every quote carries the Two Prices rule and the Proximity Principle – the cost of inaction anchored before the fee and the believed return named beside it, so the fee reads as a stake in proximity to that number.
+6. The Survey credits in full toward the Commission within 60 days. The credit is stated on the offer surface and in every Survey commissioning document – the engagement is a deposit, never an expense.
+7. Revisit trigger on the re-split: if the publicly priced Survey has not been purchased by at least three strangers by 30 September 2026, the split returns to the Direction gate with the sales-room posture as the named fallback. Camp fill rides as the secondary signal.
 
 ## Channel rules
 
 | Surface | May name the doors | May name private-menu offers | May state prices |
 |---|---|---|---|
-| Public website | Yes | No | No |
-| Social and content | Yes | No | No |
-| Cold outbound sequences | Yes | No | No |
+| Public website | Yes | No | Survey and Camp only |
+| Social and content | Yes | No | Survey and Camp only |
+| Cold outbound sequences | Yes | No | Survey and Camp only |
 | Discovery calls | Yes | After qualification, as a response | Verbally, with written follow-up |
 | Commissioning documents and proposals | Yes | Yes | Yes |
 | Direct correspondence with qualified prospects | Yes | Yes | Yes |
@@ -48,4 +50,4 @@ Review at the quarterly heartbeat. If prospects repeatedly ask for offers the su
 
 ---
 
-*Last updated: 2026-07-21 – middle door renamed the Commission.*
+*Last updated: 2026-08-10 – the price re-split with revisit trigger, the Survey-credits-toward-Commission rule and the Proximity Principle quote line.*

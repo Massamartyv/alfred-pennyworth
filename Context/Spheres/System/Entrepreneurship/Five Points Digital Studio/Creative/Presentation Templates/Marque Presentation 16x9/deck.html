@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<title>Marque Presentation 16x9 – Five Points Digital Studio</title>
+<link rel="stylesheet" href="fonts.css">
+<style>
+/* ==========================================================================
+   MARQUE PRESENTATION 16:9 – the master deck framework (The Letterpress, LP)
+   Ten sheets, 1280 x 720 CSS px each, rendered to PDF by build.py.
+
+   Framework: twelve components (LP-01 .. LP-12) stripped from a reference
+   editorial trend report and remade in the Quintessence design world.
+   Tokens below are copied from the design system foundations
+   (five-points-design/colors_and_type.css) so the document is self-contained
+   and renders with no network. Do not restyle ad hoc; derive.
+   ========================================================================== */
+
+@page { size: 1280px 720px; margin: 0; }
+
+:root {
+  --font-serif: 'PP Editorial New', 'Sentient', Georgia, 'Times New Roman', serif;
+  --font-sans:  'PP Neue Montreal', 'General Sans', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+  --font-mono:  'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  --bone-050: #FBF7EE;
+  --bone-100: #F4EDDD;
+  --bone-200: #EAE0C8;
+  --bone-300: #DED2B5;
+  --bone-400: #C9BC9C;
+
+  --ink-900: #0F0F10;
+  --ink-800: #1C1A17;
+
+  --warm-800: #2B2823;
+  --warm-600: #5E574C;
+  --warm-500: #7A7264;
+  --warm-400: #9A9284;
+  --warm-300: #BDB4A2;
+
+  --coral-light: #D96E6E; --coral: #A72C2C; --coral-deep: #832222; --coral-tint: #F6DDDD; --coral-wash: #F5ECEC;
+  --cornflower-light: #8AACD9; --cornflower: #305A92; --cornflower-deep: #25456F; --cornflower-tint: #DEE8F4; --cornflower-wash: #EDF0F5;
+  --sun-light: #F8DC55; --sun: #695804; --sun-deep: #453A03; --sun-tint: #FDF6D5; --sun-wash: #F8F6EA;
+  --lavender-light: #A491CD; --lavender: #6549A1; --lavender-deep: #513B81; --lavender-tint: #E6E1F1; --lavender-wash: #F0EEF4;
+  --sage-light: #8CBFA6; --sage: #37624D; --sage-deep: #274536; --sage-tint: #E3F0E9; --sage-wash: #EFF3F1;
+
+  --bg: var(--bone-200);
+  --bg-raised: var(--bone-100);
+  --bg-sunken: var(--bone-300);
+  --fg1: var(--ink-900);
+  --fg2: var(--warm-800);
+  --fg3: var(--warm-600);
+  --border: var(--bone-400);
+  --border-strong: var(--warm-500);
+
+  --voice: var(--warm-600);
+  --voice-light: var(--bone-200);
+  --voice-deep: var(--ink-900);
+  --voice-tint: var(--bone-100);
+  --voice-wash: var(--bone-100);
+  --voice-accent: var(--ink-900);
+
+  --track-display: -0.012em;
+  --track-tight: -0.008em;
+  --track-label: 0.14em;
+  --track-mono: 0.08em;
+}
+
+[data-voice="coral"]      { --voice: var(--coral);      --voice-light: var(--coral-light);      --voice-deep: var(--coral-deep);      --voice-tint: var(--coral-tint);      --voice-wash: var(--coral-wash);      --voice-accent: var(--coral); }
+[data-voice="cornflower"] { --voice: var(--cornflower); --voice-light: var(--cornflower-light); --voice-deep: var(--cornflower-deep); --voice-tint: var(--cornflower-tint); --voice-wash: var(--cornflower-wash); --voice-accent: var(--cornflower); }
+[data-voice="sun"]        { --voice: var(--sun);        --voice-light: var(--sun-light);        --voice-deep: var(--sun-deep);        --voice-tint: var(--sun-tint);        --voice-wash: var(--sun-wash);        --voice-accent: var(--sun); }
+[data-voice="lavender"]   { --voice: var(--lavender);   --voice-light: var(--lavender-light);   --voice-deep: var(--lavender-deep);   --voice-tint: var(--lavender-tint);   --voice-wash: var(--lavender-wash);   --voice-accent: var(--lavender); }
+[data-voice="sage"]       { --voice: var(--sage);       --voice-light: var(--sage-light);       --voice-deep: var(--sage-deep);       --voice-tint: var(--sage-tint);       --voice-wash: var(--sage-wash);       --voice-accent: var(--sage); }
+
+[data-register="ink"] {
+  --bg: var(--ink-900);
+  --bg-raised: var(--ink-800);
+  --bg-sunken: var(--ink-900);
+  --fg1: var(--bone-200);
+  --fg2: var(--bone-300);
+  --fg3: var(--warm-300);
+  --border: rgba(234, 224, 200, 0.30); /* print-tuned per proposal v2: 0.14 vanishes on obsidian paper */
+  --border-strong: var(--bone-200);
+  --voice-accent: var(--voice-light);
+  --voice-tint: var(--ink-800);
+  --voice-wash: var(--ink-800);
+  /* Re-assert the consumed properties so the register works at any depth.
+     Redefining tokens alone cannot recolour text whose colour was resolved
+     on an ancestor; a nested register half needs the literal properties. */
+  background: var(--bg);
+  color: var(--fg1);
+}
+
+/* ---- Base ---------------------------------------------------------------- */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { background: var(--bone-300); }
+body {
+  font-family: var(--font-sans);
+  color: var(--fg1);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+p { text-wrap: pretty; }
+
+.sheet {
+  width: 1280px;
+  height: 720px;
+  overflow: hidden;
+  position: relative;
+  background: var(--bg);
+  color: var(--fg1);
+  page-break-after: always;
+  break-after: page;
+}
+
+/* ---- LP-02 · running head ------------------------------------------------ */
+.runhead {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 44px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  align-items: center;
+  padding: 0 40px;
+  border-bottom: 1px solid var(--border);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: var(--track-mono);
+  text-transform: uppercase;
+  color: var(--fg3);
+}
+.runhead .rh-title { text-align: center; }
+.runhead .rh-year { text-align: center; }
+.runhead .rh-folio { text-align: right; font-feature-settings: "tnum" 1; }
+
+/* ---- component designation (annotation voice, bottom-left) --------------- */
+.comp {
+  position: absolute;
+  left: 40px; bottom: 18px;
+  font-family: var(--font-mono);
+  font-size: 8.5px;
+  letter-spacing: var(--track-mono);
+  text-transform: uppercase;
+  color: var(--fg3);
+}
+
+/* ---- type ---------------------------------------------------------------- */
+.display, .h1, .h2, .quote { font-family: var(--font-serif); font-weight: 400; color: var(--fg1); }
+.display { font-size: 112px; line-height: 1.04; letter-spacing: var(--track-display); text-wrap: balance; }
+.h1 { font-size: 64px; line-height: 1.06; letter-spacing: var(--track-display); text-wrap: balance; }
+.h2 { font-size: 34px; line-height: 1.16; letter-spacing: var(--track-tight); text-wrap: balance; }
+.h4 { font-family: var(--font-sans); font-weight: 600; font-size: 17px; line-height: 1.3; }
+.lead { font-family: var(--font-sans); font-size: 18px; line-height: 1.6; color: var(--fg2); }
+.body { font-family: var(--font-sans); font-size: 14.5px; line-height: 1.62; color: var(--fg1); }
+.small { font-family: var(--font-sans); font-size: 12.5px; line-height: 1.55; color: var(--fg2); }
+.caption { font-family: var(--font-sans); font-size: 11px; line-height: 1.5; color: var(--fg3); }
+.label {
+  font-family: var(--font-sans); font-weight: 600; font-size: 11px;
+  text-transform: uppercase; letter-spacing: var(--track-label); color: var(--fg3);
+}
+.mono {
+  font-family: var(--font-mono); font-size: 10px;
+  text-transform: uppercase; letter-spacing: var(--track-mono);
+  color: var(--fg3); font-feature-settings: "tnum" 1;
+}
+.quote { font-style: italic; font-size: 40px; line-height: 1.2; }
+
+/* ---- ghost subline · the Withholding attribute --------------------------- */
+.ghost {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  letter-spacing: var(--track-display);
+  color: var(--fg1);
+  opacity: 0.07;
+  line-height: 1.05;
+  text-wrap: balance;
+}
+
+/* ---- slots · guillemet fields, impossible to miss in a proof ------------- */
+.slot {
+  font-family: var(--font-mono);
+  font-size: 0.86em;
+  letter-spacing: 0.04em;
+  background: var(--voice-tint);
+  color: var(--voice-deep);
+  padding: 0 0.18em;
+}
+[data-register="ink"] .slot { color: var(--voice-light); }
+.display .slot, .h1 .slot, .h2 .slot, .ghost .slot, .quote .slot {
+  font-size: 0.62em;
+  letter-spacing: 0;
+}
+
+/* ---- LP-07 · action card (the commissioning panel) ------------------------ */
+.panel { width: 300px; }
+.panel .tab {
+  display: inline-block;
+  background: var(--voice-accent);
+  color: var(--bone-050);
+  font-family: var(--font-sans); font-weight: 600;
+  font-size: 10.5px; text-transform: uppercase; letter-spacing: var(--track-label);
+  padding: 6px 10px 5px;
+}
+[data-register="ink"] .panel .tab { color: var(--ink-900); }
+.panel .well {
+  border: 1px solid var(--border);
+  background: var(--bg-raised);
+  padding: 16px 18px 18px;
+}
+.panel .well .h4 { margin-bottom: 6px; }
+
+/* ---- figure facet · imagery-minimum placeholder --------------------------- */
+.figure {
+  background: var(--voice-wash);
+  border: 1px solid var(--border);
+  position: relative;
+}
+.figure .fig-cap {
+  position: absolute; left: 10px; bottom: 8px;
+  font-family: var(--font-mono); font-size: 8.5px;
+  letter-spacing: var(--track-mono); text-transform: uppercase;
+  color: var(--fg3);
+}
+
+/* ---- rules ---------------------------------------------------------------- */
+.rule { border: 0; border-top: 1px solid var(--border); }
+.rule-strong { border: 0; border-top: 1.5px solid var(--fg1); }
+
+/* ==========================================================================
+   SHEET 01 · LP-01 poster cover · ink register, ceremonial
+   ========================================================================== */
+.s-cover { padding: 0 64px; }
+.s-cover .kicker-top, .s-cover .kicker-bottom {
+  position: absolute; left: 0; right: 0; text-align: center;
+}
+.s-cover .kicker-top { top: 34px; }
+.s-cover .kicker-bottom { bottom: 30px; }
+.s-cover .cover-mark {
+  position: absolute; top: 64px; left: 50%;
+  width: 92px; height: 92px; margin-left: -46px;
+}
+.s-cover .cover-title {
+  position: absolute; top: 178px; left: 64px; right: 64px;
+  text-align: center;
+}
+.s-cover .cover-title .display { font-size: 118px; }
+.s-cover .specimen {
+  position: absolute;
+  width: 148px; height: 84px;
+}
+.s-cover .specimen .fig-cap { left: 0; bottom: -16px; }
+.s-cover .sp-a { top: 130px; left: 64px; }
+.s-cover .sp-b { top: 130px; right: 64px; }
+.s-cover .sp-c { bottom: 116px; left: 64px; }
+.s-cover .sp-d { bottom: 116px; right: 64px; }
+.s-cover .side-meta {
+  position: absolute; width: 148px;
+  font-family: var(--font-mono); font-size: 9px;
+  letter-spacing: var(--track-mono); text-transform: uppercase;
+  color: var(--fg3); line-height: 1.7;
+}
+.s-cover .sm-left { left: 64px; top: 330px; }
+.s-cover .sm-right { right: 64px; top: 330px; text-align: right; }
+
+/* ==========================================================================
+   SHEET 02 · LP-03 the house · bone register
+   ========================================================================== */
+.s-house { padding: 104px 64px 60px; }
+.s-house .house-grid { display: grid; grid-template-columns: 620px 1fr; gap: 56px; height: 100%; }
+.s-house .statement-a { margin-top: 36px; }
+.s-house .statement-b { margin-top: 96px; margin-left: 120px; }
+.s-house .st-label { margin-bottom: 14px; }
+.s-house .house-figure { height: 100%; }
+
+/* ==========================================================================
+   SHEET 03 · LP-04 contents · split registers
+   ========================================================================== */
+.s-contents { display: grid; grid-template-columns: 1fr 1fr; }
+.s-contents .half { padding: 120px 64px 60px; position: relative; }
+.s-contents .half-ink { background: var(--ink-900); }
+.s-contents .toc-title { margin-bottom: 10px; }
+.s-contents .toc-part { margin-bottom: 44px; }
+.s-contents .toc-list { margin-top: 40px; }
+.s-contents .toc-row {
+  display: flex; justify-content: space-between; align-items: baseline;
+  padding: 13px 0;
+  border-bottom: 1px solid var(--border);
+  font-family: var(--font-sans); font-size: 15px;
+}
+.s-contents .toc-row .folio { font-family: var(--font-mono); font-size: 11px; color: var(--fg3); font-feature-settings: "tnum" 1; }
+
+/* ==========================================================================
+   SHEET 04 · LP-05 thesis essay · bone register
+   ========================================================================== */
+.s-thesis { padding: 108px 64px 60px; }
+.s-thesis .thesis-head { display: grid; grid-template-columns: 560px 1fr; gap: 56px; align-items: start; }
+.s-thesis .aside {
+  margin-top: 10px;
+  padding: 0 26px;
+  border-left: 1.5px solid var(--voice-accent);
+  border-right: 1.5px solid var(--voice-accent);
+  text-align: center;
+  font-family: var(--font-serif); font-style: italic; font-size: 21px; line-height: 1.35;
+  color: var(--fg2);
+}
+.s-thesis .thesis-cols { display: grid; grid-template-columns: 1fr 1fr 300px; gap: 40px; margin-top: 48px; }
+.s-thesis .curator { margin-top: 4px; }
+
+/* ==========================================================================
+   SHEETS 05 and 08 · LP-06 chapter spread · both registers
+   ========================================================================== */
+.s-chapter { padding: 104px 64px 60px; }
+.s-chapter .ch-grid { display: grid; grid-template-columns: 420px 1fr 1fr; gap: 44px; height: 100%; }
+.s-chapter .ch-index { margin-bottom: 18px; }
+.s-chapter .ch-ghost { font-size: 54px; margin-top: 14px; }
+.s-chapter .ch-col .lead { margin-bottom: 16px; }
+.s-chapter .ch-col .body { margin-bottom: 14px; }
+.s-chapter .ch-figure { height: 210px; margin-bottom: 22px; }
+.s-chapter .panel { margin-top: 26px; }
+
+/* ==========================================================================
+   SHEET 06 · LP-08 poster interstitial · one voice leads, wash flood
+   ========================================================================== */
+.s-inter { background: var(--voice-wash); }
+.s-inter .inter-line {
+  position: absolute; top: 50%; left: 64px; right: 64px;
+  transform: translateY(-50%);
+  text-align: center;
+  font-family: var(--font-serif); font-weight: 400;
+  font-size: 96px; line-height: 1.06; letter-spacing: var(--track-display);
+  color: var(--voice-deep);
+  text-wrap: balance;
+}
+.s-inter .corner {
+  position: absolute;
+  font-family: var(--font-mono); font-size: 9.5px;
+  letter-spacing: var(--track-mono); text-transform: uppercase;
+  color: var(--voice-deep);
+}
+.s-inter .c-nw { top: 64px; left: 64px; }
+.s-inter .c-ne { top: 64px; right: 64px; text-align: right; }
+.s-inter .c-sw { bottom: 56px; left: 64px; }
+.s-inter .c-se { bottom: 56px; right: 64px; text-align: right; }
+
+/* ==========================================================================
+   SHEET 07 · LP-10 handover divider · ink flood
+   ========================================================================== */
+.s-hand { }
+.s-hand .hand-centre {
+  position: absolute; top: 50%; left: 64px; right: 64px;
+  transform: translateY(-50%); text-align: center;
+}
+.s-hand .hand-centre .h1 { font-size: 72px; }
+.s-hand .hand-rule { width: 64px; margin: 34px auto; border-top: 1px solid var(--border-strong); }
+.s-hand .hand-side {
+  position: absolute; top: 50%; transform: translateY(-50%);
+  width: 200px;
+}
+.s-hand .hs-left { left: 64px; }
+.s-hand .hs-right { right: 64px; text-align: right; }
+.s-hand .hand-side .h4 { margin-top: 8px; }
+
+/* ==========================================================================
+   SHEET 09 · LP-09 pull-quote page · bone register
+   ========================================================================== */
+.s-quote { padding: 120px 64px 60px; }
+.s-quote .q-grid { display: grid; grid-template-columns: 560px 1fr 1fr; gap: 48px; }
+.s-quote .q-attr { margin-top: 26px; }
+
+/* ==========================================================================
+   SHEET 10 · LP-12 closing word · split flood
+   ========================================================================== */
+.s-close { display: grid; grid-template-columns: 560px 1fr; }
+.s-close .close-flood {
+  background: var(--ink-900); color: var(--bone-200);
+  position: relative;
+}
+.s-close .close-word {
+  position: absolute; top: 50%; left: 56px; right: 56px;
+  transform: translateY(-50%);
+  font-family: var(--font-serif); font-weight: 400;
+  font-size: 132px; letter-spacing: var(--track-display);
+  color: var(--bone-200);
+  line-height: 1;
+}
+.s-close .close-mark { position: absolute; left: 56px; top: 60px; width: 40px; height: 40px; }
+.s-close .close-body { padding: 120px 64px 60px; position: relative; }
+.s-close .close-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 36px; }
+.s-close .close-echo { margin-top: 40px; padding-top: 22px; border-top: 1px solid var(--border); }
+</style>
+</head>
+
+<body data-voice="coral">
+
+<!-- =====================================================================
+     SHEET 01 · LP-01 · poster cover · ceremonial ink
+     ===================================================================== -->
+<section class="sheet s-cover" data-register="ink">
+  <div class="mono kicker-top"><span class="slot">«THE KICKER LINE ABOVE THE TITLE»</span></div>
+  <img class="cover-mark" src="assets/mark-parchment.svg" alt="">
+  <div class="specimen figure sp-a"><span class="fig-cap"><span class="slot">«SPECIMEN 01»</span></span></div>
+  <div class="specimen figure sp-b"><span class="fig-cap"><span class="slot">«SPECIMEN 02»</span></span></div>
+  <div class="cover-title">
+    <div class="display"><span class="slot">«TITLE LINE ONE»</span><br><span class="slot">«TITLE LINE TWO»</span><br><span class="slot">«TITLE LINE THREE»</span></div>
+  </div>
+  <div class="side-meta sm-left"><span class="slot">«DOCUMENT FAMILY»</span><br><span class="slot">«EDITION»</span></div>
+  <div class="side-meta sm-right"><span class="slot">«PRINCIPAL»</span><br><span class="slot">«CITY»</span></div>
+  <div class="specimen figure sp-c"><span class="fig-cap"><span class="slot">«SPECIMEN 03»</span></span></div>
+  <div class="specimen figure sp-d"><span class="fig-cap"><span class="slot">«SPECIMEN 04»</span></span></div>
+  <div class="mono kicker-bottom">A Five Points Commission · Five Points Digital Studio · <span class="slot">«YYYY»</span></div>
+  <div class="comp">LP-01 · Cover</div>
+</section>
+
+<!-- =====================================================================
+     SHEET 02 · LP-03 · the house · bone
+     ===================================================================== -->
+<section class="sheet s-house">
+  <div class="runhead">
+    <span>Five Points</span>
+    <span class="rh-title"><span class="slot">«DOCUMENT TITLE»</span></span>
+    <span class="rh-year"><span class="slot">«YYYY»</span></span>
+    <span class="rh-folio">pg 2</span>
+  </div>
+  <div class="house-grid">
+    <div>
+      <div class="label">The house</div>
+      <div class="statement-a">
+        <div class="mono st-label">A</div>
+        <div class="h2">Five Points builds the personal infrastructure of singular minds – owned operating systems that compound, commissioned to marque standard.</div>
+      </div>
+      <div class="statement-b">
+        <div class="mono st-label">B</div>
+        <div class="h2"><span class="slot">«THE DOOR THIS DOCUMENT SERVES, IN ONE SENTENCE»</span></div>
+      </div>
+    </div>
+    <div class="figure house-figure"><span class="fig-cap"><span class="slot">«FIGURE 01 · CREDIT»</span></span></div>
+  </div>
+  <div class="comp">LP-03 · The house</div>
+</section>
+
+<!-- =====================================================================
+     SHEET 03 · LP-04 · contents · split registers
+     ===================================================================== -->
+<section class="sheet s-contents">
+  <div class="half">
+    <div class="runhead" style="left:0;right:0;">
+      <span>Five Points</span>
+      <span class="rh-title"><span class="slot">«DOCUMENT TITLE»</span></span>
+      <span class="rh-year"><span class="slot">«YYYY»</span></span>
+      <span class="rh-folio">pg 3</span>
+    </div>
+    <div class="h2 toc-title">Contents</div>
+    <div class="label toc-part"><span class="slot">«PART ONE»</span></div>
+    <div class="toc-list">
+      <div class="toc-row"><span><span class="slot">«CHAPTER ONE»</span></span><span class="folio">04</span></div>
+      <div class="toc-row"><span><span class="slot">«CHAPTER TWO»</span></span><span class="folio">05</span></div>
+      <div class="toc-row"><span><span class="slot">«CHAPTER THREE»</span></span><span class="folio">06</span></div>
+    </div>
+  </div>
+  <div class="half half-ink" data-register="ink">
+    <div class="h2 toc-title" style="visibility:hidden;">Contents</div>
+    <div class="label toc-part"><span class="slot">«PART TWO»</span></div>
+    <div class="toc-list">
+      <div class="toc-row"><span><span class="slot">«CHAPTER FOUR»</span></span><span class="folio">08</span></div>
+      <div class="toc-row"><span><span class="slot">«CHAPTER FIVE»</span></span><span class="folio">09</span></div>
+      <div class="toc-row"><span><span class="slot">«THE CLOSE»</span></span><span class="folio">10</span></div>
+    </div>
+  </div>
+  <div class="comp">LP-04 · Contents</div>
+</section>
+
+<!-- =====================================================================
+     SHEET 04 · LP-05 · thesis essay · bone
+     ===================================================================== -->
+<section class="sheet s-thesis">
+  <div class="runhead">
+    <span>Five Points</span>
+    <span class="rh-title"><span class="slot">«DOCUMENT TITLE»</span></span>
+    <span class="rh-year"><span class="slot">«YYYY»</span></span>
+    <span class="rh-folio">pg 4</span>
+  </div>
+  <div class="thesis-head">
+    <div class="h1"><span class="slot">«THE THESIS, STATED ONCE.»</span></div>
+    <div class="aside">The work begins with one question – why is it still done this way?</div>
+  </div>
+  <div class="thesis-cols">
+    <div>
+      <p class="body">Most operations run on systems built for the company they used to be. The gap is the most expensive line on a ledger no one keeps.</p>
+      <p class="body" style="margin-top:12px;"><span class="slot">«THE ARGUMENT, COLUMN ONE – WHY THIS DOCUMENT EXISTS FOR THIS PRINCIPAL»</span></p>
+    </div>
+    <div>
+      <p class="body">Assets, not services. Infrastructure, not deliverables. Built once, owned for life, compounding every quarter.</p>
+      <p class="body" style="margin-top:12px;"><span class="slot">«THE ARGUMENT, COLUMN TWO – WHAT THE READER SHOULD HOLD BY THE LAST SHEET»</span></p>
+    </div>
+    <div class="panel curator">
+      <div class="tab">The house</div>
+      <div class="well">
+        <div class="h4">A commission of Five Points Digital Studio.</div>
+        <div class="small">Bespoke operating infrastructure for singular minds – mapped, commissioned and compounded.</div>
+      </div>
+    </div>
+  </div>
+  <div class="comp">LP-05 · Thesis</div>
+</section>
+
+<!-- =====================================================================
+     SHEET 05 · LP-06 + LP-07 · chapter spread · bone
+     ===================================================================== -->
+<section class="sheet s-chapter">
+  <div class="runhead">
+    <span>Five Points</span>
+    <span class="rh-title"><span class="slot">«DOCUMENT TITLE»</span></span>
+    <span class="rh-year"><span class="slot">«YYYY»</span></span>
+    <span class="rh-folio">pg 5</span>
+  </div>
+  <div class="ch-grid">
+    <div>
+      <div class="mono ch-index">01</div>
+      <div class="h1"><span class="slot">«CHAPTER ONE»</span></div>
+      <div class="ghost ch-ghost"><span class="slot">«THE WITHHELD LINE BENEATH IT»</span></div>
+    </div>
+    <div class="ch-col">
+      <p class="lead"><span class="slot">«THE CHAPTER CLAIM, IN ONE OR TWO SENTENCES»</span></p>
+      <p class="body"><span class="slot">«BODY, COLUMN ONE – THE EVIDENCE AND THE READING OF IT»</span></p>
+      <p class="body"><span class="slot">«BODY, COLUMN ONE, CONTINUED»</span></p>
+    </div>
+    <div class="ch-col">
+      <div class="figure ch-figure"><span class="fig-cap"><span class="slot">«FIGURE 02 · CREDIT»</span></span></div>
+      <p class="body"><span class="slot">«BODY, COLUMN TWO – WHAT IT MEANS FOR THE PRINCIPAL»</span></p>
+      <div class="panel">
+        <div class="tab"><span class="slot">«CHAPTER ONE»</span></div>
+        <div class="well">
+          <div class="h4">Commission the next step.</div>
+          <div class="small"><span class="slot">«THE ONE-LINE INVITATION THIS CHAPTER EARNS»</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="comp">LP-06 · Chapter · bone register</div>
+</section>
+
+<!-- =====================================================================
+     SHEET 06 · LP-08 · poster interstitial · the voice leads
+     ===================================================================== -->
+<section class="sheet s-inter">
+  <div class="corner c-nw">every build</div>
+  <div class="corner c-ne">leaves an asset</div>
+  <div class="inter-line">Built once, owned for life.</div>
+  <div class="corner c-sw">every asset</div>
+  <div class="corner c-se">compounds every quarter</div>
+  <div class="comp">LP-08 · Interstitial</div>
+</section>
+
+<!-- =====================================================================
+     SHEET 07 · LP-10 · handover divider · ink flood
+     ===================================================================== -->
+<section class="sheet s-hand" data-register="ink">
+  <div class="hand-side hs-left">
+    <div class="mono">Leaving</div>
+    <div class="h4"><span class="slot">«PART ONE»</span></div>
+  </div>
+  <div class="hand-centre">
+    <div class="h1">Map it, commission it, compound it.</div>
+    <hr class="hand-rule">
+    <div class="mono"><span class="slot">«THE HINGE LINE BETWEEN THE TWO PARTS»</span></div>
+  </div>
+  <div class="hand-side hs-right">
+    <div class="mono">Entering</div>
+    <div class="h4"><span class="slot">«PART TWO»</span></div>
+  </div>
+  <div class="comp">LP-10 · Handover</div>
+</section>
+
+<!-- =====================================================================
+     SHEET 08 · LP-06 + LP-11 · chapter spread · ink register
+     ===================================================================== -->
+<section class="sheet s-chapter" data-register="ink">
+  <div class="runhead">
+    <span>Five Points</span>
+    <span class="rh-title"><span class="slot">«DOCUMENT TITLE»</span></span>
+    <span class="rh-year"><span class="slot">«YYYY»</span></span>
+    <span class="rh-folio">pg 8</span>
+  </div>
+  <div class="ch-grid">
+    <div>
+      <div class="mono ch-index">04</div>
+      <div class="h1"><span class="slot">«CHAPTER FOUR»</span></div>
+      <div class="ghost ch-ghost"><span class="slot">«THE WITHHELD LINE BENEATH IT»</span></div>
+    </div>
+    <div class="ch-col">
+      <p class="lead"><span class="slot">«THE CHAPTER CLAIM ON THE INK REGISTER»</span></p>
+      <p class="body"><span class="slot">«BODY, COLUMN ONE – THE EVIDENCE ON THE INK REGISTER»</span></p>
+      <p class="body"><span class="slot">«BODY, COLUMN ONE, CONTINUED – THE CONSEQUENCE»</span></p>
+    </div>
+    <div class="ch-col">
+      <div class="figure ch-figure"><span class="fig-cap"><span class="slot">«FIGURE 03 · CREDIT»</span></span></div>
+      <p class="body"><span class="slot">«BODY, COLUMN TWO – WHAT IT MEANS FOR THE PRINCIPAL»</span></p>
+      <div class="panel">
+        <div class="tab"><span class="slot">«CHAPTER FOUR»</span></div>
+        <div class="well">
+          <div class="h4">Commission the next step.</div>
+          <div class="small"><span class="slot">«THE ONE-LINE INVITATION THIS CHAPTER EARNS»</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="comp">LP-06 · Chapter · ink register</div>
+</section>
+
+<!-- =====================================================================
+     SHEET 09 · LP-09 · pull-quote page · bone
+     ===================================================================== -->
+<section class="sheet s-quote">
+  <div class="runhead">
+    <span>Five Points</span>
+    <span class="rh-title"><span class="slot">«DOCUMENT TITLE»</span></span>
+    <span class="rh-year"><span class="slot">«YYYY»</span></span>
+    <span class="rh-folio">pg 9</span>
+  </div>
+  <div class="q-grid">
+    <div>
+      <div class="quote"><span class="slot">«THE AUTHORITY LINE, QUOTED»</span></div>
+      <div class="mono q-attr"><span class="slot">«NAME · STANDING»</span></div>
+    </div>
+    <div>
+      <p class="body"><span class="slot">«SUPPORT, COLUMN ONE – WHY THE LINE HOLDS»</span></p>
+    </div>
+    <div>
+      <p class="body"><span class="slot">«SUPPORT, COLUMN TWO – WHAT IT PROVES HERE»</span></p>
+    </div>
+  </div>
+  <div class="comp">LP-09 · Pull quote</div>
+</section>
+
+<!-- =====================================================================
+     SHEET 10 · LP-12 · closing word · split flood
+     ===================================================================== -->
+<section class="sheet s-close">
+  <div class="close-flood">
+    <img class="close-mark" src="assets/mark-parchment.svg" alt="">
+    <div class="close-word"><span class="slot">«ONE WORD.»</span></div>
+  </div>
+  <div class="close-body">
+    <div class="runhead" style="left:0;right:0;">
+      <span></span>
+      <span class="rh-title"><span class="slot">«DOCUMENT TITLE»</span></span>
+      <span class="rh-year"><span class="slot">«YYYY»</span></span>
+      <span class="rh-folio">pg 10</span>
+    </div>
+    <div class="h2">The last word.</div>
+    <div class="close-cols">
+      <div>
+        <p class="body">Every commission leaves the owner holding the keys – the system, the book of it and the leverage it compounds.</p>
+        <p class="body" style="margin-top:12px;"><span class="slot">«THE CLOSING ARGUMENT, COLUMN ONE»</span></p>
+      </div>
+      <div>
+        <p class="body"><span class="slot">«THE CLOSING ARGUMENT, COLUMN TWO»</span></p>
+      </div>
+    </div>
+    <div class="close-echo">
+      <div class="panel">
+        <div class="tab">The commission</div>
+        <div class="well">
+          <div class="h4">Commission a build.</div>
+          <div class="small"><span class="slot">«BOOKING LINE · LINK»</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="comp">LP-12 · Closing word</div>
+</section>
+
+</body>
+</html>

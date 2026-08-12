@@ -14,7 +14,7 @@ export default function PrayerForm() {
   if (state?.ok) {
     return (
       <div className={styles.success} role="status">
-        <p className={styles.successTitle}>We received your request.</p>
+        <p className={styles.successTitle}>We Received Your Request.</p>
         <p>
           Our prayer team will lift it up. You are not walking through it alone.
         </p>

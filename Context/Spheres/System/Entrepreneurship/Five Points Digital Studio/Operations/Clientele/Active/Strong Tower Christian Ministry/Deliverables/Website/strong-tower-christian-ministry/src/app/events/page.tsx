@@ -7,7 +7,7 @@ import Newsletter from "@/components/Newsletter/Newsletter";
 import styles from "./page.module.css";
 
 export const metadata = {
-  title: "What's Happening @ The Tower",
+  title: "What's Happening @ the Tower",
   description:
     "Weekly gatherings and upcoming events at Strong Tower Christian Ministry in Florence, SC. Find a time to gather with us, in person and online.",
 };
@@ -22,7 +22,7 @@ export default function EventsPage() {
         <div className="global-page-hero-container">
           <span className="global-page-hero-badge">What&apos;s happening</span>
           <h1 className="global-hero-title global-hero-title-light">
-            What&apos;s Happening @ The Tower
+            What&apos;s Happening @ the Tower
           </h1>
           <p className="global-page-hero-desc">
             There is always a place at the table. Gather with us each week, and
@@ -37,7 +37,7 @@ export default function EventsPage() {
         <div className="container">
           <div className={`${styles.sectionHead} reveal`}>
             <p className="eyebrow">Every week</p>
-            <h2 className={styles.sectionTitle}>Our weekly gatherings</h2>
+            <h2 className={styles.sectionTitle}>Our Weekly Gatherings</h2>
             <p className={styles.sectionLede}>
               These are the rhythms of the Tower. Come as you are, whether it is
               your first time or your hundredth.
@@ -64,7 +64,7 @@ export default function EventsPage() {
         <div className="container">
           <div className={`${styles.sectionHead} reveal`}>
             <p className="eyebrow">On the calendar</p>
-            <h2 className={styles.sectionTitle}>Upcoming events</h2>
+            <h2 className={styles.sectionTitle}>Upcoming Events</h2>
           </div>
 
           {/*
@@ -77,7 +77,7 @@ export default function EventsPage() {
               <Calendar size={32} />
             </span>
             <h3 className={styles.emptyTitle}>
-              More events are on the way &mdash; check back soon
+              More Events Are on the Way &mdash; Check Back Soon
             </h3>
             <p className={styles.emptyCopy}>
               We are planning gatherings, services and special occasions for the
@@ -97,7 +97,7 @@ export default function EventsPage() {
           <div className={`${styles.notifyText} reveal`}>
             <p className="eyebrow">Never miss a moment</p>
             <h2 className={styles.notifyTitle}>
-              Be the first to know what&apos;s next
+              Be the First to Know What&apos;s Next
             </h2>
             <p className={styles.notifyCopy}>
               Get announcements, events and a word of encouragement delivered to

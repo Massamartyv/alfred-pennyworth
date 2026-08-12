@@ -1,5 +1,13 @@
 {
   "mcpServers": {
+    "notion-personal": {
+      "type": "stdio",
+      "command": "/bin/bash",
+      "args": [
+        "-c",
+        "set -a; source '/Users/martyspicer/Alfred Pennyworth/.env'; set +a; export NOTION_TOKEN=\"$NOTION_PERSONAL_TOKEN\"; exec npx -y @notionhq/notion-mcp-server"
+      ]
+    },
     "notion-fivepoints": {
       "type": "stdio",
       "command": "/bin/bash",

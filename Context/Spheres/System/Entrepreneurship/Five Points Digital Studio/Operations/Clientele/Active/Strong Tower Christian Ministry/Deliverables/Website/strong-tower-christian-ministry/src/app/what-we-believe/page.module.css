@@ -24,7 +24,7 @@
 .num {
   font-family: var(--font-heading), serif;
   font-size: 1.5rem;
-  color: var(--accent-gold);
+  color: var(--accent-gold-deep);
   line-height: 1;
   flex-shrink: 0;
   width: 2.5rem;
@@ -111,4 +111,9 @@
     grid-template-columns: 1fr;
     gap: 0;
   }
+}
+
+/* Fortress band — the label takes the light gold, not the pale-ground value. */
+.sonship :global(.eyebrow) {
+  color: var(--accent-gold-light);
 }

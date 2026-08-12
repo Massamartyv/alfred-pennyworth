@@ -2,7 +2,7 @@
 file_type: department_index
 department: Creative
 venture: Marty Gras
-last_updated: 2026-04-22
+last_updated: 2026-08-04
 ---
 
 # Creative
@@ -14,7 +14,7 @@ Editorial direction, voice, brand system and content product definitions. What M
 ```
 Creative/
   _index.md              -- This file
-  Content Products/      -- Definitions and formats for each product (Epiphany, podcast, social)
+  Content Products/      -- Definitions and formats for each product – the Conversation, Epiphany, the music, social
   Editorial/             -- Pillars, themes, seasonal calendars, series concepts
   Products/              -- Physical product and merchandise design briefs, e.g. the Marty Bag
   Agents/                -- Studio-specific agents, workflows, criteria
@@ -27,7 +27,7 @@ Creative/
 
 ### What belongs here
 
-- Content product definitions and formats (newsletter, podcast, social)
+- Content product definitions and formats – the Conversation, Epiphany, the music, social
 - Editorial direction and theme planning
 - Content pillars and series concepts
 - New product ideation and development
@@ -42,19 +42,24 @@ Creative/
 
 ## Content Products
 
-| Product | Format | Platform | Cadence | Status |
+Live state: Notion Projects and Tasks, personal workspace – Marty Gras, Venture Operations. This file holds definitions, never status.
+
+| Product | Property | Format | Surface | Cadence |
 |---|---|---|---|---|
-| Epiphany | Newsletter | Substack | To be set | In development |
-| Marty Gras Podcast | Long-form audio, video | Podcast platforms, YouTube | To be set | In development |
-| Social content | Short-form visual and written | Instagram, TikTok, LinkedIn, Threads, X, Reddit | Daily to weekly | Active via personal brand |
+| The Conversation | Marty Gras | Long-form video | YouTube, audio platforms | Documentary, low, never weekly |
+| Epiphany | Marty Gras | Essay | Substack | Documentary, low, never weekly |
+| The music | Marty V, the music | Mixes and records | YouTube, short form | Own rhythm, outside the canon cadence |
+| Presence layer | Both | Fragments | Instagram, TikTok, Threads, X, Reddit, LinkedIn | Light, never the point |
 
 ### Product Definitions
 
-**Epiphany Newsletter** – Cultural commentary, curated ideas and perspective pieces delivered via Substack. The written voice of the Architect of Vibe. Subscribers receive a window into how culture, creativity and entrepreneurship intersect.
+**The Conversation** – The flagship. A long-form video bridge between two worlds, a guest the audience would never expect, architected so the connection reads as inevitable by the close. Guest selection is the editorial act, never booking. Every instalment is named "The One Where ___". Never called a podcast or an episode.
 
-**Marty Gras Podcast** – Long-form conversations and solo episodes exploring culture, creativity, personal development and the entrepreneurial journey. Produced with ElevenLabs for audio excellence. Video versions for YouTube.
+**Epiphany** – The canon layer. The revelatory essay line, loosely sourced from the universe the Conversations create, never a recap. Three internal streams, one form and one cadence: the Bridge, the synthesis essay that holds the position; the Instrument, an essay that hands over a working apparatus and argues it; the Diary, the raw beneath the composed in first person. Never called a newsletter or a blog.
 
-**Social Content** – Platform-native cultural curation. Visual storytelling on Instagram, thought leadership on LinkedIn, short-form commentary on TikTok and Threads. Each platform gets content shaped to its native language, not cross-posted identically.
+**The music** – The second property of the master brand, shipped under the artist's own name. A mix is the bridge thesis in its purest form: non-obvious connections made undeniable in real time, with the audience's body as the proof. Night mixes in a lifestyle setting. Short form places the operator centred with the set overlaid behind and the waveform visible. The braille wordmark carries the surface. It ships at its own rhythm because it is neither a Conversation nor an Epiphany.
+
+**Presence layer** – Fragments only, native to each surface, never cross-posted identically. Every fragment must still clear the reference line: non-obvious and, once made, undeniable. Decoration is the failure mode wearing the brand's clothes.
 
 ## Key Context
 

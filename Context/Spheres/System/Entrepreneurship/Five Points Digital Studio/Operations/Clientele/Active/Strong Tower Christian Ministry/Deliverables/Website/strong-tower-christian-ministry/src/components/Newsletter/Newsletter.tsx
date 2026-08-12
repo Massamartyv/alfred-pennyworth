@@ -8,25 +8,36 @@ type Status = "idle" | "loading" | "ok" | "error";
 
 export default function Newsletter({ compact = false }: { compact?: boolean }) {
   const [email, setEmail] = useState("");
+  const [company, setCompany] = useState(""); // honeypot
   const [status, setStatus] = useState<Status>("idle");
+  const [error, setError] = useState("");
 
   const submit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!email) return;
     setStatus("loading");
+    setError("");
     try {
       const res = await fetch("/api/newsletter", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email }),
+        body: JSON.stringify({ email, company }),
       });
       if (res.ok) {
         setStatus("ok");
         setEmail("");
       } else {
+        // Surface the server's own wording — it tells the reader what to do
+        // instead when sign-ups are not wired up yet.
+        const data = await res.json().catch(() => null);
+        setError(
+          (data && typeof data.error === "string" && data.error) ||
+            "Something went wrong. Please try again."
+        );
         setStatus("error");
       }
     } catch {
+      setError("Something went wrong. Please try again.");
       setStatus("error");
     }
   };
@@ -36,7 +47,7 @@ export default function Newsletter({ compact = false }: { compact?: boolean }) {
       className={`${styles.form} ${compact ? styles.compact : ""}`}
       onSubmit={submit}
     >
-      {!compact && <h3 className={styles.title}>Stay in the loop</h3>}
+      {!compact && <h3 className={styles.title}>Stay in the Loop</h3>}
       <p className={styles.copy}>
         Announcements, events and a word of encouragement to your inbox.
       </p>
@@ -63,6 +74,20 @@ export default function Newsletter({ compact = false }: { compact?: boolean }) {
           <Send size={18} />
         </button>
       </div>
+      {/* Honeypot — hidden from readers and assistive technology alike.
+          Matches the pattern the contact and prayer forms already use. */}
+      <div className={styles.hp} aria-hidden="true">
+        <label htmlFor="newsletter-company">Company</label>
+        <input
+          id="newsletter-company"
+          name="company"
+          type="text"
+          value={company}
+          onChange={(e) => setCompany(e.target.value)}
+          tabIndex={-1}
+          autoComplete="off"
+        />
+      </div>
       {status === "ok" && (
         <p className={styles.ok} role="status">
           Thank you. You are on the list.
@@ -70,7 +95,7 @@ export default function Newsletter({ compact = false }: { compact?: boolean }) {
       )}
       {status === "error" && (
         <p className={styles.err} role="status">
-          Something went wrong. Please try again.
+          {error || "Something went wrong. Please try again."}
         </p>
       )}
     </form>

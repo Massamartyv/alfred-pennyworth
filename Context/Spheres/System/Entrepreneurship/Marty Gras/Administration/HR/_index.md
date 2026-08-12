@@ -4,7 +4,7 @@ department: Administration
 subdepartment: HR
 venture: Marty Gras
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-08-04
 ---
 
 # HR – Marty Gras
@@ -22,7 +22,7 @@ Team, contractors and collaborators. The people who contribute to the brand outp
 
 ### What does not belong here
 
-- Podcast guest management – that goes in Growth/Guests
+- Conversation guest management – that goes in Growth/Guests
 - Audience management – that goes in Operations
 - Financial terms of contracts – those go in Finance
 
@@ -34,9 +34,9 @@ Solo operation. All creative direction, production and distribution handled pers
 
 | Role | When | Purpose |
 |---|---|---|
-| Podcast editor | When production cadence is weekly | Audio and video post-production |
+| Conversation editor | When the two-deep buffer cannot be held | Audio and video post-production |
 | Social media assistant | When content volume exceeds solo capacity | Scheduling, engagement, community |
-| Newsletter editor | When subscriber base justifies investment | Copy editing, formatting, QA |
+| Epiphany editor | When the subscriber base justifies investment | Copy editing, formatting, QA |
 | Graphic designer | When visual output demand exceeds personal capacity | Social assets, brand collateral |
 
 ## Current State

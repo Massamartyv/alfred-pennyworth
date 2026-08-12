@@ -2,20 +2,21 @@
 file_type: department_index
 department: Production
 venture: Marty Gras
-last_updated: 2026-06-11
+last_updated: 2026-08-04
 ---
 
 # Production
 
-Content production – podcast, newsletter, social, video. The execution engine that turns editorial direction into finished work the audience receives.
+Production – the Conversation, Epiphany, the music, social, video. The execution engine that turns editorial direction into finished work the audience receives.
 
 ## Structure
 
 ```
 Production/
   _index.md              -- This file
-  Podcast/               -- Production workflows, episode templates, audio specs
-  Newsletter/            -- Draft workflows, formatting, Substack publishing specs
+  Conversation/          -- Production workflows, Conversation templates, audio specs
+  Epiphany/              -- Draft workflows, formatting, Substack publishing specs
+  Masters/               -- Music masters and mixdowns, the music property
   Social/                -- Platform-native production specs and templates
   Video/                 -- YouTube and video production workflows
   Agents/                -- Studio-specific agents, workflows, criteria
@@ -26,7 +27,7 @@ Production/
 ### What belongs here
 
 - Production workflows and SOPs for every content format
-- Episode, edition and post templates
+- Conversation, Epiphany and post templates
 - Production stack documentation
 - Quality assurance specifications
 - Asset preparation and rendering specs
@@ -41,9 +42,9 @@ Production/
 
 | Tool | Purpose | Status |
 |---|---|---|
-| ElevenLabs | Podcast audio production and voice content | Active |
-| Substack | Newsletter publishing (Epiphany) | To be configured |
-| Podcast host | Audio distribution | To be selected |
+| ElevenLabs | Conversation audio production and voice work | Active |
+| Substack | Epiphany publishing | To be configured |
+| Audio host | Audio distribution | To be selected |
 | Pennyone | Social syndication (Instagram, TikTok, Threads, X, Reddit, Snap via Zernio) | Scaffold ready; awaiting Zernio key. Replaces Buffer |
 
 ## Agent Instructions
@@ -59,5 +60,5 @@ Production/
 | Task | Tier |
 |---|---|
 | Template population, asset renaming | Light |
-| Episode drafts, newsletter editions, social asset packages | Standard |
-| Full production of flagship content (major newsletter essays, flagship podcast episodes) | Heavy |
+| Conversation drafts, Epiphany drafts, social asset packages | Standard |
+| Full production of flagship work – major Epiphany essays, flagship Conversations | Heavy |

@@ -98,7 +98,7 @@ export default function WhatWeBelievePage() {
         <div className="container">
           <div className={`${styles.head} reveal`}>
             <p className="eyebrow">Our confession of faith</p>
-            <h2 className={styles.h2}>What we hold to be true</h2>
+            <h2 className={styles.h2}>What We Hold to Be True</h2>
           </div>
           <div className={styles.grid}>
             {beliefs.map((b, i) => (
@@ -132,7 +132,7 @@ export default function WhatWeBelievePage() {
       {/* CTA */}
       <section className={`section ${styles.cta}`}>
         <div className={`container ${styles.ctaInner} reveal`}>
-          <h2 className={styles.ctaTitle}>Come and see for yourself</h2>
+          <h2 className={styles.ctaTitle}>Come and See for Yourself</h2>
           <div className={styles.ctaActions}>
             <Link href="/visit" className="btn btn-primary">
               Plan your visit <ArrowRight size={18} />

@@ -15,9 +15,9 @@
 | `STRIPE_FIVEPOINTS_SECRET_KEY` | stripe-fivepoints MCP | Stripe dashboard > Developers > API keys; prefer a restricted key scoped to required resources over the full secret key; revoke the old key after rotation |
 | `ZERNIO_PERSONAL_API_KEY` | Pennyone personal pipeline | Zernio dashboard for the personal account; API keys or credentials section; generates per pipeline |
 | `ZERNIO_FIVEPOINTS_API_KEY` | Pennyone Five Points pipeline | Zernio dashboard for the Five Points account; same flow as above |
-| `ZERNIO_MARTYGRAS_API_KEY` | not needed -- operator ruling 2026-07-23: Marty Gras is the personal media identity and its content routes through the personal Zernio pipeline (`ZERNIO_PERSONAL_API_KEY`); no separate account is planned |
-| `ZERNIO_PARADIGM_API_KEY` | Pennyone Paradigm pipeline (future) | Zernio dashboard for the Paradigm account when provisioned |
-| `ZERNIO_LILLIEANDLYNETTE_API_KEY` | Pennyone Lillie and Lynette pipeline (future) | Zernio dashboard for the L&L account when provisioned |
+| `ZERNIO_MARTYGRAS_API_KEY` | not needed – operator ruling 2026-07-23: Marty Gras is the personal media identity and its content routes through the personal Zernio pipeline (`ZERNIO_PERSONAL_API_KEY`); no separate account is planned. **Unresolved 2026-08-08:** `Integrations/pennyone/` still registers a `marty_gras` pipeline demanding this variable, and `health_check` reports it as a permanent `no_key` failure. Retire the pipeline from the router or reverse the ruling; a red status for a pipeline that is not meant to exist trains the eye to ignore red statuses. | n/a while the ruling stands |
+| `ZERNIO_PARADIGM_API_KEY` | Pennyone Paradigm pipeline – pipeline registered in code, `no_key` verified 2026-08-08 | Zernio dashboard for the Paradigm account when provisioned |
+| `ZERNIO_LILLIEANDLYNETTE_API_KEY` | Pennyone Lillie and Lynette pipeline – pipeline registered in code, `no_key` verified 2026-08-08 | Zernio dashboard for the L&L account when provisioned |
 | `INSTANTLY_FIVEPOINTS_API_KEY` | nothing – Clay replaced Instantly as the outbound lead engine 2026-07-10; the `instantly` MCP server code (`Integrations/instantly/`) and its `.mcp.json` entry were torn down 2026-07-23 (The Lamplighter, registries lane) | **pending, operator action:** delete this line from `.env` by hand; the account itself also awaits cancellation – see `accounts-inventory.md` |
 | `CALCOM_FIVEPOINTS_API_KEY` | calcom MCP, Five Points pipeline | **absent from `.env` as of 2026-07-23** – the server registers and starts but every call fails until this key is dropped in; Cal.com dashboard > Settings > Developer > API keys; scope to the `martavious-spicer` event-type owner used by the Five Points pipeline |
 | `STRAVA_CLIENT_ID` | strava MCP bootstrap | strava.com/settings/api > My API Application; the Client ID is shown in plain text and does not rotate unless the app is deleted and recreated |
@@ -27,11 +27,31 @@
 | `FULLSCRIPT_ENV` | fullscript MCP | Set to `production` for live use; `sandbox` for testing; determined by which Fullscript app is registered |
 | `FULLSCRIPT_BASE_URL` | fullscript MCP | Fullscript API base URL for the environment; confirm in Fullscript developer documentation at time of re-issue |
 | `APIFY_PERSONAL_TOKEN` | scraping – personal scope | Apify console (personal account) > Settings > Integrations > Personal API tokens |
-| `APIFY_FIVEPOINTS_TOKEN` | scraping – Five Points scope | Apify console (Five Points account) > same path as above |
 | `DISCORD_BOT_TOKEN` | discord-setup MCP | Discord developer portal > Applications > select the bot > Bot tab > Reset Token; update permissions and re-invite if the bot was removed during the reset |
 | `ELEVENLABS_API_KEY` | elevenlabs MCP (`uvx elevenlabs-mcp`, project scope) | elevenlabs.io/app/settings/api-keys > create API key; add the line to `.env` by hand. **Pending 2026-07-10:** launch check confirms the variable is not yet present in `.env` – the server halts demanding it. While in the dashboard, confirm the account login email against `accounts-inventory.md` |
-| `NOTION_PERSONAL_TOKEN` | notion-personal icon helper (`Integrations/notion-personal/upload_icon.py`) | Notion personal workspace settings > Connections > Develop or manage integrations > new internal integration with content read, update and insert capabilities; copy the secret; connect the integration to the Projects database. **Pending 2026-07-10:** variable not yet in `.env` – the helper halts demanding it |
+| `NOTION_PERSONAL_TOKEN` | **the `notion-personal` MCP server** – the working route to the entire personal workspace, live-verified 2026-08-11 – plus the icon helper (`Integrations/notion-personal/upload_icon.py`) | Notion personal workspace settings > Connections > Develop or manage integrations > internal integration with read, update and insert capabilities; copy the secret; grant the integration to each database it serves. **Provisioned and live as of 2026-08-11** – the 2026-07-10 pending note is resolved |
 | Perplexity API key | Perplexity integrations (if wired) | confirm against `.env` by hand; same caveat as above |
+| `VERCEL_FIVEPOINTS_TOKEN` | **nothing.** No `vercel-fivepoints` server exists at any scope – the venture registry claimed one for an extended period and the claim was false (corrected 2026-08-08, The Junction). Presence of this line in `.env` is unconfirmed. | Vercel dashboard for the `studio-fivepoints` team, login `systems-9970` > Account Settings > Tokens. Needed when the server is actually built. |
+| `APIFY_FIVEPOINTS_TOKEN` | Apify Five Points scope over the **REST API**, not MCP. No `apify-fivepoints` server exists; the venture registry claimed one and the claim was false (corrected 2026-08-08). The scraping capability is real, the MCP surface never was. | Apify console (Five Points account) > Settings > Integrations > Personal API tokens |
+
+---
+
+## Venture Provisioning Variables – ruled 2026-08-08, not yet minted
+
+The 2026-08-08 one-workspace-per-venture ruling requires a Notion token per sovereign venture. None of the below exists yet. Listed here at the moment of the ruling rather than at the moment of minting, so that the inventory reflects the target state and the gap between target and actual stays visible.
+
+| Variable | Consumed by | Re-issue procedure | Priority |
+|---|---|---|---|
+| `NOTION_LILLIEANDLYNETTE_TOKEN` | `notion-lillieandlynette` MCP (to be registered) | Create the Lillie and Lynette Notion workspace; Settings > Connections > new internal integration; grant it to each database | **First.** The only unprovisioned venture with live revenue. |
+| `STRIPE_LILLIEANDLYNETTE_SECRET_KEY` | `stripe-lillieandlynette` MCP (to be registered) | Create the Lillie and Lynette Stripe account; Developers > API keys; prefer a restricted key | **First.** Stewardship is taking money with no rail. |
+| `NOTION_PARADIGM_TOKEN` | `notion-paradigm` MCP (to be registered) | As above, against the Paradigm workspace | Second |
+| `STRIPE_PARADIGM_SECRET_KEY` | `stripe-paradigm` MCP (to be registered) | As above, against a Paradigm Stripe account | On first product run |
+| `ANTHROPIC_PARADIGM_API_KEY` | Paradigm Farms AI layer | Anthropic console > API keys. The app manages its own key independently of the Claude Code session, on the Oracle precedent. | With the Farms build |
+| `NOTION_ATLAS_TOKEN` | `notion-atlas` MCP (to be registered) | As above, against the Atlas workspace. Migrate the Arlando Parker Jr. pilot records out of the Five Points workspace on provisioning. | Third |
+| `ANTHROPIC_ATLAS_API_KEY` | Atlas clinical documentation layer | Anthropic console. **A Business Associate Agreement must be executed before any real patient encounter reaches this key.** | Gated on the BAA |
+| `NOTION_ATHENA_TOKEN` | `notion-athena` MCP (to be registered) | As above | Held while dormant |
+
+Marty Gras takes no venture token – it routes to the personal workspace by standing exception.
 
 ---
 
@@ -82,4 +102,4 @@ Items that must be present and verified in the password manager before any resto
 
 ---
 
-*Last updated: 2026-07-23 – The Lamplighter, registries lane: Instantly key marked pending removal (teardown 2026-07-23, decision 2026-07-10), Cal.com key added as absent, Oracle's own environment surface catalogued for the first time.*
+*Last updated: 2026-08-11 – Domesday: NOTION_PERSONAL_TOKEN row corrected to name its true consumer, the notion-personal server, and marked live; the duplicate APIFY_FIVEPOINTS_TOKEN row collapsed into the corrected one. Standing operator actions unchanged: delete the INSTANTLY line by hand, drop the Calcom and ElevenLabs keys, drop the mail service-account JSON. Secrets-architecture ruling of the same date: keys stay in .env, hardened – chmod 600 plus a complete escrow of every variable in the password manager.*

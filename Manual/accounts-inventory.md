@@ -27,7 +27,7 @@
 | Service | Scope | Owning email | Purpose | Recovery route |
 |---|---|---|---|---|
 | Apple ID | Personal | martavious.spicer@icloud.com | iCloud Drive, TCC permissions, App Store, Apple ecosystem root | Recovery key escrowed in password manager |
-| Anthropic / Claude | Personal | confirm | Claude Code CLI, Claude desktop app, API key powering the Catalogue app didactic panel | confirm |
+| Anthropic / Claude | Personal | confirm | Claude Code CLI, Claude desktop app, API key powering the Oracle app didactic panel | confirm |
 | GitHub – Massamartyv | Personal | confirm | Personal and system repos: alfred-pennyworth, alfred-vault, catalogue, nextjs-starter template | iCloud (recovery codes in password manager – confirm present) |
 | GitHub – studio-fivepoints | Business | systems@fivepoints.studio | Client repos for Five Points Digital Studio | systems@ (recovery codes in password manager – confirm present) |
 | Vercel – personal | Personal | confirm | Massamartyv account; Headquarters team; personal project deployments; account slug: lavender-stingray | confirm |

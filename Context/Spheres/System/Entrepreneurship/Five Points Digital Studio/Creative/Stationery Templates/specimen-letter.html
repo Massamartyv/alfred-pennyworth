@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="trim" content="210x297mm">
+<title>Letter specimen – Five Points Digital Studio</title>
+<link rel="stylesheet" href="stationery.css">
+<style>
+/* Specimen instance of letterhead.html. Derive new letters from the
+   framework, never from this file. The letter it carries is the covering
+   note that travels with a commissioning proposal - the most common letter
+   the house writes, and therefore the one worth proving the trim against. */
+
+@page { size: 210mm 297mm; margin: 0; }
+
+.sheet {
+  width: 210mm;
+  height: 297mm;
+  --margin-t: 24mm;
+  --margin-x: 22mm;
+  --axis: 50mm;
+  --margin-r: 40mm;
+  --margin-b: 22mm;
+}
+
+.letter { top: 50mm; bottom: 52mm; }
+.letter .meta { margin-bottom: 7mm; }
+.letter .to { margin-bottom: 7mm; }
+.letter .body + .body { margin-top: 4mm; }
+.letter .signoff { margin-top: 9mm; }
+.letter .signoff .name { font-weight: 600; margin-top: 7mm; }
+</style>
+</head>
+<body data-voice="coral">
+
+<section class="sheet">
+
+  <header class="masthead">
+    <img class="mark" src="assets/mark-ink.svg" alt="Five Points">
+    <div class="ident">
+      <div class="wordmark">Five Points</div>
+      <div class="reach">
+        martavious@fivepoints.studio<br>
+        fivepoints.studio
+      </div>
+    </div>
+  </header>
+
+  <div class="letter axis">
+    <div class="meta mono">6 August 2026</div>
+
+    <div class="to small">
+      Dominic McCauley<br>
+      McCauley Electrical<br>
+      Atlanta
+    </div>
+
+    <p class="body">Dear Mr McCauley,</p>
+
+    <p class="body">The commissioning proposal for the McCauley Electrical
+      rebuild travels with this letter. It runs to six pages and it is meant
+      to be read once, slowly, rather than skimmed twice.</p>
+
+    <p class="body">Three doors are set out inside, and the middle one is the
+      recommendation. The Survey maps the operation as a system before a
+      single component is assembled, and the document it produces is yours to
+      keep whether or not the work continues past it. The Commission builds
+      what the Survey finds. Evolution governs the asset once it is running.
+      Each is priced in full on page four, with the cost of leaving the
+      operation as it stands set beside the cost of the work.</p>
+
+    <p class="body">Nothing in the proposal expires and no date on it is
+      designed to hurry the decision. When the reading is done, write or
+      call, and the studio will walk the architecture through with you.</p>
+
+    <div class="signoff small">
+      <div>Yours sincerely,</div>
+      <div class="name">Martavious Spicer</div>
+      <div>Partner</div>
+    </div>
+  </div>
+
+  <footer class="footgrid">
+    <div class="col">
+      <div class="group">
+        <div class="lead">Five Points Digital Studio</div>
+      </div>
+      <div class="group">
+        martavious@fivepoints.studio<br>
+        fivepoints.studio
+      </div>
+    </div>
+    <div class="col">
+      <div class="group">
+        <div class="marque">A Five Points Commission</div>
+      </div>
+      <div class="group">
+        Bespoke operating infrastructure<br>
+        Decatur, Georgia
+      </div>
+    </div>
+  </footer>
+
+</section>
+
+</body>
+</html>

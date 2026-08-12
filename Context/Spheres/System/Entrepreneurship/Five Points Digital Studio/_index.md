@@ -3,12 +3,14 @@ file_type: venture_index
 venture_name: "Five Points Digital Studio"
 venture_stage: "Growth"
 methodology: "The Manor Protocol"
-last_updated: 2026-07-23
+last_updated: 2026-08-10
 ---
 
 # Five Points Digital Studio – Venture Index
 
 Bespoke infrastructure studio building owned, compounding operating infrastructure for singular minds. Pentagram-inspired partnership model. No retainer pricing model. Public offer surface: three doors – the Survey, the Commission and Evolution – priced from the validated ladder $197 / $1,970 / $19,700; Evolution is quoted at commissioning as 20% of commission value annually, billed quarterly. Human Construct at Platinum is the reserved tier, principal-only, priced from a $35,000 floor. See Foundation/brand-fingerprint.md and Growth/private-menu-quoting-discipline.md.
+
+**Standing rule – adopted 2026-08-10:** one unit of market contact ships before any further doctrine artefact. The next document the venture produces after a strategy pass is an invoice. Receipt in the Five Points Decision Log.
 
 ## The Manor Protocol
 
@@ -71,4 +73,4 @@ Plus three bundles: AI Powered Brand Ecosystem, Brand Launchpad, Total Transform
 
 ---
 
-*Last updated: 2026-07-23 – pricing description corrected to the three-door validated ladder, retainer language removed to match the brand fingerprint.*
+*Last updated: 2026-08-10 – standing rule adopted from the Offer Architecture Audit rulings pass.*

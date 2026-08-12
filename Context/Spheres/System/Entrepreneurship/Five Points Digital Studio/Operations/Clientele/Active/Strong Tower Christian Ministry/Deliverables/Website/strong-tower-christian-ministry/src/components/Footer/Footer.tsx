@@ -13,7 +13,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={`container ${styles.inner}`}>
         <div className={styles.brandCol}>
-          <Wordmark size="lg" tone="light" full className={styles.wordmark} />
+          <Wordmark size="lg" tone="light" markOnly className={styles.wordmark} />
           <p className={styles.tagline}>{site.taglines.primary}</p>
           <div className={styles.socials}>
             <a
