@@ -78,6 +78,10 @@ Context/Spheres/System/Entrepreneurship/*/Growth/Prospecting/*.xlsx
 **/Working Files/
 Context/Spheres/System/Entrepreneurship/Library/
 
+# Venture asset shelves (purchased packs, mockups, stock and call media – large binaries, local only)
+Context/Spheres/System/Entrepreneurship/*/Creative/Asset Library/
+Context/Spheres/System/Entrepreneurship/*/Operations/Clientele/**/*.m4a
+
 # Personal social-media data exports and media dumps (PII, local-only).
 # Full account archives (Instagram/Facebook/LinkedIn/TikTok) and Bitmoji
 # packs live on disk only. Folder preserved via .gitkeep.
