@@ -3,10 +3,10 @@ file_type: integration_registry
 department: Agents
 venture: Marty Gras
 status: active
-last_updated: 2026-08-08
+last_updated: 2026-08-11
 ---
 
-<!-- Updated 2026-08-08 (The Junction): every row live-verified. ElevenLabs confirmed halting, the marty_gras Pennyone pipeline recorded as an unresolved contradiction, the personal-workspace exception restated against the one-workspace-per-venture ruling. -->
+<!-- Updated 2026-08-11 (Domesday walk): the marty_gras pipeline contradiction resolved by operator ruling - pipeline retired from the router; Notion row corrected to the live notion-personal server. Prior pass 2026-08-08 (The Junction). -->
 
 # Integrations
 
@@ -22,18 +22,9 @@ The exception covers state and syndication. It does not cover money: if Marty Gr
 
 ---
 
-## The unresolved contradiction
+## The contradiction, resolved
 
-Two records disagree and neither has been retired.
-
-- **The 2026-07-23 operator ruling**, recorded in `Manual/secrets-inventory.md`, states that Marty Gras routes through the personal Zernio pipeline and that no separate account is planned. `ZERNIO_MARTYGRAS_API_KEY` is marked "not needed".
-- **`Integrations/pennyone/`** still registers a `marty_gras` pipeline in the `Pipeline` enum, advertises it through `list_pipelines` with the voice "architect of vibe", and demands `ZERNIO_MARTYGRAS_API_KEY`. `health_check` returns `no_key`, verified 2026-08-08.
-
-Either the pipeline is retired from the router or the ruling is reversed. Left as it stands, `health_check` reports a permanent failure for a pipeline that is not meant to exist, which trains the eye to ignore a red status – the most expensive kind of small mess.
-
-This file does not pick a side. The ruling is the operator's to make.
-
----
+Ruled 2026-08-11 during the Domesday walk: the `marty_gras` pipeline was retired from the Pennyone router, executing the 2026-07-23 decision. The `Pipeline` enum, registry, publisher maps and README no longer carry it; `ZERNIO_MARTYGRAS_API_KEY` is marked retired in the secrets inventory and will never exist. Marty Gras publishes through `pipeline: "personal"`, permanently. The false red is gone from `health_check`.
 
 ---
 
@@ -43,30 +34,17 @@ Marty Gras does not yet own dedicated venture-scoped MCP connections. The table 
 
 | Service | Routing | MCP package | Status, verified 2026-08-08 | Environment variable | Notes |
 |---|---|---|---|---|---|
-| Notion | Personal workspace | Managed (enhanced) | **DARK** – the enhanced connector does not appear in the session tool surface at all. Consistent with the personal Notion token being down since 12 July 2026. | n/a (managed) | Content calendar, media database, Sphere Manager. Marty Gras has no writable state surface while this is down. |
+| Notion | Personal workspace | `@notionhq/notion-mcp-server` (npx, server name `notion-personal`) | **Live, verified 2026-08-11** – the project-scoped token server is the working route; the retired OAuth enhanced connector stays dark and superseded | `NOTION_PERSONAL_TOKEN` | Content calendar, media database, Sphere Manager. The writable state surface is back. |
 | ElevenLabs | Personal | `elevenlabs-mcp` (uvx, server name `elevenlabs`) | **DARK** – registered in `.mcp.json` but not one tool surfaces, meaning the server halts on the missing key at launch | `ELEVENLABS_API_KEY` | Voice production for the Conversation and audio work. Registered at project scope 2026-07-10; connects automatically once the operator mints a key at elevenlabs.io/app/settings/api-keys and adds the line to `.env`. Generated audio routes to `.working/elevenlabs/`. The podcast voice lane has been dark since the registration. |
 | Vercel | Personal account | `@vercel/mcp@latest` | **Live** – `list_teams` returns team `lavender-stingray`, "Headquarters" | n/a – desktop connector, no local env var | Hosting for any Marty Gras web properties. This is the personal Vercel account and it is the correct one for Marty Gras under the personal-identity exception. |
 | Supabase | Personal management token | `@supabase/mcp-server-supabase@latest` | Registered – desktop connector present, not exercised this pass | `SUPABASE_PERSONAL_TOKEN` | Backend for any Marty Gras web properties |
-| Pennyone | Personal pipeline per the 2026-07-23 ruling | Custom FastMCP at `Integrations/pennyone/` | **Live via `personal`** – `health_check` returns `ok`, seven connected accounts across Discord, Instagram, LinkedIn, Reddit, Threads, TikTok and YouTube | `ZERNIO_PERSONAL_API_KEY` | This is the working syndication path for Marty Gras today. See the contradiction section above regarding the orphaned `marty_gras` pipeline. |
+| Pennyone | Personal pipeline per the 2026-07-23 ruling | Custom FastMCP at `Integrations/pennyone/` | **Live via `personal`** – `health_check` returns `ok`, seven connected accounts across Discord, Instagram, LinkedIn, Reddit, Threads, TikTok and YouTube | `ZERNIO_PERSONAL_API_KEY` | The working and permanent syndication path for Marty Gras; the orphaned `marty_gras` pipeline was retired 2026-08-11. |
 
 ---
 
 ## Target-State Plugins
 
-Plugins Marty Gras needs once the pipeline is live.
-
-### Pennyone – Social syndication
-
-| Field | Value |
-|---|---|
-| Account | Zernio (Marty Gras, to be provisioned) |
-| Scope | Social syndication across Instagram, TikTok, Threads, X, Reddit and Snap for Marty Gras handles |
-| Pipeline value | `marty_gras` |
-| MCP server name | `pennyone` (cross-venture router) |
-| MCP package | Custom Python/FastMCP server at `Integrations/pennyone/` |
-| Status | **Orphaned. Verified 2026-08-08 – `health_check` returns `no_key`.** Superseded by the 2026-07-23 ruling that Marty Gras routes through the personal pipeline. The pipeline remains in the router code and should be retired or reinstated by ruling; see the contradiction section above. |
-| Environment variable | `ZERNIO_MARTYGRAS_API_KEY` – marked "not needed" in the secrets inventory |
-| Routing rule | **Superseded.** Marty Gras dispatches pass `pipeline: "personal"` under the current ruling. Were the ruling reversed, dispatches would pass `pipeline: "marty_gras"` and route under a dedicated Marty Gras Zernio account. Pennyone itself is cross-venture; only the Zernio account is venture-scoped. Buffer is deprecated. |
+Plugins Marty Gras needs once each lane goes live. The dedicated Pennyone pipeline is no longer among them – retired 2026-08-11; syndication is permanently the personal pipeline.
 
 ### Substack, audio host
 
