@@ -24,7 +24,7 @@ The file is secret-free: each entry sources `.env` at launch and passes keys by 
 | `elevenlabs` | `elevenlabs-mcp` (uvx, official) | Personal – voice production for the Marty Gras podcast lane. **Registered 2026-07-10; awaiting key** | `ELEVENLABS_API_KEY` (wrapper also sets non-secret `ELEVENLABS_MCP_BASE_PATH` to `.working/elevenlabs/`) |
 | `calcom` | local FastMCP, `Integrations/calcom/` | Five Points booking layer (Cal.com API v2). **Registered 2026-07-10; the pipeline key is absent from `.env` as of 2026-07-23 – server registers but the Five Points pipeline has no working key** | `CALCOM_FIVEPOINTS_API_KEY` |
 | `fivepoints-calendar` | local FastMCP, `Integrations/fivepoints-calendar/` | Five Points Workspace calendars, user-routed (Calendar API v3). **Registered 2026-07-10; awaiting shared key + Calendar delegation scope** | none – service-account file shared with fivepoints-mail; optional `FIVEPOINTS_CALENDAR_SERVICE_ACCOUNT` override |
-| `apple-calendar` | local FastMCP (PyObjC/EventKit), `Integrations/apple-calendar/` | Personal – iCloud and every macOS-configured calendar | none – TCC authorization, no credentials |
+| `apple-calendar` | local FastMCP (AppleScript over Calendar.app), `Integrations/apple-calendar/` | Personal – iCloud and every macOS-configured calendar. **Rebuilt 2026-08-12**: the EventKit build could never obtain its TCC grant, so the lane was dark from 10 July. All nine tools verified live against real calendars, full CRUD round trip | none – Automation permission, no credentials |
 
 ### Live results, 2026-08-08
 
@@ -51,7 +51,7 @@ The file is secret-free: each entry sources `.env` at launch and passes keys by 
 | `strava` | `strava_auth_status` | **Fails. 403 Forbidden** on the athlete endpoint despite a token file refreshed the same day – app credentials or scopes revoked |
 | `calcom`, `fivepoints-calendar` | `health_check` | **Fail.** Identical errors to 2026-08-08 |
 | `elevenlabs` | – | Still surfaces zero tools – key absent |
-| `apple-calendar` | `authorization_status`, then `request_access` twice | Call OK; **TCC `not_determined` and unfixable by the operator.** Diagnosed 2026-08-12: the server runs as a bare Homebrew `python3.12` with no app bundle, and the Claude app's Info.plist declares no `NSCalendarsUsageDescription`, so neither end of the chain can raise the dialog. No request ever succeeded, so macOS created no Calendars entry to approve – and that pane has no add button. Requires a rebuild over AppleScript or a signed app-bundle wrapper; it is not a settings problem |
+| `apple-calendar` | `authorization_status`, then `request_access` twice | **Was** TCC `not_determined` and unfixable by the operator – the server ran as a bare Homebrew `python3.12` with no app bundle while the Claude app declared no `NSCalendarsUsageDescription`, so neither end could raise the dialog and no Calendars entry was ever created to approve. **Rebuilt over AppleScript the same day and now live** – see the row below |
 | `fivepoints-mail` (user scope) | `health_check` | **Dark.** `no_credentials` on all five mailboxes, unchanged |
 
 Four of the eleven project-scope servers cannot complete a call – `calcom`, `fivepoints-calendar`, `elevenlabs` and `strava` – with `fivepoints-mail` dark at user scope beside them. The mail–calendar–booking trio is the Five Points communications layer, and two operator actions clear all three.
