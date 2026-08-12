@@ -51,7 +51,7 @@ The file is secret-free: each entry sources `.env` at launch and passes keys by 
 | `strava` | `strava_auth_status` | **Fails. 403 Forbidden** on the athlete endpoint despite a token file refreshed the same day – app credentials or scopes revoked |
 | `calcom`, `fivepoints-calendar` | `health_check` | **Fail.** Identical errors to 2026-08-08 |
 | `elevenlabs` | – | Still surfaces zero tools – key absent |
-| `apple-calendar` | `authorization_status` | Call OK; **TCC `not_determined`, read and write both false** – macOS Calendar access has never been granted |
+| `apple-calendar` | `authorization_status`, then `request_access` twice | Call OK; **TCC `not_determined` and unfixable by the operator.** Diagnosed 2026-08-12: the server runs as a bare Homebrew `python3.12` with no app bundle, and the Claude app's Info.plist declares no `NSCalendarsUsageDescription`, so neither end of the chain can raise the dialog. No request ever succeeded, so macOS created no Calendars entry to approve – and that pane has no add button. Requires a rebuild over AppleScript or a signed app-bundle wrapper; it is not a settings problem |
 | `fivepoints-mail` (user scope) | `health_check` | **Dark.** `no_credentials` on all five mailboxes, unchanged |
 
 Four of the eleven project-scope servers cannot complete a call – `calcom`, `fivepoints-calendar`, `elevenlabs` and `strava` – with `fivepoints-mail` dark at user scope beside them. The mail–calendar–booking trio is the Five Points communications layer, and two operator actions clear all three.
