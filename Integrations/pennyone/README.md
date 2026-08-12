@@ -26,7 +26,6 @@ Every publish request must declare a pipeline. The pipeline selects which Zernio
 | Pipeline | Label | Env var | Status |
 |---|---|---|---|
 | `personal` | Personal | `ZERNIO_PERSONAL_API_KEY` | Provisioning |
-| `marty_gras` | Marty Gras | `ZERNIO_MARTYGRAS_API_KEY` | Future |
 | `five_points` | Five Points Digital Studio | `ZERNIO_FIVEPOINTS_API_KEY` | Provisioning |
 | `paradigm` | Paradigm | `ZERNIO_PARADIGM_API_KEY` | Future |
 | `lillie_and_lynette` | Lillie and Lynette | `ZERNIO_LILLIEANDLYNETTE_API_KEY` | Future |
@@ -84,7 +83,6 @@ Add to `.mcp.json`:
   "args": ["/Users/martyspicer/Alfred Pennyworth/Integrations/pennyone/server.py"],
   "env": {
     "ZERNIO_PERSONAL_API_KEY": "${ZERNIO_PERSONAL_API_KEY}",
-    "ZERNIO_MARTYGRAS_API_KEY": "${ZERNIO_MARTYGRAS_API_KEY}",
     "ZERNIO_FIVEPOINTS_API_KEY": "${ZERNIO_FIVEPOINTS_API_KEY}",
     "ZERNIO_PARADIGM_API_KEY": "${ZERNIO_PARADIGM_API_KEY}",
     "ZERNIO_LILLIEANDLYNETTE_API_KEY": "${ZERNIO_LILLIEANDLYNETTE_API_KEY}"
@@ -205,7 +203,7 @@ python publisher.py --pipeline personal --page-id <id>
 python publisher.py --pipeline personal --dry-run
 ```
 
-Requires a Notion integration token for the pipeline's workspace. Env var naming: `NOTION_PERSONAL_TOKEN`, `NOTION_MARTYGRAS_TOKEN`, `NOTION_FIVEPOINTS_TOKEN`, etc.
+Requires a Notion integration token for the pipeline's workspace. Env var naming: `NOTION_PERSONAL_TOKEN`, `NOTION_FIVEPOINTS_TOKEN`, etc. The marty_gras pipeline was retired 2026-08-11 by operator ruling; Marty Gras publishes through the personal pipeline.
 
 ### Per-pipeline Notion integration setup
 

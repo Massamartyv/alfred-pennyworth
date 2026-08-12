@@ -53,7 +53,6 @@ import server  # noqa: E402
 # without a Stripe-style per-venture naming because it is the default scope.
 PIPELINE_TO_NOTION_TOKEN_ENV: Dict[server.Pipeline, str] = {
     server.Pipeline.PERSONAL: "NOTION_PERSONAL_TOKEN",
-    server.Pipeline.MARTY_GRAS: "NOTION_MARTYGRAS_TOKEN",
     server.Pipeline.FIVE_POINTS: "NOTION_FIVEPOINTS_TOKEN",
     server.Pipeline.PARADIGM: "NOTION_PARADIGM_TOKEN",
     server.Pipeline.LILLIE_AND_LYNETTE: "NOTION_LILLIEANDLYNETTE_TOKEN",
@@ -64,7 +63,6 @@ PIPELINE_TO_NOTION_TOKEN_ENV: Dict[server.Pipeline, str] = {
 # come online as their workspaces are provisioned.
 PIPELINE_TO_CONTENT_CALENDAR: Dict[server.Pipeline, Optional[str]] = {
     server.Pipeline.PERSONAL: "ad36d098-c55c-46f9-b133-b3bfbd5cd81f",
-    server.Pipeline.MARTY_GRAS: None,
     server.Pipeline.FIVE_POINTS: None,
     server.Pipeline.PARADIGM: None,
     server.Pipeline.LILLIE_AND_LYNETTE: None,

@@ -3,7 +3,7 @@
 Pennyone MCP Server -- Content syndication router.
 
 Thin FastMCP layer over Zernio. Accepts a publish request scoped to a
-pipeline (personal, marty_gras, five_points, paradigm, lillie_and_lynette)
+pipeline (personal, five_points, paradigm, lillie_and_lynette)
 and fans it out to any subset of nine social platforms (Instagram, TikTok,
 Threads, X, Reddit, Snap, LinkedIn, YouTube, Discord).
 
@@ -81,7 +81,6 @@ class Pipeline(str, Enum):
     """
 
     PERSONAL = "personal"
-    MARTY_GRAS = "marty_gras"
     FIVE_POINTS = "five_points"
     PARADIGM = "paradigm"
     LILLIE_AND_LYNETTE = "lillie_and_lynette"
@@ -98,12 +97,8 @@ PIPELINE_REGISTRY: Dict[Pipeline, Dict[str, str]] = {
         "description": "Marty as an individual, separate from any venture",
         "env_var": "ZERNIO_PERSONAL_API_KEY",
     },
-    Pipeline.MARTY_GRAS: {
-        "label": "Marty Gras",
-        "voice": "architect of vibe",
-        "description": "Personal media venture -- podcast, newsletter, cultural curation",
-        "env_var": "ZERNIO_MARTYGRAS_API_KEY",
-    },
+    # marty_gras retired 2026-08-11 by operator ruling: Marty Gras is the
+    # personal media identity and publishes through the personal pipeline.
     Pipeline.FIVE_POINTS: {
         "label": "Five Points Digital Studio",
         "voice": "pentagram partnership",

@@ -92,7 +92,7 @@ Present in the session tool surface, absent from every registry until this pass.
 
 | Connector | Prefix | What it is | Disposition |
 |---|---|---|---|
-| Media generation | `mcp__02edb1a9-a1b7-4aa1-8d77-f34a218271b6__` | Image, video, audio, 3D and website generation, plus a TikTok publishing lane. Private workspace, free tier, **zero credits**, workspace not selected. | **Governance concern, not a capability concern.** It carries `tiktok_publish`, `tiktok_connect` and `tiktok_prepare_publish`, which route around the Pennyone publish gate entirely – the ask list gates `pennyone publish` and nothing else. It also overlaps the ElevenLabs voice lane. Dormant on credits today. Ruling needed: gate its publish tools on the ask list, or remove the connector. |
+| Media generation | `mcp__02edb1a9-a1b7-4aa1-8d77-f34a218271b6__` | Image, video, audio, 3D and website generation, plus a TikTok publishing lane. Private workspace, free tier, **zero credits**, workspace not selected. | **Gated by operator ruling 2026-08-11.** `tiktok_publish`, `tiktok_connect` and `tiktok_prepare_publish` sit on the ask list beside the Pennyone gate; generation tools stay open. The install-specific ID caveat below applies – re-granting the connector mints a new prefix and the three ask entries must be updated to match. |
 | Connector discovery | `mcp__mcp-registry__` | Searches the MCP connector registry and suggests connectors | Benign, read-only. Useful to the skill-scout lane. No gate needed. |
 | Context7 | `mcp__plugin_context7_context7__` | Library and framework documentation lookup | Benign, read-only. Useful to any build lane. No gate needed. |
 | PDF viewer | `mcp__pdf-viewer__` | Displays and interacts with local PDFs | Benign, local, read-only. No gate needed. |
@@ -139,7 +139,7 @@ The ask list in `~/.claude/settings.json` gates every outward-facing tool:
 |---|---|
 | Email sends | `fivepoints-mail` send_message and send_draft; `apple-mail` compose, reply, forward |
 | Messages | iMessage send_imessage |
-| Social publishing | `pennyone` publish |
+| Social publishing | `pennyone` publish; media-generation connector `tiktok_publish`, `tiktok_connect`, `tiktok_prepare_publish` (gated 2026-08-11) |
 | Financial writes | `stripe-fivepoints` stripe_api_write, create_refund |
 | Data and deploy | Supabase apply_migration, execute_sql, deploy_edge_function, create_project, pause_project, delete_branch, reset_branch (both Supabase servers); Vercel deploy_to_vercel |
 | Bookings | `calcom` create_booking, reschedule_booking, cancel_booking |
