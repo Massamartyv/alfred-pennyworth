@@ -88,17 +88,22 @@ Marty Gras takes no venture token – it routes to the personal workspace by sta
 
 ## Escrow
 
-All credential values and two-factor authentication recovery codes are stored in the operator's password manager.
+**The escrow manager is Apple Passwords** – ruled 2026-08-11 (Domesday). It is the estate's only off-machine copy of every credential, since the same ruling barred keys from git in any form. It was chosen for weight: it is already installed on both the Mac and the iPhone, it syncs end to end encrypted through iCloud, and it therefore satisfies the non-Mac reachability requirement by construction rather than by discipline.
 
-Items that must be present and verified in the password manager before any restore drill proceeds:
+Every variable in the tables above belongs here, entered as its own item titled with the variable name. Also escrowed:
 
 - GitHub recovery codes for Massamartyv account
 - GitHub recovery codes for studio-fivepoints account
-- Apple ID recovery key
 - Stripe restricted key and the full secret key (business account)
 - All 2FA backup codes for accounts where 2FA is active
 
-**The password manager must be reachable from a non-Mac device.** If it is not, that is a blocking gap to resolve before the next drill.
+### The one carve-out – the Apple ID recovery key
+
+**The Apple ID recovery key must never live in Apple Passwords.** Apple Passwords syncs through iCloud, which is unlocked by the Apple ID, which is recovered by that key. Storing it inside is a closed loop: the one failure it exists to survive – losing access to the Apple ID – is the exact failure that makes it unreadable. It stays outside the loop, in the sealed emergency kit under `Private/` or on paper. Verify its location at each restore drill.
+
+The general law, worth carrying beyond this file: **a credential store must have fewer dependencies than the things it protects.** Apple Passwords has one – the Apple ID. Everything it holds may therefore depend on the Apple ID, and nothing it holds may be required to recover the Apple ID.
+
+**Reachability check at each drill:** open Apple Passwords on the iPhone with the Mac powered off and confirm a sampled key reads correctly. Satisfied by design, verified in practice.
 
 ---
 

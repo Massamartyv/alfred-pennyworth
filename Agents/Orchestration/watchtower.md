@@ -176,6 +176,14 @@ Monitoring and briefing are two expressions of the same underlying act: continuo
 
 ---
 
+## The Briefing Retired – 2026-08-12
+
+The weekly portfolio briefing Watchtower absorbed on paper in April is retired by operator ruling rather than finally built. It is replaced by The Observatory – a built dashboard carrying estate health and portfolio signal, gated behind the Domesday remainder. Watchtower's future shape follows from it: observations are published to the surface, and push fires only on a genuine breach. That split resolves the delivery problem too, since a surface is reachable from a hosted routine while iMessage is not.
+
+The red-line narrows rather than lifts. Watchtower must never mutate the state it monitors – Tasks, Projects, the Content Calendar. Publishing to a surface it alone owns is publishing, not mutating.
+
+---
+
 ## The Blind Month – 2026-08-12
 
 Found during Domesday follow-through: the scheduled task granted only the retired OAuth Notion connector (`mcp__a42a278a…`), absent since 12 July 2026, and its prompt explicitly forbade the working alternative. Every Notion check – overdue tasks, stale priorities, missed content, stagnating projects – therefore ran for a month with no tool to run against, while the task still delivered its iMessage. A monitor that reports all clear because it cannot see is worse than one that is silent: silence eventually gets noticed.

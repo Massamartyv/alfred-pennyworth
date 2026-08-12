@@ -18,17 +18,23 @@ lives in the Five Points Notion workspace.
 | | |
 |---|---|
 | Commission | $7,500 |
-| Returning-client reduction | 50%, minus $3,750 |
-| Due | $3,750, one payment, on receipt |
+| Due | $7,500, one payment, on receipt |
 | Method | Zelle to 470-556-3989, note FP-2026-003 |
 
-The reduction is shown on both documents rather than netted away into a single
-figure. A discount the client cannot see is not a gesture, it is just a lower
-price, and the point here is that she came back.
+Two bodies of work, the website and the staff portal, settled as one commission
+at the standard rate. Both are named on both documents so the client can see
+what the figure covers.
 
-Operator ruling of 31 July 2026: she is the first client to return to this
-studio with a second commission, having trusted it to replace work it had
-already done for her. The standard rate is unchanged; this reduction is hers.
+**Operator ruling of 12 August 2026, superseding the ruling of 31 July.** The
+earlier draft carried a 50% returning-client reduction to $3,750. It was
+withdrawn because the scope grew by an entire auth-backed scheduling portal
+after the reduction was struck, and the portal is folded into the full price
+rather than invoiced separately. The documents were never sent and the client
+never saw the earlier figure, so nothing was retracted. The returning-client
+reduction remains available as a studio instrument; it was not applied here.
+
+The statement is dated the day it is issued. If the send slips past 12 August
+2026, change the date and re-run the build and the gate before it goes.
 
 ## Build
 
