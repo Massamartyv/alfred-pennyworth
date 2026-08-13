@@ -2,7 +2,7 @@
 file_type: registry
 registry_type: sops
 venture: Five Points Digital Studio
-last_updated: 2026-07-22
+last_updated: 2026-08-13
 ---
 
 # SOP Registry
@@ -22,6 +22,7 @@ Catalog of record: the Notion Resources database in the Five Points workspace. E
 | OPS-005 | Project Handoff | Client requests ownership transfer | project-handoff.md | Active |
 | OPS-006 | Quarterly Governance Review | Evolution principal reaches quarterly anniversary | quarterly-governance-review.md | Active |
 | OPS-007 | File Naming Convention | Naming any client file or asset | Notion entry only | Active |
+| OPS-008 | Pre-Dial DNC Scrub | Any cold outbound call or text | pre-dial-dnc-scrub.md | Staged – operator approval pending |
 
 ## Agent Instructions
 
