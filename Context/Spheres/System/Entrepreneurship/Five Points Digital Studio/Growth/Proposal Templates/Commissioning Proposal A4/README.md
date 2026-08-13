@@ -36,9 +36,10 @@ for a new client.
 - `proposal.html` - the document. Duplicate per client and replace the slots.
 - `build.py` - render to A4 PDF, with the overflow gate. `--proof` also writes
   per-page PNGs to `proof/`.
-- `localize_fonts.py` - pull the three faces into `fonts/` and write
-  `fonts.css`. Run once per checkout.
-- `fonts.css` + `fonts/` - local woff2. Generated; do not hand-edit.
+- `localize_fonts.py` - pull the three faces into `fonts/`, cut the static
+  instances and write `fonts.css`. Run once per checkout - see Fonts below.
+- `fonts.css` + `fonts/` - local static faces plus their variable cutting
+  sources. Generated; do not hand-edit.
 - `Archive/` - v1, retired.
 
 ## Rendering
@@ -59,6 +60,39 @@ hidden`, which means copy that grows past the sheet is silently guillotined
 rather than reported. `build.py` measures every sheet and refuses to write a
 PDF that has lost content. When it refuses, trim the copy or re-space the page.
 Do not raise the tolerance. Page 5 in particular sits closest to its ceiling.
+
+## Fonts
+
+**Never ship a variable font into a Chrome-rendered PDF.** Chrome's
+`page.pdf()` embeds variable fonts as Type 3 glyph procedures with bad
+bounding boxes. Chrome itself, poppler and macOS Preview render the result
+fine, but strict viewers - pdf.js, and therefore Firefox and much of the
+browser-preview world - draw the words overlapping and stacked on top of one
+another. The defect shipped undetected for exactly that reason.
+
+`localize_fonts.py` therefore treats the Fontshare variable files as cutting
+sources only. It pins static instances with fontTools at the weights the
+stylesheet requests - Sentient 400 roman and italic, General Sans 400 and
+600 - and `fonts.css` serves only those statics as TTF, which Chrome embeds
+as healthy CID TrueType. The `*-200_700-*.woff2` files stay in `fonts/` for
+re-cutting and are never served.
+
+```bash
+uv run --with "fonttools[woff]" python localize_fonts.py
+```
+
+The corollary: every weight the document can request, including by
+inheritance, must exist as a real face. A missing weight makes Chrome
+synthesise it, and synthetic bold embeds as Type 3 through the same path.
+The guillemet slots inside semibold headings did exactly that until IBM
+Plex Mono 600 joined 400 and 500. If a new rule starts asking for a weight
+or style not yet served, add it to `INSTANCES` in `localize_fonts.py` - or
+to the Google URL for the mono - and re-run.
+
+Diagnose any built PDF with `pdffonts proposal.pdf`. A `Type 3` row is the
+defect; a healthy sheet reads `CID TrueType` throughout. The rule applies
+to the licensed PP files when they land - if they arrive as variable fonts,
+cut statics before they enter `fonts/`.
 
 ## Per-client personalisation
 
