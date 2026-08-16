@@ -2,7 +2,7 @@
 file_type: reference
 document_type: ai_cost
 scope: system-level reasoning about agent cost
-last_updated: 2026-04-23
+last_updated: 2026-08-16
 source: Extracted from retired alfred-os/lib/cost/calculator.ts on 2026-04-23
 ---
 
@@ -18,11 +18,15 @@ All pricing is USD per 1,000 tokens. The rates below were current as of April 20
 
 | Model | Input ($/1k) | Output ($/1k) | Ratio (out/in) |
 |---|---|---|---|
+| Claude Fable 5 | 0.010 | 0.050 | 5.0× |
+| Claude Opus 5 | 0.005 | 0.025 | 5.0× |
+| Claude Sonnet 5 | 0.003 | 0.015 | 5.0× |
+| Claude Haiku 4.5 | 0.001 | 0.005 | 5.0× |
 | Claude Opus 4.6 | 0.015 | 0.075 | 5.0× |
 | Claude Sonnet 4 | 0.003 | 0.015 | 5.0× |
 | Gemini 2.5 Pro | 0.00125 | 0.010 | 8.0× |
 
-**Updates since extraction:** Claude Opus 4.7 and Claude Haiku 4.5 have shipped since this table was written. Add new rows when verifying against the provider pricing page. Retain older rows if workloads may still route to older models for cost reasons.
+**Updates:** Claude 5 family rows added 2026-08-16 from the Anthropic model reference (cached 2026-06-24). Claude Fable 5 lists at 2× Claude Opus 5. Claude Sonnet 5 carries introductory pricing of 0.002/0.010 through 2026-08-31. Prompt-cache economics for the formula below: cache reads bill at ~0.1× the input rate; cache writes at 1.25× (5-minute TTL) or 2× (1-hour TTL). Retain older rows if workloads may still route to older models for cost reasons.
 
 ---
 
@@ -68,7 +72,7 @@ Combining this pricing table with the Model Selection Protocol in the global `CL
 
 - **Opus** at ~5× Sonnet and ~25× Gemini Pro. Reserve for tasks where quality materially outweighs cost – deep reasoning, creative direction, architectural calls.
 - **Sonnet** is the workhorse default. Best quality-to-cost ratio for most agent workloads.
-- **Haiku** (not in this table – add when pricing verified) is the classification and transformation default for high-volume, low-judgement tasks.
+- **Haiku** at 1/5 of Sonnet is the classification and transformation default for high-volume, low-judgement tasks.
 - **Gemini Pro** is the external-provider alternative for heavy workloads where Anthropic pricing is a constraint. Factor in the provider switch cost (different API, different behaviour) before routing there.
 
 ---
