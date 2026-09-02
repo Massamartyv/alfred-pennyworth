@@ -45,12 +45,12 @@
 | Strava | Personal | martavious.spicer@icloud.com | Fitness activity data; developer app registered for strava MCP API access (callback domain: localhost) | iCloud |
 | Fullscript | Personal | martavious.spicer@icloud.com | Practitioner supplement ordering; OAuth app registered for fullscript MCP | iCloud |
 | Discord developer | Personal – retired 2026-07-23 (operator ruling, The Lamplighter) | confirm | discord-setup MCP deregistered; bot token can be revoked at discord.com/developers | confirm |
-| ElevenLabs | Personal | confirm | Podcast voice production for Marty Gras audio content | confirm |
+| ElevenLabs | Personal | confirm | Voice production for the Marty Gras Conversation and Martywood audio content | confirm |
 | Perplexity Pro | Shared – research layer | confirm | Cited, current intelligence: SEO research, competitive analysis, industry trends | confirm |
 | Apify – personal | Personal | confirm | Scraping and web automation; personal token scoped to personal projects | confirm |
 | Apify – Five Points | Business | confirm | Scraping and web automation; Five Points token scoped to business projects | confirm |
-| Substack – Epiphany newsletter | Personal / Marty Gras | confirm | Epiphany newsletter publication; primary Marty Gras written distribution channel | confirm |
-| Domain registrar – fivepoints.studio | Business | confirm registrar and owning email | DNS and domain registration for fivepoints.studio | confirm |
+| Substack – Epiphany | Personal / Martywood | confirm | Epiphany newsletter publication; the Epiphany property of Martywood, its written distribution channel | confirm |
+| Domain registrar – fivepoints.studio | Business | Squarespace Domains – owning email to confirm | DNS and domain registration for fivepoints.studio; zone undelegated as of 2026-09-01, DNS to be pointed at Vercel from the Squarespace panel | confirmed registrar 2026-09-01 |
 
 ---
 
