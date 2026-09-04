@@ -63,11 +63,13 @@ Live state: Notion Projects and Tasks, Five Points workspace (Five Points Digita
 
 ## Offer Pillars
 
-1. **Emerging Technology** – AI workshops, automation oversight, managed services
-2. **Strategic Advisory** – Operational intelligence, marketing strategy, Human Construct, social media strategy
-3. **Market Presence** – Content engine, marketing automation, paid media, social media management
-4. **Creative** – Brand identity, product design
-5. **Development** – Website engineering, digital experience design, application engineering
+1. **Operations** – the systems that run the business while the owner works: speed to lead, after-hours inbound capture, database activation; AI workshops and automation oversight beneath. Renamed from Emerging Technology by operator ruling 2026-09-03
+2. **Development** – Website engineering, digital experience design, application engineering
+3. **Creative** – Brand identity, product design
+4. **Market Presence** – Content engine, marketing automation, paid media, social media management
+5. **Consulting** – Operational intelligence, marketing strategy, Human Construct, social media strategy. Renamed from Strategic Advisory by operator ruling 2026-09-03
+
+Philanthropy is the house's Foundation – community and pro bono – and never appears on the offer surface. The catalogue folders under Growth/Product Development keep their prior names until the catalogue is re-cut.
 
 Plus three bundles: AI Powered Brand Ecosystem, Brand Launchpad, Total Transformation.
 
