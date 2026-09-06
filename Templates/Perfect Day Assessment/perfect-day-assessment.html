@@ -1,0 +1,1144 @@
+<title>Perfect Day Assessment</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,400;0,500;0,600;1,6..72,300;1,400&family=Karla:ital,wght@0,300;0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+
+<style>
+  :root {
+    --ground:      #100E0C;
+    --surface:     #191512;
+    --raised:      #221C17;
+    --rule:        #352D25;
+    --rule-soft:   #262019;
+    --ink:         #F0E8DC;
+    --ink-2:       #B5A697;
+    --ink-3:       #7C7065;
+    --ember:       #CB5F26;
+    --ember-soft:  #8E421B;
+    --verdant:     #4C8A66;
+    --brass:       #B4894A;
+
+    --measure: 66ch;
+    --step--1: 0.8125rem;
+    --step-0:  1rem;
+    --step-1:  1.1875rem;
+    --step-2:  1.5rem;
+    --step-3:  2rem;
+    --step-4:  2.75rem;
+
+    --serif: "Newsreader", "Iowan Old Style", Georgia, serif;
+    --sans:  "Karla", "Helvetica Neue", Arial, sans-serif;
+    --mono:  "IBM Plex Mono", "SFMono-Regular", Menlo, monospace;
+
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: var(--step-0);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    padding: 0 0 7rem;
+  }
+
+  ::selection { background: var(--ember-soft); color: var(--ink); }
+
+  a { color: var(--ember); }
+
+  :focus-visible {
+    outline: 2px solid var(--ember);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  /* ---------- shell ---------- */
+
+  .shell {
+    max-width: 78rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  @media (min-width: 1100px) {
+    .shell {
+      grid-template-columns: 13.5rem minmax(0, 1fr);
+      gap: 3.5rem;
+      padding: 0 2.5rem;
+    }
+  }
+
+  .column { max-width: 46rem; }
+
+  /* ---------- spine ---------- */
+
+  .spine { display: none; }
+
+  @media (min-width: 1100px) {
+    .spine {
+      display: block;
+      position: sticky;
+      top: 0;
+      align-self: start;
+      max-height: 100vh;
+      overflow-y: auto;
+      padding: 3.25rem 0 3rem;
+      scrollbar-width: thin;
+      scrollbar-color: var(--rule) transparent;
+    }
+  }
+
+  .spine-title {
+    font-family: var(--mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    margin: 0 0 1rem;
+  }
+
+  .spine-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem;
+  }
+
+  .spine-link {
+    display: grid;
+    grid-template-columns: 1.75rem 1fr auto;
+    align-items: baseline;
+    gap: 0.375rem;
+    padding: 0.3125rem 0.5rem 0.3125rem 0;
+    color: var(--ink-2);
+    text-decoration: none;
+    font-size: var(--step--1);
+    line-height: 1.35;
+    border-left: 2px solid transparent;
+    padding-left: 0.625rem;
+    transition: color 0.15s, border-color 0.15s;
+  }
+
+  .spine-link:hover { color: var(--ink); border-left-color: var(--rule); }
+  .spine-link[data-current="true"] { color: var(--ink); border-left-color: var(--ember); }
+
+  .spine-num {
+    font-family: var(--mono);
+    font-size: 0.625rem;
+    color: var(--brass);
+    letter-spacing: 0.05em;
+  }
+
+  .spine-count {
+    font-family: var(--mono);
+    font-size: 0.625rem;
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .spine-link[data-complete="true"] .spine-count { color: var(--verdant); }
+
+  /* ---------- masthead ---------- */
+
+  .masthead { padding: 3.25rem 0 0; }
+
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    margin: 0 0 1.25rem;
+  }
+
+  h1 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: var(--step-4);
+    line-height: 1.05;
+    letter-spacing: -0.015em;
+    margin: 0 0 1.25rem;
+    text-wrap: balance;
+  }
+
+  h1 em {
+    font-style: italic;
+    color: var(--ember);
+  }
+
+  .standfirst {
+    font-family: var(--serif);
+    font-size: var(--step-1);
+    line-height: 1.62;
+    color: var(--ink-2);
+    max-width: var(--measure);
+    margin: 0 0 1.5rem;
+  }
+
+  .standfirst strong { color: var(--ink); font-weight: 500; }
+
+  .note {
+    max-width: var(--measure);
+    font-size: var(--step--1);
+    line-height: 1.66;
+    color: var(--ink-2);
+    margin: 0 0 1rem;
+  }
+
+  /* ---------- meridian ---------- */
+
+  .meridian {
+    margin: 2.5rem 0 0;
+    padding: 1.5rem 1.5rem 1.125rem;
+    background: var(--surface);
+    border: 1px solid var(--rule-soft);
+    border-left: 2px solid var(--ember);
+  }
+
+  .meridian-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin-bottom: 1.125rem;
+  }
+
+  .meridian-head h2 {
+    font-family: var(--mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--ink-2);
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .meridian-head span {
+    font-family: var(--mono);
+    font-size: 0.625rem;
+    letter-spacing: 0.08em;
+    color: var(--ink-3);
+  }
+
+  .meridian-scroll { overflow-x: auto; }
+  .meridian svg { display: block; min-width: 30rem; width: 100%; height: auto; }
+
+  .meridian-foot {
+    margin: 1rem 0 0;
+    font-size: var(--step--1);
+    line-height: 1.6;
+    color: var(--ink-2);
+    max-width: var(--measure);
+  }
+
+  .meridian-foot strong { color: var(--ember); font-weight: 500; }
+
+  /* ---------- sections ---------- */
+
+  .section { padding: 3.5rem 0 0; scroll-margin-top: 1.5rem; }
+
+  .section-head {
+    display: grid;
+    grid-template-columns: 2.75rem 1fr;
+    gap: 0.75rem;
+    align-items: baseline;
+    padding-bottom: 0.875rem;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 1.25rem;
+  }
+
+  .section-num {
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    color: var(--brass);
+    letter-spacing: 0.06em;
+    padding-top: 0.4rem;
+  }
+
+  .section-head h2 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: var(--step-2);
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    margin: 0;
+    text-wrap: balance;
+  }
+
+  .section-lede {
+    grid-column: 2;
+    font-size: var(--step--1);
+    line-height: 1.6;
+    color: var(--ink-3);
+    margin: 0.5rem 0 0;
+    max-width: var(--measure);
+  }
+
+  .questions {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .q {
+    padding: 1.25rem 0;
+    border-bottom: 1px solid var(--rule-soft);
+  }
+
+  .q:last-child { border-bottom: none; }
+
+  .q-prompt {
+    display: block;
+    font-size: var(--step-0);
+    line-height: 1.5;
+    color: var(--ink);
+    margin: 0 0 0.375rem;
+    max-width: var(--measure);
+  }
+
+  .q-index {
+    font-family: var(--mono);
+    font-size: 0.6875rem;
+    color: var(--ink-3);
+    margin-right: 0.5rem;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .q-hint {
+    font-size: var(--step--1);
+    line-height: 1.55;
+    color: var(--ink-3);
+    margin: 0 0 0.625rem;
+    max-width: var(--measure);
+  }
+
+  .q-read {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5rem 0.75rem;
+    margin: 0 0 0.625rem;
+    padding: 0.5rem 0.75rem;
+    background: var(--raised);
+    border-left: 2px solid var(--verdant);
+    max-width: var(--measure);
+  }
+
+  .q-read p {
+    margin: 0;
+    flex: 1 1 16rem;
+    font-size: var(--step--1);
+    line-height: 1.55;
+    color: var(--ink-2);
+  }
+
+  .q-read b {
+    font-family: var(--mono);
+    font-size: 0.625rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--verdant);
+    font-weight: 500;
+    display: block;
+    margin-bottom: 0.1875rem;
+  }
+
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.375rem;
+    margin: 0 0 0.625rem;
+  }
+
+  button {
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+  }
+
+  .chip, .adopt {
+    background: transparent;
+    border: 1px solid var(--rule);
+    color: var(--ink-2);
+    font-size: var(--step--1);
+    padding: 0.25rem 0.625rem;
+    border-radius: 999px;
+    transition: border-color 0.15s, color 0.15s, background 0.15s;
+    white-space: nowrap;
+  }
+
+  .chip:hover, .adopt:hover {
+    border-color: var(--ember);
+    color: var(--ink);
+  }
+
+  .adopt {
+    border-color: var(--verdant);
+    color: var(--verdant);
+    font-family: var(--mono);
+    font-size: 0.625rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 0.25rem 0.6875rem;
+    flex: 0 0 auto;
+  }
+
+  .adopt:hover { background: var(--verdant); color: var(--ground); border-color: var(--verdant); }
+
+  textarea {
+    display: block;
+    width: 100%;
+    max-width: var(--measure);
+    background: var(--surface);
+    border: 1px solid var(--rule-soft);
+    border-left: 2px solid var(--rule);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: var(--step-0);
+    line-height: 1.55;
+    padding: 0.625rem 0.75rem;
+    resize: vertical;
+    overflow: hidden;
+    min-height: 2.75rem;
+    transition: border-color 0.15s, background 0.15s;
+  }
+
+  textarea::placeholder { color: var(--ink-3); opacity: 0.7; }
+  textarea:hover { border-left-color: var(--ink-3); }
+  textarea:focus { border-left-color: var(--ember); background: var(--raised); outline: none; }
+  textarea[data-filled="true"] { border-left-color: var(--verdant); }
+  textarea[data-filled="true"]:focus { border-left-color: var(--ember); }
+
+  /* ---------- closing ---------- */
+
+  .closing {
+    margin-top: 4rem;
+    padding: 1.75rem 1.5rem;
+    background: var(--surface);
+    border: 1px solid var(--rule-soft);
+    border-left: 2px solid var(--brass);
+    max-width: var(--measure);
+  }
+
+  .closing h2 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: var(--step-1);
+    margin: 0 0 0.625rem;
+  }
+
+  .closing p {
+    margin: 0 0 0.75rem;
+    font-size: var(--step--1);
+    line-height: 1.65;
+    color: var(--ink-2);
+  }
+
+  .closing p:last-child { margin-bottom: 0; }
+
+  /* ---------- status bar ---------- */
+
+  .statusbar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    background: rgba(16, 14, 12, 0.93);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid var(--rule);
+  }
+
+  .statusbar-inner {
+    max-width: 78rem;
+    margin: 0 auto;
+    padding: 0.625rem 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  @media (min-width: 1100px) {
+    .statusbar-inner { padding: 0.625rem 2.5rem; }
+  }
+
+  .progress {
+    flex: 1 1 10rem;
+    min-width: 8rem;
+    height: 2px;
+    background: var(--rule);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .progress i {
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 0%;
+    background: var(--ember);
+    transition: width 0.35s ease;
+  }
+
+  .tally, .savestate {
+    font-family: var(--mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.06em;
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+
+  .savestate[data-state="saved"] { color: var(--verdant); }
+  .savestate[data-state="saving"] { color: var(--brass); }
+  .savestate[data-state="local"] { color: var(--ink-3); }
+
+  .copybtn {
+    background: transparent;
+    border: 1px solid var(--rule);
+    color: var(--ink-2);
+    font-family: var(--mono);
+    font-size: 0.625rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 0.3125rem 0.75rem;
+    transition: border-color 0.15s, color 0.15s;
+  }
+
+  .copybtn:hover { border-color: var(--ember); color: var(--ink); }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; animation: none !important; }
+  }
+</style>
+
+<div class="shell">
+
+  <nav class="spine" aria-label="Sections">
+    <p class="spine-title">Contents</p>
+    <ul class="spine-list" id="spine"></ul>
+  </nav>
+
+  <div class="column">
+
+    <header class="masthead">
+      <p class="eyebrow">Alfred Pennyworth · Personal Operating System · Intake</p>
+      <h1>What a <em>perfect day</em> is actually made of</h1>
+      <p class="standfirst">
+        One hundred and eleven questions, in twelve movements, from the immovable outward to the sensory.
+        The output is a block architecture: a named, defensible shape for the day, with a
+        definition of done at the end of each block. <strong>Answer what is live, skip what is not.</strong>
+        A half-answered assessment still builds a better day than none.
+      </p>
+      <p class="note">
+        Where the corpus already holds an answer, it is printed as <b style="color:var(--verdant);font-weight:500">Alfred's read</b> –
+        adopt it in one click, or correct it. Correcting one of those is worth more than answering
+        three blanks, because it fixes something the system is currently acting on.
+      </p>
+      <p class="note">
+        Everything saves as you type. There is no submit button and no wrong order.
+      </p>
+
+      <section class="meridian" aria-labelledby="meridian-h">
+        <div class="meridian-head">
+          <h2 id="meridian-h">The day as currently configured</h2>
+          <span>Source: Body, Soul and System spheres</span>
+        </div>
+        <div class="meridian-scroll">
+          <svg viewBox="0 0 720 116" role="img" aria-label="Twenty-four hour strip marking the fixed points currently held in the system: 05:00 supplement reminder, 19:00 supplement reminder, 22:00 target bedtime, and a recorded night-owl rhythm running from 21:00 past midnight.">
+            <rect x="0" y="0" width="720" height="116" fill="none"></rect>
+
+            <!-- night-owl band: 21:00 to 24:00 -->
+            <rect x="630" y="44" width="90" height="14" fill="#8E421B" opacity="0.30"></rect>
+            <rect x="0" y="44" width="30" height="14" fill="#8E421B" opacity="0.30"></rect>
+
+            <!-- baseline -->
+            <line x1="0" y1="58" x2="720" y2="58" stroke="#352D25" stroke-width="1"></line>
+
+            <!-- hour ticks every 3h -->
+            <g stroke="#352D25" stroke-width="1">
+              <line x1="0" y1="52" x2="0" y2="64"></line>
+              <line x1="90" y1="52" x2="90" y2="64"></line>
+              <line x1="180" y1="52" x2="180" y2="64"></line>
+              <line x1="270" y1="52" x2="270" y2="64"></line>
+              <line x1="360" y1="52" x2="360" y2="64"></line>
+              <line x1="450" y1="52" x2="450" y2="64"></line>
+              <line x1="540" y1="52" x2="540" y2="64"></line>
+              <line x1="630" y1="52" x2="630" y2="64"></line>
+              <line x1="719" y1="52" x2="719" y2="64"></line>
+            </g>
+
+            <g font-family="IBM Plex Mono, monospace" font-size="9" fill="#7C7065">
+              <text x="2" y="78">00</text>
+              <text x="82" y="78">03</text>
+              <text x="172" y="78">06</text>
+              <text x="262" y="78">09</text>
+              <text x="352" y="78">12</text>
+              <text x="442" y="78">15</text>
+              <text x="532" y="78">18</text>
+              <text x="622" y="78">21</text>
+              <text x="700" y="78">24</text>
+            </g>
+
+            <!-- 05:00 supplements -->
+            <line x1="150" y1="30" x2="150" y2="58" stroke="#B4894A" stroke-width="1.5"></line>
+            <circle cx="150" cy="58" r="3.5" fill="#B4894A"></circle>
+            <text x="150" y="22" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="#B4894A" text-anchor="middle">05:00 supplements</text>
+
+            <!-- 19:00 supplements -->
+            <line x1="570" y1="30" x2="570" y2="58" stroke="#B4894A" stroke-width="1.5"></line>
+            <circle cx="570" cy="58" r="3.5" fill="#B4894A"></circle>
+            <text x="570" y="22" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="#B4894A" text-anchor="middle">19:00 supplements</text>
+
+            <!-- 22:00 bedtime target -->
+            <line x1="660" y1="58" x2="660" y2="92" stroke="#CB5F26" stroke-width="1.5"></line>
+            <circle cx="660" cy="58" r="3.5" fill="#CB5F26"></circle>
+            <text x="655" y="104" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="#CB5F26" text-anchor="end">22:00 target lights out</text>
+
+            <!-- night owl label -->
+            <text x="716" y="40" font-family="IBM Plex Mono, monospace" font-size="9" fill="#CB5F26" opacity="0.9" text-anchor="end">sharpest after dark</text>
+          </svg>
+        </div>
+        <p class="meridian-foot">
+          Three recorded facts that cannot all be true at once: a <strong>5:00 AM</strong> supplement
+          reminder, a <strong>10:00 PM</strong> lights-out target the file itself marks as
+          aspirational, and a natural rhythm logged as <strong>night owl, sharpest after dark</strong>.
+          Section 03 exists to settle which of these is real and which was inherited from
+          somebody else's day.
+        </p>
+      </section>
+    </header>
+
+    <main id="sections"></main>
+
+    <section class="closing">
+      <h2>What happens next</h2>
+      <p>
+        Once the twelve movements hold enough signal, the return is a block architecture:
+        each block named, timed, given a single mode and a stated definition of done, with the
+        immovables fixed and the negotiables ranked in the order they may be sacrificed.
+        Beneath it, a minimum viable day for the days that go wrong, and a weekly variant
+        so the shape survives contact with a Tuesday.
+      </p>
+      <p>
+        The block architecture is the instrument. The pomodoro-sized next actions inside each
+        block stay where they belong, in Notion.
+      </p>
+    </section>
+
+  </div>
+</div>
+
+<div class="statusbar">
+  <div class="statusbar-inner">
+    <span class="tally" id="tally">0 / 111 answered</span>
+    <span class="progress" aria-hidden="true"><i id="bar"></i></span>
+    <span class="savestate" id="savestate" data-state="local">Local</span>
+    <button class="copybtn" id="copybtn" type="button">Copy responses</button>
+  </div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  var SECTIONS = [
+    {
+      id: "block-system",
+      num: "01",
+      title: "The block system, defined",
+      lede: "The term is yours and it is not written down anywhere in the corpus. Before anything is built on it, it needs a definition that can be argued with.",
+      qs: [
+        { id: "q1", q: "Define a block in your own words. What makes something a block rather than a task, an appointment or a habit?", long: true },
+        { id: "q2", q: "How many blocks should a full day hold?", chips: ["3", "4", "5", "6", "7 or more", "It varies by day"] },
+        { id: "q3", q: "Standard block length, plus the shortest and the longest a block is allowed to run.", hint: "For example: 90 minutes standard, 45 minimum, 180 ceiling." },
+        { id: "q4", q: "Are blocks pegged to clock times, or a sequence where each one starts when the last one ends?", chips: ["Clock times", "Sequence", "Anchors fixed, rest floats"] },
+        { id: "q5", q: "What sits between two blocks? Length, and what actually happens in it.", hint: "The gap is where most block systems fail. It is a design surface, not spare change." },
+        { id: "q6", q: "Does a block hold one mode only, or can it carry several tasks of different kinds?", chips: ["One mode, strictly", "One mode, with admin permitted at the tail", "Mixed is fine"] },
+        { id: "q7", q: "What ends a block: the clock, the outcome, or whichever arrives first?", chips: ["Clock", "Outcome", "Whichever comes first"] },
+        { id: "q8", q: "Which blocks are immovable, and which may slide when the day goes sideways?", long: true },
+        { id: "q9", q: "Do weekdays and weekends run the same block structure, or two different structures?", chips: ["Same structure", "Two structures", "Weekend has no structure"] },
+        { id: "q10", q: "You have run some version of this before. What was the version, and what specifically broke it?", long: true, hint: "The failure mode is the most useful thing in this section." },
+        { id: "q11", q: "GTD is already in force: every task must fit inside one 25-minute pomodoro. Does a block hold a fixed number of pomodoros, or is the pomodoro only the unit for tasks that need timing?", read: "The System sphere holds the pomodoro rule as a hard gate on task definition, not on block length." }
+      ]
+    },
+    {
+      id: "fixed-points",
+      num: "02",
+      title: "The fixed points",
+      lede: "Everything else is designed around these. Name them honestly, including the ones set by other people.",
+      qs: [
+        { id: "q1", q: "The wake time you actually want, not the one you think you should want.", hint: "Two numbers if they differ: the honest want, and the current reality." },
+        { id: "q2", q: "Lights out, and the current honest number.", read: "Body sphere: target 10:00 PM, 7 to 8 hours, with the file noting the bedtime as an aspirational standard rather than an observed one." },
+        { id: "q3", q: "Whose schedule constrains yours? Partner, family, dependants, animals, clients, collaborators.", long: true },
+        { id: "q4", q: "Standing weekly commitments already fixed on the calendar, with days and times.", long: true },
+        { id: "q5", q: "Where does the day physically happen? One location or several.", hint: "Home, studio, office, gym, farm, client sites, in transit." },
+        { id: "q6", q: "Travel time between those locations, and whether transit is dead time or a usable block." },
+        { id: "q7", q: "How many meals, at roughly what times, and which of them are social or otherwise fixed?" },
+        { id: "q8", q: "What is genuinely non-negotiable, on the single worst day of the year?", long: true, hint: "This becomes the floor of the minimum viable day in section 10." },
+        { id: "q9", q: "Any medication, appointment or care obligation that pins a specific hour." }
+      ]
+    },
+    {
+      id: "chronobiology",
+      num: "03",
+      title: "Energy and the honest clock",
+      lede: "The three recorded facts in the meridian above cannot all be true. This section settles it. Energy sets the block order; everything else is negotiation.",
+      qs: [
+        { id: "q1", q: "The hours when analytical work is genuinely sharpest – strategy, numbers, architecture, hard decisions." },
+        { id: "q2", q: "The hours when creative and generative work is sharpest – writing, music, design, ideation." },
+        { id: "q3", q: "The hours when you are best with people – calls, pitches, hosting, difficult conversations." },
+        { id: "q4", q: "The trough. When are you reliably useless, and for how long?" },
+        { id: "q5", q: "Should the trough be protected as rest, or filled with low-stakes admin?", chips: ["Protected rest", "Low-stakes admin", "Movement", "Depends on the day"] },
+        { id: "q6", q: "Caffeine: what, how much, first cup and last cup." },
+        { id: "q7", q: "First daylight exposure – does it happen, and how soon after waking?" },
+        { id: "q8", q: "How is evening light handled? Screens, overheads, dimming, anything deliberate." },
+        { id: "q9", q: "Naps: in or out, and if in, when and how long?", chips: ["No naps", "20 minutes, early afternoon", "Longer, when needed", "Only on training days"] },
+        { id: "q10", q: "The corpus records a night owl, sharpest after dark, a 5:00 AM supplement reminder and a 10:00 PM bedtime target. Which of those three is real, and which was inherited from somebody else's idea of a good day?", long: true, read: "Body sphere: \"Natural rhythm: Night owl - sharpest after dark.\" System sphere: morning supplement reminder at 5:00 AM, evening at 7:00 PM." },
+        { id: "q11", q: "If the honest answer is that your best hours run from 9:00 PM to 2:00 AM, what is the cost of building the day around that, and who pays it?", long: true, hint: "Answer this even if the premise is wrong. The cost accounting is the point." }
+      ]
+    },
+    {
+      id: "the-work",
+      num: "04",
+      title: "The work",
+      lede: "Five active ventures and one head. The block system either resolves that or it collapses under it.",
+      qs: [
+        { id: "q1", q: "On a perfect day, how many ventures does the day touch?", chips: ["One", "Two", "All of them", "Depends on the day of the week"], read: "Active: Five Points Digital Studio, Marty Gras, Paradigm with Paradigm Farms, Lillie and Lynette, Atlas. Athena dormant." },
+        { id: "q2", q: "If one venture owns a day, how is that decided, and when?", hint: "Fixed days of the week, decided the night before, or driven by whatever is loudest." },
+        { id: "q3", q: "Which venture currently deserves the largest share of the week, and does the current week reflect that?", long: true },
+        { id: "q4", q: "The longest uninterrupted stretch of deep work the day should contain." },
+        { id: "q5", q: "How many deep blocks can you honestly sustain in one day before quality drops?", chips: ["One", "Two", "Three", "Four or more"] },
+        { id: "q6", q: "Meetings and calls: which window, and the hard cap per day." },
+        { id: "q7", q: "The client-facing hours you would publish and then defend." },
+        { id: "q8", q: "Email, Slack, DMs, inbox: how many windows, when, and how long each?", hint: "Windows, not ambient. If the honest answer is ambient, say so." },
+        { id: "q9", q: "What is the work only you can do – the part that must stay in your hands?", long: true },
+        { id: "q10", q: "What should already have left your hands and has not?", long: true, hint: "This list becomes an automation brief, not a block." },
+        { id: "q11", q: "What does an hour of your time have to produce for a block to have earned its place in the day?" },
+        { id: "q12", q: "How much of the day should be spent building the system versus running it?", chips: ["Mostly building", "Even split", "Mostly running", "Building on set days only"] }
+      ]
+    },
+    {
+      id: "creation",
+      num: "05",
+      title: "Creation and taste",
+      lede: "The part most likely to be sacrificed to commercial urgency, and the part the whole trajectory is built on.",
+      qs: [
+        { id: "q1", q: "Which creative outputs run daily, which weekly, which sporadically?", long: true, read: "Active surfaces: Instagram, LinkedIn, TikTok, YouTube, Substack, podcast, Threads, scheduled through Buffer off the Content Calendar." },
+        { id: "q2", q: "The time of day creative work actually lands, as distinct from when you schedule it." },
+        { id: "q3", q: "Minimum runway before a creative block is worth starting at all." },
+        { id: "q4", q: "The conditions that reliably open the creative state.", long: true, read: "Creative Director file: rain, greenery, window open, incense or candle, music through speaker or headphones, lamp lighting the work area, natural light even on grey days." },
+        { id: "q5", q: "The conditions that reliably kill it.", long: true },
+        { id: "q6", q: "Creative work before or after commercial work on the same day, and why?", chips: ["Creative first", "Commercial first", "Separate days entirely"] },
+        { id: "q7", q: "Is capture – voice notes, fragments, ideas – a block, or ambient all day?", chips: ["Ambient", "A dedicated block", "Ambient capture, blocked processing"] },
+        { id: "q8", q: "Music specifically: is Marty V practice a daily discipline or a project-based sprint?" },
+        { id: "q9", q: "What creative work has been waiting longest for a block that never comes?", long: true },
+        { id: "q10", q: "Does taste-building – consuming five-star work deliberately – get its own block, or is it what happens in the gaps?", read: "The Reference Library and the five-star media corpus are treated in the system as working instruments, not leisure." }
+      ]
+    },
+    {
+      id: "body",
+      num: "06",
+      title: "Body",
+      lede: "Four to five sessions a week are already on the books. The question is where they sit and what they displace.",
+      qs: [
+        { id: "q1", q: "Training window: first choice, and the fallback when the first is lost.", read: "Body sphere: 4 to 5 days per week, push / pull / legs for strength, endurance rotating between run, swim and bike, core 2 to 3 times attached to strength." },
+        { id: "q2", q: "Session length including everything around it – travel, change, shower, the walk back." },
+        { id: "q3", q: "Which sessions can share a block with something else, and which demand full attention?", hint: "A run with a podcast is two things. A heavy pull day is one." },
+        { id: "q4", q: "Do endurance sessions sit in the same window as strength, or a different one entirely?" },
+        { id: "q5", q: "First meal: what time, and is training fasted or fed?" },
+        { id: "q6", q: "How many meals are cooked from scratch on a perfect day, and does cooking count as restoration or as a task?", chips: ["Restoration", "A task", "Depends who is eating"], read: "Creative Director file: the kitchen reads as a laboratory, experimentation runs freer when cooking alone." },
+        { id: "q7", q: "Sauna, cold, red light, mobility, bodywork – which are in the daily shape and which are weekly?", read: "A dedicated infrared sauna with red light therapy is recorded as non-negotiable in the eventual space." },
+        { id: "q8", q: "Movement between blocks: a walk, a stretch, or nothing?", chips: ["A walk outside", "Stretch or mobility", "Nothing, straight through"] },
+        { id: "q9", q: "Where does the weekly nutrition review sit, and is Sunday still the right day for it?", read: "System and Body spheres: weekly nutrition summary generated every Sunday, reconnection batch also Sunday morning." }
+      ]
+    },
+    {
+      id: "soul",
+      num: "07",
+      title: "Stillness and the bookends",
+      lede: "Both bookends are already doctrine. What is missing is duration, form and position relative to the phone.",
+      qs: [
+        { id: "q1", q: "Morning stillness: length and form.", read: "Soul sphere: daily, both morning and evening. Forms recorded as guided meditation, silent sitting, breathwork, journaling, nature and walking." },
+        { id: "q2", q: "Evening stillness: length and form." },
+        { id: "q3", q: "Is the morning bookend the first thing, before the phone, or does something come before it?", chips: ["First thing, before the phone", "After water and movement", "After the first task", "Honestly, after the phone"] },
+        { id: "q4", q: "Scripture, prayer or contemplative reading – daily, or on a different cadence?" },
+        { id: "q5", q: "Journaling: morning, evening, both, and roughly how long." },
+        { id: "q6", q: "What has to be true at the end of a day for it to feel like the day was your own rather than the work's?", long: true },
+        { id: "q7", q: "Where does the contemplative synthesis track sit in the week?", read: "The Magnum Opus map in the Religion sphere runs separately from the daily bookends, fed by dated Reflections entries." },
+        { id: "q8", q: "Is there a weekly day or half-day that is genuinely off, and is it currently held?" }
+      ]
+    },
+    {
+      id: "mind",
+      num: "08",
+      title: "Mind",
+      lede: "Reading daily, Spanish daily, nineteen spheres of standing interest. Not all of it fits in a day, and pretending otherwise is how the whole thing gets dropped.",
+      qs: [
+        { id: "q1", q: "Reading: how long, when, and in what format at that hour?", read: "Mind sphere: daily target. Physical books, Kindle, audiobooks, long-form essays, Substack and newsletters." },
+        { id: "q2", q: "Which reading is study and which is pleasure, and do they get different blocks?", chips: ["Different blocks", "Same block, different days", "No distinction"] },
+        { id: "q3", q: "Spanish: length and position in the day.", read: "Mind sphere: Spanish is the active language, with a daily vocabulary or phrase delivered by iMessage. Japanese and Arabic queued." },
+        { id: "q4", q: "Is there a technical subject under active study right now, and which block would carry it?" },
+        { id: "q5", q: "Do you learn better at the opening of a block or as the wind-down of one?", chips: ["Opening", "Wind-down", "Its own block entirely"] },
+        { id: "q6", q: "Podcasts and audio: attached to movement, or given real attention?", chips: ["Attached to movement", "Real attention", "Both, different shows"] },
+        { id: "q7", q: "Is there a daily writing practice separate from anything published?" },
+        { id: "q8", q: "Realistically, how many learning spheres can be live in one week without any of them becoming decorative?", chips: ["One", "Two", "Three", "As many as the mood allows"] }
+      ]
+    },
+    {
+      id: "people",
+      num: "09",
+      title: "People",
+      lede: "The values hierarchy already places the people above the work. A day that does not show it in hours is not showing it.",
+      qs: [
+        { id: "q1", q: "Which hours are protected from work entirely, and who do they belong to?", long: true },
+        { id: "q2", q: "Is there a person the day should reliably contain time with, and how much?" },
+        { id: "q3", q: "Phone policy inside a block: off, silent, or on – and who is allowed to break through?" },
+        { id: "q4", q: "Social evenings per week, and which nights are the natural candidates?", chips: ["One", "Two", "Three", "As they come"] },
+        { id: "q5", q: "Reconnection outreach: batched into one block, or ambient across the week?", read: "System sphere: reconnection prompts are batched Sunday morning for the week ahead. Alfred surfaces, you write." },
+        { id: "q6", q: "Dinner: alone, with people, or either?", chips: ["Usually alone", "Usually with people", "Either, no rule"] },
+        { id: "q7", q: "Community, church, hosting, mentoring – where do these sit in the week?" },
+        { id: "q8", q: "What is the current cost of the work to the people, stated plainly?", long: true, hint: "If the answer is none, say none. If it is not none, this is the most important line in the assessment." }
+      ]
+    },
+    {
+      id: "friction",
+      num: "10",
+      title: "Friction and failure",
+      lede: "A day designed only for the good version is a day designed for about a third of the year.",
+      qs: [
+        { id: "q1", q: "The three things that most reliably wreck a day.", long: true },
+        { id: "q2", q: "The first hour as it currently is, and the first hour as it should be.", long: true },
+        { id: "q3", q: "When one block is missed, does the day recover or collapse? What actually happens?" },
+        { id: "q4", q: "Notifications: what reaches you now, and what should?" },
+        { id: "q5", q: "The minimum viable day. Travelling, ill, or in crisis – what survives?", long: true, hint: "Name three to five things. This becomes a real, defined protocol." },
+        { id: "q6", q: "How does tomorrow get set up? Decided the night before, in the morning, or not at all?", chips: ["Night before", "Morning of", "Not at all", "Weekly, on Monday"], read: "System sphere: weekly review runs Monday, monthly reflection on the first, quarterly on the first of the quarter." },
+        { id: "q7", q: "What decision do you make daily that should have been made once, permanently?", long: true },
+        { id: "q8", q: "What are you doing every day now that should not survive this redesign?", long: true },
+        { id: "q9", q: "Where does the day currently leak the most time without you noticing?" }
+      ]
+    },
+    {
+      id: "environment",
+      num: "11",
+      title: "Environment and the senses",
+      lede: "Your own doctrine holds that the space a thing occupies deserves as much rigour as the thing itself. The day is a thing occupying a space.",
+      qs: [
+        { id: "q1", q: "Where does each mode happen – deep work, creative work, calls, reading, stillness? Same room or different rooms?", long: true },
+        { id: "q2", q: "The light you want at each hour of the day.", read: "Creative Director file: lamps and natural light over overhead lighting, always. Candlelight is comfort. Shadow is an element, not an absence." },
+        { id: "q3", q: "Sound per block: silence, instrumental, or something specific?", long: true },
+        { id: "q4", q: "Scent, incense or candle – is any of it attached to a block as a signal that the mode has changed?" },
+        { id: "q5", q: "Does the day contain a change of clothes, and what does it mark?", chips: ["Yes, work to evening", "Yes, training only", "No change"] },
+        { id: "q6", q: "Which blocks are screen-free by design?" },
+        { id: "q7", q: "What is the space currently missing that the perfect day would require?", long: true, hint: "This becomes a procurement list, not a wish." },
+        { id: "q8", q: "Is there a single ritual object or gesture that opens a block – a specific cup, a record, a candle, a phrase?" }
+      ]
+    },
+    {
+      id: "done",
+      num: "12",
+      title: "Done",
+      lede: "The last movement, and the one that decides whether any of this survives a fortnight.",
+      qs: [
+        { id: "q1", q: "Describe a ten-out-of-ten day, wake to sleep, in whatever detail arrives.", long: true, hint: "Write it as prose. This is the single most useful answer in the document." },
+        { id: "q2", q: "What must be true at 10:00 PM for the day to count?", long: true },
+        { id: "q3", q: "How many of these days per week is the realistic target?", chips: ["3", "4", "5", "6", "7"] },
+        { id: "q4", q: "What do the other days look like – a lesser version of the same shape, or a different shape entirely?", chips: ["Same shape, fewer blocks", "A different shape", "No shape at all"] },
+        { id: "q5", q: "If you got exactly one measure to grade the day on, what would it be?" },
+        { id: "q6", q: "What should Alfred do at the open and close of each day to hold this in place?", long: true, read: "Currently in force: stillness prompt and supplement reminder morning and evening, session-end bookend with an Alfred Logs entry and leftovers filed as tasks." },
+        { id: "q7", q: "What would make you abandon this system within two weeks, and how do we design against it now?", long: true },
+        { id: "q8", q: "Anything the twelve movements failed to ask about.", long: true }
+      ]
+    }
+  ];
+
+  var TOTAL = SECTIONS.reduce(function (n, s) { return n + s.qs.length; }, 0);
+
+  var state = {};        // sectionId -> { qId: value }
+  var dirty = {};        // "sectionId/qId" -> true once the operator types
+  var db = null;
+  var timers = {};
+  var pending = {};
+
+  SECTIONS.forEach(function (s) { state[s.id] = {}; });
+
+  var LS_KEY = "perfect-day-assessment-v1";
+
+  function readLocal() {
+    try {
+      var raw = window.localStorage.getItem(LS_KEY);
+      if (!raw) return;
+      var parsed = JSON.parse(raw);
+      Object.keys(parsed || {}).forEach(function (sid) {
+        if (state[sid]) state[sid] = Object.assign({}, parsed[sid]);
+      });
+    } catch (e) { /* private window, blocked storage: carry on */ }
+  }
+
+  function writeLocal() {
+    try { window.localStorage.setItem(LS_KEY, JSON.stringify(state)); } catch (e) {}
+  }
+
+  /* ---------- rendering ---------- */
+
+  var sectionsEl = document.getElementById("sections");
+  var spineEl = document.getElementById("spine");
+  var tallyEl = document.getElementById("tally");
+  var barEl = document.getElementById("bar");
+  var saveEl = document.getElementById("savestate");
+
+  function el(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  }
+
+  function autosize(ta) {
+    ta.style.height = "auto";
+    ta.style.height = Math.max(ta.scrollHeight, 44) + "px";
+  }
+
+  var fields = {};
+
+  SECTIONS.forEach(function (sec) {
+    var secEl = el("section", "section");
+    secEl.id = sec.id;
+
+    var head = el("div", "section-head");
+    head.appendChild(el("span", "section-num", sec.num));
+    head.appendChild(el("h2", null, sec.title));
+    head.appendChild(el("p", "section-lede", sec.lede));
+    secEl.appendChild(head);
+
+    var list = el("div", "questions");
+
+    sec.qs.forEach(function (q, i) {
+      var key = sec.id + "/" + q.id;
+      var wrap = el("div", "q");
+
+      var label = el("label", "q-prompt");
+      label.setAttribute("for", key);
+      var idx = el("span", "q-index", sec.num + "." + String(i + 1).padStart(2, "0"));
+      label.appendChild(idx);
+      label.appendChild(document.createTextNode(q.q));
+      wrap.appendChild(label);
+
+      if (q.hint) wrap.appendChild(el("p", "q-hint", q.hint));
+
+      var ta = document.createElement("textarea");
+      ta.id = key;
+      ta.rows = q.long ? 3 : 1;
+      ta.placeholder = q.long ? "Take the room you need." : "…";
+
+      if (q.read) {
+        var readBox = el("div", "q-read");
+        var body = el("p");
+        body.appendChild(el("b", null, "Alfred's read"));
+        body.appendChild(document.createTextNode(q.read));
+        readBox.appendChild(body);
+        var adopt = el("button", "adopt", "Adopt");
+        adopt.type = "button";
+        adopt.addEventListener("click", function () {
+          ta.value = q.read;
+          onInput(sec.id, q.id, ta, true);
+          ta.focus();
+        });
+        readBox.appendChild(adopt);
+        wrap.appendChild(readBox);
+      }
+
+      if (q.chips) {
+        var chips = el("div", "chips");
+        q.chips.forEach(function (c) {
+          var b = el("button", "chip", c);
+          b.type = "button";
+          b.addEventListener("click", function () {
+            ta.value = ta.value.trim() ? ta.value.trim() + " – " + c : c;
+            onInput(sec.id, q.id, ta, true);
+            ta.focus();
+          });
+          chips.appendChild(b);
+        });
+        wrap.appendChild(chips);
+      }
+
+      ta.addEventListener("input", function () { onInput(sec.id, q.id, ta, true); });
+      wrap.appendChild(ta);
+      list.appendChild(wrap);
+
+      fields[key] = ta;
+    });
+
+    secEl.appendChild(list);
+    sectionsEl.appendChild(secEl);
+
+    var li = document.createElement("li");
+    var a = document.createElement("a");
+    a.className = "spine-link";
+    a.href = "#" + sec.id;
+    a.dataset.section = sec.id;
+    a.appendChild(el("span", "spine-num", sec.num));
+    a.appendChild(el("span", null, sec.title));
+    a.appendChild(el("span", "spine-count", "0/" + sec.qs.length));
+    li.appendChild(a);
+    spineEl.appendChild(li);
+  });
+
+  function hydrate() {
+    SECTIONS.forEach(function (sec) {
+      sec.qs.forEach(function (q) {
+        var key = sec.id + "/" + q.id;
+        var v = state[sec.id][q.id];
+        if (v != null && !dirty[key]) {
+          fields[key].value = v;
+          fields[key].dataset.filled = v.trim() ? "true" : "false";
+          autosize(fields[key]);
+        }
+      });
+    });
+    refreshCounts();
+  }
+
+  function refreshCounts() {
+    var total = 0;
+    SECTIONS.forEach(function (sec) {
+      var n = 0;
+      sec.qs.forEach(function (q) {
+        var v = state[sec.id][q.id];
+        if (v && v.trim()) n++;
+      });
+      total += n;
+      var link = spineEl.querySelector('[data-section="' + sec.id + '"]');
+      if (link) {
+        link.querySelector(".spine-count").textContent = n + "/" + sec.qs.length;
+        link.dataset.complete = n === sec.qs.length ? "true" : "false";
+      }
+    });
+    tallyEl.textContent = total + " / " + TOTAL + " answered";
+    barEl.style.width = (total / TOTAL * 100).toFixed(1) + "%";
+  }
+
+  function onInput(sectionId, qId, ta, markDirty) {
+    if (markDirty) dirty[sectionId + "/" + qId] = true;
+    state[sectionId][qId] = ta.value;
+    ta.dataset.filled = ta.value.trim() ? "true" : "false";
+    autosize(ta);
+    refreshCounts();
+    writeLocal();
+    schedule(sectionId);
+  }
+
+  /* ---------- persistence ---------- */
+
+  function setSaveState(s, label) {
+    saveEl.dataset.state = s;
+    saveEl.textContent = label;
+  }
+
+  function schedule(sectionId) {
+    if (!db) { setSaveState("local", "Saved on this device"); return; }
+    pending[sectionId] = true;
+    setSaveState("saving", "Saving…");
+    clearTimeout(timers[sectionId]);
+    timers[sectionId] = setTimeout(function () { flush(sectionId); }, 900);
+  }
+
+  function flush(sectionId) {
+    if (!db) return;
+    var body = { answers: Object.assign({}, state[sectionId]), updatedAt: new Date().toISOString() };
+    db.doc("assessment/" + sectionId).set(body).then(function () {
+      delete pending[sectionId];
+      if (!Object.keys(pending).length) setSaveState("saved", "Saved");
+    }).catch(function (err) {
+      var code = err && err.code;
+      if (code === "unavailable") {
+        setTimeout(function () { flush(sectionId); }, 1500 + Math.random() * 1500);
+        return;
+      }
+      setSaveState("local", "Saved on this device");
+    });
+  }
+
+  readLocal();
+  hydrate();
+  setSaveState("local", "Saved on this device");
+
+  if (window.claude && typeof window.claude.use === "function") {
+    window.claude.use("db").then(function (store) {
+      if (!store) return;
+      db = store;
+      setSaveState("saved", "Synced");
+      SECTIONS.forEach(function (sec) {
+        db.doc("assessment/" + sec.id).get().then(function (snap) {
+          if (!snap.exists) return;
+          var data = snap.data() || {};
+          var answers = data.answers || {};
+          Object.keys(answers).forEach(function (qId) {
+            var key = sec.id + "/" + qId;
+            if (dirty[key]) return;
+            state[sec.id][qId] = answers[qId];
+          });
+          hydrate();
+          writeLocal();
+        }).catch(function () { /* absent or unreadable: local stands */ });
+      });
+    }).catch(function () { /* no capability: local stands */ });
+  }
+
+  /* ---------- spine tracking ---------- */
+
+  if ("IntersectionObserver" in window) {
+    var obs = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        spineEl.querySelectorAll(".spine-link").forEach(function (l) {
+          l.dataset.current = l.dataset.section === e.target.id ? "true" : "false";
+        });
+      });
+    }, { rootMargin: "-15% 0px -70% 0px" });
+    SECTIONS.forEach(function (s) {
+      var n = document.getElementById(s.id);
+      if (n) obs.observe(n);
+    });
+  }
+
+  /* ---------- copy ---------- */
+
+  document.getElementById("copybtn").addEventListener("click", function () {
+    var out = ["PERFECT DAY ASSESSMENT", ""];
+    SECTIONS.forEach(function (sec) {
+      out.push("== " + sec.num + " " + sec.title.toUpperCase() + " ==");
+      sec.qs.forEach(function (q, i) {
+        var v = (state[sec.id][q.id] || "").trim();
+        if (!v) return;
+        out.push(sec.num + "." + String(i + 1).padStart(2, "0") + " " + q.q);
+        out.push("  " + v);
+        out.push("");
+      });
+      out.push("");
+    });
+    var text = out.join("\n");
+    var btn = this;
+    var done = function () {
+      btn.textContent = "Copied";
+      setTimeout(function () { btn.textContent = "Copy responses"; }, 1800);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done).catch(function () {
+        btn.textContent = "Copy blocked";
+        setTimeout(function () { btn.textContent = "Copy responses"; }, 1800);
+      });
+    }
+  });
+})();
+</script>
