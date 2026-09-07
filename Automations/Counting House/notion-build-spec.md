@@ -13,9 +13,9 @@ The executable schema for the personal Finance Manager. Five databases and one d
 The build is finished – not iterated further – when all five conditions hold:
 
 1. The five databases exist with the properties in this spec.
-2. The four untracked categories are seeded and receiving transactions.
+2. The previously untracked categories are seeded and receiving transactions, housing among them.
 3. Every account carries a Minimum Floor and a Last Reconciled date.
-4. The dashboard page renders the six tripwires above the fold.
+4. The dashboard page renders the seven tripwires above the fold.
 5. A monthly close takes under 25 minutes end to end – one pomodoro.
 
 Anything beyond this is decoration and is explicitly out of scope. The instrument earns its keep by being closed every month, not by being beautiful.
@@ -40,7 +40,7 @@ The balance-sheet primitives. Referenced in `wealth-trajectory.md` as the Accoun
 | Fee Waiver Minimum | Number, dollar | Balance at which the account stops charging a service fee |
 | Fee Exposure | Formula | Whether the account is currently paying an avoidable fee |
 | Last Reconciled | Date | Set on every reconciliation |
-| Stale | Formula | Tripwire 6 feed – true past 14 days |
+| Stale | Formula | Tripwire 7 feed – true past 14 days |
 | Transactions | Relation | → Transactions |
 
 **Formulas.**
@@ -78,7 +78,7 @@ The atomic ledger. Everything else is a rollup of this table.
 | Is Fee | Checkbox | Any bank fee, overdraft, interest charge or late penalty |
 | Account Scope | Rollup | Scope, via Account |
 | Category Kind | Rollup | Kind, via Category |
-| Misrouted | Formula | Tripwire 3 feed – business spend sitting on a personal account |
+| Misrouted | Formula | Tripwire 4 feed – business spend sitting on a personal account |
 | Month | Formula | YYYY-MM, the join key to Monthly Close |
 | Sphere | Relation | → Sphere Manager, per the relational-backbone rule |
 
@@ -101,7 +101,7 @@ formatDate(prop("Date"), "YYYY-MM")
 
 ## Database 3 – Categories
 
-Where the invisible money becomes visible. The four seeded untracked categories are the point of this table.
+Where the invisible money becomes visible. The seeded untracked categories are the point of this table.
 
 | Property | Type | Definition |
 |---|---|---|
@@ -129,10 +129,13 @@ round(prop("Annualised") * 14.4866)
 
 The 14.4866 multiplier is the future value of a ten-year annuity at 8% – `((1.08^10) - 1) / 0.08`. It converts a monthly habit into the number it actually costs. This is the single most useful column in the build: it is what turns an abstraction into a decision.
 
-**Seed rows – the four that were tracked nowhere.**
+**Seed rows – the ones that were tracked nowhere.** Housing leads the list: the prior audit of 28 months carried no housing line at all, so rent enters this system as a new category rather than a changed one.
 
 | Category | Kind | Previously Untracked |
 |---|---|---|
+| Housing – Rent | Fixed | ✓ – no housing line existed in the prior audit |
+| Housing – Utilities and Internet | Fixed | ✓ – as above |
+| Housing – Renter's Insurance | Fixed | ✓ – as above |
 | Apple Cash and Cash App Sends | Discretionary | ✓ |
 | Uber Rides and Eats | Variable | ✓ |
 | Food – Groceries and Dining | Variable | ✓ |
@@ -205,6 +208,9 @@ One row per month. This table is what makes the instrument maintained rather tha
 | Closing Liquid | Number, dollar | Checking and cash at close |
 | Ended Negative | Formula | The feast/famine counter |
 | Untracked Share | Formula | Share of spend in previously untracked categories |
+| Nut | Number, dollar | Rent, utilities and insurance for the month |
+| Nut Reserved | Checkbox | Next month's nut set aside in full |
+| Nut Coverage | Formula | Closing liquid divided by the nut, in months |
 | Allocation Performed | Checkbox | Was the allocation step run on every deposit this month |
 | Closed | Checkbox | |
 | Closed On | Date | |
@@ -224,6 +230,9 @@ if(prop("Income") > 0, prop("Retained") / prop("Income"), 0)
 
 Ended Negative
 prop("Closing Liquid") <= 0
+
+Nut Coverage
+if(prop("Nut") > 0, prop("Closing Liquid") / prop("Nut"), 0)
 ```
 
 **Views.** Trailing 12 · Open Months (Closed unchecked – must never exceed one) · Negative Endings.
@@ -236,32 +245,38 @@ One page, six sections, in this order. The order is the argument: what would kee
 
 ### I. The Tripwires
 
-Six binary states across the top, each green or red at a glance. No numbers, no nuance – a tripwire that requires interpretation is not a tripwire.
+Seven binary states across the top, each green or red at a glance. No numbers, no nuance – a tripwire that requires interpretation is not a tripwire.
 
 | # | Tripwire | Red when | Source |
 |---|---|---|---|
 | 1 | Buffer intact | Any account below its Minimum Floor | Accounts → Floor Breach |
-| 2 | No fees burned | Any fee this month | Monthly Close → Fees Burned > 0 |
-| 3 | Nothing misrouted | Business spend on a personal account | Transactions → Misrouted |
-| 4 | Everything visible | Uncategorised transactions outstanding | Transactions → Uncategorised |
-| 5 | Allocation performed | A deposit landed without being split | Monthly Close → Allocation Performed |
-| 6 | Books current | Any account unreconciled past 14 days | Accounts → Stale |
+| 2 | Nut reserved | Next month's rent and utilities not yet set aside in full | Monthly Close → Nut Reserved |
+| 3 | No fees burned | Any fee this month | Monthly Close → Fees Burned > 0 |
+| 4 | Nothing misrouted | Business spend on a personal account | Transactions → Misrouted |
+| 5 | Everything visible | Uncategorised transactions outstanding | Transactions → Uncategorised |
+| 6 | Allocation performed | A deposit landed without being split | Monthly Close → Allocation Performed |
+| 7 | Books current | Any account unreconciled past 14 days | Accounts → Stale |
+
+Tripwire 2 is new as of the Williamsburg move and is the one that changes the risk profile. Rent is the first obligation in this system with a hard date and a consequence that is not financial. It is reserved a month ahead or the tripwire is red.
 
 ### II. Position
 
-Net worth as the sum of Signed Balance, and the percentile it buys. This section wires the slot that `wealth-trajectory.md` has been holding open – both frames, demographic and overall US, read against the benchmark table in that file. Also: liquid runway in months, and the trailing contribution rate against the engine.
+Net worth as the sum of Signed Balance, and the percentile it buys. Alongside it, **months of nut covered** – liquid divided by the monthly nut. With a lease in place this is the honest runway figure and it replaces a general overhead runway. This section wires the slot that `wealth-trajectory.md` has been holding open – both frames, demographic and overall US, read against the benchmark table in that file. Also: liquid runway in months, and the trailing contribution rate against the engine.
 
 ### III. The Allocation Step
 
 The structural fix, and the reason the rest exists. The diagnosis was that money arrives in lumps and disperses within days because no allocation step sits between receiving and spending. So the step is made explicit and is performed on arrival, not at month end:
 
 1. **Floor** – top every account to its Minimum Floor before anything else moves.
-2. **Reserve** – tax and known irregulars.
-3. **Overhead** – the month's fixed obligations.
-4. **Engine** – the contribution to the wealth trajectory.
-5. **Discretionary** – what remains, and only what remains.
+2. **Nut** – next month's rent and utilities, reserved in full.
+3. **Reserve** – tax and known irregulars.
+4. **Stack** – the month's cullable recurring costs.
+5. **Engine** – the contribution to the wealth trajectory.
+6. **Discretionary** – what remains, and only what remains.
 
 Discretionary is the residual, never the default. That single inversion is the whole design.
+
+The claims are ordered by consequence of failure, not by size. Overhead was one claim before the move and is now two, because rent and Adobe fail differently: missing the stack costs a tool, missing the nut costs the apartment. They do not belong in the same bucket and must not compete for the same dollar.
 
 ### IV. The Stack
 
@@ -306,6 +321,7 @@ Build in this sequence; each step depends on the one above.
 
 - Figures inherited from the deleted HTML artefact are diagnosis only and are never entered as values. The instrument re-derives everything.
 - The opportunity-cost multiplier assumes 8% real. Revise here if that assumption changes; it appears in two formulas.
+- Housing entered the system with the Williamsburg move, 2026-09. It is the first hard-dated obligation this ledger has carried; treat the nut as load-bearing rather than as another category.
 - Venture money enters only as a distribution landing in a personal account. If a venture figure is needed, read the venture workspace – never mirror it here.
 
-*Last updated: 2026-09-07 – authored. Supersedes the Finance Dashboard automation deleted 2026-08-11.*
+*Last updated: 2026-09-07 – authored, then amended the same day for the Williamsburg move: housing seeded as a Fixed category, the nut split out of overhead as its own claim, tripwire 2 added, nut coverage added to Position and Monthly Close.*
