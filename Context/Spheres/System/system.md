@@ -10,6 +10,7 @@ Artificial Intelligence, Entrepreneurship, Personal Finance, Real Estate
 - `Context/Spheres/System/Artificial Intelligence/agent-events-taxonomy.md` – System-level vocabulary for agent activity and event taxonomy
 - `Context/Spheres/System/Personal Finance/wealth-trajectory.md` – Personal net-worth North Star ($250,000,000.23) and the live percentile progress instrument, benchmarked against demographic and overall-US data
 - `Context/Spheres/System/Personal Finance/benchmark-ledger.md` – Provenance and annual refresh runbook for the wealth-trajectory benchmarks, computed from SCF and CPS microdata
+- `Context/Spheres/System/Personal Finance/counting-house.md` – The personal finance instrument: ledger architecture, the allocation step, and the discipline that keeps the Finance Manager honest
 
 *This cluster also governs cross-cutting operational infrastructure: GTD methodology, operating rhythm, Sphere Manager mechanics, reconnection protocols, and content pipeline.*
 
@@ -41,9 +42,9 @@ Personal financial domains:
 
 Reporting cadence: Weekly
 Off-pattern threshold: Flag any week where no financial data is logged
-Data source: Finances database (Notion personal workspace)
+Data source: Finance Manager (Notion personal workspace) – the Counting House
 
-*Note: Finances database and specific budget targets to be built and populated separately. Personal net-worth and income targets live in the Wealth Trajectory instrument at `Personal Finance/wealth-trajectory.md`, benchmarked against demographic and overall-US percentile data – see `benchmark-ledger.md`.*
+*Note: the Finance Manager is built as the Counting House – doctrine at `Personal Finance/counting-house.md`, schema at `Automations/Counting House/notion-build-spec.md`. Personal net-worth and income targets live in the Wealth Trajectory instrument at `Personal Finance/wealth-trajectory.md`, benchmarked against demographic and overall-US percentile data – see `benchmark-ledger.md`.*
 
 ### Operating Rhythm
 
@@ -120,4 +121,4 @@ Skills live at `~/.claude/skills/` and are referenced logically by sphere.
 
 ---
 
-*Last updated: 2026-07-23 – retired Current State block replaced with the standard Notion pointer; ai-cost-reference.md and agent-events-taxonomy.md registered as graduated files.*
+*Last updated: 2026-09-07 – the Counting House registered as a graduated file; Finances section trued up to the Finance Manager build.*

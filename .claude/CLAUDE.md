@@ -113,6 +113,7 @@ When the task involves the items in the left column, load the files in the right
 | Aesthetic direction, sensory design | `Context/creative-director.md` | – |
 | Inspiration, creative direction, research batch, reference pull | `Context/Reference Library/_index.md`, then the matched cards | Venture `Knowledge Base/Reference Library/_index.md` if venture-scoped |
 | Domain knowledge in a sphere | Cluster index `Spheres/{Cluster}/{cluster}.md` | Sphere folder `_index.md` and any graduated sphere file |
+| Personal money – spending, budget, net worth, a purchase decision, the monthly close | `Context/Spheres/System/Personal Finance/counting-house.md`, Notion Finance Manager | `wealth-trajectory.md` when the question is position or trajectory; `Automations/Counting House/notion-build-spec.md` when the schema is in play |
 | Any meaningful decision – reversibility, stakes, incentives, uncertainty, a judgement call | `~/.claude/heuristics.md` – loaded every session | `Context/Spheres/Mind/Philosophy/worldly-wisdom.md` for the full latticework; `Mathematics/_index.md` when the call turns on a number |
 | Venture operations | Venture `_index.md` | `Agents/integrations.md`, `Agents/department-heads.md`, `Agents/agent-guidelines.md` |
 | Dispatching a venture agent | Venture `Agents/agent-guidelines.md`, agent definition | `Agents/integrations.md` if venture plugins |
@@ -204,6 +205,7 @@ When a topic within a sphere becomes detailed enough to warrant its own file, it
 - `Context/Spheres/System/Artificial Intelligence/agent-events-taxonomy.md` – System-level vocabulary for agent activity and event taxonomy
 - `Context/Spheres/System/Personal Finance/wealth-trajectory.md` – Personal net-worth North Star and the live percentile progress instrument
 - `Context/Spheres/System/Personal Finance/benchmark-ledger.md` – Provenance and annual refresh runbook for the wealth-trajectory benchmarks
+- `Context/Spheres/System/Personal Finance/counting-house.md` – The personal finance instrument: ledger architecture, the allocation step and the maintenance discipline behind the Finance Manager
 - `Context/Spheres/Soul/Astrology/natal-chart.md` – Canonical natal chart data, founding artefact of the Astrology sphere
 - `Context/Spheres/Soul/Religion/magnum-opus.md` – Contemplative-practice distillate, founding artefact of the Religion sphere's Contemplation track
 
@@ -322,4 +324,4 @@ Reviewer carries two tiers dispatched as distinct subtypes:
 
 ---
 
-*Last updated: 2026-08-11 – Domesday: Apps bank corrected to oracle, job-applier and Private/ documented, the broken-server count trued to four, notion-personal recorded as the personal workspace route, handoff scope narrowed to mission-scoped dispatches by operator ruling.*
+*Last updated: 2026-09-07 – the Counting House founded: personal finance instrument registered as a graduated file, routing row added for personal money.*

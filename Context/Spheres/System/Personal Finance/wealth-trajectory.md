@@ -27,7 +27,7 @@ The target rung is the **top 1%** — the top 5% proved a wide net. Even the top
 
 ## Bar 1 — Net worth  [SPINE]
 
-**Current position:** _slot — reads from Notion Finance Manager (Account Manager + Investments − liabilities). See "Current position wiring" below._
+**Current position:** _slot — reads from the Counting House, Accounts table, sum of Signed Balance. See "Current position wiring" below._
 
 Markers — 2022 Survey of Consumer Finances, computed from microdata (method and validation in the ledger):
 
@@ -77,7 +77,7 @@ Net worth grows by what the income bar converts to savings and investment. The c
 
 ## Current position wiring
 
-The "you are here" values on both bars read from the Notion Finance Manager — net worth as Account Manager balances plus Investments minus liabilities, income as the trailing-twelve-months income ledger. The Finances structure is still being built, so the current reading is a slot until balances are complete. Populate from Notion once the accounts are entered; the auto-refresh task keeps the benchmark markers current in the meantime.
+The "you are here" values on both bars read from the Notion Finance Manager, built as the Counting House — net worth as the sum of signed account balances across the Accounts table, income as the trailing-twelve-months figure from Monthly Close. Both bars stay slots until the ledger carries a full month. Doctrine at `counting-house.md`, schema at `Automations/Counting House/notion-build-spec.md`; the Position section of that dashboard is the surface these two bars read from, and the benchmark markers below are what it reads against. The annual refresh keeps the markers current in the meantime.
 
 ---
 
@@ -97,4 +97,4 @@ Candidate method: the Odyssey Plans from *Designing Your Life* — three diverge
 - Next refresh: September 2026 (CPS ASEC income, annual), late 2026 (2025 SCF net worth, triennial).
 - Standard is national. Demographic inputs sourced from the Notion personal profile.
 
-*Last updated: 2026-06-13.*
+*Last updated: 2026-09-07 — position wiring pointed at the Counting House; the retired Account Manager naming replaced with the Accounts table. Benchmarks unchanged, last pulled 2026-06-13.*
