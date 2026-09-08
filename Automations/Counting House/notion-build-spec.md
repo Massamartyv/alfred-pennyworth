@@ -106,7 +106,7 @@ Where the invisible money becomes visible. The seeded untracked categories are t
 | Property | Type | Definition |
 |---|---|---|
 | Category | Title | |
-| Kind | Select | Fixed, Variable, Discretionary, Business, Transfer, Income, Fee |
+| Kind | Select | Fixed, Variable, Discretionary, Reserve, Business, Transfer, Income, Fee |
 | Previously Untracked | Checkbox | Honesty column – was this invisible before the Counting House? |
 | Monthly Target | Number, dollar | Zero means untargeted, not unlimited |
 | Actual This Month | Rollup | Sum of Amount from Transactions, filtered to current month |
@@ -133,15 +133,42 @@ The 14.4866 multiplier is the future value of a ten-year annuity at 8% – `((1.
 
 | Category | Kind | Previously Untracked |
 |---|---|---|
-| Housing – Rent | Fixed | ✓ – no housing line existed in the prior audit |
+| Housing – Rent | Fixed | ✓ – no consistent housing line existed in the prior audit |
 | Housing – Utilities and Internet | Fixed | ✓ – as above |
 | Housing – Renter's Insurance | Fixed | ✓ – as above |
-| Apple Cash and Cash App Sends | Discretionary | ✓ |
-| Uber Rides and Eats | Variable | ✓ |
-| Food – Groceries and Dining | Variable | ✓ |
-| Travel | Variable | ✓ |
+| Uber Rides and Eats | Variable | ✓ – operator figure, $500 |
+| Food – Groceries and Dining | Variable | ✓ – operator figure, $500 |
+| Salon and Personal Care | Variable | ✓ – surfaced in the interview, tracked nowhere before |
+| Travel Fund | **Reserve** | ✓ – see the reclassification note below |
+| Peer-to-Peer | **Transfer** | ✓ – see the reclassification note below |
+| Tax Reserve | **Reserve** | New. Self-employment tax has never been provisioned for |
 
 Seed the remainder as they appear. Do not pre-build a taxonomy – categories earn their existence by catching a real transaction.
+
+**Two reclassifications from the 2026-09-07 interview.** Both were mis-modelled as spending and both distort the retention rate if left that way.
+
+*Travel is a reserve, not a spend.* The $250 a month is money set aside for a future excursion, not transport consumed. It belongs to claim 3 of the allocation step and counts as retained, not spent. Logging it as discretionary understates the savings rate by roughly three thousand a year and makes the instrument read worse than the behaviour.
+
+*Peer-to-peer is mostly repayment, not consumption.* Money moving to and from people is largely settling debts in both directions. It is a Transfer, and where the operator is owed, the counterparty is a receivable rather than an expense. Cash App is closed; Apple Cash continues at reduced volume. Never let this category sit under Discretionary again – it was the largest untracked line in the prior audit precisely because it was the wrong shape.
+
+---
+
+## Seed accounts
+
+From the interview. Balances are entered at build; nothing is assumed here.
+
+| Account | Type | Note |
+|---|---|---|
+| SoFi Checking | Checking | Primary. Minimum Floor **$1,000** – operator ruling, raised from the $500 the prior audit proposed |
+| SoFi Savings | Savings | |
+| Charles Schwab | Investment | Feeds net worth via Signed Balance |
+| American Express – card 1 | Credit | |
+| American Express – card 2 | Credit | |
+| Apple Card | Credit | |
+| Cash | Cash | |
+| Chase Business Complete – Five Points | Loan | **Closed on overdraft and delinquent.** Carried as a liability at the payoff amount until cleared, never as an absent account. A closed deposit account in delinquency can reach ChexSystems and consumer credit, so it is a live constraint on any application that runs credit, not merely a debt |
+
+The operator notes further accounts may exist in the Notion accounts database. Reconcile against it at build.
 
 ---
 
@@ -269,7 +296,7 @@ The structural fix, and the reason the rest exists. The diagnosis was that money
 
 1. **Floor** – top every account to its Minimum Floor before anything else moves.
 2. **Nut** – next month's rent and utilities, reserved in full.
-3. **Reserve** – tax and known irregulars.
+3. **Reserve** – tax and known irregulars. Self-employment tax runs 15.3% on net earnings before any income tax, and has never been provisioned. Until filings are current this claim is sized on an estimate and deliberately over-, not under-, funded.
 4. **Stack** – the month's cullable recurring costs.
 5. **Engine** – the contribution to the wealth trajectory.
 6. **Discretionary** – what remains, and only what remains.
@@ -324,4 +351,4 @@ Build in this sequence; each step depends on the one above.
 - Housing entered the system with the Williamsburg move, 2026-09. It is the first hard-dated obligation this ledger has carried; treat the nut as load-bearing rather than as another category.
 - Venture money enters only as a distribution landing in a personal account. If a venture figure is needed, read the venture workspace – never mirror it here.
 
-*Last updated: 2026-09-07 – authored, then amended the same day for the Williamsburg move: housing seeded as a Fixed category, the nut split out of overhead as its own claim, tripwire 2 added, nut coverage added to Position and Monthly Close.*
+*Last updated: 2026-09-08 – operator interview folded in: seed accounts recorded with the $1,000 floor, travel reclassified as a reserve and peer-to-peer as a transfer, salon and tax reserve seeded, the closed Chase account carried as a liability, Reserve added to the Kind enum.*

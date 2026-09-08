@@ -52,6 +52,20 @@ The honest reading is that the ledger's own diagnosis – roughly half of period
 
 ---
 
+## The filing gate
+
+Recorded 2026-09-08 from the operator's own disclosure: self-employment income has never been filed, the number of open years is not yet established, and neither the IRS nor New York State has made contact.
+
+This is the governing constraint on the personal finances, ahead of the move and ahead of the instrument. Every form of leverage the operator has asked for – the S-Corp election, deducting the tool stack, routing personal costs through an entity, the owner-distribution structure – is a benefit that exists on a filed return. Unfiled years produce no deductions. They produce penalties, and they do not expire: there is no statute of limitations on a return that was never filed, so the exposure stays open indefinitely rather than ageing out.
+
+Two facts make the position better than it feels. No contact has been made, and filing voluntarily before contact is materially the lighter path. And penalties are computed on tax owed, so lean years cost little – in years with low income or a loss there may be nothing owed at all, and where a refund was due it is forfeited three years after the due date. Delay has a price even in the years that owe nothing.
+
+**The rule this sets.** Filing is not the tax burden, it is the tax strategy, and it is sequenced before every optimisation downstream of it. No deduction structure is designed, and no personal cost is routed through an entity, until returns are current. A deduction must follow genuine business use in any case; running personal consumption through a business to deduct it is the wrong first move on returns that will already be filed late.
+
+This is a matter for a CPA who handles back filings for self-employed people, not for this instrument. What the Counting House owes it is the Tax Reserve claim, funded on an estimate and deliberately over-sized until a preparer replaces the estimate with a number.
+
+---
+
 ## Standing rules
 
 **Separation is absolute.** Personal and venture money never mix. Venture figures are read from venture workspaces; the only venture money that appears here is a distribution after it has landed in a personal account. This extends the plugin-routing boundary to the ledger.
@@ -59,6 +73,8 @@ The honest reading is that the ledger's own diagnosis – roughly half of period
 **Nothing untracked.** A category that cannot be seen compounds against you at full speed and cannot be argued with. Any spending that has no category is a defect, and the uncategorised queue reaching zero is a condition of closing the month.
 
 **The month closes, or the gap shows.** An unclosed month is left visibly open rather than quietly skipped. The alarm is the absence, which is the only alarm that survives inattention.
+
+**Round in targets, never in actuals.** A charge entered as a round number stops the ledger reconciling against the statement and softens every variance signal downstream. Exact figures go in the ledger; round figures go in Monthly Target, which is what that field is for. Budgets are round, actuals are not.
 
 **Done is defined.** The build is finished when the tripwires render, the untracked categories are catching transactions, and a close fits inside one pomodoro. Refinement past that point is procrastination wearing the costume of rigour.
 
@@ -102,4 +118,4 @@ Carried forward from the prior artefact as authored, at the 40% owner distributi
 - Figures from the deleted HTML artefact are diagnosis only. They are never entered as values – the instrument re-derives them, and where the two disagree the instrument wins.
 - When the business account first funds itself without a personal transfer, record the month and retire the correction note above.
 
-*Last updated: 2026-09-07 – founded, then amended the same day for the Williamsburg move: housing recorded as a new category rather than a changed one, the nut split out as its own claim in the allocation step.*
+*Last updated: 2026-09-08 – operator interview: the filing gate recorded as the governing constraint, the rounding rule made standing, travel reclassified as a reserve and peer-to-peer as a transfer.*
