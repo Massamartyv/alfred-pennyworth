@@ -58,6 +58,8 @@ git config --global user.email "20412262+Massamartyv@users.noreply.github.com"
 
 Five Points repos override email per-repo to `martavious@fivepoints.studio`.
 
+**Two accounts, one active.** `gh auth setup-git` makes gh the credential helper for every GitHub push, and gh only ever lends git its *active* account. Whichever account is not active cannot reach its own private repos – the failure reads `Repository not found`, which is misleading, since the repo exists and git is presenting the wrong account. Each clone is therefore pinned to its owning account once cloned, at the end of Step 16, and after that the active account no longer matters. Never fix a failed push by switching accounts; rerun the pin.
+
 ## Step 4 – Clone the estate
 
 ```bash
@@ -196,6 +198,17 @@ cd "/Users/martyspicer/Alfred Pennyworth/Apps/oracle" && npm install
 
 Build `.env.local` from its `.env.example` – every variable is optional at the code level, but `ANTHROPIC_API_KEY` and `NOTION_TOKEN` are required for the `oracle-platform` scheduled task (Step 14) to file complete Media entries, and the `YT_OAUTH_*` trio needs its own one-time browser authorisation (`npm run yt:auth`). Full variable set and re-issue procedures: `secrets-inventory.md`.
 
+### Pin every clone to its owning account
+
+Run once every repo above is cloned, and again after any later clone:
+
+```bash
+"/Users/martyspicer/Alfred Pennyworth/Manual/pin-github-accounts.sh"
+gh auth switch --user studio-fivepoints
+```
+
+The script finds every clone in the estate and gives each one a local credential helper that asks gh for the owning account's token by name – `Massamartyv` for the estate, vault, oracle and templates, `studio-fivepoints` for the Five Points apps. No token is written to disk. Repos owned by anyone else, client repos among them, are skipped. It must be rerun on every fresh clone because the pin lives in each clone's `.git/config`. The switch back to `studio-fivepoints` is optional once pinned; it is simply the account the Five Points tooling expects to find active.
+
 ## Step 17 – Voice mode
 
 No external dependencies – the Stop hook uses the native macOS `say` command, and both the hook script and its registration arrived with the repo in Step 4. Toggle: tell Alfred "voice on" or run `Automations/Voice/voice on`. Flag file: `.working/voice/enabled`.
@@ -217,6 +230,7 @@ Run after rebuild; every line must pass before declaring the system restored.
 | Statusline visible with scope and phase | Hook layer working (see Step 6.6 for all three hooks) |
 | Voice toggle on, say one response, toggle off | Voice automation working |
 | `git -C ~/.claude status` and repo `git status` | Clean, tracking remotes |
+| `Manual/pin-github-accounts.sh` | `0 failed` – every personal and Five Points clone reachable whichever gh account is active |
 
 ---
 
@@ -234,4 +248,4 @@ Run after rebuild; every line must pass before declaring the system restored.
 
 ---
 
-*Last updated: 2026-07-23 – The Lamplighter, registries lane: hooks wiring made explicit (Step 6.6), the venv rebuild loop corrected to the live seven-server set with `instantly` removed, Step 14 rewritten to the four live scheduled tasks plus the six retired SKILL.md directories, Step 16 corrected to clone into `Apps/oracle` from the still-named `catalogue` remote, Step 18 checklist trued up to match.*
+*Last updated: 2026-09-11 – GitHub account pinning: Step 3 explains why gh lends git only its active account, Step 16 gains the pin step and `Manual/pin-github-accounts.sh`, Step 18 gains its probe. Previously 2026-07-23 – The Lamplighter, registries lane: hooks wiring made explicit (Step 6.6), the venv rebuild loop corrected to the live seven-server set with `instantly` removed, Step 14 rewritten to the four live scheduled tasks plus the six retired SKILL.md directories, Step 16 corrected to clone into `Apps/oracle` from the still-named `catalogue` remote, Step 18 checklist trued up to match.*
