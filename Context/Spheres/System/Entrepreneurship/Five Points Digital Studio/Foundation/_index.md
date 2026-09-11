@@ -2,12 +2,12 @@
 file_type: department_index
 department: Foundation
 venture: Five Points Digital Studio
-last_updated: 2026-07-22
+last_updated: 2026-09-10
 ---
 
-# Foundation
+# Foundation – Five Points Digital Studio
 
-The constitutional layer of Five Points Digital Studio – one of the two shared resources beside Knowledge Base in the seven-studio structure. Foundation holds what governs the venture rather than what operates it: the brand fingerprint, standing doctrine, the venture mission and the community work. Per the portfolio fingerprint standard, the brand fingerprint lives here as the single source of truth for the venture.
+The constitutional layer of Five Points Digital Studio, one of the nine departments. Foundation holds what governs the venture rather than what operates it: the brand fingerprint, standing doctrine, the venture mission and the community work. Per the portfolio fingerprint standard, the brand fingerprint lives here as the single source of truth for the venture.
 
 ## Contents
 
@@ -21,7 +21,7 @@ The constitutional layer of Five Points Digital Studio – one of the two shared
 
 ## Key Context
 
-Foundation is not an operational studio. Nothing here executes; everything here governs. The fingerprint gates every output through its quality checklist, doctrine files define standing lenses the studios apply, and the philanthropic strand records the work Five Points does beyond the bottom line. When any output touches brand voice, visual system, terminology or document standards, the fingerprint in this folder is the authority.
+Foundation is not an operational department in the delivery sense. Nothing here executes; everything here governs. The fingerprint gates every output through its quality checklist, doctrine files define standing lenses the other departments apply, and the philanthropic strand records the work Five Points does beyond the bottom line. When any output touches brand voice, visual system, terminology or document standards, the fingerprint in this folder is the authority.
 
 ## What Belongs Here
 
@@ -34,8 +34,18 @@ Foundation is not an operational studio. Nothing here executes; everything here 
 ## What Does Not Belong Here
 
 - Client delivery, SOPs and the Clientele directory – Operations/
-- Offers, positioning directives and market strategy – Strategy/
-- Prospecting, outbound and revenue growth – Growth/
-- Identity execution and creative assets – Creative/
-- Financial reporting – Finance/
+- Offer strategy, tiers and the product catalogue – Product Development/
+- Prospecting, outreach, partnerships and market positioning – Business Development/
+- Brand identity execution, creative assets and sales process – Marketing & Sales/
+- Financial reporting – Finances/
 - Live state of any kind – Notion Five Points workspace, per the magnum opus ruling
+
+## Subdirectories
+
+| Folder | Purpose |
+|---|---|
+| Agents/ | Department-specific agent roster and workflows |
+
+## Active State
+
+Live state: Notion Projects and Tasks, Five Points workspace.

@@ -3,12 +3,12 @@ file_type: department_agent_index
 department: Foundation
 venture: Five Points Digital Studio
 methodology: The Manor Protocol
-last_updated: 2026-06-11
+last_updated: 2026-09-10
 ---
 
 # Foundation – Agent Roster and Workflow Registry
 
-The Foundation is where community, philanthropy and pro bono work lives. A shared resource rather than a department, aligned with values more than with revenue.
+The Foundation is where community, philanthropy and pro bono work lives, alongside the brand fingerprint and the venture mission. One of the nine departments, aligned with values more than with revenue.
 
 ---
 
@@ -47,7 +47,7 @@ When operating within Foundation:
 1. Read venture-root `Agents/_index.md` – Manor Protocol definition
 2. Read `Agents/agent-guidelines.md` – execution tiers and red lines
 3. Read this file – Foundation workflows and criteria
-4. Read `Foundation/_index.md` – resource scope
+4. Read `Foundation/_index.md` – department scope
 5. Read the specific files needed for the task
 
 ---

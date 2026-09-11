@@ -2,12 +2,12 @@
 file_type: reference
 venture: Paradigm
 status: active
-last_updated: 2026-07-27
+last_updated: 2026-09-10
 ---
 
 # Administration – Paradigm
 
-Legal, FDA and FTC compliance, labelling, brand protection and HR. The structural backbone that keeps the venture legally sound and operationally clean. In a regulated category, Administration is not paperwork – it is a gate on what the brand is allowed to say and sell.
+Legal, FDA and FTC compliance, labelling, brand protection and governance. The structural backbone that keeps the venture legally sound and operationally clean. In a regulated category, Administration is not paperwork – it is a gate on what the brand is allowed to say and sell.
 
 ---
 
@@ -21,14 +21,14 @@ Legal, FDA and FTC compliance, labelling, brand protection and HR. The structura
 - Supplier, manufacturer, co-packer and distribution agreements
 - Insurance and liability coverage – product liability, general liability, cyber
 - Privacy policies, terms of service, platform compliance
-- HR – team, contractors, advisors, culture, hiring plans
 
 ## What Does Not Belong Here
 
-- Financial records – those go in Finance
-- Product formulation documents – those go in Production
-- Partnership pricing and terms negotiation – that starts in Growth before contracts move here
+- Financial records – those go in Finances
+- Product formulation documents – those go in Product Development
+- Partnership pricing and terms negotiation – that starts in Business Development before contracts move here
 - Customer data operations – those live in Operations
+- Team, contractors, advisors, culture and hiring plans – HR has left Administration for its own Human Resources department
 
 ## Subdirectories
 
@@ -40,7 +40,6 @@ Legal, FDA and FTC compliance, labelling, brand protection and HR. The structura
 | Legal/ | Contracts, supplier and manufacturer agreements, licensing, IP filings, liability |
 | Policies/ | Internal policies, health claims guidelines, privacy, terms of service |
 | Brand Protection/ | Trademark monitoring, brand misuse response, reputation management |
-| HR/ | Team, contractors, advisors, culture |
 
 ## Active State
 

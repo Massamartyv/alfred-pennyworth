@@ -58,7 +58,7 @@ Reviewer is a single crew with two tiers dispatched as distinct subtypes. Mechan
 - Reviewer:Scrutiny – required for every Critique-gated artefact
 - Reviewer:Behavioural – required when the artefact has user-facing state: shipped code, published content, sent communications, deployed automations
 
-**Behavioural pattern for content.** A dedicated agent reads the artefact in fresh context as if they were the end-user – a Marty Gras subscriber, a podcast listener, an Instagram viewer. The agent reports back on whether the hook works, whether the message lands, whether the call to action is clear. A focus group of one, agent-driven.
+**Behavioural pattern for content.** A dedicated agent reads the artefact in fresh context as if they were the end-user – an Epiphany subscriber, a Conversation listener, an Instagram viewer. The agent reports back on whether the hook works, whether the message lands, whether the call to action is clear. A focus group of one, agent-driven.
 
 Mission planning declares which tier each milestone requires. Tier markers carry through to the agent type tables in `_index.md` and to each agent's frontmatter.
 
@@ -116,7 +116,7 @@ Multi-step orchestration is what Alfred-as-orchestrator already does. It is not 
 Crews classify **what type of work** is being done.
 Department heads classify **which domain** the work belongs to.
 
-A Head of Creative might dispatch a Researcher crew for brand research, a Creator crew for ad copy, a Mediator crew when two campaign directions compete and a Broadcaster crew to syndicate the chosen direction across channels. A Head of Finance might dispatch a Researcher crew for revenue analysis, a Reviewer crew for compliance checks and a Mediator crew when investment options must be ranked.
+A Head of Marketing & Sales might dispatch a Researcher crew for brand research, a Creator crew for ad copy, a Mediator crew when two campaign directions compete and a Broadcaster crew to syndicate the chosen direction across channels. A Head of Finances might dispatch a Researcher crew for revenue analysis, a Reviewer crew for compliance checks and a Mediator crew when investment options must be ranked.
 
 The two systems are orthogonal. Crews travel horizontally across all departments. Department heads provide vertical structure within a venture.
 

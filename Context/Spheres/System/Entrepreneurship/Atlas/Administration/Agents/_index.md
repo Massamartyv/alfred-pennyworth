@@ -4,12 +4,12 @@ department: Administration
 venture: "{Venture Name}"
 status: template
 methodology: The Manor Protocol
-last_updated: 2026-06-11
+last_updated: 2026-09-10
 ---
 
 # Administration – Agent Roster and Workflow Registry
 
-The Administration studio owns legal, compliance, brand protection and HR. Outputs that touch agreements, compliance status or governance pass through here before release.
+The Administration department owns legal, compliance and brand protection. Outputs that touch agreements, compliance status or governance pass through here before release.
 
 See venture-level `Agents/department-heads.md` for the Head of Administration role definition and full specialist seats.
 
@@ -19,11 +19,10 @@ See venture-level `Agents/department-heads.md` for the Head of Administration ro
 
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
-| **Head of Administration** | Studio head. Owns the structure and the gates. | All | – |
+| **Head of Administration** | Department head. Owns the structure and the gates. | All | – |
 | **Legal Coordinator** | Contracts, supplier agreements, NDAs, licensing. | Execution | Creator, Reviewer:Scrutiny |
 | **Compliance Officer** | Regulatory compliance, claims review, industry-specific rules. | Critique | Reviewer:Scrutiny |
 | **Brand Protection Lead** | Trademark filings, IP monitoring, brand misuse response. | Execution, Critique | Researcher, Reviewer:Scrutiny |
-| **People Lead** | Team structure, contractor onboarding, culture, advisor relationships. | Execution | Researcher, Creator |
 
 ### Role activation
 
@@ -55,9 +54,8 @@ When operating within Administration:
 2. Read `Agents/agent-guidelines.md` – execution tiers and red lines
 3. Read `Agents/department-heads.md` – role definitions
 4. Read this file – Administration-specific workflows and criteria
-5. Read `Administration/_index.md` – studio scope
-6. Read `Administration/HR/_index.md` for HR-scoped tasks
-7. Read the specific files needed for the task
+5. Read `Administration/_index.md` – department scope
+6. Read the specific files needed for the task
 
 ---
 

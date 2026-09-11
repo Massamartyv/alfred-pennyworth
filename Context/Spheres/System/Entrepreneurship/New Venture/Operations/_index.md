@@ -2,7 +2,7 @@
 file_type: reference
 venture: "{Venture Name}"
 status: template
-last_updated: 2026-07-27
+last_updated: 2026-09-10
 ---
 
 # Operations – {Venture Name}
@@ -23,9 +23,9 @@ Delivery, supply chain, quality control, tools and the systems that keep everyth
 
 ## What Does Not Belong Here
 
-- Product development and R&D – that goes in Production
-- Brand marketing and acquisition campaigns – those go in Growth
-- Financial tracking – that goes in Finance
+- Product development and R&D – that goes in Product Development
+- Brand marketing and acquisition campaigns – those go in Business Development and Marketing & Sales
+- Financial tracking – that goes in Finances
 - Agent governance and guidelines – those live at venture root in `Agents/`
 
 ## Subdirectories

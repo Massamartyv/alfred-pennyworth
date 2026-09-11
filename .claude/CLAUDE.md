@@ -28,11 +28,11 @@ Alfred Pennyworth/
 │   │   ├── System/                – 4 spheres. Entrepreneurship contains ventures.
 │   │   │   └── Entrepreneurship/
 │   │   │       ├── Five Points Digital Studio/  – Active venture (digital agency)
-│   │   │       ├── Marty Gras/                  – Active venture (personal media)
+│   │   │       ├── Martywood/                   – Active venture; the personal brand house holding Marty V, Marty Gras and Epiphany as sub-brands
 │   │   │       ├── Paradigm/                    – Active venture; holds the Paradigm Farms sub-brand
 │   │   │       ├── Lillie and Lynette/          – Active venture
 │   │   │       ├── Atlas/                       – Active venture (chiropractic intelligence)
-│   │   │       ├── Athena/                      – Dormant; nine-department structure, seven-studio migration pending
+│   │   │       ├── Athena/                      – Dormant; nine departments, agent registry still at Operations/AI/
 │   │   │       ├── New Venture/                 – Template for future ventures
 │   │   │       └── New Sub-Brand/               – Template for sub-brands inside a venture (light structure)
 │   │   ├── Soul/                  – 4 spheres.
@@ -46,7 +46,7 @@ Alfred Pennyworth/
 │   ├── System/                    – Infrastructure agents: context-audit, media-scanner, sphere-review
 │   ├── Orchestration/             – Portfolio agents: pattern-memo, pennyone, watchtower
 │   └── templates/                 – Validation contract, source inventory, handoff schema, model assignment
-├── Automations/                   – Scripted workflows. Guards/ holds the state-pattern list and the working sweep.
+├── Automations/                   – Scripted workflows. Guards/ holds the state-pattern list and the working sweep; The Almanac/ holds the calendar renderer.
 ├── Integrations/                  – MCP servers and platform bridges
 ├── Apps/                          – Personal apps bank. Each app is its own git repository; ignored here. Current: oracle. Venture apps live in an Apps/ folder inside each venture directory.
 ├── Projects/                      – Personal local-only projects. Gitignored.
@@ -67,10 +67,10 @@ Alfred Pennyworth/
 - Cross-cutting files live in: `~/Alfred Pennyworth/Context/`
 - Venture files live in: `~/Alfred Pennyworth/Context/Spheres/System/Entrepreneurship/`
 - New ventures copy the `New Venture/` template folder and rename it
-- Each venture uses a seven-studio structure (Creative, Strategy, Production, Growth, Operations, Finance, Administration) plus two shared resources (Knowledge Base, Foundation) with `_index.md` routing files, plus an Apps/ folder for the venture software repositories (gitignored)
-- Sub-brands live inside their parent venture at `{Venture}/{Sub-Brand Name}/` with a light structure: root `_index.md`, `Foundation/` for the sub-brand fingerprint, `Production/` for build docs. A sub-brand inherits parent-venture governance until its own Foundation matures
-- New sub-brands copy the `New Sub-Brand/` template folder into the parent venture and rename it, then register in a Sub-Brands table in the parent `_index.md`. Graduation criteria to the full seven-studio layout live in the template `_index.md`; studios are added one at a time from the `New Venture/` template as domains become real. First instance: `Paradigm/Paradigm Farms/` (2026-07-26)
-- The brand fingerprint is the single source of truth for each venture and lives at `{Venture}/Foundation/brand-fingerprint.md` in the standard structure – Governance, Layer 0 Spine, Layers 1 through 4, Amendment Log. Foundation also holds the venture mission and community work. New ventures inherit the blank standard from `New Venture/Foundation/brand-fingerprint.md`
+- Each venture uses the nine departments – Foundation, Administration, Finances, Business Development, Marketing & Sales, Operations, Product Development, Human Resources, Knowledge Base – with `_index.md` routing files, shared agent governance at the venture root `Agents/`, plus an Apps/ folder for the venture software repositories (gitignored). The same nine bins as the Five Points Google Drive. Restored 2026-09-10, reversing the April seven-studio ruling
+- Sub-brands live inside their parent venture at `{Venture}/{Sub-Brand Name}/` with a light structure: root `_index.md`, `Foundation/` for the sub-brand fingerprint, `Product Development/` for build docs. A sub-brand inherits parent-venture governance until its own Foundation matures
+- New sub-brands copy the `New Sub-Brand/` template folder into the parent venture and rename it, then register in a Sub-Brands table in the parent `_index.md`. Graduation criteria to the full nine-department layout live in the template `_index.md`; departments are added one at a time from the `New Venture/` template as domains become real. First instance: `Paradigm/Paradigm Farms/` (2026-07-26); Martywood seats three – `Marty V/`, `Marty Gras/`, `Epiphany/` (2026-09-02)
+- The brand fingerprint is the single source of truth for each venture and lives at `{Venture}/Foundation/brand-fingerprint.md` in the standard structure – Governance, Derivation, Layer 0 Spine, Layers 1 through 4, Amendment Log. Derivation holds the six instruments D1 to D6 that produce the answers above them, run tension first; every answer in Layers 0, 1, 2 and 4 carries a trace naming its instrument and date. Foundation also holds the venture mission and community work. New ventures inherit the blank standard from `New Venture/Foundation/brand-fingerprint.md`
 - Client files live inside each venture at: `Operations/Clientele/Active/{Client Name}/`
 - Archive lives in: `~/Alfred Pennyworth/Context/Archive/`
 - Working files live in: `~/Alfred Pennyworth/.working/` – hidden, gitignored, transient
@@ -107,9 +107,9 @@ When the task involves the items in the left column, load the files in the right
 | Task, project, mission or pipeline status – reading or writing | Notion, scoped workspace – never a local file | State cache for orientation only |
 | Session close | Session-end bookend – Alfred Logs entry, leftovers filed as Tasks, cache refresh | `.working/session-buffer/` if Notion was unreachable |
 | Content creation, copy, voice | `Context/personal-brand-identity.md` | Venture brand-fingerprint if venture-scoped |
-| Personal brand, positioning, edge, "what makes me different", content strategy | `Context/alpha-doctrine.md` | Marty V fingerprint if the work touches the music or Marty Gras |
+| Personal brand, positioning, edge, "what makes me different", content strategy | `Context/alpha-doctrine.md` | Martywood fingerprint if the work touches the music, Marty Gras or Epiphany |
 | Venture direction, strategic decisions, tactical execution mechanics (proof, standards, volume, velocity, patience) | `Context/working-principles.md` | – |
-| Marty Gras content | `Context/Spheres/System/Entrepreneurship/Marty Gras/Foundation/brand-fingerprint.md` | – |
+| Martywood content – Marty V, Marty Gras, Epiphany | `Context/Spheres/System/Entrepreneurship/Martywood/Foundation/brand-fingerprint.md` | The sub-brand `_index.md` if property-scoped |
 | Aesthetic direction, sensory design | `Context/creative-director.md` | – |
 | Inspiration, creative direction, research batch, reference pull | `Context/Reference Library/_index.md`, then the matched cards | Venture `Knowledge Base/Reference Library/_index.md` if venture-scoped |
 | Domain knowledge in a sphere | Cluster index `Spheres/{Cluster}/{cluster}.md` | Sphere folder `_index.md` and any graduated sphere file |
@@ -123,8 +123,12 @@ When the task involves the items in the left column, load the files in the right
 | AI infrastructure, agent stack | `Spheres/System/Artificial Intelligence/agent-infrastructure-stack.md` | `ai-cost-reference.md`, `agent-events-taxonomy.md` |
 | Maintenance trigger (first of month or quarter) | `Agents/heartbeat.md` | – |
 | Running or modifying an automation | Relevant automation README under `Automations/` | – |
+| Scheduling, the week, the day, the calendar – "plan my week", "run the Sunday session", "put X on my calendar" | Skill `almanac`, then `Automations/The Almanac/README.md` | – |
 | Vault pull – "check my notes", "consult the vault", or a topic the operator's Zettelkasten plausibly covers | Skill `card-catalogue` (searches Notion Annotations; read-only, cite when it matters) | – |
+| Session sprawl – "which threads can I close", "what did I leave hanging", "sweep my sessions", or the weekly walk inside the Sunday session | Skill `the-grounds`, then `~/.claude/skills/the-grounds/references/verdicts.md` | – |
 | Ambient snippet ("save this") | – | Memory shard, sphere file, Notion Inbox or `.working/` per topic match |
+| Two legitimate priorities in conflict – a values call, a tradeoff operational analysis cannot settle, any "should I" that is not a "how do I" | `Context/values-hierarchy.md` – tier ladder, findings, standing checks | `~/.claude/heuristics.md` for the working laws |
+| Any venture decision – a build, an offer, a site, an agent, a system | The movement lens: what it moves, which two units, by when. `Context/values-hierarchy.md` §5.5 | Venture `_index.md` if venture-scoped |
 
 ---
 
@@ -147,6 +151,11 @@ Before specific actions, run the corresponding check. These are non-negotiable p
 | Opening a Manor Protocol mission that synthesises a corpus of mixed-provenance sources | Draft source inventory per `Agents/templates/source-inventory.md` before synthesis and surface at Direction |
 | Writing any Status, Stage, Pending, metric or pipeline block to a local file | Stop – state routes to Notion in the correct scope. If Notion is unreachable, buffer to `.working/session-buffer/` with a `buffered: true` stamp and sync next session |
 | Opening any Manor Protocol mission | Create or locate the mission record – a plain Projects entry in the scoped workspace, phases as Tasks beneath – before Execution begins |
+| Sending any proposal, quotation or priced document out of the building | Write the send into the scoped client record in the same pass – date, terms, artefact location and the expected reply window. Merge the branch that holds the artefact. A send that leaves no readable trace cannot be judged at quarter close and is indistinguishable from an avoided ask |
+| Any outbound artefact still sitting on an unmerged branch at session close | Name it. An artefact the record cannot see is not shipped, whatever was actually sent |
+| Opening any venture commitment – build, offer, site, agent or system | Declare the movement: which two of the three units, and the quarter it is judged in. Undeclared work cannot be judged at quarter close and is treated as a second failure by default |
+| Scheduling or accepting work that lands on a health commitment | Run the displacement check – read Apple Calendar for intent and the Notion Fitness Journal for fact, and name the displacement. Never accept the substitution silently |
+| Quarter close | Judge every declared commitment against its two units. Moved, or named and re-declared once. A second failure kills the work or hands it off |
 | Closing a session with completed or deferred work | Run the session-end bookend – Alfred Logs entry written, leftovers filed as Tasks via the New Alfred Task template, state cache refreshed |
 
 ---
@@ -204,6 +213,7 @@ When a topic within a sphere becomes detailed enough to warrant its own file, it
 - `Context/Spheres/System/Artificial Intelligence/agent-events-taxonomy.md` – System-level vocabulary for agent activity and event taxonomy
 - `Context/Spheres/System/Personal Finance/wealth-trajectory.md` – Personal net-worth North Star and the live percentile progress instrument
 - `Context/Spheres/System/Personal Finance/benchmark-ledger.md` – Provenance and annual refresh runbook for the wealth-trajectory benchmarks
+- `Context/Spheres/System/Personal Finance/rate-floor.md` – Personal reservation price and the buy-or-sell verdict on every outsourceable hat
 - `Context/Spheres/Soul/Astrology/natal-chart.md` – Canonical natal chart data, founding artefact of the Astrology sphere
 - `Context/Spheres/Soul/Religion/magnum-opus.md` – Contemplative-practice distillate, founding artefact of the Religion sphere's Contemplation track
 
@@ -230,7 +240,7 @@ When operating in a venture's context – clients, offers, business operations, 
 | Venture | Registry |
 |---|---|
 | Five Points Digital Studio | `…/Five Points Digital Studio/Agents/integrations.md` |
-| Marty Gras | `…/Marty Gras/Agents/integrations.md` |
+| Martywood | `…/Martywood/Agents/integrations.md` |
 | Paradigm | `…/Paradigm/Agents/integrations.md` |
 | Lillie and Lynette | `…/Lillie and Lynette/Agents/integrations.md` |
 | Atlas | `…/Atlas/Agents/integrations.md` |
@@ -245,7 +255,7 @@ When operating in a venture's context – clients, offers, business operations, 
 4. **Data never crosses.** Personal data stays in personal plugins. Business data stays in venture plugins. This is the same boundary from the global CLAUDE.md Navigation Rules, extended to the plugin layer.
 5. **Stripe is always venture-scoped.** No personal Stripe account exists. All Stripe operations are business operations routed through the relevant venture.
 6. **Multi-venture isolation.** When multiple ventures exist, each owns its own plugin connections. Venture A's Stripe is not Venture B's Stripe. Venture A's Notion workspace is not Venture B's Notion workspace.
-7. **One Notion workspace per sovereign venture** – ruled 2026-08-08, the execution of rule 6. Marty Gras is the single standing exception, routing to the personal workspace as the personal media identity. Sub-brands inherit the parent workspace; only ventures provision. Full table in `Manual/mcp-registry.md`.
+7. **One Notion workspace per sovereign venture** – ruled 2026-08-08, the execution of rule 6. Martywood is the single standing exception, routing to the personal workspace as the personal brand house. Sub-brands inherit the parent workspace; only ventures provision. Full table in `Manual/mcp-registry.md`.
 8. **Registered is not connected.** A `.mcp.json` entry proves a server starts, not that it works – four registered servers currently fail every call (calcom, fivepoints-calendar, elevenlabs, strava – verified 2026-08-11), and two venture registry rows once claimed servers that never existed. Trust a status only where it carries a verification date from a live call. When a needed surface is dark, say so and escalate; never substitute a neighbouring credential.
 9. **Never substitute a reachable workspace for an unreachable one.** While a venture workspace is unprovisioned or dark, its state buffers to `.working/session-buffer/` and syncs when the workspace exists. Writing it somewhere convenient is how Atlas state ended up inside the Five Points workspace.
 
@@ -322,4 +332,4 @@ Reviewer carries two tiers dispatched as distinct subtypes:
 
 ---
 
-*Last updated: 2026-08-11 – Domesday: Apps bank corrected to oracle, job-applier and Private/ documented, the broken-server count trued to four, notion-personal recorded as the personal workspace route, handoff scope narrowed to mission-scoped dispatches by operator ruling.*
+*Last updated: 2026-09-10 – The Restoration: the nine original departments return across every venture and the Five Points Spheres of Organization, reversing the April seven-studio ruling; Agents/ stays at the venture root. Previously 2026-09-09 – The Almanac shipped: renderer at `Automations/The Almanac/`, Sunday session as the `almanac` skill, routing row added. Previously 2026-09-02 – Martywood: the personal brand venture renamed from Marty Gras, three sub-brands seated. Previously 2026-08-11 – Domesday: Apps bank corrected to oracle, job-applier and Private/ documented, the broken-server count trued to four, notion-personal recorded as the personal workspace route, handoff scope narrowed to mission-scoped dispatches by operator ruling.*

@@ -2,7 +2,7 @@
 file_type: reference
 venture: Atlas
 status: active
-last_updated: 2026-07-27
+last_updated: 2026-09-10
 ---
 
 # Foundation – Atlas
@@ -24,8 +24,8 @@ Community initiatives, education and contribution to the chiropractic profession
 
 ## What Does Not Belong Here
 
-- Revenue-generating partnerships – those go in Growth
-- Marketing campaigns with a charitable angle – those go in Growth
+- Revenue-generating partnerships – those go in Business Development
+- Marketing campaigns with a charitable angle – those go in Marketing & Sales
 - Personal charitable giving – that lives in personal scope, not Atlas
 
 ## Strategic Posture

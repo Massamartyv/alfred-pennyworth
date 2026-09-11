@@ -3,7 +3,7 @@ file_type: integration_registry
 department: Agents
 venture: Five Points Digital Studio
 status: active
-last_updated: 2026-08-08
+last_updated: 2026-09-10
 ---
 
 <!-- Added 2026-04-24: fivepoints-mail MCP (Gmail via domain-wide delegation). -->
@@ -158,7 +158,7 @@ Plugins are MCP connections. Alfred can read, write and operate within these sys
 | Credential path | `Integrations/fivepoints-mail/credentials/service-account.json` (gitignored). Optional override via `FIVEPOINTS_MAIL_SERVICE_ACCOUNT`. |
 | Scopes | `gmail.modify`, `gmail.send`, `gmail.readonly`, `gmail.compose` |
 | Routing rule | Venture-scoped. All Five Points inbox operations go through this MCP. Personal email routes through Apple Mail (`mcp-apple-mail`). Never cross the boundary. |
-| Access pattern | Department heads access their inbox via `mailbox:` parameter. Suggested mapping: Operations → `hello`, Owner → `martavious`, Production → `systems`, Growth → `opportunities`, Finance → `finance`. Enforced through skill `allowed-tools` scoping rather than at the server. |
+| Access pattern | Department heads access their inbox via `mailbox:` parameter. Suggested mapping: Operations → `hello`, Owner → `martavious`, builds and dev tooling → `systems`, Business Development → `opportunities`, Finances → `finance`. Enforced through skill `allowed-tools` scoping rather than at the server. |
 | Confirmation | Write tools (`send_draft`, `send_message`, `create_draft`, `trash_message`, `modify_labels`, etc.) declare `writes: True`. Per Navigation Rule 3, any send must be confirmed in chat before dispatch. |
 
 ### Five Points Calendar – Workspace calendars
@@ -187,7 +187,7 @@ Plugins are MCP connections. Alfred can read, write and operate within these sys
 | Environment variable | `CALCOM_FIVEPOINTS_API_KEY` (stored in `.env`) |
 | Confirmation | Write tools (`create_booking`, `reschedule_booking`, `cancel_booking`) sit on the settings ask list and must be confirmed in chat before dispatch per Navigation Rule 3. All three trigger Cal.com notification emails. |
 | Public events | The Working Call (45 min, `/the-working-call`, attendee-phone location, 15-min after-buffer – client commissioning calls); Operational Intelligence Diagnostic (30 min, `/30min` – a 30-minute hold for a 20-minute session, buffer by design); 15 min meeting (15 min, `/15min`) |
-| Routing rule | Business booking only. Prospecting instruments reference `/30min` (see Growth/Prospecting/). Client proposals reference the event matched to the promised call length – create a named event per call type rather than reusing a mismatched slug. |
+| Routing rule | Business booking only. Prospecting instruments reference `/30min` (see Business Development/Prospecting/). Client proposals reference the event matched to the promised call length – create a named event per call type rather than reusing a mismatched slug. |
 
 ### SAM.gov – Federal contract opportunities and entity data
 

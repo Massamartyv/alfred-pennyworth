@@ -3,7 +3,7 @@ file_type: reference
 document_type: agent_guidelines
 venture: Atlas
 status: active
-last_updated: 2026-05-14
+last_updated: 2026-09-10
 ---
 
 # Agent Guidelines – Atlas
@@ -98,9 +98,9 @@ Until then, operate on file-level context only and escalate any task requiring l
 
 Atlas is venture-scoped, not personal. Brand voice loading for venture work:
 
-1. `Atlas/Creative/_index.md` – Atlas voice and clinical communication standards (to be authored at art direction)
+1. `Atlas/Marketing & Sales/_index.md` – Atlas voice and clinical communication standards (to be authored at art direction)
 2. NOT `Context/personal-brand-identity.md` – that is personal scope and does not apply
-3. NOT `Context/martyv-identity.md` – that is Marty Gras scope and does not apply
+3. NOT `Context/martyv-identity.md` – that is Martywood scope and does not apply
 
 Until Atlas brand voice is authored, use a clean, clinical, professional register. Direct. No marketing puffery. Doctors and clinic staff are the audience for product copy.
 
@@ -113,11 +113,11 @@ When starting a task:
 1. Read `_index.md` at the venture root – orient to Atlas
 2. Read this file – know the rules
 3. Read `Agents/_index.md` – know the Manor Protocol scoped to Atlas
-4. Read `Agents/department-heads.md` – identify the relevant studio head and specialist roles
+4. Read `Agents/department-heads.md` – identify the relevant department head and specialist roles
 5. Read `Agents/validation-contract.md` – know what every clinical output must satisfy
 6. Read `Agents/model-assignment.md` – know which model to dispatch
-7. Read the relevant studio `_index.md`
-8. Read the studio-level `Agents/_index.md` once it exists
+7. Read the relevant department `_index.md`
+8. Read the department-level `Agents/_index.md` once it exists
 9. Read the specific files needed for the task
 10. Do not load everything. Be surgical.
 
@@ -129,4 +129,4 @@ When uncertain, ask rather than improvise. In a clinical domain the cost of a qu
 
 ---
 
-*Atlas Agent Guidelines v1.0 – 2026-05-14*
+*Atlas Agent Guidelines v1.0 – 2026-05-14. Studio references retired to the nine departments 2026-09-10 (The Restoration).*

@@ -71,6 +71,8 @@ Private/
 Context/Spheres/System/Personal Finance/*.csv
 
 # Prospecting data (PII lead lists and outreach queues, any venture)
+Context/Spheres/System/Entrepreneurship/*/Business Development/Prospecting/**/*.csv
+Context/Spheres/System/Entrepreneurship/*/Business Development/Prospecting/**/*.xlsx
 Context/Spheres/System/Entrepreneurship/*/Growth/Prospecting/*.csv
 Context/Spheres/System/Entrepreneurship/*/Growth/Prospecting/*.xlsx
 
@@ -79,6 +81,7 @@ Context/Spheres/System/Entrepreneurship/*/Growth/Prospecting/*.xlsx
 Context/Spheres/System/Entrepreneurship/Library/
 
 # Venture asset shelves (purchased packs, mockups, stock and call media – large binaries, local only)
+Context/Spheres/System/Entrepreneurship/*/Marketing & Sales/Asset Library/
 Context/Spheres/System/Entrepreneurship/*/Creative/Asset Library/
 Context/Spheres/System/Entrepreneurship/*/Operations/Clientele/**/*.m4a
 

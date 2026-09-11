@@ -3,7 +3,7 @@ file_type: reference
 document_type: agent_guidelines
 venture: "{Venture Name}"
 status: template
-last_updated: 2026-04-22
+last_updated: 2026-09-10
 ---
 
 # Agent Guidelines – {Venture Name}
@@ -79,7 +79,7 @@ Any task that produces audience-facing or client-facing content must load:
 
 1. `Context/personal-brand-identity.md` – the voice foundation
 2. `Context/creative-director.md` – aesthetic sensibility
-3. `Creative/_index.md` – venture creative scope
+3. `Marketing & Sales/_index.md` – venture creative scope
 
 These files govern everything the audience sees, reads or receives.
 
@@ -92,9 +92,9 @@ When starting a task:
 1. Read `_index.md` at the venture root – orient to the venture
 2. Read this file – know the rules
 3. Read `Agents/_index.md` – know the Manor Protocol
-4. Read `Agents/department-heads.md` – identify the relevant studio head and specialist roles
-5. Read the relevant studio `_index.md` – find the right files
-6. Read the studio-level `Agents/_index.md` – know the specialist roster and workflows
+4. Read `Agents/department-heads.md` – identify the relevant department head and specialist roles
+5. Read the relevant department `_index.md` – find the right files
+6. Read the department-level `Agents/_index.md` – know the specialist roster and workflows
 7. Read the specific files needed for the task
 8. Do not load everything. Be surgical.
 

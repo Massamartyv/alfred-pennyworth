@@ -3,18 +3,18 @@ file_type: agent_governance
 venture: "{Venture Name}"
 status: template
 methodology: The Manor Protocol
-last_updated: 2026-05-14
+last_updated: 2026-09-10
 ---
 
 # The Manor Protocol – {Venture Name}
 
-The proprietary methodology governing all work at {Venture Name}. Every studio is a room in the manor where craft happens. Creative excellence is the governing standard across all studios.
+The proprietary methodology governing all work at {Venture Name}. Every department is a room in the manor where craft happens. Creative excellence is the governing standard across all departments.
 
 ---
 
 ## Philosophy
 
-{Venture Name} operates in {Industry}. The Manor Protocol does not treat any output lightly. A brief is craft. A product is craft. A piece of copy is craft. The methodology holds every output to the same standard regardless of which studio produced it.
+{Venture Name} operates in {Industry}. The Manor Protocol does not treat any output lightly. A brief is craft. A product is craft. A piece of copy is craft. The methodology holds every output to the same standard regardless of which department produced it.
 
 ## The Lifecycle
 
@@ -58,7 +58,7 @@ Ship it. Launch the product. Publish the campaign. Send the deliverable. Clean, 
 
 ## Governance Model
 
-**Hybrid architecture.** Shared governance lives here at the venture root (`Agents/`). Studio-specific agents, workflows and criteria live inside each studio local `Agents/` subfolder.
+**Hybrid architecture.** Shared governance lives here at the venture root (`Agents/`). Department-specific agents, workflows and criteria live inside each department's local `Agents/` subfolder.
 
 ### Shared governance files (this folder)
 
@@ -71,12 +71,12 @@ Ship it. Launch the product. Publish the campaign. Send the deliverable. Clean, 
 
 Plugin scope is provisioned on copy, not deferred. `integrations.md` ships with the template and carries the provisioning checklist every sovereign venture works through on first use.
 
-### Studio-level agentic layer
+### Department-level agentic layer
 
-Every studio contains an `Agents/` subfolder with a standard structure:
+Every department contains an `Agents/` subfolder with a standard structure:
 
 ```
-{Studio}/Agents/
+{Department}/Agents/
   _index.md           -- Specialist roster and workflow registry
   Workflows/          -- Named Manor Protocol sequences for common tasks
   Criteria/           -- Quality rubrics and evaluation standards
@@ -85,24 +85,19 @@ Every studio contains an `Agents/` subfolder with a standard structure:
 
 ---
 
-## The Seven Studios
+## The Nine Departments
 
-| Studio | Craft | Scope |
+| Department | Craft | Scope |
 |---|---|---|
-| **Creative** | Brand identity, visual direction, aesthetics, content standards | The look, feel and voice of the venture |
-| **Strategy** | Industry research, competitive intelligence, positioning, market behaviour | The thinking behind the work |
-| **Production** | Product and content development, manufacturing coordination, build quality | The execution engine |
-| **Growth** | Sales, partnerships, distribution, channel architecture | Revenue generation and channel architecture |
+| **Foundation** | Community initiatives, philanthropy, education, giving | Where the venture invests in the communities it serves |
+| **Administration** | Legal, compliance, brand protection, governance | The structure |
+| **Finances** | Revenue, costs, expenses, projections, tax, metrics | The numbers |
+| **Business Development** | Prospecting, outreach, partnerships, channels, pipeline, positioning and market strategy | The path to the market |
+| **Marketing & Sales** | Brand identity, visual direction, content standards, sales process, discovery, proposals, pricing | The look, the voice and the close |
 | **Operations** | Delivery, supply chain, quality control, SOPs, clientele management | The engine room |
-| **Finance** | Revenue, costs, expenses, projections, tax, metrics | The numbers |
-| **Administration** | Legal, compliance, brand protection, governance, HR | The structure |
-
-### Shared Resources
-
-| Resource | Purpose |
-|---|---|
-| **Knowledge Base** | Research, case studies, industry intelligence, methodologies |
-| **Foundation** | Community initiatives, philanthropy, education |
+| **Product Development** | Product and content development, build quality, offers, tiers, bundles | The execution engine and the offer architecture |
+| **Human Resources** | Team, contractors, hiring, culture | The people |
+| **Knowledge Base** | Research, case studies, industry intelligence, methodologies | Institutional memory |
 
 ---
 
@@ -132,9 +127,9 @@ Not every task requires all five phases. Use judgement. A routine admin update d
 
 Complex deliverables cycle through Execution and Critique multiple times before Release. The hard gate after Critique means human eyes before anything reaches an audience, a client or a partner.
 
-### Cross-studio work
+### Cross-department work
 
-When work spans multiple studios, each studio runs its own lifecycle on its portion. Alfred coordinates handoffs across studios. The Broadcaster crew carries shared context and milestone signals between them.
+When work spans multiple departments, each department runs its own lifecycle on its portion. Alfred coordinates handoffs across departments. The Broadcaster crew carries shared context and milestone signals between them.
 
 ---
 

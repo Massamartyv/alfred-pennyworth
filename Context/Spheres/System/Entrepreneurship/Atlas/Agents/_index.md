@@ -3,12 +3,12 @@ file_type: agent_governance
 venture: Atlas
 status: active
 methodology: The Manor Protocol
-last_updated: 2026-06-11
+last_updated: 2026-09-10
 ---
 
 # The Manor Protocol – Atlas
 
-The proprietary methodology governing all work at Atlas. Every studio is a room in the manor where craft happens. Creative excellence is the governing standard across all studios.
+The proprietary methodology governing all work at Atlas. Every department is a room in the manor where craft happens. Creative excellence is the governing standard across all departments.
 
 Healthcare AI carries irreversibility risk that elevates the Critique gate to load-bearing status. No clinical output may ship without binary validation against the per-mission contract in `validation-contract.md`.
 
@@ -16,7 +16,7 @@ Healthcare AI carries irreversibility risk that elevates the Critique gate to lo
 
 ## Philosophy
 
-Atlas operates in healthcare AI – specifically the chiropractic intelligence layer. The Manor Protocol does not treat any output lightly. A brief is craft. An EHR adapter is craft. A generated SOAP note is craft. A line of patient-facing copy is craft. The methodology holds every output to the same standard regardless of which studio produced it.
+Atlas operates in healthcare AI – specifically the chiropractic intelligence layer. The Manor Protocol does not treat any output lightly. A brief is craft. An EHR adapter is craft. A generated SOAP note is craft. A line of patient-facing copy is craft. The methodology holds every output to the same standard regardless of which department produced it.
 
 In a clinical domain, craft has a second meaning: the output must be defensible. Documentation that does not survive an audit, a board complaint, a malpractice review or a HIPAA enquiry is not craft – it is liability. The Critique gate is where that defensibility is verified.
 
@@ -62,7 +62,7 @@ Ship it. Post the note. Deploy the adapter. Send the deliverable. Clean, complet
 
 ## Governance Model
 
-**Hybrid architecture.** Shared governance lives at the venture root (`Agents/`). Studio-specific agents, workflows and criteria live inside each studio local `Agents/` subfolder.
+**Hybrid architecture.** Shared governance lives at the venture root (`Agents/`). Department-specific agents, workflows and criteria live inside each department's local `Agents/` subfolder.
 
 ### Shared governance files (this folder)
 
@@ -76,12 +76,12 @@ Ship it. Post the note. Deploy the adapter. Send the deliverable. Clean, complet
 
 Plugin scope to be determined. `integrations.md` will be added once HIPAA-compliant infrastructure and the first EHR API key are configured.
 
-### Studio-level agentic layer
+### Department-level agentic layer
 
-Every studio contains an `Agents/` subfolder with a standard structure:
+Every department contains an `Agents/` subfolder with a standard structure:
 
 ```
-{Studio}/Agents/
+{Department}/Agents/
   _index.md           – Specialist roster and workflow registry
   Workflows/          – Named Manor Protocol sequences for common tasks
   Criteria/           – Quality rubrics and evaluation standards
@@ -90,24 +90,19 @@ Every studio contains an `Agents/` subfolder with a standard structure:
 
 ---
 
-## The Seven Studios
+## The Nine Departments
 
-| Studio | Craft | Scope |
+| Department | Craft | Scope |
 |---|---|---|
-| **Creative** | Brand identity, voice, clinical communication standards | The look, feel and voice of Atlas |
-| **Strategy** | EHR landscape, competitive intelligence, chiropractic market behaviour | The thinking behind the work |
-| **Production** | AI architecture, FastMCP service, EHR adapters, clinical knowledge curation | The execution engine |
-| **Growth** | Pilot expansion, channel architecture, partnerships | Revenue generation and adoption |
-| **Operations** | Pilot management, clinical advisor liaison, support | The engine room |
-| **Finance** | SaaS metrics, unit economics, inference cost | The numbers |
+| **Foundation** | Community initiatives, chiropractic education contribution | Where Atlas invests in the field it serves |
 | **Administration** | HIPAA, BAAs, regulatory, entity, IP | The structural backbone |
-
-### Shared Resources
-
-| Resource | Purpose |
-|---|---|
-| **Knowledge Base** | Clinical knowledge, EHR intelligence, coding references, competitive landscape |
-| **Foundation** | Community initiatives, chiropractic education contribution |
+| **Finances** | SaaS metrics, unit economics, inference cost | The numbers |
+| **Business Development** | EHR landscape, competitive positioning, chiropractic market behaviour, pilot expansion, channel architecture, partnerships | The thinking behind the work and the path to adoption |
+| **Marketing & Sales** | Brand identity, voice, clinical communication standards, sales pipeline | The look, feel and voice of Atlas, and the deals that close |
+| **Operations** | Pilot management, clinical advisor liaison, support | The engine room |
+| **Product Development** | AI architecture, FastMCP service, EHR adapters, clinical knowledge curation, offer architecture | The execution engine |
+| **Human Resources** | Team, contractors, advisors, culture | The people |
+| **Knowledge Base** | Clinical knowledge, EHR intelligence, coding references, competitive landscape | Institutional memory |
 
 ---
 
@@ -136,9 +131,9 @@ Not every task requires all five phases. Use judgement. Curating a single clinic
 
 Complex deliverables cycle through Execution and Critique multiple times before Release. The hard gate after Critique means human eyes before anything reaches a patient chart, a payer, the EHR or any audit surface.
 
-### Cross-studio work
+### Cross-department work
 
-When work spans multiple studios, each studio runs its own lifecycle on its portion. The Creator crew in release-mode coordinates handoffs.
+When work spans multiple departments, each department runs its own lifecycle on its portion. The Creator crew in release-mode coordinates handoffs.
 
 ### Clinical work is irreversible
 

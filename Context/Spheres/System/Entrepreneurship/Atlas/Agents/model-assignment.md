@@ -4,7 +4,7 @@ venture: Atlas
 mission: Phase 1 – Chiropractic SOAP Note Generator
 status: draft
 direction_gate_required: true
-last_updated: 2026-05-14
+last_updated: 2026-09-10
 ---
 
 # Per-Mission Model Assignment – Atlas Phase 1
@@ -109,7 +109,7 @@ The principle: model selection follows the cost of being wrong. Clinical taste-l
 
 **Rationale:** Relationship management at the clinical advisor tier. Voice and judgement matter; volume is low.
 
-### Internal Strategy and Finance work
+### Internal Business Development and Finances work
 
 **Tasks:** Competitive analysis, market research synthesis, financial modelling, projection drafting.
 
@@ -144,7 +144,7 @@ The principle: model selection follows the cost of being wrong. Clinical taste-l
 | HIPAA audit log review | Reviewer:Scrutiny | Sonnet | Pattern matching on structured logs |
 | Discovery brief authoring | Creator | Opus | High-stakes, voice-led, irreversible |
 | Pilot communications | Creator | Opus | Clinical advisor relationship management |
-| Internal Strategy and Finance | Researcher → Creator | Sonnet (body), Opus (memo) | Synthesis is Sonnet, decisions are Opus |
+| Internal Business Development and Finances | Researcher → Creator | Sonnet (body), Opus (memo) | Synthesis is Sonnet, decisions are Opus |
 | Brand and identity | Creator | Opus | Pure taste work |
 
 ---
@@ -162,4 +162,4 @@ Modifications follow the same Direction-gate procedure as the validation contrac
 
 ---
 
-*Atlas Phase 1 Model Assignment v1.0 (draft) – 2026-05-14*
+*Atlas Phase 1 Model Assignment v1.0 (draft) – 2026-05-14. "Internal Strategy and Finance work" renamed "Internal Business Development and Finances work" 2026-09-10 (The Restoration) to match the nine departments; segment content unchanged.*

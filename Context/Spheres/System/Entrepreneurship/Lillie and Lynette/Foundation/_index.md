@@ -3,12 +3,12 @@ file_type: department_index
 department: Foundation
 venture: Lillie and Lynette
 status: active
-last_updated: 2026-07-27
+last_updated: 2026-09-10
 ---
 
 # Foundation – Lillie and Lynette
 
-Philanthropy, community and hospitality-driven giving. Where the company invests in the communities it serves and the people it touches. Foundation is a shared resource, not a studio.
+Philanthropy, community and hospitality-driven giving. Where the company invests in the communities it serves and the people it touches. Foundation is a department in the nine, holding the brand fingerprint and the venture mission alongside its community work.
 
 ## Structure
 
@@ -32,8 +32,8 @@ Foundation/
 
 ### What does not belong here
 
-- Revenue-generating partnerships – Growth
-- Marketing sponsorships – Growth
+- Revenue-generating partnerships – Business Development
+- Marketing sponsorships – Marketing & Sales
 - Personal charitable giving – that lives in personal finance, not venture scope
 
 ## Active State

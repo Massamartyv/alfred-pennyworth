@@ -3,7 +3,7 @@ file_type: venture_index
 venture: "{Venture Name}"
 status: template
 methodology: The Manor Protocol
-last_updated: 2026-07-26
+last_updated: 2026-09-10
 ---
 
 # {Venture Name} – Venture Index
@@ -22,24 +22,19 @@ All work follows The Manor Protocol – five phases, two hard gates, creative ex
 
 ## Navigation
 
-### Seven Studios
+### Nine Departments
 
-| Studio | Craft | Start Here |
+| Department | Craft | Start Here |
 |---|---|---|
-| Creative/ | Brand identity, visual direction, aesthetics, content standards | Creative/_index.md |
-| Strategy/ | Industry research, competitive intelligence, positioning, market behaviour | Strategy/_index.md |
-| Production/ | Product and content development, manufacturing coordination, build quality | Production/_index.md |
-| Growth/ | Sales, partnerships, distribution, channel architecture, revenue generation | Growth/_index.md |
-| Operations/ | Delivery, supply chain, quality control, SOPs, clientele management | Operations/_index.md |
-| Finance/ | Revenue, costs, expenses, projections, tax, metrics | Finance/_index.md |
-| Administration/ | Legal, compliance, brand protection, governance, HR | Administration/_index.md |
-
-### Shared Resources
-
-| Resource | Purpose | Start Here |
-|---|---|---|
-| Knowledge Base/ | Research, case studies, industry intelligence, methodologies | Knowledge Base/_index.md |
 | Foundation/ | Community initiatives, philanthropy, education, giving | Foundation/_index.md |
+| Administration/ | Legal, compliance, brand protection, governance | Administration/_index.md |
+| Finances/ | Revenue, costs, expenses, projections, tax, metrics | Finances/_index.md |
+| Business Development/ | ICP, prospecting and outreach, partnerships, pipeline, channels, positioning and market strategy | Business Development/_index.md |
+| Marketing & Sales/ | Brand identity and creative direction, visual and content standards, marketing, sales process, discovery, proposals, pricing | Marketing & Sales/_index.md |
+| Operations/ | Delivery, supply chain, quality control, SOPs, clientele management | Operations/_index.md |
+| Product Development/ | Product and content development, build quality, offers, tiers, bundles | Product Development/_index.md |
+| Human Resources/ | Team, contractors, hiring, culture | Human Resources/_index.md |
+| Knowledge Base/ | Research, case studies, industry intelligence, methodologies | Knowledge Base/_index.md |
 
 ### Sub-Brands
 
@@ -62,7 +57,7 @@ Live state: Notion Projects and Tasks, {workspace} workspace ({Venture Name} –
 
 ## Key Registries
 
-- Offer catalogue: `Growth/Offers/_offers-registry.md` (to be created)
+- Offer catalogue: `Product Development/Offers/_offers-registry.md` (to be created)
 - Client roster: `Operations/Clientele/_clients-registry.md`
 - SOP catalogue: `Operations/SOPs/_sop-registry.md`
 - Department heads: `Agents/department-heads.md`

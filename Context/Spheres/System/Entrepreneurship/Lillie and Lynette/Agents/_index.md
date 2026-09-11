@@ -3,18 +3,18 @@ file_type: agent_governance
 venture: Lillie and Lynette
 methodology: The Manor Protocol
 status: active
-last_updated: 2026-06-11
+last_updated: 2026-09-10
 ---
 
 # The Manor Protocol – Lillie and Lynette
 
-The proprietary methodology governing all work at Lillie and Lynette. Every studio is a room in the manor where craft happens. Creative excellence is the governing standard across all studios – the hospitality a guest experiences is the product of craft held to the same bar in Creative, Operations, Production, Finance and Administration alike.
+The proprietary methodology governing all work at Lillie and Lynette. Every department is a room in the manor where craft happens. Creative excellence is the governing standard across all departments – the hospitality a guest experiences is the product of craft held to the same bar in Marketing & Sales, Operations, Finances and Administration alike.
 
 ---
 
 ## Philosophy
 
-Hospitality is the art of being remembered well. The Manor Protocol does not treat warmth as a soft value. It holds it to a standard. A welcome is craft. A menu narrative is craft. A service moment is craft. A vendor relationship is craft. The methodology treats every output as an expression of the standard, regardless of which studio produced it.
+Hospitality is the art of being remembered well. The Manor Protocol does not treat warmth as a soft value. It holds it to a standard. A welcome is craft. A menu narrative is craft. A service moment is craft. A vendor relationship is craft. The methodology treats every output as an expression of the standard, regardless of which department produced it.
 
 ## The Lifecycle
 
@@ -58,7 +58,7 @@ Ship it. Open the doors. Serve the guest. Send the menu. Hand off the venue. Cle
 
 ## Governance Model
 
-**Hybrid architecture.** Shared governance lives here at the venture root (`Agents/`). Studio-specific agents, workflows and criteria live inside each studio local `Agents/` subfolder.
+**Hybrid architecture.** Shared governance lives here at the venture root (`Agents/`). Department-specific agents, workflows and criteria live inside each department's local `Agents/` subfolder.
 
 ### Shared governance files (this folder)
 
@@ -67,15 +67,14 @@ Ship it. Open the doors. Serve the guest. Send the menu. Hand off the venue. Cle
 | `_index.md` | This file. The Manor Protocol definition. |
 | `agent-guidelines.md` | Execution tiers, red lines, approval gates |
 | `department-heads.md` | Role definitions and specialist seats |
+| `integrations.md` | Plugin and tool connections; the provisioning checklist |
 
-Note: `integrations.md` is not yet created. Plugin scope for Lillie and Lynette is TBD and will be documented when tooling is selected.
+### Department-level agentic layer
 
-### Studio-level agentic layer
-
-Every studio contains an `Agents/` subfolder with a standard structure:
+Every department contains an `Agents/` subfolder with a standard structure:
 
 ```
-{Studio}/Agents/
+{Department}/Agents/
   _index.md           -- Specialist roster and workflow registry
   Workflows/          -- Named Manor Protocol sequences for common tasks
   Criteria/           -- Quality rubrics and evaluation standards
@@ -84,24 +83,19 @@ Every studio contains an `Agents/` subfolder with a standard structure:
 
 ---
 
-## The Seven Studios
+## The Nine Departments
 
-| Studio | Craft | Scope |
+| Department | Craft | Scope |
 |---|---|---|
-| **Creative** | Brand identity, guest experience design, visual language, interior direction, menu and offering narrative | What Lillie and Lynette looks like, feels like, sounds like |
-| **Strategy** | Hospitality research, competitive intelligence, venue and market positioning, guest behaviour | The thinking behind the hospitality |
-| **Production** | Service delivery production, event production, experience fabrication, content production | The execution engine |
-| **Growth** | Sales, partnerships, venue sourcing, distribution pipeline, guest acquisition | Reach, revenue and pipeline |
-| **Operations** | Day-to-day service, SOPs, tools, guest and vendor clientele | The engine room |
-| **Finance** | Revenue, cost of service, expenses, projections, tax, metrics | The numbers |
-| **Administration** | Legal, licensing, food and beverage compliance, insurance, HR | The structure |
-
-### Shared Resources
-
-| Resource | Purpose |
-|---|---|
-| **Knowledge Base** | Industry research, case studies, methodologies |
-| **Foundation** | Community, philanthropy, hospitality-driven giving |
+| **Foundation** | Community initiatives, philanthropy, education, giving – plus the brand fingerprint and venture mission | The world the other pillars answer to |
+| **Administration** | Legal, licensing, food and beverage compliance, insurance | The structure |
+| **Finances** | Revenue, cost of service, expenses, projections, tax, metrics | The numbers |
+| **Business Development** | ICP, prospecting and outreach, venue and partnership pipeline, positioning and market strategy | The thinking and the pipeline behind the hospitality |
+| **Marketing & Sales** | Brand identity, guest experience design, visual language, content, sales process, guest acquisition, distribution | What Lillie and Lynette looks like, feels like, sounds like, and how a prospect becomes a guest |
+| **Operations** | Day-to-day service, SOPs, event and experience production, tools, guest and vendor clientele | The engine room |
+| **Product Development** | Offer tiers, pricing rungs, offer strategy and audits, the Objects retail line | The offer ladder |
+| **Human Resources** | Team, contractors, hiring plans, culture | The people |
+| **Knowledge Base** | Industry research, case studies, methodologies, competitive intelligence | The intellectual fuel |
 
 ---
 
@@ -129,9 +123,9 @@ Not every task requires all five phases. A routine vendor confirmation does not 
 
 Complex deliverables – a new experience design, a venue launch, a menu development, a signature event – may cycle through Execution and Critique multiple times before Release. The hard gate after Critique means human eyes before the guest ever sees it.
 
-### Cross-studio work
+### Cross-department work
 
-When work spans multiple studios (Creative sets the guest experience direction, Production builds the service choreography, Operations runs the shift, Growth sells the experience), each studio runs its own lifecycle on its portion. The Mediator and Broadcaster crews coordinate handoffs and distribute state between studios.
+When work spans multiple departments (Marketing & Sales sets the guest experience direction and sells it, Operations builds the service choreography and runs the shift, Business Development sources the venue or partner), each department runs its own lifecycle on its portion. The Mediator and Broadcaster crews coordinate handoffs and distribute state between departments.
 
 ---
 

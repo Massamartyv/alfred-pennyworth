@@ -2,7 +2,7 @@
 file_type: reference
 venture: Atlas
 status: active
-last_updated: 2026-07-27
+last_updated: 2026-09-10
 ---
 
 # Operations – Atlas
@@ -23,9 +23,9 @@ Pilot management, clinical advisor liaison, clinic onboarding, support and the s
 
 ## What Does Not Belong Here
 
-- Product development and architecture – that goes in Production
-- Brand marketing and acquisition campaigns – those go in Growth
-- Financial tracking – that goes in Finance
+- Product development and architecture – that goes in Product Development
+- Brand marketing and acquisition campaigns – those go in Marketing & Sales
+- Financial tracking – that goes in Finances
 - Agent governance and guidelines – those live at venture root in `Agents/`
 
 ## Subdirectories

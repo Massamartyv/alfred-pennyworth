@@ -6,7 +6,7 @@ final_identity_pending: art-direction
 venture_stage: Reconnaissance
 status: active
 methodology: The Manor Protocol
-last_updated: 2026-07-10
+last_updated: 2026-09-10
 ---
 
 # Atlas – Venture Index
@@ -16,6 +16,20 @@ last_updated: 2026-07-10
 AI-native chiropractic intelligence layer. A thin clinical service that sits above existing EHRs – Jane App, ChiroTouch, Genesis, EZBIS, Prompt EMR – converting ambient voice into structured SOAP notes, validated ICD-10 and CPT coding, treatment plans and downstream insurance workflows. The thesis is augmentation, not replacement: chiropractors do not switch EHRs easily, so Atlas integrates with the systems they already run.
 
 Stage: Reconnaissance. Phase 1 deliverable is a SOAP note generator piloted at Arlando Parker Jr.'s clinic, posting into a single EHR.
+
+## Movement
+
+Governed by the Movement Doctrine – `Context/values-hierarchy.md` §5.5, ratified 2026-09-09 from the operator's forced-choice values hierarchy. In the work domain the terminal value is Impact, and Impact resolves to movement rather than accumulation.
+
+Every commitment this venture opens declares in advance which two of the three units it moves, and the quarter it is judged in.
+
+- **Sovereignty bought** – months of runway, hours reclaimed, distance closed to $25,000 a month. Revenue is not itself movement; the freedom it purchases is, and the figure must be stated in those terms or it does not count.
+- **Someone else changed** – a client, reader or listener whose situation differs because the work exists.
+- **Work in the world** – a thing shipped and live where people meet it.
+
+Two of three, or the work is thin and gets called thin. Judged at quarter close: moved, or named and re-declared exactly once. A second failure kills the work or hands it off. Scale, margin and enterprise value are the supporting case, never the frame. Billion-dollar trajectory is the benchmark that says whether the quarter's movement was real or trivial, not the goal pursued.
+
+Live declarations: Notion Projects, Atlas workspace once provisioned. Until then declarations buffer to `.working/session-buffer/`, never to the Five Points workspace, per Plugin Routing rule 9.
 
 ## Strategic Thesis
 
@@ -35,24 +49,19 @@ All work follows The Manor Protocol – five phases, two hard gates, creative ex
 
 ## Navigation
 
-### Seven Studios
+### Nine Departments
 
-| Studio | Craft | Start Here |
+| Department | Craft | Start Here |
 |---|---|---|
-| Creative/ | Brand identity, voice, clinical communication standards | Creative/_index.md |
-| Strategy/ | EHR landscape, competitive intelligence, positioning, chiropractic market behaviour | Strategy/_index.md |
-| Production/ | AI architecture, FastMCP service, EHR adapters, clinical knowledge curation | Production/_index.md |
-| Growth/ | Pilot expansion, channel architecture, partnership development | Growth/_index.md |
-| Operations/ | Pilot management, clinical advisor relationships, support workflows | Operations/_index.md |
-| Finance/ | SaaS metrics, per-clinic unit economics, inference cost tracking | Finance/_index.md |
-| Administration/ | HIPAA compliance, BAAs, regulatory, entity formation, IP | Administration/_index.md |
-
-### Shared Resources
-
-| Resource | Purpose | Start Here |
-|---|---|---|
-| Knowledge Base/ | Clinical knowledge, EHR intelligence, coding references, competitive landscape | Knowledge Base/_index.md |
 | Foundation/ | Brand fingerprint (source of truth); community initiatives, education, chiropractic profession contribution | Foundation/_index.md |
+| Administration/ | HIPAA compliance, BAAs, regulatory, entity formation, IP | Administration/_index.md |
+| Finances/ | SaaS metrics, per-clinic unit economics, inference cost tracking | Finances/_index.md |
+| Business Development/ | EHR landscape, competitive positioning, chiropractic market behaviour, pilot pipeline, channel architecture, partnership development | Business Development/_index.md |
+| Marketing & Sales/ | Brand identity, voice, clinical communication standards, sales pipeline | Marketing & Sales/_index.md |
+| Operations/ | Pilot management, clinical advisor relationships, support workflows | Operations/_index.md |
+| Product Development/ | AI architecture, FastMCP service, EHR adapters, clinical knowledge curation, offer architecture | Product Development/_index.md |
+| Human Resources/ | Team, contractors, advisors, culture | Human Resources/_index.md |
+| Knowledge Base/ | Clinical knowledge, EHR intelligence, coding references, competitive landscape | Knowledge Base/_index.md |
 
 ### Shared Governance
 
@@ -103,3 +112,5 @@ related_files:
   - "{path/to/related-file.md}"
 ---
 ```
+
+*Last updated: 2026-09-10 – The Restoration: reverted from the seven-studio-plus-shared-resources shape to the nine original departments. Creative folded into Marketing & Sales, Strategy split across Business Development, Product Development and Knowledge Base, Production folded whole into Product Development, Growth split across Business Development, Marketing & Sales and Product Development, and the HR subfolder formerly under Administration became the standalone Human Resources department. Previously 2026-09-05 – Last updated line added at the September heartbeat; content unchanged since 2026-08-08.*

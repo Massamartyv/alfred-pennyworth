@@ -1,8 +1,8 @@
 ---
 file_type: brand_fingerprint
 venture: Five Points Digital Studio
-version: 3.1
-last_updated: 2026-08-10
+version: 3.5
+last_updated: 2026-09-08
 ---
 
 # Five Points Digital Studio – Brand Fingerprint
@@ -32,11 +32,11 @@ Five Points builds the personal infrastructure of singular minds – owned opera
 
 Reverse-engineered from the destination. Each answer derives from the one above it.
 
-**One – what do I want to have happen.** Five Points becomes the definitive house for the operating infrastructure of singular minds – the studio a founder-operator commissions when the work has to compound rather than churn. Measured in enterprise value built on owned, retained infrastructure, never on rented hours. A nested staircase. Lifetime: a marque spoken of beside the heritage houses, its commissions held as assets decades after delivery, the studio sovereign enough to choose its principals. Ten-year: a category-defining studio with a body of commissioned systems, the partnership model proven, the leverage compounding every quarter. Three-year: the asset model proven over the retainer model – a small roster of the right principals, the flagship Construct shipped at marque grade, the offer ladder closing, the engine funding its own expansion.
+**One – what do I want to have happen.** Five Points becomes the definitive house for the operating infrastructure of singular minds – the studio a founder-operator commissions when the work has to compound rather than churn. Measured in enterprise value built on owned, retained infrastructure, never on rented hours. A nested staircase. Lifetime: a marque spoken of beside the heritage houses, its commissions held as assets decades after delivery, the studio sovereign enough to choose its principals. Ten-year: a category-defining studio with a body of commissioned systems, the partnership model proven, the leverage compounding every quarter. Three-year: the asset model proven over the retainer model – a small roster of the right principals, the flagship commission shipped at marque grade, the Operations line closing, the engine funding its own expansion.
 
 **Two – what do I have to be known for.** The studio that manufactures owned, compounding infrastructure and treats every engagement as a marque commission. Not a retainer shop, not a deliverables vendor. The house whose work the owner keeps – assets, not services; infrastructure, not deliverables. Known to the few singular minds it is built for, by the standard of the work, never by volume.
 
-**Three – what do I have to do to be known for that.** Hold the offer ladder – an ascending transaction model from entry instrument to the flagship Construct commission, each step a named, marque-grade asset. Deliver as a house, not a freelancer: commissioning documents, owner's books, certificates of authenticity, the A-series and AFOM craft standard on every artefact. Run the pentagram partnership model so the studio scales on principals, not on headcount. Refuse the retainer reflex – price the asset, never the hour.
+**Three – what do I have to do to be known for that.** Hold the offer ladder – an ascending transaction model from the entry instrument to the flagship commission, each step a named, marque-grade asset. Deliver as a house, not a freelancer: commissioning documents, owner's books, certificates of authenticity, the A-series and AFOM craft standard on every artefact. Run the pentagram partnership model so the studio scales on principals, not on headcount. Refuse the retainer reflex – price the asset, never the hour.
 
 **Four – what do I have to learn.** Primary: to scale bespoke without diluting the marque – systematise the architecture so it compounds across commissions while every build still reads as made for one mind. Then: to run the partnership model as a durable structure, not a founder dependency. Then: to hold the asset-and-compounding discipline under the gravitational pull of the easy retainer.
 
@@ -46,7 +46,7 @@ Reverse-engineered from the destination. Each answer derives from the one above 
 
 **The Core Truth.** The highest-value thing a studio can make is an asset the owner keeps and compounds returns from. Build the system, hand over the keys, and the leverage grows every quarter without the studio in the loop. Infrastructure outlives the engagement; a deliverable dies on delivery.
 
-**The Proof.** Not a pitch, a pattern. The body of commissioned systems – the Construct builds, the owner's books, the marque-grade artefacts that carry "A Five Points Commission" – an accruing catalogue of infrastructure that compounds in the owner's hands.
+**The Proof.** Not a pitch, a pattern. The body of commissioned systems – the receptionists, the workflows and the rebuilt operations, the owner's books, the marque-grade artefacts that carry "A Five Points Commission" – an accruing catalogue of infrastructure that compounds in the owner's hands.
 
 ### The positioning discipline
 
@@ -162,7 +162,7 @@ Seven principles extracted from the A Friend Of Mine Bayport case study, applied
 
 ### The Rebuild Position – the governing frame
 
-Operator-directed 2026-07-20, widened studio-wide by ruling the same day. The market-facing frame for the hero and for every engagement – automation, Construct builds, web, brand and SEO alike are framed as the rebuild of a system the business has outgrown. The spine is unchanged – this position translates the asset canon for the buyer who arrives asking about automation, and the rebuild leads. The hero and all offer copy descend from this block.
+Operator-directed 2026-07-20, widened studio-wide by ruling the same day. The market-facing frame for the hero and for every engagement – automation, the named systems, web, brand and SEO alike are framed as the rebuild of a system the business has outgrown. The spine is unchanged – this position translates the asset canon for the buyer who arrives asking about automation, and the rebuild leads. The hero and all offer copy descend from this block.
 
 **Positioning statement – onlyness form, internal only, never customer-facing:**
 
@@ -179,11 +179,11 @@ Operator-directed 2026-07-20, widened studio-wide by ruling the same day. The ma
 3. Assets, not services. Infrastructure, not deliverables.
 4. Built once, owned for life, compounding every quarter.
 
-**Proof points:** the survey before the build – the operation mapped as a system before a single component is assembled; the Construct builds and the owner's books – commissioned artefacts the owner keeps and operates; the marque standard on every artefact.
+**Proof points:** the survey before the build – the operation mapped as a system before a single component is assembled; the commissioned systems and the owner's books – artefacts the owner keeps and operates; the marque standard on every artefact.
 
 ### The category doorway – scope note
 
-Operator-ruled 2026-08-10, reconciling the 25 July marketing-house framing through amendment rather than strike. Five Points trades in the digital-marketing category – it is where the buyer searches, how directories list the studio and the vocabulary of arrival. The category is the doorway, never the identity. On doorway surfaces – page titles, meta descriptions, directory and profile listings, ad copy and search-facing headlines – digital-marketing category vocabulary is permitted as a market search term, exactly as the Construct scope note permits the word "AI". In brand prose describing what the studio is, the invariant core holds: an infrastructure house dealing in assets and commissions, never a marketing vendor. The Rebuild Position above is the bridge that walks a category arrival into the asset canon.
+Operator-ruled 2026-08-10, reconciling the 25 July marketing-house framing through amendment rather than strike. Five Points trades in the digital-marketing category – it is where the buyer searches, how directories list the studio and the vocabulary of arrival. The category is the doorway, never the identity. On doorway surfaces – page titles, meta descriptions, directory and profile listings, ad copy and search-facing headlines – digital-marketing category vocabulary is permitted as a market search term, exactly as the named-product scope note permits the word "AI". In brand prose describing what the studio is, the invariant core holds: an infrastructure house dealing in assets and commissions, never a marketing vendor. The Rebuild Position above is the bridge that walks a category arrival into the asset canon.
 
 ### Tagline
 
@@ -197,41 +197,74 @@ The tagline is the single emotional note in an otherwise architectural register.
 
 ### Colour System
 
-#### Primary palette
-
-| Name | Hex | Role | Weight |
-|---|---|---|---|
-| Obsidian | #0F0F10 | Primary anchor | 50% |
-| Parchment | #EAE0C8 | Neutral base | 30% |
-| Emerald | #13402E | Primary accent | 12% |
-| Burnt Orange | #B65730 | Reserved accent | 5% |
-
-#### Supporting palette
+#### The ground
 
 | Name | Hex | Role |
 |---|---|---|
-| Graphite | #2A2A2C | Tier 2 dark surface |
-| Stone | #8B857A | Warm mid-grey |
-| Shadow Emerald | #0A2518 | Deep green shadow layer |
-| Aged Brass | #7A5D2E | Editorial brass details |
+| Ink | #0F0F10 | The anchor. Type, the mark at rest, the inverted register |
+| Paper | #EAE0C8 | The ratified bone ground |
 
-#### Colour hierarchy
+The ground is a graded bone ramp against one ink, bridged by a warm grey
+ramp with no blue-grey anywhere. Colour enters only through the voices.
 
-- Tier 1 signature duo: Obsidian and Parchment – 80% of surface area
-- Tier 2 supporting: Emerald and Burnt Orange
-- Tier 3 reserved: Shadow Emerald and Aged Brass
-- No fifth accent enters the brand without a rewrite of this document
+#### The five voices
 
-#### Organic shape cycling rotation
+Sampled from the original five-circle favicon. Each ships a family: the
+voice itself, a computed type-safe grade, a step below that, and two
+whispered grades for washes and tints.
 
-Emerald, then Burnt Orange, then Obsidian. Fixed order, three-colour maximum. Parchment or Obsidian surface. 15% to 40% opacity on overlap.
+| Voice | Ratified | Type-safe | Below |
+|---|---|---|---|
+| Coral | #D96E6E | #A72C2C | #832222 |
+| Cornflower | #8AACD9 | #305A92 | #25456F |
+| Sun | #F8DC55 | #695804 | #453A03 |
+| Lavender | #A491CD | #6549A1 | #513B81 |
+| Sage | #8CBFA6 | #37624D | #274536 |
 
-#### Forbidden pairs
+**The ratified column is the brand.** The other two are contrast
+derivatives and carry no identity meaning. A surface, a mark or a field
+takes the ratified voice; only type reaches for a deeper grade, and it
+does so through `--voice-accent`, which picks the right one for the ground
+it stands on. Naming that obscures this distinction has cost the studio a
+mark rendered in olive-brown for a fortnight - see the Amendment Log,
+9 September 2026.
 
-- Burnt Orange on Emerald – competing saturation
-- Graphite on Obsidian – dark-on-dark fails contrast
-- Stone on Parchment – light-on-light fails contrast
-- Aged Brass on Burnt Orange – metamerism
+#### The laws of colour
+
+1. **One voice at a time.** A surface that takes a hue commits to that
+   hue's family entirely. Never a mix of the five.
+2. **The mark takes the voice of its surface.** Not all five at once: the
+   Quintessence renders in a single voice against that voice's deep grade,
+   the two alternating around the rosette. The mark obeys law 1 rather than
+   excepting itself from it. A surface with no voice of its own - the
+   favicon, the share card - takes the lead voice, coral. The five-voice
+   seal is retired, and with it the only place the five appeared together.
+3. **Flat, never gradient.** No gradient anywhere - not in the mark, not
+   in a surface, not in a transition. Three gradient treatments of the
+   seal were drawn and cut on 9 September 2026 rather than amend this.
+4. **The core inverts with its ground.** Obsidian on light, parchment on
+   dark. The voices never move with it.
+
+#### Retired
+
+The Survey palette - Parchment, Emerald, Burnt Orange, Stone, Graphite,
+Shadow Emerald and Aged Brass - was retired outright when the Quintessence
+world superseded it in July 2026. No terracotta-family colour exists
+anywhere in this brand. This document carried the retired palette until
+9 September 2026.
+
+**Correction incomplete, and deliberately so.** The tables above are now
+correct. Sections further down this document - the colour-pairing table,
+the typography combinations, the stationery and print specifications -
+still name Emerald, Burnt Orange, Stone and Aged Brass in usage roles.
+Those are not mechanical substitutions: deciding which voice inherits
+"Burnt Orange for eyebrows and marque detail", or whether Emerald's
+continuation register passes to Sage, are rulings and not find-and-replace.
+Until they are taken, read this section as authoritative and treat any
+Survey-palette name below as retired and awaiting reassignment. Where a
+retired name refers to a value rather than a role - Parchment at #EAE0C8
+is the bone ground, Obsidian at #0F0F10 is ink - the value stands and only
+the name is stale.
 
 #### Approved combinations
 
@@ -389,6 +422,43 @@ Imagery-minimum as the structural default – the type and colour system carry m
 
 ---
 
+### The Field
+
+The pattern layer. Every field is cut from two pieces of the mark – the petal and the mote – so nothing in the identity is drawn twice.
+
+#### The law of the field
+
+A field is not decoration and it is not wallpaper. It is the air a page sits in. Five rules separate the two and every one of them is a rule about restraint.
+
+1. **Few elements.** Three to six forms. What is not there is the composition.
+2. **One hue, several steps.** A single colour in three or four tonal steps. Never a mix of the five voices.
+3. **One form dominates.** Clear variation in scale. Forms at one size read as wallpaper whatever the spacing.
+4. **Shapes leave the frame.** At least one form cut by an edge. A field that fits inside its box is a picture.
+5. **Nothing repeats visibly.** Where a field does repeat, the seam is invisible and the rhythm carries two scales.
+
+Forbidden: a field behind body copy at full strength, more than one field on a spread, the mark rotated, and the complete mark used as a pattern element. The mark is the mark; the pieces are the pattern.
+
+#### The four fields
+
+| Field | What it is | Where it runs |
+|---|---|---|
+| The Trefoil | Three leaves crossing about one centre. The crossings earn a third tone from two and the triple overlap a fourth, so the tonal steps come from the drawing rather than the palette | Alone on a small surface; as a seamless repeat, two scales on a half-drop, for a large fill |
+| Tumbling Air | Leaves on a current, each at its own attitude, scale varying without a progression | Covers, card backs, section openers |
+| The Descent | Vertical rhythm, large and small alternating with a lateral drift | Spines, side rails, margins. It survives being very narrow |
+
+Dividers are plain hairlines. No field is drawn for a horizontal divider on ink.
+
+### The Screen
+
+Every photograph in the documentation is screened, and the dot is the mark. There is not a circle anywhere in a Five Points image.
+
+- **The house ruling is eighty-eight marks across the width of the image**, expressed as a count rather than a pixel pitch, so the same screen reproduces identically at any size
+- The rosette takes the highlights, where a dot has room to open; the pentagon core takes everything darker
+- Both are sized from measured ink rather than from diameter – the rosette inks nineteen per cent of its own circle where the core inks fifty – which is what lets the screen change shape inside one image without a step in tone
+- Bone on ink is the default register; ink on paper is reserved for pages that are already light; a voice-coloured screen is held back for section dividers
+
+The screen is a build-time image treatment, not a component. It wants photography with clean tonal separation – a light subject against a dark ground, or the reverse. Busy environmental frames screen badly and no setting fixes that.
+
 ## Layer 3 – Production
 
 ### Document Standards
@@ -426,7 +496,7 @@ Studio-specific additions:
 | 3 | Invoice | A4 single-page | Commissioning statement |
 | 4 | Case study | A4 multi-page | Marque history |
 | 5 | System Operations Manual | A5 bound or A4 digital | Owner's book |
-| 6 | Construct Identity Brief | A5 | Certificate of authenticity |
+| 6 | System Identity Brief | A5 | Certificate of authenticity |
 | 7 | Pitch deck and presentation | A3 horizontal or 16:9 digital | Marque presentation |
 | 8 | Business card | 74 by 74mm | Calling card |
 | 9 | With-compliments slip | DL | Calling card in longer form |
@@ -529,23 +599,26 @@ The numeral 5 in PP Editorial New Semi-Bold 600. Ships immediately on all mark s
 
 The interim mark is scale-invariant. A single character holds its identity at 8px where the commissioned five-circle mark would fragment. It steps aside cleanly when the commissioned mark arrives.
 
-#### Commissioned geometric mark – the Quintessence
+#### The commissioned mark – the Quintessence
 
-The primary geometric mark is commissioned as the Quintessence: a five-fold faceted snowflake. Nature builds every snowflake six-fold; a five-fold crystal exists only by design – the studio thesis in one object. The lead idea is one of one: no two snowflakes alike, no two commissions alike. The mark is a generative system producing a unique issued crystal per commission, with one canonical crystal reserved for the studio itself.
+The primary geometric mark is the Quintessence, issue QT-002: five petals at seventy-two degrees around a rounded pentagon core, every petal a golden rhombus bowed into a leaf. Five-fold symmetry is the one order that cannot tile a plane periodically, so the figure exists only by design – the studio thesis in one object.
 
-The governing commission brief lives at `Creative/Identity/quintessence-mark-brief.md`, with founder-approved reference sketches beside it. The construction law in summary:
+The governing commission brief lives at `Marketing & Sales/Identity/quintessence-mark-brief.md`. The construction law in summary:
 
-- Five identical arms at 72 degrees; no six-fold read may survive at any scale
-- Every closed facet is a golden rhombus – diagonals in ratio phi – stepping down the Fibonacci ladder: base kite 34, first branch pair 21, second branch pair 13, tip mote 13 in construction units
-- Regular pentagon core, circumradius 21, vertex aligned to each arm; the pentagon carries phi natively in its diagonal-to-side ratio
-- Spine of 47 units in descending Fibonacci segments – 21, 13 and 13 – with the two branch pairs springing at the stations 21 and 34
-- Detached tip mote as the terminal punctuation of each arm
-- One uniform seam channel across the entire mark; one small corner radius on every join, with tips still reading as points
+- Five petals at 72 degrees; no six-fold read may survive at any scale
+- Every petal is a golden rhombus – diagonals in ratio phi – bowed into a leaf by quadratic curves
+- Rounded pentagon core, circumradius 13 construction units; the pentagon carries phi natively in its diagonal-to-side ratio
+- Tip radius 45.5 units, which is the extent of the mark
+- Every shape drawn at 84% of its construction polygon, which is the seam
+- One corner radius on every corner, 2.9 units
 - Flat single colour; no visible strokes, no gradients, no shading, no dimensional effects
-- One form at every scale: the seam channels close optically at small size and the crystal self-simplifies; verification runs to 8px and optical-size seam compensation may be approved at refinement
 - Signature rendering is Parchment on Obsidian for ceremonial surfaces, seals, avatars and the favicon; Obsidian on Parchment remains the default on light surfaces
 
-The five-circle golden-ratio cluster brief is retired by amendment; its phi discipline survives in full as the law above. The prior prohibition on radial forms is lifted for this commission only. The literal five-pointed star and the interlaced pentagram remain forbidden, as does any snowflake-as-winter framing – no frost textures, no blue, no seasonal presentation.
+**The ladder is two tiers.** The rosette carries every surface down to twenty pixels. Below twenty the pentagon core alone – the one part of the figure that never closes up – which is the micro mark. The tier is chosen by the rendered size, never by the surface, and the choice is made in code rather than by judgement at the point of use.
+
+**The generative promise sits in the field, not in the mark.** Where the retired crystal was to issue a unique object per commission, the mark is now fixed and canonical and the field carries the variance: a stable mark for recognition, a variable ground for expression. See The Field below.
+
+The five-circle golden-ratio cluster brief and the QT-001 crystal are both retired by amendment; their phi discipline survives in full as the law above, and the crystal geometry survives as the source of the studio pattern work. The literal five-pointed star and the interlaced pentagram remain forbidden, as does any snowflake-as-winter framing – no frost textures, no blue, no seasonal presentation.
 
 #### Lockup rules
 
@@ -563,7 +636,7 @@ Clear space is measured in units of the mark's height at the rendered size, refe
 | Rule | Value |
 |---|---|
 | Clear space around any lockup | 1x mark-height minimum, 1.5x preferred |
-| Mark-only minimum size | 6mm print, 8px digital |
+| Mark-only minimum size | 20px digital for the rosette; below that the micro mark, to 11px |
 | Horizontal lockup minimum | 25mm print, 80px digital |
 | Vertical lockup minimum | 20mm print, 60px digital |
 
@@ -868,6 +941,12 @@ Every check is pass or fail. A single failure holds the output until resolved.
 - **2026-07-12 – Photography gate reframed off a milestone number.** Trajectory Language Purge mission. Layer 3's photography sourcing strategy previously gated commissioned original photography on MRR clearing a sustained $15,000, framing a routine operating expense as a distant aspiration. Reframed as a scheduled revenue-rung trigger tracked in Notion Five Points workspace rather than a local milestone number; the AI-generated library holds the standard until the trigger fires. No change to imagery-minimum doctrine or the canonical reference stack.
 - **2026-07-14 – "AI" scope clarified against the Construct row.** The Loom mission, operator-ruled. The always-use Construct governance was being read as a blanket ban on the word "AI". Clarified that it governs the named product only – the product is a Construct, never "an AI" or "a bot" – while "AI" as a technology-field reference and as a literal market search term is permitted in headlines, page titles, meta descriptions and offer names. Added a Scope notes subsection to Terminology Governance. No change to the never-use list, which never contained "AI".
 
+- **2026-09-09 – The five-voice seal retired; the mark takes the voice of its surface.** Operator-ruled on the workbench, against the suite rendered at every size on both grounds. The Quintessence no longer renders all five voices at once. It takes a single voice against that voice's deep grade, the two alternating around the rosette, so the mark obeys the one-voice-at-a-time law rather than standing as its single exception - the incoherence the seal had always carried. `mode="seal"` is deleted from the mark rather than deprecated. The masthead gains the visible wordmark "Five Points Digital Studio", the descriptor dropping below 30rem; the header had been mark-only, which assumes a reader who already knows the studio. Two consequences were surfaced before the ruling and stand accepted: the brand no longer renders its own name anywhere, five points no longer being stated by five hues in one figure, and the context-free surfaces - favicon and share card - take the lead voice, coral, by derivation rather than by ruling. The icon set has not yet been rebuilt and still ships the retired crystal. Version 3.6 to 3.7.
+
+- **2026-09-09 – The ratified voices restored to the primary names, and Layer 2's palette trued.** Operator-ruled after reconstruction from the repository history. At the token extraction the five voice families had each been renamed one rung darker: the mid values sampled from the original five-circle favicon - #D96E6E, #8AACD9, #F8DC55, #A491CD, #8CBFA6 - were demoted to a `-light` suffix, the computed type-safe derivatives took the primary names, and a new darker step was invented below them. Because the mark reads `var(--voice)`, the five-voice seal had been rendering in contrast maths rather than in the palette, the sun voice painting as #695804, an olive-brown. The rename was invisible everywhere else: `--voice-accent` resolves per register and never reads the bare token, so every text colour was unaffected in both directions, which is why it went uncaught. Naming restored - `--voice` the ratified voice, `--voice-deep` the type-safe grade, `--voice-dark` the step below - and verified by resolving all five voices across both registers before and after: 70 of 110 values byte-identical, the 40 that moved being exactly the four renamed grades, with no accent, rule, tint, wash or error token among them. Layer 2's Primary and Supporting palette tables, which still documented the Survey palette retired in July, are replaced with the ground and the five voices. The laws of colour are stated in the same pass, including the no-gradient law, upheld the same day after three gradient treatments of the seal were drawn, specimened and cut. The correction is deliberately partial: the colour-pairing table, the typography combinations and the stationery specifications still name Emerald, Burnt Orange, Stone and Aged Brass in usage roles, and reassigning those is a ruling rather than a substitution. Version 3.5 to 3.6.
+
+---
+
 - **2026-07-18 – The Quintessence supersedes the five-circle mark brief.** Operator-directed through a five-round Direction gate in session, final form approved against the filed reference sketch. The commissioned geometric mark becomes a five-fold faceted snowflake – the Quintessence – governed by the commission brief at `Creative/Identity/quintessence-mark-brief.md`: golden-rhombus morpheme in Fibonacci descent, pentagon core, branch pairs springing at the Fibonacci stations of the spine, uniform seams, softened joins with held points, a generative one-of-one issue system with a canonical studio crystal and a single-form scale rule – the seam channels close optically at small size, with optical-size compensation permitted at refinement. The five-circle cluster prompt is retired; its golden-ratio discipline is retained in full as the new construction law. The old brief's ban on star and radial forms is lifted for this commission alone; the literal five-pointed star and interlaced pentagram remain forbidden. Signature rendering designated Parchment on Obsidian. Reference sketch `quintessence-sketch-hero.svg` filed beside the brief. The interim numeral 5 continues on all mark surfaces until the commissioned mark ships, per the existing transition rule.
 
 ---
@@ -891,4 +970,8 @@ Every check is pass or fail. A single failure holds the output until resolved.
 
 - **2026-09-03 – Construct retired; the five pillars refined for home services.** Operator-ruled on the offer bench, the night after the Trades Edition merged. The always-use row "Construct" falls: the named product is a system, a receptionist, a workflow, by its plain name – the word carried an identity the buyer had to be taught, and the operator judged it a likely source of confusion for clients and customers. The flagship offer name "Human Construct" is held for its own ruling. The founding pillars are refined to Operations – the AI and automation pillar, renamed from Emerging Technology – Development, Creative, Market Presence and Consulting, renamed from Strategic Advisory; philanthropy lives in the Foundation and never on the offer surface. The home services offer is recorded in the Five Points Decision Log – "Adopt the Operations Line and the Five Refined Pillars for Home Services" – pending signature, with the pricing amendment of 1 September carried inside it: three Operations systems at $3,000 setup and $500 a month governance, the Recovery Week entry at $970 credited, and the three guarantees. The 25 July price-privacy ruling narrows to the Human Construct and bespoke commissions. Version 3.2 to 3.3.
 
-*Version 3.3. Last updated 3 September 2026 – Construct retired; the five pillars refined for home services.*
+- **2026-09-05 – The spine catches up with the Construct retirement.** Context-audit finding at the September heartbeat: the 3 September amendment retired the word but Layer 0 still framed the three-year horizon, the offer ladder and the Proof around the Construct builds, and the Rebuild Position, the proof points, the category doorway and the A-series carried it beneath. Seven strings re-derived under the coherence-cascades rule; the flagship is now "the flagship commission" pending the Human Construct ruling, the commissioned systems are named by their plain names and the identity brief becomes the System Identity Brief. Frontmatter synced to the body at the same pass, having lagged at 3.1 since 10 August. Version 3.3 to 3.4.
+
+- **2026-09-08 – The rosette becomes the Quintessence; the field and the screen enter Layer 2.** The renovation pass, ruled across four sessions and reconciled here. Five decisions carry it, all logged in the Five Points Decision Log the same day. The mark: QT-001, the five-fold crystal, is retired as a mark and the rosette – five petals at seventy-two degrees around a rounded pentagon core – becomes the Quintessence as QT-002. The crystal was a smudge below 45 pixels and carried the snowflake reading the brief had banned; the rosette holds at every size the brand actually uses. The three-tier ladder collapses to two, switching at twenty pixels. The crystal geometry deliberately survives as the source of the pattern work, which is why FacetPlate is untouched on the site. **The field** enters Layer 2 as the pattern layer: four fields cut from the petal and the mote, under a five-rule law of restraint, arrived at after a Penrose tessellation was rejected as suffocating and two single-gesture compositions were rejected as static. The governing read is rhythm with air rather than gesture with air. **The screen** enters Layer 2 as the photography treatment: a halftone whose dot is the mark, at a house ruling of eighty-eight marks across the image width, applied to every photograph in the documentation without exception. Downstream: `@fivepoints/quintessence` is extracted as the design-system package and now owns the token contract the site was declaring; fivepoints.studio renders QT-002; the Claude Design project is superseded. **One condition stands.** The trademark knockout on the rosette has not been run. Five petals round a centre is a common figure and the particularity rests on the rhombus petal and the pentagon core, so this amendment records the ruling and its implementation while the knockout remains outstanding. Do not treat the mark as cleared until it is. Working record and the full ruling ledger at `Creative/Identity/Renovation 2026-09/`. Version 3.4 to 3.5.
+
+*Version 3.7. Last updated 9 September 2026 – the five-voice seal retired, the mark takes the voice of its surface, the masthead gains its wordmark. Previously 3.6 – the ratified voices restored to the primary names; Layer 2's palette trued off the Survey retirement. Previously 3.5, 8 September 2026 – the rosette becomes the Quintessence; the field and the screen enter Layer 2.*

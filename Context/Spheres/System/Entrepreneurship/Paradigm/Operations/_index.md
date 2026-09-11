@@ -2,7 +2,7 @@
 file_type: reference
 venture: Paradigm
 status: active
-last_updated: 2026-07-27
+last_updated: 2026-09-10
 ---
 
 # Operations – Paradigm
@@ -21,14 +21,14 @@ Fulfilment, supply chain, quality control, tools and the systems that keep every
 - Clientele account management – wholesale and retail partner accounts after deal close
 - Standard operating procedures
 - Tool configurations and integrations
-- Distribution operations handoff from Growth
+- Distribution operations handoff from Business Development
 
 ## What Does Not Belong Here
 
-- Product formulation and R&D – that goes in Production
-- Manufacturing runs – those go in Production/Manufacturing
-- Brand marketing and acquisition campaigns – those go in Growth
-- Financial tracking – that goes in Finance
+- Product formulation and R&D – that goes in Product Development
+- Manufacturing runs – those go in Product Development/Manufacturing
+- Brand marketing and acquisition campaigns – those go in Marketing & Sales
+- Financial tracking – that goes in Finances
 - Agent governance and guidelines – those live at venture root in `Agents/`
 
 ## Subdirectories

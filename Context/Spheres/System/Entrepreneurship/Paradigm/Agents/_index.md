@@ -3,18 +3,18 @@ file_type: agent_governance
 venture: Paradigm
 status: active
 methodology: The Manor Protocol
-last_updated: 2026-06-11
+last_updated: 2026-09-10
 ---
 
 # The Manor Protocol – Paradigm
 
-The proprietary methodology governing all work at Paradigm. Every studio is a room in the manor where craft happens. Creative excellence is the governing standard across all studios – formulation, packaging, marketing, compliance alike.
+The proprietary methodology governing all work at Paradigm. Every department is a room in the manor where craft happens. Creative excellence is the governing standard across all departments – formulation, packaging, marketing, compliance alike.
 
 ---
 
 ## Philosophy
 
-Paradigm is a health and wellness brand. The stakes of "craft" are felt on a customer's body and felt in their daily ritual. Products go inside people. Labels make claims that regulators read. Packaging sits on shelves next to incumbents with decades of equity. The Manor Protocol does not treat any of this lightly. A formula is craft. A compliance label is craft. A supplement facts panel is craft. A customer email is craft. The methodology holds every output to the same standard regardless of which studio produced it.
+Paradigm is a health and wellness brand. The stakes of "craft" are felt on a customer's body and felt in their daily ritual. Products go inside people. Labels make claims that regulators read. Packaging sits on shelves next to incumbents with decades of equity. The Manor Protocol does not treat any of this lightly. A formula is craft. A compliance label is craft. A supplement facts panel is craft. A customer email is craft. The methodology holds every output to the same standard regardless of which department produced it.
 
 ## The Lifecycle
 
@@ -58,7 +58,7 @@ Ship it. Launch the product. Publish the campaign. Send the order to fulfilment.
 
 ## Governance Model
 
-**Hybrid architecture.** Shared governance lives here at the venture root (`Agents/`). Studio-specific agents, workflows and criteria live inside each studio local `Agents/` subfolder.
+**Hybrid architecture.** Shared governance lives here at the venture root (`Agents/`). Department-specific agents, workflows and criteria live inside each department's local `Agents/` subfolder.
 
 ### Shared governance files (this folder)
 
@@ -70,12 +70,12 @@ Ship it. Launch the product. Publish the campaign. Send the order to fulfilment.
 
 Plugin scope for Paradigm is still to be determined. No `integrations.md` exists yet.
 
-### Studio-level agentic layer
+### Department-level agentic layer
 
-Every studio contains an `Agents/` subfolder with a standard structure:
+Every department contains an `Agents/` subfolder with a standard structure:
 
 ```
-{Studio}/Agents/
+{Department}/Agents/
   _index.md           -- Specialist roster and workflow registry
   Workflows/          -- Named Manor Protocol sequences for common tasks
   Criteria/           -- Quality rubrics and evaluation standards
@@ -84,24 +84,19 @@ Every studio contains an `Agents/` subfolder with a standard structure:
 
 ---
 
-## The Seven Studios
+## The Nine Departments
 
-| Studio | Craft | Scope |
+| Department | Craft | Scope |
 |---|---|---|
-| **Creative** | Brand identity, visual direction, packaging, aesthetic standards | The look, feel and voice of the brand |
-| **Strategy** | Wellness industry research, competitive intelligence, positioning, consumer behaviour | The thinking behind the work |
-| **Production** | Product formulation, manufacturing workflows, packaging production, content production | The execution engine |
-| **Growth** | Sales, partnerships, wholesale, distribution, DTC channels | Revenue generation and channel architecture |
+| **Foundation** | Community wellness initiatives, philanthropy, education, giving – plus the brand fingerprint and venture mission | Where the brand invests in the health of the communities it serves |
+| **Administration** | Legal, FDA and FTC compliance, labelling, brand protection, governance | The structure |
+| **Finances** | Revenue, COGS, expenses, projections, tax, metrics | The numbers |
+| **Business Development** | Wholesale, distribution, partnerships, affiliates and ambassadors, sales pipeline, positioning, consumer insight | Revenue generation and channel architecture |
+| **Marketing & Sales** | Brand identity, visual direction, packaging aesthetics, content standards, DTC channel, sales process | The look, feel and voice of the brand, and the path from that voice to a sale |
 | **Operations** | Fulfilment, supply chain, quality control, SOPs, clientele management | The engine room |
-| **Finance** | Revenue, COGS, expenses, projections, tax, metrics | The numbers |
-| **Administration** | Legal, FDA and FTC compliance, labelling, brand protection, HR | The structure |
-
-### Shared Resources
-
-| Resource | Purpose |
-|---|---|
-| **Knowledge Base** | Ingredient science, case studies, industry research, methodologies |
-| **Foundation** | Community wellness initiatives, philanthropy, education |
+| **Product Development** | Product formulation, manufacturing workflows, packaging production, content production, offer architecture | The execution engine, and the venture's own products and builds |
+| **Human Resources** | Team, contractors, advisors, culture, hiring plans | The people |
+| **Knowledge Base** | Ingredient science, case studies, industry research, methodologies | Institutional memory |
 
 ---
 
@@ -129,9 +124,9 @@ Not every task requires all five phases. A routine restock order does not need R
 
 Complex deliverables – a new product formulation, a packaging redesign, a wholesale pitch deck – cycle through Execution and Critique multiple times before Release. The hard gate after Critique means human eyes before the product, the label or the campaign reaches a customer or a regulator.
 
-### Cross-studio work
+### Cross-department work
 
-When work spans multiple studios (Creative sets packaging direction, Production manufactures the product, Administration clears the claims, Growth pitches the distributor), each studio runs its own lifecycle on its portion. The Mediator and Broadcaster crews coordinate handoffs and distribute state.
+When work spans multiple departments (Marketing & Sales sets packaging direction, Product Development manufactures the product, Administration clears the claims, Business Development pitches the distributor), each department runs its own lifecycle on its portion. The Mediator and Broadcaster crews coordinate handoffs and distribute state.
 
 ### Regulated-industry discipline
 

@@ -2,30 +2,31 @@
 file_type: reference
 venture: Paradigm
 status: active
-last_updated: 2026-07-27
+last_updated: 2026-09-10
 ---
 
 # Knowledge Base – Paradigm
 
 Industry research, ingredient science, competitive intelligence and the accumulated knowledge that informs product and brand decisions.
 
-### What Belongs Here
+## What Belongs Here
 
 - Ingredient research and efficacy studies
 - Competitive landscape analysis
+- Wellness industry landscape analysis and category trend forecasting
 - Consumer behaviour and wellness trend reports
 - Regulatory research – FDA, FTC, labelling
 - Case studies of successful wellness brands
 - AI learnings specific to health and wellness operations
 - Methodology documentation for formulation and development
 
-### What Does Not Belong Here
+## What Does Not Belong Here
 
 - Personal sphere research – that lives in the personal Notion workspace under Sphere Manager
 - Other venture research – each venture is isolated
 - Active product formulations – those go in Product Development
 
-### Subdirectories
+## Subdirectories
 
 | Folder | Contents |
 |---|---|
@@ -33,8 +34,13 @@ Industry research, ingredient science, competitive intelligence and the accumula
 | Case Studies/ | Breakdowns of successful health and wellness brands |
 | Methodologies/ | Documented approaches to formulation, sourcing, testing |
 | Reference Library/ | Creators, brands, works and curators for inspiration and creative direction |
-| Research/ | Market research, ingredient science, consumer insights |
+| Research/ | Market research, ingredient science, consumer insights, wellness industry landscape and category trend forecasting |
+| Competitive Intelligence/ | Incumbent and emerging brand profiles, positioning maps, pricing intelligence |
 
-### Active State
+## Active State
 
 Live state: Notion Projects and Tasks, personal workspace.
+
+## Key Registries
+
+- Competitive brand profiles: `Competitive Intelligence/_index.md` (to be created)

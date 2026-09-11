@@ -2,12 +2,12 @@
 file_type: reference
 venture: Atlas
 status: active
-last_updated: 2026-07-27
+last_updated: 2026-09-10
 ---
 
 # Administration – Atlas
 
-Legal, compliance, brand protection, entity formation, IP and HR. The structural backbone that keeps Atlas legally sound and operationally clean in a regulatory environment that does not forgive sloppy work.
+Legal, compliance, brand protection, entity formation and IP. The structural backbone that keeps Atlas legally sound and operationally clean in a regulatory environment that does not forgive sloppy work.
 
 In healthcare AI, Administration is not a back-office function. HIPAA exposure, state chiropractic board interactions and BAA infrastructure are load-bearing for the entire venture.
 
@@ -22,14 +22,14 @@ In healthcare AI, Administration is not a back-office function. HIPAA exposure, 
 - Supplier, partner, advisor and pilot agreements
 - Insurance and liability coverage – cyber liability, professional liability, errors and omissions
 - Privacy policies, terms of service, platform compliance
-- HR – team, contractors, advisors, culture, hiring plans
 
 ## What Does Not Belong Here
 
-- Financial records – those go in Finance
-- Product development documents – those go in Production
-- Pricing and offer terms negotiation – that starts in Growth before contracts move here
-- Patient data operations – those live in Production / Operations under the HIPAA boundary
+- Financial records – those go in Finances
+- Product development documents – those go in Product Development
+- Pricing and offer terms negotiation – that starts in Business Development before contracts move here
+- Patient data operations – those live in Product Development / Operations under the HIPAA boundary
+- Team, contractors, advisors and culture – those live in Human Resources
 
 ## Subdirectories
 
@@ -43,7 +43,6 @@ In healthcare AI, Administration is not a back-office function. HIPAA exposure, 
 | IP/ | Patent strategy, trademark filings, defensive IP | Empty |
 | Policies/ | Privacy policy, terms of service, AUP | Empty |
 | Brand Protection/ | Trademark monitoring, brand misuse response | Empty |
-| HR/ | Team, contractors, advisors, culture | Arlando Parker Jr. advisor agreement (pending Direction gate) |
 
 ## HIPAA Posture (Phase 1 priority)
 

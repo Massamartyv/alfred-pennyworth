@@ -3,12 +3,12 @@ file_type: department_agent_index
 department: Knowledge Base
 venture: Five Points Digital Studio
 methodology: The Manor Protocol
-last_updated: 2026-06-11
+last_updated: 2026-09-10
 ---
 
 # Knowledge Base – Agent Roster and Workflow Registry
 
-The Knowledge Base is the institutional memory of Five Points. Case studies, methodologies, industry research, AI learnings. A shared resource rather than a department, so there is no Head of Knowledge Base – the Knowledge Curator role sits across studios.
+The Knowledge Base is the institutional memory of Five Points. Case studies, methodologies, industry research, AI learnings, and standing competitive intelligence carried in from the retired Strategy department. The Head of Knowledge Base owns it, as defined in `Agents/department-heads.md`; the Knowledge Curator role serves every other department.
 
 ---
 
@@ -47,7 +47,7 @@ When operating within Knowledge Base:
 1. Read venture-root `Agents/_index.md` – Manor Protocol definition
 2. Read `Agents/agent-guidelines.md` – execution tiers and red lines
 3. Read this file – Knowledge Base workflows and criteria
-4. Read `Knowledge Base/_index.md` – resource scope
+4. Read `Knowledge Base/_index.md` – department scope
 5. Read the specific files needed for the task
 
 ---

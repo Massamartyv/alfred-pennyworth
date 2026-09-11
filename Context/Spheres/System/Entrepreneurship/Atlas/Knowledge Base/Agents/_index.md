@@ -4,12 +4,12 @@ department: Knowledge Base
 venture: "{Venture Name}"
 status: template
 methodology: The Manor Protocol
-last_updated: 2026-06-11
+last_updated: 2026-09-10
 ---
 
 # Knowledge Base – Agent Roster and Workflow Registry
 
-Institutional memory for {Venture Name}. Industry research, case studies and methodology documentation. A shared resource rather than a studio, so there is no Head of Knowledge Base – the Knowledge Curator role sits across studios.
+Institutional memory for Atlas. Industry research, case studies and methodology documentation. A head-led department again since The Restoration, 2026-09-10 – the Head of Knowledge Base owns it, and the Knowledge Curator role serves every other department.
 
 ---
 
@@ -18,10 +18,12 @@ Institutional memory for {Venture Name}. Industry research, case studies and met
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
 | **Knowledge Curator** | Captures research, indexes intelligence, maintains case study library and methodology documentation. | Release | Researcher, Creator |
+| **Market Researcher** | Chiropractic practice mix, payer behaviour, technique adoption, decision-maker profiles, industry landscape and whitespace analysis. Carried from the retired Strategy department's Agents/_index.md Market Researcher and `Agents/department-heads.md`'s Clinical Market Researcher. | Reconnaissance | Researcher |
+| **Competitive Analyst** | Per-vendor EHR API surface, market share and integration depth (Jane App, ChiroTouch, Genesis, EZBIS, Prompt EMR); healthcare AI vendor moves and chiropractic-specific tooling (Nuance DAX, Abridge, Suki, DeepScribe); positioning maps and pricing intelligence. Carried from the retired Strategy department's Agents/_index.md Competitive Analyst and `Agents/department-heads.md`'s EHR Landscape Analyst and Healthcare AI Competitive Analyst. | Reconnaissance | Researcher |
 
 ### Role activation
 
-Research capture is ongoing. Case study additions trigger when industry moves or internal wins justify documentation. Methodology additions trigger when new frameworks prove themselves across multiple executions.
+Research capture is ongoing. Case study additions trigger when industry moves or internal wins justify documentation. Methodology additions trigger when new frameworks prove themselves across multiple executions. EHR landscape, competitive and market research activate on Reconnaissance for a new mission or on a scheduled refresh cadence.
 
 ---
 

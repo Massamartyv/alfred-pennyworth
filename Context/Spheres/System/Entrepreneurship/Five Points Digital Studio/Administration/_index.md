@@ -2,12 +2,12 @@
 file_type: department_index
 department: Administration
 venture: Five Points Digital Studio
-last_updated: 2026-07-27
+last_updated: 2026-09-10
 ---
 
-# Administration
+# Administration – Five Points Digital Studio
 
-Legal, policies, compliance, HR, team structure and governance. The structural backbone that keeps the manor standing. Administration absorbs the former Human Resources department.
+Legal, compliance, contracts, brand protection and governance. The structural backbone that keeps the manor standing. Team structure, contractor management, hiring and culture have left for Human Resources.
 
 ## Structure
 
@@ -16,12 +16,11 @@ Administration/
   _index.md              – This file
   Legal/                 – Service agreements, NDAs, SOWs, contractor agreements
   Compliance/            – Business registration, insurance, data protection
-  Policies/              – Communication standards, confidentiality, quality standards
-  HR/                    – Team structure, contractor management, hiring, culture
+  Policies/               – Communication standards, confidentiality, quality standards
   Agents/                – Department-specific agents, workflows, criteria
     _index.md            – Agent roster and workflow registry
     Workflows/           – Named Manor Protocol sequences
-    Criteria/            – Quality rubrics and evaluation standards
+    Criteria/             – Quality rubrics and evaluation standards
 ```
 
 ## Scope
@@ -30,15 +29,20 @@ Administration/
 - Legal templates and agreements
 - Compliance and regulatory requirements
 - Company policies and standards
-- Team structure and organizational roadmap
-- Contractor management and onboarding
-- Partner hiring criteria and compensation
-- Culture and values documentation
+- Brand protection and governance
 
 ### What does not belong here
-- Brand identity (Creative)
-- Financial reporting and revenue tracking (Finance)
+- Brand identity and creative direction (Marketing & Sales)
+- Financial reporting and revenue tracking (Finances)
 - Client delivery SOPs (Operations)
+- Team structure, contractor management, hiring and culture (Human Resources)
+
+## Subdirectories
+
+| Folder | Purpose |
+|---|---|
+| Legal/ | Service agreements, NDAs, SOWs, contractor agreements |
+| Agents/ | Department-specific agent roster and workflows |
 
 ## Active State
 
@@ -55,5 +59,5 @@ Live state: Notion Projects and Tasks, Five Points workspace.
 | Task | Tier |
 |---|---|
 | Filing, scheduling, reminders, policy lookups | Light |
-| Onboarding packets, compliance checklists, contractor docs | Standard |
-| Compliance audits, legal template drafting, org roadmap | Heavy |
+| Compliance checklists, agreement drafting | Standard |
+| Compliance audits, legal template drafting | Heavy |

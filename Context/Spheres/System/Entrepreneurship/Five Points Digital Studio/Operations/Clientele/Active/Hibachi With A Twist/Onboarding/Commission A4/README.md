@@ -7,7 +7,7 @@ both in the coral voice.
   costs and how the last steps run.
 - `statement.html` - one page. Statement FP-2026-003, the money.
 
-An instance of `Growth/Proposal Templates/Commissioning Proposal A4/`. Read that
+An instance of `Marketing & Sales/Proposal Templates/Commissioning Proposal A4/`. Read that
 README for the system rules and the render pipeline.
 
 **Status is not recorded here.** Whether these have been signed, sent or paid
@@ -17,8 +17,8 @@ lives in the Five Points Notion workspace.
 
 | | |
 |---|---|
-| Commission | $7,500 |
-| Due | $7,500, one payment, on receipt |
+| Commission | $7,000 |
+| Due | $3,500 on receipt to commission; $3,500 balance at go-live |
 | Method | Zelle to 470-556-3989, note FP-2026-003 |
 
 Two bodies of work, the website and the staff portal, settled as one commission
@@ -33,7 +33,18 @@ rather than invoiced separately. The documents were never sent and the client
 never saw the earlier figure, so nothing was retracted. The returning-client
 reduction remains available as a studio instrument; it was not applied here.
 
-The statement is dated the day it is issued. If the send slips past 12 August
+**Operator ruling of 16 August 2026: settlement staged 50/50.** Half on receipt
+commissions the work; the balance falls due at go-live, and the domain cutover
+happens the day it arrives. The staging is the concession already given.
+
+**Operator ruling of 16 August 2026, late evening: commission set at $7,000,**
+matching the 2022 engagement level and its shape ($3,500 up front, $3,500 on
+completion). The client disputes the 2022 figure ($1,700 by her recollection);
+the price stands on the 2026 scope regardless. Negotiation opens and holds at
+$7,000. A $3,500 walk-away floor exists as an operator-only contingency, never
+pre-offered.
+
+The statement is dated the day it is issued. If the send slips past 16 August
 2026, change the date and re-run the build and the gate before it goes.
 
 ## Build

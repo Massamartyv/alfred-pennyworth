@@ -2,7 +2,7 @@
 file_type: reference
 venture: Atlas
 status: active
-last_updated: 2026-07-27
+last_updated: 2026-09-10
 ---
 
 # Knowledge Base – Atlas
@@ -24,10 +24,10 @@ The Knowledge Base mirrors the sphere graduation pattern from the personal Alfre
 
 ## What Does Not Belong Here
 
-- Active product development files – those go in Production
+- Active product development files – those go in Product Development
 - Pilot clinic relationships – those go in Operations/Clientele
-- Brand and identity work – that goes in Creative
-- Financial models – those go in Finance
+- Brand and identity work – that goes in Marketing & Sales
+- Financial models – those go in Finances
 
 ---
 
@@ -40,9 +40,10 @@ The Knowledge Base mirrors the sphere graduation pattern from the personal Alfre
 | Reference Library/ | Creators, brands, works and curators for inspiration and creative direction | Empty |
 | Coding/ | Chiropractic ICD-10, CPT, Medicare, payer rules | Empty – Phase 1 priority |
 | Documentation/ | SOAP standards, PI documentation, workers comp documentation | Empty – Phase 1 priority |
-| EHR/ | Per-vendor API surface and integration intelligence | Empty – Strategy + Production load |
-| Competitive/ | Healthcare AI landscape, chiropractic-specific tooling | Empty – Strategy load |
-| Methodologies/ | Curation method, training data construction, benchmark assembly | Empty – Production load |
+| EHR/ | Per-vendor API surface and integration intelligence | Empty – Business Development + Product Development load |
+| Competitive/ | Healthcare AI landscape, chiropractic-specific tooling | Empty – Business Development load |
+| Market Research/ | Chiropractic practice landscape, payer mix, technique adoption, geographic distribution | Empty – Business Development load |
+| Methodologies/ | Curation method, training data construction, benchmark assembly | Empty – Product Development load |
 
 ---
 
@@ -83,7 +84,7 @@ The clinical sphere graduation list for Phase 1. Files are authored by the Clini
 | `medicare-documentation.md` | Medicare documentation defensibility |
 | `re-exam-standards.md` | Re-exam structure and timing |
 
-## EHR/ Scaffold (Strategy + Production)
+## EHR/ Scaffold (Business Development + Product Development)
 
 | File | Scope |
 |---|---|
@@ -93,7 +94,7 @@ The clinical sphere graduation list for Phase 1. Files are authored by the Clini
 | `ezbis.md` | EZBIS API surface and integration considerations |
 | `prompt-emr.md` | Prompt EMR API surface and integration considerations |
 
-## Competitive/ Scaffold (Strategy)
+## Competitive/ Scaffold (Business Development)
 
 | File | Scope |
 |---|---|

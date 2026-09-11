@@ -4,12 +4,14 @@ department: Foundation
 venture: "{Venture Name}"
 status: template
 methodology: The Manor Protocol
-last_updated: 2026-05-14
+last_updated: 2026-09-10
 ---
 
 # Foundation – Agent Roster and Workflow Registry
 
-Community initiatives, philanthropy and education. A shared resource rather than a studio, so there is no Head of Foundation – the Foundation Coordinator role activates when initiatives are scoped and scheduled.
+Community initiatives, philanthropy and education. Foundation is a department in its own right, and the Foundation Coordinator role activates when initiatives are scoped and scheduled.
+
+See venture-level `Agents/department-heads.md` for the Head of Foundation role definition.
 
 ---
 
@@ -17,6 +19,7 @@ Community initiatives, philanthropy and education. A shared resource rather than
 
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
+| **Head of Foundation** | Department head. Owns giving strategy and community initiatives. | All | – |
 | **Foundation Coordinator** | Scopes community initiatives, aligns giving strategy with brand and budget, coordinates educational outreach. | Direction, Execution | Researcher, Creator |
 
 ### Role activation
@@ -48,7 +51,7 @@ When operating within Foundation:
 1. Read venture-root `Agents/_index.md` – Manor Protocol definition
 2. Read `Agents/agent-guidelines.md` – execution tiers and red lines
 3. Read this file – Foundation workflows and criteria
-4. Read `Foundation/_index.md` – resource scope
+4. Read `Foundation/_index.md` – department scope
 5. Read the specific files needed for the task
 
 ---

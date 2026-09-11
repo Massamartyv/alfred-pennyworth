@@ -4,12 +4,12 @@ department: Foundation
 venture: "{Venture Name}"
 status: template
 methodology: The Manor Protocol
-last_updated: 2026-06-11
+last_updated: 2026-09-10
 ---
 
 # Foundation – Agent Roster and Workflow Registry
 
-Community initiatives, philanthropy and education. A shared resource rather than a studio, so there is no Head of Foundation – the Foundation Coordinator role activates when initiatives are scoped and scheduled.
+Community initiatives, philanthropy and education. A department again since The Restoration, 2026-09-10, led by the Head of Foundation – the Foundation Coordinator role activates when initiatives are scoped and scheduled.
 
 ---
 

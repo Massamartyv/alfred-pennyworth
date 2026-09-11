@@ -41,7 +41,7 @@ Arlando's clinic is the Phase 1 pilot site. Real visits, real chiropractic techn
 
 ### Voice Reference
 
-Arlando's clinical voice informs the Atlas product voice for the chiropractic audience. The Clinical Voice Editor role under Head of Creative consults Arlando's actual documentation style when building the product copy register.
+Arlando's clinical voice informs the Atlas product voice for the chiropractic audience. The Clinical Voice Editor role under Head of Marketing & Sales consults Arlando's actual documentation style when building the product copy register.
 
 ### Strategic Input
 

@@ -1,0 +1,63 @@
+---
+file_type: department_agent_index
+department: Finances
+venture: Five Points Digital Studio
+methodology: The Manor Protocol
+last_updated: 2026-09-10
+---
+
+# Finances – Agent Roster and Workflow Registry
+
+The Finances department owns the numbers. Revenue tracking, expenses, projections, invoicing, compliance. The ground truth of the business.
+
+See venture-level `Agents/department-heads.md` for the Head of Finances role definition and specialist seats.
+
+---
+
+## Specialist Roles
+
+| Role | Function | Primary Phase | Primary Crew |
+|---|---|---|---|
+| **Head of Finances** | Department head. Owns financial integrity and reporting cadence. | All | – |
+| **Revenue Analyst** | MRR tracking, cohort analysis, revenue recognition, forecasting. | Reconnaissance, Direction | Researcher |
+| **Financial Reporter** | P&L, cash flow statements, monthly and quarterly reports. | Execution | Creator |
+| **Compliance Validator** | Tax readiness, regulatory compliance, audit trails. | Critique, Release | Reviewer:Scrutiny |
+
+### Role activation
+
+Routine expense logging engages minimal roles. Monthly P&L activates Revenue Analyst + Financial Reporter. Annual forecasting activates the full roster with Compliance Validator review.
+
+---
+
+## Workflow Registry
+
+| Workflow | Description | File |
+|---|---|---|
+| – | To be populated as workflows are codified | – |
+
+---
+
+## Quality Criteria
+
+| Rubric | Purpose | File |
+|---|---|---|
+| – | To be populated as rubrics are codified | – |
+
+---
+
+## Context Loading
+
+When operating within Finances:
+
+1. Read venture-root `Agents/_index.md` – Manor Protocol definition
+2. Read `Agents/agent-guidelines.md` – execution tiers and red lines
+3. Read `Agents/department-heads.md` – role definitions
+4. Read this file – Finances-specific workflows and criteria
+5. Read `Finances/_index.md` – department scope
+6. Read the specific files needed for the task
+
+---
+
+## Working Directory
+
+Agent scratch space: `.working/five-points-finances/` (create on first use).

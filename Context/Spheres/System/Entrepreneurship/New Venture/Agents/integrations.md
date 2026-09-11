@@ -3,7 +3,7 @@ file_type: integration_registry
 department: Agents
 venture: "{Venture Name}"
 status: template
-last_updated: 2026-08-08
+last_updated: 2026-09-10
 ---
 
 # Integrations
@@ -53,7 +53,7 @@ Connections the venture needs but does not yet hold. Each row names the blocking
 | Field | Value |
 |---|---|
 | Workspace | {Venture Name} – to be created |
-| Scope | Projects, Tasks, and whatever databases the venture operations require |
+| Scope | The workspace staples – Sphere Manager, Projects, Tasks, Decision Log, Contacts, Annotations, Resources and Codex – plus whatever the venture operations require. Codex ruled a staple 2026-09-05: a prompt bank holding only high-leverage, contextually rich prompts, organised by department; the instruments those prompts produce live in Resources. Five Points is the reference implementation |
 | MCP server name | `notion-{venture-slug}` |
 | MCP package | `@notionhq/notion-mcp-server` |
 | Status | **Not provisioned.** Workspace not created, token not minted, server not registered. |

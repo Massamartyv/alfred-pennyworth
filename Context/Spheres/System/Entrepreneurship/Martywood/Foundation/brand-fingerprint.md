@@ -1,6 +1,6 @@
-# Marty V – Master Brand Fingerprint
+# Martywood – Master Brand Fingerprint
 
-The single source of truth. The one piece everything is built around. Marty is the master brand – the artist, life as expression. Marty Gras is the flagship media property within that brand. This document supersedes `Strategy/brand-journey.md` and, for Marty scope, `Context/martyv-identity.md`. Tactical work inherits from this document. This document does not bend to tactical work.
+The single source of truth. The one piece everything is built around. Martywood is the master brand – the house, the universe every property lives inside, on the Parkwood Entertainment model. Marty V is the artist credit within it; Marty Gras and Epiphany are its media properties. This document supersedes the retired `Strategy/brand-journey.md` and, for Marty scope, `Context/martyv-identity.md`. Tactical work inherits from this document. This document does not bend to tactical work.
 
 ---
 
@@ -19,7 +19,7 @@ This canon is developed live and kept coherent. It has a rigid core and a free p
 
 ### The spine sentence
 
-Marty builds bridges between worlds so undeniable they become canon – made for the few who can tell, funded by the many who follow, at a cadence that refuses to dilute. Marty Gras is the flagship world the bridge reaches the public through.
+Marty builds bridges between worlds so undeniable they become canon – made for the few who can tell, funded by the many who follow, at a cadence that refuses to dilute. Martywood is the universe the bridges are built in; Marty Gras, Epiphany and the music are the worlds the public reaches them through.
 
 ### The Brand Journey
 
@@ -50,18 +50,19 @@ Marty builds bridges between worlds so undeniable they become canon – made for
 
 ## Layer 1 – Identity
 
-**The master brand is Marty, the artist.** Life as expression – the Kravitz–Kanye–Frank–Basquiat–Bad Bunny register, where the person is the brand and the works are properties. Artist, not creator: artistry carries intention, taste-making, curation and rigour; creator carries only publishing. Marty operates as the former.
+**The master brand is Martywood, the house.** Amended 2026-09-02. Martywood is the venture and the universe – the Parkwood Entertainment model, where one house holds the music, the media and the artist's life as expression, and each work is a property inside it. Marty V is the artist credit within the house – the person, in the Kravitz–Kanye–Frank–Basquiat–Bad Bunny register. Artist, not creator: artistry carries intention, taste-making, curation and rigour; creator carries only publishing. Martywood operates as the former.
 
-**Two properties, one artist.** Amended 2026-08-04. The master brand carries two properties, not one.
+**Three properties, one house.** Amended 2026-09-02, superseding the two-properties-one-artist line of 2026-08-04. Martywood carries three properties, each seated as a sub-brand with its own folder inside the venture.
 
-- **The music** – records and mixes shipped under his own name. The braille wordmark is its signature object. Night mixes in a lifestyle setting, the DJ-needle short form, the set overlaid behind the operator with the waveform visible. The oldest practice in the portfolio and, until this amendment, the only one with no seat in the canon.
-- **Marty Gras is the flagship media property** – the long-form video Conversation and the Epiphany essay line, the world the bridge reaches the public through.
+- **Marty V – the music** – records and mixes shipped under the artist credit. The braille wordmark is its signature object. Night mixes in a lifestyle setting, the DJ-needle short form, the set overlaid behind the operator with the waveform visible. The oldest practice in the portfolio and, until the 2026-08-04 amendment, the only one with no seat in the canon.
+- **Marty Gras – the Conversation** – the long-form video bridge between two worlds, the Carnival in procession. Until the 2026-09-02 amendment Marty Gras also held Epiphany; the essay line now stands beside it.
+- **Epiphany – the essay line** – the revelatory essay on Substack, seated as a sibling property rather than a line inside Marty Gras. The Epiphany coupling in the invariant core is untouched by the separation: the Conversation carries the position, Epiphany preserves it, and two properties couple as tightly as two lines did.
 
-**The line.** *Nothing is unrelated.* One line across everything – the artist, the music and the media property alike. It states the bridge thesis as a position rather than a slogan, works identically across a mix and an essay, and does not explain itself. "The Architect of Vibe" is retired and is not to be restored.
+**The line.** *Nothing is unrelated.* One line across everything – the house, the artist, the music and both media properties alike. It states the bridge thesis as a position rather than a slogan, works identically across a mix and an essay, and does not explain itself. "The Architect of Vibe" is retired and is not to be restored.
 
-**The braille wordmark.** *Marty V* rendered in braille – ⠍⠁⠗⠞⠽ ⠧. Music you can feel. A language read by touch, instant to anyone who knows it and invisible to anyone who does not, which is the aesthetic law of this brand stated as an object. It is also the bridge made literal: a translation between two sensory worlds, non-obvious and, once made, undeniable. Held at the master-brand level, led by the music property. The mark is stronger where the practice around it is generous rather than purely graphic.
+**The braille wordmark.** *Marty V* rendered in braille – ⠍⠁⠗⠞⠽ ⠧. Music you can feel. A language read by touch, instant to anyone who knows it and invisible to anyone who does not, which is the aesthetic law of this brand stated as an object. It is also the bridge made literal: a translation between two sensory worlds, non-obvious and, once made, undeniable. Held at the house level, led by the Marty V music property. The mark is stronger where the practice around it is generous rather than purely graphic.
 
-**Name convention** – recommended, confirm on review. Master-brand wordmark "Marty V". One unified handle, @massamartyv, across every surface. Display name "Marty V" everywhere. "Marty Gras" reserved as the flagship-property wordmark. This resolves the six-identity fracture across TikTok, Instagram, Threads, Reddit, LinkedIn and YouTube.
+**Name convention** – amended 2026-09-02, handle unchanged, confirm on review. Master-brand wordmark "Martywood" – the house name on venture documents, credits and the universe. "Marty V" is the artist credit and the display name on the music. "Marty Gras" reserved as the Conversation wordmark, "Epiphany" as the essay wordmark. One unified handle, @massamartyv, across every surface. This resolves the six-identity fracture across TikTok, Instagram, Threads, Reddit, LinkedIn and YouTube.
 
 **The reference quintet, and what each anchors.** Kravitz – artist-as-lifestyle, the home and the destinations as part of the art. Kanye – world-building across domains. Frank – scarcity and the canonical drop. Basquiat – the raw beneath the composed, bridging street and blue-chip in one body. Bad Bunny – sovereignty of root at planetary scale, the refusal to translate. The lesson metabolised from Bad Bunny is the rootedness and the refusal, never the ubiquity. Frank holds the scarcity pole.
 
@@ -103,7 +104,7 @@ Colour as punctuation, not saturation. Typography: Lust Text as primary display 
 
 **The naming convention.** Every Conversation is "The One Where ___" – the bridge named, a quotable, returnable canonical object. The Friends shell is the vessel; the bridge is the cargo, and the cargo stays heavier than the shell, or it trips the nostalgia-mining wire.
 
-**The canon layer – Epiphany.** The revelatory essay line, loosely sourced from the universe the Conversations create, never a recap. It extends a thread, synthesises across several, or stands alone. Always the named, durable, returnable bridge. Full topical sovereignty inside the Carnival.
+**The canon layer – Epiphany.** The revelatory essay line, loosely sourced from the universe the Conversations create, never a recap. It extends a thread, synthesises across several, or stands alone. Always the named, durable, returnable bridge. Full topical sovereignty inside the house.
 
 **The three Epiphany streams.** Added 2026-08-04. One format, one cadence, three internal streams – variety inside the canon layer without adding a surface.
 
@@ -131,7 +132,7 @@ Colour as punctuation, not saturation. Typography: Lust Text as primary display 
 
 ## Layer 4 – Behavioural
 
-**Terminology governance.** Marty V – the master brand and the artist. Marty Gras – the flagship property, the Conversation and Epiphany together. The music – the second property, referred to as the music or a mix, never DJ content and never a channel. Cultural Facilitator, never influencer or content creator. Artist, never creator. Conversation, never episode or podcast. Epiphany, never newsletter or blog. "The One Where" for instalment naming. Perspective, never content. "vibe" treated as a design concept, never slang. "The Architect of Vibe" is retired as of 2026-08-04 and is not to be restored; the line is *Nothing is unrelated*.
+**Terminology governance.** Martywood – the master brand and the house, the venture that holds every property. Marty V – the artist credit and the music property, referred to as the music or a mix, never DJ content and never a channel. Marty Gras – the Conversation. Epiphany – the essay line, a property in its own right since 2026-09-02. Cultural Facilitator, never influencer or content creator. Artist, never creator. Conversation, never episode or podcast. Epiphany, never newsletter or blog. "The One Where" for instalment naming. Perspective, never content. "vibe" treated as a design concept, never slang. "The Architect of Vibe" is retired as of 2026-08-04 and is not to be restored; the line is *Nothing is unrelated*.
 
 **Decision defaults.** Depth over reach. Warmth over coolness. Specific over general. Restraint over display. Architecture over decoration. Composition over speed. The audience meets us where we are – no condescension, no oversimplification.
 
@@ -185,10 +186,11 @@ Creating from a place of joy and abundance. Also creating to make sense of the w
 
 ## Amendment Log
 
+- **2026-09-02 – Martywood. Three properties, one house.** Operator ruling: Martywood replaces Marty V as the master brand. It is the venture and the universe on the Parkwood Entertainment model – one house holding the music, the media and the artist's life as expression. Marty V survives as the artist credit and the name on the music property; the braille wordmark stays its signature object. Epiphany leaves the inside of Marty Gras to stand as a sibling property – three properties now, Marty V, Marty Gras and Epiphany, each seated as a sub-brand folder inside the venture at `Context/Spheres/System/Entrepreneurship/Martywood/`. The venture folder is renamed from Marty Gras to Martywood and this fingerprint moves up with it, closing the structural fault the Alpha Doctrine pass flagged – the master fingerprint no longer lives inside one of its own properties. Supersedes the 2026-08-04 line "two properties, one artist" in Layer 1, the 2026-05-19 name convention and the Layer 4 terminology line. Invariant core verified unaffected – all six lines stand; the Epiphany coupling survives the separation because the coupling is editorial, not structural. The Notion state route is unchanged – Martywood inherits the standing exception and lives in the personal workspace. Handle unchanged at @massamartyv.
 - **2026-08-04 – The Alpha Doctrine pass. Two properties, one artist.** Four operator rulings recorded. First, the master brand carries two properties rather than one: the music, shipped under his own name, takes a seat in the canon for the first time, and Marty Gras remains the flagship media property. Second, one line across everything – *Nothing is unrelated* – derived from the bridge thesis; "The Architect of Vibe" retired permanently. Third, the argument lineage – Baldwin, Douglass, Malcolm X – and the instrument lineage – MKBHD – are held as formation, studied but never canonised as Reference Library cards and never cited in public copy. Fourth, doctrine precedes launch sequencing. Structural additions: the braille wordmark promoted from vault idea to master-brand signature object; the three Epiphany streams – Bridge, Instrument, Diary; the cadence scope clarified so the documentary cadence governs the canon layer and not the artist; the music seated as a production line. The Launch Annex marked lapsed. Invariant core verified unaffected – all six lines stand, and the two-property structure extends Layer 1 without touching the Epiphany coupling or the directionality law. Full reasoning, the alpha analysis and the content strategy live at `Context/alpha-doctrine.md`.
 - **2026-07-23 – martyv-identity.md archived, unique content inherited.** `Context/martyv-identity.md` named Buffer as the live scheduling tool (superseded by Pennyone) and pointed at a nonexistent fingerprint path. Its unique durable content – the Brand Identity paragraph, the What Drives the Creative Output paragraph and the Platforms list – was moved verbatim into the Inherited section above; the file itself moved to `Context/Archive/`. The global and project CLAUDE.md Routing Map and cross-cutting files references now point here.
 - **2026-05-19 – Consolidation into the keystone.** Identity reframed: Marty is the master brand, Marty Gras the flagship property. Name convention recommended – Marty V, @massamartyv, "Marty Gras" reserved for the property. Reference set: Warhol replaced by Basquiat, Bad Bunny added fifth – Kravitz–Kanye–Frank–Basquiat–Bad Bunny. Launch driving to the solstice, loaded-gun scope. `Strategy/brand-journey.md` absorbed with its trace and superseded. For Marty scope, `Context/martyv-identity.md` becomes a superseded source; `Context/personal-brand-identity.md` remains the shared portfolio voice, and Marty operates sovereign per this amendment. Invariant core verified unaffected; surface re-voiced from "Marty Gras" to the artist, one level down.
 
 ---
 
-*Single source of truth. Last updated 2026-08-04 – the Alpha Doctrine pass: two properties one artist, the music seated, the braille wordmark promoted, the line ratified, the three Epiphany streams added, cadence scope clarified, Launch Annex marked lapsed.*
+*Single source of truth. Last updated 2026-09-02 – Martywood: the house named as master brand, three properties seated as sub-brands, Epiphany stood beside Marty Gras, the fingerprint moved up to the venture Foundation.*

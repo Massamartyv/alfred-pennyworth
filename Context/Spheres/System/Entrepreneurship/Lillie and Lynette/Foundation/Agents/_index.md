@@ -4,12 +4,12 @@ department: Foundation
 venture: Lillie and Lynette
 methodology: The Manor Protocol
 status: active
-last_updated: 2026-06-11
+last_updated: 2026-09-10
 ---
 
 # Foundation – Agent Roster and Workflow Registry
 
-Foundation is a shared resource. It holds the community, philanthropic and hospitality-driven giving work of Lillie and Lynette. Agents here run mostly in Direction and Release.
+Foundation is a department in the nine. It holds the community, philanthropic and hospitality-driven giving work of Lillie and Lynette. Agents here run mostly in Direction and Release.
 
 ---
 
@@ -49,4 +49,4 @@ Before any Foundation task, load in this order:
 
 ## Working Directory
 
-`.working/lillie-and-lynette/foundation/` for transient programme drafts and outreach material.
+`.working/lillie-lynette-foundation/` for transient programme drafts and outreach material.

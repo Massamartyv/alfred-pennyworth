@@ -4,12 +4,12 @@ department: Knowledge Base
 venture: Paradigm
 status: active
 methodology: The Manor Protocol
-last_updated: 2026-06-11
+last_updated: 2026-09-10
 ---
 
 # Knowledge Base – Agent Roster and Workflow Registry
 
-Institutional memory for Paradigm. Ingredient science, case studies of wellness brands, industry research and methodology documentation. A shared resource rather than a studio, so there is no Head of Knowledge Base – the Knowledge Curator role sits across studios.
+Institutional memory for Paradigm. Ingredient science, case studies of wellness brands, industry research, competitive intelligence and methodology documentation. A head-led department again since The Restoration, 2026-09-10 – the Head of Knowledge Base owns it, and the Knowledge Curator role serves every other department.
 
 ---
 
@@ -18,6 +18,8 @@ Institutional memory for Paradigm. Ingredient science, case studies of wellness 
 | Role | Function | Primary Phase | Primary Crew |
 |---|---|---|---|
 | **Knowledge Curator** | Captures research, indexes ingredient science, maintains case study library and methodology documentation. | Release | Researcher, Creator |
+| **Market Researcher** | Wellness industry landscape, category trend detection, whitespace analysis. | Reconnaissance | Researcher |
+| **Competitive Analyst** | Incumbent and emerging brand monitoring, positioning maps, pricing intelligence. | Reconnaissance | Researcher |
 
 ### Role activation
 

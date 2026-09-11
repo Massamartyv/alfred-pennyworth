@@ -10,7 +10,7 @@ last_updated: 2026-05-14
 related_files:
   - "Operations/Clientele/Active/Arlando Parker Jr./_index.md"
   - "Agents/validation-contract.md"
-  - "Strategy/_index.md"
+  - "Business Development/_index.md"
 ---
 
 # Atlas – Phase 1 Discovery Brief

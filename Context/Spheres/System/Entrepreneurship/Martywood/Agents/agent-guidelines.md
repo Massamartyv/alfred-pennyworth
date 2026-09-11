@@ -1,14 +1,14 @@
 ---
 file_type: reference
 document_type: agent_guidelines
-venture: Marty Gras
+venture: Martywood
 status: active
-last_updated: 2026-08-04
+last_updated: 2026-09-10
 ---
 
-# Agent Guidelines – Marty Gras
+# Agent Guidelines – Martywood
 
-Rules for AI agent behaviour within Marty Gras. Read this before executing any task scoped to this venture.
+Rules for AI agent behaviour within Martywood. Read this before executing any task scoped to this venture.
 
 ---
 
@@ -48,9 +48,9 @@ Do not proceed without explicit approval:
 ## Red Lines
 
 1. Never publish content without human review.
-2. Never deviate from the documented brand voice in `personal-brand-identity.md`, `martyv-identity.md` and `brand-fingerprint.md`.
+2. Never deviate from the documented brand voice in `personal-brand-identity.md` and `brand-fingerprint.md`.
 3. Never send outreach to sponsors, guests or collaborators without approval.
-4. Never modify source documents in `Creative/` without approval.
+4. Never modify source documents in `Marketing & Sales/` without approval.
 5. Never commit to any partnership, collaboration or sponsorship terms.
 6. Never cross personal and business data boundaries.
 7. Never use copyrighted music, images or content without verified licensing.
@@ -69,7 +69,7 @@ Do not proceed without explicit approval:
 
 ## Plugin Scope
 
-When operating within Marty Gras, reference `Agents/integrations.md` for which plugins are available and how they route. Do not use Five Points plugins for Marty Gras operations. Do not use Marty Gras plugins for personal operations.
+When operating within Martywood, reference `Agents/integrations.md` for which plugins are available and how they route. Do not use Five Points plugins for Martywood operations. Do not use Martywood plugins for personal operations.
 
 ---
 
@@ -78,9 +78,9 @@ When operating within Marty Gras, reference `Agents/integrations.md` for which p
 Any task that produces audience-facing content must load:
 
 1. `Context/personal-brand-identity.md` – the voice foundation
-2. `Context/martyv-identity.md` – the Marty Gras brand profile
+2. `Context/alpha-doctrine.md` – the alphas and the Martywood content strategy
 3. `Context/creative-director.md` – aesthetic sensibility
-4. `brand-fingerprint.md` – Marty Gras visual identity, colour system, typography, production standards
+4. `Foundation/brand-fingerprint.md` – Martywood master brand identity, colour system, typography, production standards
 
 These four files govern everything the audience sees, hears or reads.
 
@@ -93,9 +93,9 @@ When starting a task:
 1. Read `_index.md` at the venture root – orient to the venture
 2. Read this file – know the rules
 3. Read `Agents/_index.md` – know the Manor Protocol
-4. Read `Agents/department-heads.md` – identify the relevant studio head and specialist roles
+4. Read `Agents/department-heads.md` – identify the relevant department head and specialist roles
 5. Read `Agents/integrations.md` – know which plugins are in scope
-6. Read the relevant studio `_index.md` – find the right files
+6. Read the relevant department `_index.md` – find the right files
 7. Read the specific files needed for the task
 8. Do not load everything. Be surgical.
 

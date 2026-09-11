@@ -1,18 +1,18 @@
 ---
 file_type: agent_governance
 venture: Five Points Digital Studio
-last_updated: 2026-06-11
+last_updated: 2026-09-10
 ---
 
 # The Manor Protocol
 
-The proprietary methodology governing all work at Five Points Digital Studio. Every department is a studio – a room in the manor where craft happens. Creative excellence is the governing standard across all departments, not a privilege reserved for one.
+The proprietary methodology governing all work at Five Points Digital Studio. Every department is a room in the manor where craft happens. Creative excellence is the governing standard across all departments, not a privilege reserved for one.
 
 ---
 
 ## Philosophy
 
-The Manor Protocol does not separate "creative" from "operational." It holds all work to the same standard of taste and precision. A proposal is craft. An onboarding experience is craft. A financial report is craft. The methodology treats every output as an expression of the standard, regardless of which studio produced it.
+The Manor Protocol does not separate "creative" from "operational." It holds all work to the same standard of taste and precision. A proposal is craft. An onboarding experience is craft. A financial report is craft. The methodology treats every output as an expression of the standard, regardless of which department produced it.
 
 ## The Lifecycle
 
@@ -67,7 +67,7 @@ Ship it. Hand it off. Deliver it to the world or to the next person in the chain
 | `department-heads.md` | Role definitions and specialist seats |
 | `token-budget-framework.md` | Task complexity tiers and budget ceilings |
 | `integrations.md` | Plugin and tool connections scoped to Five Points |
-| `operating-loop.md` | The client flywheel – nine stages across the studios, the venture operating loop |
+| `operating-loop.md` | The client flywheel – nine stages across the departments, the venture operating loop |
 
 ### Department-level agentic layer
 
@@ -83,24 +83,19 @@ Every department contains an `Agents/` subfolder with a standard structure:
 
 ---
 
-## The Seven Studios
+## The Nine Departments
 
-| Studio | Craft | Scope |
+| Department | Craft | Scope |
 |---|---|---|
-| **Creative** | Brand, visual direction, design, content, aesthetic standard | The look, feel and voice of everything |
-| **Strategy** | Market intelligence, competitive analysis, positioning, research | The thinking behind the work |
-| **Production** | Web development, media production, deliverable builds | The execution engine |
-| **Growth** | Sales, BD, partnerships, pipeline, offer suite | Revenue generation and offer architecture |
-| **Operations** | Client delivery, SOPs, tools, clientele management | The engine room |
-| **Finance** | Revenue, expenses, projections, tax, metrics | The numbers |
-| **Administration** | Legal, policies, compliance, HR, governance | The structure |
-
-### Shared Resources
-
-| Resource | Purpose |
-|---|---|
-| **Knowledge Base** | Institutional memory – case studies, methodologies, learnings |
-| **Foundation** | Community, philanthropy, pro bono |
+| **Foundation** | Brand fingerprint, standing doctrine, venture mission, community, philanthropy, pro bono | The constitutional layer |
+| **Administration** | Legal, compliance, contracts, brand protection, governance | The structure |
+| **Finances** | Revenue, expenses, projections, tax, metrics | The numbers |
+| **Business Development** | ICP, prospecting and outreach, partnerships, pipeline, channels, positioning and market strategy | Who we sell to |
+| **Marketing & Sales** | Brand identity and creative direction, visual and content standards, marketing, sales process, discovery, proposals, pricing | The look, feel and voice of everything, and how a prospect becomes a client |
+| **Operations** | SOPs, client delivery, quality control of delivery, clientele, deliverable builds | The engine room and the execution arm |
+| **Product Development** | Offers, tiers, bundles, offer strategy and audits, the venture's own products and builds | What we sell |
+| **Human Resources** | Team, contractors, hiring, culture | The people |
+| **Knowledge Base** | Research, case studies, industry and competitive intelligence, methodologies | Institutional memory |
 
 ---
 
@@ -127,11 +122,11 @@ Not every task requires all five phases. A routine status update does not need R
 
 ### Multi-phase workflows
 
-Complex deliverables may cycle through Execution and Critique multiple times before Release. The hard gate after Critique means human eyes before the world sees it – but internal iterations within a studio can flow freely.
+Complex deliverables may cycle through Execution and Critique multiple times before Release. The hard gate after Critique means human eyes before the world sees it – but internal iterations within a department can flow freely.
 
-### Cross-studio work
+### Cross-department work
 
-When work spans multiple studios (e.g. Creative sets the brand direction, Production builds the website, Growth writes the proposal), each studio runs its own lifecycle on its portion. The Broadcaster crew distributes handoff context and signals between studios; the Mediator crew resolves contention when studios have competing inputs.
+When work spans multiple departments (e.g. Marketing & Sales sets the brand direction, Operations builds the website, Business Development writes the proposal), each department runs its own lifecycle on its portion. The Broadcaster crew distributes handoff context and signals between departments; the Mediator crew resolves contention when departments have competing inputs.
 
 ---
 

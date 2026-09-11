@@ -3,6 +3,7 @@
 > Read-only research archive for the Five Points Digital Studio website build. Fragments quoted verbatim with file path attribution. Extraction performed 2026-05-23.
 > Note, 2026-07-10: `25k-battle-plan.md` has since been retired to `Context/Archive/` by operator ruling – its links below resolve there. Quotes remain accurate to the extraction date.
 > Note, 2026-07-12 (Trajectory Language Purge): every quoted `$25K MRR` target below – including the `25k-battle-plan.md` thesis quote and the `Growth/_index.md` extract – reflects the retired battle-plan ceiling as it stood at extraction time. `Growth/_index.md` no longer carries that target; live pipeline and revenue targets route to Notion Five Points workspace. Quotes are preserved verbatim as an accurate historical record and are not live doctrine.
+> Note, 2026-09-10 (The Restoration): the seven-studio layout quoted below – `Creative/`, `Strategy/`, `Production/`, `Growth/`, `Finance/` – was reversed to the nine original departments. Paths and links here reflect the extraction date and no longer resolve; the venture root `_index.md` maps every file to its current department.
 
 ---
 

@@ -1,19 +1,19 @@
 ---
 file_type: agent_governance
-venture: Marty Gras
+venture: Martywood
 methodology: The Manor Protocol
-last_updated: 2026-08-04
+last_updated: 2026-09-10
 ---
 
-# The Manor Protocol – Marty Gras
+# The Manor Protocol – Martywood
 
-The proprietary methodology governing all work at Marty Gras. Every studio is a room in the manor where craft happens. Creative excellence is the governing standard across all studios – editorial, production, distribution, operations alike.
+The proprietary methodology governing all work at Martywood. Every department is a room in the manor where craft happens. Creative excellence is the governing standard across all departments – editorial, production, distribution, operations alike.
 
 ---
 
 ## Philosophy
 
-Marty Gras is a media company. The stakes of "craft" are visible to an audience every time content ships. The Manor Protocol does not treat this lightly. An Epiphany is craft. A Conversation is craft. A mix is craft. A social fragment is craft. A sponsorship negotiation is craft. The methodology holds every output to the same standard regardless of which studio produced it.
+Martywood is a media company. The stakes of "craft" are visible to an audience every time content ships. The Manor Protocol does not treat this lightly. An Epiphany is craft. A Conversation is craft. A mix is craft. A social fragment is craft. A sponsorship negotiation is craft. The methodology holds every output to the same standard regardless of which department produced it.
 
 ## The Lifecycle
 
@@ -41,7 +41,7 @@ Build the thing. Write the Epiphany. Record the Conversation. Cut the mix. Craft
 
 ### 4. Critique
 
-Hold the output against the brief and the standard. Is it excellent? Does it sound like Marty Gras? Does it meet the bar? This is not review for approval – it is review for quality.
+Hold the output against the brief and the standard. Is it excellent? Does it sound like Martywood? Does it meet the bar? This is not review for approval – it is review for quality.
 
 **Primary crews:** Reviewer
 
@@ -57,7 +57,7 @@ Ship it. Publish the Epiphany. Release the Conversation. Post the fragment. Clea
 
 ## Governance Model
 
-**Hybrid architecture.** Shared governance lives here at the venture root (`Agents/`). Studio-specific agents, workflows and criteria live inside each studio local `Agents/` subfolder.
+**Centralised architecture.** Martywood does not maintain department-level `Agents/` subfolders. All governance – Manor Protocol definition, execution tiers, department heads, plugin connections – lives here at the venture root (`Agents/`) and applies uniformly across all nine departments.
 
 ### Shared governance files (this folder)
 
@@ -66,40 +66,23 @@ Ship it. Publish the Epiphany. Release the Conversation. Post the fragment. Clea
 | `_index.md` | This file. The Manor Protocol definition. |
 | `agent-guidelines.md` | Execution tiers, red lines, approval gates |
 | `department-heads.md` | Role definitions and specialist seats |
-| `integrations.md` | Plugin and tool connections scoped to Marty Gras |
-
-### Studio-level agentic layer
-
-Every studio contains an `Agents/` subfolder with a standard structure:
-
-```
-{Studio}/Agents/
-  _index.md           -- Specialist roster and workflow registry
-  Workflows/          -- Named Manor Protocol sequences for common tasks
-  Criteria/           -- Quality rubrics and evaluation standards
-  {agent-name}.md     -- Individual agent definitions as needed
-```
+| `integrations.md` | Plugin and tool connections scoped to Martywood |
 
 ---
 
-## The Seven Studios
+## The Nine Departments
 
-| Studio | Craft | Scope |
+| Department | Craft | Scope |
 |---|---|---|
-| **Creative** | Editorial direction, voice, brand system, content product definitions | What Marty Gras sounds like, looks like, feels like |
-| **Strategy** | Audience research, platform intelligence, cultural positioning | The thinking behind the work |
-| **Production** | Conversation production, Epiphany production, music and social production | The execution engine for content |
-| **Growth** | Audience growth, partnerships, sponsorships, collaborations | Reach expansion and revenue relationships |
+| **Foundation** | Master brand fingerprint, community initiatives, cultural philanthropy, mentorship | Source of truth for who the brand is, and where the brand gives back |
+| **Administration** | Legal, licensing, brand protection, platform compliance, policies | The structure |
+| **Finances** | Revenue, expenses, projections, tax, metrics | The numbers |
+| **Business Development** | Audience growth, partnerships, sponsorships, collaborations, guest booking, positioning and market strategy | Reach expansion, revenue relationships and where the brand sits |
+| **Marketing & Sales** | Editorial direction, voice, brand system, content product definitions, sales process for sponsorships | What Martywood sounds like, looks like, feels like |
 | **Operations** | Content pipeline, scheduling, tool stack, clientele management | The engine room |
-| **Finance** | Revenue, expenses, projections, tax, metrics | The numbers |
-| **Administration** | Legal, licensing, brand protection, policies, HR | The structure |
-
-### Shared Resources
-
-| Resource | Purpose |
-|---|---|
-| **Knowledge Base** | Cultural references, audience insights, research library |
-| **Foundation** | Community initiatives, cultural philanthropy, mentorship |
+| **Product Development** | Conversation production, Epiphany production, music and social production, physical products | The execution engine for content and product |
+| **Human Resources** | Team, contractors, collaborators, hiring plans | The people |
+| **Knowledge Base** | Cultural references, audience and platform research, competitive intelligence | The research library |
 
 ---
 
@@ -127,9 +110,9 @@ Not every task requires all five phases. A template-based social post does not n
 
 Complex deliverables – a Conversation, a major Epiphany, a sponsorship pitch – may cycle through Execution and Critique multiple times before Release. The hard gate after Critique means human eyes before the audience sees it.
 
-### Cross-studio work
+### Cross-department work
 
-When work spans multiple studios (Creative sets the editorial direction, Production builds the Conversation, Growth sells the sponsorship, Operations schedules the release), each studio runs its own lifecycle on its portion. The Mediator and Broadcaster crews coordinate handoffs and distribute state.
+When work spans multiple departments (Marketing & Sales sets the editorial direction, Product Development builds the Conversation, Business Development sells the sponsorship, Operations schedules the release), each department runs its own lifecycle on its portion. The Mediator and Broadcaster crews coordinate handoffs and distribute state.
 
 ---
 

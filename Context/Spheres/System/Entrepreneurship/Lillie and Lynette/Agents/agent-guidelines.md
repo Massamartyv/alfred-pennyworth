@@ -3,7 +3,7 @@ file_type: reference
 document_type: agent_guidelines
 venture: Lillie and Lynette
 status: active
-last_updated: 2026-04-22
+last_updated: 2026-09-10
 ---
 
 # Agent Guidelines – Lillie and Lynette
@@ -52,7 +52,7 @@ Do not proceed without explicit approval:
 1. Never commit to a guest booking, venue term or lease without verifying capacity and approval.
 2. Never deviate from documented brand voice, guest experience standards or service identity.
 3. Never send anything guest, vendor or partner facing without human review.
-4. Never modify source documents in `Creative/` without approval.
+4. Never modify source documents in `Marketing & Sales/` without approval.
 5. Never share guest data outside authorised channels. Privacy is a standing obligation.
 6. Never guess at pricing – always reference the offer or menu file.
 7. Never take action that would affect regulatory compliance (food safety, liquor, health, zoning, insurance) without approval.
@@ -83,8 +83,8 @@ When starting a task:
 1. Read `_index.md` at the venture root – orient to the venture
 2. Read this file – know the rules
 3. Read `Agents/_index.md` – know the Manor Protocol
-4. Read `Agents/department-heads.md` – identify the relevant studio head and specialist roles
-5. Read the relevant studio `_index.md` – find the right files
+4. Read `Agents/department-heads.md` – identify the relevant department head and specialist roles
+5. Read the relevant department `_index.md` – find the right files
 6. Read the specific files needed for the task
 7. Do not load everything. Be surgical.
 
@@ -97,7 +97,7 @@ Any task that produces guest-facing or partner-facing content must load:
 1. `Context/personal-brand-identity.md` – the voice foundation
 2. `Context/creative-director.md` – aesthetic sensibility
 
-Hospitality-specific brand documents (Lillie and Lynette voice, visual identity, menu language) will live inside `Creative/` as they are developed.
+Hospitality-specific brand documents (Lillie and Lynette voice, visual identity, menu language) will live inside `Marketing & Sales/` as they are developed.
 
 ---
 

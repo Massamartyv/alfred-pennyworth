@@ -1,13 +1,13 @@
 ---
 file_type: reference
-venture: Marty Gras
+venture: Martywood
 status: draft
-last_updated: 2026-07-27
+last_updated: 2026-09-10
 ---
 
-# Foundation – Marty Gras
+# Foundation – Martywood
 
-Philanthropy, community and cultural initiatives. Where the brand gives back and invests in the culture it draws from.
+Philanthropy, community and cultural initiatives, plus the master brand fingerprint. Where the brand gives back and invests in the culture it draws from, and the single source of truth for who the brand is.
 
 ### What Belongs Here
 
@@ -15,12 +15,19 @@ Philanthropy, community and cultural initiatives. Where the brand gives back and
 - Cultural impact projects
 - Charitable partnerships and giving strategy
 - Mentorship and educational outreach
+- The master brand fingerprint and venture mission
 
 ### What Does Not Belong Here
 
 - Revenue-generating partnerships – those go in Business Development
 - Sponsored content – that goes in Marketing & Sales
 - Personal charitable giving – that lives in personal finance, not venture scope
+
+### Subdirectories
+
+| File | Contents |
+|---|---|
+| brand-fingerprint.md | Master brand fingerprint – Governance, Layer 0 Spine, Layers 1 through 4, Amendment Log |
 
 ### Active State
 

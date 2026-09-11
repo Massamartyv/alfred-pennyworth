@@ -7,7 +7,7 @@ both in the cornflower voice.
   costs and how the last steps run.
 - `statement.html` - one page. Statement FP-2026-002, the money.
 
-An instance of `Growth/Proposal Templates/Commissioning Proposal A4/`. Read that
+An instance of `Marketing & Sales/Proposal Templates/Commissioning Proposal A4/`. Read that
 README for the system rules and the render pipeline.
 
 **Status is not recorded here.** Whether these have been signed, sent or paid

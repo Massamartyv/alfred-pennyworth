@@ -16,9 +16,9 @@ Created 2026-08-08 (The Junction) so that the portfolio has no venture without a
 
 ## File placement note
 
-This file sits at `Operations/AI/` rather than `Agents/` because Athena has never been migrated to the seven-studio structure. It remains on the retired nine-department taxonomy, and its governance files – `agent-guidelines.md` and `department-heads.md` – live here alongside it. Placing the registry beside its siblings keeps the venture internally consistent rather than half-migrated.
+This file sits at `Operations/AI/` rather than `Agents/` because Athena predates the move of shared agent governance to the venture root. Athena already holds the nine departments – the portfolio standard again since The Restoration, 2026-09-10 – and its governance files – `agent-guidelines.md` and `department-heads.md` – live here alongside it. Placing the registry beside its siblings keeps the venture internally consistent rather than half-migrated.
 
-On reactivation, the migration to seven studios and two shared resources happens first, and this file moves to `Athena/Agents/integrations.md` with it.
+On reactivation, the `Operations/AI/` governance set moves to `Athena/Agents/` first, and this file moves to `Athena/Agents/integrations.md` with it. No department migration is needed.
 
 ---
 
@@ -71,11 +71,11 @@ None held. No Athena variable exists in `.env` and none should be added while th
 
 When Athena reactivates:
 
-1. Migrate the venture to the seven-studio structure and move this file to `Athena/Agents/integrations.md`.
+1. Move the `Operations/AI/` governance set to `Athena/Agents/`, this file to `Athena/Agents/integrations.md`.
 2. Work the provisioning checklist from the top.
 3. Follow the eight-step sequence in `New Venture/Agents/integrations.md` for each connection.
 4. Update `Manual/mcp-registry.md` and `Manual/secrets-inventory.md` in the same pass.
 
 ---
 
-*Last updated: 2026-08-08 – The Junction. Registry created as an explicit empty record; dormancy and the outstanding seven-studio migration recorded.*
+*Last updated: 2026-09-10 – The Restoration. The nine departments are the portfolio standard again, so Athena needs no department migration; only the governance move to `Agents/` remains. Previously 2026-08-08 – The Junction. Registry created as an explicit empty record.*

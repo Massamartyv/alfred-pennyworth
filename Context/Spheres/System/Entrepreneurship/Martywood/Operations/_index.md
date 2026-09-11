@@ -1,13 +1,13 @@
 ---
 file_type: department_index
 department: Operations
-venture: Marty Gras
-last_updated: 2026-08-04
+venture: Martywood
+last_updated: 2026-09-10
 ---
 
-# Operations
+# Operations – Martywood
 
-The engine room of Marty Gras. Content pipeline, scheduling, tool stack and the Clientele directory for sponsors, collaborators and featured guests.
+The engine room of Martywood. Content pipeline, scheduling, tool stack and the Clientele directory for sponsors, collaborators and featured guests.
 
 ## Structure
 
@@ -24,15 +24,12 @@ Operations/
 ├── Delivery Playbooks/            -- Step-by-step production guides
 ├── Templates/
 │   └── New Engagement/            -- Copy for each new sponsor or collaborator
-├── Tools/
-│   ├── software-stack.md           -- To be created
-│   └── automation-workflows.md     -- To be created
-└── Agents/                        -- Studio-specific agents, workflows, criteria
+└── Tools/
+    ├── software-stack.md           -- To be created
+    └── automation-workflows.md     -- To be created
 ```
 
-## Scope
-
-### What belongs here
+### What Belongs Here
 
 - Content pipeline tracking (ideation through publication)
 - Publishing schedules and deadlines
@@ -40,21 +37,34 @@ Operations/
 - Sponsor, collaborator and featured guest management
 - Standard operating procedures
 - Quality assurance processes at the operational level
+- Client and content delivery workflow and delivery quality
 
-### What does not belong here
+### What Does Not Belong Here
 
 - Agent guidelines and department heads – those now live at `Agents/` (venture root)
-- Content strategy and ideation – Creative
-- Audience growth strategy – Growth
-- Financial tracking – Finance
+- Content strategy, editorial direction and voice – Marketing & Sales
+- Audience growth strategy, partnerships and positioning – Business Development
+- Financial tracking – Finances
+- Content and product builds themselves – Product Development
+
+### Subdirectories
+
+| Folder | Contents |
+|---|---|
+| Clientele/ | Master roster of sponsors, collaborators and featured guests, split into Active, Archived and Churned |
+| SOPs/ | SOP registry and individual standard operating procedures |
 
 ## Content Pipeline Overview
 
-Three stages:
+Four acts, preceded by a capture layer that sits outside Notion. Full definition in `SOPs/content-pipeline.md` (MW-000).
 
-1. **Ideation** – captured in Notion Content database, tagged by sphere and platform
-2. **Production** – drafted, reviewed, refined per the relevant Production SOP
-3. **Distribution** – scheduled via Pennyone for social syndication, Substack for Epiphany, the audio host for the Conversation
+0. **Capture** – voice memo, Apple Notes, pen and paper. Held locally until the sweep lands it
+1. **Ideation** – the standing pool of options. Most ideas die here, cheaply
+2. **Pre-Production** – Research then Planned. Reference set, format shell, outline, booked shoot date
+3. **Production** – Recording then Editing. Execution only, no new structural decisions
+4. **Post-Production** – Scheduled, Published, Reviewed. Syndication via Pennyone, Substack for Epiphany, the audio host for the Conversation, then metrics reconciled and a verdict written
+
+Each act owns a defined set of Content Calendar fields and its exit gate is checkable rather than judged. The `Phase` property derives the act from Status by formula.
 
 Detailed SOPs for each content type live in `Operations/SOPs/`.
 

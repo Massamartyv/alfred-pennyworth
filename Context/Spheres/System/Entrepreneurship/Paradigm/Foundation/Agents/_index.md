@@ -4,12 +4,12 @@ department: Foundation
 venture: Paradigm
 status: active
 methodology: The Manor Protocol
-last_updated: 2026-06-11
+last_updated: 2026-09-10
 ---
 
 # Foundation – Agent Roster and Workflow Registry
 
-Community wellness initiatives, philanthropy and education. A shared resource rather than a studio, so there is no Head of Foundation – the Foundation Coordinator role activates when initiatives are scoped and scheduled.
+Community wellness initiatives, philanthropy and education. A head-led department again since The Restoration, 2026-09-10 – the Head of Foundation owns it, and the Foundation Coordinator role activates when initiatives are scoped and scheduled.
 
 ---
 
