@@ -11,7 +11,7 @@ added: 2026-06-21
 
 # Bad Bunny
 
-**Who** – Fifth member of the Marty V reference quintet, added in the 2026-05-19 consolidation amendment. In Layer 1 Bad Bunny is named for sovereignty of root at planetary scale, the refusal to translate.
+**Who** – Fifth member of the Martywood reference quintet, added in the 2026-05-19 consolidation amendment. In Layer 1 Bad Bunny is named for sovereignty of root at planetary scale, the refusal to translate.
 
 **Why aligned** – The Core Truth of the brand is that an artist refuses to translate himself to be understood by the largest room – he makes it for the few who can tell, and the larger room comes to him, sovereignty of root at scale. Bad Bunny is the living proof of that exact thesis. He produces work rooted in one culture, refuses to dilute it for a larger audience, and reaches planetary scale anyway. He anchors the directionality law from the artist side – made to the makers' standard, the generalists follow.
 

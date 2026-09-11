@@ -29,7 +29,7 @@ The pattern for every integration in `~/Alfred Pennyworth/Integrations/`:
 3. **Vary only the per-call payload.** The prospect record, the topic, the source quote – whatever changes per invocation.
 4. **Bundle the prefix above the threshold.** If the static prefix is below 4,096 tokens, add the relevant sphere file or memory shard to push it over.
 
-Net savings on repeated calls: 70-90% on a stable prefix. Apply this in every custom MCP server going forward. Pennyone, Instantly and any future Marty Gras automation are the immediate retrofit candidates – cache the brand voice, platform rules and recurring context; vary only the per-call record.
+Net savings on repeated calls: 70-90% on a stable prefix. Apply this in every custom MCP server going forward. Pennyone, Instantly and any future Martywood automation are the immediate retrofit candidates – cache the brand voice, platform rules and recurring context; vary only the per-call record.
 
 ### Layer 2 – Identity and Communication
 

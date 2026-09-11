@@ -11,7 +11,7 @@ added: 2026-06-21
 
 # Frank Ocean
 
-**Who** – Third member of the Marty V reference quintet. In Layer 1 Frank is named for scarcity and the canonical drop, and the fingerprint states plainly that Frank holds the scarcity pole.
+**Who** – Third member of the Martywood reference quintet. In Layer 1 Frank is named for scarcity and the canonical drop, and the fingerprint states plainly that Frank holds the scarcity pole.
 
 **Why aligned** – Cadence is inviolable, and Frank is the artist who proves the discipline holds at the top of the field. The brand publishes on a documentary cadence – composition over speed, silence over mediocrity, the body of work accruing to canon and never to feed. Frank is the reference that the canonical drop beats the feed, that scarcity reframed as intimacy rather than absence is a position the market rewards. He anchors the release philosophy the whole production layer is built on.
 

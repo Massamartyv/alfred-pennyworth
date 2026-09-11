@@ -11,7 +11,7 @@ added: 2026-06-21
 
 # Jean-Michel Basquiat
 
-**Who** – Fourth member of the Marty V reference quintet, added in the 2026-05-19 consolidation amendment in place of Andy Warhol. In Layer 1 Basquiat is named for the raw beneath the composed, bridging street and blue-chip in one body.
+**Who** – Fourth member of the Martywood reference quintet, added in the 2026-05-19 consolidation amendment in place of Andy Warhol. In Layer 1 Basquiat is named for the raw beneath the composed, bridging street and blue-chip in one body.
 
 **Why aligned** – The invariant core of the brand is the bridge that is non-obvious and, once made, undeniable, and Basquiat is the closest artist-proof of it. He held two worlds at once – street and blue-chip – without collapsing into either, which is the exact move the brand exists to make. The aesthetic principle is the punk beneath the composed exterior, raw and seductive, never bland, and Basquiat is where that tension lives in a single body of work. The replacement of Warhol sharpens the reference toward the raw rather than the cool.
 

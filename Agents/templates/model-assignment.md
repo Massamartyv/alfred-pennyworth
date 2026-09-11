@@ -69,7 +69,7 @@ Remove rows for roles that are not active in the mission.
 
 ## Worked example
 
-A mission to author and ship a Marty Gras newsletter issue with brand-fingerprint review:
+A mission to author and ship an Epiphany issue with brand-fingerprint review:
 
 ```markdown
 ## Model Assignment

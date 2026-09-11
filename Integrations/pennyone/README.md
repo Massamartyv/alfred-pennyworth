@@ -228,7 +228,7 @@ An entry is eligible when `Status == "Scheduled"` and `Publish Date <= now`. Aft
 - Zernio Python SDK: https://pypi.org/project/zernio-sdk/
 - Pennyone agent definition: `Agents/Orchestration/pennyone.md`
 - Five Points integrations: `Context/Spheres/System/Entrepreneurship/Five Points Digital Studio/Agents/integrations.md`
-- Marty Gras integrations: `Context/Spheres/System/Entrepreneurship/Marty Gras/Agents/integrations.md`
+- Marty Gras integrations: `Context/Spheres/System/Entrepreneurship/Martywood/Agents/integrations.md`
 
 ---
 

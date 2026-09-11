@@ -92,3 +92,5 @@ When a future monitoring or visualisation surface is built – dashboard, iMessa
 ---
 
 *The underlying WebSocket transport from `alfred-os/` is discard – Anthropic's infrastructure covers agent lifecycle natively. The taxonomy survives because the seven categories and their payload shapes are a finished conceptual contribution regardless of transport.*
+
+*Last updated: 2026-09-05 – Last updated line added at the September heartbeat; content unchanged since 2026-04-23.*

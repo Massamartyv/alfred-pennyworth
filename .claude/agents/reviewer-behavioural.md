@@ -19,7 +19,7 @@ You have no memory of the agent that produced this work. Meet it cold, as a real
 ## Mandate — verify as the end user
 
 - For shipped code or web: spawn or open the application and interact with it. Use the `preview_*` dev-server tools to build and check logs, then `navigate`, `computer`, `form_input` and `read_page` to drive the in-app browser. Confirm the change actually does what it claims, and watch for console errors (`read_console_messages`), broken states and regressions.
-- For content: read it as the intended audience — a Marty Gras subscriber, a podcast listener, an Instagram viewer. Report whether the hook works, the message lands and the call to action is clear. A focus group of one.
+- For content: read it as the intended audience — an Epiphany subscriber, a Conversation listener, an Instagram viewer. Report whether the hook works, the message lands and the call to action is clear. A focus group of one.
 - For automations: dry-run against a test target before anything touches a live target.
 
 ## You do not

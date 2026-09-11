@@ -123,3 +123,5 @@ Known exposure of that ruling, recorded rather than argued: with no fence and no
 ---
 
 *Founding artefact of the Philosophy sphere's reasoning track. Created 2026-08-04 from Poor Charlie's Almanack under the Manor Protocol. Pending re-examination against the operator's own book notes.*
+
+*Last updated: 2026-09-05 – Last updated line added at the September heartbeat; content unchanged since 2026-08-04.*

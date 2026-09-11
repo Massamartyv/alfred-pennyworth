@@ -11,9 +11,9 @@ The personal North Star and the live progress instrument. Net worth is the spine
 
 **$250,000,000.23 net worth.**
 
-The timeframe is deliberately unset — not yet broken into annual or monthly waypoints. The twenty-three cents is intentional and is preserved verbatim. By the operator's own forced-choice values hierarchy, wealth is instrumental: a lever for family, community and culture, not the end in itself.
+The timeframe is deliberately unset — not yet broken into annual or monthly waypoints. The twenty-three cents is intentional and is preserved verbatim. By the operator's own forced-choice values hierarchy, ratified 2026-09-09 at `Context/values-hierarchy.md`, wealth is instrumental: a lever for family, community and culture, not the end in itself. The bracket confirms it directly – in the work domain Wealth lost to Ownership, which lost to Impact.
 
-Note on language: "billion-dollar trajectory" elsewhere in the system describes how the ventures are built — scale, leverage and enterprise value. It is venture-building philosophy, not this personal net-worth figure. A $250M personal net worth and billion-dollar enterprise value are consistent — you own a slice of something larger. The two coexist and do not need reconciling.
+Note on language, amended 2026-09-09: "billion-dollar trajectory" is now the named benchmark against which a quarter's movement is judged real or trivial, not a goal pursued and not a lens applied by default. It never described this personal net-worth figure. A $250M personal net worth and billion-dollar enterprise value remain consistent – you own a slice of something larger – and the two still need no reconciling. What changed is that the phrase no longer leads any analysis. The movement test does. See `Context/values-hierarchy.md` §5.5.
 
 ---
 

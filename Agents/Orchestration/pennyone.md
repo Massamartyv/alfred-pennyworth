@@ -53,7 +53,7 @@ The pipeline field on every publish request is the **routing key**. Each pipelin
 | Pipeline | Label | Env var | Status |
 |---|---|---|---|
 | `personal` | Personal | `ZERNIO_PERSONAL_API_KEY` | Live |
-| `marty_gras` | Marty Gras | `ZERNIO_MARTYGRAS_API_KEY` | Future |
+| `marty_gras` | Martywood – retired 2026-08-11, publishes via `personal` | `ZERNIO_MARTYGRAS_API_KEY` | Retired |
 | `five_points` | Five Points Digital Studio | `ZERNIO_FIVEPOINTS_API_KEY` | Live |
 | `paradigm` | Paradigm | `ZERNIO_PARADIGM_API_KEY` | Future |
 | `lillie_and_lynette` | Lillie and Lynette | `ZERNIO_LILLIEANDLYNETTE_API_KEY` | Future |
@@ -103,7 +103,7 @@ A publish request contains:
 **Remaining work:**
 
 1. Connect remaining platforms (X, Reddit, Snap on both pipelines; TikTok and Threads on Five Points) through the Zernio dashboard. Pennyone picks them up automatically on the next `publish` call.
-2. Provision Marty Gras, Paradigm and Lillie and Lynette Zernio accounts as each venture's content pipeline comes online.
+2. Provision Paradigm and Lillie and Lynette Zernio accounts – Martywood publishes through the personal pipeline by ruling as each venture's content pipeline comes online.
 3. Wire each venture's content pipeline to dispatch through Pennyone with its pipeline value.
 4. Wire any bespoke per-platform fields (TikTok privacy levels, YouTube tags, LinkedIn carousel ordering) as use cases surface. The core media path covers image/video/gif/document, multi-media and Meta/Instagram Reels thumbnails.
 

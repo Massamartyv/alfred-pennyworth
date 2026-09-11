@@ -1,7 +1,7 @@
 ---
 file_type: integration_registry
 department: Agents
-venture: Marty Gras
+venture: Martywood
 status: active
 last_updated: 2026-08-11
 ---
@@ -10,15 +10,15 @@ last_updated: 2026-08-11
 
 # Integrations
 
-Plugin and tool connections scoped to Marty Gras. These are the external systems Alfred can operate within when working in Marty Gras context.
+Plugin and tool connections scoped to Martywood. These are the external systems Alfred can operate within when working in Martywood context.
 
 ---
 
 ## Plugin Routing Principle
 
-Marty Gras runs on personal credentials by design, not by default. It is the personal media identity – the venture and the person are the same audience – and the 2026-08-08 one-workspace-per-venture ruling names it the single standing exception. Where every other sovereign venture provisions its own Notion workspace, Marty Gras state routes to the personal workspace, permanently and by ruling rather than by deferral.
+Martywood runs on personal credentials by design, not by default. It is the personal media identity – the venture and the person are the same audience – and the 2026-08-08 one-workspace-per-venture ruling names it the single standing exception. Where every other sovereign venture provisions its own Notion workspace, Marty Gras state routes to the personal workspace, permanently and by ruling rather than by deferral.
 
-The exception covers state and syndication. It does not cover money: if Marty Gras ever takes payment directly, that rail is venture-scoped like any other, since no personal Stripe exists in the ecosystem.
+The exception covers state and syndication. It does not cover money: if Martywood ever takes payment directly, that rail is venture-scoped like any other, since no personal Stripe exists in the ecosystem.
 
 ---
 
@@ -30,7 +30,7 @@ Ruled 2026-08-11 during the Domesday walk: the `marty_gras` pipeline was retired
 
 ## Active Plugins
 
-Marty Gras does not yet own dedicated venture-scoped MCP connections. The table below captures the routing that applies while operations fall through to personal defaults.
+Martywood does not yet own dedicated venture-scoped MCP connections. The table below captures the routing that applies while operations fall through to personal defaults.
 
 | Service | Routing | MCP package | Status, verified 2026-08-08 | Environment variable | Notes |
 |---|---|---|---|---|---|
@@ -44,7 +44,7 @@ Marty Gras does not yet own dedicated venture-scoped MCP connections. The table 
 
 ## Target-State Plugins
 
-Plugins Marty Gras needs once each lane goes live. The dedicated Pennyone pipeline is no longer among them – retired 2026-08-11; syndication is permanently the personal pipeline.
+Plugins Martywood needs once each lane goes live. The dedicated Pennyone pipeline is no longer among them – retired 2026-08-11; syndication is permanently the personal pipeline.
 
 ### Substack, audio host
 
@@ -65,7 +65,7 @@ Plugins Marty Gras needs once each lane goes live. The dedicated Pennyone pipeli
 
 ## Tool-Only – No MCP Connection
 
-These tools are used by Marty Gras but are not connected to Alfred via MCP.
+These tools are used by Martywood but are not connected to Alfred via MCP.
 
 | Tool | Purpose | Notes |
 |---|---|---|
@@ -77,7 +77,7 @@ These tools are used by Marty Gras but are not connected to Alfred via MCP.
 
 ## Adding a New Plugin
 
-When a new MCP connection is added for Marty Gras:
+When a new MCP connection is added for Martywood:
 
 1. Add the API key to `~/Alfred Pennyworth/.env` using a descriptive variable name following the pattern `SERVICE_MARTYGRAS_TOKEN` (or a domain-specific suffix where the service has its own canonical terminology)
 2. Add the server config to `.mcp.json` referencing the env var via `${VARIABLE_NAME}`

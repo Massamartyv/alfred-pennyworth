@@ -1,0 +1,15 @@
+# The Assay - Suite Two registry.
+# One row per covered skill: skill_name:skill_home
+# skill_home is the absolute path to the skill's own folder; its eval file
+# is read from {skill_home}/evals/evals.json against the unified schema at
+# schema.md. Adding a skill to this suite means adding a row here and an
+# evals/evals.json in that skill's own folder - never editing SKILL.md.
+#
+# Five skills, selected on blast radius (the cost of a wrong routing
+# decision), not on fire frequency - no telemetry exists yet to know which
+# skills fire most (Whetstone slate item 3, still open). See registry-notes.md.
+ui-ux-pro-max:/Users/martyspicer/.claude/skills/ui-ux-pro-max
+journey-planner:/Users/martyspicer/.claude/skills/journey-planner
+offer-creator:/Users/martyspicer/.claude/skills/offer-creator
+switchboard:/Users/martyspicer/.claude/skills/switchboard
+therapist:/Users/martyspicer/.claude/skills/therapist

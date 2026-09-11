@@ -89,3 +89,5 @@ Input cost adds on top, typically 3–5× output tokens for typical agent worklo
 ---
 
 *Source file `lib/cost/calculator.ts` in the retired Alfred operating system Backend has been archived with the rest of that codebase. This reference captures the load-bearing numbers and formulas; the calculator implementation itself is not worth preserving because Claude Code and the Anthropic Console provide cost tracking natively.*
+
+*Last updated: 2026-09-05 – Last updated line added at the September heartbeat; content unchanged since 2026-05-26.*

@@ -8,25 +8,35 @@ How everything sounds. This file governs all pillars and all platforms.
 
 This file is the voice foundation. Venture-level **brand fingerprints** translate the voice into venture-specific application – production rules, terminology, visual system, document standards, deliverable patterns.
 
-**Current venture fingerprints:**
-- Marty Gras: `Context/Spheres/System/Entrepreneurship/Marty Gras/brand-fingerprint.md`
+**Standing fingerprints** – one per venture at `{Venture}/Foundation/brand-fingerprint.md` under `Context/Spheres/System/Entrepreneurship/`:
 
-Additional ventures add their own fingerprint files as they launch. When producing venture output, load the venture fingerprint in addition to this file. The fingerprint applies the voice; this file is what the voice is.
+| Venture | Fingerprint | Standing |
+|---|---|---|
+| Martywood – the personal brand house holding Marty V, Marty Gras and Epiphany | `Martywood/Foundation/brand-fingerprint.md` | Single source of truth for the personal properties; the sub-brands inherit it until their own Foundation matures |
+| Five Points Digital Studio | `Five Points Digital Studio/Foundation/brand-fingerprint.md` | Version 3.3 |
+| Paradigm, holding Paradigm Farms | `Paradigm/Foundation/brand-fingerprint.md` | Version 0.1, forming |
+| Lillie and Lynette | `Lillie and Lynette/Foundation/brand-fingerprint.md` | Version 0.2, forming |
+| Atlas | `Atlas/Foundation/brand-fingerprint.md` | Version 0.1, identity gate pending |
+| Athena | `Athena/Foundation/brand-fingerprint.md` | Dormant |
+
+New ventures inherit the blank standard from `New Venture/Foundation/brand-fingerprint.md`. When producing venture output, load the venture fingerprint in addition to this file. The fingerprint applies the voice; this file is what the voice is.
+
+Two doctrine files sit beside this one and load by intent rather than by default. `Context/alpha-doctrine.md` governs positioning and edge – what makes the work different. The Martywood fingerprint governs how the three personal properties express it. Neither amends the voice; the voice is upstream of both.
 
 ---
 
 ## Core Identity
 
-This is the voice of a person whose central creative act is helping people feel the beauty of the world – a Cultural Facilitator who has done the work intellectually, creatively, spiritually, and physically, and speaks from that place. It is never performative. It is never trying to convince anyone of anything. It simply is what it is, and people either resonate with it or they do not.
+This is the voice of a person whose central creative act is helping people feel the beauty of the world – a Cultural Facilitator who has done the work intellectually, creatively, spiritually and physically, and speaks from that place. It is never performative. It is never trying to convince anyone of anything. It simply is what it is, and people either resonate with it or they do not.
 
-The voice builds bridges between ideas, aesthetics, eras, and people. It communicates a perspective on the world with precision and artistry. It does not condescend. It does not oversimplify. It trusts the audience to meet it where it is.
+The voice builds bridges between ideas, aesthetics, eras and people. It communicates a perspective on the world with precision and artistry. It does not condescend. It does not oversimplify. It trusts the audience to meet it where it is.
 
 ---
 
 ## Voice Characteristics
 
 **Composed authority.**
-The voice knows what it knows. It does not hedge, qualify, or seek approval. It states, invites, and moves on.
+The voice knows what it knows. It does not hedge, qualify or seek approval. It states, invites and moves on.
 
 **Layered depth.**
 There is always more underneath the surface. A caption that reads simply has layers beneath it. An essay that reads plainly has philosophy beneath it. The depth is always there – it is never absent, only calibrated to the context.
@@ -44,7 +54,8 @@ Humor appears when it is earned. It is dry, observational, occasionally self-awa
 
 ## Design Principles
 
-- **No widows.** Never produce copy with a single word or very short fragment left dangling at the end of a paragraph. Rewrite to eliminate them. This applies globally across all formats and platforms.
+- **No runts.** Never leave a single short word alone on the last line of a paragraph. Bind it or rewrite the line. A widow is a last line pushed alone to the top of the next page or column, an orphan a first line stranded at the foot of one; the runt is the case fixed-height sheets produce, and the rule covers all three wherever a surface paginates. Reasoning in `~/.claude/heuristics.md`.
+- **The mechanical rules live elsewhere.** No contractions, no em dashes, no Oxford comma, no parentheses in body copy, Romance possessives, numerals from 10 – enforced by the Hard Rules of Conduct in the global configuration and audited by the grammar-nazi skill. This file holds the voice, not the ruleset.
 
 ---
 
@@ -75,20 +86,20 @@ Every piece of content serves at least one of these pillars. These five pillars 
 
 - **Education** – teaches something worth knowing
 - **Promotional** – advances the brand or a specific offering
-- **Community** – connects, acknowledges, or celebrates
-- **Entertainment** – engages, delights, or provokes
+- **Community** – connects, acknowledges or celebrates
+- **Entertainment** – engages, delights or provokes
 - **Trending** – participates in a cultural moment with intention
 
 ---
 
 ## Tone Across Formats
 
-**Long-form (essays, Substack):** Philosophical, narrative, unhurried. The voice has room to breathe and uses it.
+**Long-form – Epiphany, the essay line on Substack:** Philosophical, narrative, unhurried. The voice has room to breathe and uses it.
 
-**Short-form (captions, Threads):** Compressed and precise. Every word earns its place. The depth is implied, not explained.
+**Short-form – captions, threads and posts syndicated through Pennyone to Instagram, TikTok, Threads, Reddit, LinkedIn, Discord and YouTube:** Compressed and precise. Every word earns its place. The depth is implied, not explained.
 
-**Spoken (podcast, video):** Conversational but never loose. The warmth is more present. The wit surfaces more naturally.
+**Spoken – the Marty Gras Conversation and video:** Conversational but never loose. The warmth is more present. The wit surfaces more naturally.
 
 ---
 
-*Last updated: 2026-04-22*
+*Last updated: 2026-09-05 – September heartbeat refresh. The fingerprint register rebuilt around Martywood and the five ventures, doctrine pointers added, the runt rule and the ruleset pointer replace the widow note, formats named by property and platform. The voice sections stand as written on 2026-04-22, six serial commas brought to the house ruleset.*

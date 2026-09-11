@@ -1,0 +1,16 @@
+{
+  "_fixture_note": "Body content uses H1 and H2 instead of the house H3-only standard. Class: heading-level.",
+  "expected_violation_classes": ["heading-level"],
+  "payload": {
+    "operation": "create_page",
+    "target_database": "Annotations",
+    "connector": "enhanced",
+    "template_id": "new-annotation",
+    "icon": "https://www.notion.so/icons/help-alternate_gray.svg",
+    "properties": {
+      "Name": { "type": "title", "value": "Note on the verifiability routing rule" },
+      "Sphere": { "type": "relation", "value": "[\"https://www.notion.so/Artificial-Intelligence-abc123\"]" }
+    },
+    "body_markdown": "# Overview\n---\n## Detail\n- Captured fixture only, no live write"
+  }
+}

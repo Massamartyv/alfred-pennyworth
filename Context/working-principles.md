@@ -2,7 +2,9 @@
 
 A tactical doctrine distilled from the Alex Hormozi "what separates the wealthy" transcript and focused for Martavious on 2026-06-15.
 
-**Operator ruling: take the tactics, leave the philosophy.** The work-ethic gospel of that transcript — hard work as the goal in itself, emptying the tank as the point, balance as weakness, how you feel as irrelevant — is deliberately excluded. Two further ideas are rejected outright: that personal worth is contingent on output, and that ambition must be paid for in family time. The values hierarchy stands above everything here — the people come first, and the work serves the life, never the reverse.
+**Operator ruling: take the tactics, leave the philosophy.** The work-ethic gospel of that transcript – hard work as the goal in itself, emptying the tank as the point, balance as weakness, how you feel as irrelevant – is deliberately excluded. Two further ideas are rejected outright: that personal worth is contingent on output, and that ambition must be paid for in family time. The values hierarchy stands above everything here – the people come first, and the work serves the life, never the reverse.
+
+**The hierarchy now has a file.** Ratified 2026-09-09 at `Context/values-hierarchy.md`. Two of its rulings bind this document directly. Health sits at Tier 2, above every principle below, which means no tactic here is ever a reason to displace a health commitment. And the Movement Doctrine at §5.5 governs the work domain: proof, standards, volume, velocity and patience are all mechanisms, and a mechanism earns its place by what it moves – two of three units, judged at quarter close. Where a principle below cannot name what it moved this quarter, it is running as posture rather than as tactic.
 
 What remains are mechanics: proof, standards, velocity, volume and patience. Each is routed through leverage — the agentic operating system, Pennyone, the agents — so it compounds without being paid for in health or hours.
 
@@ -71,3 +73,5 @@ For you: principle 4 closes the gap between decision and action — this one clo
 This is not a licence to grind. The intensity philosophy was left out by deliberate choice, for a specific reason: the script of working oneself into the ground, however well argued, is the one this entire operating system exists to make unnecessary. Leverage buys the time; the time is not sold. Mental and physical health is a held standard. When velocity is wanted, the system supplies it — the body does not.
 
 *Distilled 2026-06-15; principles 7 through 9 added 2026-07-24. Tactics adopted by operator ruling; philosophy excluded by the same ruling.*
+
+*Last updated: 2026-09-05 – Last updated line added at the September heartbeat; content unchanged since 2026-07-24.*

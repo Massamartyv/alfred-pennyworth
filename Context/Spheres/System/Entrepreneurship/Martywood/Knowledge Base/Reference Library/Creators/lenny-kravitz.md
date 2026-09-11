@@ -11,7 +11,7 @@ added: 2026-06-21
 
 # Lenny Kravitz
 
-**Who** – First member of the Marty V reference quintet, the five artists whose careers and positions anchor the brand architecture. In Layer 1 Kravitz is named for the artist-as-lifestyle dimension – the home and the destinations as part of the art.
+**Who** – First member of the Martywood reference quintet, the five artists whose careers and positions anchor the brand architecture. In Layer 1 Kravitz is named for the artist-as-lifestyle dimension – the home and the destinations as part of the art.
 
 **Why aligned** – Marty is the master brand, life as expression, where the person is the brand and the works are properties. Kravitz is the proof that the life itself is a property. The home, the design practice, the destinations are not adjacent to the work, they are the work. This is the integration Marty aspires to – the creative life answering to nothing but the standard, designed end to end.
 

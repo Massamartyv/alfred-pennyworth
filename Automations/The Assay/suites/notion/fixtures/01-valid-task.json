@@ -1,0 +1,19 @@
+{
+  "_fixture_note": "Control case. A correctly-shaped Tasks write - captured payload, not a live call. Should trip no violations.",
+  "expected_violation_classes": [],
+  "payload": {
+    "operation": "create_page",
+    "target_database": "Tasks",
+    "connector": "enhanced",
+    "template_id": "new-alfred-task",
+    "icon": "https://www.notion.so/icons/checkmark_blue.svg",
+    "properties": {
+      "Name": { "type": "title", "value": "Sync the Assay verdict ledger into the mission record" },
+      "Sphere": { "type": "relation", "value": "[\"https://www.notion.so/Artificial-Intelligence-abc123\"]" },
+      "Context": { "type": "multi_select", "value": "[\"Home\", \"Alfred Pennyworth\"]" },
+      "Due Date": { "type": "date", "value": "2026-09-15" },
+      "Link": { "type": "url", "value": "byredo.com" }
+    },
+    "body_markdown": "### Notes\n---\n- Captured fixture only, no live write"
+  }
+}

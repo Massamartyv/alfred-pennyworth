@@ -63,7 +63,7 @@ The individual buyer, paying for their own seat:
 - **Individuals reached through client and network referral** – congregations, crews, and warm introductions.
 - **A small Instantly test lane** – weakest expected fit, kept deliberately small.
 
-**Ruled out:** the personal-brand audience (Marty Gras channels), decision of 8 July 2026. The boundary between the personal brand and the studio stays clean; no crossover machinery gets built.
+**Ruled out:** the personal-brand audience (Martywood channels), decision of 8 July 2026. The boundary between the personal brand and the studio stays clean; no crossover machinery gets built.
 
 **Audience ruling, 9 July 2026:** the offer addresses the individual broadly. Owners are included, never the sole address – at this price point the buyer pool is wider than ownership. All selling copy is de-ownered and jargon-stripped for the consumer reader.
 

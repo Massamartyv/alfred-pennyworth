@@ -269,15 +269,14 @@ Without `--live-tasks` every row in the Scheduled-Task Registrations table is ma
 
 Defined under `Agents/System/` and `Agents/Orchestration/`.
 
-| Name          | Type          | Crew                | Model  | Cadence                                                            | Tools                                                                                      |
-| ------------- | ------------- | ------------------- | ------ | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
-| context-audit | maintenance   | reviewer            | haiku  | First of every month                                               | 3 (Read, Glob, Grep)                                                                       |
-| drift-audit   | maintenance   | reviewer            | haiku  | First of every month                                               | 6 (Read, Glob, Grep…)                                                                      |
-| media-scanner | maintenance   | researcher          | haiku  | First of every month                                               | 5 (Read, Write, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-search…)                 |
-| sphere-review | maintenance   | reviewer            | haiku  | First of each quarter                                              | 5 (Read, Glob, Grep…)                                                                      |
-| pattern-memo  | orchestration | researcher, creator | sonnet | First of every month                                               | 7 (Read, Write, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-search…)                 |
-| pennyone      | orchestration | creator             | sonnet | On-demand (per publish event)                                      | 4 (mcp__pennyone__publish, mcp__pennyone__pipeline_status, mcp__pennyone__list_pipelines…) |
-| watchtower    | orchestration | reviewer            | sonnet | Continuous (threshold triggers), daily (sweeps), weekly (briefing) | 8 (Read, Write, Glob…)                                                                     |
+| Name          | Type          | Crew       | Model  | Cadence                                                            | Tools                                                                                      |
+| ------------- | ------------- | ---------- | ------ | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
+| context-audit | maintenance   | reviewer   | haiku  | First of every month                                               | 3 (Read, Glob, Grep)                                                                       |
+| drift-audit   | maintenance   | reviewer   | haiku  | First of every month                                               | 6 (Read, Glob, Grep…)                                                                      |
+| media-scanner | maintenance   | researcher | haiku  | First of every month                                               | 5 (Read, Write, mcp__a42a278a-abbf-49a4-8e7d-7536f11cccd7__notion-search…)                 |
+| sphere-review | maintenance   | reviewer   | haiku  | First of each quarter                                              | 5 (Read, Glob, Grep…)                                                                      |
+| pennyone      | orchestration | creator    | sonnet | On-demand (per publish event)                                      | 4 (mcp__pennyone__publish, mcp__pennyone__pipeline_status, mcp__pennyone__list_pipelines…) |
+| watchtower    | orchestration | reviewer   | sonnet | Continuous (threshold triggers), daily (sweeps), weekly (briefing) | 9 (Read, Write, Glob…)                                                                     |
 
 ### Native Crew Subagents
 
@@ -295,20 +294,21 @@ Defined under `.claude/agents/` at the project root. Dispatched in-session via t
 
 SKILL.md directories on disk under `~/.claude/scheduled-tasks/`. Deleting a task from the scheduler leaves its SKILL.md on disk for prompt recovery, so presence here does not mean the task is live -- the Status column is cross-checked against a dump of the live scheduler (`--live-tasks`).
 
-| Name                     | Status       | Allowed Tools                                         | Description                                                      |
-| ------------------------ | ------------ | ----------------------------------------------------- | ---------------------------------------------------------------- |
-| catalogue-likes          | deregistered | none                                                  | RETIRED — renamed to oracle-platform. Safe to delete from the…        |
-| contact-card-sync        | live         | none                                                  | Self-Reference Scan                                              |
-| context-audit            | deregistered | 4 (Read, Glob, Grep…)                                 | Monthly scan of all context files for stale, outdated or…        |
-| media-scanner            | deregistered | 7 (Read, Glob, Grep…)                                 | Monthly scan of Notion Media and Literature databases for new…   |
-| oracle-platform               | live         | 2 (Bash, mcp__Read_and_Send_iMessages__send_imessage) | Daily Oracle liked-video watcher: files new YouTube likes into…    |
-| pattern-memo             | deregistered | 9 (Read, Glob, Grep…)                                 | First-of-month pattern memo: synthesise three patterns from the… |
-| penny-one                | deregistered | 10 (Read, Glob, Grep…)                                | Weekly Monday morning portfolio briefing. Aggregates tasks,…     |
-| sphere-review            | deregistered | 6 (Read, Glob, Grep…)                                 | Quarterly alignment check between Sphere Index, Sphere Manager…  |
-| watchtower               | live         | 8 (Read, Write, Glob…)                                | Daily evening sweep of Notion for overdue tasks, stale high-…    |
-| wealth-benchmark-refresh | live         | none                                                  | Wealth Benchmark                                                 |
+| Name                     | Status       | Allowed Tools          | Description                                                      |
+| ------------------------ | ------------ | ---------------------- | ---------------------------------------------------------------- |
+| contact-card-sync        | live         | none                   | Self-Reference Scan                                              |
+| context-audit            | deregistered | 4 (Read, Glob, Grep…)  | Monthly scan of all context files for stale, outdated or…        |
+| media-scanner            | deregistered | 7 (Read, Glob, Grep…)  | Monthly scan of Notion Media and Literature databases for new…   |
+| monthly-review-open      | live         | none                   | First of the month: instantiate the Monthly Review entry in…     |
+| oracle-platform          | live         | none                   | Daily Oracle platform-signal intake: runs each wired signal…     |
+| pattern-memo             | deregistered | 9 (Read, Glob, Grep…)  | First-of-month pattern memo: synthesise three patterns from the… |
+| penny-one                | deregistered | 10 (Read, Glob, Grep…) | Weekly Monday morning portfolio briefing. Aggregates tasks,…     |
+| sphere-review            | deregistered | 6 (Read, Glob, Grep…)  | Quarterly alignment check between Sphere Index, Sphere Manager…  |
+| watchtower               | live         | none                   | Daily evening sweep of Notion for overdue tasks, stale high-…    |
+| wealth-benchmark-refresh | live         | none                   | Wealth Benchmark                                                 |
+| weekly-review-open       | live         | none                   | Sunday morning: instantiate the week's Weekly Review entry in…   |
 
-_Generated automatically. Scheduled agents: 7. Native subagents: 5. Scheduled-task SKILL.md directories: 10 (4 live, 6 deregistered; scheduler dump of 2026-07-23 13:13)._
+_Generated automatically. Scheduled agents: 6. Native subagents: 5. Scheduled-task SKILL.md directories: 11 (6 live, 5 deregistered; scheduler dump of 2026-09-05 02:47)._
 
 <!-- capability-matrix:end -->
 

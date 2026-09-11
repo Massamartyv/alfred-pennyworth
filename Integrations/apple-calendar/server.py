@@ -129,8 +129,22 @@ def _run(script: str, timeout: float = OSASCRIPT_TIMEOUT_SECONDS) -> str:
 
 
 def _quote(value: str) -> str:
-    """Escape a Python string for embedding as an AppleScript literal."""
-    escaped = value.replace("\\", "\\\\").replace('"', '\\"')
+    """
+    Escape a Python string for embedding as an AppleScript literal.
+
+    AppleScript string literals cannot span lines, so newlines, carriage
+    returns and tabs must be escaped rather than passed through -- an
+    unescaped newline in an event's notes is a compile error, not a
+    runtime one, and the whole script fails.
+    """
+    escaped = (
+        value.replace("\\", "\\\\")
+        .replace('"', '\\"')
+        .replace("\r\n", "\\n")
+        .replace("\n", "\\n")
+        .replace("\r", "\\n")
+        .replace("\t", "\\t")
+    )
     return f'"{escaped}"'
 
 

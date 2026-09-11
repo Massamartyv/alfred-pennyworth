@@ -1,0 +1,16 @@
+{
+  "_fixture_note": "Emoji icon - the exact defect the 2026-07-10 sweep corrected ten instances of. Class: icon.",
+  "expected_violation_classes": ["icon"],
+  "payload": {
+    "operation": "create_page",
+    "target_database": "Projects",
+    "connector": "enhanced",
+    "template_id": "new-project",
+    "icon": "📅",
+    "properties": {
+      "Name": { "type": "title", "value": "The Assay" },
+      "Sphere": { "type": "relation", "value": "[\"https://www.notion.so/Artificial-Intelligence-abc123\"]" }
+    },
+    "body_markdown": "### Overview\n---\n- Captured fixture only, no live write"
+  }
+}

@@ -14,7 +14,7 @@ cwd=$(echo "$input" | jq -r '.workspace.current_dir // ""' 2>/dev/null)
 scope="personal"
 case "$cwd" in
   *"Five Points Digital Studio"*) scope="five points" ;;
-  *"Marty Gras"*) scope="marty gras" ;;
+  *"Martywood"*) scope="martywood" ;;
   *"Paradigm"*) scope="paradigm" ;;
   *"Lillie and Lynette"*) scope="lillie & lynette" ;;
   *"Athena"*) scope="athena (dormant)" ;;

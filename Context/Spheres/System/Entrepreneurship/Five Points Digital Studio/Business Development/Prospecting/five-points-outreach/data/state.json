@@ -1,0 +1,12 @@
+{
+  "daily_cap": 15,
+  "sent_today": 0,
+  "last_reset": "2026-09-08",
+  "totals": {
+    "researched": 0,
+    "drafted": 0,
+    "sent": 0,
+    "replied": 0,
+    "booked": 0
+  }
+}

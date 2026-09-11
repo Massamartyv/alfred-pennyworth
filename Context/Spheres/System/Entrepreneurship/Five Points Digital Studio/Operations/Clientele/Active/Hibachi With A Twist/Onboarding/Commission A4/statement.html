@@ -19,6 +19,14 @@
      operator ruling on 12 August, before the document was ever sent, because
      the scope grew by the portal after the reduction was struck. The client
      never saw the earlier figure.
+
+     Amended 2026-08-16 by operator ruling: settlement staged 50/50. Half on
+     receipt commissions the work; the balance falls due at go-live, and the
+     domain cutover happens the day it arrives.
+
+     Amended 2026-08-16, second ruling: commission set at $7,000, matching the
+     2022 engagement level ($3,500 up front, $3,500 on completion), staged
+     $3,500 / $3,500. Dated 17 August for the Monday morning send.
      ========================================================================== */
 
   :root {
@@ -145,7 +153,7 @@
   }
 
   /* ---- Parties ----------------------------------------------------------- */
-  .party { margin-top: 5mm; }
+  .party { margin-top: 4mm; }
   .party .who { margin-top: 3mm; line-height: 1.6; }
   .party .who .big {
     font-family: var(--font-serif);
@@ -156,7 +164,7 @@
   .party .who .sub { font-size: 9.5pt; color: var(--fg2); }
 
   /* ---- The commission ---------------------------------------------------- */
-  .commission { margin-top: 5mm; }
+  .commission { margin-top: 4mm; }
   .tbl-head {
     display: flex;
     justify-content: space-between;
@@ -212,7 +220,7 @@
 
   /* ---- Settlement -------------------------------------------------------- */
   .settle {
-    margin-top: 5mm;
+    margin-top: 3.5mm;
     padding-top: 3mm;
     border-top: 1.5px solid var(--ink-900);
     display: flex;
@@ -222,7 +230,7 @@
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 10mm;
-    row-gap: 2.5mm;
+    row-gap: 2mm;
     align-items: baseline;
   }
   .paytable .k {
@@ -253,7 +261,7 @@
   }
 
   /* ---- Payment ----------------------------------------------------------- */
-  .pay { margin-top: 5mm; }
+  .pay { margin-top: 3.5mm; }
   .pay .p { margin-top: 3mm; font-size: 9.8pt; line-height: 1.6; max-width: 132mm; text-wrap: pretty; }
   .pay .p + .p { margin-top: 2.5mm; }
   .datum {
@@ -318,8 +326,8 @@
     <div class="doc-title">Commissioning statement</div>
     <div class="meta">
       <div class="k">Statement no.</div><div class="v">FP-2026-003</div>
-      <div class="k">Date</div><div class="v">12 August 2026</div>
-      <div class="k">Terms</div><div class="v">Due on receipt</div>
+      <div class="k">Date</div><div class="v">17 August 2026</div>
+      <div class="k">Terms</div><div class="v">50% on receipt</div>
     </div>
   </div>
 
@@ -347,24 +355,25 @@
           <li><span class="st">The proof</span> &middot; the Harris Health celebration and the Commissioner Rodney Ellis service, placed and named.</li>
           <li><span class="st">The foundation</span> &middot; structured data, crawl files and share images, so Houston finds this kitchen unprompted.</li>
           <li><span class="st">The portal</span> &middot; a private staff area where your chefs and servers claim open shifts, with pay computed from your own ladder.</li>
-          <li><span class="st">The handover</span> &middot; two rounds of revisions, 30 days of support, training and three months of hosting worth $1,500.</li>
+          <li><span class="st">The handover</span> &middot; 30 days of support after go-live.</li>
         </ul>
         <div class="asset"><span class="st">The asset is the website itself, owned outright by the business.</span> Nothing is rented and no outside company holds the keys.</div>
       </div>
-      <div class="amt">$7,500.00</div>
+      <div class="amt">$7,000.00</div>
     </div>
   </div>
 
   <div class="settle">
     <div class="paytable">
-      <div class="k">Total commission</div><div class="v">$7,500.00</div>
-      <div class="k now">Due now &middot; in full</div><div class="v now">$7,500.00</div>
+      <div class="k">Total commission</div><div class="v">$7,000.00</div>
+      <div class="k">Balance &middot; at go-live</div><div class="v quiet">$3,500.00</div>
+      <div class="k now">Due now &middot; to commission</div><div class="v now">$3,500.00</div>
     </div>
   </div>
 
   <div class="pay">
     <div class="label">Payment</div>
-    <div class="p">Zelle is the preferred method. Send <span class="datum">$7,500.00</span> to <span class="datum">470-556-3989</span> and put <span class="datum">FP-2026-003</span> in the note. The website and the staff portal are one commission and settle in a single payment, with nothing falling due later.</div>
+    <div class="p">Zelle is the preferred method. Send <span class="datum">$3,500.00</span> to <span class="datum">470-556-3989</span> with <span class="datum">FP-2026-003</span> in the note to commission the work. The balance falls due at go-live; the domain moves the day it arrives.</div>
   </div>
 
   <div class="foot">

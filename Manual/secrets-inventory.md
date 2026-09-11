@@ -51,7 +51,7 @@ The 2026-08-08 one-workspace-per-venture ruling requires a Notion token per sove
 | `ANTHROPIC_ATLAS_API_KEY` | Atlas clinical documentation layer | Anthropic console. **A Business Associate Agreement must be executed before any real patient encounter reaches this key.** | Gated on the BAA |
 | `NOTION_ATHENA_TOKEN` | `notion-athena` MCP (to be registered) | As above | Held while dormant |
 
-Marty Gras takes no venture token – it routes to the personal workspace by standing exception.
+Martywood – named Marty Gras until 2026-09-02 – takes no venture token; it routes to the personal workspace by standing exception.
 
 ---
 

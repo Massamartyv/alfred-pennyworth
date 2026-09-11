@@ -139,7 +139,7 @@ Drawn from the spheres, ventures, creative-director file and identity files. Eve
 |---|---|
 | Sports & human performance | Body cluster (martial arts, combat sports, Ironman base-building, strength training), Human Anatomy sphere, Atlas venture, health-and-performance reading |
 | Health & wellness innovation | Atlas (chiropractic intelligence), Medicine sphere, nutritional-science philosophy in the creative-director file |
-| Media, storytelling & culture | Marty Gras – podcast, Epiphany newsletter, YouTube; "Cultural Facilitator" identity; film and visual storytelling active; Cinema and Photography spheres |
+| Media, storytelling & culture | Martywood – the Marty Gras Conversation, Epiphany, the music, YouTube; "Cultural Facilitator" identity; film and visual storytelling active; Cinema and Photography spheres |
 | Music & sound | Music production active discipline, Music Theory sphere, deep genre map in creative-director |
 | Design & creative industries | Creative-director sensory operating system, Fashion and Architecture reference-library depth, Interior Design sphere, fragrance/sensory work, Five Points design practice |
 | Culinary & hospitality | Full culinary philosophy in creative-director – experimental fusion cooking, restaurant curation, hosting ethos |

@@ -1,12 +1,12 @@
 ---
 file_type: registry
 registry_type: collaborators
-venture: Marty Gras
+venture: Martywood
 status: active
 last_updated: 2026-08-04
 ---
 
-# Collaborator and Sponsor Registry – Marty Gras
+# Collaborator and Sponsor Registry – Martywood
 
 Master roster of all collaborations, sponsorships and featured guests. For a media company this tracks the people and brands that contribute to or invest in the content, not traditional clients.
 
@@ -36,7 +36,7 @@ Master roster of all collaborations, sponsorships and featured guests. For a med
 
 ## Summary
 
-Live state: Notion Projects and Tasks, personal workspace – Marty Gras, Venture Operations. Counts and revenue are never held in this file.
+Live state: Notion Projects and Tasks, personal workspace – Martywood, Venture Operations. Counts and revenue are never held in this file.
 
 ## Agent Instructions
 

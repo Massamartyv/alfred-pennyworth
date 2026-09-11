@@ -1,0 +1,16 @@
+{
+  "_fixture_note": "A structurally well-formed built-in icon URL naming 'brush', one of the four names memory/notion.md confirms do NOT exist in the set - a miss here stores a dead external URL. Class: icon.",
+  "expected_violation_classes": ["icon"],
+  "payload": {
+    "operation": "create_page",
+    "target_database": "Resources",
+    "connector": "enhanced",
+    "template_id": "new-resource",
+    "icon": "https://www.notion.so/icons/brush_lightgray.svg",
+    "properties": {
+      "Name": { "type": "title", "value": "Art supply restock" },
+      "Sphere": { "type": "relation", "value": "[\"https://www.notion.so/Art-def456\"]" }
+    },
+    "body_markdown": "### Notes\n---\n- Captured fixture only, no live write"
+  }
+}

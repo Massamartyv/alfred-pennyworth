@@ -4,7 +4,7 @@ Local FastMCP server that wraps the Fullscript practitioner API.
 
 ## Scope
 
-**Personal.** Fullscript is scoped to the personal context – supplement research, formulation references and protocol development for personal wellness work. It is not a Five Points, Marty Gras, Paradigm or Lillie and Lynette venture tool.
+**Personal.** Fullscript is scoped to the personal context – supplement research, formulation references and protocol development for personal wellness work. It is not a Five Points, Martywood, Paradigm or Lillie and Lynette venture tool.
 
 ## Purpose
 

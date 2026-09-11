@@ -1,0 +1,17 @@
+{
+  "_fixture_note": "Link property stores the full protocol instead of the bare domain the house convention requires. Class: link-protocol.",
+  "expected_violation_classes": ["link-protocol"],
+  "payload": {
+    "operation": "create_page",
+    "target_database": "Resources",
+    "connector": "enhanced",
+    "template_id": "new-resource",
+    "icon": "https://www.notion.so/icons/book_gray.svg",
+    "properties": {
+      "Name": { "type": "title", "value": "Byredo restock" },
+      "Sphere": { "type": "relation", "value": "[\"https://www.notion.so/Fragrance-ghi789\"]" },
+      "Link": { "type": "url", "value": "https://byredo.com" }
+    },
+    "body_markdown": "### Notes\n---\n- Captured fixture only, no live write"
+  }
+}

@@ -97,7 +97,7 @@ PIPELINE_REGISTRY: Dict[Pipeline, Dict[str, str]] = {
         "description": "Marty as an individual, separate from any venture",
         "env_var": "ZERNIO_PERSONAL_API_KEY",
     },
-    # marty_gras retired 2026-08-11 by operator ruling: Marty Gras is the
+    # marty_gras retired 2026-08-11 by operator ruling: Martywood (then Marty Gras) is the
     # personal media identity and publishes through the personal pipeline.
     Pipeline.FIVE_POINTS: {
         "label": "Five Points Digital Studio",

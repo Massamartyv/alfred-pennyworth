@@ -1,0 +1,17 @@
+timestamp_utc	suite	scalar	budget_used	budget_declared	result
+2026-09-10T21:40:38Z	gates	n/a	0s	120s	fail
+2026-09-10T21:43:05Z	gates	13/13 (1.00)	120s	120s	pass
+2026-09-10T21:43:58Z	gates	13/13 (1.00)	1s	120s	pass
+2026-09-10T21:52:46Z	skills	78/78 (1.00)	120s	1200s	pass
+2026-09-10T21:54:20Z	gates	13/13 (1.00)	1s	120s	pass
+2026-09-10T21:56:16Z	skills	77/78 (0.99)	116s	1200s	pass
+2026-09-10T21:56:17Z	notion	8/8 (1.00)	1s	60s	pass
+2026-09-10T21:56:24Z	notion	8/8 (1.00)	1s	60s	pass
+2026-09-10T21:59:17Z	gates	13/13 (1.00)	1s	120s	pass
+2026-09-10T22:01:15Z	skills	78/78 (1.00)	118s	1200s	pass
+2026-09-10T22:01:16Z	notion	8/8 (1.00)	1s	60s	pass
+2026-09-10T22:04:01Z	gates	13/13 (1.00)	1s	120s	pass
+2026-09-10T22:05:58Z	skills	78/78 (1.00)	117s	1200s	pass
+2026-09-10T22:05:59Z	notion	8/8 (1.00)	1s	60s	pass
+2026-09-10T22:08:06Z	skills	unscoreable	1s	1200s	unscoreable
+2026-09-10T22:14:54Z	notion	8/8 (1.00)	1s	60s	pass

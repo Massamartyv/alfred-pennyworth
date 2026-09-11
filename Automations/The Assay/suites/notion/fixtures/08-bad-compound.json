@@ -1,0 +1,18 @@
+{
+  "_fixture_note": "Compound fixture - three classes at once (property-type, icon, link-protocol) - proving the checks do not mask each other when a payload is malformed in more than one way.",
+  "expected_violation_classes": ["property-type", "icon", "link-protocol"],
+  "payload": {
+    "operation": "create_page",
+    "target_database": "Resources",
+    "connector": "enhanced",
+    "template_id": "new-resource",
+    "icon": "🔖",
+    "properties": {
+      "Name": { "type": "title", "value": "Compound malformed fixture" },
+      "Sphere": { "type": "relation", "value": "[\"https://www.notion.so/Fashion-jkl012\"]" },
+      "Context": { "type": "multi_select", "value": "Fashion" },
+      "Link": { "type": "url", "value": "https://vans.com" }
+    },
+    "body_markdown": "### Notes\n---\n- Captured fixture only, no live write"
+  }
+}

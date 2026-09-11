@@ -1,0 +1,15 @@
+{
+  "_fixture_note": "A Tasks entry with no Sphere relation and no template_id. Class: missing-required.",
+  "expected_violation_classes": ["missing-required"],
+  "payload": {
+    "operation": "create_page",
+    "target_database": "Tasks",
+    "connector": "enhanced",
+    "icon": "https://www.notion.so/icons/checkmark_blue.svg",
+    "properties": {
+      "Name": { "type": "title", "value": "Untethered task with no sphere context" },
+      "Context": { "type": "multi_select", "value": "[\"Home\"]" }
+    },
+    "body_markdown": "### Notes\n---\n- Captured fixture only, no live write"
+  }
+}

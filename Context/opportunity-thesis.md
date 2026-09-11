@@ -8,7 +8,7 @@ Built from the intake interview of 2026-07-07. Sections marked **[pending]** are
 
 ## Candidate Identity
 
-**Creative Director · Cultural Facilitator · Historian** (positioning bank tagline). A multidisciplinary builder: runs a digital studio (Five Points, founded May 2020), a personal media company (Marty Gras, host since 2015 – podcast, Epiphany newsletter, multi-platform), a chiropractic-intelligence venture (Atlas), and additional ventures; trains as an athlete (strength-first build, martial arts, Ironman base-building); creates across music, food, photography and design. Through-line: "A culture keeps its memory in the ordinary; the work is to find it and make it felt."
+**Creative Director · Cultural Facilitator · Historian** (positioning bank tagline). A multidisciplinary builder: runs a digital studio (Five Points, founded May 2020), a personal brand house (Martywood, formerly Marty Gras, host since 2015 – podcast, Epiphany newsletter, multi-platform), a chiropractic-intelligence venture (Atlas), and additional ventures; trains as an athlete (strength-first build, martial arts, Ironman base-building); creates across music, food, photography and design. Through-line: "A culture keeps its memory in the ordinary; the work is to find it and make it felt."
 
 **Canonical career inventory:** the Master Résumé page in personal Notion (Resources database, pinned) – the over-stocked living inventory seeded from the MoMA and Studio Museum Public Programming fellowship application (submitted June 2026). The Application Suite copies out and cuts down from it; it never builds a résumé from scratch. This thesis carries only the radar-relevant extract below.
 

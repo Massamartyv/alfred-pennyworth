@@ -1,0 +1,19 @@
+{
+  "_fixture_note": "Context is a multi_select written as a bare string instead of the JSON-array-string the enhanced connector requires, and Due Date is not ISO YYYY-MM-DD. Class: property-type.",
+  "expected_violation_classes": ["property-type"],
+  "payload": {
+    "operation": "create_page",
+    "target_database": "Tasks",
+    "connector": "enhanced",
+    "template_id": "new-alfred-task",
+    "icon": "https://www.notion.so/icons/checkmark_blue.svg",
+    "properties": {
+      "Name": { "type": "title", "value": "Follow up with McCauley Electrical" },
+      "Sphere": { "type": "relation", "value": "[\"https://www.notion.so/Entrepreneurship-xyz789\"]" },
+      "Context": { "type": "multi_select", "value": "Errands" },
+      "Due Date": { "type": "date", "value": "09/15/2026" },
+      "Link": { "type": "url", "value": "mccauleyelectrical.com" }
+    },
+    "body_markdown": "### Notes\n---\n- Captured fixture only, no live write"
+  }
+}

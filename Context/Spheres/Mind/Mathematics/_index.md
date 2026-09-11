@@ -58,3 +58,5 @@ Mathematics is the parent. Statistics, probability and accounting live inside it
 | A decision turns on a number the operator cannot sanity-check | Flag it as a gap in the relevant track and note it |
 | Quarterly | Confirm at least one track has moved. A founded sphere that never moves is a bookmark, not a practice |
 | Book notes on Poor Charlie's Almanack land | Re-derive the track list against them |
+
+*Last updated: 2026-09-05 – Last updated line added at the September heartbeat; content unchanged since 2026-08-04.*

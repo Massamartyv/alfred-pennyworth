@@ -2,9 +2,9 @@
 
 Where the operator holds genuine edge, what that edge is worth, how fast it decays and which surface carries it.
 
-Scope: the alphas in Part One belong to the operator and inform every venture. The architecture and strategy in Parts Two through Four are Marty V, the master brand, and its two properties. Five Points and the other ventures inherit the alphas but not the strategy.
+Scope: the alphas in Part One belong to the operator and inform every venture. The architecture and strategy in Parts Two through Four are Martywood, the master brand, and its three properties – Marty V, Marty Gras and Epiphany, amended 2026-09-02 in Part Three. Five Points and the other ventures inherit the alphas but not the strategy.
 
-Companion files: `personal-brand-identity.md` for voice, `creative-director.md` for the sensory operating system and the eight-law cross-domain grammar, `Spheres/System/Entrepreneurship/Marty Gras/Foundation/brand-fingerprint.md` for the Marty V fingerprint.
+Companion files: `personal-brand-identity.md` for voice, `creative-director.md` for the sensory operating system and the eight-law cross-domain grammar, `Spheres/System/Entrepreneurship/Martywood/Foundation/brand-fingerprint.md` for the Marty V fingerprint.
 
 ---
 
@@ -13,6 +13,8 @@ Companion files: `personal-brand-identity.md` for voice, `creative-director.md` 
 In finance, alpha is the return above a benchmark once risk is accounted for. Three properties of the term transfer cleanly and all three are load-bearing here.
 
 **Alpha exists only against a named benchmark.** Without one, effort is indistinguishable from edge. Most personal-brand thinking never names the benchmark, which is why it cannot tell the two apart.
+
+Ruled 2026-09-09: for venture work the named benchmark is the billion-dollar trajectory. It is not the goal pursued and never was – it is the magnitude a quarter's movement is measured against, which is the only job the phrase was ever doing well. See `Context/values-hierarchy.md` §5.5.
 
 **Alpha decays.** Informational edge decays fastest, analytical edge slowly, behavioural edge slowest of all. The mix matters more than the total.
 
@@ -152,14 +154,32 @@ Held as formation alongside Set two under the same ruling.
 
 ## Part Three – The Architecture
 
-Operator ruling, 4 August 2026: two properties, one artist.
+Operator ruling, 2 September 2026: Martywood. Three properties, one house.
 
 ```
-MARTY V – the artist, the master brand
+MARTYWOOD – the house, the master brand, the universe
+│   The Parkwood Entertainment model – one house holding
+│   the music, the media and the artist's life as expression
 │
-├── The music – records and mixes under his own name
+├── MARTY V – the music, the artist credit
 │     Braille wordmark. Night mixes in lifestyle setting.
 │     The DJ-needle short form. Music you can feel.
+│
+├── MARTY GRAS – the Conversation
+│     The One Where ___. The Carnival in procession.
+│
+└── EPIPHANY – the essay line
+      Bridge. Instrument. Diary.
+```
+
+**What changed on 2 September.** Martywood replaces Marty V at the top of the hierarchy. Marty V becomes the artist credit and the name on the music. Epiphany steps out from inside Marty Gras to stand as a sibling property, which leaves the Epiphany coupling intact – the coupling was always editorial, the Conversation carrying the position and the essay preserving it, and it does not need the two to share a folder. The venture folder and the master fingerprint move with the name, which also retires negative-alpha N-2's line about the master fingerprint being filed inside one of its own properties.
+
+The ruling of 4 August 2026 – two properties, one artist – is preserved beneath as the trace it superseded.
+
+```
+MARTY V – the artist, the master brand   (4 August 2026, superseded)
+│
+├── The music – records and mixes under his own name
 │
 └── MARTY GRAS – the media property
       The Conversation. Epiphany.
@@ -171,7 +191,7 @@ MARTY V – the artist, the master brand
 
 One consideration to rule on knowingly rather than discover later: braille carried as a brand mark by a sighted artist invites a reading about appropriation of a disability language. The sensory-translation logic here is sincere and the idea is his own, so this is a judgement call rather than a bar. It should be made deliberately, and the mark is stronger if the practice around it is generous rather than purely graphic.
 
-**Marty Gras is unchanged in substance.** The Conversation and Epiphany, documentary cadence, the four governing rules and the invariant core all stand.
+**Marty Gras was unchanged in substance on 4 August.** The Conversation and Epiphany, documentary cadence, the four governing rules and the invariant core all stand.
 
 ### The line
 
@@ -225,4 +245,6 @@ Deploy the perishable alpha first. The build log has the shortest half-life in t
 
 ---
 
-*Created 2026-08-04 under the Manor Protocol. Operator rulings of 4 August 2026 recorded: two properties one artist; argument lineage studied not canonised; one line across everything; doctrine before launch sequencing.*
+*Created 2026-08-04 under the Manor Protocol. Operator rulings of 4 August 2026 recorded: two properties one artist; argument lineage studied not canonised; one line across everything; doctrine before launch sequencing. Amended 2026-09-02: Martywood named master brand, three properties one house.*
+
+*Last updated: 2026-09-05 – Last updated line added at the September heartbeat; content unchanged since 2026-09-02.*

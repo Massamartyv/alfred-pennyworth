@@ -164,7 +164,7 @@ All intermediate output goes to `.working/watchtower/`. Raw threshold checks, si
 - **Current schedule:** Daily at 8:01pm local (monitoring sweep)
 - **Delivery:** iMessage to martavious.spicer@icloud.com
 - **Current scope:** Personal Notion workspace (Tasks, Projects, Content Calendar)
-- **Health-checks:** the `oracle-platform` watcher receipt -- the Oracle YouTube liked-video filer -- via the scheduler-receipt sweep; flagged if stale beyond 2 days. The watcher does the writing; Watchtower only observes its liveness, preserving the read-only red-line.
+- **Health-checks:** the `oracle-platform` watcher receipt -- the Oracle YouTube liked-video filer -- via the scheduler-receipt sweep; flagged if stale beyond 2 days. Since 2026-09-02 the sweep also watches the `weekly-review` receipt (allowance 8 days) and the `monthly-review` receipt (allowance 32 days) written by the `weekly-review-open` and `monthly-review-open` scheduled tasks that instantiate the operator's review entries in Reflections. The watcher does the writing; Watchtower only observes its liveness, preserving the read-only red-line.
 - **Not yet wired (prose-only):** the weekly portfolio briefing absorbed from the retired Pennyone briefing role; Stripe financial thresholds; Five Points workspace sweep; venture-level breakdowns. These are designed but unbuilt -- do not assume they run.
 - **Weekly briefing collapsed to one owner, 2026-07-23 (The Lamplighter, w1-repairs):** the legacy `penny-one` scheduled task -- the briefing variant -- was deregistered from `~/.claude/scheduled-tasks/`. Watchtower keeps ownership of the weekly briefing on paper only; the redesigned briefing is not being built in this pass and is deferred to a dedicated session with the operator. The `watchtower` scheduled-task registration itself was inspected against this ruling and retained as-is: its SKILL.md performs only the daily alert sweep above (overdue tasks, stale priorities, missed content, stagnating projects, scheduler receipts) and contains no briefing logic, so it is not a second briefing variant requiring pause. Reactivation of any scheduled weekly briefing -- under this name or a new one -- is gated on the redesign.
 
@@ -192,4 +192,4 @@ Repaired the same day – grants repointed to `notion-personal`, the receipt swe
 
 ---
 
-*Last updated: 2026-08-12 – Domesday follow-through: dead Notion tool grant repaired to notion-personal, receipt sweep trued to watchtower and oracle-platform, blind-month failure recorded. Cloud-routine migration ruled and pending the ntfy delivery channel.*
+*Last updated: 2026-09-02 – receipt sweep extended to the weekly-review and monthly-review scheduled tasks. Prior: 2026-08-12 Domesday follow-through.*

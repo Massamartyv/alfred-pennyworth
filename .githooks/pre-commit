@@ -1,9 +1,28 @@
 #!/bin/bash
-# Pre-commit tripwire: warns when staged markdown adds state-shaped lines
+# Pre-commit: runs The Assay gate suite, then the state tripwire, which
+# warns when staged markdown adds state-shaped lines
 # outside allowed engine paths. State belongs in Notion. Warn-only: always
 # exits 0. Pattern list shared with the drift-audit agent.
 
 repo="$(git rev-parse --show-toplevel)"
+
+# The Assay, suite one: seeded-fault drills proving the gate layer below is
+# alive. Deterministic, no model call, about one second. Warn-only like the
+# tripwire: a red suite prints loudly and the commit proceeds. A missing suite
+# also prints, because an unverified gate must never pass silently.
+assay_gates="$repo/Automations/The Assay/suites/gates/run.sh"
+if [ -f "$assay_gates" ]; then
+  if ! assay_out=$(ASSAY_PROJECT_DIR="$repo" bash "$assay_gates" 2>&1); then
+    echo ""
+    echo "the assay: gate suite is red - a gate is not catching what it should."
+    echo "$assay_out" | grep -E '^(FAIL|SCALAR)' | sed 's/^/  /'
+    echo "Rerun: bash \"Automations/The Assay/suites/gates/run.sh\""
+    echo ""
+  fi
+else
+  echo "the assay: gate suite missing at Automations/The Assay/suites/gates/run.sh - gates unverified."
+fi
+
 patterns="$repo/Automations/Guards/state-patterns.grep"
 [ -f "$patterns" ] || exit 0
 
