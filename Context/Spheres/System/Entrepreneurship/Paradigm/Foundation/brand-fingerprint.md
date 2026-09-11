@@ -71,7 +71,7 @@ Reverse-engineered from the destination. Each answer derives from the one above 
 
 ---
 
-## Layer 3 – Production
+## Layer 3 – Standards
 
 *To build next. How product, method and space are each made to the one standard. Deliverable standards per form. Copy conventions to the house grammar. The cadence and the quality bar that no form drops below.*
 
@@ -85,6 +85,7 @@ Reverse-engineered from the destination. Each answer derives from the one above 
 
 ## Amendment Log
 
+- **2026-09-11 – Layer 3 renamed Standards.** Heading only; no content changed. Supersedes *Layer 3 – Production*, retired with the Production studio in The Restoration so that the fingerprint no longer shares a word with a deleted folder. Portfolio-wide operator ruling.
 - **2026-06-02 – Fingerprint opened, Layer 0 drafted.** Created from the portfolio standard template. Layer 0 built interactively with the operator: core wedge holistic integration; tri-form house of products, method-and-media and premium spaces; audience premium-core with an aspirational edge under the directionality law; register aspirational and status-led at the Equinox pole. Layers 1 through 4 scaffolded for subsequent rounds. Version 0.1.
 
 ---

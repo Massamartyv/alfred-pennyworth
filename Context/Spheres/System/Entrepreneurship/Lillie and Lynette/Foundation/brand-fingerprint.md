@@ -71,7 +71,7 @@ Reverse-engineered from the destination. Each answer derives from the one above 
 
 ---
 
-## Layer 3 – Production
+## Layer 3 – Standards
 
 *To build next. How each distance is made to the one standard – Objects formulation and packaging, Stewardship operating standard, Spaces design and service. Deliverable and service standards per pillar. Copy conventions to the house grammar. The guest-care model carried intact across owned and managed property.*
 
@@ -85,6 +85,7 @@ Reverse-engineered from the destination. Each answer derives from the one above 
 
 ## Amendment Log
 
+- **2026-09-11 – Layer 3 renamed Standards.** Heading only; no content changed. Supersedes *Layer 3 – Production*, retired with the Production studio in The Restoration so that the fingerprint no longer shares a word with a deleted folder. Portfolio-wide operator ruling.
 - **2026-06-11 – Sequence amended: Stewardship leads.** Supersedes the Objects-first ordering in Journey answers one and three and the pillar statuses in the venture index. Stewardship earns first revenue at near-zero capital; Objects enter inside the service as the amenity and the gift – first to be felt, not first to be sold – and reach retail once the service base funds inventory. Spaces remain last. Governing rule four is unchanged – Objects and Stewardship still earn the right to the Spaces. Decided with the operator at Direction during the revenue battle plan session; plan at `Strategy/revenue-battle-plan.md`. Version 0.2.
 - **2026-06-02 – Fingerprint opened, Layer 0 drafted.** Created from the portfolio standard template. Layer 0 built interactively with the operator: soul is a tribute to real matriarchs whose hospitality defined a home; register is modern quiet luxury at the Aman pole; altitude is a heritage hospitality house. The distinctive position named – genuine matriarchal warmth rendered with modern quiet-luxury restraint. Existing model carried in: four pillars, three distances, hospitality-led-not-wellness, monolithic architecture, Objects-Stewardship-Spaces sequence. Founding story of the matriarchs flagged as operator-to-set. Layers 1 through 4 scaffolded. Version 0.1.
 

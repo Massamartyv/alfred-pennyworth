@@ -184,7 +184,7 @@ Before specific actions, run the corresponding check. These are non-negotiable p
 ### Retired patterns
 
 - `Logs/` is retired. Session records are Alfred Logs entries – the log of days; historical logs are preserved at `Context/Archive/Logs/`.
-- Venture `Working Files/` folders are retired. State goes to Notion, drafts and scratch to `.working/`, durable assets to the owning studio folder.
+- Venture `Working Files/` folders are retired. State goes to Notion, drafts and scratch to `.working/`, durable assets to the owning department folder.
 - Active State and Current State blocks in venture and department `_index.md` files are retired. Each file keeps durable context and gains a one-line pointer: "Live state: Notion Projects and Tasks, {workspace} workspace."
 
 ---

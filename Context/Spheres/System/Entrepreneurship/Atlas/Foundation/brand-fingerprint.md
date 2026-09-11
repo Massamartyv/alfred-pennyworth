@@ -73,7 +73,7 @@ Reverse-engineered from the destination. Each answer derives from the one above 
 
 ---
 
-## Layer 3 – Production
+## Layer 3 – Standards
 
 *To build next. How the clinical output is made and gated – ambient capture to SOAP to validated ICD-10 and CPT coding. Documentation standards, the doctor-in-loop review model, the binary validation contract every clinical output crosses. Copy and clinical-communication conventions.*
 
@@ -87,6 +87,7 @@ Reverse-engineered from the destination. Each answer derives from the one above 
 
 ## Amendment Log
 
+- **2026-09-11 – Layer 3 renamed Standards.** Heading only; no content changed. Supersedes *Layer 3 – Production*, retired with the Production studio in The Restoration so that the fingerprint no longer shares a word with a deleted folder. Portfolio-wide operator ruling.
 - **2026-06-04 – Fingerprint opened, Layer 0 drafted.** Created from the portfolio standard template. Layer 0 built interactively with the operator: ambition is chiropractic as beachhead to a multi-vertical clinical AI platform; the buyer is the documentation-drowned solo and small practice, led in through clinician-champions like Arlando; the register is modern-and-beloved on the surface, supported by deep specialist credibility and quiet reliability underneath. Strategic thesis carried in from the venture index: augmentation not replacement, the chiropractic knowledge layer as the moat, distribution as the real problem. Name and visual identity held for the art-direction gate. Layers 1 and 2 deferred to that gate; Layers 3 and 4 scaffolded. Version 0.1.
 
 ---

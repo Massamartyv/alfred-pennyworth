@@ -71,7 +71,7 @@ Reverse-engineered from the destination. Each answer derives from the one above 
 
 ---
 
-## Layer 3 – Production
+## Layer 3 – Standards
 
 *To build next. How talent is scouted, signed, developed and represented to the one standard. The development model that builds a multi-dimensional brand per talent. Client-facing standards for the creator economy. Copy and representation conventions.*
 
@@ -85,6 +85,7 @@ Reverse-engineered from the destination. Each answer derives from the one above 
 
 ## Amendment Log
 
+- **2026-09-11 – Layer 3 renamed Standards.** Heading only; no content changed. Supersedes *Layer 3 – Production*, retired with the Production studio in The Restoration so that the fingerprint no longer shares a word with a deleted folder. Portfolio-wide operator ruling.
 - **2026-06-04 – Fingerprint opened, Layer 0 drafted; venture reactivated from dormancy.** Created from the portfolio standard template. Layer 0 built interactively with the operator: core wedge inclusive and redefining; talent model a curated few developed toward stardom; client base the creator economy; altitude a boutique tastemaker talent house owning the upside. The distinctive position named – inclusive aperture, exclusive selection; Athena, not Aphrodite. Structural modernization to the seven-studio model and reconciliation of the retired Operations/AI agent paths are sequenced as the next Athena step. Layers 1 through 4 scaffolded. Version 0.1.
 
 ---
