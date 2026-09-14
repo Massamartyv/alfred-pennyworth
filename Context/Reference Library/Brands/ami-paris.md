@@ -4,6 +4,7 @@ type: brand
 domains: [fashion]
 spheres: [Fashion]
 tags: [parisian, accessible-luxury, everyday-chic, restraint]
+pull_for: [accessible-luxury, restraint]
 status: canon
 added: 2026-06-27
 ---

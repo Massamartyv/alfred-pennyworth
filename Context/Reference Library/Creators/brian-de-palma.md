@@ -4,6 +4,7 @@ type: creator
 domains: [film, directing]
 spheres: [Cinema]
 tags: [stylist, suspense, operatic-excess, visual-bravura, hitchcockian]
+pull_for: [art-direction, long-form-structure, maximalism]
 status: canon
 added: 2026-06-24
 ---

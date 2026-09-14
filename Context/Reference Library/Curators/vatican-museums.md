@@ -4,6 +4,7 @@ type: curator
 domains: [art, museum]
 spheres: [Art]
 tags: [renaissance, sistine-chapel, michelangelo, vatican-city, sacred-art]
+pull_for: [spatial-direction, art-direction]
 status: canon
 links: ["https://www.museivaticani.va"]
 added: 2026-06-24

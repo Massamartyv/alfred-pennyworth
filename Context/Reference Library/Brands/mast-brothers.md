@@ -4,6 +4,7 @@ type: brand
 domains: [chocolate, confectionery]
 spheres: [Culinary Arts]
 tags: [bean-to-bar, packaging-design, brooklyn, craft-aesthetics, cautionary]
+pull_for: [art-direction, craft, narrative]
 status: watch
 added: 2026-06-24
 ---

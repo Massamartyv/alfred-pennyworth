@@ -4,6 +4,8 @@ type: creator
 domains: [installation, sculpture, architecture]
 spheres: [Architecture, Art]
 tags: [spatial-memory, fabric-architecture, displacement, home]
+pull_for: [spatial-direction, materiality]
+themes: [belonging-and-exclusion]
 status: canon
 added: 2026-06-27
 ---

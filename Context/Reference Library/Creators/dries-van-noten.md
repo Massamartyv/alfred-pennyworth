@@ -4,6 +4,7 @@ type: creator
 domains: [fashion]
 spheres: [Fashion]
 tags: [print, textile, antwerp-six, fabric-first]
+pull_for: [materiality, fabric-first, restraint]
 status: canon
 added: 2026-06-27
 ---

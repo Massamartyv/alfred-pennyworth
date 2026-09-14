@@ -4,6 +4,7 @@ type: curator
 domains: [architecture, interior design]
 spheres: [Architecture, Interior Design]
 tags: [contemporary-african-architecture, heritage-forward, textile-and-symbol, practitioner-led, diaspora]
+pull_for: [heritage, materiality, diaspora, world-building, cultural-bridge]
 status: active
 added: 2026-07-10
 ---

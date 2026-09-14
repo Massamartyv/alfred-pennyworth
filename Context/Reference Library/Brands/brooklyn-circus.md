@@ -4,6 +4,7 @@ type: brand
 domains: [fashion]
 spheres: [Fashion]
 tags: [americana, heritage, storytelling, high-low]
+pull_for: [heritage, narrative, high-low]
 status: canon
 added: 2026-06-27
 ---

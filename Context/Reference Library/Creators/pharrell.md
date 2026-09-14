@@ -4,6 +4,7 @@ type: creator
 domains: [fashion, music]
 spheres: [Fashion, Music Production]
 tags: [playful-eclecticism, unexpected-accessories, high-low, streetwear-couture-fusion]
+pull_for: [art-direction, high-low]
 status: canon
 added: 2026-06-21
 ---

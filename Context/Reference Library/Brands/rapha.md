@@ -4,6 +4,7 @@ type: brand
 domains: [cycling, fashion]
 spheres: [Fashion]
 tags: [cycling, performance, premium, community]
+pull_for: [investment-luxury]
 status: canon
 added: 2026-06-27
 ---

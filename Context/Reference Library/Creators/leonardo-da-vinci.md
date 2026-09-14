@@ -4,6 +4,7 @@ type: creator
 domains: [visual art, science, engineering]
 spheres: [Art]
 tags: [renaissance, polymath, curiosity, art-and-science, mastery]
+pull_for: [reinvention, craft, precision]
 status: canon
 added: 2026-06-24
 ---

@@ -4,6 +4,7 @@ type: work
 domains: [fragrance]
 spheres: [Fragrance]
 tags: [oriental-floral, status-scent, amber, cultural-reach]
+pull_for: [investment-luxury, positioning]
 status: canon
 added: 2026-06-27
 ---

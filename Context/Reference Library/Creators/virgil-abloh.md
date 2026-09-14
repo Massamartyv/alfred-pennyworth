@@ -4,6 +4,7 @@ type: creator
 domains: [interior design, fashion, architecture]
 spheres: [Interior Design, Fashion]
 tags: [negative-space, spatial-philosophy, rigor, cross-disciplinary]
+pull_for: [spatial-direction, art-direction, restraint, reinvention]
 status: canon
 added: 2026-06-21
 ---

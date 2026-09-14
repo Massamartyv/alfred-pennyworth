@@ -4,6 +4,7 @@ type: curator
 domains: [architecture, interior design]
 spheres: [Architecture, Interior Design]
 tags: [beton-brut, raw-concrete, monumental, structural-honesty, sculptural-mass]
+pull_for: [materiality, texture, warmth, scale, structural-honesty]
 status: canon
 added: 2026-06-24
 ---

@@ -4,6 +4,7 @@ type: work
 domains: [restaurant, salumeria]
 spheres: [Culinary Arts]
 tags: [salumeria, medellin, charcuterie, convivial, indoor-outdoor]
+pull_for: [hospitality, indoor-outdoor]
 status: canon
 added: 2026-06-24
 ---

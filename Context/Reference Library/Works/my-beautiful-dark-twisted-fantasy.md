@@ -4,6 +4,8 @@ type: work
 domains: [music]
 spheres: [Music Production]
 tags: [maximalist-ambition, genius-ego-tension, vulnerability-dressed-as-grandiosity, orchestral-rap, cultural-peak]
+pull_for: [sound-design, world-building, maximalism, high-low]
+themes: [ambition-and-hubris, vulnerability]
 status: canon
 added: 2026-06-21
 ---

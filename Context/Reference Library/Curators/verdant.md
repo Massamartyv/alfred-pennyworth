@@ -4,6 +4,7 @@ type: curator
 domains: [interior design]
 spheres: [Interior Design]
 tags: [green-saturation, plant-density, garden-room, living-interior, biophilic-adjacent]
+pull_for: [biophilic, indoor-outdoor, color-and-light]
 status: active
 added: 2026-07-10
 ---

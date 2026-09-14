@@ -4,6 +4,7 @@ type: brand
 domains: [fashion]
 spheres: [Fashion]
 tags: [scandinavian, minimalism, denim, subversive]
+pull_for: [restraint, subversion]
 status: canon
 added: 2026-06-27
 ---

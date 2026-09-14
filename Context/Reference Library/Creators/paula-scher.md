@@ -4,6 +4,7 @@ type: creator
 domains: [graphic design, typography, identity, environmental graphics]
 spheres: [Art]
 tags: [typography, art-direction, high-low, maximalism, spatial-direction]
+pull_for: [typography, art-direction, high-low, maximalism, spatial-direction]
 status: canon
 links: [https://www.pentagram.com/about/paula-scher]
 added: 2026-07-30

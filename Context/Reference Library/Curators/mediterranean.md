@@ -4,6 +4,7 @@ type: curator
 domains: [architecture, interior design]
 spheres: [Architecture, Interior Design]
 tags: [indoor-outdoor, stucco, terracotta, warmth, courtyard]
+pull_for: [materiality, indoor-outdoor, warmth, color-and-light, spatial-direction]
 status: canon
 added: 2026-06-24
 ---

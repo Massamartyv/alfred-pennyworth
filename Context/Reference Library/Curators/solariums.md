@@ -4,6 +4,7 @@ type: curator
 domains: [architecture, interior design]
 spheres: [Architecture, Interior Design]
 tags: [glass-room, sunlight-as-therapy, all-glass, light-capture, healing-lineage]
+pull_for: [color-and-light, indoor-outdoor, wellbeing]
 status: canon
 added: 2026-07-10
 ---

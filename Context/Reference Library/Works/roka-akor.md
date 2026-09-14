@@ -4,6 +4,7 @@ type: work
 domains: [restaurant, japanese]
 spheres: [Culinary Arts]
 tags: [robatayaki, japanese, charcoal-grill, moody-dining, upscale-social]
+pull_for: [immersive-atmosphere, hospitality]
 status: canon
 added: 2026-06-24
 ---

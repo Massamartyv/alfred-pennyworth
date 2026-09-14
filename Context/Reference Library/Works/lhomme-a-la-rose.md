@@ -4,6 +4,7 @@ type: work
 domains: [fragrance]
 spheres: [Fragrance]
 tags: [masculine-floral, rose, elegant, prestige]
+pull_for: [restraint, investment-luxury]
 status: canon
 added: 2026-06-27
 ---

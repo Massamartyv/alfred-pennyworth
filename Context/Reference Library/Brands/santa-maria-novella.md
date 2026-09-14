@@ -4,6 +4,7 @@ type: brand
 domains: [fragrance, grooming]
 spheres: [Fragrance]
 tags: [heritage-craft, apothecary, cross-category, materiality, ritual]
+pull_for: [heritage, craft, positioning, ritual]
 status: canon
 added: 2026-06-21
 ---

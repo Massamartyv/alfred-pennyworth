@@ -4,6 +4,8 @@ type: creator
 domains: [film, directing]
 spheres: [Cinema]
 tags: [blockbuster, wonder, populist-craft, world-building, sentiment-and-spectacle]
+pull_for: [accessible-luxury, world-building, maximalism, narrative]
+themes: [dreams-and-ambition]
 status: canon
 added: 2026-06-24
 ---

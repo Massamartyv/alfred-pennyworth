@@ -4,6 +4,7 @@ type: creator
 domains: [music, beauty, fashion, business]
 spheres: [Music Production]
 tags: [catalog-longevity, anti-pop-conviction, empire-pivot, scarcity, brand-gravity]
+pull_for: [ownership-as-strategy, positioning, reinvention]
 status: canon
 added: 2026-07-10
 ---

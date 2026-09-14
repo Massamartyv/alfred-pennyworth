@@ -4,6 +4,7 @@ type: curator
 domains: [architecture, dwelling, travel]
 spheres: [Architecture, Interior Design]
 tags: [floating-dwelling, water-living, regional-vernacular, counterculture, adaptive-typology]
+pull_for: [sense-of-place, spatial-direction]
 status: canon
 added: 2026-07-10
 ---

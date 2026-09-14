@@ -4,6 +4,7 @@ type: curator
 domains: [art, museum]
 spheres: [Art]
 tags: [contemporary, adaptive-reuse, power-station, london, turbine-hall]
+pull_for: [structural-honesty, spatial-direction]
 status: canon
 links: ["https://www.tate.org.uk/visit/tate-modern"]
 added: 2026-06-24

@@ -4,6 +4,8 @@ type: work
 domains: [music]
 spheres: [Music Production]
 tags: [Black-joy, house-culture, precision-as-freedom, ancestral-tribute, excellence, dance-music]
+pull_for: [sound-design, precision, heritage]
+themes: [cultural-identity]
 status: canon
 added: 2026-06-21
 ---

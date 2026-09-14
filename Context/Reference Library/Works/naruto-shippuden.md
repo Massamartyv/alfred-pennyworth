@@ -4,6 +4,8 @@ type: work
 domains: [animation, television]
 spheres: [Cinema]
 tags: [perseverance, found-family, legacy, identity, surpassing-origins, will-of-fire]
+pull_for: [narrative, world-building, long-form-structure]
+themes: [found-family, perseverance, legacy]
 status: canon
 added: 2026-06-21
 ---

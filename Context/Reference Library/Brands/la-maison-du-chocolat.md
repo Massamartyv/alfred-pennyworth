@@ -4,6 +4,7 @@ type: brand
 domains: [chocolate, confectionery]
 spheres: [Culinary Arts]
 tags: [ganache, french-luxury, chocolate-as-gastronomy, restraint, heritage]
+pull_for: [investment-luxury, restraint, heritage, craft]
 status: canon
 added: 2026-06-24
 ---

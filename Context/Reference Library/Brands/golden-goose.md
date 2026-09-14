@@ -4,6 +4,7 @@ type: brand
 domains: [footwear, fashion]
 spheres: [Fashion]
 tags: [sneaker, distressed, italian, statement]
+pull_for: [texture, conviction, high-low]
 status: canon
 added: 2026-06-27
 ---

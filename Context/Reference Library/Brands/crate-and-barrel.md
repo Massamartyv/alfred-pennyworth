@@ -4,6 +4,7 @@ type: brand
 domains: [home goods, furniture, retail]
 spheres: [Interior Design]
 tags: [design-democratization, merchandising, display-as-brand, heritage-retail, european-import]
+pull_for: [merchandising, accessible-luxury, heritage]
 status: canon
 added: 2026-07-10
 ---

@@ -4,6 +4,7 @@ type: curator
 domains: [architecture, interior design]
 spheres: [Architecture, Interior Design]
 tags: [climate-responsive, indoor-outdoor, passive-cooling, landscape-integration, vernacular-modernism]
+pull_for: [indoor-outdoor, nature-integration, materiality]
 status: canon
 added: 2026-07-10
 ---

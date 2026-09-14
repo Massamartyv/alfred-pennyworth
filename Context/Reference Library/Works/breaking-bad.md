@@ -4,6 +4,8 @@ type: work
 domains: [television]
 spheres: [Cinema]
 tags: [transformation, pride-as-fatal-flaw, moral-compromise, character-study, dramatic-inevitability]
+pull_for: [narrative, long-form-structure]
+themes: [emotional-honesty, ambition-and-hubris, moral-decay]
 status: canon
 added: 2026-06-21
 ---

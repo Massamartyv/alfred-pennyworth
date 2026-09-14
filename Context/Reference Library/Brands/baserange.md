@@ -4,6 +4,7 @@ type: brand
 domains: [fashion]
 spheres: [Fashion]
 tags: [natural-fibre, sustainability, basics, restraint]
+pull_for: [materiality, nature-integration, restraint]
 status: canon
 added: 2026-06-27
 ---

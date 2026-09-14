@@ -4,6 +4,7 @@ type: brand
 domains: [home fragrance, diffusers, interior design]
 spheres: [Interior Design, Fragrance]
 tags: [diffuser-as-object, waterless, scent-technology, design-award, wellness-design]
+pull_for: [art-direction, ritual, wellbeing]
 status: active
 added: 2026-07-10
 ---

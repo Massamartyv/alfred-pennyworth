@@ -4,6 +4,7 @@ type: curator
 domains: [architecture, interior design, furniture]
 spheres: [Architecture, Interior Design]
 tags: [clean-line, organic-shape, mass-craft, warm-modernism, furniture-as-icon]
+pull_for: [restraint, materiality, warmth]
 status: canon
 added: 2026-07-10
 ---

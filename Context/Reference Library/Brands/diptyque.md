@@ -4,6 +4,7 @@ type: brand
 domains: [fragrance]
 spheres: [Fragrance]
 tags: [heritage, candle-and-scent, botanical, restraint]
+pull_for: [heritage, restraint]
 status: canon
 added: 2026-06-27
 ---

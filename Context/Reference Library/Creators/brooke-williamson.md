@@ -4,6 +4,7 @@ type: creator
 domains: [culinary, restaurants]
 spheres: [Culinary Arts]
 tags: [vegetable-forward, california-cuisine, top-chef, farmers-market, produce-first]
+pull_for: [provenance, craft, hospitality]
 status: canon
 added: 2026-06-24
 ---

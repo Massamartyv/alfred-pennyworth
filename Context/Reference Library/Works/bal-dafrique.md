@@ -4,6 +4,7 @@ type: work
 domains: [fragrance]
 spheres: [Fragrance]
 tags: [woody-floral-musk, modern-classic, warm, gateway-niche]
+pull_for: [warmth]
 status: canon
 added: 2026-06-27
 ---

@@ -4,6 +4,7 @@ type: brand
 domains: [grooming, interior design]
 spheres: [Interior Design, Human Anatomy]
 tags: [design-conscious, ritual, restraint, interior-integration, materiality]
+pull_for: [art-direction, ritual, restraint, spatial-direction]
 status: canon
 added: 2026-06-21
 ---

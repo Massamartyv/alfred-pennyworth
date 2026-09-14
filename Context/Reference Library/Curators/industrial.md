@@ -4,6 +4,7 @@ type: curator
 domains: [architecture, interior design]
 spheres: [Architecture, Interior Design]
 tags: [material-honesty, exposed-structure, loft, raw-and-warm, patina]
+pull_for: [materiality, structural-honesty, texture, warmth, spatial-direction]
 status: canon
 added: 2026-06-24
 ---

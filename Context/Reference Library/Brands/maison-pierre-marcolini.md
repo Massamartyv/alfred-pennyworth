@@ -4,6 +4,7 @@ type: brand
 domains: [chocolate, confectionery]
 spheres: [Culinary Arts]
 tags: [haute-chocolate, bean-to-bar, seasonality, belgian, craft-led]
+pull_for: [craft, provenance, restraint]
 status: canon
 added: 2026-06-24
 ---

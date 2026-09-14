@@ -4,6 +4,8 @@ type: creator
 domains: [television, writing]
 spheres: [Cinema]
 tags: [long-form-structure, moral-transformation, slow-burn, showrunner, consequence]
+pull_for: [long-form-structure, narrative]
+themes: [transformation, moral-decay]
 status: canon
 added: 2026-06-24
 ---

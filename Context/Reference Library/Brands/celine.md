@@ -4,6 +4,7 @@ type: brand
 domains: [fashion, leather goods]
 spheres: [Fashion]
 tags: [quiet-luxury, restraint, parisian, minimalism]
+pull_for: [quiet-luxury, restraint]
 status: canon
 added: 2026-06-27
 ---

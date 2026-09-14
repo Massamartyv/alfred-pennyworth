@@ -4,6 +4,7 @@ type: work
 domains: [fragrance]
 spheres: [Fragrance]
 tags: [oud, rose-oud, refined, collection-privee]
+pull_for: [restraint]
 status: canon
 added: 2026-06-27
 ---

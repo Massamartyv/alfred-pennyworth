@@ -4,6 +4,7 @@ type: creator
 domains: [visual art]
 spheres: [Art]
 tags: [portraiture, reclaiming-the-canon, black-subjecthood, old-master-pose, ornament]
+pull_for: [subversion, art-direction, maximalism]
 status: canon
 added: 2026-06-24
 ---

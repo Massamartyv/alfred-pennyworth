@@ -4,6 +4,7 @@ type: creator
 domains: [visual art]
 spheres: [Art]
 tags: [impressionism, light, water-and-garden, late-style, atmosphere]
+pull_for: [color-and-light, immersive-atmosphere, biophilic]
 status: canon
 added: 2026-06-24
 ---

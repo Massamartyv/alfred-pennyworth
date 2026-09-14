@@ -4,6 +4,7 @@ type: brand
 domains: [home goods, marketplace, fashion]
 spheres: [Interior Design]
 tags: [logoless-luxury, anti-logo, same-factory, quality-over-brand, membership]
+pull_for: [anti-logo, materiality, positioning, merchandising]
 status: canon
 added: 2026-07-10
 ---

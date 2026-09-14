@@ -4,6 +4,7 @@ type: creator
 domains: [music, rock, spectacle]
 spheres: [Music Production]
 tags: [excess-as-brand, spectacle, image-first, longevity-through-theatre, sunset-strip]
+pull_for: [maximalism, art-direction, world-building, conviction]
 status: canon
 added: 2026-07-10
 ---

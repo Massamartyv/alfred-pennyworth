@@ -4,6 +4,7 @@ type: creator
 domains: [visual art]
 spheres: [Art]
 tags: [street-to-gallery, rawness, neo-expressionism, cultural-commentary]
+pull_for: [art-direction, texture, high-low, materiality]
 status: canon
 added: 2026-06-21
 ---

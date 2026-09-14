@@ -4,6 +4,7 @@ type: creator
 domains: [visual art, fashion]
 spheres: [Art]
 tags: [superflat, high-low, anime-iconography, art-fashion, collaboration]
+pull_for: [high-low, art-direction]
 status: canon
 added: 2026-06-24
 ---

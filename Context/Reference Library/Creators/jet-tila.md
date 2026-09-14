@@ -4,6 +4,7 @@ type: creator
 domains: [culinary, restaurants]
 spheres: [Culinary Arts]
 tags: [thai-cuisine, pan-asian, cultural-custodian, heritage, fusion]
+pull_for: [heritage, cultural-bridge]
 status: canon
 added: 2026-06-24
 ---

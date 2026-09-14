@@ -4,6 +4,7 @@ type: work
 domains: [film]
 spheres: [Cinema]
 tags: [nonlinear-structure, dialogue-as-set-piece, high-low, needle-drop, pop-culture-canon]
+pull_for: [long-form-structure, voice-and-tone, high-low, sound-design, narrative]
 status: canon
 added: 2026-06-28
 ---

@@ -4,6 +4,7 @@ type: work
 domains: [film]
 spheres: [Cinema]
 tags: [nonlinear-structure, dialogue-as-suspense, restraint-of-means, debut-grammar, style-as-resistance]
+pull_for: [long-form-structure, voice-and-tone, restraint, art-direction, narrative]
 status: canon
 added: 2026-06-28
 ---

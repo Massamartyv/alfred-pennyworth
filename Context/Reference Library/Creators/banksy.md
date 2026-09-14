@@ -4,6 +4,7 @@ type: creator
 domains: [visual art, street art]
 spheres: [Art]
 tags: [street-art, subversion, context-as-content, anti-establishment, wit]
+pull_for: [subversion]
 status: canon
 added: 2026-06-24
 ---

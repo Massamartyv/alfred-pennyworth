@@ -4,6 +4,8 @@ type: brand
 domains: [fragrance]
 spheres: [Fragrance]
 tags: [niche, memory-and-mood, art-direction, abstract]
+pull_for: [art-direction]
+themes: [nostalgia]
 status: canon
 added: 2026-06-27
 ---

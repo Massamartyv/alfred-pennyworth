@@ -4,6 +4,7 @@ type: creator
 domains: [oratory, political thought, autobiography, organising]
 spheres: [Public Speaking, Philosophy, Social Development, Religion]
 tags: [rhetoric, revision-in-public, self-education, uncompromising-position, reinvention]
+pull_for: [rhetoric, reinvention, self-education, conviction]
 status: canon
 links: []
 added: 2026-08-04

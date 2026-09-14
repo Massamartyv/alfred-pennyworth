@@ -4,6 +4,7 @@ type: curator
 domains: [music, record labels, a&r]
 spheres: [Music Production]
 tags: [taste-authority, anti-silo, artist-development, executive-curation, category-defiance]
+pull_for: [taste-authority, curation-strategy, institution-building, positioning]
 status: canon
 added: 2026-07-10
 ---

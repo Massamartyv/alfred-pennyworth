@@ -4,6 +4,7 @@ type: creator
 domains: [culinary, restaurants]
 spheres: [Culinary Arts]
 tags: [west-african, diaspora, ghanaian, fine-dining, forward-looking-heritage]
+pull_for: [diaspora, heritage, cultural-bridge]
 status: canon
 added: 2026-06-24
 ---

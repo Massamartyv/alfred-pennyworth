@@ -4,6 +4,7 @@ type: creator
 domains: [film, directing, technology]
 spheres: [Cinema]
 tags: [world-building, technical-innovation, spectacle, scale, immersion]
+pull_for: [world-building, immersive-atmosphere, maximalism, precision, scale]
 status: canon
 added: 2026-06-24
 ---

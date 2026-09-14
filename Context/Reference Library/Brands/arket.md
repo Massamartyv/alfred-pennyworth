@@ -4,6 +4,7 @@ type: brand
 domains: [fashion, homeware]
 spheres: [Fashion]
 tags: [scandinavian, basics, market-hall, accessible]
+pull_for: [merchandising, accessible-luxury]
 status: canon
 added: 2026-06-27
 ---

@@ -4,6 +4,7 @@ type: brand
 domains: [footwear, fashion]
 spheres: [Fashion]
 tags: [minimalism, sneaker, gold-stamp, restraint]
+pull_for: [restraint, precision]
 status: canon
 added: 2026-06-27
 ---

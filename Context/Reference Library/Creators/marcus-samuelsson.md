@@ -4,6 +4,7 @@ type: creator
 domains: [culinary, restaurants]
 spheres: [Culinary Arts]
 tags: [three-continent-fusion, harlem, diaspora, james-beard, autobiography-as-cuisine]
+pull_for: [diaspora, cultural-bridge, hospitality, self-authorship]
 status: canon
 added: 2026-06-24
 ---

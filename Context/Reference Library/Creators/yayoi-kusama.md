@@ -4,6 +4,7 @@ type: creator
 domains: [visual art]
 spheres: [Art]
 tags: [repetition, infinity, polka-dot, visual-system, obsession]
+pull_for: [art-direction, immersive-atmosphere, world-building, high-low]
 status: canon
 added: 2026-06-24
 ---

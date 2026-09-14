@@ -4,6 +4,7 @@ type: brand
 domains: [footwear, fashion]
 spheres: [Fashion]
 tags: [french, heritage, footwear, craft]
+pull_for: [heritage, craft]
 status: canon
 added: 2026-06-27
 ---

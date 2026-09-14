@@ -4,6 +4,7 @@ type: creator
 domains: [film, directing]
 spheres: [Cinema]
 tags: [cinematography, surrealism, outrageousness, genre-defiance, style-as-resistance]
+pull_for: [art-direction, subversion, maximalism]
 status: canon
 added: 2026-06-21
 ---

@@ -4,6 +4,7 @@ type: creator
 domains: [music, production, world-building]
 spheres: [Music Production]
 tags: [world-building, immersive-atmosphere, nostalgia-as-euphoria, sonic-fingerprint, ear-candy]
+pull_for: [world-building, sound-design, immersive-atmosphere, narrative]
 status: canon
 added: 2026-06-21
 ---

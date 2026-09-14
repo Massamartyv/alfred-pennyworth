@@ -4,6 +4,8 @@ type: work
 domains: [film]
 spheres: [Cinema]
 tags: [ambition, hubris, immigrant-hunger, the-price-of-the-climb, power-as-trap]
+pull_for: [narrative, long-form-structure]
+themes: [ambition-and-hubris, cost-of-greatness]
 status: canon
 added: 2026-06-21
 ---

@@ -4,6 +4,7 @@ type: creator
 domains: [culinary, restaurants, television]
 spheres: [Culinary Arts]
 tags: [gullah-geechee, lowcountry, heritage-preservation, southern, hospitality]
+pull_for: [heritage, hospitality, cultural-bridge]
 status: canon
 added: 2026-06-24
 ---

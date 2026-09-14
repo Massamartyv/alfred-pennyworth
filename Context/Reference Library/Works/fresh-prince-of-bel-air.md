@@ -4,6 +4,8 @@ type: work
 domains: [television]
 spheres: [Cinema]
 tags: [code-switching, self-invention, culture-collision, humor-as-armor, class-and-identity]
+pull_for: [voice-and-tone]
+themes: [cultural-identity, class-and-identity, vulnerability, emotional-honesty]
 status: canon
 added: 2026-06-21
 ---

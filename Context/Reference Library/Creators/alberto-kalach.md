@@ -4,6 +4,7 @@ type: creator
 domains: [architecture, urbanism, landscape]
 spheres: [Architecture]
 tags: [biophilic, botanical-machine, materiality, water-urbanism, organic-geometry]
+pull_for: [biophilic, materiality, spatial-direction, nature-integration, world-building]
 status: canon
 links: ["http://www.kalach.com/taller"]
 added: 2026-06-24

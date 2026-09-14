@@ -4,6 +4,7 @@ type: brand
 domains: [gaming, hardware, entertainment]
 spheres: [Gaming]
 tags: [world-building, platform-ecosystem, immersive-atmosphere, brand-identity, high-low]
+pull_for: [world-building, institution-building, positioning, immersive-atmosphere, high-low]
 status: canon
 added: 2026-06-29
 ---

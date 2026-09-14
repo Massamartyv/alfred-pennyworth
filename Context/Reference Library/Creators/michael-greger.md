@@ -4,6 +4,7 @@ type: creator
 domains: [nutrition, food science, medicine]
 spheres: [Culinary Arts, Medicine]
 tags: [evidence-based-nutrition, plant-based, health-as-foundation, longevity, how-not-to-die, how-not-to-age]
+pull_for: [evidence, wellbeing]
 status: canon
 added: 2026-06-24
 ---

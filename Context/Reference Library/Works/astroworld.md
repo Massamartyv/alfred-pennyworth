@@ -4,6 +4,8 @@ type: work
 domains: [music]
 spheres: [Music Production]
 tags: [world-building, ear-candy, immersive-atmosphere, nostalgia-as-euphoria, Houston-mythology]
+pull_for: [sound-design, world-building, immersive-atmosphere, sense-of-place]
+themes: [nostalgia]
 status: canon
 added: 2026-06-21
 ---

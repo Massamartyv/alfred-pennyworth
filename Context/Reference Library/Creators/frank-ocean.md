@@ -4,6 +4,8 @@ type: creator
 domains: [music, production, aesthetics]
 spheres: [Music Production, Cinema]
 tags: [sonic-fingerprint, nostalgia-as-texture, restraint, layered-depth, reinvention]
+pull_for: [sound-design, voice-and-tone, restraint, immersive-atmosphere]
+themes: [nostalgia]
 status: canon
 added: 2026-06-21
 ---

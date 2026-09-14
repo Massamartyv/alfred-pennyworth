@@ -4,6 +4,7 @@ type: curator
 domains: [art, museum]
 spheres: [Art]
 tags: [imperial, encyclopedic, winter-palace, saint-petersburg, scale]
+pull_for: [scale, maximalism, spatial-direction, art-direction]
 status: canon
 links: ["https://www.hermitagemuseum.org"]
 added: 2026-06-24

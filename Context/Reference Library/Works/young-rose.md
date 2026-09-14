@@ -4,6 +4,7 @@ type: work
 domains: [fragrance]
 spheres: [Fragrance]
 tags: [floral-woody-musk, modern-rose, unisex, restrained]
+pull_for: [restraint]
 status: canon
 added: 2026-06-27
 ---

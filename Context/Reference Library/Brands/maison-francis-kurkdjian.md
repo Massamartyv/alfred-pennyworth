@@ -4,6 +4,7 @@ type: brand
 domains: [fragrance]
 spheres: [Fragrance]
 tags: [haute-parfumerie, technical-precision, signature-scent, parisian]
+pull_for: [craft, precision, positioning]
 status: canon
 added: 2026-06-27
 ---

@@ -4,6 +4,7 @@ type: creator
 domains: [music, hip-hop, rage]
 spheres: [Music Production]
 tags: [rage-lineage, emo-trap, commitment-to-persona, philadelphia, genre-blur]
+pull_for: [reinvention, positioning, high-low, world-building, conviction]
 status: canon
 added: 2026-07-10
 ---

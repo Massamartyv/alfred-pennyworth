@@ -4,6 +4,7 @@ type: curator
 domains: [architecture, interior design]
 spheres: [Architecture, Interior Design]
 tags: [modernism, form-follows-function, open-plan, clean-line, glass-and-steel]
+pull_for: [restraint, spatial-direction, structural-honesty]
 status: canon
 added: 2026-06-24
 ---

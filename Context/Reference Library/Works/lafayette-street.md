@@ -4,6 +4,7 @@ type: work
 domains: [fragrance]
 spheres: [Fragrance]
 tags: [fresh-woody-musk, versatile, new-york, easy-wear]
+pull_for: [accessible-luxury, sense-of-place]
 status: canon
 added: 2026-06-27
 ---

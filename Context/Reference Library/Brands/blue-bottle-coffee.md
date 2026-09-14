@@ -4,6 +4,7 @@ type: brand
 domains: [coffee]
 spheres: [Culinary Arts]
 tags: [third-wave, freshness-first, minimalism, specialty-coffee, craft]
+pull_for: [provenance, restraint, craft, ritual]
 status: canon
 added: 2026-06-24
 ---

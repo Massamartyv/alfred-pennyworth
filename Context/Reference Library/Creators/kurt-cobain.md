@@ -4,6 +4,7 @@ type: creator
 domains: [fashion, music]
 spheres: [Fashion, Music Production]
 tags: [anti-style, grunge, effortless-nonchalance, thrifted-layering]
+pull_for: [subversion, restraint]
 status: canon
 added: 2026-06-21
 ---

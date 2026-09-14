@@ -4,6 +4,7 @@ type: curator
 domains: [art, museum]
 spheres: [Art]
 tags: [the-canon, most-visited, palace-museum, paris, antiquity]
+pull_for: [taste-authority, spatial-direction, art-direction]
 status: canon
 links: ["https://www.louvre.fr"]
 added: 2026-06-24

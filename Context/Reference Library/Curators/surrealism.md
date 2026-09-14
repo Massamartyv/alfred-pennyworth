@@ -4,6 +4,7 @@ type: curator
 domains: [visual art, literature, film]
 spheres: [Art]
 tags: [dream-logic, the-unconscious, automatism, the-uncanny, juxtaposition]
+pull_for: [immersive-atmosphere, high-low, conviction, art-direction]
 status: canon
 added: 2026-06-24
 ---

@@ -4,6 +4,7 @@ type: creator
 domains: [music, fashion, film]
 spheres: [Music Production, Fashion]
 tags: [philosophical-elegance, genre-defiance, restraint, southern-surrealism, reinvention]
+pull_for: [voice-and-tone, reinvention, restraint, conviction, subversion]
 status: canon
 added: 2026-06-21
 ---

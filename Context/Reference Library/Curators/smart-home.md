@@ -4,6 +4,7 @@ type: curator
 domains: [interior design, technology]
 spheres: [Interior Design]
 tags: [concealed-technology, home-automation, intelligent-comfort, no-wires, integration]
+pull_for: [restraint, structural-honesty]
 status: canon
 added: 2026-07-10
 ---

@@ -4,6 +4,7 @@ type: brand
 domains: [fashion, accessories, homeware]
 spheres: [Fashion, Interior Design]
 tags: [investment-luxury, craft-led, cross-category, accessories, materiality]
+pull_for: [investment-luxury, craft, positioning]
 status: canon
 added: 2026-06-21
 ---

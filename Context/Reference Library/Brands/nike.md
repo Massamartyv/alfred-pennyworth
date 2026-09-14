@@ -4,6 +4,7 @@ type: brand
 domains: [fashion, footwear, athletics]
 spheres: [Fashion]
 tags: [selective-alignment, sub-line-curation, sneaker, athletic, high-low]
+pull_for: [curation-strategy, high-low]
 status: canon
 added: 2026-06-21
 ---

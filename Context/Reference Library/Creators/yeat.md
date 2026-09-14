@@ -4,6 +4,7 @@ type: creator
 domains: [music, hip-hop, rage]
 spheres: [Music Production]
 tags: [lexicon-world-building, bell-and-tonka, sonic-signature, owner-operator, rage]
+pull_for: [world-building, sound-design, voice-and-tone, ownership-as-strategy]
 status: canon
 added: 2026-07-10
 ---

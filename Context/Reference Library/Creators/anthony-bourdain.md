@@ -4,6 +4,7 @@ type: creator
 domains: [food, travel, culture]
 spheres: [Culinary Arts, Travel]
 tags: [taste-compass, food-culture, no-pretension, storytelling]
+pull_for: [narrative, taste-authority, hospitality, cultural-bridge]
 status: canon
 added: 2026-06-21
 ---

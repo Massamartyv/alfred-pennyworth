@@ -4,6 +4,7 @@ type: curator
 domains: [landscape, gardening, ecology]
 spheres: [Architecture, Interior Design]
 tags: [habitat-gardening, ecological-function, native-species, lawn-conversion, pollinator]
+pull_for: [nature-integration, biophilic]
 status: canon
 added: 2026-07-10
 ---

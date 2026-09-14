@@ -4,6 +4,7 @@ type: curator
 domains: [architecture, residential]
 spheres: [Architecture, Interior Design]
 tags: [open-air-bathing, coastal-ritual, functional-to-amenity, threshold-ritual, elemental]
+pull_for: [indoor-outdoor, ritual]
 status: canon
 added: 2026-07-10
 ---

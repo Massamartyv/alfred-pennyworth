@@ -4,6 +4,7 @@ type: brand
 domains: [furniture, home goods, retail]
 spheres: [Interior Design]
 tags: [brooklyn-design, fair-trade, artisan-collaboration, accessible-modern, certified-sourcing]
+pull_for: [provenance, craft, accessible-luxury, positioning]
 status: canon
 added: 2026-07-10
 ---

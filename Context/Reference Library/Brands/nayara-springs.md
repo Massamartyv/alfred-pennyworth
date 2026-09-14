@@ -4,6 +4,7 @@ type: brand
 domains: [travel, hospitality, experiences]
 spheres: [Travel]
 tags: [five-star-hospitality, pinnacle-standard, formative-experience, materiality, ritual]
+pull_for: [hospitality, precision, ritual]
 status: canon
 added: 2026-06-21
 ---

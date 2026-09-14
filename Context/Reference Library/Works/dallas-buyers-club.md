@@ -4,6 +4,8 @@ type: work
 domains: [film]
 spheres: [Cinema]
 tags: [transformation, defiance, mortality, against-the-system, total-commitment]
+pull_for: [subversion]
+themes: [transformation, cost-of-greatness, emotional-honesty]
 status: canon
 added: 2026-06-24
 ---

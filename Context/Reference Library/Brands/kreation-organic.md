@@ -4,6 +4,7 @@ type: brand
 domains: [juice, cafe, wellness]
 spheres: [Culinary Arts]
 tags: [organic, cold-pressed, persian-mediterranean, wellness, juice]
+pull_for: [wellbeing, ritual]
 status: canon
 added: 2026-06-24
 ---

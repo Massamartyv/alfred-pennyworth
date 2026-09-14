@@ -4,6 +4,7 @@ type: creator
 domains: [film, directing]
 spheres: [Cinema]
 tags: [world-building, atmosphere, cultural-weight, film-direction]
+pull_for: [world-building, art-direction, immersive-atmosphere, spatial-direction]
 status: canon
 added: 2026-06-21
 ---

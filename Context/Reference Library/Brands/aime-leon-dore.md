@@ -4,6 +4,7 @@ type: brand
 domains: [fashion, streetwear]
 spheres: [Fashion]
 tags: [streetwear, high-low, new-york, cultural-credibility, world-building]
+pull_for: [high-low, world-building, cultural-bridge]
 status: canon
 added: 2026-06-21
 ---

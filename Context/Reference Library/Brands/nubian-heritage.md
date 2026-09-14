@@ -4,6 +4,7 @@ type: brand
 domains: [personal care, bath and body]
 spheres: [Personal Development]
 tags: [heritage, african-black-soap, diaspora]
+pull_for: [heritage, diaspora]
 status: canon
 added: 2026-06-27
 ---

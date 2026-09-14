@@ -4,6 +4,7 @@ type: creator
 domains: [food writing, flavor theory]
 spheres: [Culinary Arts]
 tags: [flavor-pairing, the-flavor-bible, culinary-reference, creative-engine, technique]
+pull_for: [craft]
 status: canon
 added: 2026-06-24
 ---

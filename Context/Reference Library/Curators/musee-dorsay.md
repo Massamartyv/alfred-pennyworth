@@ -4,6 +4,7 @@ type: curator
 domains: [art, museum]
 spheres: [Art]
 tags: [impressionism, post-impressionism, adaptive-reuse, paris, modern-life]
+pull_for: [color-and-light, art-direction]
 status: canon
 links: ["https://www.musee-orsay.fr"]
 added: 2026-06-24

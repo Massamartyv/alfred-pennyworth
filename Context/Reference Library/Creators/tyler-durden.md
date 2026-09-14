@@ -4,6 +4,7 @@ type: creator
 domains: [fashion]
 spheres: [Fashion]
 tags: [anti-style, maximalist, high-low, statement]
+pull_for: [subversion, maximalism, high-low, conviction]
 status: canon
 added: 2026-06-27
 ---

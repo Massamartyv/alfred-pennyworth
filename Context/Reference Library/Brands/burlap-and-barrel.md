@@ -4,6 +4,7 @@ type: brand
 domains: [spices, pantry]
 spheres: [Culinary Arts]
 tags: [single-origin, direct-trade, provenance, specialty-pantry, ethics]
+pull_for: [provenance]
 status: canon
 added: 2026-06-24
 ---

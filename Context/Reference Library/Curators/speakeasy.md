@@ -4,6 +4,7 @@ type: curator
 domains: [interior design, hospitality]
 spheres: [Interior Design]
 tags: [concealment, moody-intimacy, hidden-entrance, vintage-material, exclusivity]
+pull_for: [restraint, immersive-atmosphere, ritual, world-building, hospitality]
 status: canon
 added: 2026-07-10
 ---

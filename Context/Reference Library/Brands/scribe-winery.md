@@ -4,6 +4,7 @@ type: brand
 domains: [wine]
 spheres: [Culinary Arts]
 tags: [natural-wine, sonoma, place-as-experience, minimal-intervention, new-world]
+pull_for: [sense-of-place, restraint, world-building]
 status: canon
 added: 2026-06-24
 ---

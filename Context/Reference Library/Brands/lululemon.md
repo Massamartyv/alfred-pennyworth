@@ -4,6 +4,7 @@ type: brand
 domains: [activewear, fashion]
 spheres: [Fashion]
 tags: [activewear, technical, performance, repositioned]
+pull_for: [positioning]
 status: canon
 added: 2026-06-27
 ---

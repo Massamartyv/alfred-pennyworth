@@ -4,6 +4,7 @@ type: creator
 domains: [music, r&b, afrobeats]
 spheres: [Music Production]
 tags: [understatement-as-power, self-production, alte, negative-space, writer-behind-the-hit]
+pull_for: [restraint, ownership-as-strategy, voice-and-tone, cultural-bridge]
 status: canon
 added: 2026-07-10
 ---

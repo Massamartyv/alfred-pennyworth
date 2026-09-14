@@ -4,6 +4,7 @@ type: curator
 domains: [gaming, sports betting, finance]
 spheres: [Gaming]
 tags: [odds-as-product, engagement-loop, positioning, conversion, offer-design]
+pull_for: [offer-design, positioning]
 status: canon
 added: 2026-06-29
 ---

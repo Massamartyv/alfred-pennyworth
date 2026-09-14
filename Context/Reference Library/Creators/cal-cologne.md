@@ -4,6 +4,7 @@ type: creator
 domains: [fragrance]
 spheres: [Fragrance]
 tags: [fragrance, designer-vs-niche, ranked-shortlist, blind-buy]
+pull_for: [curation-strategy]
 status: watch
 links: [https://www.tiktok.com/@calcologne]
 added: 2026-07-27

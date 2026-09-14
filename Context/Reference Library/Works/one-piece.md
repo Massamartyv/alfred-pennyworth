@@ -4,6 +4,8 @@ type: work
 domains: [animation]
 spheres: [Cinema]
 tags: [dreams-as-organizing-principle, found-family, freedom, absurdist-ambition, world-scale, epic-storytelling]
+pull_for: [narrative, world-building, long-form-structure]
+themes: [found-family, dreams-and-ambition, emotional-honesty]
 status: canon
 added: 2026-06-21
 ---

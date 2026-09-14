@@ -4,6 +4,7 @@ type: creator
 domains: [oratory, autobiography, publishing, photography, abolition]
 spheres: [Public Speaking, Philosophy, Social Development, Photography]
 tags: [rhetoric, self-authorship, owned-distribution, image-as-argument, proof-as-argument]
+pull_for: [rhetoric, self-authorship, ownership-as-strategy, art-direction]
 status: canon
 links: []
 added: 2026-08-04

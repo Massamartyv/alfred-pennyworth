@@ -4,6 +4,7 @@ type: brand
 domains: [fragrance]
 spheres: [Fragrance]
 tags: [niche, olfactive-shock, nature-forward, concept-led]
+pull_for: [subversion, nature-integration, art-direction]
 status: canon
 added: 2026-06-27
 ---

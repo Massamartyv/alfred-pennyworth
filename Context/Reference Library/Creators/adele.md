@@ -4,6 +4,7 @@ type: creator
 domains: [music, vocal performance]
 spheres: [Music Production]
 tags: [voice-first, anti-trend, restraint, era-defining, walk-away-power]
+pull_for: [restraint, voice-and-tone, subversion, positioning, conviction]
 status: canon
 added: 2026-07-10
 ---

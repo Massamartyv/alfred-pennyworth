@@ -4,6 +4,7 @@ type: brand
 domains: [fashion]
 spheres: [Fashion]
 tags: [foundation-fashion, quality-basics, accessible-luxury, anti-logo, restraint]
+pull_for: [accessible-luxury, anti-logo]
 status: canon
 added: 2026-06-21
 ---

@@ -4,6 +4,7 @@ type: creator
 domains: [culinary, restaurants]
 spheres: [Culinary Arts]
 tags: [southwestern, grilling, competition, bold-flavor, brand-building]
+pull_for: [institution-building, hospitality]
 status: canon
 added: 2026-06-24
 ---

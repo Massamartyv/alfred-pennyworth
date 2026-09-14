@@ -4,6 +4,7 @@ type: brand
 domains: [fashion]
 spheres: [Fashion]
 tags: [japanese, fabric-first, quiet-luxury, materiality]
+pull_for: [fabric-first, quiet-luxury, materiality]
 status: canon
 added: 2026-06-27
 ---

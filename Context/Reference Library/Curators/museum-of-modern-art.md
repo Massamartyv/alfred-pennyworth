@@ -4,6 +4,7 @@ type: curator
 domains: [art, museum, modern art]
 spheres: [Art]
 tags: [modern-art, institutional-authority, canon-setting, new-york]
+pull_for: [taste-authority, art-direction]
 status: canon
 links: ["https://www.moma.org"]
 added: 2026-06-24

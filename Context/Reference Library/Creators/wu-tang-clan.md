@@ -4,6 +4,7 @@ type: creator
 domains: [music, hip-hop, business strategy]
 spheres: [Music Production]
 tags: [collective-and-sovereign, five-year-plan, world-building, brand-architecture, scarcity]
+pull_for: [institution-building, world-building, ownership-as-strategy, positioning]
 status: canon
 added: 2026-07-10
 ---

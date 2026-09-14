@@ -4,6 +4,8 @@ type: work
 domains: [film]
 spheres: [Cinema]
 tags: [cultural-identity, crossover-ambition, legacy, belonging-cost, legacy-cut-short]
+pull_for: [narrative]
+themes: [cultural-identity, ambition-and-hubris, legacy, belonging-and-exclusion]
 status: canon
 added: 2026-06-21
 ---

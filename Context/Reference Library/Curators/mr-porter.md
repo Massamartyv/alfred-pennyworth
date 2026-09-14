@@ -4,6 +4,7 @@ type: curator
 domains: [fashion, menswear]
 spheres: [Fashion]
 tags: [menswear-curation, editorial-filter, taste-proxy, secondary-storefront, high-low]
+pull_for: [curation-strategy, taste-authority, merchandising]
 status: canon
 added: 2026-06-21
 ---

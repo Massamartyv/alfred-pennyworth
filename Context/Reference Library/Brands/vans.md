@@ -4,6 +4,7 @@ type: brand
 domains: [footwear, fashion]
 spheres: [Fashion]
 tags: [skate, heritage, foundation-fashion, high-low]
+pull_for: [heritage, high-low]
 status: canon
 added: 2026-06-27
 ---

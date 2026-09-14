@@ -4,6 +4,7 @@ type: creator
 domains: [fashion, styling, modelling]
 spheres: [Fashion]
 tags: [high-low, character-styling, reference-as-brief, fashion]
+pull_for: [high-low, art-direction, curation-strategy]
 status: canon
 links: [https://www.tiktok.com/@wisdm8, https://www.businessoffashion.com/people/wisdom-kaye/]
 added: 2026-07-28

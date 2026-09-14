@@ -4,6 +4,7 @@ type: curator
 domains: [architecture, interior design]
 spheres: [Architecture, Interior Design]
 tags: [rustic-refinement, natural-stone, patina, symmetry, craftsmanship]
+pull_for: [materiality, warmth, texture, craft]
 status: active
 added: 2026-06-24
 ---

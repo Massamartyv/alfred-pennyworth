@@ -4,6 +4,7 @@ type: work
 domains: [fragrance]
 spheres: [Fragrance]
 tags: [oriental-spicy, tobacco-amber, masculine-benchmark, accessible]
+pull_for: [accessible-luxury]
 status: canon
 added: 2026-06-27
 ---

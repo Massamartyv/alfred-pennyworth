@@ -4,6 +4,7 @@ type: brand
 domains: [personal care, soap]
 spheres: [Personal Development]
 tags: [castile-soap, values-led, heritage]
+pull_for: [moral-clarity, heritage, ritual]
 status: canon
 added: 2026-06-27
 ---

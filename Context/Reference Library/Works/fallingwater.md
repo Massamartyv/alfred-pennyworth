@@ -4,6 +4,7 @@ type: work
 domains: [architecture, residential]
 spheres: [Architecture]
 tags: [organic-architecture, cantilever, nature-integration, water, horizontal-planes]
+pull_for: [nature-integration, materiality, spatial-direction, sense-of-place, restraint]
 status: canon
 links: ["https://fallingwater.org/what-is-fallingwater/"]
 added: 2026-06-24

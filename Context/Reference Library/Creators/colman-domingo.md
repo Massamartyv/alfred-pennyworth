@@ -4,6 +4,7 @@ type: creator
 domains: [fashion, acting]
 spheres: [Fashion]
 tags: [quiet-elegance, luxurious-fabrics, restraint, statement-with-control]
+pull_for: [art-direction, restraint, materiality, conviction]
 status: canon
 added: 2026-06-21
 ---

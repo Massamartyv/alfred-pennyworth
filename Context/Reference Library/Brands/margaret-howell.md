@@ -4,6 +4,7 @@ type: brand
 domains: [fashion]
 spheres: [Fashion]
 tags: [british, utility, restraint, fabric-first]
+pull_for: [structural-honesty, restraint, fabric-first]
 status: canon
 added: 2026-06-27
 ---

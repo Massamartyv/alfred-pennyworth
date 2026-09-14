@@ -4,6 +4,7 @@ type: curator
 domains: [interior design]
 spheres: [Interior Design]
 tags: [warm-minimalism, sculptural-silhouette, earthy-palette, tactile, nature-adjacent]
+pull_for: [warmth, restraint, materiality, color-and-light, texture]
 status: canon
 added: 2026-07-10
 ---

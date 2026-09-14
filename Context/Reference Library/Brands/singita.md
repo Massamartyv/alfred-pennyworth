@@ -4,6 +4,7 @@ type: brand
 domains: [travel, hospitality, conservation]
 spheres: [Travel]
 tags: [five-star-hospitality, conservation-luxury, safari, sense-of-place, ritual, sovereignty]
+pull_for: [hospitality, ritual, sense-of-place, world-building, positioning, nature-integration, spatial-direction]
 status: canon
 links: [https://singita.com]
 added: 2026-06-21

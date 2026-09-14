@@ -4,6 +4,8 @@ type: curator
 domains: [architecture, hospitality, travel]
 spheres: [Architecture, Interior Design]
 tags: [elevated-dwelling, canopy, childhood-wonder-engineered, hospitality-typology, nature-immersion]
+pull_for: [nature-integration, hospitality, world-building]
+themes: [dreams-and-ambition]
 status: canon
 added: 2026-07-10
 ---

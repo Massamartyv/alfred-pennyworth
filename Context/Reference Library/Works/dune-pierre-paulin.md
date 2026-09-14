@@ -4,6 +4,7 @@ type: work
 domains: [furniture, design]
 spheres: [Interior Design]
 tags: [seating-landscape, modular, posthumous-revival, status-object, furniture-as-topography]
+pull_for: [spatial-direction, structural-honesty, immersive-atmosphere, investment-luxury, world-building]
 status: canon
 added: 2026-07-10
 ---

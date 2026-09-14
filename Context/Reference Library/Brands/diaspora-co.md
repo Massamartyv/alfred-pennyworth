@@ -4,6 +4,7 @@ type: brand
 domains: [spices, pantry]
 spheres: [Culinary Arts]
 tags: [single-origin, anti-colonial, equity, brand-identity, south-asian]
+pull_for: [provenance, subversion, positioning]
 status: canon
 added: 2026-06-24
 ---

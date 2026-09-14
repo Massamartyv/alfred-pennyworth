@@ -4,6 +4,7 @@ type: brand
 domains: [fragrance]
 spheres: [Fragrance]
 tags: [ultra-luxury, rare-ingredient, opulence, british-heritage]
+pull_for: [investment-luxury, maximalism, heritage]
 status: canon
 added: 2026-06-27
 ---

@@ -4,6 +4,7 @@ type: brand
 domains: [fashion]
 spheres: [Fashion]
 tags: [scandinavian, fabric-first, textured, restraint]
+pull_for: [fabric-first, texture, restraint]
 status: canon
 added: 2026-06-27
 ---

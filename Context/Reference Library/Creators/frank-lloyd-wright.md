@@ -4,6 +4,7 @@ type: creator
 domains: [architecture, interior design, furniture]
 spheres: [Architecture, Interior Design]
 tags: [organic-architecture, horizontal-line, prairie-school, usonian, nature-integration]
+pull_for: [spatial-direction, materiality, nature-integration, art-direction]
 status: canon
 added: 2026-06-24
 ---

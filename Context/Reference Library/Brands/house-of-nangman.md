@@ -4,6 +4,7 @@ type: brand
 domains: [fashion, accessories]
 spheres: [Fashion]
 tags: [naming, narrative, headwear, sentiment-led]
+pull_for: [positioning, narrative]
 status: active
 added: 2026-06-27
 ---

@@ -4,6 +4,7 @@ type: brand
 domains: [fashion]
 spheres: [Fashion]
 tags: [high-street, mediterranean, accessible, foundation-fashion]
+pull_for: [accessible-luxury]
 status: canon
 added: 2026-06-27
 ---

@@ -4,6 +4,7 @@ type: brand
 domains: [fashion, accessories, travel]
 spheres: [Fashion]
 tags: [heritage, discreet-luxury, accessories, travel]
+pull_for: [heritage, quiet-luxury]
 status: canon
 added: 2026-06-27
 ---

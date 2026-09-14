@@ -4,6 +4,7 @@ type: brand
 domains: [fragrance]
 spheres: [Fragrance]
 tags: [niche, new-york, place-as-concept, collectible]
+pull_for: [sense-of-place, investment-luxury]
 status: canon
 added: 2026-06-27
 ---

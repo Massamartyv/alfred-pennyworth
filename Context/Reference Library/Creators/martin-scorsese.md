@@ -4,6 +4,7 @@ type: creator
 domains: [film, directing]
 spheres: [Cinema]
 tags: [auteur, kinetic-camera, moral-weight, music-as-structure, craft-devotion]
+pull_for: [art-direction, sound-design, moral-clarity, narrative]
 status: canon
 added: 2026-06-24
 ---

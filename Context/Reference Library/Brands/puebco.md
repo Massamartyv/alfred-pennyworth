@@ -4,6 +4,7 @@ type: brand
 domains: [home goods, interior design]
 spheres: [Interior Design]
 tags: [found-materials, repurposed, patina, imperfection-as-design, japanese]
+pull_for: [materiality, texture, high-low]
 status: canon
 added: 2026-07-10
 ---

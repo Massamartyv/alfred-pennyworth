@@ -4,6 +4,8 @@ type: work
 domains: [film]
 spheres: [Cinema]
 tags: [reclaimed-dignity, Blackness-as-heroic-force, style-as-resistance, violent-justice, revisionist-history]
+pull_for: [narrative, subversion, long-form-structure]
+themes: [class-and-identity]
 status: canon
 added: 2026-06-21
 ---

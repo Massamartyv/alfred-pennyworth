@@ -4,6 +4,7 @@ type: brand
 domains: [tea]
 spheres: [Culinary Arts]
 tags: [fine-tea, blending, family-craft, packaging, accessible-luxury]
+pull_for: [craft, art-direction, accessible-luxury]
 status: canon
 added: 2026-06-24
 ---

@@ -4,6 +4,7 @@ type: brand
 domains: [personal care, skincare]
 spheres: [Personal Development]
 tags: [apothecary, heritage, formulation]
+pull_for: [heritage, craft]
 status: canon
 added: 2026-06-27
 ---

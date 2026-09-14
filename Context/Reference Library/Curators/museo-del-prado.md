@@ -4,6 +4,7 @@ type: curator
 domains: [art, museum]
 spheres: [Art]
 tags: [spanish-masters, velazquez, goya, madrid, old-master]
+pull_for: [art-direction]
 status: canon
 links: ["https://www.museodelprado.es"]
 added: 2026-06-24

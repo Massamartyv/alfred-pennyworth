@@ -4,6 +4,8 @@ type: work
 domains: [film]
 spheres: [Cinema]
 tags: [hood-realism, coming-of-age, fatalism, cost-of-environment, black-cinema]
+pull_for: [immersive-atmosphere]
+themes: [coming-of-age, fatalism]
 status: canon
 added: 2026-06-24
 ---

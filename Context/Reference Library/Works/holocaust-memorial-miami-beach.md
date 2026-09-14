@@ -4,6 +4,8 @@ type: work
 domains: [architecture, memorial, sculpture]
 spheres: [Architecture]
 tags: [memorial, monumental, emotional-weight, spatial-direction]
+pull_for: [scale, spatial-direction]
+themes: [legacy, emotional-honesty]
 status: canon
 added: 2026-06-27
 ---

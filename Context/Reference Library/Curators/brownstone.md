@@ -4,6 +4,7 @@ type: curator
 domains: [architecture, interior design, urbanism]
 spheres: [Architecture, Interior Design]
 tags: [rowhouse-typology, urban-vernacular, stoop, historical-fabric, sandstone]
+pull_for: [heritage, sense-of-place, materiality, warmth]
 status: canon
 added: 2026-06-24
 ---

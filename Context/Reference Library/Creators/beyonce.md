@@ -4,6 +4,7 @@ type: creator
 domains: [music, performance]
 spheres: [Music Production]
 tags: [precision-as-freedom, ancestral-tribute, black-joy, house-music-lineage, excellence]
+pull_for: [precision, heritage, cadence]
 status: canon
 added: 2026-06-21
 ---

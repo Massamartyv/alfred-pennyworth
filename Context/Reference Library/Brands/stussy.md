@@ -4,6 +4,7 @@ type: brand
 domains: [fashion, streetwear]
 spheres: [Fashion]
 tags: [streetwear, surf, heritage, high-low]
+pull_for: [heritage, high-low]
 status: canon
 added: 2026-06-27
 ---

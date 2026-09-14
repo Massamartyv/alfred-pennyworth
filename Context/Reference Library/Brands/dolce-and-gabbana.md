@@ -4,6 +4,7 @@ type: brand
 domains: [fragrance]
 spheres: [Fragrance]
 tags: [designer-fragrance, mediterranean, italian, accessible-luxury]
+pull_for: [accessible-luxury]
 status: canon
 added: 2026-06-27
 ---

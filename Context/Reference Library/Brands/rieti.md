@@ -4,6 +4,7 @@ type: brand
 domains: [eyewear, accessories]
 spheres: [Fashion]
 tags: [eyewear, korean, accessible-cool, detail]
+pull_for: [accessible-luxury, precision]
 status: active
 added: 2026-06-27
 ---

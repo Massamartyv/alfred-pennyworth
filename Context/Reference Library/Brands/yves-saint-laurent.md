@@ -4,6 +4,7 @@ type: brand
 domains: [fashion]
 spheres: [Fashion]
 tags: [tailoring, androgyny, parisian, statement]
+pull_for: [conviction]
 status: canon
 added: 2026-06-27
 ---

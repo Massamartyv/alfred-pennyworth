@@ -4,6 +4,7 @@ type: brand
 domains: [music, record labels]
 spheres: [Music Production]
 tags: [hit-factory, systems-as-creativity, artist-development, black-excellence, assembly-line]
+pull_for: [institution-building, positioning]
 status: canon
 added: 2026-07-10
 ---

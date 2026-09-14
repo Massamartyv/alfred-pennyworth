@@ -4,6 +4,8 @@ type: work
 domains: [film]
 spheres: [Cinema]
 tags: [innocence-as-wisdom, history-as-backdrop, love-as-organizing-force, americana, sentiment]
+pull_for: [narrative]
+themes: [emotional-honesty, legacy]
 status: canon
 added: 2026-06-24
 ---

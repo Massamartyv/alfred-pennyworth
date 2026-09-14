@@ -4,6 +4,7 @@ type: brand
 domains: [home decor, furniture]
 spheres: [Interior Design]
 tags: [curated-decor, designer-collaboration, family-lineage, vintage, accessible-design]
+pull_for: [curation-strategy, heritage, merchandising, warmth]
 status: canon
 added: 2026-07-10
 ---

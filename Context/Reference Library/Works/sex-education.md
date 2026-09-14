@@ -4,6 +4,8 @@ type: work
 domains: [television]
 spheres: [Cinema]
 tags: [vulnerability, identity-formation, British-comedic-lens, community-as-container, intimacy-as-subject]
+pull_for: [voice-and-tone, long-form-structure]
+themes: [vulnerability, belonging-and-exclusion, self-invention]
 status: canon
 added: 2026-06-21
 ---

@@ -4,6 +4,7 @@ type: creator
 domains: [music, r&b]
 spheres: [Music Production]
 tags: [psychedelic-rnb, auteur, guitar-texture, falsetto, destroy-to-rebuild]
+pull_for: [art-direction, texture, sound-design, positioning, reinvention]
 status: canon
 added: 2026-07-10
 ---

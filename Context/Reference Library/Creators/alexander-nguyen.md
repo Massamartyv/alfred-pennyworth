@@ -4,6 +4,7 @@ type: creator
 domains: [fashion]
 spheres: [Fashion]
 tags: [minimalism, texture, quiet-luxury, fashion]
+pull_for: [restraint, texture, quiet-luxury]
 status: watch
 added: 2026-06-27
 ---

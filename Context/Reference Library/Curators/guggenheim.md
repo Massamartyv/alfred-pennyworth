@@ -4,6 +4,7 @@ type: curator
 domains: [art, museum, architecture]
 spheres: [Art]
 tags: [architecture-as-destination, frank-lloyd-wright, gehry, modern-art, constellation]
+pull_for: [spatial-direction, art-direction, world-building]
 status: canon
 links: ["https://www.guggenheim.org"]
 added: 2026-06-24

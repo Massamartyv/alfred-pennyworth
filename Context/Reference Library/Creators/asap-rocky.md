@@ -4,6 +4,7 @@ type: creator
 domains: [fashion, music]
 spheres: [Fashion]
 tags: [layering-precision, high-low, oversized-silhouette, intentionality, streetwear]
+pull_for: [art-direction, high-low]
 status: canon
 added: 2026-06-21
 ---

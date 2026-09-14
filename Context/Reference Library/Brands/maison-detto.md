@@ -4,6 +4,7 @@ type: brand
 domains: [fragrance, home fragrance]
 spheres: [Fragrance, Interior Design]
 tags: [equestrian, niche-fragrance, candle-house, genderless, narrative-scent]
+pull_for: [narrative, world-building, ritual, materiality]
 status: canon
 added: 2026-07-10
 ---

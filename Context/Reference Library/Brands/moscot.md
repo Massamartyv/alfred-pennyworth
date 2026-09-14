@@ -4,6 +4,7 @@ type: brand
 domains: [eyewear, accessories]
 spheres: [Fashion]
 tags: [eyewear, heritage, new-york, craft]
+pull_for: [heritage, precision, craft]
 status: canon
 added: 2026-06-27
 ---

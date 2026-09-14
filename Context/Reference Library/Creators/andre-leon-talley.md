@@ -4,6 +4,7 @@ type: creator
 domains: [fashion, editorial, media]
 spheres: [Fashion]
 tags: [editorial, taste-authority, voice-and-tone, fashion-as-culture]
+pull_for: [editorial, taste-authority, voice-and-tone, cultural-bridge]
 status: canon
 added: 2026-06-27
 ---

@@ -4,6 +4,7 @@ type: brand
 domains: [personal care, haircare]
 spheres: [Personal Development]
 tags: [clean-haircare, salon-led, professional-grade]
+pull_for: [precision]
 status: canon
 added: 2026-06-27
 ---

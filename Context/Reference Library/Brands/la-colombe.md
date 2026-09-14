@@ -4,6 +4,7 @@ type: brand
 domains: [coffee]
 spheres: [Culinary Arts]
 tags: [specialty-coffee, product-innovation, draft-latte, sourcing, philadelphia]
+pull_for: [offer-design, provenance, scale, craft]
 status: canon
 added: 2026-06-24
 ---

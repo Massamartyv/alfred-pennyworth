@@ -4,6 +4,7 @@ type: brand
 domains: [wine]
 spheres: [Culinary Arts]
 tags: [cult-wine, rhone-varietals, small-production, terroir, new-world]
+pull_for: [provenance]
 status: canon
 added: 2026-06-24
 ---

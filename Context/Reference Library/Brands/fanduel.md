@@ -4,6 +4,7 @@ type: brand
 domains: [gaming, sports betting, fantasy sports]
 spheres: [Gaming]
 tags: [positioning, product-pivot, conversion, category-leadership, offer-design]
+pull_for: [positioning, offer-design]
 status: canon
 added: 2026-06-29
 ---

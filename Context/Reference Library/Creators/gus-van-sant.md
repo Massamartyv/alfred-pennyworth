@@ -4,6 +4,8 @@ type: creator
 domains: [film, directing]
 spheres: [Cinema]
 tags: [american-independent, emotional-restraint, outsiders, dual-register, naturalism]
+pull_for: [restraint, narrative]
+themes: [belonging-and-exclusion, emotional-honesty]
 status: canon
 added: 2026-06-24
 ---

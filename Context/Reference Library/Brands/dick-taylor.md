@@ -4,6 +4,7 @@ type: brand
 domains: [chocolate, confectionery]
 spheres: [Culinary Arts]
 tags: [bean-to-bar, single-origin, maker-craft, materiality, two-ingredient]
+pull_for: [provenance, craft, materiality, restraint]
 status: canon
 added: 2026-06-24
 ---

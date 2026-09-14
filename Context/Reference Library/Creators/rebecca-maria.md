@@ -4,6 +4,8 @@ type: creator
 domains: [visual art, sculpture]
 spheres: [Art]
 tags: [hip-hop-iconography, album-cover-art, nostalgia, sculpture, emerging]
+pull_for: [art-direction, high-low]
+themes: [nostalgia]
 status: watch
 added: 2026-06-24
 ---

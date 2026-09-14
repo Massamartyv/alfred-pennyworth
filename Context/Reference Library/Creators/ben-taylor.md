@@ -4,6 +4,7 @@ type: creator
 domains: [fashion, accessories, luxury, interior design]
 spheres: [Fashion, Fragrance, Interior Design]
 tags: [luxury, price-transparency, accessories, merchandising]
+pull_for: [investment-luxury, positioning, merchandising]
 status: active
 links: [https://www.tiktok.com/@bentaylor_nyc, https://www.youtube.com/@BenTaylorNYC, https://www.shopltk.com/explore/BenTaylorNYC]
 added: 2026-07-27

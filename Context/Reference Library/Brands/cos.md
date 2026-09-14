@@ -4,6 +4,7 @@ type: brand
 domains: [fashion]
 spheres: [Fashion]
 tags: [minimalism, architectural, accessible, restraint]
+pull_for: [restraint, accessible-luxury]
 status: canon
 added: 2026-06-27
 ---

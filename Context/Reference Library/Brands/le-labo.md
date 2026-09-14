@@ -4,6 +4,7 @@ type: brand
 domains: [fragrance]
 spheres: [Fragrance]
 tags: [niche, ritual, anti-luxury-luxury, experiential]
+pull_for: [ritual, anti-logo, hospitality]
 status: canon
 added: 2026-06-27
 ---

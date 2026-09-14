@@ -4,6 +4,7 @@ type: curator
 domains: [gaming, social games, hospitality]
 spheres: [Gaming]
 tags: [participation, role-play, ritual, hospitality, narrative]
+pull_for: [hospitality, ritual, narrative]
 status: canon
 added: 2026-06-29
 ---

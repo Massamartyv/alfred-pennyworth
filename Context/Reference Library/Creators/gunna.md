@@ -4,6 +4,8 @@ type: creator
 domains: [music, hip-hop, atlanta]
 spheres: [Music Production]
 tags: [melodic-trap, drip-lexicon, slang-as-brand, atlanta, resilience]
+pull_for: [voice-and-tone, cadence]
+themes: [perseverance]
 status: canon
 added: 2026-07-10
 ---

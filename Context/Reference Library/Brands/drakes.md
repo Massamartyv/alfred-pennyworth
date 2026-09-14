@@ -4,6 +4,7 @@ type: brand
 domains: [fashion]
 spheres: [Fashion]
 tags: [british, tailoring, sprezzatura, menswear]
+pull_for: [restraint]
 status: canon
 added: 2026-06-27
 ---

@@ -4,6 +4,7 @@ type: brand
 domains: [bakery, dessert]
 spheres: [Culinary Arts]
 tags: [signature-product, cult-object, new-york, indulgence, craft]
+pull_for: [positioning, craft, restraint]
 status: canon
 added: 2026-06-24
 ---

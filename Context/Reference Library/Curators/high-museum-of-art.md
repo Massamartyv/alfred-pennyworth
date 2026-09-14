@@ -4,6 +4,7 @@ type: curator
 domains: [art, museum, architecture]
 spheres: [Art]
 tags: [atlanta, southeast, meier-and-piano, home-city, architecture]
+pull_for: [spatial-direction, art-direction]
 status: canon
 links: ["https://high.org"]
 added: 2026-06-24

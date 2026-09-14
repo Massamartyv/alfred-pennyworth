@@ -4,6 +4,7 @@ type: curator
 domains: [architecture, interior design, residential]
 spheres: [Architecture, Interior Design]
 tags: [personal-programme, dream-home-standard, nature-inside, engineering-of-ease, theatre-and-secrecy]
+pull_for: [biophilic, structural-honesty, immersive-atmosphere, taste-authority]
 status: active
 added: 2026-07-10
 ---

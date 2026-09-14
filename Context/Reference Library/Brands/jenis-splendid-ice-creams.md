@@ -4,6 +4,7 @@ type: brand
 domains: [ice cream, dessert]
 spheres: [Culinary Arts]
 tags: [flavor-invention, technique, artisan, cream-cheese-base, james-beard]
+pull_for: [craft]
 status: canon
 added: 2026-06-24
 ---

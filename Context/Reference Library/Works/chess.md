@@ -4,6 +4,7 @@ type: work
 domains: [gaming, strategy]
 spheres: [Gaming]
 tags: [strategy, constraint-as-depth, timeless-system, mastery, positioning]
+pull_for: [positioning, restraint, structural-honesty, precision]
 status: canon
 added: 2026-06-29
 ---

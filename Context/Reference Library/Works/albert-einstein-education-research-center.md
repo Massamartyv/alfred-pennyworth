@@ -4,6 +4,7 @@ type: work
 domains: [architecture, institutional, landscape]
 spheres: [Architecture]
 tags: [biophilic, atrium-garden, urban-oasis, light-as-material, institutional]
+pull_for: [biophilic, spatial-direction, color-and-light, warmth]
 status: canon
 links: ["https://www.safdiearchitects.com/projects/albert-einstein-education-and-research-center"]
 added: 2026-06-24

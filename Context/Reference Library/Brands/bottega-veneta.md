@@ -4,6 +4,7 @@ type: brand
 domains: [fragrance]
 spheres: [Fragrance]
 tags: [designer-fragrance, quiet-luxury, leather, restraint]
+pull_for: [quiet-luxury, restraint]
 status: canon
 added: 2026-06-27
 ---

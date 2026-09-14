@@ -4,6 +4,7 @@ type: creator
 domains: [music, composition, vocal music]
 spheres: [Music Production, Music Theory]
 tags: [voice-as-instrument, classical-pop-bridge, high-low, collaborative-range, form-invention]
+pull_for: [high-low, sound-design, reinvention, craft, cultural-bridge]
 status: canon
 added: 2026-07-10
 ---

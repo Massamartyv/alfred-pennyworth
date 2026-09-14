@@ -4,6 +4,8 @@ type: work
 domains: [film]
 spheres: [Cinema]
 tags: [genius-narrative, class, emotional-suppression, wasted-potential, cost-of-potential]
+pull_for: [narrative, long-form-structure]
+themes: [vulnerability, cost-of-greatness, class-and-identity, mentor-dynamics]
 status: canon
 added: 2026-06-21
 ---

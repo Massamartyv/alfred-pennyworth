@@ -4,6 +4,7 @@ type: brand
 domains: [personal care, haircare]
 spheres: [Personal Development]
 tags: [haircare, prestige, ownership-as-strategy]
+pull_for: [investment-luxury, ownership-as-strategy]
 status: canon
 added: 2026-06-27
 ---

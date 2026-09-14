@@ -4,6 +4,7 @@ type: creator
 domains: [mathematics, astronomy, surveying, publishing]
 spheres: [Mathematics, Physics, Education, Social Development]
 tags: [proof-as-argument, self-education, almanac, polymath, rigour]
+pull_for: [proof-as-argument, self-education, precision, high-low]
 status: canon
 links: []
 added: 2026-08-04

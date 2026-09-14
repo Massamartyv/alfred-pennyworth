@@ -4,6 +4,7 @@ type: creator
 domains: [literature, essay, cultural criticism, theatre]
 spheres: [Philosophy, Public Speaking, Social Development]
 tags: [voice-and-tone, moral-clarity, essay-as-form, self-authorship, cadence, synthesis-from-between]
+pull_for: [voice-and-tone, moral-clarity, essay-as-form, cadence, self-authorship]
 status: canon
 links: []
 added: 2026-08-04

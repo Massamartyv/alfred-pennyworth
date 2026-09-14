@@ -4,6 +4,8 @@ type: creator
 domains: [television, writing]
 spheres: [Cinema]
 tags: [story-circle, narrative-structure, character-flaw, meta-comedy, world-building]
+pull_for: [narrative, long-form-structure, world-building, voice-and-tone]
+themes: [vulnerability]
 status: canon
 added: 2026-06-24
 ---

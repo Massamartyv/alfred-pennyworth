@@ -4,6 +4,7 @@ type: curator
 domains: [gaming, technology, immersive media]
 spheres: [Gaming]
 tags: [layered-reality, context-as-content, spatial-direction, overlay, immersive-atmosphere]
+pull_for: [immersive-atmosphere, subversion, spatial-direction]
 status: canon
 added: 2026-06-29
 ---

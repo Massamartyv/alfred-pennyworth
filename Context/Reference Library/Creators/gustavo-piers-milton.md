@@ -4,6 +4,7 @@ type: creator
 domains: [fashion]
 spheres: [Fashion]
 tags: [editorial-risk, avant-garde, proportion-play, fashion]
+pull_for: [editorial, subversion, art-direction]
 status: watch
 added: 2026-06-27
 ---

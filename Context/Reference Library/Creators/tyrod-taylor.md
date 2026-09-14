@@ -4,6 +4,7 @@ type: creator
 domains: [fashion]
 spheres: [Fashion]
 tags: [athletic-tailoring, fitted-silhouette, americana, fashion]
+pull_for: [restraint, conviction]
 status: canon
 added: 2026-06-27
 ---

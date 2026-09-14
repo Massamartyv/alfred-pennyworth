@@ -4,6 +4,8 @@ type: curator
 domains: [architecture, residential]
 spheres: [Architecture, Interior Design]
 tags: [retractable-roof, operable-roof, skylight, open-sky, roof-as-aperture]
+pull_for: [indoor-outdoor, color-and-light, structural-honesty]
+themes: [transformation]
 status: canon
 added: 2026-07-10
 ---

@@ -4,6 +4,7 @@ type: brand
 domains: [wine]
 spheres: [Culinary Arts]
 tags: [organic, dry-farmed, sustainability, napa, new-world]
+pull_for: [nature-integration, craft]
 status: canon
 added: 2026-06-24
 ---

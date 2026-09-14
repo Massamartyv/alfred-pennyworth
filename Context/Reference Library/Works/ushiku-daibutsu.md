@@ -4,6 +4,7 @@ type: work
 domains: [architecture, monument, sculpture]
 spheres: [Architecture]
 tags: [monumental, inhabitable-sculpture, scale, spatial-direction]
+pull_for: [scale, spatial-direction]
 status: canon
 added: 2026-06-27
 ---

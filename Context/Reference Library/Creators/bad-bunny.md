@@ -4,6 +4,7 @@ type: creator
 domains: [fashion, music]
 spheres: [Fashion, Music Production]
 tags: [sensual-fabrics, colour-confidence, gender-fluid, relaxed-silhouette]
+pull_for: [materiality, color-and-light]
 status: canon
 added: 2026-06-21
 ---

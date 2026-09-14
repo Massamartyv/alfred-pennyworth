@@ -4,6 +4,7 @@ type: creator
 domains: [culinary, restaurants]
 spheres: [Culinary Arts]
 tags: [french-technique, comfort-food, iron-chef, home-cook-warmth, precision]
+pull_for: [craft, precision, hospitality, warmth]
 status: canon
 added: 2026-06-24
 ---

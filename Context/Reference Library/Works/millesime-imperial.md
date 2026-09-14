@@ -4,6 +4,7 @@ type: work
 domains: [fragrance]
 spheres: [Fragrance]
 tags: [marine, aquatic-citrus, warm-weather, fresh-luxury]
+pull_for: [investment-luxury, heritage]
 status: canon
 added: 2026-06-27
 ---

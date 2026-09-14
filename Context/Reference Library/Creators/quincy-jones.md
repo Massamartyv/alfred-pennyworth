@@ -4,6 +4,7 @@ type: creator
 domains: [music, production, film, arranging]
 spheres: [Music Production]
 tags: [polymath, arranger-mind, ego-management, breadth-as-mastery, producer-as-architect]
+pull_for: [reinvention, craft, curation-strategy, cadence]
 status: canon
 added: 2026-07-10
 ---

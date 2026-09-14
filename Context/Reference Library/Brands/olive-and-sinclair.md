@@ -4,6 +4,7 @@ type: brand
 domains: [chocolate, confectionery]
 spheres: [Culinary Arts]
 tags: [southern, bean-to-bar, place-rooted, craft, nashville]
+pull_for: [sense-of-place, craft, heritage, provenance]
 status: canon
 added: 2026-06-24
 ---

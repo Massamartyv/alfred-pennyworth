@@ -4,6 +4,7 @@ type: brand
 domains: [fashion, leather goods, fragrance]
 spheres: [Fashion, Fragrance]
 tags: [investment-luxury, high-low, world-building, craft-led]
+pull_for: [investment-luxury, high-low, world-building, craft]
 status: canon
 added: 2026-06-27
 ---

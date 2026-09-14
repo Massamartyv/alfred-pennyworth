@@ -4,6 +4,7 @@ type: creator
 domains: [visual art, film]
 spheres: [Art]
 tags: [surrealism, dream-logic, grotesque-beautiful, total-conviction, theatrical]
+pull_for: [immersive-atmosphere, conviction, art-direction, maximalism]
 status: canon
 added: 2026-06-24
 ---

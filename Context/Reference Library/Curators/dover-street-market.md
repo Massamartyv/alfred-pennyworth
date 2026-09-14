@@ -4,6 +4,7 @@ type: curator
 domains: [fashion, retail]
 spheres: [Fashion]
 tags: [editorial-buying, curation-as-proxy, high-low, spatial-merchandising]
+pull_for: [merchandising, spatial-direction, high-low, curation-strategy]
 status: canon
 added: 2026-06-21
 ---

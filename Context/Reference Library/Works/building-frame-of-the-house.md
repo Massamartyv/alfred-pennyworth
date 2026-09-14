@@ -4,6 +4,7 @@ type: work
 domains: [architecture, residential]
 spheres: [Architecture]
 tags: [structural-honesty, small-space, exposed-concrete, sectional-design, frame-as-architecture]
+pull_for: [materiality, spatial-direction, structural-honesty, restraint]
 status: canon
 links: ["https://www.archdaily.com/1008641/building-frame-of-the-house-igarchitects"]
 added: 2026-06-24

@@ -4,6 +4,7 @@ type: brand
 domains: [fashion]
 spheres: [Fashion]
 tags: [americana, quiet-luxury, tiered-curation, logo-avoidance, world-building]
+pull_for: [quiet-luxury, curation-strategy, anti-logo]
 status: canon
 added: 2026-06-21
 ---

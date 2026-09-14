@@ -4,6 +4,8 @@ type: work
 domains: [literature, film, gaming]
 spheres: [Gaming, Cinema]
 tags: [world-building, immersive-atmosphere, virtual-world, nostalgia, narrative]
+pull_for: [world-building, immersive-atmosphere, narrative]
+themes: [nostalgia]
 status: canon
 added: 2026-06-29
 ---

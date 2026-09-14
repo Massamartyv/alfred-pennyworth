@@ -4,6 +4,7 @@ type: brand
 domains: [gaming, software, digital distribution]
 spheres: [Gaming]
 tags: [platform-ecosystem, distribution, community, network-effect, merchandising]
+pull_for: [institution-building, ownership-as-strategy, merchandising, positioning]
 status: canon
 added: 2026-06-29
 ---

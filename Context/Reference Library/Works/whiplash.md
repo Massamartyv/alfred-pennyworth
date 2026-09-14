@@ -4,6 +4,8 @@ type: work
 domains: [film]
 spheres: [Cinema]
 tags: [excellence-as-obsession, mentor-as-antagonist, tension, craft, cost-of-greatness]
+pull_for: [narrative, long-form-structure]
+themes: [cost-of-greatness, mentor-dynamics]
 status: canon
 added: 2026-06-21
 ---

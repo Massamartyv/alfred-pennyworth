@@ -4,6 +4,7 @@ type: curator
 domains: [interior design]
 spheres: [Interior Design]
 tags: [wabi-sabi, hygge, natural-materials, pared-palette, quiet-warmth]
+pull_for: [materiality, restraint, warmth, texture]
 status: canon
 added: 2026-07-10
 ---

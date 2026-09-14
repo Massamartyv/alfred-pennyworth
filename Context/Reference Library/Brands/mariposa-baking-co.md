@@ -4,6 +4,7 @@ type: brand
 domains: [bakery, dessert]
 spheres: [Culinary Arts]
 tags: [gluten-free, dedicated-facility, artisan, no-compromise, bay-area]
+pull_for: [precision, craft]
 status: canon
 added: 2026-06-24
 ---

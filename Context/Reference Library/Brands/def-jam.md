@@ -4,6 +4,7 @@ type: brand
 domains: [music, record labels, hip-hop]
 spheres: [Music Production]
 tags: [hip-hop-institution, culture-making, artist-development, from-the-dorm, era-defining]
+pull_for: [institution-building, reinvention, positioning]
 status: canon
 added: 2026-07-10
 ---

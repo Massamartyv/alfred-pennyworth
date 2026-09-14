@@ -4,6 +4,7 @@ type: creator
 domains: [visual art, illustration]
 spheres: [Art]
 tags: [self-taught, street-to-gallery, surreal-expressionism, animation-influence, emerging]
+pull_for: [high-low, art-direction]
 status: active
 added: 2026-06-24
 ---

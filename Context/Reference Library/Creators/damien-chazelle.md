@@ -4,6 +4,8 @@ type: creator
 domains: [film, directing]
 spheres: [Cinema]
 tags: [obsession, music-and-rhythm, cost-of-greatness, kinetic, ambition]
+pull_for: [sound-design, art-direction, narrative]
+themes: [cost-of-greatness]
 status: canon
 added: 2026-06-24
 ---

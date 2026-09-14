@@ -4,6 +4,7 @@ type: curator
 domains: [gaming, technology, immersive media]
 spheres: [Gaming]
 tags: [immersive-atmosphere, presence, world-building, spatial-direction, embodiment]
+pull_for: [immersive-atmosphere, world-building, spatial-direction]
 status: canon
 added: 2026-06-29
 ---

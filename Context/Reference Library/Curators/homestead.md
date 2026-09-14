@@ -4,6 +4,7 @@ type: curator
 domains: [land, lifestyle, sustainability]
 spheres: [Architecture, Interior Design]
 tags: [self-sufficiency, land-as-system, food-production, permaculture, urban-homesteading]
+pull_for: [ownership-as-strategy, nature-integration, ritual]
 status: canon
 added: 2026-07-10
 ---

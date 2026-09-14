@@ -4,6 +4,7 @@ type: brand
 domains: [fragrance]
 spheres: [Fragrance]
 tags: [prestige-niche, collection-privee, couture, maison]
+pull_for: [investment-luxury, heritage]
 status: canon
 added: 2026-06-27
 ---

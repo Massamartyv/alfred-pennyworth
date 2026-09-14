@@ -4,6 +4,7 @@ type: curator
 domains: [architecture, interior design, media, publishing]
 spheres: [Architecture, Interior Design]
 tags: [editorial-authority, interiors, luxury-homes, ad100, taste-proxy]
+pull_for: [editorial, taste-authority, art-direction]
 status: canon
 links: ["https://www.architecturaldigest.com"]
 added: 2026-06-24

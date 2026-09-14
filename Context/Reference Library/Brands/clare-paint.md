@@ -4,6 +4,7 @@ type: brand
 domains: [paint, interior design]
 spheres: [Interior Design]
 tags: [curated-palette, dtc, zero-voc, designer-led, decision-design]
+pull_for: [curation-strategy, color-and-light, offer-design, restraint, positioning]
 status: canon
 added: 2026-07-10
 ---

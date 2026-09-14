@@ -4,6 +4,7 @@ type: brand
 domains: [personal care, deodorant, skincare]
 spheres: [Personal Development]
 tags: [deodorant, elevated-design, fragrance-led]
+pull_for: [art-direction]
 status: canon
 added: 2026-06-27
 ---

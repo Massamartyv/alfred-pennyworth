@@ -4,6 +4,7 @@ type: brand
 domains: [footwear, fashion]
 spheres: [Fashion]
 tags: [loafer, velvet, british, statement]
+pull_for: [conviction]
 status: canon
 added: 2026-06-27
 ---

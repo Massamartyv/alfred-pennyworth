@@ -4,6 +4,7 @@ type: curator
 domains: [architecture, interior design, landscape]
 spheres: [Architecture, Interior Design]
 tags: [greenery, nature-integration, natural-light, living-materials, wellbeing]
+pull_for: [biophilic, nature-integration, color-and-light, wellbeing]
 status: canon
 added: 2026-06-24
 ---

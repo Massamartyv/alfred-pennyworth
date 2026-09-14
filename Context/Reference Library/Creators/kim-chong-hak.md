@@ -4,6 +4,7 @@ type: creator
 domains: [visual art]
 spheres: [Art]
 tags: [color-saturation, nature, depth-of-attention, expressionist, anti-monochrome]
+pull_for: [color-and-light, nature-integration, restraint, materiality, subversion]
 status: canon
 added: 2026-06-24
 ---

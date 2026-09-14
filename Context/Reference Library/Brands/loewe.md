@@ -4,6 +4,7 @@ type: brand
 domains: [fashion, leather goods]
 spheres: [Fashion]
 tags: [investment-luxury, craft-led, leather-craft, artistic-direction, restraint]
+pull_for: [investment-luxury, craft, materiality, art-direction]
 status: canon
 added: 2026-06-21
 ---

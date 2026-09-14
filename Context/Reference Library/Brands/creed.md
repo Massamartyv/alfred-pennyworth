@@ -4,6 +4,7 @@ type: brand
 domains: [fragrance]
 spheres: [Fragrance]
 tags: [niche, heritage-coded, status-scent, masculine]
+pull_for: [heritage, investment-luxury]
 status: canon
 added: 2026-06-27
 ---

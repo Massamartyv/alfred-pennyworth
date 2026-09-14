@@ -4,6 +4,8 @@ type: work
 domains: [television]
 spheres: [Cinema]
 tags: [desire-and-independence, New-York-as-character, modern-womanhood, friendship-as-primary-unit, editorial]
+pull_for: [editorial, voice-and-tone, narrative, world-building, sense-of-place]
+themes: [emotional-honesty, found-family]
 status: canon
 added: 2026-06-21
 ---

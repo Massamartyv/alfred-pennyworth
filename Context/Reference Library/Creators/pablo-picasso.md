@@ -4,6 +4,7 @@ type: creator
 domains: [visual art]
 spheres: [Art]
 tags: [cubism, multiple-perspective, reinvention, truth-over-accuracy, prolific]
+pull_for: [reinvention, art-direction, conviction]
 status: canon
 added: 2026-06-24
 ---

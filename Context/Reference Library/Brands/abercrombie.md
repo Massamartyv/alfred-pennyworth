@@ -4,6 +4,7 @@ type: brand
 domains: [fashion]
 spheres: [Fashion]
 tags: [rebrand, elevated-basics, americana, foundation-fashion]
+pull_for: [positioning, accessible-luxury]
 status: canon
 added: 2026-06-27
 ---

@@ -4,6 +4,8 @@ type: work
 domains: [literature]
 spheres: [Cinema]
 tags: [diaspora, historical-fiction, multi-generational, Ghana, slavery, memory-in-the-body]
+pull_for: [narrative, long-form-structure, diaspora, heritage]
+themes: [legacy]
 status: canon
 added: 2026-06-21
 ---

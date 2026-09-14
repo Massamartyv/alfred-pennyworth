@@ -4,6 +4,7 @@ type: creator
 domains: [music]
 spheres: [Music Production]
 tags: [taste-evolution, craft-over-brand, genre-defiance, musicality]
+pull_for: [taste-authority, reinvention, conviction, craft, anti-logo]
 status: canon
 added: 2026-06-21
 ---

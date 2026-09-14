@@ -4,6 +4,7 @@ type: curator
 domains: [architecture, interior design, residential]
 spheres: [Architecture, Interior Design]
 tags: [craftsman, horizontal-massing, joinery, porch-culture, indoor-outdoor]
+pull_for: [craft, spatial-direction, indoor-outdoor, materiality]
 status: canon
 added: 2026-07-10
 ---

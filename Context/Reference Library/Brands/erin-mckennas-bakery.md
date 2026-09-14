@@ -4,6 +4,7 @@ type: brand
 domains: [bakery, dessert]
 spheres: [Culinary Arts]
 tags: [vegan, gluten-free, allergen-free, no-compromise, category-opener]
+pull_for: [precision, craft]
 status: canon
 added: 2026-06-24
 ---

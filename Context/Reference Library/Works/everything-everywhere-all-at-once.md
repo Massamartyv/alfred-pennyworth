@@ -4,6 +4,8 @@ type: work
 domains: [film]
 spheres: [Cinema]
 tags: [identity, multiverse, unlived-lives, chaos-as-meaning, mother-daughter-tension, immigrant-identity]
+pull_for: [narrative, reinvention]
+themes: [cultural-identity, emotional-honesty]
 status: canon
 added: 2026-06-21
 ---

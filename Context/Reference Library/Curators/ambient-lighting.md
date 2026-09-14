@@ -4,6 +4,7 @@ type: curator
 domains: [interior design, lighting]
 spheres: [Interior Design]
 tags: [light-as-material, layered-lighting, lamps-over-overhead, richard-kelly, warmth]
+pull_for: [color-and-light, warmth, immersive-atmosphere]
 status: canon
 added: 2026-07-10
 ---

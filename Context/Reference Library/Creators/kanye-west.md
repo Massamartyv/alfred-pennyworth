@@ -4,6 +4,7 @@ type: creator
 domains: [music, fashion, interior design, production]
 spheres: [Music Production, Fashion, Interior Design]
 tags: [brutalist-minimalism, world-building, light-as-material, maximalist-ambition, cross-disciplinary]
+pull_for: [art-direction, color-and-light, materiality, reinvention, maximalism]
 status: canon
 added: 2026-06-21
 ---

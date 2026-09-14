@@ -4,6 +4,7 @@ type: brand
 domains: [tea]
 spheres: [Culinary Arts]
 tags: [japanese-tea, single-origin, provenance, seasonality, connoisseurship]
+pull_for: [provenance, taste-authority]
 status: canon
 added: 2026-06-24
 ---

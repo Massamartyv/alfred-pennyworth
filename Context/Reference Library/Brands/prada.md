@@ -4,6 +4,7 @@ type: brand
 domains: [fashion, leather goods]
 spheres: [Fashion]
 tags: [intellectual-fashion, restraint, materiality, anti-pretty]
+pull_for: [restraint, materiality, subversion]
 status: canon
 added: 2026-06-27
 ---

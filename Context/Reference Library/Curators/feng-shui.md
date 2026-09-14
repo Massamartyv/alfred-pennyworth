@@ -4,6 +4,7 @@ type: curator
 domains: [interior design, spatial philosophy]
 spheres: [Interior Design]
 tags: [energy-flow, spatial-arrangement, five-elements, commanding-position, clutter-as-stagnation]
+pull_for: [spatial-direction, ritual, restraint, wellbeing]
 status: canon
 added: 2026-07-10
 ---

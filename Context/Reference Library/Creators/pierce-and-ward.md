@@ -4,6 +4,7 @@ type: creator
 domains: [interior design]
 spheres: [Interior Design]
 tags: [constrained-maximalism, sprezzatura, intention-density, materiality]
+pull_for: [spatial-direction, materiality, maximalism, restraint]
 status: canon
 added: 2026-06-21
 ---

@@ -4,6 +4,7 @@ type: creator
 domains: [visual art, film, pop culture]
 spheres: [Art]
 tags: [pop-art, icon-making, high-low, commodity-as-icon, repetition]
+pull_for: [high-low, positioning, art-direction]
 status: canon
 added: 2026-06-24
 ---

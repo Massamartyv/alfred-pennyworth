@@ -4,6 +4,8 @@ type: brand
 domains: [sports, identity, culture]
 spheres: [Social Development]
 tags: [tribal-identity, unambiguous-loyalty, cultural-affiliation, world-building, heritage]
+pull_for: [world-building]
+themes: [cultural-identity]
 status: canon
 added: 2026-06-21
 ---

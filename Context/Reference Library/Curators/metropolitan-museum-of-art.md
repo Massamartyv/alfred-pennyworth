@@ -4,6 +4,7 @@ type: curator
 domains: [art, museum, fashion]
 spheres: [Art]
 tags: [encyclopedic, costume-institute, met-gala, new-york, breadth]
+pull_for: [curation-strategy, high-low, editorial, art-direction]
 status: canon
 links: ["https://www.metmuseum.org"]
 added: 2026-06-24

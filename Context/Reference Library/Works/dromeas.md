@@ -4,6 +4,7 @@ type: work
 domains: [sculpture, public art]
 spheres: [Architecture]
 tags: [glass, motion, materiality, public-sculpture]
+pull_for: [materiality, scale]
 status: canon
 added: 2026-06-27
 ---
