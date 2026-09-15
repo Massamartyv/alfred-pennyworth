@@ -75,6 +75,27 @@ The agency is a division of labour with a hard edge, and the edge is worth knowi
 
 ---
 
+### Standing without her
+
+---
+
+Ruled 2026-09-15 by the operator: his mother is not the person to go through. She does not push back on authority and does not know what the house can do. Two consequences follow, one hard and one useful.
+
+**The hard one.** Nothing in this investigation touches her lot without her signed authority. No demand in her name, no proxy, no implied agency, no letter that lets the board assume she stands behind it. Acting on her standing without her knowledge would be a fraud on the association and would hand the board the one defence that beats fee-shifting, and it would land the consequences on the one person who did not choose them. Adding you to the deed is the structural answer and the wrong one now: it needs her signature anyway, and it carries gift-tax reporting, the loss of a stepped-up basis on her share, homestead and Medicaid look-back consequences and exposure of the house to your creditors. It is an estate conversation for another day, not an investigative instrument.
+
+**The useful one.** Membership is a door, not the only door. The investigation runs on three tracks that need no standing at all, and a fourth that borrows it from a neighbour.
+
+- **Public record, no standing.** The Secretary of State register, the DeKalb deed records, the plat, the GSCCCA lien index and the court files are open to anyone. The lien index shows every lien the association has filed, by year – a count that rises while the reported delinquency stays flat is a finding. The trial file in Garden Walk HOA v. Jean Pierre, in DeKalb County court, is the richest of these: a collection suit taken to summary judgment carries affidavits from the treasurer or manager, the account ledger for the defendant, the collection policy and sometimes the management agreement, all filed publicly. Steps one and two of the sequence, and a new step reading that file, need no signature from anyone.
+- **Community, no standing.** The clubhouse office, the Facebook group and the doorstep are open to a resident. A question in the group – has anyone seen the budget for this year, when was the last annual meeting – costs nothing and maps the room. Anyone may attend the annual meeting as the guest of an owner, and a proxy from any owner admits you as of right.
+- **The Secretary of State, possibly no standing.** The reporting on SB 406 says the division takes complaints from any person residing in a covered community. If the division page confirms it, a resident can file in his own name.
+- **The standing of a neighbour.** Any record owner in good standing can be the member who signs Appendix A and names you as agent. The letter is already written for that: the owner and lot are placeholders. Two or three owners filing the same tier-one demand in the same week make refusal impossible to dress as one difficult resident, and each names the same agent, so the documents arrive in one place. Choose owners whose accounts are current – a delinquent owner may have suspended rights under the Declaration and invites the argument that the purpose is improper. The two owners who fought the association to the Court of Appeals are natural allies and, for that reason, the wrong signatories.
+
+**The counterargument, stated once.** She is not being asked to push back on authority. The statute is the authority, and the letter cites it. A member asking to see the books of her own association is exercising a routine right in a courteous paragraph, with every hour of the work done by someone else. A person who defers to authority can sign a letter that invokes it. What she needs to know is not what the house is; it is what the letter is. That said, the decision is yours and it stands, and the tracks above do not need it revisited.
+
+**One thing she is owed regardless.** She lives there. If you organise her neighbours, the board will connect the name on the doorstep to the name on the deed, whether or not she signed anything. Tell her what you are doing, even if she signs nothing. Silence protects nobody in a community of 130 doors.
+
+---
+
 ### The hypothesis, stated precisely
 
 ---
@@ -210,9 +231,9 @@ For Garden Walk the pattern points at two people before anyone else: whoever hol
 
 The protocol, in order. Each step is a single pomodoro or names the next action that is. Where the matter stands on this ladder is state and lives in Notion.
 
-0. **Seat the agency.** Standing is settled – you act as agent for your mother, record owner of 631 since 1994. Sit with her: explain the exposure and the sequence, take her agreement in writing, sign the authorisation and the proxy in Appendix A before a notary and confirm her assessment account is current to the day.
+0. **Seat the agency.** Decide whose standing carries the demand. If your mother, sit with her, explain the exposure and the sequence, take her agreement in writing, sign the authorisation and the proxy in Appendix A before a notary and confirm her account is current. If not her – the ruling as it stands – recruit two or three owners in good standing through the group and the doorstep, and seat the same authorisation with each. Either way she is told what is happening.
 1. **Pull the corporate record.** Search Garden Walk Homeowners Association at ecorp.sos.ga.gov. Record the exact name, control number, formation date, standing, registered agent, listed officers and the years of annual registration filed. Screenshot it. Ten minutes.
-2. **Pull the governing documents.** Search deeds.dekalbcountyga.gov for the Declaration under the developer as grantor around 1972 and forward for amendments under the association. Read for three things: fee-simple lots or condominium; any express submission to the Property Owners' Association Act; the assessment, lien, special-assessment and meeting provisions. Buy the plat for the unit count. About $30 and an hour.
+2. **Pull the governing documents and the court file.** Search deeds.dekalbcountyga.gov for the Declaration under the developer as grantor around 1972 and forward for amendments under the association. Read for three things: fee-simple lots or condominium; any express submission to the Property Owners' Association Act; the assessment, lien, special-assessment and meeting provisions. Buy the plat for the unit count. Then pull the trial file in Garden Walk HOA v. Jean Pierre from the DeKalb clerk and count the liens filed by the association by year in the GSCCCA index. About $50 and two hours, and no standing needed for any of it.
 3. **Collect what the house already holds.** The 1994 closing package first – it should hold the Declaration and bylaws and may close step two on its own. Then every coupon book, dues letter, budget, newsletter, meeting notice, fine or violation notice she has kept, in date order, and an hour of her memory on boards, managers and meetings written down the same day. Search the iCloud inbox for the association by name. Scan everything into one folder in personal Google Drive and index it in the Notion project.
 4. **Ask informally first.** Walk to the office at 651 Garden Walk Drive or email the board address on gardenwalkneighborhood.com and ask for the current budget, the last two years of financial statements and the last annual-meeting minutes, without citing a statute. A board that hands them over has answered rung one. Note the date and the response either way.
 5. **Serve the demand.** If step four produces nothing inside a week, send Appendix A by certified mail with return receipt and by email to the registered agent from step one, the board and any manager, with the inspection date at least five business days out. Keep the receipt.
@@ -242,7 +263,7 @@ The protocol, in order. Each step is a single pomodoro or names the next action 
 
 Each of these changes what happens next, and none of them can be found in the public record.
 
-1. Has your mother agreed to carry the demand in her name, knowing the board may know her, and is her account current – has she ever been fined, liened or sued by the association?
+1. Whose standing carries the demand – your mother after all, or which owners in good standing – and does she know what you are doing either way?
 2. What did you actually see that made you say "pocketing" – a dues increase, a fine, a lien, a refusal, a rumour, an absent meeting, a person? Be specific about the document or the moment.
 3. What association paper do you hold today – a coupon book, a budget, a newsletter, a meeting notice, a violation letter?
 4. Is a management company named on the coupon or the payment portal, and if so which?
@@ -257,7 +278,7 @@ Each of these changes what happens next, and none of them can be found in the pu
 
 ---
 
-Standard American business-legal English, for the signature of the record owner, with the notarised agent authorisation enclosed. Square brackets are to be filled. Send after step four of the sequence, never before steps one and two have confirmed the registered agent and the governing instrument.
+Standard American business-legal English, for the signature of a record owner, with the notarised agent authorisation enclosed. The owner and lot are placeholders – the letter serves your mother or any neighbour in good standing equally. Square brackets are to be filled. Send after step four of the sequence, never before steps one and two have confirmed the registered agent and the governing instrument.
 
 ```
 [OWNER NAME]
@@ -466,4 +487,4 @@ Full research briefs from the 2026-09-15 fan-out – entity, law and forensic me
 
 ---
 
-*Last updated: 2026-09-15 – founding entry, amended the same day once standing was settled: the record owner is the mother of the operator, who holds 631 since 1994, and the operator acts as her agent; the Acting as agent section added with the proxy and power-of-attorney routes, the demand letter and authorisation amended to name the agent and carry a notary block, and a proxy form added. Public record, Georgia statute and forensic method assembled from a three-territory research fan-out; the inbox searched and found empty of association mail. Every Inferred row awaits a five-minute confirmation in a browser.*
+*Last updated: 2026-09-15 – founding entry, amended twice the same day. First once standing was settled: the record owner is the mother of the operator, who holds 631 since 1994; the Acting as agent section, the proxy and power-of-attorney routes, the notary block and a proxy form added. Then by operator ruling that she is not the person to go through: the Standing without her section added – the no-standing tracks, the neighbour-member route, the counterargument stated once and what she is owed regardless – with the sequence and the letter generalised to any owner in good standing. Public record, Georgia statute and forensic method assembled from a three-territory research fan-out; the inbox searched and found empty of association mail. Every Inferred row awaits a five-minute confirmation in a browser.*
