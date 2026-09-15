@@ -53,7 +53,22 @@ Third, the association sues. Two owners reached the Court of Appeals against it 
 
 The Gmail account holds no correspondence from the association, no dues notice, no budget, no meeting notice, no violation letter and no payment-portal receipt. The only trace of Garden Walk is ride-share pickups from the door. The iCloud inbox could not be searched from this session, Google Drive answered title searches only and found nothing, and Notion was unreachable. The paper trail, if it exists, is on paper or in iCloud.
 
-The last recorded sale of the unit was November 1994. Unless title has since passed to you, the member of the association is whoever holds the deed, and every right described below – to inspect, to demand a statement of account, to call a meeting, to sue – runs through that person. This is the first question, and it is asked before anything else because the answer decides who signs the letter.
+The last recorded sale of the unit was November 1994 and the deed is not in your name. Standing was settled on 2026-09-15: you grew up in the house, you act as agent for a resident owner, and under 14-3-1603 the agent of a member has the same right to inspect and copy as the member. Everything the member can demand, the agent can collect. What the agent cannot do is sign the demand in the place of the member or stand in court for them. The member must be a record owner of a lot in Garden Walk – 631 or any other. A resident who does not hold a deed has no standing under the Code at all, whatever their length of tenure.
+
+---
+
+### Acting as agent
+
+---
+
+The agency is a division of labour with a hard edge, and the edge is worth knowing before the first envelope is posted.
+
+- **The member signs; the agent is named.** The demand in Appendix A goes out over the signature of the owner with the authorisation enclosed. Have the authorisation notarised – a bank does it for a few dollars – so the association has no reasonable basis to doubt the authority of the agent. That doubt is the single defence under 14-3-1604 that would let a refusing board escape paying the fees of the member.
+- **The agent does the work.** Attends the inspection, copies, receives the response, runs the tests, keeps the evidence folder and writes every same-day email. The letter directs the association to answer both the member and the agent.
+- **The agent cannot go to court for the member.** A 14-3-1604 petition to compel, a 14-3-810 petition to remove a director and any suit are filed by the member in person or through counsel; a non-lawyer cannot appear for another person in a Georgia court. From step eight of the sequence, plan on the member filing papers the agent has prepared, or on a lawyer.
+- **Meetings and votes are member acts.** The five per cent demand for a special meeting, the removal vote and the 10 per cent petition are signed by owners. The agent organises; the owners sign.
+- **The member carries the exposure.** A board that feels examined looks hardest at the account of the owner who asked. Keep that account current to the day, and get the informed consent of the member before the first letter, in writing, because the first fine or the first lien lands on their lot and not on the agent.
+- **One channel may be open to the agent directly.** The reporting on SB 406 says the Secretary of State division takes complaints from any person residing in a covered community, not only owners. If that survives a reading of the division page, a resident agent can file in their own name from 2027, and possibly now. Confirm before relying on it.
 
 ---
 
@@ -192,7 +207,7 @@ For Garden Walk the pattern points at two people before anyone else: whoever hol
 
 The protocol, in order. Each step is a single pomodoro or names the next action that is. Where the matter stands on this ladder is state and lives in Notion.
 
-0. **Settle standing.** Confirm whose name is on the deed for 631 Garden Walk Drive. If it is not yours, obtain the one-line authorisation at the foot of Appendix A so the demand goes out in the name of the member with you as agent.
+0. **Seat the agency.** Standing is settled – you act as agent for a resident owner. Confirm the member is on the deed for a lot in Garden Walk, obtain the signed and notarised authorisation at the foot of Appendix A, confirm in writing that the member understands the exposure and check that their assessment account is current to the day.
 1. **Pull the corporate record.** Search Garden Walk Homeowners Association at ecorp.sos.ga.gov. Record the exact name, control number, formation date, standing, registered agent, listed officers and the years of annual registration filed. Screenshot it. Ten minutes.
 2. **Pull the governing documents.** Search deeds.dekalbcountyga.gov for the Declaration under the developer as grantor around 1972 and forward for amendments under the association. Read for three things: fee-simple lots or condominium; any express submission to the Property Owners' Association Act; the assessment, lien, special-assessment and meeting provisions. Buy the plat for the unit count. About $30 and an hour.
 3. **Collect what the house already holds.** Coupon books, any budget or newsletter, meeting notices, the last dues increase letter, any fine or violation notice, the closing package from 1994 if it survives. Search the iCloud inbox for the association by name. Scan everything into one folder in personal Google Drive and index it in the Notion project.
@@ -224,7 +239,7 @@ The protocol, in order. Each step is a single pomodoro or names the next action 
 
 Each of these changes what happens next, and none of them can be found in the public record.
 
-1. Whose name is on the deed for 631 Garden Walk Drive?
+1. Is the resident who will sign the record owner – of 631 Garden Walk Drive or of another lot – with the deed in their name, and have they agreed in writing to carry the demand?
 2. What did you actually see that made you say "pocketing" – a dues increase, a fine, a lien, a refusal, a rumour, an absent meeting, a person? Be specific about the document or the moment.
 3. What association paper do you hold today – a coupon book, a budget, a newsletter, a meeting notice, a violation letter?
 4. Is a management company named on the coupon or the payment portal, and if so which?
@@ -238,7 +253,7 @@ Each of these changes what happens next, and none of them can be found in the pu
 
 ---
 
-Standard American business-legal English, for the signature of the record owner. Square brackets are to be filled. Send after step four of the sequence, never before step one and two have confirmed the registered agent and the governing instrument.
+Standard American business-legal English, for the signature of the record owner, with the notarised agent authorisation enclosed. Square brackets are to be filled. Send after step four of the sequence, never before steps one and two have confirmed the registered agent and the governing instrument.
 
 ```
 [OWNER NAME]
@@ -341,10 +356,12 @@ for the Association's annual financial statements.
    I propose to inspect and copy these records on [DATE, no fewer than five business
    days after delivery of this letter], beginning at [10:00 a.m.], at the Association's
    principal office at 651 Garden Walk Drive, or at another reasonable place you
-   designate. I will pay the reasonable copying charges permitted by O.C.G.A.
-   § 14-3-1603(c). Electronic copies are acceptable and preferred. If the Association
-   declines to produce any category above, please state in writing which records are
-   withheld and the basis for withholding them.
+   designate. My authorized agent, [AGENT NAME], named in the enclosed notarized
+   authorization, will attend and may inspect and copy on my behalf as provided in
+   O.C.G.A. § 14-3-1603(a). I will pay the reasonable copying charges permitted by
+   O.C.G.A. § 14-3-1603(c). Electronic copies are acceptable and preferred. If the
+   Association declines to produce any category above, please state in writing which
+   records are withheld and the basis for withholding them.
 
 5. Statement of account
 
@@ -357,23 +374,41 @@ for the Association's annual financial statements.
 I make this request as a member seeking the transparency the Georgia Nonprofit
 Corporation Code provides to every member, and I look forward to the Association's
 cooperation. Please direct your response to me at the address above or by email to
-[EMAIL].
+[EMAIL], and to my authorized agent, [AGENT NAME], at [AGENT EMAIL].
 
 Sincerely,
 
 [OWNER NAME]
 Record owner, 631 Garden Walk Drive
+
+Enclosure: Authorization of agent (notarized)
+cc: [AGENT NAME], authorized agent
 ```
 
-**Authorisation of an agent, if the operator is not the record owner** – a separate signed line enclosed with the letter:
+**Authorisation of the agent** – a separate page enclosed with the letter, signed before a notary:
 
 ```
-I, [OWNER NAME], record owner of 631 Garden Walk Drive, Stone Mountain, Georgia 30083,
-authorize [AGENT NAME] to act as my agent for all purposes of the enclosed demand,
-including the inspection and copying of records under O.C.G.A. § 14-3-1603(a), and to
-receive the Association's response on my behalf.
+AUTHORIZATION OF AGENT
 
-[SIGNATURE]  [DATE]
+I, [OWNER NAME], record owner of the lot at [LOT ADDRESS], Stone Mountain, Georgia
+30083, and a member of Garden Walk Homeowners Association, Inc., authorize
+[AGENT NAME] of [AGENT ADDRESS] to act as my agent for all purposes of my written
+demand dated [DATE], including the inspection and copying of records under O.C.G.A.
+§ 14-3-1603(a), correspondence with the Association and its manager concerning that
+demand, and receipt of the Association's response on my behalf. This authorization
+remains in effect until revoked by me in writing.
+
+_______________________________        Date: ______________
+[OWNER NAME]
+
+State of Georgia
+County of DeKalb
+
+Sworn to and subscribed before me this ____ day of ______________, 20____.
+
+_______________________________
+Notary Public
+My commission expires: ______________
 ```
 
 ---
@@ -410,4 +445,4 @@ Full research briefs from the 2026-09-15 fan-out – entity, law and forensic me
 
 ---
 
-*Last updated: 2026-09-15 – founding entry. Public record, Georgia statute and forensic method assembled from a three-territory research fan-out; the inbox searched and found empty of association mail; the demand letter drafted for the record owner. Every Inferred row awaits a five-minute confirmation in a browser.*
+*Last updated: 2026-09-15 – founding entry, amended the same day once standing was settled: the operator acts as agent for a resident owner, the Acting as agent section added and the demand letter and authorisation amended to name the agent and carry a notary block. Public record, Georgia statute and forensic method assembled from a three-territory research fan-out; the inbox searched and found empty of association mail. Every Inferred row awaits a five-minute confirmation in a browser.*

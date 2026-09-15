@@ -103,7 +103,7 @@ The trend is real and modest, and it runs in both directions. HB 220 of 2024 str
 
 **The record pull.** The Georgia Secretary of State business search at ecorp.sos.ga.gov is free and shows the legal name, control number, formation date, standing, registered agent, officers and every annual registration filed. The DeKalb County Clerk of Superior Court records portal at deeds.dekalbcountyga.gov searches deeds by grantor and grantee; plain copies are $1 a page, certified $2.50 for the first page and $0.50 thereafter. The statewide GSCCCA index at search.gsccca.org covers every county, with images on a subscription of $14.95 a month or certified copies ordered one at a time. Find the original Declaration under the name of the developer as grantor around the platting date and trace amendments forward under the name of the association.
 
-**The petition.** A 14-3-1604 application is filed in the civil division of DeKalb County Superior Court at 556 North McDonough Street, Decatur, through mandatory e-filing, as a drafted petition rather than a published form. The civil filing fee is in the region of $213 and wants confirming. The court must act on an expedited basis. An individual may file without counsel; the association must answer through a lawyer.
+**The petition.** A 14-3-1604 application is filed in the civil division of DeKalb County Superior Court at 556 North McDonough Street, Decatur, through mandatory e-filing, as a drafted petition rather than a published form. The civil filing fee is in the region of $213 and wants confirming. The court must act on an expedited basis. An individual may file without counsel; the association must answer through a lawyer. An agent who is not a lawyer cannot file or appear for the member – the petition is brought by the member in person or through counsel, however much of the preparation the agent has done.
 
 #### 10. Where to get help
 
@@ -125,4 +125,4 @@ Atlanta Legal Aid Society serves DeKalb residents who meet income guidelines and
 
 ---
 
-*Last updated: 2026-09-15 – founding entry, compiled for the Garden Walk covenant community investigation. Every citation rests on search-engine reproductions of the O.C.G.A. and bill records rather than a primary read; confirm before formal use.*
+*Last updated: 2026-09-15 – founding entry, compiled for the Garden Walk covenant community investigation; the limit on a non-lawyer agent appearing in court added the same day. Every citation rests on search-engine reproductions of the O.C.G.A. and bill records rather than a primary read; confirm before formal use.*
