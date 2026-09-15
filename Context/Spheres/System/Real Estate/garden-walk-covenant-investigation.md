@@ -53,7 +53,9 @@ Third, the association sues. Two owners reached the Court of Appeals against it 
 
 The Gmail account holds no correspondence from the association, no dues notice, no budget, no meeting notice, no violation letter and no payment-portal receipt. The only trace of Garden Walk is ride-share pickups from the door. The iCloud inbox could not be searched from this session, Google Drive answered title searches only and found nothing, and Notion was unreachable. The paper trail, if it exists, is on paper or in iCloud.
 
-The last recorded sale of the unit was November 1994 and the deed is not in your name. Standing was settled on 2026-09-15: you grew up in the house, you act as agent for a resident owner, and under 14-3-1603 the agent of a member has the same right to inspect and copy as the member. Everything the member can demand, the agent can collect. What the agent cannot do is sign the demand in the place of the member or stand in court for them. The member must be a record owner of a lot in Garden Walk – 631 or any other. A resident who does not hold a deed has no standing under the Code at all, whatever their length of tenure.
+The last recorded sale of the unit was November 1994 and the deed is not in your name. Standing was settled on 2026-09-15: the record owner of 631 is your mother, who has held it since that purchase, and you grew up in the house and act as her agent. Under 14-3-1603 the agent of a member has the same right to inspect and copy as the member. Everything the member can demand, the agent can collect. What the agent cannot do is sign the demand in the place of the member or stand in court for her.
+
+Thirty-two years of membership changes the inventory. The 1994 closing package, if it survives, almost certainly holds the Declaration and bylaws – step two of the sequence for nothing. Three decades of coupon books, dues letters, newsletters and meeting notices give a dues history no listing site can, and a dues series that long shows whether increases tracked the water rate, the insurance renewal and the roof cycle or something else. Her memory is a source in its own right: who sat on the board and for how long, when the management company came and went, which years had a meeting and which did not.
 
 ---
 
@@ -63,11 +65,12 @@ The last recorded sale of the unit was November 1994 and the deed is not in your
 
 The agency is a division of labour with a hard edge, and the edge is worth knowing before the first envelope is posted.
 
-- **The member signs; the agent is named.** The demand in Appendix A goes out over the signature of the owner with the authorisation enclosed. Have the authorisation notarised – a bank does it for a few dollars – so the association has no reasonable basis to doubt the authority of the agent. That doubt is the single defence under 14-3-1604 that would let a refusing board escape paying the fees of the member.
+- **The member signs; the agent is named.** The demand in Appendix A goes out over the signature of your mother with the authorisation enclosed. Have the authorisation notarised – a bank does it for a few dollars – so the association has no reasonable basis to doubt the authority of the agent. That doubt is the single defence under 14-3-1604 that would let a refusing board escape paying the fees of the member.
 - **The agent does the work.** Attends the inspection, copies, receives the response, runs the tests, keeps the evidence folder and writes every same-day email. The letter directs the association to answer both the member and the agent.
 - **The agent cannot go to court for the member.** A 14-3-1604 petition to compel, a 14-3-810 petition to remove a director and any suit are filed by the member in person or through counsel; a non-lawyer cannot appear for another person in a Georgia court. From step eight of the sequence, plan on the member filing papers the agent has prepared, or on a lawyer.
-- **Meetings and votes are member acts.** The five per cent demand for a special meeting, the removal vote and the 10 per cent petition are signed by owners. The agent organises; the owners sign.
-- **The member carries the exposure.** A board that feels examined looks hardest at the account of the owner who asked. Keep that account current to the day, and get the informed consent of the member before the first letter, in writing, because the first fine or the first lien lands on their lot and not on the agent.
+- **Meetings and votes are member acts, but the vote can travel.** The five per cent demand for a special meeting, the removal vote and the 10 per cent petition are signed by owners. Under 14-3-724 a member may appoint a proxy by signed form, valid for 11 months unless the bylaws forbid it, so your mother can appoint you to attend and vote in her place at the annual meeting and at any special meeting – the form is the third block of Appendix A. The agent organises and carries her vote; the owners sign.
+- **For the longer game, a limited power of attorney.** A Georgia statutory power of attorney under Title 10, Chapter 6B, limited to matters concerning 631 Garden Walk Drive and the association, would let you deal with the board, the manager and the county on her behalf indefinitely rather than demand by demand. It still confers no right to appear in court for her. Worth a conversation with her and a notary once the first demand has been answered.
+- **The member carries the exposure, and she is your mother.** A board that feels examined looks hardest at the account of the owner who asked. Keep her account current to the day. In a community of 122 to 134 units held for 32 years she very likely knows the people on the board by name, and the social cost of a demand in her name is hers to weigh, not yours. Have the conversation before the first letter, put her agreement in writing and let her set the tone – the letter is courteous by design so that it can be sent by a neighbour to neighbours.
 - **One channel may be open to the agent directly.** The reporting on SB 406 says the Secretary of State division takes complaints from any person residing in a covered community, not only owners. If that survives a reading of the division page, a resident agent can file in their own name from 2027, and possibly now. Confirm before relying on it.
 
 ---
@@ -207,10 +210,10 @@ For Garden Walk the pattern points at two people before anyone else: whoever hol
 
 The protocol, in order. Each step is a single pomodoro or names the next action that is. Where the matter stands on this ladder is state and lives in Notion.
 
-0. **Seat the agency.** Standing is settled – you act as agent for a resident owner. Confirm the member is on the deed for a lot in Garden Walk, obtain the signed and notarised authorisation at the foot of Appendix A, confirm in writing that the member understands the exposure and check that their assessment account is current to the day.
+0. **Seat the agency.** Standing is settled – you act as agent for your mother, record owner of 631 since 1994. Sit with her: explain the exposure and the sequence, take her agreement in writing, sign the authorisation and the proxy in Appendix A before a notary and confirm her assessment account is current to the day.
 1. **Pull the corporate record.** Search Garden Walk Homeowners Association at ecorp.sos.ga.gov. Record the exact name, control number, formation date, standing, registered agent, listed officers and the years of annual registration filed. Screenshot it. Ten minutes.
 2. **Pull the governing documents.** Search deeds.dekalbcountyga.gov for the Declaration under the developer as grantor around 1972 and forward for amendments under the association. Read for three things: fee-simple lots or condominium; any express submission to the Property Owners' Association Act; the assessment, lien, special-assessment and meeting provisions. Buy the plat for the unit count. About $30 and an hour.
-3. **Collect what the house already holds.** Coupon books, any budget or newsletter, meeting notices, the last dues increase letter, any fine or violation notice, the closing package from 1994 if it survives. Search the iCloud inbox for the association by name. Scan everything into one folder in personal Google Drive and index it in the Notion project.
+3. **Collect what the house already holds.** The 1994 closing package first – it should hold the Declaration and bylaws and may close step two on its own. Then every coupon book, dues letter, budget, newsletter, meeting notice, fine or violation notice she has kept, in date order, and an hour of her memory on boards, managers and meetings written down the same day. Search the iCloud inbox for the association by name. Scan everything into one folder in personal Google Drive and index it in the Notion project.
 4. **Ask informally first.** Walk to the office at 651 Garden Walk Drive or email the board address on gardenwalkneighborhood.com and ask for the current budget, the last two years of financial statements and the last annual-meeting minutes, without citing a statute. A board that hands them over has answered rung one. Note the date and the response either way.
 5. **Serve the demand.** If step four produces nothing inside a week, send Appendix A by certified mail with return receipt and by email to the registered agent from step one, the board and any manager, with the inspection date at least five business days out. Keep the receipt.
 6. **Read against the tests.** Run tests one through ten on what arrives. Enter every document and every finding in the evidence folder and the Notion project.
@@ -239,13 +242,14 @@ The protocol, in order. Each step is a single pomodoro or names the next action 
 
 Each of these changes what happens next, and none of them can be found in the public record.
 
-1. Is the resident who will sign the record owner – of 631 Garden Walk Drive or of another lot – with the deed in their name, and have they agreed in writing to carry the demand?
+1. Has your mother agreed to carry the demand in her name, knowing the board may know her, and is her account current – has she ever been fined, liened or sued by the association?
 2. What did you actually see that made you say "pocketing" – a dues increase, a fine, a lien, a refusal, a rumour, an absent meeting, a person? Be specific about the document or the moment.
 3. What association paper do you hold today – a coupon book, a budget, a newsletter, a meeting notice, a violation letter?
 4. Is a management company named on the coupon or the payment portal, and if so which?
 5. When was the last annual meeting you know of, and who was on the board then?
 6. How many neighbours share the suspicion, and are any of them already owed an answer from the board?
-7. Is the iCloud inbox where association mail arrives?
+7. Is the iCloud inbox where association mail arrives, or does it come to her by post?
+8. Does the 1994 closing package survive, and does it hold the Declaration and bylaws?
 
 ---
 
@@ -411,6 +415,23 @@ Notary Public
 My commission expires: ______________
 ```
 
+**Appointment of proxy** – under O.C.G.A. 14-3-724, valid 11 months unless a different period is stated, revocable, and subject to any limit in the bylaws. Signed and dated by the member and delivered to the secretary or the officer who tabulates votes before the meeting:
+
+```
+APPOINTMENT OF PROXY
+
+I, [OWNER NAME], record owner of 631 Garden Walk Drive, Stone Mountain, Georgia 30083,
+and a member of Garden Walk Homeowners Association, Inc., appoint [AGENT NAME] as my
+proxy to attend, speak, and vote on my behalf at any annual or special meeting of the
+members of the Association, and at any adjournment of such a meeting, held within
+eleven months of the date below, with full power of substitution, on every matter that
+may come before the meeting. This appointment revokes any earlier proxy and may be
+revoked by me in writing or by my attendance and vote in person.
+
+_______________________________        Date: ______________
+[OWNER NAME]
+```
+
 ---
 
 ### Appendix B – Sources
@@ -445,4 +466,4 @@ Full research briefs from the 2026-09-15 fan-out – entity, law and forensic me
 
 ---
 
-*Last updated: 2026-09-15 – founding entry, amended the same day once standing was settled: the operator acts as agent for a resident owner, the Acting as agent section added and the demand letter and authorisation amended to name the agent and carry a notary block. Public record, Georgia statute and forensic method assembled from a three-territory research fan-out; the inbox searched and found empty of association mail. Every Inferred row awaits a five-minute confirmation in a browser.*
+*Last updated: 2026-09-15 – founding entry, amended the same day once standing was settled: the record owner is the mother of the operator, who holds 631 since 1994, and the operator acts as her agent; the Acting as agent section added with the proxy and power-of-attorney routes, the demand letter and authorisation amended to name the agent and carry a notary block, and a proxy form added. Public record, Georgia statute and forensic method assembled from a three-territory research fan-out; the inbox searched and found empty of association mail. Every Inferred row awaits a five-minute confirmation in a browser.*
