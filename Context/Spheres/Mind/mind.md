@@ -18,6 +18,8 @@ Philosophy has a graduated file at `Context/Spheres/Mind/Philosophy/worldly-wisd
 
 Mathematics was founded 2026-08-04 at `Context/Spheres/Mind/Mathematics/_index.md`. It holds statistics, probability and accounting inside it rather than splitting them into separate spheres.
 
+Law was founded 2026-09-15 with `Context/Spheres/Mind/Law/georgia-hoa-law.md` – the Georgia statutory instrument for owners in covenant communities: records rights, member power, director duties, criminal exposure and the 2026 reform, compiled for the Garden Walk investigation in Real Estate.
+
 ---
 
 ## Context
@@ -73,4 +75,4 @@ Skills live at `~/.claude/skills/` and are referenced logically by sphere.
 
 ---
 
-*Last updated: 2026-07-25 – Medicine sphere founded; folder pointer, sphere context and the dr-thompkins skill row added.*
+*Last updated: 2026-09-15 – Law founded with georgia-hoa-law.md. Previously 2026-07-25 – Medicine sphere founded; folder pointer, sphere context and the dr-thompkins skill row added.*

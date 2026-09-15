@@ -10,6 +10,7 @@ Artificial Intelligence, Entrepreneurship, Personal Finance, Real Estate
 - `Context/Spheres/System/Artificial Intelligence/agent-events-taxonomy.md` – System-level vocabulary for agent activity and event taxonomy
 - `Context/Spheres/System/Personal Finance/wealth-trajectory.md` – Personal net-worth North Star ($250,000,000.23) and the live percentile progress instrument, benchmarked against demographic and overall-US data
 - `Context/Spheres/System/Personal Finance/benchmark-ledger.md` – Provenance and annual refresh runbook for the wealth-trajectory benchmarks, computed from SCF and CPS microdata
+- `Context/Spheres/System/Real Estate/garden-walk-covenant-investigation.md` – Case file for the Garden Walk covenant community investigation: the public record, the evidence ladder run both ways, the forensic tests, the escalation sequence and the records demand letter. First graduated file of the Real Estate sphere
 
 *This cluster also governs cross-cutting operational infrastructure: GTD methodology, operating rhythm, Sphere Manager mechanics, reconnection protocols, and content pipeline.*
 
@@ -120,4 +121,4 @@ Skills live at `~/.claude/skills/` and are referenced logically by sphere.
 
 ---
 
-*Last updated: 2026-07-23 – retired Current State block replaced with the standard Notion pointer; ai-cost-reference.md and agent-events-taxonomy.md registered as graduated files.*
+*Last updated: 2026-09-15 – Real Estate seats its first graduated file, the Garden Walk covenant community investigation. Previously 2026-07-23 – retired Current State block replaced with the standard Notion pointer; ai-cost-reference.md and agent-events-taxonomy.md registered as graduated files.*

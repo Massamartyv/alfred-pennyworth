@@ -216,6 +216,8 @@ When a topic within a sphere becomes detailed enough to warrant its own file, it
 - `Context/Spheres/System/Personal Finance/rate-floor.md` – Personal reservation price and the buy-or-sell verdict on every outsourceable hat
 - `Context/Spheres/Soul/Astrology/natal-chart.md` – Canonical natal chart data, founding artefact of the Astrology sphere
 - `Context/Spheres/Soul/Religion/magnum-opus.md` – Contemplative-practice distillate, founding artefact of the Religion sphere's Contemplation track
+- `Context/Spheres/Mind/Law/georgia-hoa-law.md` – Georgia HOA law: owner rights and remedies under the Nonprofit Corporation Code, the Property Owners' Association Act and SB 406, founding artefact of the Law sphere
+- `Context/Spheres/System/Real Estate/garden-walk-covenant-investigation.md` – Garden Walk covenant community case file: public record, evidence ladder, forensic tests, escalation sequence and records demand letter, founding artefact of the Real Estate sphere
 
 ---
 
@@ -332,4 +334,4 @@ Reviewer carries two tiers dispatched as distinct subtypes:
 
 ---
 
-*Last updated: 2026-09-10 – The Restoration: the nine original departments return across every venture and the Five Points Spheres of Organization, reversing the April seven-studio ruling; Agents/ stays at the venture root. Previously 2026-09-09 – The Almanac shipped: renderer at `Automations/The Almanac/`, Sunday session as the `almanac` skill, routing row added. Previously 2026-09-02 – Martywood: the personal brand venture renamed from Marty Gras, three sub-brands seated. Previously 2026-08-11 – Domesday: Apps bank corrected to oracle, job-applier and Private/ documented, the broken-server count trued to four, notion-personal recorded as the personal workspace route, handoff scope narrowed to mission-scoped dispatches by operator ruling.*
+*Last updated: 2026-09-15 – Garden Walk: the Law and Real Estate spheres seat their founding files, the Georgia HOA statutory instrument and the covenant community case file. Previously 2026-09-10 – The Restoration: the nine original departments return across every venture and the Five Points Spheres of Organization, reversing the April seven-studio ruling; Agents/ stays at the venture root. Previously 2026-09-09 – The Almanac shipped: renderer at `Automations/The Almanac/`, Sunday session as the `almanac` skill, routing row added. Previously 2026-09-02 – Martywood: the personal brand venture renamed from Marty Gras, three sub-brands seated. Previously 2026-08-11 – Domesday: Apps bank corrected to oracle, job-applier and Private/ documented, the broken-server count trued to four, notion-personal recorded as the personal workspace route, handoff scope narrowed to mission-scoped dispatches by operator ruling.*
