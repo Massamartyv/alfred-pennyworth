@@ -77,7 +77,7 @@ Plugins are MCP connections. Alfred can read, write and operate within these sys
 | MCP package | `@vercel/mcp@latest` |
 | Status | **NOT CONNECTED. Corrected 2026-08-08 (The Junction).** This row previously read "Live – connected via `.mcp.json`". That was false and had been false for an unknown period. No `vercel-fivepoints` block exists in `.mcp.json`, no such server is registered at any scope and no tool from it has ever been reachable. |
 | Verified | 2026-08-08. `list_teams` on the only reachable Vercel MCP returns a single team – `lavender-stingray`, "Headquarters" – which is the **personal** account. The Five Points team `studio-fivepoints` has no MCP surface at all. |
-| Consequence | Every Five Points client deployment on the books – the studio site, Hibachi With A Twist, Strong Tower – has been deployed outside the wiring or through the personal-scoped connector. The latter is a segmentation breach. |
+| Consequence | Every Five Points client deployment on the books – the studio site and Strong Tower – has been deployed outside the wiring or through the personal-scoped connector. The latter is a segmentation breach. |
 | Environment variable | `VERCEL_FIVEPOINTS_TOKEN` – presence in `.env` unconfirmed; Alfred is denied reads of `.env` by design |
 | Routing rule (target) | Once built, all Five Points Vercel operations target this connection and the desktop Vercel connector is treated as personal-only. Until then, no Vercel operation may be performed in Five Points context through the personal connector. |
 

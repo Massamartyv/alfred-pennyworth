@@ -13,7 +13,7 @@
 
 Scope variability is priced through named additions, never through a range. Flex floor for negotiation: $9,500.
 
-**Founding-client locks (2026-07-24 operator ruling):** Strong Tower Christian Ministry and Hibachi With A Twist hold this commission at $7,500 in appreciation as founding clients. The lock applies to these two clients only.
+**Founding-client lock (2026-07-24 operator ruling):** Strong Tower Christian Ministry holds this commission at $7,500 in appreciation as a founding client. The lock applies to that client only.
 
 ## Format
 

@@ -27,7 +27,7 @@ Every pricing conversation names the cost of yes and the cost of no. The cost of
 
 ## Founding-client doctrine
 
-Strong Tower Christian Ministry and Hibachi With A Twist hold the commission at $7,500, locked, as founding clients (operator ruling 2026-07-24). The lock is named in their documents as appreciation – it is a relationship asset, never a discount precedent. No other client inherits it; new work prices at list.
+Strong Tower Christian Ministry holds the commission at $7,500, locked, as a founding client (operator ruling 2026-07-24). The lock is named in their documents as appreciation – it is a relationship asset, never a discount precedent. No other client inherits it; new work prices at list.
 
 Presentation rule (operator ruling 2026-07-24): founding-client documents never show the list price. Their price stands alone as their price – no anchor, no comparison, no "normally priced at" framing, in any document or presentation addressed to them.
 
